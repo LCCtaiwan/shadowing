@@ -1,0 +1,656 @@
+<title>シャドー日本語</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Shippori+Mincho+B1:wght@600&display=swap">
+<style>
+/* Layout: 單欄手機 App，桌面置中成 440px 欄；底部固定分頁列，主要按鈕都在拇指區 */
+:root {
+  --bg: #FAF8F5; --surface: #FFFFFF; --surface-2: #F3EFEA; --ink: #221D1A; --muted: #6E6560; --line: #E7E0D9;
+  --brand: #A33A1C; --brand-strong: #D2552B; --brand-tint: #FBEDE6; --on-brand: #FFFFFF;
+  --anime: #5A4FC0; --anime-tint: #EEECFC;
+  --good: #2E7D5B; --good-tint: #E3F2EA; --bad: #B3261E; --bad-tint: #FBE9E7; --warn: #8A5A00; --warn-tint: #FBF1DC;
+  --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "PingFang TC", "Noto Sans JP", system-ui, sans-serif;
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+  --r-card: 18px; --r-ctl: 12px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #171412; --surface: #221E1B; --surface-2: #2C2724; --ink: #F2EDE8; --muted: #A89F98; --line: #3A3430;
+  --brand: #F08A62; --brand-strong: #D2552B; --brand-tint: #3B2219; --on-brand: #FFFFFF;
+  --anime: #A79FF0; --anime-tint: #2A2645;
+  --good: #6CC59A; --good-tint: #1E3329; --bad: #F2867D; --bad-tint: #3A1F1D; --warn: #E7B85C; --warn-tint: #352A14;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #171412; --surface: #221E1B; --surface-2: #2C2724; --ink: #F2EDE8; --muted: #A89F98; --line: #3A3430;
+  --brand: #F08A62; --brand-strong: #D2552B; --brand-tint: #3B2219; --on-brand: #FFFFFF;
+  --anime: #A79FF0; --anime-tint: #2A2645;
+  --good: #6CC59A; --good-tint: #1E3329; --bad: #F2867D; --bad-tint: #3A1F1D; --warn: #E7B85C; --warn-tint: #352A14;
+  color-scheme: dark }
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.6; }
+.app { max-width: 440px; margin: 0 auto; min-height: 100%; display: flex; flex-direction: column;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 12px 96px; }
+section[data-view] { display: flex; flex-direction: column; gap: 14px; }
+h1, h2, h3 { margin: 0; font-weight: 700; text-wrap: balance; }
+h1 { font-size: 24px; line-height: 1.3; }
+h2 { font-size: 17px; }
+p { margin: 0; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--brand-strong); outline-offset: 2px; border-radius: 8px; }
+.muted { color: var(--muted); font-size: 13px; }
+.num { font-variant-numeric: tabular-nums; }
+.row { display: flex; align-items: center; gap: 10px; }
+.between { justify-content: space-between; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: 14px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; padding: 2px 9px; border-radius: 999px; background: var(--surface-2); color: var(--muted); white-space: nowrap; }
+.chip.brand { background: var(--brand-tint); color: var(--brand); }
+.chip.anime { background: var(--anime-tint); color: var(--anime); }
+.chip.good { background: var(--good-tint); color: var(--good); }
+.cta { display: block; width: 100%; min-height: 52px; border-radius: 16px; background: var(--brand-strong); color: var(--on-brand); font-weight: 700; font-size: 16px; }
+.cta:active { transform: scale(.98); }
+.ghost { min-height: 44px; padding: 0 14px; border-radius: var(--r-ctl); border: 1px solid var(--line); background: var(--surface); }
+.icon-btn { width: 44px; height: 44px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; }
+.icon-btn svg { width: 22px; height: 22px; }
+svg { stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* home */
+.hero { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.task { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: var(--r-card); background: var(--surface); border: 1px solid var(--line); text-align: left; width: 100%; min-height: 64px; }
+.task.next { border: 2px solid var(--brand-strong); }
+.task.done .t-title { color: var(--muted); text-decoration: line-through; }
+.task-ic { width: 38px; height: 38px; flex: none; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: var(--surface-2); }
+.task-ic svg { width: 20px; height: 20px; }
+.task.done .task-ic { background: var(--good-tint); color: var(--good); }
+.t-title { font-weight: 700; }
+.week { display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; gap: 4px; }
+.dot { width: 24px; height: 24px; border-radius: 50%; margin: 4px auto 0; background: var(--surface-2); }
+.dot.on { background: var(--brand-strong); }
+.dot.today { background: transparent; border: 2px solid var(--brand-strong); }
+
+/* tabs */
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+.tabs-in { max-width: 440px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); }
+.tab { min-height: 58px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 11px; color: var(--muted); }
+.tab svg { width: 22px; height: 22px; }
+.tab[aria-current="page"] { color: var(--brand); font-weight: 700; }
+body.playing .tabs { display: none; }
+
+/* episode */
+.topbar { display: flex; align-items: center; gap: 8px; }
+.steps { flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; }
+.steps span { height: 5px; border-radius: 3px; background: var(--line); }
+.steps span.on { background: var(--brand-strong); }
+.seg { display: inline-flex; background: var(--surface-2); border-radius: 10px; padding: 3px; }
+.seg button { min-height: 32px; padding: 0 10px; border-radius: 8px; font-size: 12px; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--brand); font-weight: 700; }
+.ep-title { font-family: var(--font-display); font-size: 26px; line-height: 1.3; }
+.jp { font-size: 22px; line-height: 2.1; word-break: keep-all; overflow-wrap: anywhere; }
+.jp.sm { font-size: 17px; line-height: 2; }
+rt { font-size: .5em; color: var(--muted); }
+mark { background: var(--brand-tint); color: inherit; border-radius: 4px; padding: 0 2px; }
+.zh { margin-top: 4px; font-size: 13px; color: var(--muted); background: var(--surface-2); border-radius: 10px; padding: 6px 10px; display: flex; justify-content: space-between; gap: 8px; width: 100%; text-align: left; }
+.zh.blur span { filter: blur(5px); user-select: none; }
+.line { display: grid; grid-template-columns: 1fr auto; gap: 4px 8px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.line:last-child { border-bottom: 0; }
+.spk { font-size: 12px; font-weight: 700; color: var(--brand); }
+.spk.me { color: var(--anime); }
+.ring-wrap { position: relative; width: 120px; height: 120px; margin: 0 auto; }
+.ring-wrap svg { width: 120px; height: 120px; transform: rotate(-90deg); }
+.ring-bg { stroke: var(--brand-tint); stroke-width: 8; }
+.ring-fg { stroke: var(--brand-strong); stroke-width: 8; stroke-dasharray: 339.3; stroke-dashoffset: 339.3; }
+.ring-label { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; }
+.player { display: flex; align-items: center; justify-content: space-between; }
+.play-main { width: 64px; height: 64px; border-radius: 50%; background: var(--brand-strong); color: var(--on-brand); display: inline-flex; align-items: center; justify-content: center; }
+.play-main svg { width: 28px; height: 28px; }
+.wave { display: flex; align-items: center; justify-content: center; gap: 3px; height: 40px; }
+.wave i { width: 4px; border-radius: 2px; background: var(--brand-strong); opacity: .35; height: 30%; }
+.wave.live i { animation: bounce 900ms ease-in-out infinite; opacity: 1; }
+@keyframes bounce { 50% { height: 100%; } }
+@media (prefers-reduced-motion: reduce) { .wave.live i { animation: none; height: 70%; } .ring-fg { transition: none !important; } }
+.opt { width: 100%; min-height: 52px; text-align: left; padding: 10px 14px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); display: flex; gap: 10px; align-items: center; }
+.opt.right { border-color: var(--good); background: var(--good-tint); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-tint); }
+.check { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.check input { width: 22px; height: 22px; accent-color: var(--brand-strong); flex: none; }
+.diff { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.diff button { min-height: 48px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); }
+.diff button[aria-pressed="true"] { border: 2px solid var(--brand-strong); color: var(--brand); font-weight: 700; }
+
+/* review */
+.deck { display: grid; grid-template-columns: 1fr 44px 44px 44px; align-items: center; padding: 12px 2px; border-bottom: 1px solid var(--line); }
+.deck:last-child { border-bottom: 0; }
+.deck b { text-align: right; font-variant-numeric: tabular-nums; }
+.c-new { color: #2F6DB5; } .c-learn { color: var(--bad); } .c-due { color: var(--good); }
+:root[data-theme="dark"] .c-new { color: #8DB8EC; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .c-new { color: #8DB8EC; } }
+.flash { min-height: 300px; display: flex; flex-direction: column; gap: 12px; }
+.big-word { font-family: var(--font-display); font-size: 44px; text-align: center; line-height: 1.2; }
+.rates { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.rates button { min-height: 56px; border-radius: 12px; background: var(--surface-2); display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; }
+.rates small { font-weight: 400; font-size: 11px; color: var(--muted); }
+.rates .again { background: var(--bad-tint); color: var(--bad); }
+.rates .goodr { background: var(--good-tint); color: var(--good); }
+.cloze { display: inline-block; min-width: 5.5em; border-bottom: 2px solid var(--brand-strong); color: var(--brand); text-align: center; }
+
+/* jlpt */
+.bar { height: 8px; border-radius: 4px; background: var(--surface-2); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--brand-strong); border-radius: 4px; }
+.meter { display: grid; grid-template-columns: 76px 1fr 40px; gap: 10px; align-items: center; font-size: 13px; }
+.road { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; text-align: center; font-size: 12px; }
+.road div { padding: 8px 2px; border-radius: 12px; background: var(--surface-2); }
+.road .now { background: var(--brand-tint); color: var(--brand); font-weight: 700; }
+.road b { display: block; font-size: 16px; }
+.score { position: relative; height: 12px; border-radius: 6px; background: var(--surface-2); }
+.score i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 6px; background: var(--good); }
+.score u { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--bad); }
+.sample { font-size: 11px; color: var(--warn); background: var(--warn-tint); border-radius: 6px; padding: 1px 6px; }
+
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(76px + env(safe-area-inset-bottom, 0px)); z-index: 9; background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 12px; font-size: 13px; max-width: calc(100% - 32px); }
+</style>
+
+<div class="app" id="app">
+
+<!-- ホーム -->
+<section data-view="home" aria-label="ホーム">
+  <div class="row between">
+    <span class="muted" id="today"></span>
+    <span class="chip brand num" id="countdown"></span>
+  </div>
+  <div class="hero">
+    <div>
+      <h1>今日は約 <span class="num">2</span> 時間</h1>
+      <p class="muted">分けてやっても大丈夫。途中から続けられます。</p>
+    </div>
+    <div class="ring-wrap" style="width:72px;height:72px">
+      <svg viewBox="0 0 120 120" style="width:72px;height:72px" aria-hidden="true"><circle class="ring-bg" cx="60" cy="60" r="54"/><circle class="ring-fg" id="homeRing" cx="60" cy="60" r="54" style="stroke-dashoffset:254"/></svg>
+      <div class="ring-label num" id="homeRingLabel" style="font-size:15px">1/4</div>
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px" id="tasks"></div>
+  <div class="card">
+    <div class="row between"><h2>今週</h2><span class="muted">連続 12 日</span></div>
+    <div class="week muted" id="week"></div>
+  </div>
+  <button class="cta" id="homeCta">続ける：今日の一話</button>
+</section>
+
+<!-- エピソード -->
+<section data-view="episode" aria-label="エピソード" hidden>
+  <div class="topbar">
+    <button class="icon-btn" id="epClose" aria-label="閉じる"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="steps" id="steps"><span></span><span></span><span></span><span></span><span></span></div>
+  </div>
+  <div class="row between">
+    <span class="muted" id="stepName"></span>
+    <div class="seg" role="group" aria-label="ふりがな">
+      <button data-ruby="furi" aria-pressed="true">漢字＋かな</button><button data-ruby="kana" aria-pressed="false">かな</button><button data-ruby="hide" aria-pressed="false">隠す</button>
+    </div>
+  </div>
+  <div id="stepBody" style="display:flex;flex-direction:column;gap:14px"></div>
+</section>
+
+<!-- 復習 -->
+<section data-view="review" aria-label="復習" hidden>
+  <div id="reviewBody" style="display:flex;flex-direction:column;gap:14px"></div>
+</section>
+
+<!-- ドリル -->
+<section data-view="drill" aria-label="聴解ドリル" hidden>
+  <div id="drillBody" style="display:flex;flex-direction:column;gap:14px"></div>
+</section>
+
+<!-- JLPT -->
+<section data-view="jlpt" aria-label="JLPT" hidden>
+  <div class="row between"><h1>JLPT</h1><span class="sample">範例數據</span></div>
+  <div class="card">
+    <p class="muted">次の試験</p>
+    <div class="row between" style="align-items:flex-end">
+      <div><div style="font-size:22px;font-weight:700">N3</div><div class="muted">2027 年 7 月 4 日（日）予定</div></div>
+      <div style="text-align:right"><div class="num" style="font-size:30px;font-weight:700;color:var(--brand)" id="daysLeft"></div><div class="muted">日</div></div>
+    </div>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <h2>ロードマップ</h2>
+    <div class="road">
+      <div><b>N5</b>〜12月</div><div class="now"><b>N4</b>1–3月</div><div><b>N3</b>7月 受験</div><div><b>N2</b>12月 挑戦</div>
+    </div>
+    <p class="muted">每天約 2 小時：Anki 35 分、跟讀 30 分、聽解ドリル 15 分、讀解教材 30 分。</p>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <h2>語彙・文法カバー率</h2>
+    <div class="meter"><span>N5 語彙</span><div class="bar"><i style="width:72%"></i></div><span class="num">72%</span></div>
+    <div class="meter"><span>N4 語彙</span><div class="bar"><i style="width:18%"></i></div><span class="num">18%</span></div>
+    <div class="meter"><span>N3 語彙</span><div class="bar"><i style="width:2%"></i></div><span class="num">2%</span></div>
+    <div class="meter"><span>N5 文法</span><div class="bar"><i style="width:85%"></i></div><span class="num">85%</span></div>
+    <div class="meter"><span>N4 文法</span><div class="bar"><i style="width:22%"></i></div><span class="num">22%</span></div>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <h2>聴解 題型別正答率</h2>
+    <div class="meter"><span>即時応答</span><div class="bar"><i style="width:68%"></i></div><span class="num">68%</span></div>
+    <div class="meter"><span>課題理解</span><div class="bar"><i style="width:55%"></i></div><span class="num">55%</span></div>
+    <div class="meter"><span>ポイント</span><div class="bar"><i style="width:61%"></i></div><span class="num">61%</span></div>
+    <div class="meter"><span>発話表現</span><div class="bar"><i style="width:47%"></i></div><span class="num">47%</span></div>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <div class="row between"><h2>模擬聴解スコア</h2><span class="num" style="font-weight:700">31 / 60</span></div>
+    <div class="score" role="img" aria-label="31 分，最低分 19 分"><i style="width:51.7%"></i><u style="left:31.7%"></u></div>
+    <div class="row between muted"><span>紅線 = 各節最低 19 分</span><span>上次 26 → 31</span></div>
+  </div>
+</section>
+
+<!-- ライブラリ -->
+<section data-view="library" aria-label="ライブラリ" hidden>
+  <h1>ライブラリ</h1>
+  <div class="seg" role="group" aria-label="シリーズ" style="align-self:flex-start">
+    <button data-series="drama" aria-pressed="true">日劇</button><button data-series="anime" aria-pressed="false">動漫</button>
+  </div>
+  <div class="card" id="libHead"></div>
+  <div class="card" id="libList" style="padding-block:4px"></div>
+</section>
+</div>
+
+<nav class="tabs" aria-label="メイン">
+  <div class="tabs-in">
+    <button class="tab" data-tab="home" aria-current="page"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/></svg>ホーム</button>
+    <button class="tab" data-tab="library"><svg viewBox="0 0 24 24"><path d="M5 4h4v16H5zM10 4h4v16h-4zM15.5 5l3.8 1-3.7 14-3.8-1z"/></svg>ライブラリ</button>
+    <button class="tab" data-tab="review"><svg viewBox="0 0 24 24"><rect x="4" y="7" width="13" height="13" rx="2"/><path d="M8 4h10a2 2 0 0 1 2 2v10"/></svg>復習</button>
+    <button class="tab" data-tab="drill"><svg viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>ドリル</button>
+    <button class="tab" data-tab="jlpt"><svg viewBox="0 0 24 24"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>JLPT</button>
+  </div>
+</nav>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const ICON = {
+  play: '<svg viewBox="0 0 24 24"><path d="M7 5l12 7-12 7z" fill="currentColor" stroke="none"/></svg>',
+  pause: '<svg viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></svg>',
+  prev: '<svg viewBox="0 0 24 24"><path d="M18 6l-8 6 8 6zM6 6v12"/></svg>',
+  next: '<svg viewBox="0 0 24 24"><path d="M6 6l8 6-8 6zM18 6v12"/></svg>',
+  vol: '<svg viewBox="0 0 24 24"><path d="M4 10v4h4l5 4V6L8 10z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/></svg>',
+  eye: '<svg viewBox="0 0 24 24" width="16" height="16"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>',
+  check: '<svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>',
+  cards: '<svg viewBox="0 0 24 24"><rect x="4" y="7" width="13" height="13" rx="2"/><path d="M8 4h10a2 2 0 0 1 2 2v10"/></svg>',
+  head: '<svg viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>',
+  book: '<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/></svg>',
+  tv: '<svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 21h8M9 3l3 3 3-3"/></svg>',
+};
+
+/* ---------- 範例內容（原創） ---------- */
+const EP = {
+  series: 'drama', no: 4, week: 1, level: 'N5→N4', title: 'コンビニで', zhTitle: '在便利商店',
+  recap: '成田から東京に着いた宇翔。ホテルの近くのコンビニで、初めての晩ご飯を買う。',
+  q: { text: '宇翔は袋をもらいましたか。', opts: ['もらいました', 'もらいませんでした', '話に出てこない'], ans: 1, zh: '宇翔有拿袋子嗎？→ 他說「いえ、大丈夫です」，沒有拿。' },
+  lines: [
+    { sp: '店員', seg: [['いらっしゃいませ。']], zh: '歡迎光臨。' },
+    { sp: '宇翔', seg: [['すみません、これ、お'], ['願', 'ねが'], ['いします。']], zh: '不好意思，麻煩結這個。' },
+    { sp: '店員', seg: [['お'], ['弁当', 'べんとう'], ['、'], ['温', 'あたた', 1], ['めますか', null, 1], ['？']], zh: '便當要加熱嗎？' },
+    { sp: '宇翔', seg: [['はい、お'], ['願', 'ねが'], ['いします。']], zh: '好，麻煩了。' },
+    { sp: '店員', seg: [['袋', 'ふくろ'], ['はご'], ['利用', 'りよう'], ['ですか？']], zh: '需要袋子嗎？' },
+    { sp: '宇翔', seg: [['いえ、'], ['大丈夫', 'だいじょうぶ'], ['です。']], zh: '不用，沒關係。' },
+    { sp: '店員', seg: [['お'], ['箸', 'はし'], ['はおつけしますか？']], zh: '要附筷子嗎？' },
+    { sp: '宇翔', seg: [['あ、はい。お'], ['願', 'ねが'], ['いします。']], zh: '啊，好的，麻煩了。' },
+    { sp: '店員', seg: [['六百八十円', 'ろっぴゃくはちじゅうえん'], ['になります', null, 1], ['。']], zh: '一共是 680 日圓。' },
+    { sp: '宇翔', seg: [['Suica', 'スイカ'], ['で'], ['払', 'はら'], ['えますか？']], zh: '可以用 Suica 付款嗎？' },
+    { sp: '店員', seg: [['はい、こちらにタッチしてください。']], zh: '可以，請在這裡感應。' },
+  ],
+  grammar: [
+    { p: '〜になります', zh: '店員報價、說明時的禮貌說法，意思接近「です」。' },
+    { p: '〜ますか', zh: '禮貌的詢問。店員常用「温めますか」「おつけしますか」。' },
+  ],
+};
+const LIB = {
+  drama: { name: '終電のあとで', zh: '末班車之後', eps: ['成田空港・入国審査', 'Suica を買う・電車に乗る', 'ホテルのチェックイン', 'コンビニで', 'ラーメン屋の券売機', '渋谷で道に迷う'] },
+  anime: { name: '放課後ラジオ部', zh: '放學後廣播社', eps: ['転校生です', '部活見学', 'マイクテスト', '購買のパン争奪戦', '雨の日の帰り道', 'ラジオドラマ「勇者と魔王」第一話'] },
+};
+const CARDS = [
+  { type: '単語', kind: 'listen', word: '温める', read: 'あたためる', pos: '動詞・N4', zh: '加熱、弄熱', ex: [['お'], ['弁当', 'べんとう'], ['、'], ['温', 'あたた'], ['めますか？']], exZh: '便當要加熱嗎？', iv: ['1分', '6分', '1日', '4日'] },
+  { type: 'フレーズ', kind: 'cloze', before: 'お箸は', ans: 'おつけします', after: 'か？', say: 'おはしはおつけしますか', zh: '要附（筷子等）嗎？— 店員用語', src: '終電のあとで 第4話', iv: ['1分', '8分', '2日', '5日'] },
+  { type: '文法', kind: 'grammar', p: '〜てもいいですか', zh: '可以～嗎？（請求許可）', ex: [['写真', 'しゃしん'], ['を'], ['撮', 'と'], ['ってもいいですか', null, 1], ['。']], exZh: '可以拍照嗎？', more: ['ここに座ってもいいですか。', '窓を開けてもいいですか。'], iv: ['1分', '10分', '3日', '7日'] },
+  { type: '文', kind: 'sentence', seg: [['袋', 'ふくろ'], ['はご'], ['利用', 'りよう'], ['ですか？']], zh: '需要袋子嗎？', src: '終電のあとで 第4話', iv: ['1分', '1日', '3日', '8日'] },
+  { type: '単語', kind: 'read', word: '払う', read: 'はらう', pos: '動詞・N5', zh: '付錢', ex: [['Suica', 'スイカ'], ['で'], ['払', 'はら'], ['えますか？']], exZh: '可以用 Suica 付款嗎？', iv: ['1分', '6分', '2日', '6日'] },
+];
+const DRILLS = [
+  { prompt: 'あ、それ、ちょっと持ってもらえる？', zh: '啊，那個可以幫我拿一下嗎？', opts: ['うん、いいよ。', 'うん、持ってもらうよ。', 'え、持ってあげたの？'], ans: 0, why: '「持ってもらえる？」是請對方幫忙，答應就說「いいよ」。' },
+  { prompt: 'すみません、この席、空いてますか。', zh: '不好意思，這個位子有人坐嗎？', opts: ['はい、空いてますよ。どうぞ。', 'いいえ、座りません。', 'はい、空けてください。'], ans: 0, why: '問「空いてますか」（空著嗎），回答空著並請坐。' },
+  { prompt: 'もう昼ご飯、食べた？', zh: '你已經吃午餐了嗎？', opts: ['うん、まだ食べてない。', 'ううん、これから。', 'うん、食べてください。'], ans: 1, why: '「ううん、これから」= 還沒，正要去吃。選項 1 的「うん」和「まだ」互相矛盾。' },
+];
+
+/* ---------- 狀態 ---------- */
+const state = { view: 'home', done: { review: true, episode: false, drill: false, reading: false }, ruby: 'furi', speed: 1, step: 0, lineIdx: 0, series: 'drama' };
+try { const r = localStorage.getItem('sj-ruby'); if (r) state.ruby = r; } catch (e) {}
+
+/* ---------- 語音（原型用系統語音；正式版播 Gemini 配音 mp3） ---------- */
+let jaVoice = null, voiceWarned = false, runToken = 0, shRunning = false;
+function pickVoice() { try { jaVoice = speechSynthesis.getVoices().find(v => /^ja/i.test(v.lang)) || null; } catch (e) { jaVoice = null; } }
+try { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; } catch (e) {}
+const plain = seg => seg.map(s => (s[0] === 'Suica' ? 'スイカ' : s[0])).join('');
+function estimate(text, rate) { return Math.max(900, text.length * 190 / rate); }
+function speak(text, rate = state.speed) {
+  return new Promise(resolve => {
+    const fallback = () => { if (!voiceWarned) { toast('這台裝置沒有日語語音，原型改用無聲計時。正式版播放 Gemini 配音。'); voiceWarned = true; } setTimeout(resolve, estimate(text, rate)); };
+    try {
+      if (!('speechSynthesis' in window)) return fallback();
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'ja-JP'; u.rate = rate; if (jaVoice) u.voice = jaVoice;
+      let finished = false; const end = () => { if (!finished) { finished = true; resolve(); } };
+      u.onend = end; u.onerror = end;
+      setTimeout(end, estimate(text, rate) + 4000);
+      speechSynthesis.speak(u);
+    } catch (e) { fallback(); }
+  });
+}
+function stopAudio() { runToken++; shRunning = false; try { speechSynthesis.cancel(); } catch (e) {} }
+let wakeLock = null;
+async function keepAwake(on) { try { if (on && !wakeLock && navigator.wakeLock) wakeLock = await navigator.wakeLock.request('screen'); if (!on && wakeLock) { await wakeLock.release(); wakeLock = null; } } catch (e) { wakeLock = null; } }
+
+/* ---------- 共用 ---------- */
+function ruby(seg, mode = state.ruby, withMarks = true) {
+  if (mode === 'hide') return '<span class="muted" style="font-size:15px">（テキスト非表示 — 耳だけで）</span>';
+  return seg.map(([t, r, f]) => {
+    let h = mode === 'kana' ? esc(r || t) : (r ? `<ruby>${esc(t)}<rt>${esc(r)}</rt></ruby>` : esc(t));
+    return f && withMarks ? `<mark>${h}</mark>` : h;
+  }).join('');
+}
+let toastTimer;
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => t.hidden = true, 3200); }
+function go(view) {
+  stopAudio(); keepAwake(false);
+  state.view = view;
+  $$('section[data-view]').forEach(s => s.hidden = s.dataset.view !== view);
+  $$('.tab').forEach(t => t.dataset.tab === view ? t.setAttribute('aria-current', 'page') : t.removeAttribute('aria-current'));
+  document.body.classList.toggle('playing', view === 'episode');
+  ({ home: renderHome, episode: renderStep, review: renderDeck, drill: () => renderDrill(0), library: renderLib, jlpt: renderJlpt })[view]?.();
+  window.scrollTo(0, 0);
+}
+$$('.tab').forEach(t => t.addEventListener('click', () => go(t.dataset.tab)));
+
+/* ---------- ホーム ---------- */
+const EXAM = new Date(2027, 6, 4);
+function daysTo(d) { const n = new Date(); n.setHours(0, 0, 0, 0); return Math.max(0, Math.round((d - n) / 864e5)); }
+function renderHome() {
+  const now = new Date(); const wd = '日月火水木金土';
+  $('#today').textContent = `${now.getMonth() + 1}月${now.getDate()}日（${wd[now.getDay()]}）`;
+  $('#countdown').textContent = `N3 まで ${daysTo(EXAM)} 日`;
+  const tasks = [
+    { k: 'review', ic: ICON.cards, t: '復習 38 枚', s: '単語・文法・フレーズ・文　約 35 分', go: 'review' },
+    { k: 'episode', ic: ICON.tv, t: '第4話　コンビニで', s: '<span class="chip brand">日劇</span> N5→N4　約 30 分', go: 'episode' },
+    { k: 'drill', ic: ICON.head, t: '聴解ドリル', s: '即時応答 3 問（原型）　約 15 分', go: 'drill' },
+    { k: 'reading', ic: ICON.book, t: '読解（教材）', s: '新完全マスター 読解 N3　約 30 分　自分でチェック', go: null },
+  ];
+  const nextKey = tasks.find(x => !state.done[x.k])?.k;
+  $('#tasks').innerHTML = tasks.map(x => `
+    <button class="task ${state.done[x.k] ? 'done' : ''} ${x.k === nextKey ? 'next' : ''}" data-k="${x.k}">
+      <span class="task-ic">${state.done[x.k] ? ICON.check : x.ic}</span>
+      <span style="flex:1;min-width:0"><span class="t-title" style="display:block">${x.t}</span><span class="muted">${x.s}</span></span>
+    </button>`).join('');
+  $$('#tasks .task').forEach(b => b.addEventListener('click', () => {
+    const t = tasks.find(x => x.k === b.dataset.k);
+    if (t.go) { if (t.go === 'episode') { state.step = 0; state.lineIdx = 0; } go(t.go); }
+    else { state.done[t.k] = !state.done[t.k]; renderHome(); }
+  }));
+  const n = Object.values(state.done).filter(Boolean).length;
+  $('#homeRing').style.strokeDashoffset = 339.3 * (1 - n / 4);
+  $('#homeRingLabel').textContent = `${n}/4`;
+  const labels = '月火水木金土日'; const todayIdx = (now.getDay() + 6) % 7;
+  $('#week').innerHTML = [...labels].map((l, i) => `<div>${l}<div class="dot ${i < todayIdx ? 'on' : i === todayIdx ? 'today' : ''}"></div></div>`).join('');
+  const nt = tasks.find(x => x.k === nextKey);
+  $('#homeCta').textContent = nt ? `続ける：${nt.t}` : '今日はおつかれさま';
+  $('#homeCta').onclick = () => { if (nt?.go) { if (nt.go === 'episode') { state.step = 0; state.lineIdx = 0; } go(nt.go); } else if (nt) { state.done[nt.k] = true; renderHome(); } };
+}
+
+/* ---------- エピソード ---------- */
+const STEP_NAMES = ['1 ブラインド聴き', '2 意味を理解', '3 見てシャドー', '4 ブラインドシャドー', '5 カードに追加'];
+$('#epClose').addEventListener('click', () => go('home'));
+$$('[data-ruby]').forEach(b => b.addEventListener('click', () => {
+  state.ruby = b.dataset.ruby; try { localStorage.setItem('sj-ruby', state.ruby); } catch (e) {}
+  syncRubyBtns(); if (state.view === 'episode') renderStep(true);
+}));
+function syncRubyBtns() { $$('[data-ruby]').forEach(b => b.setAttribute('aria-pressed', b.dataset.ruby === state.ruby)); }
+function renderStep(keepAudio) {
+  if (!keepAudio) stopAudio();
+  syncRubyBtns();
+  $$('#steps span').forEach((s, i) => s.classList.toggle('on', i <= state.step));
+  $('#stepName').textContent = STEP_NAMES[state.step];
+  const body = $('#stepBody');
+  [stepBlind, stepUnderstand, stepShadow, stepShadow, stepCards][state.step](body);
+}
+function nextStepBtn(label = '次へ') { return `<button class="cta" id="nextStep">${label}</button>`; }
+function bindNext(fn) { $('#nextStep')?.addEventListener('click', fn || (() => { state.step++; state.lineIdx = 0; renderStep(); })); }
+function wave(n = 22) { return `<div class="wave" id="wave">${Array.from({ length: n }, (_, i) => `<i style="animation-delay:${(i * 73) % 600}ms"></i>`).join('')}</div>`; }
+
+function stepBlind(body) {
+  body.innerHTML = `
+    <div><span class="chip brand">日劇・終電のあとで</span> <span class="chip">第${EP.week}週 第${EP.no}話</span> <span class="chip good">${EP.level}</span></div>
+    <h1 class="ep-title">${EP.title}</h1>
+    <div class="card"><p class="muted">前回まで</p><p>${EP.recap}</p></div>
+    <div class="card" style="display:flex;flex-direction:column;gap:10px;align-items:center">
+      ${wave()}
+      <button class="play-main" id="playAll" aria-label="全部聴く">${ICON.play}</button>
+      <p class="muted">文字を見ないで、全体を聴いてみよう（${EP.lines.length} 文）</p>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;gap:8px">
+      <p style="font-weight:700">${EP.q.text}</p>
+      ${EP.q.opts.map((o, i) => `<button class="opt" data-i="${i}"><span class="num muted">${i + 1}</span>${o}</button>`).join('')}
+      <p class="muted" id="qFeedback" hidden></p>
+    </div>
+    ${nextStepBtn()}`;
+  let playing = false;
+  $('#playAll').addEventListener('click', async () => {
+    if (playing) { stopAudio(); playing = false; $('#playAll').innerHTML = ICON.play; $('#wave').classList.remove('live'); return; }
+    playing = true; const tok = ++runToken; $('#playAll').innerHTML = ICON.pause; $('#wave').classList.add('live'); keepAwake(true);
+    for (const l of EP.lines) { if (tok !== runToken) return; await speak(plain(l.seg)); await new Promise(r => setTimeout(r, 350)); }
+    if (tok === runToken) { playing = false; $('#playAll').innerHTML = ICON.play; $('#wave').classList.remove('live'); }
+  });
+  $$('.opt', body).forEach(b => b.addEventListener('click', () => {
+    const i = +b.dataset.i;
+    $$('.opt', body).forEach(x => x.classList.remove('right', 'wrong'));
+    b.classList.add(i === EP.q.ans ? 'right' : 'wrong');
+    if (i !== EP.q.ans) $$('.opt', body)[EP.q.ans].classList.add('right');
+    const f = $('#qFeedback'); f.hidden = false; f.textContent = (i === EP.q.ans ? '正解。' : 'もう一度聴いてみよう。') + EP.q.zh;
+  }));
+  bindNext();
+}
+
+function stepUnderstand(body) {
+  body.innerHTML = `
+    <p class="muted">一句一句看懂。點中文看翻譯，點喇叭重聽。<mark>底色</mark> = 本話重點。</p>
+    <div class="card" style="padding-block:2px">${EP.lines.map((l, i) => `
+      <div class="line">
+        <div style="min-width:0"><div class="spk ${l.sp === '宇翔' ? 'me' : ''}">${l.sp}</div><div class="jp sm">${ruby(l.seg)}</div>
+          <button class="zh blur" data-i="${i}"><span>${l.zh}</span>${ICON.eye}</button></div>
+        <button class="icon-btn" data-say="${i}" aria-label="再生">${ICON.vol}</button>
+      </div>`).join('')}</div>
+    <div class="card" style="display:flex;flex-direction:column;gap:8px">
+      <h2>今回の文法</h2>
+      ${EP.grammar.map(g => `<div><span class="chip brand">${g.p}</span><p class="muted" style="margin-top:4px">${g.zh}</p></div>`).join('')}
+    </div>
+    ${nextStepBtn('シャドーイングへ')}`;
+  $$('.zh', body).forEach(b => b.addEventListener('click', () => b.classList.toggle('blur')));
+  $$('[data-say]', body).forEach(b => b.addEventListener('click', () => speak(plain(EP.lines[+b.dataset.say].seg))));
+  bindNext();
+}
+
+function stepShadow(body) {
+  const blind = state.step === 3;
+  const i = state.lineIdx, l = EP.lines[i];
+  body.innerHTML = `
+    <p class="muted num">${i + 1} / ${EP.lines.length} 文　・　各文 2 回</p>
+    <div class="card" style="min-height:170px;display:flex;flex-direction:column;gap:6px">
+      <div class="spk ${l.sp === '宇翔' ? 'me' : ''}">${l.sp}</div>
+      <div class="jp" id="shText">${blind ? '<span class="muted" style="font-size:15px">耳だけで追いかけよう</span>' : ruby(l.seg)}</div>
+      ${blind ? `<button class="ghost" id="peek" style="align-self:flex-start">ちょっと見る</button>` : `<button class="zh blur" id="shZh"><span>${l.zh}</span>${ICON.eye}</button>`}
+    </div>
+    <div class="ring-wrap" aria-live="polite">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="ring-bg" cx="60" cy="60" r="54"/><circle class="ring-fg" id="shRing" cx="60" cy="60" r="54"/></svg>
+      <div class="ring-label"><span id="shState" style="font-size:16px">準備OK</span><span class="muted num" id="shRound"></span></div>
+    </div>
+    <div class="player">
+      <div class="seg" role="group" aria-label="速度">${[0.75, 0.9, 1].map(s => `<button data-speed="${s}" aria-pressed="${state.speed === s}">${s}×</button>`).join('')}</div>
+      <button class="icon-btn" id="shPrev" aria-label="前の文">${ICON.prev}</button>
+      <button class="play-main" id="shPlay" aria-label="再生">${ICON.play}</button>
+      <button class="icon-btn" id="shNext" aria-label="次の文">${ICON.next}</button>
+    </div>
+    ${i === EP.lines.length - 1 ? nextStepBtn(blind ? 'カードへ' : 'ブラインドシャドーへ') : ''}`;
+  $('#shZh')?.addEventListener('click', e => e.currentTarget.classList.toggle('blur'));
+  $('#peek')?.addEventListener('click', () => { $('#shText').innerHTML = ruby(l.seg); $('#peek').remove(); });
+  $$('[data-speed]', body).forEach(b => b.addEventListener('click', () => { state.speed = +b.dataset.speed; $$('[data-speed]', body).forEach(x => x.setAttribute('aria-pressed', x === b)); }));
+  $('#shPrev').addEventListener('click', () => { if (state.lineIdx > 0) { state.lineIdx--; renderStep(); autoRun(); } });
+  $('#shNext').addEventListener('click', () => { if (state.lineIdx < EP.lines.length - 1) { state.lineIdx++; renderStep(); autoRun(); } });
+  $('#shPlay').addEventListener('click', () => { if (shRunning) { stopAudio(); shRunning = false; setIdle(); } else autoRun(); });
+  function setIdle() { $('#shPlay').innerHTML = ICON.play; $('#shState').textContent = '一時停止'; ringTo(0, 0); }
+  function ringTo(frac, ms) { const r = $('#shRing'); if (!r) return; r.style.transition = 'none'; r.style.strokeDashoffset = 339.3; r.getBoundingClientRect(); r.style.transition = `stroke-dashoffset ${ms}ms linear`; r.style.strokeDashoffset = 339.3 * (1 - frac); }
+  async function autoRun() {
+    const tok = ++runToken; shRunning = true; keepAwake(true);
+    $('#shPlay').innerHTML = ICON.pause;
+    const text = plain(EP.lines[state.lineIdx].seg);
+    for (let round = 1; round <= 2; round++) {
+      if (tok !== runToken) return;
+      $('#shState').textContent = '聴いて'; $('#shRound').textContent = `${round} / 2`; ringTo(0, 0);
+      const t0 = performance.now(); await speak(text); const dur = performance.now() - t0;
+      if (tok !== runToken) return;
+      const pause = Math.round(dur * 1.3);
+      $('#shState').textContent = 'あなたの番'; ringTo(1, pause);
+      await new Promise(r => setTimeout(r, pause));
+    }
+    if (tok !== runToken) return;
+    shRunning = false;
+    if (state.lineIdx < EP.lines.length - 1) { state.lineIdx++; renderStep(true); autoRun(); }
+    else { $('#shState').textContent = 'おつかれ'; $('#shPlay').innerHTML = ICON.play; }
+  }
+  bindNext();
+}
+
+function stepCards(body) {
+  const items = [
+    ['文', '袋はご利用ですか？'], ['文', 'お弁当、温めますか？'], ['文', '六百八十円になります。'], ['文', 'Suicaで払えますか？'],
+    ['単語', '温める（あたためる）加熱'], ['単語', '袋（ふくろ）袋子'], ['単語', '払う（はらう）付錢'], ['単語', '箸（はし）筷子'],
+    ['フレーズ', 'おつけしますか　要附～嗎'], ['文法', '〜になります'], ['文法', '〜ますか'],
+  ];
+  body.innerHTML = `
+    <p class="muted">預設全收；不想記的取消勾選。</p>
+    <div class="card" style="padding-block:2px">${items.map(([t, s], i) => `
+      <label class="check"><input type="checkbox" id="cardpick${i}" checked><span class="chip ${t === '文法' ? 'brand' : ''}">${t}</span><span style="min-width:0">${s}</span></label>`).join('')}</div>
+    ${nextStepBtn('デッキに追加して終わる')}`;
+  bindNext(() => renderDone(body, $$('input:checked', body).length));
+}
+function renderDone(body, n) {
+  state.done.episode = true; keepAwake(false);
+  $$('#steps span').forEach(s => s.classList.add('on'));
+  $('#stepName').textContent = '完了';
+  body.innerHTML = `
+    <h1 class="ep-title">おつかれさま</h1>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
+      <div class="card"><div class="num" style="font-size:24px;font-weight:700">${EP.lines.length}</div><div class="muted">文</div></div>
+      <div class="card"><div class="num" style="font-size:24px;font-weight:700">${EP.lines.length * 4}</div><div class="muted">シャドー回数</div></div>
+      <div class="card"><div class="num" style="font-size:24px;font-weight:700">${n}</div><div class="muted">新カード</div></div>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;gap:8px">
+      <p style="font-weight:700">今回の難しさは？</p>
+      <div class="diff">${['簡単すぎ', 'ちょうどいい', '難しい'].map(d => `<button aria-pressed="false">${d}</button>`).join('')}</div>
+      <p class="muted">每週會整理成回饋，Claude 寫下週劇本時參考。</p>
+    </div>
+    <button class="cta" id="backHome">ホームへ</button>`;
+  $$('.diff button', body).forEach(b => b.addEventListener('click', () => $$('.diff button', body).forEach(x => x.setAttribute('aria-pressed', x === b))));
+  $('#backHome').addEventListener('click', () => go('home'));
+}
+
+/* ---------- 復習 ---------- */
+function renderDeck() {
+  $('#reviewBody').innerHTML = `
+    <h1>復習</h1>
+    <div class="card" style="padding-block:4px">
+      <div class="deck muted" style="font-size:12px"><span>デッキ</span><b class="c-new">新</b><b class="c-learn">学習</b><b class="c-due">期限</b></div>
+      <div class="deck"><span>文（聴き取り）</span><b class="c-new">8</b><b class="c-learn">0</b><b class="c-due">11</b></div>
+      <div class="deck"><span>単語</span><b class="c-new">20</b><b class="c-learn">3</b><b class="c-due">18</b></div>
+      <div class="deck"><span>フレーズ</span><b class="c-new">6</b><b class="c-learn">0</b><b class="c-due">5</b></div>
+      <div class="deck"><span>文法</span><b class="c-new">2</b><b class="c-learn">1</b><b class="c-due">4</b></div>
+    </div>
+    <div class="row between muted"><span>FSRS・目標記憶率 90%</span><span>約 35 分</span></div>
+    <div class="row" style="flex-wrap:wrap;gap:6px"><span class="chip">すべて</span><span class="chip">N5</span><span class="chip brand">N4</span><span class="chip">N3</span></div>
+    <button class="cta" id="startReview">復習を始める</button>
+    <p class="muted">原型示範 5 種卡片：單字聽音、片語填空、文法、句子聽力、單字看字讀音。</p>`;
+  $('#startReview').addEventListener('click', () => renderCard(0));
+}
+function renderCard(i) {
+  stopAudio();
+  const c = CARDS[i], box = $('#reviewBody');
+  if (!c) { state.done.review = true; box.innerHTML = `<h1 class="ep-title">今日の復習、完了</h1><p class="muted">明天到期 24 張。</p><button class="cta" id="rvHome">ホームへ</button>`; $('#rvHome').onclick = () => go('home'); return; }
+  const head = `<div class="row between"><button class="icon-btn" id="rvClose" aria-label="閉じる"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button><span class="muted num">${i + 1} / ${CARDS.length}</span></div>
+    <div class="bar"><i style="width:${(i / CARDS.length) * 100}%"></i></div>`;
+  let front = '', back = '', say = '';
+  if (c.kind === 'listen') { say = c.read; front = `<p class="muted">${c.type}・聴いて意味を思い出す</p><div style="text-align:center"><button class="play-main" data-play>${ICON.vol}</button></div>`;
+    back = `<div style="text-align:center"><div class="muted">${c.read}</div><div class="big-word">${c.word}</div><div class="muted">${c.pos}</div><p style="font-size:18px;margin-top:6px">${c.zh}</p></div><div class="card" style="background:var(--surface-2);border:0"><div class="jp sm">${ruby(c.ex, 'furi', false)}</div><p class="muted">${c.exZh}</p></div>`; }
+  if (c.kind === 'read') { say = c.read; front = `<p class="muted">${c.type}・読み方は？</p><div class="big-word" style="margin-top:20px">${c.word}</div>`;
+    back = `<div style="text-align:center"><div style="font-size:22px;color:var(--brand)">${c.read}</div><div class="muted">${c.pos}</div><p style="font-size:18px">${c.zh}</p></div><div class="card" style="background:var(--surface-2);border:0"><div class="jp sm">${ruby(c.ex, 'furi', false)}</div><p class="muted">${c.exZh}</p></div>`; }
+  if (c.kind === 'cloze') { say = c.say; front = `<p class="muted">${c.type}・聴いて空欄を埋める</p><button class="play-main" data-play style="align-self:center">${ICON.vol}</button><div class="jp" style="text-align:center">${c.before}<span class="cloze">？</span>${c.after}</div>`;
+    back = `<div class="jp" style="text-align:center">${c.before}<span class="cloze">${c.ans}</span>${c.after}</div><div class="card" style="background:var(--surface-2);border:0"><p>${c.zh}</p><p class="muted">出典：${c.src}</p></div>`; }
+  if (c.kind === 'grammar') { say = plain(c.ex); front = `<p class="muted">${c.type}・この文型の意味は？</p><button class="play-main" data-play style="align-self:center">${ICON.vol}</button><div class="jp" style="text-align:center">${ruby(c.ex, 'furi')}</div>`;
+    back = `<div class="jp" style="text-align:center">${ruby(c.ex, 'furi')}</div><p class="muted" style="text-align:center">${c.exZh}</p><div class="card" style="background:var(--surface-2);border:0"><span class="chip brand">${c.p}</span><p style="margin-top:6px">${c.zh}</p>${c.more.map(m => `<p class="muted">・${m}</p>`).join('')}</div>`; }
+  if (c.kind === 'sentence') { say = plain(c.seg); front = `<p class="muted">${c.type}・聴いて、シャドーしてから答えを見る</p><div style="text-align:center;margin-top:20px"><button class="play-main" data-play>${ICON.vol}</button></div>`;
+    back = `<div class="jp" style="text-align:center">${ruby(c.seg, 'furi', false)}</div><p class="muted" style="text-align:center">${c.zh}</p><p class="muted" style="text-align:center">出典：${c.src}</p>`; }
+  box.innerHTML = `${head}<div class="card flash"><div class="row" style="justify-content:space-between"><span class="chip ${c.type === '文法' ? 'brand' : ''}">${c.type}</span></div>${front}<div id="backSide" hidden style="display:flex;flex-direction:column;gap:10px">${back}</div></div>
+    <button class="cta" id="showAns">答えを見る</button>
+    <div class="rates" id="rates" hidden>${['もう一度', '難しい', '正解', '簡単'].map((r, k) => `<button class="${k === 0 ? 'again' : k === 2 ? 'goodr' : ''}" data-r="${k}">${r}<small>${c.iv[k]}</small></button>`).join('')}</div>`;
+  $('#rvClose').onclick = () => renderDeck();
+  $$('[data-play]', box).forEach(b => b.addEventListener('click', () => speak(say)));
+  if (c.kind !== 'read') setTimeout(() => { if (state.view === 'review') speak(say); }, 250);
+  $('#showAns').addEventListener('click', () => { $('#backSide').hidden = false; $('#showAns').hidden = true; $('#rates').hidden = false; if (c.kind === 'read') speak(say); });
+  $$('[data-r]', box).forEach(b => b.addEventListener('click', () => renderCard(i + 1)));
+}
+
+/* ---------- 聴解ドリル ---------- */
+function renderDrill(i) {
+  stopAudio();
+  const d = DRILLS[i], box = $('#drillBody');
+  if (!d) { state.done.drill = true; box.innerHTML = `<h1 class="ep-title">ドリル完了</h1><p class="muted">即時応答 ${DRILLS.length} 問。結果會計入 JLPT 頁的題型正確率。</p><button class="cta" id="drHome">ホームへ</button>`; $('#drHome').onclick = () => go('home'); return; }
+  box.innerHTML = `
+    <div class="row between"><h1>聴解ドリル</h1><span class="chip brand">即時応答</span></div>
+    <p class="muted num">${i + 1} / ${DRILLS.length}　・　文を聴いて、いちばんいい返事を選ぶ（選項也只用聽的）</p>
+    <div class="card" style="display:flex;flex-direction:column;align-items:center;gap:10px">
+      <button class="play-main" id="drPlay" aria-label="問題を聴く">${ICON.vol}</button>
+      <p class="jp sm" id="drPrompt" hidden style="text-align:center">${d.prompt}</p>
+    </div>
+    ${d.opts.map((o, k) => `<div class="row"><button class="icon-btn ghost" data-say="${k}" aria-label="選択肢${k + 1}を聴く" style="border-radius:50%;padding:0">${ICON.vol}</button>
+      <button class="opt" data-i="${k}"><span class="num" style="font-weight:700">${k + 1}</span><span class="opt-text" hidden>${o}</span></button></div>`).join('')}
+    <div class="card" id="drWhy" hidden></div>
+    <button class="cta" id="drNext" hidden>次の問題</button>`;
+  const playAll = async () => { const tok = ++runToken; await speak(d.prompt); for (let k = 0; k < d.opts.length; k++) { if (tok !== runToken) return; await new Promise(r => setTimeout(r, 500)); await speak(`${k + 1}。${d.opts[k]}`); } };
+  $('#drPlay').addEventListener('click', playAll);
+  $$('[data-say]', box).forEach(b => b.addEventListener('click', () => speak(d.opts[+b.dataset.say])));
+  $$('.opt', box).forEach(b => b.addEventListener('click', () => {
+    const k = +b.dataset.i; stopAudio();
+    $$('.opt', box).forEach((x, j) => { x.classList.toggle('right', j === d.ans); x.classList.toggle('wrong', j === k && k !== d.ans); $('.opt-text', x).hidden = false; });
+    $('#drPrompt').hidden = false;
+    const w = $('#drWhy'); w.hidden = false; w.innerHTML = `<p style="font-weight:700">${k === d.ans ? '正解' : '不正解'}</p><p class="muted">${d.zh}</p><p class="muted">${d.why}</p>`;
+    $('#drNext').hidden = false;
+  }));
+  $('#drNext').addEventListener('click', () => renderDrill(i + 1));
+}
+
+/* ---------- ライブラリ ---------- */
+$$('[data-series]').forEach(b => b.addEventListener('click', () => { state.series = b.dataset.series; $$('[data-series]').forEach(x => x.setAttribute('aria-pressed', x === b)); renderLib(); }));
+function renderLib() {
+  const s = LIB[state.series], anime = state.series === 'anime';
+  $('#libHead').innerHTML = `<span class="chip ${anime ? 'anime' : 'brand'}">${anime ? '動漫' : '日劇'}</span><h2 class="ep-title" style="font-size:22px;margin-top:6px">${s.name}</h2><p class="muted">${s.zh}・第1週〜第2週</p>`;
+  $('#libList').innerHTML = s.eps.map((t, i) => {
+    const st = anime ? (i < 3 ? 'done' : i === 3 ? 'new' : 'lock') : (i < 3 ? 'done' : i === 3 ? 'now' : 'lock');
+    const label = { done: '<span class="chip good">完了</span>', now: '<span class="chip brand">今日</span>', new: '<span class="chip anime">明日</span>', lock: '<span class="chip">配音待ち</span>' }[st];
+    return `<button class="line" style="width:100%;text-align:left" data-ep="${i}"><div><div class="muted num">第${i + 1}話・${i < 3 ? 'N5' : 'N5→N4'}</div><div style="font-weight:700">${t}</div></div><div>${label}</div></button>`;
+  }).join('');
+  $$('[data-ep]').forEach(b => b.addEventListener('click', () => {
+    if (state.series === 'drama' && +b.dataset.ep === 3) { state.step = 0; state.lineIdx = 0; go('episode'); }
+    else toast('原型只放了日劇第 4 話；正式版每一話都能播放。');
+  }));
+}
+
+/* ---------- JLPT ---------- */
+function renderJlpt() { $('#daysLeft').textContent = daysTo(EXAM); }
+
+go('home');
+</script>

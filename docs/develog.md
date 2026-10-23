@@ -31,8 +31,10 @@
 - 2026-10-23：完成需求釐清與設計（sdd.md）；建立專案資料夾、git、分支 `mini/japanese-mvp`。
 - 2026-10-23：完成 JLPT N4–N1 調查（jlpt-research.md）；目標定為一年內 N3～N2（2027/7 N3、2027/12 N2），每日約 2 小時；SDD 加入 JLPT 路線、聽解ドリル軌、ニュース・講義軌、JLPT 儀表板。
 
+- 2026-10-23：高擬真原型 `prototype/index.html`（首頁、日劇第4話五步跟讀、Anki 5 種卡、即時応答ドリル、JLPT 儀表板、ライブラリ），發布為 Artifact https://claude.ai/artifact/M9NRbdF7unRabWfhc8mPKH ；原型用系統日語語音代替 Gemini。
+
 ## Current Checkpoint
-JLPT 路線已納入設計；下一步做高擬真原型。
+原型已發布，等使用者在 iPhone 試用回饋。
 
 ## Recommended Next Step
-高擬真原型（含 JLPT 儀表板與聽解ドリル）→ 第一批劇本。
+依原型回饋修改 → 第一批劇本（日劇＋動漫各 6 集、ドリル 12 回）與 validate.py。
