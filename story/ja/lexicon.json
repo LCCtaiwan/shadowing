@@ -974,12 +974,11 @@
    "text": "全部",
    "reading": "ぜんぶ",
    "zh": "全部",
-   "level": "N4",
+   "level": "N5",
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06",
-    "drama-w01-e01",
-    "drama-w02-e05"
+    "drama-w01-e01"
    ]
   },
   "ja:vocab:許す": {
@@ -1534,8 +1533,7 @@
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
-    "drama-w01-e03",
-    "drama-w02-e05"
+    "drama-w01-e03"
    ]
   },
   "ja:vocab:難しい": {
