@@ -29,9 +29,10 @@
 
 ## Completed Work
 - 2026-10-23：完成需求釐清與設計（sdd.md）；建立專案資料夾、git、分支 `mini/japanese-mvp`。
+- 2026-10-23：完成 JLPT N4–N1 調查（jlpt-research.md）；目標定為一年內 N3～N2（2027/7 N3、2027/12 N2），每日約 2 小時；SDD 加入 JLPT 路線、聽解ドリル軌、ニュース・講義軌、JLPT 儀表板。
 
 ## Current Checkpoint
-調查 JLPT N4～N1 內容與教材中，接著把 JLPT 路線納入課程設計。
+JLPT 路線已納入設計；下一步做高擬真原型。
 
 ## Recommended Next Step
-JLPT 路線定稿 → 高擬真原型 → 第一批劇本。
+高擬真原型（含 JLPT 儀表板與聽解ドリル）→ 第一批劇本。
