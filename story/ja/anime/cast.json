@@ -1,0 +1,10 @@
+{
+  "xiaoyu": { "name": "小雨（シャオユー）", "voice": "Leda", "style": "17歳の台湾人交換留学生の女の子。丁寧語中心、素直、少しゆっくり" },
+  "yota": { "name": "陽太", "voice": "Fenrir", "style": "熱血な男子高校生。俺、〜ぜ、〜だろ。元気で早口" },
+  "rin": { "name": "凛（部長）", "voice": "Despina", "style": "ツンデレな部長の女子高校生。〜じゃない、〜なさい、照れると早口" },
+  "hina": { "name": "ひな", "voice": "Achernar", "style": "天然な一年生の女の子。丁寧語、語尾がふわっと伸びる、おっとり" },
+  "kurokawa": { "name": "黒川先生", "voice": "Umbriel", "style": "やる気のない顧問の男性教師。だるそうな大人の常体" },
+  "classmate_m": { "name": "クラスメート（男子）", "voice": "Puck", "style": "明るい男子高校生" },
+  "classmate_f": { "name": "クラスメート（女子）", "voice": "Callirrhoe", "style": "人なつっこい女子高校生" },
+  "obachan": { "name": "購買のおばちゃん", "voice": "Gacrux", "style": "元気で早口な中年女性" }
+}

@@ -1,0 +1,43 @@
+{
+  "start_date": "2026-10-26",
+  "rhythm": { "mon": "drama", "tue": "anime", "wed": "drama", "thu": "anime", "fri": "drama", "sat": "anime", "sun": "review+mock" },
+  "exam_targets": [ { "level": "N3", "date": "2027-07-04" }, { "level": "N2", "date": "2027-12-05" } ],
+  "phases": [
+    { "name": "N5 補強→N4", "weeks": "1-8", "dates": "2026-10-26 ~ 2026-12-20", "level": "N5→N4" },
+    { "name": "N4 完成→N3 前半", "weeks": "9-22", "dates": "2026-12-21 ~ 2027-03-28", "level": "N4→N3" },
+    { "name": "N3 完成・模擬", "weeks": "23-36", "dates": "2027-03-29 ~ 2027-07-04", "level": "N3" },
+    { "name": "N2", "weeks": "37-58", "dates": "2027-07-05 ~ 2027-12-05", "level": "N2" }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "episodes": [
+        { "series": "drama", "episode": 1, "day": "mon", "level": "N5", "title": "成田空港・入国審査", "grammar": ["〜てください", "〜に来ました（目的）"] },
+        { "series": "anime", "episode": 1, "day": "tue", "level": "N5", "title": "転校生です", "grammar": ["〜です／〜じゃないです", "〜から来ました"] },
+        { "series": "drama", "episode": 2, "day": "wed", "level": "N5", "title": "Suica を買う・電車に乗る", "grammar": ["〜たいです", "〜はどこですか"] },
+        { "series": "anime", "episode": 2, "day": "thu", "level": "N5", "title": "部活見学", "grammar": ["〜ませんか／〜ましょう", "〜んです（説明）"] },
+        { "series": "drama", "episode": 3, "day": "fri", "level": "N5", "title": "ホテルのチェックイン", "grammar": ["〜てもいいですか", "〜から（理由）"] },
+        { "series": "anime", "episode": 3, "day": "sat", "level": "N5", "title": "マイクテスト", "grammar": ["普通形（常体）入門：だ／じゃない／る／ない", "〜てはいけない／〜ちゃだめ"] }
+      ]
+    },
+    {
+      "week": 2,
+      "episodes": [
+        { "series": "drama", "episode": 4, "day": "mon", "level": "N4", "title": "コンビニで", "grammar": ["〜になります（接客）", "〜ますか（申し出・確認）"] },
+        { "series": "anime", "episode": 4, "day": "tue", "level": "N4", "title": "購買のパン争奪戦", "grammar": ["〜より〜のほうが", "〜だけ"] },
+        { "series": "drama", "episode": 5, "day": "wed", "level": "N4", "title": "ラーメン屋の券売機", "grammar": ["〜方（V-ます＋方）", "〜でしょうか"] },
+        { "series": "anime", "episode": 5, "day": "thu", "level": "N4", "title": "雨の日の帰り道", "grammar": ["〜てくれる／〜てもらう", "〜ないと（いけない）"] },
+        { "series": "drama", "episode": 6, "day": "fri", "level": "N4", "title": "渋谷で道に迷う", "grammar": ["〜たら（道案内）", "〜ている（状態）"] },
+        { "series": "anime", "episode": 6, "day": "sat", "level": "N4", "title": "ラジオドラマ「勇者と魔王」第一話", "grammar": ["終助詞 〜ぞ／〜ぜ／〜わ（役割語）", "〜てしまう／〜ちゃう"] }
+      ]
+    }
+  ],
+  "outline_weeks_3_8": [
+    { "week": 3, "drama": ["浅草で写真をお願いする", "ドラッグストアで"], "anime": ["放課後の名探偵 前編", "五人目の部員?"], "grammar": ["〜てもらえませんか", "〜てみる", "〜んですが（前置き）", "〜すぎる"] },
+    { "week": 4, "drama": ["居酒屋デビュー", "終電に乗り遅れた"], "anime": ["放課後の名探偵 後編", "生徒会からの通告"], "grammar": ["〜にします（決定）", "〜てしまう（後悔）", "〜なければならない", "〜と思います"] },
+    { "week": 5, "drama": ["喫茶店「ともしび」", "新幹線で京都へ"], "anime": ["勇者と魔王 第二話", "テスト前の部室"], "grammar": ["可能形", "〜ことができる", "〜たことがある", "〜前に／〜後で"] },
+    { "week": 6, "drama": ["旅館の女将さん", "伏見稲荷で迷子"], "anime": ["屋上で待ってる", "ひなの秘密"], "grammar": ["尊敬語 いらっしゃる／召し上がる", "〜ておく", "〜ながら", "〜し、〜し"] },
+    { "week": 7, "drama": ["京都の雨", "大阪へ日帰り"], "anime": ["最後のパス 前編", "黒川先生の過去"], "grammar": ["〜そうだ（様態）", "〜かもしれない", "〜ようと思う", "〜ば"] },
+    { "week": 8, "drama": ["帰国前夜", "また来ます"], "anime": ["最後のパス 後編", "N4 卒業回：文化祭まであと…"], "grammar": ["受身形 入門", "謙譲語 参る／いたす", "〜のに", "〜ために"] }
+  ]
+}
