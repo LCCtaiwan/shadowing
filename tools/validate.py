@@ -197,6 +197,13 @@ def check_drill(rep, path, data, cast):
         check_options(rep, iw, item)
 
 
+def calendar_order(f):
+    """依上課順序排列：週 → 集 → 同集號時日劇（週一三五）先於動漫。"""
+    m = re.search(r"w(\d+)[/\\](?:e|d)(\d+)", f.as_posix())
+    week, num = (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+    return ("drill" in f.parts, week, num, "anime" in f.parts, f.as_posix())
+
+
 def validate(paths):
     cast = load_casts()
     rep, seen = Report(), {}
@@ -204,6 +211,7 @@ def validate(paths):
     for p in paths:
         p = Path(p)
         files += sorted(p.glob("**/*.json")) if p.is_dir() else [p]
+    files.sort(key=calendar_order)
     for f in files:
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
