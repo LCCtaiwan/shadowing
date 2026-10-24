@@ -1,5 +1,5 @@
 // Service worker：App 本體與劇本先抓網路（有更新馬上看到），離線時用快取；音檔抓過就留在快取，離線可播。
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = `shell-${VERSION}`;
 const CONTENT = 'content';
 const AUDIO = 'audio';
@@ -7,7 +7,7 @@ const SHELL_FILES = [
   './', 'index.html', 'manifest.webmanifest', 'app/styles.css', 'app/main.js', 'app/state.js', 'app/ui.js',
   'app/lib/audio.js', 'app/lib/cards.js', 'app/lib/db.js', 'app/lib/fsrs.js', 'app/lib/ruby.js', 'app/lib/schedule.js', 'app/lib/srs.js', 'app/lib/network.js',
   'app/views/home.js', 'app/views/episode.js', 'app/views/review.js', 'app/views/drill.js', 'app/views/library.js',
-  'app/views/jlpt.js', 'app/views/settings.js', 'app/views/quick.js', 'app/icons/icon.svg', 'app/icons/icon-192.png', 'app/icons/apple-touch-icon.png',
+  'app/views/jlpt.js', 'app/views/settings.js', 'app/views/quick.js', 'app/icons/icon.svg', 'app/icons/icon2-192.png', 'app/icons/apple-touch-icon2.png',
 ];
 
 self.addEventListener('install', e => {
