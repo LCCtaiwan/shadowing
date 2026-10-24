@@ -1,0 +1,20 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "d6345d258ec73f10",
+  "text": "転校生のシャオユーは、放課後、廊下でラジオ部の陽太に会いました。",
+  "voice": "Schedar"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "21b2d11e3b844d98",
+  "text": "シャオユーさん、今日は部活見学の日だよ。",
+  "voice": "Callirrhoe"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "0aeca3baad0480e6",
+  "text": "えっ……行かないんですか？",
+  "voice": "Leda"
+ }
+}
