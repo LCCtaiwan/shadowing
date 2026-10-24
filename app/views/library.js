@@ -11,8 +11,9 @@ export default function library(root) {
   function draw() {
     const eps = S.index.episodes.filter(e => e.series === current);
     const epsAll = S.index.episodes;
+    const sameSeries = e => epsAll.filter(x => x.series === e.series);
     const status = e => S.progress.episodes[e.id]?.done ? '<span class="chip good">練過</span>'
-      : isUnlocked(e, epsAll, today, S.progress.episodes) ? '<span class="chip brand">可以練</span>' : `<span class="chip">${e.date.slice(5).replace('-', '/')} 開放</span>`;
+      : isUnlocked(e, sameSeries(e), today, S.progress.episodes) ? '<span class="chip brand">可以練</span>' : `<span class="chip">${e.date.slice(5).replace('-', '/')} 開放</span>`;
     const drills = S.index.drills;
     const dStatus = d => S.progress.drills[d.id]?.done ? '<span class="chip good">做過</span>'
       : isUnlocked(d, drills, today, S.progress.drills) ? '<span class="chip brand">可以做</span>' : `<span class="chip">${d.date.slice(5).replace('-', '/')} 開放</span>`;
@@ -37,7 +38,7 @@ export default function library(root) {
         <div class="card">${seriesChip(current)}
           <h2 class="ep-title" style="font-size:22px;margin-top:6px">${SERIES_NAME[current]}</h2><p class="muted">${SERIES_ZH[current]}・目前 ${eps.length} 話（每週更新）</p></div>
         <div class="card" style="padding-block:4px">${eps.map(e => `
-          <button class="line" data-ep="${e.id}" ${isUnlocked(e, epsAll, today, S.progress.episodes) ? '' : 'data-locked'}>
+          <button class="line" data-ep="${e.id}" ${isUnlocked(e, sameSeries(e), today, S.progress.episodes) ? '' : 'data-locked'}>
             <div><div class="muted num">第 ${e.week} 週・第 ${e.episode} 話・${e.level}・${e.lines} 句</div>
             <div style="font-weight:700">${esc(e.title)}</div><div class="muted">${esc(e.title_zh)}</div></div><div>${status(e)}</div></button>`).join('')}</div>`}`;
     $$('[data-series]', root).forEach(b => b.addEventListener('click', () => { current = b.dataset.series; draw(); }));
