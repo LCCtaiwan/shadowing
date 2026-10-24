@@ -226,24 +226,55 @@ def safe_name(key):
     return "v-" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
 
 
-def make_synth(model):
-    from google import genai
+API_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
 
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
+class RateLimited(Exception):
+    def __init__(self, wait, msg):
+        super().__init__(msg)
+        self.wait = wait
+
+
+def _find_audio(obj):
+    """在回應 JSON 裡找最後一個 audio 區塊的 base64 data。"""
+    found = None
+    if isinstance(obj, dict):
+        if obj.get("type") == "audio" and obj.get("data"):
+            found = obj["data"]
+        for v in obj.values():
+            found = _find_audio(v) or found
+    elif isinstance(obj, list):
+        for v in obj:
+            found = _find_audio(v) or found
+    return found
+
+
+def make_synth(model):
+    """直接呼叫 REST（不用 SDK 的自動重試，SDK 遇到 429 會依 Retry-After 默默睡很久）。"""
+    import httpx
+
+    client = httpx.Client(headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, timeout=REQUEST_TIMEOUT)
 
     def synth(job):
-        interaction = client.interactions.create(
-            model=model,
-            input=[{"type": "user_input", "content": [{
+        body = {
+            "model": model,
+            "input": [{"type": "user_input", "content": [{
                 "type": "text", "text": job["text"],
                 "annotations": [{"type": "speech_metadata", "style": job["style"]}],
             }]}],
-            response_format={"type": "audio", "mime_type": "audio/mp3"},
-            generation_config={"speech_config": [{"voice": job["voice"], "language": "ja"}]},
-            timeout=REQUEST_TIMEOUT,
-        )
-        data = interaction.output_audio.data
-        return base64.b64decode(data) if isinstance(data, str) else bytes(data)
+            "response_format": {"type": "audio", "mime_type": "audio/mp3"},
+            "generation_config": {"speech_config": [{"voice": job["voice"], "language": "ja"}]},
+        }
+        r = client.post(API_URL, json=body)
+        if r.status_code == 429 or r.status_code >= 500:
+            ra = r.headers.get("retry-after")
+            raise RateLimited(float(ra) if ra and ra.replace(".", "").isdigit() else None, f"HTTP {r.status_code}: {r.text[:200]}")
+        if r.status_code != 200:
+            raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
+        data = _find_audio(r.json())
+        if not data:
+            raise RuntimeError("回應裡沒有音訊")
+        return base64.b64decode(data)
 
     return synth
 
@@ -252,11 +283,12 @@ def with_retry(synth, job, tries=5):
     for attempt in range(tries):
         try:
             return synth(job)
-        except Exception as e:  # 429／5xx 等暫時性錯誤：指數退避
+        except Exception as e:  # 429／5xx／逾時：短暫退避後重試，最多等 60 秒
             if attempt == tries - 1:
                 raise
-            wait = 2 ** attempt * 5
-            print(f"  重試 {job['key']}（{type(e).__name__}: {str(e)[:120]}），{wait} 秒後")
+            hinted = getattr(e, "wait", None)
+            wait = min(60, hinted if hinted else 2 ** attempt * 5)
+            print(f"  重試 {job['key']}（{type(e).__name__}: {str(e)[:160]}），{wait:.0f} 秒後", flush=True)
             time.sleep(wait)
 
 
