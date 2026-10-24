@@ -335,6 +335,21 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
     return len(todo) - len(failed), skipped
 
 
+def probe(model):
+    """不經 SDK 重試，直接送一次請求，印出狀態碼、Retry-After 與錯誤內容（查額度用）。"""
+    import httpx
+    body = {
+        "model": model,
+        "input": [{"type": "user_input", "content": [{"type": "text", "text": "こんにちは"}]}],
+        "response_format": {"type": "audio", "mime_type": "audio/mp3"},
+        "generation_config": {"speech_config": [{"voice": "Kore", "language": "ja"}]},
+    }
+    r = httpx.post("https://generativelanguage.googleapis.com/v1beta/interactions", json=body,
+                   headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, timeout=60)
+    print("status", r.status_code, "retry-after", r.headers.get("retry-after"))
+    print(r.text[:1500] if r.status_code != 200 else f"OK，回應 {len(r.content)} bytes")
+
+
 def load_dotenv():
     """環境變數沒設時，讀專案根目錄的 .env（由 tools/setup_key.py 建立）。"""
     env = ROOT / ".env"
@@ -356,8 +371,13 @@ def main(argv):
     ap.add_argument("--limit", type=int, help="每個檔案最多配幾段（試聽用）")
     ap.add_argument("--workers", type=int, default=4, help="同時送出的請求數（預設 4）")
     ap.add_argument("--bitrate", default="64k", help="轉成單聲道 mp3 的位元率（預設 64k；空字串 = 不轉）")
+    ap.add_argument("--probe", action="store_true", help="只送一次測試請求，印出額度或錯誤訊息")
     args = ap.parse_args(argv)
 
+    if args.probe:
+        load_dotenv()
+        probe(os.environ.get("GEMINI_TTS_MODEL") or DEFAULT_MODEL)
+        return
     files = [Path(p) for p in args.paths]
     if args.for_date:
         today = dt.date.today()
