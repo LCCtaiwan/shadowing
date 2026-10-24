@@ -87,6 +87,8 @@ export default function home(root) {
       <div class="quick">
         <button data-quick="vocab">${ICON.bolt}單字快練<small>聽→跟念→看意思</small></button>
         <button data-quick="pron">${ICON.ear}發音聽辨<small>長音、促音、濁音</small></button>
+        <button data-quick="announce">${ICON.radio}廣播聽力<small>車站、機場、商場</small></button>
+        <button data-quick="kids">${ICON.kid}親子一起學<small>和小孩一起念</small></button>
       </div>
     </div>
     <div class="stack" style="gap:8px">${tasks.map(x => x.choices && x.choices.length ? `
@@ -106,7 +108,19 @@ export default function home(root) {
     <button class="cta" id="cta">${nextTask ? `繼續：${nextTask.title.replace(/<[^>]+>/g, '')}` : '今天辛苦了'}</button>`;
 
   root.querySelectorAll('[data-ep]').forEach(b => b.addEventListener('click', () => go(`ep/${b.dataset.ep}`)));
-  root.querySelectorAll('[data-quick]').forEach(b => b.addEventListener('click', () => go(`quick/${b.dataset.quick}`)));
+  root.querySelectorAll('[data-quick]').forEach(b => b.addEventListener('click', () => {
+    const q = b.dataset.quick;
+    if (q === 'announce') {
+      const sets = S.index.announce || [];
+      const next = nextUnfinished(sets, today, S.progress.drills) || sets[0];
+      return next ? go(`drill/${next.id}`) : go('lib');
+    }
+    if (q === 'kids') {
+      const next = nextUnfinished(S.index.episodes.filter(e => e.series === 'kids'), today, S.progress.episodes);
+      return next ? go(`ep/${next.id}`) : go('lib');
+    }
+    go(`quick/${q}`);
+  }));
   root.querySelectorAll('button.task').forEach(b => b.addEventListener('click', async () => {
     const x = tasks.find(y => y.k === b.dataset.k);
     if (x.route) go(x.route);

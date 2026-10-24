@@ -51,6 +51,11 @@
    "id": "drama",
    "name": "終電のあとで",
    "zh": "末班車之後・自助旅行"
+  },
+  {
+   "id": "kids",
+   "name": "親子でにほんご",
+   "zh": "親子學日語"
   }
  ],
  "episodes": [
@@ -62,8 +67,8 @@
    "day": "mon",
    "date": "2026-10-26",
    "level": "N5",
-   "title": "成田空港・入国審査",
-   "title_zh": "成田機場・入境審查",
+   "title": "スカイライナーで東京へ",
+   "title_zh": "搭 Skyliner 前往東京",
    "lines": 26,
    "path": "scripts/ja/drama/w01/e01.json",
    "audio": "audio/ja/drama/w01/e01"
@@ -97,6 +102,20 @@
    "audio": "audio/ja/anime/w01/e01"
   },
   {
+   "id": "ja-kids-w01-e01",
+   "series": "kids",
+   "week": 1,
+   "episode": 1,
+   "day": "tue",
+   "date": "2026-10-27",
+   "level": "N5",
+   "title": "あいさつ・ありがとう",
+   "title_zh": "打招呼・說謝謝",
+   "lines": 18,
+   "path": "scripts/ja/kids/w01/e01.json",
+   "audio": "audio/ja/kids/w01/e01"
+  },
+  {
    "id": "ja-drama-w01-e02",
    "series": "drama",
    "week": 1,
@@ -104,9 +123,9 @@
    "day": "wed",
    "date": "2026-10-28",
    "level": "N5",
-   "title": "Suica を買う・電車に乗る",
-   "title_zh": "買 Suica・搭電車",
-   "lines": 23,
+   "title": "コインロッカーと荷物預かり",
+   "title_zh": "投幣置物櫃與行李寄放",
+   "lines": 26,
    "path": "scripts/ja/drama/w01/e02.json",
    "audio": "audio/ja/drama/w01/e02"
   },
@@ -139,6 +158,20 @@
    "audio": "audio/ja/anime/w01/e02"
   },
   {
+   "id": "ja-kids-w01-e02",
+   "series": "kids",
+   "week": 1,
+   "episode": 2,
+   "day": "thu",
+   "date": "2026-10-29",
+   "level": "N5",
+   "title": "トイレはどこですか",
+   "title_zh": "廁所在哪裡？",
+   "lines": 15,
+   "path": "scripts/ja/kids/w01/e02.json",
+   "audio": "audio/ja/kids/w01/e02"
+  },
+  {
    "id": "ja-drama-w01-e03",
    "series": "drama",
    "week": 1,
@@ -146,9 +179,9 @@
    "day": "fri",
    "date": "2026-10-30",
    "level": "N5",
-   "title": "ホテルのチェックイン",
-   "title_zh": "飯店辦理入住",
-   "lines": 24,
+   "title": "ゲストハウスのルール",
+   "title_zh": "青年旅館的規則",
+   "lines": 26,
    "path": "scripts/ja/drama/w01/e03.json",
    "audio": "audio/ja/drama/w01/e03"
   },
@@ -179,6 +212,20 @@
    "lines": 25,
    "path": "scripts/ja/anime/w01/e03.json",
    "audio": "audio/ja/anime/w01/e03"
+  },
+  {
+   "id": "ja-kids-w01-e03",
+   "series": "kids",
+   "week": 1,
+   "episode": 3,
+   "day": "sat",
+   "date": "2026-10-31",
+   "level": "N5",
+   "title": "これください（アイスやさんで）",
+   "title_zh": "請給我這個（在冰淇淋店）",
+   "lines": 17,
+   "path": "scripts/ja/kids/w01/e03.json",
+   "audio": "audio/ja/kids/w01/e03"
   },
   {
    "id": "ja-drama-w02-e04",
@@ -223,6 +270,20 @@
    "audio": "audio/ja/anime/w02/e04"
   },
   {
+   "id": "ja-kids-w02-e04",
+   "series": "kids",
+   "week": 2,
+   "episode": 4,
+   "day": "tue",
+   "date": "2026-11-03",
+   "level": "N5",
+   "title": "いっしょにあそぼう（公園で）",
+   "title_zh": "一起玩吧（在公園）",
+   "lines": 18,
+   "path": "scripts/ja/kids/w02/e04.json",
+   "audio": "audio/ja/kids/w02/e04"
+  },
+  {
    "id": "ja-drama-w02-e05",
    "series": "drama",
    "week": 2,
@@ -265,6 +326,20 @@
    "audio": "audio/ja/anime/w02/e05"
   },
   {
+   "id": "ja-kids-w02-e05",
+   "series": "kids",
+   "week": 2,
+   "episode": 5,
+   "day": "thu",
+   "date": "2026-11-05",
+   "level": "N5",
+   "title": "まいごになったら",
+   "title_zh": "如果走丟了",
+   "lines": 18,
+   "path": "scripts/ja/kids/w02/e05.json",
+   "audio": "audio/ja/kids/w02/e05"
+  },
+  {
    "id": "ja-drama-w02-e06",
    "series": "drama",
    "week": 2,
@@ -272,9 +347,9 @@
    "day": "fri",
    "date": "2026-11-06",
    "level": "N4",
-   "title": "渋谷で道に迷う",
-   "title_zh": "在澀谷迷路",
-   "lines": 24,
+   "title": "下北沢の古着屋で試着",
+   "title_zh": "在下北澤的古著店試穿",
+   "lines": 26,
    "path": "scripts/ja/drama/w02/e06.json",
    "audio": "audio/ja/drama/w02/e06"
   },
@@ -305,6 +380,62 @@
    "lines": 25,
    "path": "scripts/ja/anime/w02/e06.json",
    "audio": "audio/ja/anime/w02/e06"
+  },
+  {
+   "id": "ja-kids-w02-e06",
+   "series": "kids",
+   "week": 2,
+   "episode": 6,
+   "day": "sat",
+   "date": "2026-11-07",
+   "level": "N5",
+   "title": "いただきます・ごちそうさま",
+   "title_zh": "開動了・謝謝招待",
+   "lines": 17,
+   "path": "scripts/ja/kids/w02/e06.json",
+   "audio": "audio/ja/kids/w02/e06"
+  },
+  {
+   "id": "ja-anime-w03-e07",
+   "series": "anime",
+   "week": 3,
+   "episode": 7,
+   "day": "tue",
+   "date": "2026-11-10",
+   "level": "N4",
+   "title": "ラジオドラマ「放課後の名探偵」",
+   "title_zh": "廣播劇《放學後的名偵探》",
+   "lines": 28,
+   "path": "scripts/ja/anime/w03/e07.json",
+   "audio": "audio/ja/anime/w03/e07"
+  },
+  {
+   "id": "ja-anime-w03-e08",
+   "series": "anime",
+   "week": 3,
+   "episode": 8,
+   "day": "thu",
+   "date": "2026-11-12",
+   "level": "N4",
+   "title": "ラジオドラマ「屋上で待ってる」",
+   "title_zh": "廣播劇《我在頂樓等你》",
+   "lines": 27,
+   "path": "scripts/ja/anime/w03/e08.json",
+   "audio": "audio/ja/anime/w03/e08"
+  },
+  {
+   "id": "ja-anime-w03-e09",
+   "series": "anime",
+   "week": 3,
+   "episode": 9,
+   "day": "sat",
+   "date": "2026-11-14",
+   "level": "N4",
+   "title": "ラジオドラマ「最後のパス」と五人目の部員",
+   "title_zh": "廣播劇《最後一傳》與第五位社員",
+   "lines": 25,
+   "path": "scripts/ja/anime/w03/e09.json",
+   "audio": "audio/ja/anime/w03/e09"
   }
  ],
  "drills": [
@@ -517,6 +648,74 @@
    "items": 20,
    "path": "scripts/ja/pron/p06.json",
    "audio": "audio/ja/pron/p06"
+  }
+ ],
+ "announce": [
+  {
+   "id": "ja-announce-a01",
+   "kind": "announce",
+   "title": "駅のアナウンス",
+   "title_zh": "車站廣播",
+   "tip_zh": "先抓「〇番線」和「〜行き」這兩個關鍵字，再聽列車種類（各駅停車／快速／急行）。「ご注意ください」「ご利用ください」前面那一句，通常就是你要做的事。",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/announce/a01.json",
+   "audio": "audio/ja/announce/a01"
+  },
+  {
+   "id": "ja-announce-a02",
+   "kind": "announce",
+   "title": "新幹線・特急の車内放送",
+   "title_zh": "新幹線・特急車廂廣播",
+   "tip_zh": "車內廣播通常先說「まもなく＋站名」，接著是「お出口は〜側です」和轉乘資訊。聽到「〜号車」「〜時〜分」時要特別留意數字，對號座和自由座也常一起出現。",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/announce/a02.json",
+   "audio": "audio/ja/announce/a02"
+  },
+  {
+   "id": "ja-announce-a03",
+   "kind": "announce",
+   "title": "空港のアナウンス",
+   "title_zh": "機場廣播",
+   "tip_zh": "機場廣播一開始會先說航空公司、班次（〜便）和目的地（〜行き），先確認是不是你的班機，再聽「ゲート」「時刻」「変更」。「変更になりました」「遅れる」後面接的就是新的資訊。",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/announce/a03.json",
+   "audio": "audio/ja/announce/a03"
+  },
+  {
+   "id": "ja-announce-a04",
+   "kind": "announce",
+   "title": "デパート・遊園地のアナウンス",
+   "title_zh": "百貨公司・遊樂園廣播",
+   "tip_zh": "商場廣播常先說全館的時間或地點，再用「なお／また」補充例外（餐廳、地下樓層），題目常考補充的那一句。走失兒童廣播要把顏色和「かぶる／はく／着る」配對起來聽。",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/announce/a04.json",
+   "audio": "audio/ja/announce/a04"
+  },
+  {
+   "id": "ja-announce-a05",
+   "kind": "announce",
+   "title": "遅延・運休・天気予報",
+   "title_zh": "延誤・停駛・天氣預報",
+   "tip_zh": "延誤廣播大多照這個順序：原因（〜の影響で）→狀況（運転を見合わせて）→恢復預估（見込み）→替代方案（代わりのバス）。天氣預報抓「降水確率」「〜度」，以及前面說的是早上還是下午。",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/announce/a05.json",
+   "audio": "audio/ja/announce/a05"
+  },
+  {
+   "id": "ja-announce-a06",
+   "kind": "announce",
+   "title": "緊急のお知らせ",
+   "title_zh": "緊急廣播",
+   "tip_zh": "緊急廣播先抓「〜てください」和「〜ないでください」：該做什麼、不要做什麼（不要搭電梯、不要急著往外跑）。聽到「係員の案内にしたがって」「落ち着いて」，就跟著工作人員冷靜行動。",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/announce/a06.json",
+   "audio": "audio/ja/announce/a06"
   }
  ]
 }

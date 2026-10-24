@@ -62,6 +62,7 @@ export default async function episode(root, [id]) {
       <div class="row wrap" style="gap:6px">${seriesChip(ep.series)}<span class="chip">${SERIES_NAME[ep.series]}</span><span class="chip">第${ep.week}週 第${ep.episode}話</span><span class="chip good">${ep.level}</span></div>
       <h1 class="ep-title">${esc(ep.title)}</h1>
       <p class="muted">${esc(ep.title_zh)}</p>
+      ${ep.source ? `<p class="muted">原文：${esc(ep.source.author)}「${esc(ep.source.title)}」（<a href="${esc(ep.source.card)}" target="_blank" rel="noopener">${esc(ep.source.via)}</a>，公有領域），一字未改。</p>` : ''}
       <div class="card stack" style="gap:6px"><p class="muted">前情提要（點中文看翻譯）</p><div class="jp sm">${rubyHtml(ep.recap)}</div>
         <button class="zh blur" data-zh><span>${esc(ep.recap.zh)}</span>${ICON.eye}</button></div>
       <div class="card stack" style="align-items:center">

@@ -26,6 +26,8 @@ export const ICON = {
   flag: svg('<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>'),
   bolt: svg('<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>'),
   mic: svg('<rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>'),
+  radio: svg('<rect x="3" y="8" width="18" height="12" rx="2"/><path d="M7 8l10-5"/><circle cx="8" cy="14" r="2.5"/><path d="M14 12h4M14 16h4"/>'),
+  kid: svg('<circle cx="12" cy="7" r="3.5"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/>'),
   ear: svg('<path d="M6 9a6 6 0 1 1 12 0c0 3-2 4-3 5s-1 3-3 4-4 0-4-2"/><path d="M9 9a3 3 0 0 1 6 0"/>'),
 };
 
@@ -38,11 +40,12 @@ export function toast(msg, ms = 3200) {
   toastTimer = setTimeout(() => { t.hidden = true; }, ms);
 }
 
-export const SERIES_ORDER = ['family', 'anime', 'drama'];
-export const SERIES_LABEL = { family: '家族旅行', anime: '動漫', drama: '自助旅行' };
-export const SERIES_NAME = { family: '三世代で日本へ', anime: '放課後ラジオ部', drama: '終電のあとで' };
-export const SERIES_ZH = { family: '三代同堂遊日本', anime: '放學後廣播社', drama: '末班車之後' };
-const SERIES_CHIP = { family: 'family', anime: 'anime', drama: 'brand' };
+export const SERIES_ORDER = ['family', 'anime', 'drama'];  // 首頁「新的一話」三選一
+export const ALL_SERIES = ['family', 'anime', 'drama', 'kids', 'tales'];
+export const SERIES_LABEL = { family: '家族旅行', anime: '動漫', drama: '自助旅行', kids: '親子', tales: '童話' };
+export const SERIES_NAME = { family: '三世代で日本へ', anime: '放課後ラジオ部', drama: '終電のあとで', kids: '親子でにほんご', tales: 'むかしばなし' };
+export const SERIES_ZH = { family: '三代同堂遊日本', anime: '放學後廣播社', drama: '末班車之後', kids: '親子學日語（給小孩一起練）', tales: '日本童話原文（楠山正雄，青空文庫）' };
+const SERIES_CHIP = { family: 'family', anime: 'anime', drama: 'brand', kids: 'warn', tales: 'good' };
 export const seriesChip = series => `<span class="chip ${SERIES_CHIP[series] || ''}">${SERIES_LABEL[series] || series}</span>`;
 export const wave = (n = 22) => `<div class="wave">${Array.from({ length: n }, (_, i) => `<i style="animation-delay:${(i * 73) % 600}ms"></i>`).join('')}</div>`;
 

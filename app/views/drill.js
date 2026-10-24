@@ -16,7 +16,7 @@ const TYPE_HINT = {
 };
 
 export default async function drill(root, [id]) {
-  const meta = id ? S.index.drills.find(d => d.id === id) : nextUnfinished(S.index.drills, todayStr(), S.progress.drills);
+  const meta = id ? [...S.index.drills, ...(S.index.announce || [])].find(d => d.id === id) : nextUnfinished(S.index.drills, todayStr(), S.progress.drills);
   if (!meta) {
     root.innerHTML = `<h1>聽力練習</h1><div class="card empty stack"><p>目前的聽力練習都做完了。</p>
       <p class="muted">做過的可以在「課程」頁重做。</p><button class="cta" id="lib">去課程頁</button></div>`;
@@ -39,6 +39,7 @@ export default async function drill(root, [id]) {
     if (!it) return finish();
     const audioOnly = it.type === 'sokuji' || it.type === 'hatsuwa';
     root.innerHTML = `
+      ${i === 0 && meta.kind === 'announce' ? `<div class="card flat"><b>${esc(data.title_zh)}</b><p class="muted">${esc(data.tip_zh || '')}</p></div>` : ''}
       <div class="row between"><button class="icon-btn" id="close" aria-label="關閉">${ICON.close}</button>
         <span class="chip brand">${TYPE_NAMES[it.type]}</span><span class="muted num">第 ${i + 1} / ${data.items.length} 題</span></div>
       <div class="bar"><i style="width:${(i / data.items.length) * 100}%"></i></div>
@@ -115,7 +116,7 @@ export default async function drill(root, [id]) {
     }
     const score60 = Math.round(correct / Math.max(1, vals.length) * 60);
     root.innerHTML = `
-      <h1 class="ep-title">${meta.kind === 'mock' ? '小模擬考結果' : '練習完成'}</h1>
+      <h1 class="ep-title">${meta.kind === 'mock' ? '小模擬考結果' : meta.kind === 'announce' ? '廣播聽力完成' : '練習完成'}</h1>
       <div class="card stack">
         <div class="row between"><span>答對</span><b class="num">${correct} / ${vals.length}</b></div>
         ${meta.kind === 'mock' ? `<div class="row between"><span>換算成 JLPT 聽解分數</span><b class="num">${score60} / 60</b></div>
