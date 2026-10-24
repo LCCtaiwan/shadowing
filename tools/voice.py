@@ -367,8 +367,18 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
     return len(todo) - len(failed), skipped
 
 
+PROBE_MODELS = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts", "gemini-3.1-flash-tts-preview",
+                "gemini-2.5-pro-preview-tts", "gemini-2.5-flash-preview-tts"]
+
+
 def probe(model):
-    """不經 SDK 重試，直接送一次請求，印出狀態碼、Retry-After 與錯誤內容（查額度用）。"""
+    """不經重試，每個 TTS 型號各送一次請求，印出狀態碼與錯誤內容（查額度用）。"""
+    for m in [model] + [x for x in PROBE_MODELS if x != model]:
+        print(f"== {m}")
+        _probe_one(m)
+
+
+def _probe_one(model):
     import httpx
     body = {
         "model": model,
