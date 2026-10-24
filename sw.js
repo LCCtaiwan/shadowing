@@ -1,5 +1,5 @@
 // Service worker：App 本體與劇本先抓網路（有更新馬上看到），離線時用快取；音檔抓過就留在快取，離線可播。
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SHELL = `shell-${VERSION}`;
 const CONTENT = 'content';
 const AUDIO = 'audio';
@@ -23,7 +23,7 @@ self.addEventListener('activate', e => {
 async function networkFirst(req, cacheName) {
   const cache = await caches.open(cacheName);
   try {
-    const res = await fetch(req);
+    const res = await fetch(req, { cache: 'no-cache' });  // 跟伺服器確認是否有新版（ETag），避免瀏覽器 10 分鐘快取
     if (res.ok) cache.put(req, res.clone());
     return res;
   } catch {
