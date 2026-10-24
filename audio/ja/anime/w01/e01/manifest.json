@@ -1,0 +1,308 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "5c2f8337125cbb1a",
+  "text": "台湾から来たシャオユーは、今日から東京の高校の二年生です。",
+  "voice": "Schedar"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "746a633796a3834d",
+  "text": "あー、静かに。転校生だ。自己紹介して。",
+  "voice": "Umbriel"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "ab76f73260df47d5",
+  "text": "はじめまして。シャオユーです。",
+  "voice": "Leda"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "9df6250423e304b3",
+  "text": "台湾の高雄から来ました。どうぞよろしくお願いします。",
+  "voice": "Leda"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "da08bf31fca489c7",
+  "text": "えっ、台湾から来たの？すごい！",
+  "voice": "Callirrhoe"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "2027d025259fd334",
+  "text": "はい、質問！シャオユーさんは、アイドルですか？",
+  "voice": "Puck"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "0080e214a8f45af2",
+  "text": "えっ？いいえ、アイドルじゃないです。普通の学生です。",
+  "voice": "Leda"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "63ebf14e834189cd",
+  "text": "台湾の人は、みんなタピオカが好き？",
+  "voice": "Callirrhoe"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "e1a768fb23220d9a",
+  "text": "みんなじゃないです。でも……わたしは大好きです。",
+  "voice": "Leda"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "f2092027c22026a8",
+  "text": "はい、そこまで。席はあそこだ。……俺は寝る。",
+  "voice": "Umbriel"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "1cbcf37d1a20bf4e",
+  "text": "シャオユーさん、にほんご、上手だね。",
+  "voice": "Callirrhoe"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "03e79fa04af96a5d",
+  "text": "いいえ、まだ上手じゃないです。みんなのにほんごは、ちょっと速いです。",
+  "voice": "Leda"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "cb67853091792bdb",
+  "text": "大丈夫だよ！俺たち、ぜんぜん速くないよ！",
+  "voice": "Puck"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "ca7d442c7efa529c",
+  "text": "……今、すごく速かったです。",
+  "voice": "Leda"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "d01c25080cb50c88",
+  "text": "うおおお！危ないぞー！",
+  "voice": "Fenrir"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "075d54e7c9af4b44",
+  "text": "ごめん！大丈夫か？",
+  "voice": "Fenrir"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "874ab35cd54977dd",
+  "text": "は、はい。大丈夫です。",
+  "voice": "Leda"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "e27b8475e186ca47",
+  "text": "あれ？お前、転校生だろ？",
+  "voice": "Fenrir"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "1b99dcfd12a277d8",
+  "text": "はい。二年生のシャオユーです。台湾から来ました。",
+  "voice": "Leda"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "48107e97f519106e",
+  "text": "台湾から？すげえ！俺は陽太。同じ二年だぜ！",
+  "voice": "Fenrir"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "b5bcc0ff1fa334f4",
+  "text": "あの……それは何ですか？",
+  "voice": "Leda"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "d2406cbbdba54547",
+  "text": "これか？マイクスタンドだ！かっこいいだろ！",
+  "voice": "Fenrir"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "98a1fafd31ae9fc2",
+  "text": "陽太さんは……歌手ですか？",
+  "voice": "Leda"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "90cb97758be32d6b",
+  "text": "歌手じゃない！ラジオ部だ！",
+  "voice": "Fenrir"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "f3a01290119f11f8",
+  "text": "陽太！遅い！早く来なさい！",
+  "voice": "Despina"
+ },
+ "s3-12": {
+  "file": "s3-12.mp3",
+  "hash": "1eee1fa3d8c87910",
+  "text": "うわっ、部長だ！じゃあな、シャオユー！",
+  "voice": "Fenrir"
+ },
+ "s3-13": {
+  "file": "s3-13.mp3",
+  "hash": "db699ff5d174b047",
+  "text": "ラジオ部……？",
+  "voice": "Leda"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "7878b9c744d5097d",
+  "text": "兄は医者です。わたしは医者じゃないです。",
+  "voice": "Sulafat"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "90b7e4468878b083",
+  "text": "この傘はわたしのじゃないです。",
+  "voice": "Sulafat"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "b89641accb900cb6",
+  "text": "マリアさんはブラジルから来ました。",
+  "voice": "Sulafat"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "a4b807a7156ed247",
+  "text": "田中さんは北海道から来ました。",
+  "voice": "Sulafat"
+ },
+ "ja:vocab:転校生": {
+  "file": "v-184bccb91024.mp3",
+  "hash": "469642dafcda1035",
+  "text": "てんこうせい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:自己紹介": {
+  "file": "v-79339e25daec.mp3",
+  "hash": "c2abbd808dea199f",
+  "text": "じこしょうかい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:来る": {
+  "file": "v-c2d00aede83d.mp3",
+  "hash": "38d97f62e3a37b93",
+  "text": "くる",
+  "voice": "Schedar"
+ },
+ "ja:vocab:質問": {
+  "file": "v-0151a5a3e230.mp3",
+  "hash": "6ae36d17d0cc5d6c",
+  "text": "しつもん",
+  "voice": "Schedar"
+ },
+ "ja:vocab:アイドル": {
+  "file": "v-0e4dbf46d8cf.mp3",
+  "hash": "5d7ab140c200be20",
+  "text": "アイドル",
+  "voice": "Schedar"
+ },
+ "ja:vocab:普通": {
+  "file": "v-2d7078352c5c.mp3",
+  "hash": "1b20704a8333edd5",
+  "text": "ふつう",
+  "voice": "Schedar"
+ },
+ "ja:vocab:学生": {
+  "file": "v-4240836a5da7.mp3",
+  "hash": "c1834648ee93abef",
+  "text": "がくせい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:大好き": {
+  "file": "v-0932746d8430.mp3",
+  "hash": "166094b9d8cb4d64",
+  "text": "だいすき",
+  "voice": "Schedar"
+ },
+ "ja:vocab:席": {
+  "file": "v-78a87ddd5120.mp3",
+  "hash": "b93b135459df0c18",
+  "text": "せき",
+  "voice": "Schedar"
+ },
+ "ja:vocab:寝る": {
+  "file": "v-2733728255c5.mp3",
+  "hash": "eea7f81d7ba99d4a",
+  "text": "ねる",
+  "voice": "Schedar"
+ },
+ "ja:vocab:上手": {
+  "file": "v-f84c98273159.mp3",
+  "hash": "6035c904ec68ebd5",
+  "text": "じょうず",
+  "voice": "Schedar"
+ },
+ "ja:vocab:速い": {
+  "file": "v-c3e1edb45a9f.mp3",
+  "hash": "b5c79bb9c73e3d77",
+  "text": "はやい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:危ない": {
+  "file": "v-3f08c8dd1f10.mp3",
+  "hash": "3dfbb64a2dec1aa5",
+  "text": "あぶない",
+  "voice": "Schedar"
+ },
+ "ja:vocab:大丈夫": {
+  "file": "v-39640ae85a00.mp3",
+  "hash": "3abafbb7fa7973ae",
+  "text": "だいじょうぶ",
+  "voice": "Schedar"
+ },
+ "ja:vocab:俺": {
+  "file": "v-58f184e3e818.mp3",
+  "hash": "4df4fe7409d9f6b6",
+  "text": "おれ",
+  "voice": "Schedar"
+ },
+ "ja:vocab:すごい": {
+  "file": "v-9053e7b1eb46.mp3",
+  "hash": "f06f6d96810068a4",
+  "text": "すごい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:かっこいい": {
+  "file": "v-e5fd7e7ec68b.mp3",
+  "hash": "cc217016ce232ef1",
+  "text": "かっこいい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:歌手": {
+  "file": "v-90bf8daf0bb0.mp3",
+  "hash": "f7dfd04edef7bd21",
+  "text": "かしゅ",
+  "voice": "Schedar"
+ },
+ "ja:vocab:遅い": {
+  "file": "v-af0d4fda8dc7.mp3",
+  "hash": "f80ad1ff74839b58",
+  "text": "おそい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:部長": {
+  "file": "v-4902f6054bcc.mp3",
+  "hash": "99fffd5195402d73",
+  "text": "ぶちょう",
+  "voice": "Schedar"
+ }
+}

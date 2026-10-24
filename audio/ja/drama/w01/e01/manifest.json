@@ -1,0 +1,308 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "54a5f64246ffa6d3",
+  "text": "台湾のエンジニア、リン・ユーシャン、二十六歳。仕事をやめて、一人でにほんへ旅行に来ました。",
+  "voice": "Schedar"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "d26cfc3b58ffeb7d",
+  "text": "次のかた、どうぞ。",
+  "voice": "Alnilam"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "3b272158fd3909a1",
+  "text": "パスポートを見せてください。",
+  "voice": "Alnilam"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "e86801a5ac2113ea",
+  "text": "入国の目的は何ですか。",
+  "voice": "Alnilam"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "2aa1be5ce853f127",
+  "text": "えっと……すみません、もう一度お願いします。",
+  "voice": "Iapetus"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "62354eeb44627fdb",
+  "text": "にほんになにをしに来ましたか。",
+  "voice": "Alnilam"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "26f481b3ceeff759",
+  "text": "あ、観光です。観光に来ました。",
+  "voice": "Iapetus"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "045e96597493a18d",
+  "text": "なんにちかん滞在しますか。",
+  "voice": "Alnilam"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "6ff470a46040adba",
+  "text": "えっと、三週間です。",
+  "voice": "Iapetus"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "9708a5116934404a",
+  "text": "どちらに泊まりますか。",
+  "voice": "Alnilam"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "900232507f4388dd",
+  "text": "浅草のホテルです。",
+  "voice": "Iapetus"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "c0b5a6f2af1edd4c",
+  "text": "では、ここに指を置いてください。",
+  "voice": "Alnilam"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "e39a149563a0590c",
+  "text": "こう……ですか。",
+  "voice": "Iapetus"
+ },
+ "s1-13": {
+  "file": "s1-13.mp3",
+  "hash": "b79ed876ff023316",
+  "text": "はい。次に、このカメラを見てください。",
+  "voice": "Alnilam"
+ },
+ "s1-14": {
+  "file": "s1-14.mp3",
+  "hash": "acc53e7df1d7b979",
+  "text": "はい、けっこうです。パスポートをどうぞ。",
+  "voice": "Alnilam"
+ },
+ "s1-15": {
+  "file": "s1-15.mp3",
+  "hash": "62967417ab83549b",
+  "text": "よかった……。ちゃんと全部わかりました。",
+  "voice": "Iapetus"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "a9a4e2db5b7a8c45",
+  "text": "あ、黒いスーツケース。ありました！",
+  "voice": "Iapetus"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "db8e142c153adfb9",
+  "text": "あの、すみません。それ、わたしのです。",
+  "voice": "Orus"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "b8066cce1219f630",
+  "text": "えっ！あっ、すみません！",
+  "voice": "Iapetus"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "0190909d7e01a459",
+  "text": "いえいえ。黒いの、多いですよね。",
+  "voice": "Orus"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "265b80131cea6cd9",
+  "text": "わたしのは……あ、これです。赤いリボンがあります。",
+  "voice": "Iapetus"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "c440b187a8f7adcd",
+  "text": "すみません。台湾ドルを円にしてください。",
+  "voice": "Iapetus"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "d2bba0e56f8f297f",
+  "text": "かしこまりました。こちらの紙に、金額とお名前を書いてください。",
+  "voice": "Charon"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "79b39cf17197a6c2",
+  "text": "はい。……一万たいわんドルです。",
+  "voice": "Iapetus"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "238fbf06670672f1",
+  "text": "お待たせしました。四万七千円です。ご確認ください。",
+  "voice": "Charon"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "4dcc02a11b9f5654",
+  "text": "ありがとうございます。",
+  "voice": "Iapetus"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "119bb570d432ab8e",
+  "text": "仕事じゃありません。旅行に来ました。……よし。",
+  "voice": "Iapetus"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "69572600560d4cba",
+  "text": "すみません、ゆっくり話してください。",
+  "voice": "Sulafat"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "9da06f03b08e83c0",
+  "text": "ここで少し待ってください。",
+  "voice": "Sulafat"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "3264b1d755536e37",
+  "text": "友だちに会いに来ました。",
+  "voice": "Sulafat"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "01428b52aba6186a",
+  "text": "渋谷へ買い物に来ました。",
+  "voice": "Sulafat"
+ },
+ "ja:vocab:入国": {
+  "file": "v-7b2913c1a5fe.mp3",
+  "hash": "091980f264783c2d",
+  "text": "にゅうこく",
+  "voice": "Schedar"
+ },
+ "ja:vocab:目的": {
+  "file": "v-283d3edf3f40.mp3",
+  "hash": "2a07c5c9bb042441",
+  "text": "もくてき",
+  "voice": "Schedar"
+ },
+ "ja:vocab:観光": {
+  "file": "v-bd9b2c1857dc.mp3",
+  "hash": "4600678db840db4b",
+  "text": "かんこう",
+  "voice": "Schedar"
+ },
+ "ja:vocab:滞在": {
+  "file": "v-95498deb7bea.mp3",
+  "hash": "094bd9b182a205a6",
+  "text": "たいざい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:泊まる": {
+  "file": "v-b07e4b5946e8.mp3",
+  "hash": "85e30e71c7925c20",
+  "text": "とまる",
+  "voice": "Schedar"
+ },
+ "ja:vocab:見せる": {
+  "file": "v-28de2ccebf9e.mp3",
+  "hash": "e556a49c5a7cd8a1",
+  "text": "みせる",
+  "voice": "Schedar"
+ },
+ "ja:vocab:指": {
+  "file": "v-0e1cd47fe4b1.mp3",
+  "hash": "cf36ae992b4804f3",
+  "text": "ゆび",
+  "voice": "Schedar"
+ },
+ "ja:vocab:置く": {
+  "file": "v-919448613c39.mp3",
+  "hash": "52a7e79991609e22",
+  "text": "おく",
+  "voice": "Schedar"
+ },
+ "ja:vocab:次": {
+  "file": "v-9c562dae1d90.mp3",
+  "hash": "d017c9ee3f406e22",
+  "text": "つぎ",
+  "voice": "Schedar"
+ },
+ "ja:vocab:全部": {
+  "file": "v-a5ffb5044c74.mp3",
+  "hash": "6c93a0f6aa7d63b4",
+  "text": "ぜんぶ",
+  "voice": "Schedar"
+ },
+ "ja:vocab:黒い": {
+  "file": "v-2589418f1b4c.mp3",
+  "hash": "f28277dbd59b1119",
+  "text": "くろい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:多い": {
+  "file": "v-92160e6cf19b.mp3",
+  "hash": "46522dbbbe40438d",
+  "text": "おおい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:赤い": {
+  "file": "v-a8336bcfbb90.mp3",
+  "hash": "277cbca74c4c0c6a",
+  "text": "あかい",
+  "voice": "Schedar"
+ },
+ "ja:vocab:円": {
+  "file": "v-ac87b782aa0f.mp3",
+  "hash": "668bf792602284d9",
+  "text": "えん",
+  "voice": "Schedar"
+ },
+ "ja:vocab:金額": {
+  "file": "v-5a8a5803bba4.mp3",
+  "hash": "8101952ccfc18406",
+  "text": "きんがく",
+  "voice": "Schedar"
+ },
+ "ja:vocab:名前": {
+  "file": "v-83ad56fcdd62.mp3",
+  "hash": "ee2a728ef4d4b5a6",
+  "text": "なまえ",
+  "voice": "Schedar"
+ },
+ "ja:vocab:書く": {
+  "file": "v-9e58487d9bba.mp3",
+  "hash": "07dfbf567980645d",
+  "text": "かく",
+  "voice": "Schedar"
+ },
+ "ja:vocab:確認": {
+  "file": "v-dfa1f0ad03ba.mp3",
+  "hash": "193c4f4ffebcb910",
+  "text": "かくにん",
+  "voice": "Schedar"
+ },
+ "ja:vocab:仕事": {
+  "file": "v-5baef7d1a86f.mp3",
+  "hash": "149bd89bbe906704",
+  "text": "しごと",
+  "voice": "Schedar"
+ },
+ "ja:vocab:旅行": {
+  "file": "v-61679583d3a2.mp3",
+  "hash": "d8c6b05155971e73",
+  "text": "りょこう",
+  "voice": "Schedar"
+ }
+}
