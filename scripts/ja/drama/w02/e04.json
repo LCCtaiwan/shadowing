@@ -746,7 +746,33 @@
       "pos": "名詞",
       "zh": "便當",
       "level": "N4",
-      "line": "s1-02"
+      "line": "s1-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "コンビニ",
+            "text": "コンビニ弁当",
+            "zh": "超商便當"
+          },
+          {
+            "cue": "手作り",
+            "text": "手作り弁当",
+            "zh": "手做便當"
+          }
+        ],
+        "related": [
+          {
+            "text": "温める",
+            "reading": "あたためる",
+            "zh": "加熱"
+          },
+          {
+            "text": "箸",
+            "reading": "はし",
+            "zh": "筷子"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:冷蔵庫",
@@ -755,7 +781,28 @@
       "pos": "名詞",
       "zh": "冰箱；（店裡的）冷藏櫃",
       "level": "N4",
-      "line": "s1-05"
+      "line": "s1-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "部屋の",
+            "text": "部屋の冷蔵庫",
+            "zh": "房間裡的冰箱"
+          }
+        ],
+        "related": [
+          {
+            "text": "冷たい",
+            "reading": "つめたい",
+            "zh": "冰的"
+          },
+          {
+            "text": "奥",
+            "reading": "おく",
+            "zh": "裡面、深處"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:奥",
@@ -764,7 +811,35 @@
       "pos": "名詞",
       "zh": "裡面、深處",
       "level": "N3",
-      "line": "s1-05"
+      "line": "s1-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "店の",
+            "text": "店の奥",
+            "zh": "店的裡面"
+          },
+          {
+            "cue": "一番",
+            "text": "一番奥",
+            "zh": "最裡面"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "手前",
+            "reading": "てまえ",
+            "zh": "前面、靠近自己這邊"
+          }
+        ],
+        "related": [
+          {
+            "text": "横",
+            "reading": "よこ",
+            "zh": "旁邊、側面"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:次",
@@ -774,7 +849,35 @@
       "zh": "下一個",
       "level": "N5",
       "line": "s2-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "その",
+            "text": "その次",
+            "zh": "再下一個、接下來"
+          },
+          {
+            "cue": "この",
+            "text": "この次",
+            "zh": "下次"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "前",
+            "reading": "まえ",
+            "zh": "前一個、之前"
+          }
+        ],
+        "related": [
+          {
+            "text": "並ぶ",
+            "reading": "ならぶ",
+            "zh": "排隊"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:温める",
@@ -784,7 +887,40 @@
       "zh": "加熱、弄熱",
       "level": "N4",
       "line": "s2-02",
-      "surface": "温め"
+      "surface": "温め",
+      "links": {
+        "collocations": [
+          {
+            "cue": "レンジで",
+            "text": "レンジで温める",
+            "zh": "用微波爐加熱"
+          },
+          {
+            "cue": "お弁当を",
+            "text": "お弁当を温める",
+            "zh": "把便當加熱"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "冷やす",
+            "reading": "ひやす",
+            "zh": "弄涼、冰鎮"
+          }
+        ],
+        "related": [
+          {
+            "text": "温かい",
+            "reading": "あたたかい",
+            "zh": "溫熱的"
+          },
+          {
+            "text": "弁当",
+            "reading": "べんとう",
+            "zh": "便當"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:袋",
@@ -793,7 +929,33 @@
       "pos": "名詞",
       "zh": "袋子",
       "level": "N4",
-      "line": "s2-04"
+      "line": "s2-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "レジ",
+            "text": "レジ袋",
+            "zh": "（店家的）塑膠袋"
+          },
+          {
+            "cue": "ビニール",
+            "text": "ビニール袋",
+            "zh": "塑膠袋"
+          }
+        ],
+        "related": [
+          {
+            "text": "入れる",
+            "reading": "いれる",
+            "zh": "放進去"
+          },
+          {
+            "text": "分ける",
+            "reading": "わける",
+            "zh": "分開"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:利用",
@@ -802,7 +964,33 @@
       "pos": "名詞・する動詞",
       "zh": "利用、使用（ご利用＝店員的敬語說法）",
       "level": "N3",
-      "line": "s2-04"
+      "line": "s2-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "電車を",
+            "text": "電車を利用する",
+            "zh": "搭乘電車"
+          },
+          {
+            "cue": "無料で",
+            "text": "無料で利用できる",
+            "zh": "可以免費使用"
+          }
+        ],
+        "related": [
+          {
+            "text": "使う",
+            "reading": "つかう",
+            "zh": "使用"
+          },
+          {
+            "text": "無料",
+            "reading": "むりょう",
+            "zh": "免費"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:分ける",
@@ -812,7 +1000,33 @@
       "zh": "分開",
       "level": "N4",
       "line": "s2-06",
-      "surface": "分け"
+      "surface": "分け",
+      "links": {
+        "collocations": [
+          {
+            "cue": "袋を",
+            "text": "袋を分ける",
+            "zh": "袋子分開裝"
+          },
+          {
+            "cue": "半分に",
+            "text": "半分に分ける",
+            "zh": "分成兩半"
+          }
+        ],
+        "related": [
+          {
+            "text": "袋",
+            "reading": "ふくろ",
+            "zh": "袋子"
+          },
+          {
+            "text": "半分",
+            "reading": "はんぶん",
+            "zh": "一半"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:温かい",
@@ -821,7 +1035,35 @@
       "pos": "い形容詞",
       "zh": "溫熱的",
       "level": "N4",
-      "line": "s2-08"
+      "line": "s2-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "まだ",
+            "text": "まだ温かい",
+            "zh": "還是溫的"
+          },
+          {
+            "cue": "スープが",
+            "text": "スープが温かい",
+            "zh": "湯是熱的"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "冷たい",
+            "reading": "つめたい",
+            "zh": "冰的、冷的"
+          }
+        ],
+        "related": [
+          {
+            "text": "温める",
+            "reading": "あたためる",
+            "zh": "加熱"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:冷たい",
@@ -830,7 +1072,35 @@
       "pos": "い形容詞",
       "zh": "冰的、冷的（摸起來）",
       "level": "N5",
-      "line": "s2-08"
+      "line": "s2-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "水が",
+            "text": "水が冷たい",
+            "zh": "水很冰"
+          },
+          {
+            "cue": "手が",
+            "text": "手が冷たい",
+            "zh": "手很冰"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "温かい",
+            "reading": "あたたかい",
+            "zh": "溫熱的"
+          }
+        ],
+        "related": [
+          {
+            "text": "冷蔵庫",
+            "reading": "れいぞうこ",
+            "zh": "冰箱"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:箸",
@@ -839,7 +1109,28 @@
       "pos": "名詞",
       "zh": "筷子",
       "level": "N5",
-      "line": "s2-10"
+      "line": "s2-10",
+      "links": {
+        "collocations": [
+          {
+            "cue": "割り",
+            "text": "割り箸",
+            "zh": "免洗筷"
+          }
+        ],
+        "related": [
+          {
+            "text": "弁当",
+            "reading": "べんとう",
+            "zh": "便當"
+          },
+          {
+            "text": "付ける",
+            "reading": "つける",
+            "zh": "附上"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:付ける",
@@ -849,7 +1140,33 @@
       "zh": "附上、加上",
       "level": "N4",
       "line": "s2-10",
-      "surface": "つけ"
+      "surface": "つけ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "箸を",
+            "text": "箸を付ける",
+            "zh": "附上筷子"
+          },
+          {
+            "cue": "ソースを",
+            "text": "ソースを付ける",
+            "zh": "沾醬"
+          }
+        ],
+        "related": [
+          {
+            "text": "箸",
+            "reading": "はし",
+            "zh": "筷子"
+          },
+          {
+            "text": "袋",
+            "reading": "ふくろ",
+            "zh": "袋子"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:ポイントカード",
@@ -858,7 +1175,28 @@
       "pos": "名詞",
       "zh": "集點卡",
       "level": "N4",
-      "line": "s2-12"
+      "line": "s2-12",
+      "links": {
+        "collocations": [
+          {
+            "cue": "コンビニの",
+            "text": "コンビニのポイントカード",
+            "zh": "超商的集點卡"
+          }
+        ],
+        "related": [
+          {
+            "text": "レシート",
+            "reading": "レシート",
+            "zh": "收據、發票"
+          },
+          {
+            "text": "会計",
+            "reading": "かいけい",
+            "zh": "結帳"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:持つ",
@@ -868,7 +1206,33 @@
       "zh": "拿、持有（お持ちですか＝您有嗎）",
       "level": "N5",
       "line": "s2-12",
-      "surface": "持ち"
+      "surface": "持ち",
+      "links": {
+        "collocations": [
+          {
+            "cue": "荷物を",
+            "text": "荷物を持つ",
+            "zh": "拿行李"
+          },
+          {
+            "cue": "カードを",
+            "text": "カードを持っている",
+            "zh": "有卡"
+          }
+        ],
+        "related": [
+          {
+            "text": "荷物",
+            "reading": "にもつ",
+            "zh": "行李"
+          },
+          {
+            "text": "ポイントカード",
+            "reading": "ポイントカード",
+            "zh": "集點卡"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:会計",
@@ -877,7 +1241,28 @@
       "pos": "名詞",
       "zh": "結帳（お会計）",
       "level": "N3",
-      "line": "s2-16"
+      "line": "s2-16",
+      "links": {
+        "collocations": [
+          {
+            "cue": "レジで",
+            "text": "レジで会計する",
+            "zh": "在收銀台結帳"
+          }
+        ],
+        "related": [
+          {
+            "text": "レシート",
+            "reading": "レシート",
+            "zh": "收據、發票"
+          },
+          {
+            "text": "Suica",
+            "reading": "スイカ",
+            "zh": "Suica 交通 IC 卡"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:Suica",
@@ -886,7 +1271,28 @@
       "pos": "名詞",
       "zh": "Suica（交通 IC 卡，也能在便利商店付款）",
       "level": "N5",
-      "line": "s2-17"
+      "line": "s2-17",
+      "links": {
+        "collocations": [
+          {
+            "cue": "モバイル",
+            "text": "モバイルSuica",
+            "zh": "手機版 Suica"
+          }
+        ],
+        "related": [
+          {
+            "text": "ICOCA",
+            "reading": "イコカ",
+            "zh": "ICOCA 交通 IC 卡"
+          },
+          {
+            "text": "電車",
+            "reading": "でんしゃ",
+            "zh": "電車"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:レシート",
@@ -895,7 +1301,22 @@
       "pos": "名詞",
       "zh": "收據、發票",
       "level": "N4",
-      "line": "s2-19"
+      "line": "s2-19",
+      "links": {
+        "collocations": [],
+        "related": [
+          {
+            "text": "領収書",
+            "reading": "りょうしゅうしょ",
+            "zh": "收據（正式、可報帳）"
+          },
+          {
+            "text": "会計",
+            "reading": "かいけい",
+            "zh": "結帳"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:恥ずかしい",
@@ -905,7 +1326,21 @@
       "zh": "丟臉、不好意思",
       "level": "N4",
       "line": "s3-03",
-      "surface": "恥ずかしかった"
+      "surface": "恥ずかしかった",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ちょっと",
+            "text": "ちょっと恥ずかしい",
+            "zh": "有點不好意思"
+          },
+          {
+            "cue": "本当に",
+            "text": "本当に恥ずかしかった",
+            "zh": "真的好丟臉"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

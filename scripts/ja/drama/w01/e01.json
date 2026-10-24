@@ -704,7 +704,35 @@
       "zh": "入境",
       "level": "N3",
       "line": "s1-03",
-      "surface": "入国"
+      "surface": "入国",
+      "links": {
+        "collocations": [
+          {
+            "cue": "日本に",
+            "text": "日本に入国する",
+            "zh": "入境日本"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "出国",
+            "reading": "しゅっこく",
+            "zh": "出境"
+          }
+        ],
+        "related": [
+          {
+            "text": "パスポート",
+            "reading": "パスポート",
+            "zh": "護照"
+          },
+          {
+            "text": "滞在",
+            "reading": "たいざい",
+            "zh": "停留、居留"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:目的",
@@ -714,7 +742,33 @@
       "zh": "目的",
       "level": "N3",
       "line": "s1-03",
-      "surface": "目的"
+      "surface": "目的",
+      "links": {
+        "collocations": [
+          {
+            "cue": "入国の",
+            "text": "入国の目的",
+            "zh": "入境的目的"
+          },
+          {
+            "cue": "旅行の",
+            "text": "旅行の目的",
+            "zh": "旅行的目的"
+          }
+        ],
+        "related": [
+          {
+            "text": "観光",
+            "reading": "かんこう",
+            "zh": "觀光"
+          },
+          {
+            "text": "仕事",
+            "reading": "しごと",
+            "zh": "工作"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:観光",
@@ -724,7 +778,33 @@
       "zh": "觀光",
       "level": "N3",
       "line": "s1-06",
-      "surface": "観光"
+      "surface": "観光",
+      "links": {
+        "collocations": [
+          {
+            "cue": "京都を",
+            "text": "京都を観光する",
+            "zh": "在京都觀光"
+          },
+          {
+            "cue": "市内",
+            "text": "市内観光",
+            "zh": "市區觀光"
+          }
+        ],
+        "related": [
+          {
+            "text": "旅行",
+            "reading": "りょこう",
+            "zh": "旅行"
+          },
+          {
+            "text": "目的",
+            "reading": "もくてき",
+            "zh": "目的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:滞在",
@@ -734,7 +814,33 @@
       "zh": "停留、居留",
       "level": "N3",
       "line": "s1-07",
-      "surface": "滞在"
+      "surface": "滞在",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルに",
+            "text": "ホテルに滞在する",
+            "zh": "住在飯店"
+          },
+          {
+            "cue": "一週間",
+            "text": "一週間滞在する",
+            "zh": "停留一個星期"
+          }
+        ],
+        "related": [
+          {
+            "text": "泊まる",
+            "reading": "とまる",
+            "zh": "住宿、過夜"
+          },
+          {
+            "text": "入国",
+            "reading": "にゅうこく",
+            "zh": "入境"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:泊まる",
@@ -744,7 +850,33 @@
       "zh": "住宿、過夜",
       "level": "N4",
       "line": "s1-09",
-      "surface": "泊まり"
+      "surface": "泊まり",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルに",
+            "text": "ホテルに泊まる",
+            "zh": "住飯店"
+          },
+          {
+            "cue": "友達の家に",
+            "text": "友達の家に泊まる",
+            "zh": "住在朋友家"
+          }
+        ],
+        "related": [
+          {
+            "text": "三泊",
+            "reading": "さんぱく",
+            "zh": "住三晚"
+          },
+          {
+            "text": "部屋",
+            "reading": "へや",
+            "zh": "房間"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:見せる",
@@ -754,7 +886,33 @@
       "zh": "給人看、出示",
       "level": "N5",
       "line": "s1-02",
-      "surface": "見せ"
+      "surface": "見せ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "パスポートを",
+            "text": "パスポートを見せる",
+            "zh": "出示護照"
+          },
+          {
+            "cue": "写真を",
+            "text": "写真を見せる",
+            "zh": "給人看照片"
+          }
+        ],
+        "related": [
+          {
+            "text": "パスポート",
+            "reading": "パスポート",
+            "zh": "護照"
+          },
+          {
+            "text": "確認",
+            "reading": "かくにん",
+            "zh": "確認"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:指",
@@ -764,7 +922,28 @@
       "zh": "手指",
       "level": "N4",
       "line": "s1-11",
-      "surface": "指"
+      "surface": "指",
+      "links": {
+        "collocations": [
+          {
+            "cue": "人差し",
+            "text": "人差し指",
+            "zh": "食指"
+          }
+        ],
+        "related": [
+          {
+            "text": "手",
+            "reading": "て",
+            "zh": "手"
+          },
+          {
+            "text": "置く",
+            "reading": "おく",
+            "zh": "放、擺"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:置く",
@@ -774,7 +953,33 @@
       "zh": "放、擺",
       "level": "N5",
       "line": "s1-11",
-      "surface": "置い"
+      "surface": "置い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "指を",
+            "text": "指を置く",
+            "zh": "把手指放上去"
+          },
+          {
+            "cue": "荷物を",
+            "text": "荷物を置く",
+            "zh": "放行李"
+          }
+        ],
+        "related": [
+          {
+            "text": "指",
+            "reading": "ゆび",
+            "zh": "手指"
+          },
+          {
+            "text": "荷物",
+            "reading": "にもつ",
+            "zh": "行李"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:次",
@@ -784,7 +989,35 @@
       "zh": "下一個、接著",
       "level": "N5",
       "line": "s1-01",
-      "surface": "次"
+      "surface": "次",
+      "links": {
+        "collocations": [
+          {
+            "cue": "その",
+            "text": "その次",
+            "zh": "再下一個、接下來"
+          },
+          {
+            "cue": "この",
+            "text": "この次",
+            "zh": "下次"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "前",
+            "reading": "まえ",
+            "zh": "前一個、之前"
+          }
+        ],
+        "related": [
+          {
+            "text": "並ぶ",
+            "reading": "ならぶ",
+            "zh": "排隊"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:全部",
@@ -794,7 +1027,30 @@
       "zh": "全部",
       "level": "N5",
       "line": "s1-15",
-      "surface": "全部"
+      "surface": "全部",
+      "links": {
+        "collocations": [
+          {
+            "cue": "これで",
+            "text": "これで全部",
+            "zh": "這樣就是全部"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "一部",
+            "reading": "いちぶ",
+            "zh": "一部分"
+          }
+        ],
+        "related": [
+          {
+            "text": "半分",
+            "reading": "はんぶん",
+            "zh": "一半"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:黒い",
@@ -804,7 +1060,40 @@
       "zh": "黑色的",
       "level": "N5",
       "line": "s2-01",
-      "surface": "黒い"
+      "surface": "黒い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "髪が",
+            "text": "髪が黒い",
+            "zh": "頭髮是黑的"
+          },
+          {
+            "cue": "色が",
+            "text": "色が黒い",
+            "zh": "顏色是黑的"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "白い",
+            "reading": "しろい",
+            "zh": "白色的"
+          }
+        ],
+        "related": [
+          {
+            "text": "赤い",
+            "reading": "あかい",
+            "zh": "紅色的"
+          },
+          {
+            "text": "青い",
+            "reading": "あおい",
+            "zh": "藍色的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:多い",
@@ -814,7 +1103,28 @@
       "zh": "多的",
       "level": "N5",
       "line": "s2-04",
-      "surface": "多い"
+      "surface": "多い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "人が",
+            "text": "人が多い",
+            "zh": "人很多"
+          },
+          {
+            "cue": "荷物が",
+            "text": "荷物が多い",
+            "zh": "行李很多"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "少ない",
+            "reading": "すくない",
+            "zh": "少的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:赤い",
@@ -824,7 +1134,33 @@
       "zh": "紅色的",
       "level": "N5",
       "line": "s2-05",
-      "surface": "赤い"
+      "surface": "赤い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "顔が",
+            "text": "顔が赤い",
+            "zh": "臉紅"
+          },
+          {
+            "cue": "目が",
+            "text": "目が赤い",
+            "zh": "眼睛紅紅的"
+          }
+        ],
+        "related": [
+          {
+            "text": "黒い",
+            "reading": "くろい",
+            "zh": "黑色的"
+          },
+          {
+            "text": "黄色い",
+            "reading": "きいろい",
+            "zh": "黃色的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:円",
@@ -834,7 +1170,33 @@
       "zh": "日圓",
       "level": "N5",
       "line": "s3-01",
-      "surface": "円"
+      "surface": "円",
+      "links": {
+        "collocations": [
+          {
+            "cue": "五百",
+            "text": "五百円",
+            "zh": "五百日圓"
+          },
+          {
+            "cue": "一万",
+            "text": "一万円",
+            "zh": "一萬日圓"
+          }
+        ],
+        "related": [
+          {
+            "text": "お金",
+            "reading": "おかね",
+            "zh": "錢"
+          },
+          {
+            "text": "金額",
+            "reading": "きんがく",
+            "zh": "金額"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:金額",
@@ -844,7 +1206,33 @@
       "zh": "金額",
       "level": "N2",
       "line": "s3-02",
-      "surface": "金額"
+      "surface": "金額",
+      "links": {
+        "collocations": [
+          {
+            "cue": "合計",
+            "text": "合計金額",
+            "zh": "總金額"
+          },
+          {
+            "cue": "お支払い",
+            "text": "お支払い金額",
+            "zh": "應付金額"
+          }
+        ],
+        "related": [
+          {
+            "text": "円",
+            "reading": "えん",
+            "zh": "日圓"
+          },
+          {
+            "text": "お金",
+            "reading": "おかね",
+            "zh": "錢"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:名前",
@@ -854,7 +1242,33 @@
       "zh": "名字",
       "level": "N5",
       "line": "s3-02",
-      "surface": "名前"
+      "surface": "名前",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お店の",
+            "text": "お店の名前",
+            "zh": "店名"
+          },
+          {
+            "cue": "自分の",
+            "text": "自分の名前",
+            "zh": "自己的名字"
+          }
+        ],
+        "related": [
+          {
+            "text": "住所",
+            "reading": "じゅうしょ",
+            "zh": "地址"
+          },
+          {
+            "text": "書く",
+            "reading": "かく",
+            "zh": "寫"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:書く",
@@ -864,7 +1278,33 @@
       "zh": "寫",
       "level": "N5",
       "line": "s3-02",
-      "surface": "書い"
+      "surface": "書い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "名前を",
+            "text": "名前を書く",
+            "zh": "寫名字"
+          },
+          {
+            "cue": "住所を",
+            "text": "住所を書く",
+            "zh": "寫地址"
+          }
+        ],
+        "related": [
+          {
+            "text": "記入",
+            "reading": "きにゅう",
+            "zh": "填寫"
+          },
+          {
+            "text": "漢字",
+            "reading": "かんじ",
+            "zh": "漢字"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:確認",
@@ -874,7 +1314,33 @@
       "zh": "確認",
       "level": "N3",
       "line": "s3-04",
-      "surface": "確認"
+      "surface": "確認",
+      "links": {
+        "collocations": [
+          {
+            "cue": "金額を",
+            "text": "金額を確認する",
+            "zh": "確認金額"
+          },
+          {
+            "cue": "予約の",
+            "text": "予約の確認",
+            "zh": "確認預約"
+          }
+        ],
+        "related": [
+          {
+            "text": "見せる",
+            "reading": "みせる",
+            "zh": "給人看、出示"
+          },
+          {
+            "text": "予約",
+            "reading": "よやく",
+            "zh": "預約、訂位"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:仕事",
@@ -884,7 +1350,35 @@
       "zh": "工作",
       "level": "N5",
       "line": "s3-06",
-      "surface": "仕事"
+      "surface": "仕事",
+      "links": {
+        "collocations": [
+          {
+            "cue": "明日も",
+            "text": "明日も仕事",
+            "zh": "明天也要上班"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "休み",
+            "reading": "やすみ",
+            "zh": "休假、休息日"
+          }
+        ],
+        "related": [
+          {
+            "text": "観光",
+            "reading": "かんこう",
+            "zh": "觀光"
+          },
+          {
+            "text": "目的",
+            "reading": "もくてき",
+            "zh": "目的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:旅行",
@@ -894,7 +1388,33 @@
       "zh": "旅行",
       "level": "N5",
       "line": "s3-06",
-      "surface": "旅行"
+      "surface": "旅行",
+      "links": {
+        "collocations": [
+          {
+            "cue": "家族",
+            "text": "家族旅行",
+            "zh": "家族旅遊"
+          },
+          {
+            "cue": "海外",
+            "text": "海外旅行",
+            "zh": "出國旅遊"
+          }
+        ],
+        "related": [
+          {
+            "text": "旅",
+            "reading": "たび",
+            "zh": "旅行、旅途"
+          },
+          {
+            "text": "観光",
+            "reading": "かんこう",
+            "zh": "觀光"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

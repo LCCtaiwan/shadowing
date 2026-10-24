@@ -10,7 +10,33 @@
    "used_in": [
     "anime-w01-e01",
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "うわさの",
+      "text": "うわさの転校生",
+      "zh": "傳聞中的轉學生"
+     },
+     {
+      "cue": "新しい",
+      "text": "新しい転校生",
+      "zh": "新來的轉學生"
+     }
+    ],
+    "related": [
+     {
+      "text": "自己紹介",
+      "reading": "じこしょうかい",
+      "zh": "自我介紹"
+     },
+     {
+      "text": "席",
+      "reading": "せき",
+      "zh": "座位"
+     }
+    ]
+   }
   },
   "ja:vocab:自己紹介": {
    "text": "自己紹介",
@@ -21,7 +47,28 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "簡単な",
+      "text": "簡単な自己紹介",
+      "zh": "簡單的自我介紹"
+     }
+    ],
+    "related": [
+     {
+      "text": "名前",
+      "reading": "なまえ",
+      "zh": "名字"
+     },
+     {
+      "text": "転校生",
+      "reading": "てんこうせい",
+      "zh": "轉學生"
+     }
+    ]
+   }
   },
   "ja:vocab:来る": {
    "text": "来る",
@@ -32,7 +79,35 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "日本に",
+      "text": "日本に来る",
+      "zh": "來日本"
+     },
+     {
+      "cue": "遊びに",
+      "text": "遊びに来る",
+      "zh": "來玩"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "行く",
+      "reading": "いく",
+      "zh": "去"
+     }
+    ],
+    "related": [
+     {
+      "text": "迎える",
+      "reading": "むかえる",
+      "zh": "迎接"
+     }
+    ]
+   }
   },
   "ja:vocab:質問": {
    "text": "質問",
@@ -43,7 +118,35 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "いい",
+      "text": "いい質問",
+      "zh": "好問題"
+     },
+     {
+      "cue": "変な",
+      "text": "変な質問",
+      "zh": "奇怪的問題"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "答え",
+      "reading": "こたえ",
+      "zh": "回答、答案"
+     }
+    ],
+    "related": [
+     {
+      "text": "聞く",
+      "reading": "きく",
+      "zh": "問；聽"
+     }
+    ]
+   }
   },
   "ja:vocab:アイドル": {
    "text": "アイドル",
@@ -54,7 +157,28 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "人気",
+      "text": "人気アイドル",
+      "zh": "人氣偶像"
+     }
+    ],
+    "related": [
+     {
+      "text": "歌手",
+      "reading": "かしゅ",
+      "zh": "歌手"
+     },
+     {
+      "text": "ファン",
+      "reading": "ファン",
+      "zh": "粉絲"
+     }
+    ]
+   }
   },
   "ja:vocab:普通": {
    "text": "普通",
@@ -67,7 +191,30 @@
     "anime-w01-e01",
     "anime-w01-e03",
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ごく",
+      "text": "ごく普通",
+      "zh": "極其普通、再普通不過"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "特別",
+      "reading": "とくべつ",
+      "zh": "特別"
+     }
+    ],
+    "related": [
+     {
+      "text": "学生",
+      "reading": "がくせい",
+      "zh": "學生"
+     }
+    ]
+   }
   },
   "ja:vocab:学生": {
    "text": "学生",
@@ -78,7 +225,33 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "普通の",
+      "text": "普通の学生",
+      "zh": "普通的學生"
+     },
+     {
+      "cue": "まじめな",
+      "text": "まじめな学生",
+      "zh": "認真的學生"
+     }
+    ],
+    "related": [
+     {
+      "text": "先生",
+      "reading": "せんせい",
+      "zh": "老師"
+     },
+     {
+      "text": "小学生",
+      "reading": "しょうがくせい",
+      "zh": "小學生"
+     }
+    ]
+   }
   },
   "ja:vocab:大好き": {
    "text": "大好き",
@@ -89,7 +262,28 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "アニメが",
+      "text": "アニメが大好き",
+      "zh": "超喜歡動畫"
+     },
+     {
+      "cue": "甘いものが",
+      "text": "甘いものが大好き",
+      "zh": "超愛吃甜食"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "大嫌い",
+      "reading": "だいきらい",
+      "zh": "非常討厭"
+     }
+    ]
+   }
   },
   "ja:vocab:席": {
    "text": "席",
@@ -100,7 +294,33 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "窓際の",
+      "text": "窓際の席",
+      "zh": "靠窗的座位"
+     },
+     {
+      "cue": "隣の",
+      "text": "隣の席",
+      "zh": "旁邊的座位"
+     }
+    ],
+    "related": [
+     {
+      "text": "座る",
+      "reading": "すわる",
+      "zh": "坐"
+     },
+     {
+      "text": "椅子",
+      "reading": "いす",
+      "zh": "椅子"
+     }
+    ]
+   }
   },
   "ja:vocab:寝る": {
    "text": "寝る",
@@ -113,7 +333,35 @@
     "anime-w01-e01",
     "drama-w01-e02",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "授業中に",
+      "text": "授業中に寝る",
+      "zh": "上課時睡覺"
+     },
+     {
+      "cue": "早く",
+      "text": "早く寝る",
+      "zh": "早點睡"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "起きる",
+      "reading": "おきる",
+      "zh": "起床"
+     }
+    ],
+    "related": [
+     {
+      "text": "夜",
+      "reading": "よる",
+      "zh": "晚上"
+     }
+    ]
+   }
   },
   "ja:vocab:上手": {
    "text": "上手",
@@ -126,7 +374,35 @@
     "anime-w01-e01",
     "drama-w01-e03",
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "歌が",
+      "text": "歌が上手",
+      "zh": "很會唱歌"
+     },
+     {
+      "cue": "日本語が",
+      "text": "日本語が上手",
+      "zh": "日文很好"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "下手",
+      "reading": "へた",
+      "zh": "不擅長、很差"
+     }
+    ],
+    "related": [
+     {
+      "text": "苦手",
+      "reading": "にがて",
+      "zh": "不擅長、應付不來"
+     }
+    ]
+   }
   },
   "ja:vocab:速い": {
    "text": "速い",
@@ -138,7 +414,35 @@
    "used_in": [
     "anime-w01-e01",
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "足が",
+      "text": "足が速い",
+      "zh": "跑得快"
+     },
+     {
+      "cue": "頭の回転が",
+      "text": "頭の回転が速い",
+      "zh": "腦筋轉得快"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "遅い",
+      "reading": "おそい",
+      "zh": "慢"
+     }
+    ],
+    "related": [
+     {
+      "text": "走る",
+      "reading": "はしる",
+      "zh": "跑"
+     }
+    ]
+   }
   },
   "ja:vocab:危ない": {
    "text": "危ない",
@@ -149,7 +453,35 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ここは",
+      "text": "ここは危ない",
+      "zh": "這裡很危險"
+     },
+     {
+      "cue": "一人で行くのは",
+      "text": "一人で行くのは危ない",
+      "zh": "一個人去很危險"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "安全",
+      "reading": "あんぜん",
+      "zh": "安全"
+     }
+    ],
+    "related": [
+     {
+      "text": "怖い",
+      "reading": "こわい",
+      "zh": "可怕"
+     }
+    ]
+   }
   },
   "ja:vocab:大丈夫": {
    "text": "大丈夫",
@@ -161,7 +493,33 @@
    "used_in": [
     "anime-w01-e01",
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "もう",
+      "text": "もう大丈夫",
+      "zh": "已經沒事了"
+     },
+     {
+      "cue": "一人で",
+      "text": "一人で大丈夫",
+      "zh": "一個人沒問題"
+     }
+    ],
+    "related": [
+     {
+      "text": "心配",
+      "reading": "しんぱい",
+      "zh": "擔心"
+     },
+     {
+      "text": "安心",
+      "reading": "あんしん",
+      "zh": "安心、放心"
+     }
+    ]
+   }
   },
   "ja:vocab:俺": {
    "text": "俺",
@@ -172,7 +530,21 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "僕",
+      "reading": "ぼく",
+      "zh": "我（男生較溫和的自稱）"
+     },
+     {
+      "text": "私",
+      "reading": "わたし",
+      "zh": "我（最一般的自稱）"
+     }
+    ]
+   }
   },
   "ja:vocab:すごい": {
    "text": "すごい",
@@ -183,7 +555,28 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "本当に",
+      "text": "本当にすごい",
+      "zh": "真的很厲害"
+     },
+     {
+      "cue": "マジで",
+      "text": "マジですごい",
+      "zh": "真的超厲害（口語）"
+     }
+    ],
+    "related": [
+     {
+      "text": "かっこいい",
+      "reading": "かっこいい",
+      "zh": "帥、酷"
+     }
+    ]
+   }
   },
   "ja:vocab:かっこいい": {
    "text": "かっこいい",
@@ -194,7 +587,35 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "めっちゃ",
+      "text": "めっちゃかっこいい",
+      "zh": "超帥（口語）"
+     },
+     {
+      "cue": "見た目が",
+      "text": "見た目がかっこいい",
+      "zh": "外表很帥"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "ダサい",
+      "reading": "ださい",
+      "zh": "土、遜（口語）"
+     }
+    ],
+    "related": [
+     {
+      "text": "すごい",
+      "reading": "すごい",
+      "zh": "厲害"
+     }
+    ]
+   }
   },
   "ja:vocab:歌手": {
    "text": "歌手",
@@ -205,7 +626,33 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "人気",
+      "text": "人気歌手",
+      "zh": "人氣歌手"
+     },
+     {
+      "cue": "好きな",
+      "text": "好きな歌手",
+      "zh": "喜歡的歌手"
+     }
+    ],
+    "related": [
+     {
+      "text": "アイドル",
+      "reading": "アイドル",
+      "zh": "偶像"
+     },
+     {
+      "text": "マイク",
+      "reading": "マイク",
+      "zh": "麥克風"
+     }
+    ]
+   }
   },
   "ja:vocab:遅い": {
    "text": "遅い",
@@ -217,7 +664,40 @@
    "used_in": [
     "anime-w01-e01",
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "足が",
+      "text": "足が遅い",
+      "zh": "跑得慢"
+     },
+     {
+      "cue": "もう",
+      "text": "もう遅い",
+      "zh": "已經太遲了"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "速い",
+      "reading": "はやい",
+      "zh": "（速度）快"
+     },
+     {
+      "text": "早い",
+      "reading": "はやい",
+      "zh": "（時間）早"
+     }
+    ],
+    "related": [
+     {
+      "text": "間に合う",
+      "reading": "まにあう",
+      "zh": "趕得上"
+     }
+    ]
+   }
   },
   "ja:vocab:部長": {
    "text": "部長",
@@ -228,7 +708,28 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "サッカー部の",
+      "text": "サッカー部の部長",
+      "zh": "足球社的社長"
+     }
+    ],
+    "related": [
+     {
+      "text": "部員",
+      "reading": "ぶいん",
+      "zh": "社員、社團成員"
+     },
+     {
+      "text": "先輩",
+      "reading": "せんぱい",
+      "zh": "學長、學姊"
+     }
+    ]
+   }
   },
   "ja:vocab:部活": {
    "text": "部活",
@@ -239,7 +740,28 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "放課後の",
+      "text": "放課後の部活",
+      "zh": "放學後的社團活動"
+     }
+    ],
+    "related": [
+     {
+      "text": "部員",
+      "reading": "ぶいん",
+      "zh": "社員、社團成員"
+     },
+     {
+      "text": "部長",
+      "reading": "ぶちょう",
+      "zh": "社長"
+     }
+    ]
+   }
   },
   "ja:vocab:見学": {
    "text": "見学",
@@ -250,7 +772,28 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "部活",
+      "text": "部活見学",
+      "zh": "社團參觀"
+     },
+     {
+      "cue": "工場",
+      "text": "工場見学",
+      "zh": "參觀工廠"
+     }
+    ],
+    "related": [
+     {
+      "text": "部活",
+      "reading": "ぶかつ",
+      "zh": "社團活動"
+     }
+    ]
+   }
   },
   "ja:vocab:一緒": {
    "text": "一緒",
@@ -263,7 +806,28 @@
     "anime-w01-e02",
     "drama-w02-e06",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "みんなと",
+      "text": "みんなと一緒",
+      "zh": "和大家一起"
+     },
+     {
+      "cue": "いつも",
+      "text": "いつも一緒",
+      "zh": "總是在一起"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "一人",
+      "reading": "ひとり",
+      "zh": "一個人"
+     }
+    ]
+   }
   },
   "ja:vocab:運動": {
    "text": "運動",
@@ -274,7 +838,33 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "軽い",
+      "text": "軽い運動",
+      "zh": "輕度運動"
+     },
+     {
+      "cue": "毎日",
+      "text": "毎日運動する",
+      "zh": "每天運動"
+     }
+    ],
+    "related": [
+     {
+      "text": "体",
+      "reading": "からだ",
+      "zh": "身體"
+     },
+     {
+      "text": "走る",
+      "reading": "はしる",
+      "zh": "跑"
+     }
+    ]
+   }
   },
   "ja:vocab:苦手": {
    "text": "苦手",
@@ -285,7 +875,35 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "運動が",
+      "text": "運動が苦手",
+      "zh": "不擅長運動"
+     },
+     {
+      "cue": "朝が",
+      "text": "朝が苦手",
+      "zh": "早上爬不起來"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "得意",
+      "reading": "とくい",
+      "zh": "擅長"
+     }
+    ],
+    "related": [
+     {
+      "text": "下手",
+      "reading": "へた",
+      "zh": "不擅長、很差"
+     }
+    ]
+   }
   },
   "ja:vocab:決める": {
    "text": "決める",
@@ -296,7 +914,33 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "名前を",
+      "text": "名前を決める",
+      "zh": "決定名字"
+     },
+     {
+      "cue": "場所を",
+      "text": "場所を決める",
+      "zh": "決定地點"
+     }
+    ],
+    "related": [
+     {
+      "text": "選ぶ",
+      "reading": "えらぶ",
+      "zh": "選擇"
+     },
+     {
+      "text": "迷う",
+      "reading": "まよう",
+      "zh": "猶豫、拿不定主意"
+     }
+    ]
+   }
   },
   "ja:vocab:店": {
    "text": "店",
@@ -307,7 +951,33 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅前の",
+      "text": "駅前の店",
+      "zh": "車站前的店"
+     },
+     {
+      "cue": "近くの",
+      "text": "近くの店",
+      "zh": "附近的店"
+     }
+    ],
+    "related": [
+     {
+      "text": "買う",
+      "reading": "かう",
+      "zh": "買"
+     },
+     {
+      "text": "安い",
+      "reading": "やすい",
+      "zh": "便宜"
+     }
+    ]
+   }
   },
   "ja:vocab:音": {
    "text": "音",
@@ -318,7 +988,33 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "大きな",
+      "text": "大きな音",
+      "zh": "很大的聲響"
+     },
+     {
+      "cue": "変な",
+      "text": "変な音",
+      "zh": "奇怪的聲音"
+     }
+    ],
+    "related": [
+     {
+      "text": "声",
+      "reading": "こえ",
+      "zh": "（人的）聲音"
+     },
+     {
+      "text": "うるさい",
+      "reading": "うるさい",
+      "zh": "吵"
+     }
+    ]
+   }
   },
   "ja:vocab:作る": {
    "text": "作る",
@@ -329,7 +1025,28 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "料理を",
+      "text": "料理を作る",
+      "zh": "做菜"
+     },
+     {
+      "cue": "お弁当を",
+      "text": "お弁当を作る",
+      "zh": "做便當"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "壊す",
+      "reading": "こわす",
+      "zh": "弄壞"
+     }
+    ]
+   }
   },
   "ja:vocab:係": {
    "text": "係",
@@ -340,7 +1057,28 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "図書",
+      "text": "図書係",
+      "zh": "圖書股長"
+     },
+     {
+      "cue": "生き物",
+      "text": "生き物係",
+      "zh": "照顧動物的股長"
+     }
+    ],
+    "related": [
+     {
+      "text": "仕事",
+      "reading": "しごと",
+      "zh": "工作"
+     }
+    ]
+   }
   },
   "ja:vocab:呼ぶ": {
    "text": "呼ぶ",
@@ -351,7 +1089,28 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "名前を",
+      "text": "名前を呼ぶ",
+      "zh": "叫名字"
+     },
+     {
+      "cue": "救急車を",
+      "text": "救急車を呼ぶ",
+      "zh": "叫救護車"
+     }
+    ],
+    "related": [
+     {
+      "text": "声",
+      "reading": "こえ",
+      "zh": "（人的）聲音"
+     }
+    ]
+   }
   },
   "ja:vocab:部員": {
    "text": "部員",
@@ -363,7 +1122,33 @@
    "used_in": [
     "anime-w01-e02",
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "新しい",
+      "text": "新しい部員",
+      "zh": "新社員"
+     },
+     {
+      "cue": "幽霊",
+      "text": "幽霊部員",
+      "zh": "掛名不參加的社員"
+     }
+    ],
+    "related": [
+     {
+      "text": "部長",
+      "reading": "ぶちょう",
+      "zh": "社長"
+     },
+     {
+      "text": "部活",
+      "reading": "ぶかつ",
+      "zh": "社團活動"
+     }
+    ]
+   }
   },
   "ja:vocab:足りる": {
    "text": "足りる",
@@ -374,7 +1159,35 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "時間が",
+      "text": "時間が足りない",
+      "zh": "時間不夠"
+     },
+     {
+      "cue": "お金が",
+      "text": "お金が足りない",
+      "zh": "錢不夠"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "余る",
+      "reading": "あまる",
+      "zh": "剩下、多出來"
+     }
+    ],
+    "related": [
+     {
+      "text": "必要",
+      "reading": "ひつよう",
+      "zh": "需要"
+     }
+    ]
+   }
   },
   "ja:vocab:必要": {
    "text": "必要",
@@ -386,7 +1199,28 @@
    "used_in": [
     "anime-w01-e02",
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "練習が",
+      "text": "練習が必要",
+      "zh": "需要練習"
+     },
+     {
+      "cue": "時間が",
+      "text": "時間が必要",
+      "zh": "需要時間"
+     }
+    ],
+    "related": [
+     {
+      "text": "足りる",
+      "reading": "たりる",
+      "zh": "足夠"
+     }
+    ]
+   }
   },
   "ja:vocab:なくなる": {
    "text": "なくなる",
@@ -397,7 +1231,35 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お金が",
+      "text": "お金がなくなる",
+      "zh": "錢花光了"
+     },
+     {
+      "cue": "財布が",
+      "text": "財布がなくなる",
+      "zh": "錢包不見"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "見つかる",
+      "reading": "みつかる",
+      "zh": "找到"
+     }
+    ],
+    "related": [
+     {
+      "text": "落とす",
+      "reading": "おとす",
+      "zh": "弄掉、掉落"
+     }
+    ]
+   }
   },
   "ja:vocab:入る": {
    "text": "入る",
@@ -409,7 +1271,28 @@
    "used_in": [
     "anime-w01-e02",
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "部活に",
+      "text": "部活に入る",
+      "zh": "加入社團"
+     },
+     {
+      "cue": "お風呂に",
+      "text": "お風呂に入る",
+      "zh": "洗澡（泡澡）"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "出る",
+      "reading": "でる",
+      "zh": "出去、離開"
+     }
+    ]
+   }
   },
   "ja:vocab:下手": {
    "text": "下手",
@@ -420,7 +1303,35 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "歌が",
+      "text": "歌が下手",
+      "zh": "唱歌很爛"
+     },
+     {
+      "cue": "絵が",
+      "text": "絵が下手",
+      "zh": "畫畫很差"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "上手",
+      "reading": "じょうず",
+      "zh": "擅長、很厲害"
+     }
+    ],
+    "related": [
+     {
+      "text": "苦手",
+      "reading": "にがて",
+      "zh": "不擅長、應付不來"
+     }
+    ]
+   }
   },
   "ja:vocab:声": {
    "text": "声",
@@ -432,7 +1343,33 @@
    "used_in": [
     "anime-w01-e02",
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "大きな",
+      "text": "大きな声",
+      "zh": "很大的聲音"
+     },
+     {
+      "cue": "かわいい",
+      "text": "かわいい声",
+      "zh": "可愛的聲音"
+     }
+    ],
+    "related": [
+     {
+      "text": "音",
+      "reading": "おと",
+      "zh": "聲音（物體發出的）"
+     },
+     {
+      "text": "マイク",
+      "reading": "マイク",
+      "zh": "麥克風"
+     }
+    ]
+   }
   },
   "ja:vocab:マイク": {
    "text": "マイク",
@@ -443,7 +1380,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "カラオケの",
+      "text": "カラオケのマイク",
+      "zh": "卡拉OK的麥克風"
+     }
+    ],
+    "related": [
+     {
+      "text": "録音",
+      "reading": "ろくおん",
+      "zh": "錄音"
+     },
+     {
+      "text": "声",
+      "reading": "こえ",
+      "zh": "（人的）聲音"
+     }
+    ]
+   }
   },
   "ja:vocab:叩く": {
    "text": "叩く",
@@ -454,7 +1412,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "肩を",
+      "text": "肩を叩く",
+      "zh": "拍肩膀"
+     },
+     {
+      "cue": "ドアを",
+      "text": "ドアを叩く",
+      "zh": "敲門"
+     }
+    ],
+    "related": [
+     {
+      "text": "音",
+      "reading": "おと",
+      "zh": "聲音（物體發出的）"
+     }
+    ]
+   }
   },
   "ja:vocab:お菓子": {
    "text": "お菓子",
@@ -465,7 +1444,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "甘い",
+      "text": "甘いお菓子",
+      "zh": "甜的零食"
+     },
+     {
+      "cue": "手作りの",
+      "text": "手作りのお菓子",
+      "zh": "手作點心"
+     }
+    ],
+    "related": [
+     {
+      "text": "甘い",
+      "reading": "あまい",
+      "zh": "甜"
+     }
+    ]
+   }
   },
   "ja:vocab:出す": {
    "text": "出す",
@@ -476,7 +1476,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "声を",
+      "text": "声を出す",
+      "zh": "出聲"
+     },
+     {
+      "cue": "宿題を",
+      "text": "宿題を出す",
+      "zh": "交作業"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "入れる",
+      "reading": "いれる",
+      "zh": "放進"
+     }
+    ]
+   }
   },
   "ja:vocab:一番": {
    "text": "一番",
@@ -488,7 +1509,28 @@
    "used_in": [
     "anime-w01-e03",
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "クラスで",
+      "text": "クラスで一番",
+      "zh": "班上第一"
+     },
+     {
+      "cue": "世界で",
+      "text": "世界で一番",
+      "zh": "世界第一"
+     }
+    ],
+    "related": [
+     {
+      "text": "全部",
+      "reading": "ぜんぶ",
+      "zh": "全部"
+     }
+    ]
+   }
   },
   "ja:vocab:うるさい": {
    "text": "うるさい",
@@ -500,7 +1542,35 @@
    "used_in": [
     "anime-w01-e03",
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "音が",
+      "text": "音がうるさい",
+      "zh": "聲音很吵"
+     },
+     {
+      "cue": "親が",
+      "text": "親がうるさい",
+      "zh": "爸媽很囉嗦"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "静か",
+      "reading": "しずか",
+      "zh": "安靜"
+     }
+    ],
+    "related": [
+     {
+      "text": "音",
+      "reading": "おと",
+      "zh": "聲音（物體發出的）"
+     }
+    ]
+   }
   },
   "ja:vocab:勇者": {
    "text": "勇者",
@@ -512,7 +1582,35 @@
    "used_in": [
     "anime-w01-e03",
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "伝説の",
+      "text": "伝説の勇者",
+      "zh": "傳說中的勇者"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "魔王",
+      "reading": "まおう",
+      "zh": "魔王"
+     }
+    ],
+    "related": [
+     {
+      "text": "剣",
+      "reading": "けん",
+      "zh": "劍"
+     },
+     {
+      "text": "倒す",
+      "reading": "たおす",
+      "zh": "打倒"
+     }
+    ]
+   }
   },
   "ja:vocab:逃げる": {
    "text": "逃げる",
@@ -523,7 +1621,35 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "敵から",
+      "text": "敵から逃げる",
+      "zh": "從敵人那裡逃走"
+     },
+     {
+      "cue": "現実から",
+      "text": "現実から逃げる",
+      "zh": "逃避現實"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "戦う",
+      "reading": "たたかう",
+      "zh": "戰鬥"
+     }
+    ],
+    "related": [
+     {
+      "text": "走る",
+      "reading": "はしる",
+      "zh": "跑"
+     }
+    ]
+   }
   },
   "ja:vocab:早口言葉": {
    "text": "早口言葉",
@@ -534,7 +1660,23 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "難しい",
+      "text": "難しい早口言葉",
+      "zh": "很難的繞口令"
+     }
+    ],
+    "related": [
+     {
+      "text": "練習",
+      "reading": "れんしゅう",
+      "zh": "練習"
+     }
+    ]
+   }
   },
   "ja:vocab:時計": {
    "text": "時計",
@@ -545,7 +1687,23 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "目覚まし",
+      "text": "目覚まし時計",
+      "zh": "鬧鐘"
+     }
+    ],
+    "related": [
+     {
+      "text": "時間",
+      "reading": "じかん",
+      "zh": "時間"
+     }
+    ]
+   }
   },
   "ja:vocab:止める": {
    "text": "止める",
@@ -556,7 +1714,35 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "車を",
+      "text": "車を止める",
+      "zh": "停車"
+     },
+     {
+      "cue": "音楽を",
+      "text": "音楽を止める",
+      "zh": "把音樂關掉"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "動かす",
+      "reading": "うごかす",
+      "zh": "讓…動起來"
+     }
+    ],
+    "related": [
+     {
+      "text": "止まる",
+      "reading": "とまる",
+      "zh": "停下"
+     }
+    ]
+   }
   },
   "ja:vocab:焼肉": {
    "text": "焼肉",
@@ -567,7 +1753,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "食べ放題の",
+      "text": "食べ放題の焼肉",
+      "zh": "吃到飽的烤肉"
+     }
+    ],
+    "related": [
+     {
+      "text": "焼き鳥",
+      "reading": "やきとり",
+      "zh": "烤雞串"
+     },
+     {
+      "text": "肉",
+      "reading": "にく",
+      "zh": "肉"
+     }
+    ]
+   }
   },
   "ja:vocab:録音": {
    "text": "録音",
@@ -579,7 +1786,33 @@
    "used_in": [
     "anime-w01-e03",
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "声を",
+      "text": "声を録音する",
+      "zh": "把聲音錄下來"
+     },
+     {
+      "cue": "こっそり",
+      "text": "こっそり録音する",
+      "zh": "偷偷錄音"
+     }
+    ],
+    "related": [
+     {
+      "text": "マイク",
+      "reading": "マイク",
+      "zh": "麥克風"
+     },
+     {
+      "text": "声",
+      "reading": "こえ",
+      "zh": "（人的）聲音"
+     }
+    ]
+   }
   },
   "ja:vocab:森": {
    "text": "森",
@@ -590,7 +1823,33 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "深い",
+      "text": "深い森",
+      "zh": "深邃的森林"
+     },
+     {
+      "cue": "魔法の",
+      "text": "魔法の森",
+      "zh": "魔法森林"
+     }
+    ],
+    "related": [
+     {
+      "text": "村",
+      "reading": "むら",
+      "zh": "村子"
+     },
+     {
+      "text": "木",
+      "reading": "き",
+      "zh": "樹"
+     }
+    ]
+   }
   },
   "ja:vocab:魔王": {
    "text": "魔王",
@@ -602,7 +1861,30 @@
    "used_in": [
     "anime-w01-e03",
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "最強の",
+      "text": "最強の魔王",
+      "zh": "最強的魔王"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "勇者",
+      "reading": "ゆうしゃ",
+      "zh": "勇者"
+     }
+    ],
+    "related": [
+     {
+      "text": "城",
+      "reading": "しろ",
+      "zh": "城堡"
+     }
+    ]
+   }
   },
   "ja:vocab:人間": {
    "text": "人間",
@@ -613,7 +1895,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ただの",
+      "text": "ただの人間",
+      "zh": "只是個普通人"
+     }
+    ],
+    "related": [
+     {
+      "text": "精霊",
+      "reading": "せいれい",
+      "zh": "精靈"
+     },
+     {
+      "text": "魔王",
+      "reading": "まおう",
+      "zh": "魔王"
+     }
+    ]
+   }
   },
   "ja:vocab:帰る": {
    "text": "帰る",
@@ -624,7 +1927,35 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "家に",
+      "text": "家に帰る",
+      "zh": "回家"
+     },
+     {
+      "cue": "早く",
+      "text": "早く帰る",
+      "zh": "早點回去"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "出かける",
+      "reading": "でかける",
+      "zh": "出門"
+     }
+    ],
+    "related": [
+     {
+      "text": "家",
+      "reading": "いえ",
+      "zh": "家"
+     }
+    ]
+   }
   },
   "ja:vocab:雷": {
    "text": "雷",
@@ -635,7 +1966,28 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "突然の",
+      "text": "突然の雷",
+      "zh": "突如其來的雷"
+     }
+    ],
+    "related": [
+     {
+      "text": "雨",
+      "reading": "あめ",
+      "zh": "雨"
+     },
+     {
+      "text": "光",
+      "reading": "ひかり",
+      "zh": "光"
+     }
+    ]
+   }
   },
   "ja:vocab:忘れる": {
    "text": "忘れる",
@@ -646,7 +1998,35 @@
    "introduced": "anime-w01-e03",
    "used_in": [
     "anime-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "宿題を",
+      "text": "宿題を忘れる",
+      "zh": "忘了帶作業"
+     },
+     {
+      "cue": "傘を",
+      "text": "傘を忘れる",
+      "zh": "忘了帶傘"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "覚える",
+      "reading": "おぼえる",
+      "zh": "記住"
+     }
+    ],
+    "related": [
+     {
+      "text": "思い出す",
+      "reading": "おもいだす",
+      "zh": "想起來"
+     }
+    ]
+   }
   },
   "ja:vocab:購買": {
    "text": "購買",
@@ -657,7 +2037,28 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "学校の",
+      "text": "学校の購買",
+      "zh": "學校的福利社"
+     }
+    ],
+    "related": [
+     {
+      "text": "昼休み",
+      "reading": "ひるやすみ",
+      "zh": "午休"
+     },
+     {
+      "text": "焼きそばパン",
+      "reading": "やきそばパン",
+      "zh": "炒麵麵包"
+     }
+    ]
+   }
   },
   "ja:vocab:昼休み": {
    "text": "昼休み",
@@ -668,7 +2069,28 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "短い",
+      "text": "短い昼休み",
+      "zh": "短短的午休"
+     }
+    ],
+    "related": [
+     {
+      "text": "弁当",
+      "reading": "べんとう",
+      "zh": "便當"
+     },
+     {
+      "text": "購買",
+      "reading": "こうばい",
+      "zh": "福利社"
+     }
+    ]
+   }
   },
   "ja:vocab:焼きそばパン": {
    "text": "焼きそばパン",
@@ -679,7 +2101,33 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "購買の",
+      "text": "購買の焼きそばパン",
+      "zh": "福利社的炒麵麵包"
+     },
+     {
+      "cue": "人気の",
+      "text": "人気の焼きそばパン",
+      "zh": "熱門的炒麵麵包"
+     }
+    ],
+    "related": [
+     {
+      "text": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "zh": "牛奶"
+     },
+     {
+      "text": "購買",
+      "reading": "こうばい",
+      "zh": "福利社"
+     }
+    ]
+   }
   },
   "ja:vocab:個": {
    "text": "個",
@@ -690,7 +2138,16 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "枚",
+      "reading": "まい",
+      "zh": "～片、～張（數薄的東西）"
+     }
+    ]
+   }
   },
   "ja:vocab:うまい": {
    "text": "うまい",
@@ -701,7 +2158,35 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "めちゃくちゃ",
+      "text": "めちゃくちゃうまい",
+      "zh": "超好吃（口語）"
+     },
+     {
+      "cue": "ここのラーメンは",
+      "text": "ここのラーメンはうまい",
+      "zh": "這家的拉麵很好吃"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "まずい",
+      "reading": "まずい",
+      "zh": "難吃"
+     }
+    ],
+    "related": [
+     {
+      "text": "おいしい",
+      "reading": "おいしい",
+      "zh": "好吃"
+     }
+    ]
+   }
   },
   "ja:vocab:安い": {
    "text": "安い",
@@ -712,7 +2197,35 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "値段が",
+      "text": "値段が安い",
+      "zh": "價格便宜"
+     },
+     {
+      "cue": "意外と",
+      "text": "意外と安い",
+      "zh": "意外地便宜"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "高い",
+      "reading": "たかい",
+      "zh": "貴"
+     }
+    ],
+    "related": [
+     {
+      "text": "お金",
+      "reading": "おかね",
+      "zh": "錢"
+     }
+    ]
+   }
   },
   "ja:vocab:廊下": {
    "text": "廊下",
@@ -723,7 +2236,33 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "長い",
+      "text": "長い廊下",
+      "zh": "長長的走廊"
+     },
+     {
+      "cue": "学校の",
+      "text": "学校の廊下",
+      "zh": "學校的走廊"
+     }
+    ],
+    "related": [
+     {
+      "text": "走る",
+      "reading": "はしる",
+      "zh": "跑"
+     },
+     {
+      "text": "階段",
+      "reading": "かいだん",
+      "zh": "樓梯"
+     }
+    ]
+   }
   },
   "ja:vocab:走る": {
    "text": "走る",
@@ -734,7 +2273,35 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "廊下を",
+      "text": "廊下を走る",
+      "zh": "在走廊上奔跑"
+     },
+     {
+      "cue": "駅まで",
+      "text": "駅まで走る",
+      "zh": "跑到車站"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "歩く",
+      "reading": "あるく",
+      "zh": "走路"
+     }
+    ],
+    "related": [
+     {
+      "text": "速い",
+      "reading": "はやい",
+      "zh": "（速度）快"
+     }
+    ]
+   }
   },
   "ja:vocab:次": {
    "text": "次",
@@ -747,7 +2314,23 @@
     "anime-w02-e04",
     "drama-w01-e01",
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "この",
+      "text": "この次",
+      "zh": "下一次"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "前",
+      "reading": "まえ",
+      "zh": "前一個、之前"
+     }
+    ]
+   }
   },
   "ja:vocab:おしまい": {
    "text": "おしまい",
@@ -758,7 +2341,28 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "今日は",
+      "text": "今日はおしまい",
+      "zh": "今天到此為止"
+     },
+     {
+      "cue": "これで",
+      "text": "これでおしまい",
+      "zh": "這樣就結束了"
+     }
+    ],
+    "related": [
+     {
+      "text": "終わり",
+      "reading": "おわり",
+      "zh": "結束"
+     }
+    ]
+   }
   },
   "ja:vocab:牛乳": {
    "text": "牛乳",
@@ -769,7 +2373,28 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "冷たい",
+      "text": "冷たい牛乳",
+      "zh": "冰牛奶"
+     }
+    ],
+    "related": [
+     {
+      "text": "焼きそばパン",
+      "reading": "やきそばパン",
+      "zh": "炒麵麵包"
+     },
+     {
+      "text": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "zh": "冰箱"
+     }
+    ]
+   }
   },
   "ja:vocab:残る": {
    "text": "残る",
@@ -780,7 +2405,33 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "最後まで",
+      "text": "最後まで残る",
+      "zh": "留到最後"
+     },
+     {
+      "cue": "学校に",
+      "text": "学校に残る",
+      "zh": "留在學校"
+     }
+    ],
+    "related": [
+     {
+      "text": "なくなる",
+      "reading": "なくなる",
+      "zh": "消失、沒了"
+     },
+     {
+      "text": "半分",
+      "reading": "はんぶん",
+      "zh": "一半"
+     }
+    ]
+   }
   },
   "ja:vocab:先輩": {
    "text": "先輩",
@@ -791,7 +2442,35 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "部活の",
+      "text": "部活の先輩",
+      "zh": "社團的學長姊"
+     },
+     {
+      "cue": "憧れの",
+      "text": "憧れの先輩",
+      "zh": "憧憬的學長姊"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "後輩",
+      "reading": "こうはい",
+      "zh": "學弟妹"
+     }
+    ],
+    "related": [
+     {
+      "text": "部長",
+      "reading": "ぶちょう",
+      "zh": "社長"
+     }
+    ]
+   }
   },
   "ja:vocab:枚": {
    "text": "枚",
@@ -803,7 +2482,21 @@
    "used_in": [
     "anime-w02-e04",
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "紙",
+      "reading": "かみ",
+      "zh": "紙"
+     },
+     {
+      "text": "個",
+      "reading": "こ",
+      "zh": "～個（數小東西）"
+     }
+    ]
+   }
   },
   "ja:vocab:半分": {
    "text": "半分",
@@ -814,7 +2507,28 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ちょうど",
+      "text": "ちょうど半分",
+      "zh": "剛好一半"
+     },
+     {
+      "cue": "残り",
+      "text": "残り半分",
+      "zh": "剩下一半"
+     }
+    ],
+    "related": [
+     {
+      "text": "全部",
+      "reading": "ぜんぶ",
+      "zh": "全部"
+     }
+    ]
+   }
   },
   "ja:vocab:別に": {
    "text": "別に",
@@ -825,7 +2539,23 @@
    "introduced": "anime-w02-e04",
    "used_in": [
     "anime-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "いや、",
+      "text": "いや、別に",
+      "zh": "沒什麼啦"
+     }
+    ],
+    "related": [
+     {
+      "text": "全然",
+      "reading": "ぜんぜん",
+      "zh": "（後接否定）完全不…"
+     }
+    ]
+   }
   },
   "ja:vocab:雨": {
    "text": "雨",
@@ -836,7 +2566,40 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "急な",
+      "text": "急な雨",
+      "zh": "突然下的雨"
+     },
+     {
+      "cue": "冷たい",
+      "text": "冷たい雨",
+      "zh": "冰冷的雨"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "晴れ",
+      "reading": "はれ",
+      "zh": "晴天"
+     }
+    ],
+    "related": [
+     {
+      "text": "傘",
+      "reading": "かさ",
+      "zh": "傘"
+     },
+     {
+      "text": "雷",
+      "reading": "かみなり",
+      "zh": "雷"
+     }
+    ]
+   }
   },
   "ja:vocab:傘": {
    "text": "傘",
@@ -847,7 +2610,33 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "折りたたみ",
+      "text": "折りたたみ傘",
+      "zh": "折疊傘"
+     },
+     {
+      "cue": "ビニール",
+      "text": "ビニール傘",
+      "zh": "透明塑膠傘"
+     }
+    ],
+    "related": [
+     {
+      "text": "雨",
+      "reading": "あめ",
+      "zh": "雨"
+     },
+     {
+      "text": "濡れる",
+      "reading": "ぬれる",
+      "zh": "淋濕"
+     }
+    ]
+   }
   },
   "ja:vocab:持ってくる": {
    "text": "持ってくる",
@@ -858,7 +2647,35 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "傘を",
+      "text": "傘を持ってくる",
+      "zh": "帶傘來"
+     },
+     {
+      "cue": "お弁当を",
+      "text": "お弁当を持ってくる",
+      "zh": "帶便當來"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "持っていく",
+      "reading": "もっていく",
+      "zh": "帶去"
+     }
+    ],
+    "related": [
+     {
+      "text": "忘れる",
+      "reading": "わすれる",
+      "zh": "忘記"
+     }
+    ]
+   }
   },
   "ja:vocab:鍵": {
    "text": "鍵",
@@ -869,7 +2686,28 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "家の",
+      "text": "家の鍵",
+      "zh": "家裡的鑰匙"
+     },
+     {
+      "cue": "部室の",
+      "text": "部室の鍵",
+      "zh": "社辦的鑰匙"
+     }
+    ],
+    "related": [
+     {
+      "text": "閉める",
+      "reading": "しめる",
+      "zh": "關上"
+     }
+    ]
+   }
   },
   "ja:vocab:閉める": {
    "text": "閉める",
@@ -880,7 +2718,35 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "鍵を",
+      "text": "鍵を閉める",
+      "zh": "鎖門"
+     },
+     {
+      "cue": "窓を",
+      "text": "窓を閉める",
+      "zh": "關窗"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "開ける",
+      "reading": "あける",
+      "zh": "打開"
+     }
+    ],
+    "related": [
+     {
+      "text": "閉まる",
+      "reading": "しまる",
+      "zh": "（自己）關上"
+     }
+    ]
+   }
   },
   "ja:vocab:迎える": {
    "text": "迎える",
@@ -891,7 +2757,35 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "新年を",
+      "text": "新年を迎える",
+      "zh": "迎接新年"
+     },
+     {
+      "cue": "お客さんを",
+      "text": "お客さんを迎える",
+      "zh": "迎接客人"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "送る",
+      "reading": "おくる",
+      "zh": "送（人）"
+     }
+    ],
+    "related": [
+     {
+      "text": "駅",
+      "reading": "えき",
+      "zh": "車站"
+     }
+    ]
+   }
   },
   "ja:vocab:駅": {
    "text": "駅",
@@ -903,7 +2797,33 @@
    "used_in": [
     "anime-w02-e05",
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "最寄りの",
+      "text": "最寄りの駅",
+      "zh": "最近的車站"
+     },
+     {
+      "cue": "次の",
+      "text": "次の駅",
+      "zh": "下一站"
+     }
+    ],
+    "related": [
+     {
+      "text": "電車",
+      "reading": "でんしゃ",
+      "zh": "電車"
+     },
+     {
+      "text": "出口",
+      "reading": "でぐち",
+      "zh": "出口"
+     }
+    ]
+   }
   },
   "ja:vocab:休む": {
    "text": "休む",
@@ -914,7 +2834,28 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "学校を",
+      "text": "学校を休む",
+      "zh": "請假沒去學校"
+     },
+     {
+      "cue": "少し",
+      "text": "少し休む",
+      "zh": "休息一下"
+     }
+    ],
+    "related": [
+     {
+      "text": "熱",
+      "reading": "ねつ",
+      "zh": "發燒"
+     }
+    ]
+   }
   },
   "ja:vocab:心配": {
    "text": "心配",
@@ -925,7 +2866,35 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ちょっと",
+      "text": "ちょっと心配",
+      "zh": "有點擔心"
+     },
+     {
+      "cue": "親が",
+      "text": "親が心配する",
+      "zh": "爸媽會擔心"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "安心",
+      "reading": "あんしん",
+      "zh": "安心、放心"
+     }
+    ],
+    "related": [
+     {
+      "text": "大丈夫",
+      "reading": "だいじょうぶ",
+      "zh": "沒問題、沒事"
+     }
+    ]
+   }
   },
   "ja:vocab:当たり前": {
    "text": "当たり前",
@@ -936,7 +2905,23 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "そんなの",
+      "text": "そんなの当たり前",
+      "zh": "那是理所當然的"
+     }
+    ],
+    "related": [
+     {
+      "text": "普通",
+      "reading": "ふつう",
+      "zh": "普通、一般"
+     }
+    ]
+   }
   },
   "ja:vocab:文化祭": {
    "text": "文化祭",
@@ -947,7 +2932,33 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "今年の",
+      "text": "今年の文化祭",
+      "zh": "今年的文化祭"
+     },
+     {
+      "cue": "高校の",
+      "text": "高校の文化祭",
+      "zh": "高中的文化祭"
+     }
+    ],
+    "related": [
+     {
+      "text": "台本",
+      "reading": "だいほん",
+      "zh": "劇本"
+     },
+     {
+      "text": "楽しみ",
+      "reading": "たのしみ",
+      "zh": "期待"
+     }
+    ]
+   }
   },
   "ja:vocab:台本": {
    "text": "台本",
@@ -959,7 +2970,28 @@
    "used_in": [
     "anime-w02-e05",
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "劇の",
+      "text": "劇の台本",
+      "zh": "話劇的劇本"
+     }
+    ],
+    "related": [
+     {
+      "text": "文化祭",
+      "reading": "ぶんかさい",
+      "zh": "文化祭"
+     },
+     {
+      "text": "録音",
+      "reading": "ろくおん",
+      "zh": "錄音"
+     }
+    ]
+   }
   },
   "ja:vocab:助ける": {
    "text": "助ける",
@@ -970,7 +3002,33 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "人を",
+      "text": "人を助ける",
+      "zh": "幫助別人"
+     },
+     {
+      "cue": "困っている人を",
+      "text": "困っている人を助ける",
+      "zh": "幫助有困難的人"
+     }
+    ],
+    "related": [
+     {
+      "text": "守る",
+      "reading": "まもる",
+      "zh": "保護"
+     },
+     {
+      "text": "勇者",
+      "reading": "ゆうしゃ",
+      "zh": "勇者"
+     }
+    ]
+   }
   },
   "ja:vocab:肩": {
    "text": "肩",
@@ -981,7 +3039,28 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "濡れた",
+      "text": "濡れた肩",
+      "zh": "淋濕的肩膀"
+     }
+    ],
+    "related": [
+     {
+      "text": "体",
+      "reading": "からだ",
+      "zh": "身體"
+     },
+     {
+      "text": "膝",
+      "reading": "ひざ",
+      "zh": "膝蓋"
+     }
+    ]
+   }
   },
   "ja:vocab:濡れる": {
    "text": "濡れる",
@@ -992,7 +3071,35 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "雨に",
+      "text": "雨に濡れる",
+      "zh": "被雨淋濕"
+     },
+     {
+      "cue": "服が",
+      "text": "服が濡れる",
+      "zh": "衣服濕掉"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "乾く",
+      "reading": "かわく",
+      "zh": "乾"
+     }
+    ],
+    "related": [
+     {
+      "text": "傘",
+      "reading": "かさ",
+      "zh": "傘"
+     }
+    ]
+   }
   },
   "ja:vocab:楽しみ": {
    "text": "楽しみ",
@@ -1003,7 +3110,28 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "旅行が",
+      "text": "旅行が楽しみ",
+      "zh": "很期待旅行"
+     },
+     {
+      "cue": "明日が",
+      "text": "明日が楽しみ",
+      "zh": "很期待明天"
+     }
+    ],
+    "related": [
+     {
+      "text": "文化祭",
+      "reading": "ぶんかさい",
+      "zh": "文化祭"
+     }
+    ]
+   }
   },
   "ja:vocab:今夜": {
    "text": "今夜",
@@ -1014,7 +3142,21 @@
    "introduced": "anime-w02-e05",
    "used_in": [
     "anime-w02-e05"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "今日",
+      "reading": "きょう",
+      "zh": "今天"
+     },
+     {
+      "text": "明日",
+      "reading": "あした",
+      "zh": "明天"
+     }
+    ]
+   }
   },
   "ja:vocab:城": {
    "text": "城",
@@ -1025,7 +3167,33 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "魔王の",
+      "text": "魔王の城",
+      "zh": "魔王的城堡"
+     },
+     {
+      "cue": "大きな",
+      "text": "大きな城",
+      "zh": "很大的城堡"
+     }
+    ],
+    "related": [
+     {
+      "text": "魔王",
+      "reading": "まおう",
+      "zh": "魔王"
+     },
+     {
+      "text": "王様",
+      "reading": "おうさま",
+      "zh": "國王"
+     }
+    ]
+   }
   },
   "ja:vocab:我": {
    "text": "我",
@@ -1036,7 +3204,21 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "俺",
+      "reading": "おれ",
+      "zh": "我（男生的隨性自稱）"
+     },
+     {
+      "text": "魔王",
+      "reading": "まおう",
+      "zh": "魔王"
+     }
+    ]
+   }
   },
   "ja:vocab:村": {
    "text": "村",
@@ -1047,7 +3229,33 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "小さな",
+      "text": "小さな村",
+      "zh": "小村莊"
+     },
+     {
+      "cue": "静かな",
+      "text": "静かな村",
+      "zh": "寧靜的村子"
+     }
+    ],
+    "related": [
+     {
+      "text": "森",
+      "reading": "もり",
+      "zh": "森林"
+     },
+     {
+      "text": "町",
+      "reading": "まち",
+      "zh": "城鎮"
+     }
+    ]
+   }
   },
   "ja:vocab:返す": {
    "text": "返す",
@@ -1058,7 +3266,28 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "本を",
+      "text": "本を返す",
+      "zh": "還書"
+     },
+     {
+      "cue": "お金を",
+      "text": "お金を返す",
+      "zh": "還錢"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "借りる",
+      "reading": "かりる",
+      "zh": "借（入）"
+     }
+    ]
+   }
   },
   "ja:vocab:倒す": {
    "text": "倒す",
@@ -1069,7 +3298,33 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "敵を",
+      "text": "敵を倒す",
+      "zh": "打倒敵人"
+     },
+     {
+      "cue": "魔王を",
+      "text": "魔王を倒す",
+      "zh": "打倒魔王"
+     }
+    ],
+    "related": [
+     {
+      "text": "勇者",
+      "reading": "ゆうしゃ",
+      "zh": "勇者"
+     },
+     {
+      "text": "戦う",
+      "reading": "たたかう",
+      "zh": "戰鬥"
+     }
+    ]
+   }
   },
   "ja:vocab:全部": {
    "text": "全部",
@@ -1082,7 +3337,23 @@
     "anime-w02-e06",
     "drama-w01-e01",
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "これで",
+      "text": "これで全部",
+      "zh": "這樣就是全部了"
+     }
+    ],
+    "related": [
+     {
+      "text": "半分",
+      "reading": "はんぶん",
+      "zh": "一半"
+     }
+    ]
+   }
   },
   "ja:vocab:許す": {
    "text": "許す",
@@ -1093,7 +3364,28 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "絶対に",
+      "text": "絶対に許さない",
+      "zh": "絕對不原諒"
+     },
+     {
+      "cue": "今回だけ",
+      "text": "今回だけ許す",
+      "zh": "只原諒這一次"
+     }
+    ],
+    "related": [
+     {
+      "text": "謝る",
+      "reading": "あやまる",
+      "zh": "道歉"
+     }
+    ]
+   }
   },
   "ja:vocab:無駄": {
    "text": "無駄",
@@ -1104,7 +3396,28 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "時間の",
+      "text": "時間の無駄",
+      "zh": "浪費時間"
+     },
+     {
+      "cue": "抵抗しても",
+      "text": "抵抗しても無駄",
+      "zh": "抵抗也沒用"
+     }
+    ],
+    "related": [
+     {
+      "text": "必要",
+      "reading": "ひつよう",
+      "zh": "需要、必要"
+     }
+    ]
+   }
   },
   "ja:vocab:体": {
    "text": "体",
@@ -1115,7 +3428,33 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "丈夫な",
+      "text": "丈夫な体",
+      "zh": "強壯的身體"
+     },
+     {
+      "cue": "疲れた",
+      "text": "疲れた体",
+      "zh": "疲累的身體"
+     }
+    ],
+    "related": [
+     {
+      "text": "肩",
+      "reading": "かた",
+      "zh": "肩膀"
+     },
+     {
+      "text": "元気",
+      "reading": "げんき",
+      "zh": "有精神、健康"
+     }
+    ]
+   }
   },
   "ja:vocab:動く": {
    "text": "動く",
@@ -1127,7 +3466,28 @@
    "used_in": [
     "anime-w02-e06",
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "体が",
+      "text": "体が動かない",
+      "zh": "身體動不了"
+     },
+     {
+      "cue": "電車が",
+      "text": "電車が動く",
+      "zh": "電車開動"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "止まる",
+      "reading": "とまる",
+      "zh": "停下"
+     }
+    ]
+   }
   },
   "ja:vocab:光": {
    "text": "光",
@@ -1138,7 +3498,35 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "まぶしい",
+      "text": "まぶしい光",
+      "zh": "刺眼的光"
+     },
+     {
+      "cue": "希望の",
+      "text": "希望の光",
+      "zh": "希望之光"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "闇",
+      "reading": "やみ",
+      "zh": "黑暗"
+     }
+    ],
+    "related": [
+     {
+      "text": "精霊",
+      "reading": "せいれい",
+      "zh": "精靈"
+     }
+    ]
+   }
   },
   "ja:vocab:精霊": {
    "text": "精霊",
@@ -1149,7 +3537,33 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "森の",
+      "text": "森の精霊",
+      "zh": "森林的精靈"
+     },
+     {
+      "cue": "光の",
+      "text": "光の精霊",
+      "zh": "光之精靈"
+     }
+    ],
+    "related": [
+     {
+      "text": "森",
+      "reading": "もり",
+      "zh": "森林"
+     },
+     {
+      "text": "魔法",
+      "reading": "まほう",
+      "zh": "魔法"
+     }
+    ]
+   }
   },
   "ja:vocab:負ける": {
    "text": "負ける",
@@ -1160,7 +3574,35 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "試合に",
+      "text": "試合に負ける",
+      "zh": "輸掉比賽"
+     },
+     {
+      "cue": "ゲームに",
+      "text": "ゲームに負ける",
+      "zh": "玩遊戲輸了"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "勝つ",
+      "reading": "かつ",
+      "zh": "贏"
+     }
+    ],
+    "related": [
+     {
+      "text": "倒す",
+      "reading": "たおす",
+      "zh": "打倒"
+     }
+    ]
+   }
   },
   "ja:vocab:落とす": {
    "text": "落とす",
@@ -1171,7 +3613,35 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "財布を",
+      "text": "財布を落とす",
+      "zh": "掉了錢包"
+     },
+     {
+      "cue": "鍵を",
+      "text": "鍵を落とす",
+      "zh": "掉了鑰匙"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "拾う",
+      "reading": "ひろう",
+      "zh": "撿起來"
+     }
+    ],
+    "related": [
+     {
+      "text": "なくなる",
+      "reading": "なくなる",
+      "zh": "消失、不見"
+     }
+    ]
+   }
   },
   "ja:vocab:怖い": {
    "text": "怖い",
@@ -1182,7 +3652,28 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お化けが",
+      "text": "お化けが怖い",
+      "zh": "怕鬼"
+     },
+     {
+      "cue": "高いところが",
+      "text": "高いところが怖い",
+      "zh": "怕高"
+     }
+    ],
+    "related": [
+     {
+      "text": "危ない",
+      "reading": "あぶない",
+      "zh": "危險"
+     }
+    ]
+   }
   },
   "ja:vocab:悪い": {
    "text": "悪い",
@@ -1194,7 +3685,28 @@
    "used_in": [
     "anime-w02-e06",
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "天気が",
+      "text": "天気が悪い",
+      "zh": "天氣不好"
+     },
+     {
+      "cue": "なかなか",
+      "text": "なかなか悪くない",
+      "zh": "還挺不錯的"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "いい",
+      "reading": "いい",
+      "zh": "好"
+     }
+    ]
+   }
   },
   "ja:vocab:入国": {
    "text": "入国",
@@ -1205,7 +3717,35 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "日本に",
+      "text": "日本に入国する",
+      "zh": "入境日本"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "出国",
+      "reading": "しゅっこく",
+      "zh": "出境"
+     }
+    ],
+    "related": [
+     {
+      "text": "パスポート",
+      "reading": "パスポート",
+      "zh": "護照"
+     },
+     {
+      "text": "滞在",
+      "reading": "たいざい",
+      "zh": "停留、居留"
+     }
+    ]
+   }
   },
   "ja:vocab:目的": {
    "text": "目的",
@@ -1216,7 +3756,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "入国の",
+      "text": "入国の目的",
+      "zh": "入境的目的"
+     },
+     {
+      "cue": "旅行の",
+      "text": "旅行の目的",
+      "zh": "旅行的目的"
+     }
+    ],
+    "related": [
+     {
+      "text": "観光",
+      "reading": "かんこう",
+      "zh": "觀光"
+     },
+     {
+      "text": "仕事",
+      "reading": "しごと",
+      "zh": "工作"
+     }
+    ]
+   }
   },
   "ja:vocab:観光": {
    "text": "観光",
@@ -1227,7 +3793,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "京都を",
+      "text": "京都を観光する",
+      "zh": "在京都觀光"
+     },
+     {
+      "cue": "市内",
+      "text": "市内観光",
+      "zh": "市區觀光"
+     }
+    ],
+    "related": [
+     {
+      "text": "旅行",
+      "reading": "りょこう",
+      "zh": "旅行"
+     },
+     {
+      "text": "目的",
+      "reading": "もくてき",
+      "zh": "目的"
+     }
+    ]
+   }
   },
   "ja:vocab:滞在": {
    "text": "滞在",
@@ -1238,7 +3830,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルに",
+      "text": "ホテルに滞在する",
+      "zh": "住在飯店"
+     },
+     {
+      "cue": "一週間",
+      "text": "一週間滞在する",
+      "zh": "停留一個星期"
+     }
+    ],
+    "related": [
+     {
+      "text": "泊まる",
+      "reading": "とまる",
+      "zh": "住宿、過夜"
+     },
+     {
+      "text": "入国",
+      "reading": "にゅうこく",
+      "zh": "入境"
+     }
+    ]
+   }
   },
   "ja:vocab:泊まる": {
    "text": "泊まる",
@@ -1249,7 +3867,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルに",
+      "text": "ホテルに泊まる",
+      "zh": "住飯店"
+     },
+     {
+      "cue": "友達の家に",
+      "text": "友達の家に泊まる",
+      "zh": "住在朋友家"
+     }
+    ],
+    "related": [
+     {
+      "text": "三泊",
+      "reading": "さんぱく",
+      "zh": "住三晚"
+     },
+     {
+      "text": "部屋",
+      "reading": "へや",
+      "zh": "房間"
+     }
+    ]
+   }
   },
   "ja:vocab:見せる": {
    "text": "見せる",
@@ -1260,7 +3904,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "パスポートを",
+      "text": "パスポートを見せる",
+      "zh": "出示護照"
+     },
+     {
+      "cue": "写真を",
+      "text": "写真を見せる",
+      "zh": "給人看照片"
+     }
+    ],
+    "related": [
+     {
+      "text": "パスポート",
+      "reading": "パスポート",
+      "zh": "護照"
+     },
+     {
+      "text": "確認",
+      "reading": "かくにん",
+      "zh": "確認"
+     }
+    ]
+   }
   },
   "ja:vocab:指": {
    "text": "指",
@@ -1272,7 +3942,28 @@
    "used_in": [
     "drama-w01-e01",
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "人差し",
+      "text": "人差し指",
+      "zh": "食指"
+     }
+    ],
+    "related": [
+     {
+      "text": "手",
+      "reading": "て",
+      "zh": "手"
+     },
+     {
+      "text": "置く",
+      "reading": "おく",
+      "zh": "放、擺"
+     }
+    ]
+   }
   },
   "ja:vocab:置く": {
    "text": "置く",
@@ -1283,7 +3974,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "指を",
+      "text": "指を置く",
+      "zh": "把手指放上去"
+     },
+     {
+      "cue": "荷物を",
+      "text": "荷物を置く",
+      "zh": "放行李"
+     }
+    ],
+    "related": [
+     {
+      "text": "指",
+      "reading": "ゆび",
+      "zh": "手指"
+     },
+     {
+      "text": "荷物",
+      "reading": "にもつ",
+      "zh": "行李"
+     }
+    ]
+   }
   },
   "ja:vocab:黒い": {
    "text": "黒い",
@@ -1294,7 +4011,40 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "髪が",
+      "text": "髪が黒い",
+      "zh": "頭髮是黑的"
+     },
+     {
+      "cue": "色が",
+      "text": "色が黒い",
+      "zh": "顏色是黑的"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "白い",
+      "reading": "しろい",
+      "zh": "白色的"
+     }
+    ],
+    "related": [
+     {
+      "text": "赤い",
+      "reading": "あかい",
+      "zh": "紅色的"
+     },
+     {
+      "text": "青い",
+      "reading": "あおい",
+      "zh": "藍色的"
+     }
+    ]
+   }
   },
   "ja:vocab:多い": {
    "text": "多い",
@@ -1305,7 +4055,28 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "人が",
+      "text": "人が多い",
+      "zh": "人很多"
+     },
+     {
+      "cue": "荷物が",
+      "text": "荷物が多い",
+      "zh": "行李很多"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "少ない",
+      "reading": "すくない",
+      "zh": "少的"
+     }
+    ]
+   }
   },
   "ja:vocab:赤い": {
    "text": "赤い",
@@ -1316,7 +4087,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "顔が",
+      "text": "顔が赤い",
+      "zh": "臉紅"
+     },
+     {
+      "cue": "目が",
+      "text": "目が赤い",
+      "zh": "眼睛紅紅的"
+     }
+    ],
+    "related": [
+     {
+      "text": "黒い",
+      "reading": "くろい",
+      "zh": "黑色的"
+     },
+     {
+      "text": "黄色い",
+      "reading": "きいろい",
+      "zh": "黃色的"
+     }
+    ]
+   }
   },
   "ja:vocab:円": {
    "text": "円",
@@ -1327,7 +4124,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "五百",
+      "text": "五百円",
+      "zh": "五百日圓"
+     },
+     {
+      "cue": "一万",
+      "text": "一万円",
+      "zh": "一萬日圓"
+     }
+    ],
+    "related": [
+     {
+      "text": "お金",
+      "reading": "おかね",
+      "zh": "錢"
+     },
+     {
+      "text": "金額",
+      "reading": "きんがく",
+      "zh": "金額"
+     }
+    ]
+   }
   },
   "ja:vocab:金額": {
    "text": "金額",
@@ -1338,7 +4161,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "合計",
+      "text": "合計金額",
+      "zh": "總金額"
+     },
+     {
+      "cue": "お支払い",
+      "text": "お支払い金額",
+      "zh": "應付金額"
+     }
+    ],
+    "related": [
+     {
+      "text": "円",
+      "reading": "えん",
+      "zh": "日圓"
+     },
+     {
+      "text": "お金",
+      "reading": "おかね",
+      "zh": "錢"
+     }
+    ]
+   }
   },
   "ja:vocab:名前": {
    "text": "名前",
@@ -1349,7 +4198,33 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お店の",
+      "text": "お店の名前",
+      "zh": "店名"
+     },
+     {
+      "cue": "自分の",
+      "text": "自分の名前",
+      "zh": "自己的名字"
+     }
+    ],
+    "related": [
+     {
+      "text": "住所",
+      "reading": "じゅうしょ",
+      "zh": "地址"
+     },
+     {
+      "text": "書く",
+      "reading": "かく",
+      "zh": "寫"
+     }
+    ]
+   }
   },
   "ja:vocab:書く": {
    "text": "書く",
@@ -1361,7 +4236,33 @@
    "used_in": [
     "drama-w01-e01",
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "名前を",
+      "text": "名前を書く",
+      "zh": "寫名字"
+     },
+     {
+      "cue": "住所を",
+      "text": "住所を書く",
+      "zh": "寫地址"
+     }
+    ],
+    "related": [
+     {
+      "text": "記入",
+      "reading": "きにゅう",
+      "zh": "填寫"
+     },
+     {
+      "text": "漢字",
+      "reading": "かんじ",
+      "zh": "漢字"
+     }
+    ]
+   }
   },
   "ja:vocab:確認": {
    "text": "確認",
@@ -1373,7 +4274,33 @@
    "used_in": [
     "drama-w01-e01",
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "金額を",
+      "text": "金額を確認する",
+      "zh": "確認金額"
+     },
+     {
+      "cue": "予約の",
+      "text": "予約の確認",
+      "zh": "確認預約"
+     }
+    ],
+    "related": [
+     {
+      "text": "見せる",
+      "reading": "みせる",
+      "zh": "給人看、出示"
+     },
+     {
+      "text": "予約",
+      "reading": "よやく",
+      "zh": "預約、訂位"
+     }
+    ]
+   }
   },
   "ja:vocab:仕事": {
    "text": "仕事",
@@ -1384,7 +4311,35 @@
    "introduced": "drama-w01-e01",
    "used_in": [
     "drama-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "明日も",
+      "text": "明日も仕事",
+      "zh": "明天也要上班"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "休み",
+      "reading": "やすみ",
+      "zh": "休假、休息日"
+     }
+    ],
+    "related": [
+     {
+      "text": "観光",
+      "reading": "かんこう",
+      "zh": "觀光"
+     },
+     {
+      "text": "目的",
+      "reading": "もくてき",
+      "zh": "目的"
+     }
+    ]
+   }
   },
   "ja:vocab:旅行": {
    "text": "旅行",
@@ -1396,7 +4351,33 @@
    "used_in": [
     "drama-w01-e01",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "家族",
+      "text": "家族旅行",
+      "zh": "家族旅遊"
+     },
+     {
+      "cue": "海外",
+      "text": "海外旅行",
+      "zh": "出國旅遊"
+     }
+    ],
+    "related": [
+     {
+      "text": "旅",
+      "reading": "たび",
+      "zh": "旅行、旅途"
+     },
+     {
+      "text": "観光",
+      "reading": "かんこう",
+      "zh": "觀光"
+     }
+    ]
+   }
   },
   "ja:vocab:買う": {
    "text": "買う",
@@ -1407,7 +4388,40 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "切符を",
+      "text": "切符を買う",
+      "zh": "買車票"
+     },
+     {
+      "cue": "お土産を",
+      "text": "お土産を買う",
+      "zh": "買伴手禮"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "売る",
+      "reading": "うる",
+      "zh": "賣"
+     }
+    ],
+    "related": [
+     {
+      "text": "券売機",
+      "reading": "けんばいき",
+      "zh": "售票機"
+     },
+     {
+      "text": "お金",
+      "reading": "おかね",
+      "zh": "錢"
+     }
+    ]
+   }
   },
   "ja:vocab:券売機": {
    "text": "券売機",
@@ -1419,7 +4433,28 @@
    "used_in": [
     "drama-w01-e02",
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅の",
+      "text": "駅の券売機",
+      "zh": "車站的售票機"
+     }
+    ],
+    "related": [
+     {
+      "text": "切符",
+      "reading": "きっぷ",
+      "zh": "車票"
+     },
+     {
+      "text": "押す",
+      "reading": "おす",
+      "zh": "按、推"
+     }
+    ]
+   }
   },
   "ja:vocab:押す": {
    "text": "押す",
@@ -1431,7 +4466,35 @@
    "used_in": [
     "drama-w01-e02",
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ボタンを",
+      "text": "ボタンを押す",
+      "zh": "按按鈕"
+     },
+     {
+      "cue": "ベビーカーを",
+      "text": "ベビーカーを押す",
+      "zh": "推嬰兒車"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "引く",
+      "reading": "ひく",
+      "zh": "拉"
+     }
+    ],
+    "related": [
+     {
+      "text": "券売機",
+      "reading": "けんばいき",
+      "zh": "售票機"
+     }
+    ]
+   }
   },
   "ja:vocab:入れる": {
    "text": "入れる",
@@ -1442,7 +4505,35 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お金を",
+      "text": "お金を入れる",
+      "zh": "投錢"
+     },
+     {
+      "cue": "袋に",
+      "text": "袋に入れる",
+      "zh": "裝進袋子"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "出す",
+      "reading": "だす",
+      "zh": "拿出"
+     }
+    ],
+    "related": [
+     {
+      "text": "お金",
+      "reading": "おかね",
+      "zh": "錢"
+     }
+    ]
+   }
   },
   "ja:vocab:お金": {
    "text": "お金",
@@ -1453,7 +4544,28 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "細かい",
+      "text": "細かいお金",
+      "zh": "零錢"
+     }
+    ],
+    "related": [
+     {
+      "text": "円",
+      "reading": "えん",
+      "zh": "日圓"
+     },
+     {
+      "text": "金額",
+      "reading": "きんがく",
+      "zh": "金額"
+     }
+    ]
+   }
   },
   "ja:vocab:出る": {
    "text": "出る",
@@ -1464,7 +4576,35 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅を",
+      "text": "駅を出る",
+      "zh": "出車站"
+     },
+     {
+      "cue": "切符が",
+      "text": "切符が出る",
+      "zh": "車票出來"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "入る",
+      "reading": "はいる",
+      "zh": "進入"
+     }
+    ],
+    "related": [
+     {
+      "text": "出口",
+      "reading": "でぐち",
+      "zh": "出口"
+     }
+    ]
+   }
   },
   "ja:vocab:楽しい": {
    "text": "楽しい",
@@ -1475,7 +4615,40 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "毎日が",
+      "text": "毎日が楽しい",
+      "zh": "每天都很開心"
+     },
+     {
+      "cue": "すごく",
+      "text": "すごく楽しかった",
+      "zh": "超好玩的"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "つまらない",
+      "reading": "つまらない",
+      "zh": "無聊的"
+     }
+    ],
+    "related": [
+     {
+      "text": "楽しみ",
+      "reading": "たのしみ",
+      "zh": "期待、樂趣"
+     },
+     {
+      "text": "旅",
+      "reading": "たび",
+      "zh": "旅行、旅途"
+     }
+    ]
+   }
   },
   "ja:vocab:旅": {
    "text": "旅",
@@ -1486,7 +4659,33 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "一人",
+      "text": "一人旅",
+      "zh": "一個人旅行"
+     },
+     {
+      "cue": "楽しい",
+      "text": "楽しい旅",
+      "zh": "愉快的旅程"
+     }
+    ],
+    "related": [
+     {
+      "text": "旅行",
+      "reading": "りょこう",
+      "zh": "旅行"
+     },
+     {
+      "text": "観光",
+      "reading": "かんこう",
+      "zh": "觀光"
+     }
+    ]
+   }
   },
   "ja:vocab:番線": {
    "text": "番線",
@@ -1497,7 +4696,22 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [],
+    "related": [
+     {
+      "text": "電車",
+      "reading": "でんしゃ",
+      "zh": "電車"
+     },
+     {
+      "text": "行き",
+      "reading": "ゆき",
+      "zh": "開往～"
+     }
+    ]
+   }
   },
   "ja:vocab:階段": {
    "text": "階段",
@@ -1509,7 +4723,33 @@
    "used_in": [
     "drama-w01-e02",
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅の",
+      "text": "駅の階段",
+      "zh": "車站的樓梯"
+     },
+     {
+      "cue": "急な",
+      "text": "急な階段",
+      "zh": "很陡的樓梯"
+     }
+    ],
+    "related": [
+     {
+      "text": "エレベーター",
+      "reading": "エレベーター",
+      "zh": "電梯"
+     },
+     {
+      "text": "下りる",
+      "reading": "おりる",
+      "zh": "下（樓梯、坡）"
+     }
+    ]
+   }
   },
   "ja:vocab:下りる": {
    "text": "下りる",
@@ -1520,7 +4760,35 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "階段を",
+      "text": "階段を下りる",
+      "zh": "下樓梯"
+     },
+     {
+      "cue": "坂を",
+      "text": "坂を下りる",
+      "zh": "下坡"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "上る",
+      "reading": "のぼる",
+      "zh": "上（樓梯、坡）、往上爬"
+     }
+    ],
+    "related": [
+     {
+      "text": "階段",
+      "reading": "かいだん",
+      "zh": "樓梯"
+     }
+    ]
+   }
   },
   "ja:vocab:右": {
    "text": "右",
@@ -1531,7 +4799,40 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "改札を出て",
+      "text": "改札を出て右",
+      "zh": "出剪票口往右"
+     },
+     {
+      "cue": "次の角を",
+      "text": "次の角を右",
+      "zh": "下個轉角往右"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "左",
+      "reading": "ひだり",
+      "zh": "左邊"
+     }
+    ],
+    "related": [
+     {
+      "text": "曲がる",
+      "reading": "まがる",
+      "zh": "轉彎"
+     },
+     {
+      "text": "左側",
+      "reading": "ひだりがわ",
+      "zh": "左側"
+     }
+    ]
+   }
   },
   "ja:vocab:電車": {
    "text": "電車",
@@ -1542,7 +4843,33 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "次の",
+      "text": "次の電車",
+      "zh": "下一班電車"
+     },
+     {
+      "cue": "満員",
+      "text": "満員電車",
+      "zh": "擠滿人的電車"
+     }
+    ],
+    "related": [
+     {
+      "text": "駅",
+      "reading": "えき",
+      "zh": "車站"
+     },
+     {
+      "text": "番線",
+      "reading": "ばんせん",
+      "zh": "第～號月台"
+     }
+    ]
+   }
   },
   "ja:vocab:急ぐ": {
    "text": "急ぐ",
@@ -1553,7 +4880,30 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅へ",
+      "text": "駅へ急ぐ",
+      "zh": "趕往車站"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "ゆっくり",
+      "reading": "ゆっくり",
+      "zh": "慢慢地"
+     }
+    ],
+    "related": [
+     {
+      "text": "間に合う",
+      "reading": "まにあう",
+      "zh": "趕上、來得及"
+     }
+    ]
+   }
   },
   "ja:vocab:行き": {
    "text": "行き",
@@ -1564,7 +4914,33 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "東京",
+      "text": "東京行き",
+      "zh": "開往東京"
+     },
+     {
+      "cue": "新宿",
+      "text": "新宿行き",
+      "zh": "開往新宿"
+     }
+    ],
+    "related": [
+     {
+      "text": "番線",
+      "reading": "ばんせん",
+      "zh": "第～號月台"
+     },
+     {
+      "text": "電車",
+      "reading": "でんしゃ",
+      "zh": "電車"
+     }
+    ]
+   }
   },
   "ja:vocab:出口": {
    "text": "出口",
@@ -1575,7 +4951,35 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅の",
+      "text": "駅の出口",
+      "zh": "車站的出口"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "入り口",
+      "reading": "いりぐち",
+      "zh": "入口"
+     }
+    ],
+    "related": [
+     {
+      "text": "階段",
+      "reading": "かいだん",
+      "zh": "樓梯"
+     },
+     {
+      "text": "地図",
+      "reading": "ちず",
+      "zh": "地圖"
+     }
+    ]
+   }
   },
   "ja:vocab:左側": {
    "text": "左側",
@@ -1586,7 +4990,40 @@
    "introduced": "drama-w01-e02",
    "used_in": [
     "drama-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "道の",
+      "text": "道の左側",
+      "zh": "路的左邊"
+     },
+     {
+      "cue": "エスカレーターの",
+      "text": "エスカレーターの左側",
+      "zh": "手扶梯的左側"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "右側",
+      "reading": "みぎがわ",
+      "zh": "右側"
+     }
+    ],
+    "related": [
+     {
+      "text": "右",
+      "reading": "みぎ",
+      "zh": "右邊"
+     },
+     {
+      "text": "横",
+      "reading": "よこ",
+      "zh": "旁邊、側面"
+     }
+    ]
+   }
   },
   "ja:vocab:地図": {
    "text": "地図",
@@ -1598,7 +5035,33 @@
    "used_in": [
     "drama-w01-e02",
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "スマホの",
+      "text": "スマホの地図",
+      "zh": "手機地圖"
+     },
+     {
+      "cue": "この辺の",
+      "text": "この辺の地図",
+      "zh": "這附近的地圖"
+     }
+    ],
+    "related": [
+     {
+      "text": "探す",
+      "reading": "さがす",
+      "zh": "找"
+     },
+     {
+      "text": "迷う",
+      "reading": "まよう",
+      "zh": "迷路"
+     }
+    ]
+   }
   },
   "ja:vocab:様": {
    "text": "様",
@@ -1609,7 +5072,33 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お客",
+      "text": "お客様",
+      "zh": "客人、貴賓"
+     },
+     {
+      "cue": "お子",
+      "text": "お子様",
+      "zh": "（您的）小孩"
+     }
+    ],
+    "related": [
+     {
+      "text": "名前",
+      "reading": "なまえ",
+      "zh": "名字"
+     },
+     {
+      "text": "予約",
+      "reading": "よやく",
+      "zh": "預約、訂位"
+     }
+    ]
+   }
   },
   "ja:vocab:荷物": {
    "text": "荷物",
@@ -1621,7 +5110,33 @@
    "used_in": [
     "drama-w01-e03",
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "重い",
+      "text": "重い荷物",
+      "zh": "很重的行李"
+     },
+     {
+      "cue": "大きな",
+      "text": "大きな荷物",
+      "zh": "大件行李"
+     }
+    ],
+    "related": [
+     {
+      "text": "預ける",
+      "reading": "あずける",
+      "zh": "寄放"
+     },
+     {
+      "text": "袋",
+      "reading": "ふくろ",
+      "zh": "袋子"
+     }
+    ]
+   }
   },
   "ja:vocab:預ける": {
    "text": "預ける",
@@ -1632,7 +5147,35 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "荷物を",
+      "text": "荷物を預ける",
+      "zh": "寄放行李"
+     },
+     {
+      "cue": "フロントに",
+      "text": "フロントに預ける",
+      "zh": "寄放在櫃台"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "預かる",
+      "reading": "あずかる",
+      "zh": "收下、代為保管"
+     }
+    ],
+    "related": [
+     {
+      "text": "荷物",
+      "reading": "にもつ",
+      "zh": "行李"
+     }
+    ]
+   }
   },
   "ja:vocab:番号": {
    "text": "番号",
@@ -1643,7 +5186,33 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "電話",
+      "text": "電話番号",
+      "zh": "電話號碼"
+     },
+     {
+      "cue": "部屋",
+      "text": "部屋番号",
+      "zh": "房號"
+     }
+    ],
+    "related": [
+     {
+      "text": "号室",
+      "reading": "ごうしつ",
+      "zh": "～號房"
+     },
+     {
+      "text": "名前",
+      "reading": "なまえ",
+      "zh": "名字"
+     }
+    ]
+   }
   },
   "ja:vocab:使う": {
    "text": "使う",
@@ -1654,7 +5223,28 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "カードを",
+      "text": "カードを使う",
+      "zh": "用卡"
+     },
+     {
+      "cue": "箸を",
+      "text": "箸を使う",
+      "zh": "用筷子"
+     }
+    ],
+    "related": [
+     {
+      "text": "利用",
+      "reading": "りよう",
+      "zh": "利用、使用"
+     }
+    ]
+   }
   },
   "ja:vocab:本日": {
    "text": "本日",
@@ -1665,7 +5255,22 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [],
+    "related": [
+     {
+      "text": "今日",
+      "reading": "きょう",
+      "zh": "今天"
+     },
+     {
+      "text": "予約",
+      "reading": "よやく",
+      "zh": "預約、訂位"
+     }
+    ]
+   }
   },
   "ja:vocab:三泊": {
    "text": "三泊",
@@ -1676,7 +5281,33 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "東京で",
+      "text": "東京で三泊",
+      "zh": "在東京住三晚"
+     },
+     {
+      "cue": "ホテルに",
+      "text": "ホテルに三泊",
+      "zh": "在飯店住三晚"
+     }
+    ],
+    "related": [
+     {
+      "text": "泊まる",
+      "reading": "とまる",
+      "zh": "住宿、過夜"
+     },
+     {
+      "text": "滞在",
+      "reading": "たいざい",
+      "zh": "停留、居留"
+     }
+    ]
+   }
   },
   "ja:vocab:住所": {
    "text": "住所",
@@ -1687,7 +5318,33 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "日本の",
+      "text": "日本の住所",
+      "zh": "在日本的地址"
+     },
+     {
+      "cue": "ホテルの",
+      "text": "ホテルの住所",
+      "zh": "飯店的地址"
+     }
+    ],
+    "related": [
+     {
+      "text": "書く",
+      "reading": "かく",
+      "zh": "寫"
+     },
+     {
+      "text": "名前",
+      "reading": "なまえ",
+      "zh": "名字"
+     }
+    ]
+   }
   },
   "ja:vocab:漢字": {
    "text": "漢字",
@@ -1698,7 +5355,28 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "難しい",
+      "text": "難しい漢字",
+      "zh": "很難的漢字"
+     },
+     {
+      "cue": "日本の",
+      "text": "日本の漢字",
+      "zh": "日本的漢字"
+     }
+    ],
+    "related": [
+     {
+      "text": "書く",
+      "reading": "かく",
+      "zh": "寫"
+     }
+    ]
+   }
   },
   "ja:vocab:難しい": {
    "text": "難しい",
@@ -1709,7 +5387,35 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "漢字が",
+      "text": "漢字が難しい",
+      "zh": "漢字很難"
+     },
+     {
+      "cue": "日本語は",
+      "text": "日本語は難しい",
+      "zh": "日文很難"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "簡単",
+      "reading": "かんたん",
+      "zh": "簡單"
+     }
+    ],
+    "related": [
+     {
+      "text": "漢字",
+      "reading": "かんじ",
+      "zh": "漢字"
+     }
+    ]
+   }
   },
   "ja:vocab:部屋": {
    "text": "部屋",
@@ -1721,7 +5427,33 @@
    "used_in": [
     "drama-w01-e03",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "広い",
+      "text": "広い部屋",
+      "zh": "寬敞的房間"
+     },
+     {
+      "cue": "ホテルの",
+      "text": "ホテルの部屋",
+      "zh": "飯店房間"
+     }
+    ],
+    "related": [
+     {
+      "text": "号室",
+      "reading": "ごうしつ",
+      "zh": "～號房"
+     },
+     {
+      "text": "鍵",
+      "reading": "かぎ",
+      "zh": "鑰匙"
+     }
+    ]
+   }
   },
   "ja:vocab:朝ごはん": {
    "text": "朝ごはん",
@@ -1732,7 +5464,28 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルの",
+      "text": "ホテルの朝ごはん",
+      "zh": "飯店的早餐"
+     }
+    ],
+    "related": [
+     {
+      "text": "晩ごはん",
+      "reading": "ばんごはん",
+      "zh": "晚餐"
+     },
+     {
+      "text": "一階",
+      "reading": "いっかい",
+      "zh": "一樓"
+     }
+    ]
+   }
   },
   "ja:vocab:一階": {
    "text": "一階",
@@ -1743,7 +5496,33 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "地下",
+      "text": "地下一階",
+      "zh": "地下一樓"
+     },
+     {
+      "cue": "レストランは",
+      "text": "レストランは一階",
+      "zh": "餐廳在一樓"
+     }
+    ],
+    "related": [
+     {
+      "text": "階段",
+      "reading": "かいだん",
+      "zh": "樓梯"
+     },
+     {
+      "text": "エレベーター",
+      "reading": "エレベーター",
+      "zh": "電梯"
+     }
+    ]
+   }
   },
   "ja:vocab:聞く": {
    "text": "聞く",
@@ -1754,7 +5533,28 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "道を",
+      "text": "道を聞く",
+      "zh": "問路"
+     },
+     {
+      "cue": "音楽を",
+      "text": "音楽を聞く",
+      "zh": "聽音樂"
+     }
+    ],
+    "related": [
+     {
+      "text": "質問",
+      "reading": "しつもん",
+      "zh": "問題、發問"
+     }
+    ]
+   }
   },
   "ja:vocab:小さい": {
    "text": "小さい",
@@ -1765,7 +5565,28 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "声が",
+      "text": "声が小さい",
+      "zh": "聲音很小"
+     },
+     {
+      "cue": "サイズが",
+      "text": "サイズが小さい",
+      "zh": "尺寸太小"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "大きい",
+      "reading": "おおきい",
+      "zh": "大的"
+     }
+    ]
+   }
   },
   "ja:vocab:早い": {
    "text": "早い",
@@ -1776,7 +5597,35 @@
    "introduced": "drama-w01-e03",
    "used_in": [
     "drama-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "朝が",
+      "text": "朝が早い",
+      "zh": "早上很早（起）"
+     },
+     {
+      "cue": "思ったより",
+      "text": "思ったより早かった",
+      "zh": "比想像中早"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "遅い",
+      "reading": "おそい",
+      "zh": "晚的、慢的"
+     }
+    ],
+    "related": [
+     {
+      "text": "速い",
+      "reading": "はやい",
+      "zh": "（速度）快"
+     }
+    ]
+   }
   },
   "ja:vocab:弁当": {
    "text": "弁当",
@@ -1787,7 +5636,33 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "コンビニ",
+      "text": "コンビニ弁当",
+      "zh": "超商便當"
+     },
+     {
+      "cue": "手作り",
+      "text": "手作り弁当",
+      "zh": "手做便當"
+     }
+    ],
+    "related": [
+     {
+      "text": "温める",
+      "reading": "あたためる",
+      "zh": "加熱"
+     },
+     {
+      "text": "箸",
+      "reading": "はし",
+      "zh": "筷子"
+     }
+    ]
+   }
   },
   "ja:vocab:冷蔵庫": {
    "text": "冷蔵庫",
@@ -1798,7 +5673,28 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "部屋の",
+      "text": "部屋の冷蔵庫",
+      "zh": "房間裡的冰箱"
+     }
+    ],
+    "related": [
+     {
+      "text": "冷たい",
+      "reading": "つめたい",
+      "zh": "冰的"
+     },
+     {
+      "text": "奥",
+      "reading": "おく",
+      "zh": "裡面、深處"
+     }
+    ]
+   }
   },
   "ja:vocab:奥": {
    "text": "奥",
@@ -1809,7 +5705,35 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "店の",
+      "text": "店の奥",
+      "zh": "店的裡面"
+     },
+     {
+      "cue": "一番",
+      "text": "一番奥",
+      "zh": "最裡面"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "手前",
+      "reading": "てまえ",
+      "zh": "前面、靠近自己這邊"
+     }
+    ],
+    "related": [
+     {
+      "text": "横",
+      "reading": "よこ",
+      "zh": "旁邊、側面"
+     }
+    ]
+   }
   },
   "ja:vocab:温める": {
    "text": "温める",
@@ -1820,7 +5744,40 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "レンジで",
+      "text": "レンジで温める",
+      "zh": "用微波爐加熱"
+     },
+     {
+      "cue": "お弁当を",
+      "text": "お弁当を温める",
+      "zh": "把便當加熱"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "冷やす",
+      "reading": "ひやす",
+      "zh": "弄涼、冰鎮"
+     }
+    ],
+    "related": [
+     {
+      "text": "温かい",
+      "reading": "あたたかい",
+      "zh": "溫熱的"
+     },
+     {
+      "text": "弁当",
+      "reading": "べんとう",
+      "zh": "便當"
+     }
+    ]
+   }
   },
   "ja:vocab:袋": {
    "text": "袋",
@@ -1831,7 +5788,33 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "レジ",
+      "text": "レジ袋",
+      "zh": "（店家的）塑膠袋"
+     },
+     {
+      "cue": "ビニール",
+      "text": "ビニール袋",
+      "zh": "塑膠袋"
+     }
+    ],
+    "related": [
+     {
+      "text": "入れる",
+      "reading": "いれる",
+      "zh": "放進去"
+     },
+     {
+      "text": "分ける",
+      "reading": "わける",
+      "zh": "分開"
+     }
+    ]
+   }
   },
   "ja:vocab:利用": {
    "text": "利用",
@@ -1842,7 +5825,33 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "電車を",
+      "text": "電車を利用する",
+      "zh": "搭乘電車"
+     },
+     {
+      "cue": "無料で",
+      "text": "無料で利用できる",
+      "zh": "可以免費使用"
+     }
+    ],
+    "related": [
+     {
+      "text": "使う",
+      "reading": "つかう",
+      "zh": "使用"
+     },
+     {
+      "text": "無料",
+      "reading": "むりょう",
+      "zh": "免費"
+     }
+    ]
+   }
   },
   "ja:vocab:分ける": {
    "text": "分ける",
@@ -1853,7 +5862,33 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "袋を",
+      "text": "袋を分ける",
+      "zh": "袋子分開裝"
+     },
+     {
+      "cue": "半分に",
+      "text": "半分に分ける",
+      "zh": "分成兩半"
+     }
+    ],
+    "related": [
+     {
+      "text": "袋",
+      "reading": "ふくろ",
+      "zh": "袋子"
+     },
+     {
+      "text": "半分",
+      "reading": "はんぶん",
+      "zh": "一半"
+     }
+    ]
+   }
   },
   "ja:vocab:温かい": {
    "text": "温かい",
@@ -1864,7 +5899,35 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "まだ",
+      "text": "まだ温かい",
+      "zh": "還是溫的"
+     },
+     {
+      "cue": "スープが",
+      "text": "スープが温かい",
+      "zh": "湯是熱的"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "冷たい",
+      "reading": "つめたい",
+      "zh": "冰的、冷的"
+     }
+    ],
+    "related": [
+     {
+      "text": "温める",
+      "reading": "あたためる",
+      "zh": "加熱"
+     }
+    ]
+   }
   },
   "ja:vocab:冷たい": {
    "text": "冷たい",
@@ -1875,7 +5938,35 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "水が",
+      "text": "水が冷たい",
+      "zh": "水很冰"
+     },
+     {
+      "cue": "手が",
+      "text": "手が冷たい",
+      "zh": "手很冰"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "温かい",
+      "reading": "あたたかい",
+      "zh": "溫熱的"
+     }
+    ],
+    "related": [
+     {
+      "text": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "zh": "冰箱"
+     }
+    ]
+   }
   },
   "ja:vocab:箸": {
    "text": "箸",
@@ -1886,7 +5977,28 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "割り",
+      "text": "割り箸",
+      "zh": "免洗筷"
+     }
+    ],
+    "related": [
+     {
+      "text": "弁当",
+      "reading": "べんとう",
+      "zh": "便當"
+     },
+     {
+      "text": "付ける",
+      "reading": "つける",
+      "zh": "附上"
+     }
+    ]
+   }
   },
   "ja:vocab:付ける": {
    "text": "付ける",
@@ -1897,7 +6009,33 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "箸を",
+      "text": "箸を付ける",
+      "zh": "附上筷子"
+     },
+     {
+      "cue": "ソースを",
+      "text": "ソースを付ける",
+      "zh": "沾醬"
+     }
+    ],
+    "related": [
+     {
+      "text": "箸",
+      "reading": "はし",
+      "zh": "筷子"
+     },
+     {
+      "text": "袋",
+      "reading": "ふくろ",
+      "zh": "袋子"
+     }
+    ]
+   }
   },
   "ja:vocab:ポイントカード": {
    "text": "ポイントカード",
@@ -1908,7 +6046,28 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "コンビニの",
+      "text": "コンビニのポイントカード",
+      "zh": "超商的集點卡"
+     }
+    ],
+    "related": [
+     {
+      "text": "レシート",
+      "reading": "レシート",
+      "zh": "收據、發票"
+     },
+     {
+      "text": "会計",
+      "reading": "かいけい",
+      "zh": "結帳"
+     }
+    ]
+   }
   },
   "ja:vocab:持つ": {
    "text": "持つ",
@@ -1919,7 +6078,33 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "荷物を",
+      "text": "荷物を持つ",
+      "zh": "拿行李"
+     },
+     {
+      "cue": "カードを",
+      "text": "カードを持っている",
+      "zh": "有卡"
+     }
+    ],
+    "related": [
+     {
+      "text": "荷物",
+      "reading": "にもつ",
+      "zh": "行李"
+     },
+     {
+      "text": "ポイントカード",
+      "reading": "ポイントカード",
+      "zh": "集點卡"
+     }
+    ]
+   }
   },
   "ja:vocab:会計": {
    "text": "会計",
@@ -1930,7 +6115,28 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "レジで",
+      "text": "レジで会計する",
+      "zh": "在收銀台結帳"
+     }
+    ],
+    "related": [
+     {
+      "text": "レシート",
+      "reading": "レシート",
+      "zh": "收據、發票"
+     },
+     {
+      "text": "Suica",
+      "reading": "スイカ",
+      "zh": "Suica 交通 IC 卡"
+     }
+    ]
+   }
   },
   "ja:vocab:Suica": {
    "text": "Suica",
@@ -1941,7 +6147,28 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "モバイル",
+      "text": "モバイルSuica",
+      "zh": "手機版 Suica"
+     }
+    ],
+    "related": [
+     {
+      "text": "ICOCA",
+      "reading": "イコカ",
+      "zh": "ICOCA 交通 IC 卡"
+     },
+     {
+      "text": "電車",
+      "reading": "でんしゃ",
+      "zh": "電車"
+     }
+    ]
+   }
   },
   "ja:vocab:レシート": {
    "text": "レシート",
@@ -1952,7 +6179,22 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [],
+    "related": [
+     {
+      "text": "領収書",
+      "reading": "りょうしゅうしょ",
+      "zh": "收據（正式、可報帳）"
+     },
+     {
+      "text": "会計",
+      "reading": "かいけい",
+      "zh": "結帳"
+     }
+    ]
+   }
   },
   "ja:vocab:恥ずかしい": {
    "text": "恥ずかしい",
@@ -1963,7 +6205,21 @@
    "introduced": "drama-w02-e04",
    "used_in": [
     "drama-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ちょっと",
+      "text": "ちょっと恥ずかしい",
+      "zh": "有點不好意思"
+     },
+     {
+      "cue": "本当に",
+      "text": "本当に恥ずかしかった",
+      "zh": "真的好丟臉"
+     }
+    ]
+   }
   },
   "ja:vocab:並ぶ": {
    "text": "並ぶ",
@@ -1974,7 +6230,33 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "列に",
+      "text": "列に並ぶ",
+      "zh": "排隊"
+     },
+     {
+      "cue": "一時間",
+      "text": "一時間並ぶ",
+      "zh": "排一個小時"
+     }
+    ],
+    "related": [
+     {
+      "text": "次",
+      "reading": "つぎ",
+      "zh": "下一個"
+     },
+     {
+      "text": "待つ",
+      "reading": "まつ",
+      "zh": "等"
+     }
+    ]
+   }
   },
   "ja:vocab:食券": {
    "text": "食券",
@@ -1985,7 +6267,22 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [],
+    "related": [
+     {
+      "text": "券売機",
+      "reading": "けんばいき",
+      "zh": "點餐機、售票機"
+     },
+     {
+      "text": "押す",
+      "reading": "おす",
+      "zh": "按"
+     }
+    ]
+   }
   },
   "ja:vocab:醤油": {
    "text": "醤油",
@@ -1996,7 +6293,28 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "刺身に",
+      "text": "刺身に醤油",
+      "zh": "生魚片沾醬油"
+     }
+    ],
+    "related": [
+     {
+      "text": "塩",
+      "reading": "しお",
+      "zh": "鹽"
+     },
+     {
+      "text": "麺",
+      "reading": "めん",
+      "zh": "麵"
+     }
+    ]
+   }
   },
   "ja:vocab:大盛り": {
    "text": "大盛り",
@@ -2007,7 +6325,35 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ご飯",
+      "text": "ご飯大盛り",
+      "zh": "飯加大"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "少なめ",
+      "reading": "すくなめ",
+      "zh": "少一點、減量"
+     }
+    ],
+    "related": [
+     {
+      "text": "普通",
+      "reading": "ふつう",
+      "zh": "普通、一般"
+     },
+     {
+      "text": "麺",
+      "reading": "めん",
+      "zh": "麵"
+     }
+    ]
+   }
   },
   "ja:vocab:麺": {
    "text": "麺",
@@ -2018,7 +6364,33 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "太い",
+      "text": "太い麺",
+      "zh": "粗麵"
+     },
+     {
+      "cue": "ちぢれ",
+      "text": "ちぢれ麺",
+      "zh": "捲麵"
+     }
+    ],
+    "related": [
+     {
+      "text": "醤油",
+      "reading": "しょうゆ",
+      "zh": "醬油"
+     },
+     {
+      "text": "硬さ",
+      "reading": "かたさ",
+      "zh": "硬度"
+     }
+    ]
+   }
   },
   "ja:vocab:無料": {
    "text": "無料",
@@ -2031,7 +6403,35 @@
     "drama-w02-e05",
     "family-w01-e02",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "大盛り",
+      "text": "大盛り無料",
+      "zh": "免費加大"
+     },
+     {
+      "cue": "入場",
+      "text": "入場無料",
+      "zh": "免費入場"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "有料",
+      "reading": "ゆうりょう",
+      "zh": "要付費"
+     }
+    ],
+    "related": [
+     {
+      "text": "お金",
+      "reading": "おかね",
+      "zh": "錢"
+     }
+    ]
+   }
   },
   "ja:vocab:預かる": {
    "text": "預かる",
@@ -2042,7 +6442,35 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "荷物を",
+      "text": "荷物を預かる",
+      "zh": "代為保管行李"
+     },
+     {
+      "cue": "鍵を",
+      "text": "鍵を預かる",
+      "zh": "代為保管鑰匙"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "預ける",
+      "reading": "あずける",
+      "zh": "寄放、交給人保管"
+     }
+    ],
+    "related": [
+     {
+      "text": "荷物",
+      "reading": "にもつ",
+      "zh": "行李"
+     }
+    ]
+   }
   },
   "ja:vocab:硬さ": {
    "text": "硬さ",
@@ -2053,7 +6481,28 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "麺の",
+      "text": "麺の硬さ",
+      "zh": "麵的硬度"
+     }
+    ],
+    "related": [
+     {
+      "text": "固め",
+      "reading": "かため",
+      "zh": "偏硬"
+     },
+     {
+      "text": "柔らかめ",
+      "reading": "やわらかめ",
+      "zh": "偏軟"
+     }
+    ]
+   }
   },
   "ja:vocab:固め": {
    "text": "固め",
@@ -2064,7 +6513,35 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "麺は",
+      "text": "麺は固め",
+      "zh": "麵要偏硬"
+     },
+     {
+      "cue": "ご飯は",
+      "text": "ご飯は固め",
+      "zh": "飯偏硬"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "柔らかめ",
+      "reading": "やわらかめ",
+      "zh": "偏軟"
+     }
+    ],
+    "related": [
+     {
+      "text": "硬さ",
+      "reading": "かたさ",
+      "zh": "硬度"
+     }
+    ]
+   }
   },
   "ja:vocab:柔らかめ": {
    "text": "柔らかめ",
@@ -2075,7 +6552,30 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "麺は",
+      "text": "麺は柔らかめ",
+      "zh": "麵要偏軟"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "固め",
+      "reading": "かため",
+      "zh": "偏硬"
+     }
+    ],
+    "related": [
+     {
+      "text": "硬さ",
+      "reading": "かたさ",
+      "zh": "硬度"
+     }
+    ]
+   }
   },
   "ja:vocab:おすすめ": {
    "text": "おすすめ",
@@ -2086,7 +6586,33 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "今日の",
+      "text": "今日のおすすめ",
+      "zh": "今日推薦"
+     },
+     {
+      "cue": "お店の",
+      "text": "お店のおすすめ",
+      "zh": "店家推薦"
+     }
+    ],
+    "related": [
+     {
+      "text": "一番",
+      "reading": "いちばん",
+      "zh": "最～、第一"
+     },
+     {
+      "text": "人気",
+      "reading": "にんき",
+      "zh": "受歡迎"
+     }
+    ]
+   }
   },
   "ja:vocab:一口": {
    "text": "一口",
@@ -2097,7 +6623,28 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "もう",
+      "text": "もう一口",
+      "zh": "再一口"
+     },
+     {
+      "cue": "最初の",
+      "text": "最初の一口",
+      "zh": "第一口"
+     }
+    ],
+    "related": [
+     {
+      "text": "食べる",
+      "reading": "たべる",
+      "zh": "吃"
+     }
+    ]
+   }
   },
   "ja:vocab:頼む": {
    "text": "頼む",
@@ -2108,7 +6655,33 @@
    "introduced": "drama-w02-e05",
    "used_in": [
     "drama-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ラーメンを",
+      "text": "ラーメンを頼む",
+      "zh": "點拉麵"
+     },
+     {
+      "cue": "追加で",
+      "text": "追加で頼む",
+      "zh": "加點"
+     }
+    ],
+    "related": [
+     {
+      "text": "注文",
+      "reading": "ちゅうもん",
+      "zh": "點餐、訂購"
+     },
+     {
+      "text": "おすすめ",
+      "reading": "おすすめ",
+      "zh": "推薦"
+     }
+    ]
+   }
   },
   "ja:vocab:予約": {
    "text": "予約",
@@ -2120,7 +6693,33 @@
    "used_in": [
     "drama-w02-e06",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルの",
+      "text": "ホテルの予約",
+      "zh": "飯店的預約"
+     },
+     {
+      "cue": "お店を",
+      "text": "お店を予約する",
+      "zh": "預約餐廳"
+     }
+    ],
+    "related": [
+     {
+      "text": "確認",
+      "reading": "かくにん",
+      "zh": "確認"
+     },
+     {
+      "text": "席",
+      "reading": "せき",
+      "zh": "座位"
+     }
+    ]
+   }
   },
   "ja:vocab:電池": {
    "text": "電池",
@@ -2131,7 +6730,33 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "スマホの",
+      "text": "スマホの電池",
+      "zh": "手機電池、電量"
+     },
+     {
+      "cue": "単三",
+      "text": "単三電池",
+      "zh": "三號電池"
+     }
+    ],
+    "related": [
+     {
+      "text": "切れる",
+      "reading": "きれる",
+      "zh": "用完、斷掉"
+     },
+     {
+      "text": "充電",
+      "reading": "じゅうでん",
+      "zh": "充電"
+     }
+    ]
+   }
   },
   "ja:vocab:切れる": {
    "text": "切れる",
@@ -2142,7 +6767,28 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "電池が",
+      "text": "電池が切れる",
+      "zh": "沒電"
+     },
+     {
+      "cue": "期限が",
+      "text": "期限が切れる",
+      "zh": "過期"
+     }
+    ],
+    "related": [
+     {
+      "text": "電池",
+      "reading": "でんち",
+      "zh": "電池、電量"
+     }
+    ]
+   }
   },
   "ja:vocab:探す": {
    "text": "探す",
@@ -2153,7 +6799,33 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お店を",
+      "text": "お店を探す",
+      "zh": "找店"
+     },
+     {
+      "cue": "財布を",
+      "text": "財布を探す",
+      "zh": "找錢包"
+     }
+    ],
+    "related": [
+     {
+      "text": "見つける",
+      "reading": "みつける",
+      "zh": "找到"
+     },
+     {
+      "text": "地図",
+      "reading": "ちず",
+      "zh": "地圖"
+     }
+    ]
+   }
   },
   "ja:vocab:焼き鳥": {
    "text": "焼き鳥",
@@ -2164,7 +6836,28 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ビールと",
+      "text": "ビールと焼き鳥",
+      "zh": "啤酒配烤雞串"
+     }
+    ],
+    "related": [
+     {
+      "text": "ビール",
+      "reading": "ビール",
+      "zh": "啤酒"
+     },
+     {
+      "text": "焼肉",
+      "reading": "やきにく",
+      "zh": "烤肉"
+     }
+    ]
+   }
   },
   "ja:vocab:まっすぐ": {
    "text": "まっすぐ",
@@ -2175,7 +6868,28 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "このまま",
+      "text": "このまままっすぐ",
+      "zh": "就這樣直走"
+     }
+    ],
+    "related": [
+     {
+      "text": "曲がる",
+      "reading": "まがる",
+      "zh": "轉彎"
+     },
+     {
+      "text": "信号",
+      "reading": "しんごう",
+      "zh": "紅綠燈"
+     }
+    ]
+   }
   },
   "ja:vocab:信号": {
    "text": "信号",
@@ -2186,7 +6900,33 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "次の",
+      "text": "次の信号",
+      "zh": "下一個紅綠燈"
+     },
+     {
+      "cue": "二つ目の",
+      "text": "二つ目の信号",
+      "zh": "第二個紅綠燈"
+     }
+    ],
+    "related": [
+     {
+      "text": "曲がる",
+      "reading": "まがる",
+      "zh": "轉彎"
+     },
+     {
+      "text": "まっすぐ",
+      "reading": "まっすぐ",
+      "zh": "直直地"
+     }
+    ]
+   }
   },
   "ja:vocab:曲がる": {
    "text": "曲がる",
@@ -2197,7 +6937,33 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "右に",
+      "text": "右に曲がる",
+      "zh": "右轉"
+     },
+     {
+      "cue": "角を",
+      "text": "角を曲がる",
+      "zh": "在轉角轉彎"
+     }
+    ],
+    "related": [
+     {
+      "text": "右",
+      "reading": "みぎ",
+      "zh": "右邊"
+     },
+     {
+      "text": "信号",
+      "reading": "しんごう",
+      "zh": "紅綠燈"
+     }
+    ]
+   }
   },
   "ja:vocab:看板": {
    "text": "看板",
@@ -2208,7 +6974,28 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お店の",
+      "text": "お店の看板",
+      "zh": "店的招牌"
+     },
+     {
+      "cue": "赤い",
+      "text": "赤い看板",
+      "zh": "紅色的招牌"
+     }
+    ],
+    "related": [
+     {
+      "text": "店",
+      "reading": "みせ",
+      "zh": "店"
+     }
+    ]
+   }
   },
   "ja:vocab:閉まる": {
    "text": "閉まる",
@@ -2219,7 +7006,35 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "店が",
+      "text": "店が閉まる",
+      "zh": "店關門"
+     },
+     {
+      "cue": "ドアが",
+      "text": "ドアが閉まる",
+      "zh": "門關上"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "開く",
+      "reading": "あく",
+      "zh": "（門、店）開"
+     }
+    ],
+    "related": [
+     {
+      "text": "閉める",
+      "reading": "しめる",
+      "zh": "關上"
+     }
+    ]
+   }
   },
   "ja:vocab:入り口": {
    "text": "入り口",
@@ -2230,7 +7045,35 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お店の",
+      "text": "お店の入り口",
+      "zh": "店門口"
+     },
+     {
+      "cue": "地下鉄の",
+      "text": "地下鉄の入り口",
+      "zh": "地鐵入口"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "出口",
+      "reading": "でぐち",
+      "zh": "出口"
+     }
+    ],
+    "related": [
+     {
+      "text": "階段",
+      "reading": "かいだん",
+      "zh": "樓梯"
+     }
+    ]
+   }
   },
   "ja:vocab:横": {
    "text": "横",
@@ -2242,7 +7085,28 @@
    "used_in": [
     "drama-w02-e06",
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅の",
+      "text": "駅の横",
+      "zh": "車站旁邊"
+     },
+     {
+      "cue": "コンビニの",
+      "text": "コンビニの横",
+      "zh": "超商旁邊"
+     }
+    ],
+    "related": [
+     {
+      "text": "隣",
+      "reading": "となり",
+      "zh": "隔壁、旁邊"
+     }
+    ]
+   }
   },
   "ja:vocab:間に合う": {
    "text": "間に合う",
@@ -2253,7 +7117,35 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "終電に",
+      "text": "終電に間に合う",
+      "zh": "趕上末班車"
+     },
+     {
+      "cue": "時間に",
+      "text": "時間に間に合う",
+      "zh": "趕上時間"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "遅れる",
+      "reading": "おくれる",
+      "zh": "遲到、來不及"
+     }
+    ],
+    "related": [
+     {
+      "text": "急ぐ",
+      "reading": "いそぐ",
+      "zh": "趕快、急忙"
+     }
+    ]
+   }
   },
   "ja:vocab:迷う": {
    "text": "迷う",
@@ -2264,7 +7156,33 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "道に",
+      "text": "道に迷う",
+      "zh": "迷路"
+     },
+     {
+      "cue": "どれにするか",
+      "text": "どれにするか迷う",
+      "zh": "猶豫要選哪個"
+     }
+    ],
+    "related": [
+     {
+      "text": "地図",
+      "reading": "ちず",
+      "zh": "地圖"
+     },
+     {
+      "text": "迷子",
+      "reading": "まいご",
+      "zh": "走失、迷路"
+     }
+    ]
+   }
   },
   "ja:vocab:優しい": {
    "text": "優しい",
@@ -2275,7 +7193,35 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "みんな",
+      "text": "みんな優しい",
+      "zh": "大家都很親切"
+     },
+     {
+      "cue": "店員さんが",
+      "text": "店員さんが優しい",
+      "zh": "店員很親切"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "厳しい",
+      "reading": "きびしい",
+      "zh": "嚴格"
+     }
+    ],
+    "related": [
+     {
+      "text": "親切",
+      "reading": "しんせつ",
+      "zh": "親切"
+     }
+    ]
+   }
   },
   "ja:vocab:家族": {
    "text": "家族",
@@ -2287,7 +7233,33 @@
    "used_in": [
     "family-w01-e01",
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "四人",
+      "text": "四人家族",
+      "zh": "四口之家"
+     },
+     {
+      "cue": "うちの",
+      "text": "うちの家族",
+      "zh": "我的家人"
+     }
+    ],
+    "related": [
+     {
+      "text": "旅行",
+      "reading": "りょこう",
+      "zh": "旅行"
+     },
+     {
+      "text": "子ども",
+      "reading": "こども",
+      "zh": "小孩"
+     }
+    ]
+   }
   },
   "ja:vocab:皆さん": {
    "text": "皆さん",
@@ -2298,7 +7270,23 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ご家族の",
+      "text": "ご家族の皆さん",
+      "zh": "您的家人們"
+     }
+    ],
+    "related": [
+     {
+      "text": "家族",
+      "reading": "かぞく",
+      "zh": "家人、家庭"
+     }
+    ]
+   }
   },
   "ja:vocab:パスポート": {
    "text": "パスポート",
@@ -2309,7 +7297,33 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子どもの",
+      "text": "子どものパスポート",
+      "zh": "小孩的護照"
+     },
+     {
+      "cue": "台湾の",
+      "text": "台湾のパスポート",
+      "zh": "台灣護照"
+     }
+    ],
+    "related": [
+     {
+      "text": "入国",
+      "reading": "にゅうこく",
+      "zh": "入境"
+     },
+     {
+      "text": "写真",
+      "reading": "しゃしん",
+      "zh": "照片"
+     }
+    ]
+   }
   },
   "ja:vocab:お子様": {
    "text": "お子様",
@@ -2320,7 +7334,35 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "小さな",
+      "text": "小さなお子様",
+      "zh": "年幼的小朋友"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "大人",
+      "reading": "おとな",
+      "zh": "大人、成人"
+     }
+    ],
+    "related": [
+     {
+      "text": "子ども",
+      "reading": "こども",
+      "zh": "小孩"
+     },
+     {
+      "text": "赤ちゃん",
+      "reading": "あかちゃん",
+      "zh": "嬰兒、小寶寶"
+     }
+    ]
+   }
   },
   "ja:vocab:娘": {
    "text": "娘",
@@ -2331,7 +7373,35 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "上の",
+      "text": "上の娘",
+      "zh": "大女兒"
+     },
+     {
+      "cue": "一人",
+      "text": "一人娘",
+      "zh": "獨生女"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "息子",
+      "reading": "むすこ",
+      "zh": "兒子"
+     }
+    ],
+    "related": [
+     {
+      "text": "家族",
+      "reading": "かぞく",
+      "zh": "家人、家庭"
+     }
+    ]
+   }
   },
   "ja:vocab:息子": {
    "text": "息子",
@@ -2343,7 +7413,35 @@
    "used_in": [
     "family-w01-e01",
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "上の",
+      "text": "上の息子",
+      "zh": "大兒子"
+     },
+     {
+      "cue": "一人",
+      "text": "一人息子",
+      "zh": "獨生子"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "娘",
+      "reading": "むすめ",
+      "zh": "女兒"
+     }
+    ],
+    "related": [
+     {
+      "text": "男の子",
+      "reading": "おとこのこ",
+      "zh": "男孩"
+     }
+    ]
+   }
   },
   "ja:vocab:写真": {
    "text": "写真",
@@ -2354,7 +7452,28 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "家族",
+      "text": "家族写真",
+      "zh": "全家福"
+     },
+     {
+      "cue": "記念",
+      "text": "記念写真",
+      "zh": "紀念照"
+     }
+    ],
+    "related": [
+     {
+      "text": "カメラ",
+      "reading": "カメラ",
+      "zh": "相機"
+     }
+    ]
+   }
   },
   "ja:vocab:赤ちゃん": {
    "text": "赤ちゃん",
@@ -2365,7 +7484,28 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "かわいい",
+      "text": "かわいい赤ちゃん",
+      "zh": "可愛的小寶寶"
+     }
+    ],
+    "related": [
+     {
+      "text": "ベビーカー",
+      "reading": "ベビーカー",
+      "zh": "嬰兒車"
+     },
+     {
+      "text": "お子様",
+      "reading": "おこさま",
+      "zh": "（您的）小孩、小朋友"
+     }
+    ]
+   }
   },
   "ja:vocab:大人": {
    "text": "大人",
@@ -2378,7 +7518,30 @@
     "family-w01-e01",
     "family-w01-e02",
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "もう",
+      "text": "もう大人",
+      "zh": "已經是大人了"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "子ども",
+      "reading": "こども",
+      "zh": "小孩"
+     }
+    ],
+    "related": [
+     {
+      "text": "料金",
+      "reading": "りょうきん",
+      "zh": "費用、票價"
+     }
+    ]
+   }
   },
   "ja:vocab:主人": {
    "text": "主人",
@@ -2389,7 +7552,28 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "うちの",
+      "text": "うちの主人",
+      "zh": "我先生、我老公"
+     }
+    ],
+    "related": [
+     {
+      "text": "家族",
+      "reading": "かぞく",
+      "zh": "家人、家庭"
+     },
+     {
+      "text": "奥さん",
+      "reading": "おくさん",
+      "zh": "（別人的）太太"
+     }
+    ]
+   }
   },
   "ja:vocab:ベビーカー": {
    "text": "ベビーカー",
@@ -2400,7 +7584,28 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "レンタル",
+      "text": "レンタルベビーカー",
+      "zh": "出租的嬰兒車"
+     }
+    ],
+    "related": [
+     {
+      "text": "赤ちゃん",
+      "reading": "あかちゃん",
+      "zh": "嬰兒、小寶寶"
+     },
+     {
+      "text": "エレベーター",
+      "reading": "エレベーター",
+      "zh": "電梯"
+     }
+    ]
+   }
   },
   "ja:vocab:青い": {
    "text": "青い",
@@ -2412,7 +7617,33 @@
    "used_in": [
     "family-w01-e01",
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "空が",
+      "text": "空が青い",
+      "zh": "天空很藍"
+     },
+     {
+      "cue": "顔が",
+      "text": "顔が青い",
+      "zh": "臉色發青、臉色很差"
+     }
+    ],
+    "related": [
+     {
+      "text": "赤い",
+      "reading": "あかい",
+      "zh": "紅色的"
+     },
+     {
+      "text": "黄色い",
+      "reading": "きいろい",
+      "zh": "黃色的"
+     }
+    ]
+   }
   },
   "ja:vocab:エレベーター": {
    "text": "エレベーター",
@@ -2423,7 +7654,28 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅の",
+      "text": "駅のエレベーター",
+      "zh": "車站的電梯"
+     }
+    ],
+    "related": [
+     {
+      "text": "階段",
+      "reading": "かいだん",
+      "zh": "樓梯"
+     },
+     {
+      "text": "エスカレーター",
+      "reading": "エスカレーター",
+      "zh": "手扶梯"
+     }
+    ]
+   }
   },
   "ja:vocab:膝": {
    "text": "膝",
@@ -2435,7 +7687,28 @@
    "used_in": [
     "family-w01-e01",
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "両方の",
+      "text": "両方の膝",
+      "zh": "兩邊膝蓋"
+     }
+    ],
+    "related": [
+     {
+      "text": "痛い",
+      "reading": "いたい",
+      "zh": "痛"
+     },
+     {
+      "text": "足",
+      "reading": "あし",
+      "zh": "腳"
+     }
+    ]
+   }
   },
   "ja:vocab:トイレ": {
    "text": "トイレ",
@@ -2446,7 +7719,28 @@
    "introduced": "family-w01-e01",
    "used_in": [
     "family-w01-e01"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "多目的",
+      "text": "多目的トイレ",
+      "zh": "多功能廁所（無障礙、可換尿布）"
+     },
+     {
+      "cue": "駅の",
+      "text": "駅のトイレ",
+      "zh": "車站的廁所"
+     }
+    ],
+    "related": [
+     {
+      "text": "お手洗い",
+      "reading": "おてあらい",
+      "zh": "洗手間"
+     }
+    ]
+   }
   },
   "ja:vocab:ICOCA": {
    "text": "ICOCA",
@@ -2457,7 +7751,33 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "こども",
+      "text": "こどもICOCA",
+      "zh": "兒童用 ICOCA"
+     },
+     {
+      "cue": "モバイル",
+      "text": "モバイルICOCA",
+      "zh": "手機版 ICOCA"
+     }
+    ],
+    "related": [
+     {
+      "text": "Suica",
+      "reading": "スイカ",
+      "zh": "Suica（交通 IC 卡）"
+     },
+     {
+      "text": "電車",
+      "reading": "でんしゃ",
+      "zh": "電車"
+     }
+    ]
+   }
   },
   "ja:vocab:子ども": {
    "text": "子ども",
@@ -2469,7 +7789,40 @@
    "used_in": [
     "family-w01-e02",
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "小さい",
+      "text": "小さい子ども",
+      "zh": "年紀小的孩子"
+     },
+     {
+      "cue": "うちの",
+      "text": "うちの子ども",
+      "zh": "我家的小孩"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "大人",
+      "reading": "おとな",
+      "zh": "大人、成人"
+     }
+    ],
+    "related": [
+     {
+      "text": "小学生",
+      "reading": "しょうがくせい",
+      "zh": "小學生"
+     },
+     {
+      "text": "赤ちゃん",
+      "reading": "あかちゃん",
+      "zh": "嬰兒、小寶寶"
+     }
+    ]
+   }
   },
   "ja:vocab:歳": {
    "text": "歳",
@@ -2481,7 +7834,28 @@
    "used_in": [
     "family-w01-e02",
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お子さんは何",
+      "text": "お子さんは何歳",
+      "zh": "您的小孩幾歲"
+     },
+     {
+      "cue": "息子は四",
+      "text": "息子は四歳",
+      "zh": "我兒子四歲"
+     }
+    ],
+    "related": [
+     {
+      "text": "子ども",
+      "reading": "こども",
+      "zh": "小孩"
+     }
+    ]
+   }
   },
   "ja:vocab:小学生": {
    "text": "小学生",
@@ -2492,7 +7866,28 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "まだ",
+      "text": "まだ小学生",
+      "zh": "還是小學生"
+     }
+    ],
+    "related": [
+     {
+      "text": "小学校",
+      "reading": "しょうがっこう",
+      "zh": "小學"
+     },
+     {
+      "text": "中学生",
+      "reading": "ちゅうがくせい",
+      "zh": "國中生"
+     }
+    ]
+   }
   },
   "ja:vocab:料金": {
    "text": "料金",
@@ -2503,7 +7898,33 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子ども",
+      "text": "子ども料金",
+      "zh": "兒童票價"
+     },
+     {
+      "cue": "大人",
+      "text": "大人料金",
+      "zh": "全票票價"
+     }
+    ],
+    "related": [
+     {
+      "text": "無料",
+      "reading": "むりょう",
+      "zh": "免費"
+     },
+     {
+      "text": "金額",
+      "reading": "きんがく",
+      "zh": "金額"
+     }
+    ]
+   }
   },
   "ja:vocab:未就学": {
    "text": "未就学",
@@ -2514,7 +7935,21 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "小学校",
+      "reading": "しょうがっこう",
+      "zh": "小學"
+     },
+     {
+      "text": "無料",
+      "reading": "むりょう",
+      "zh": "免費"
+     }
+    ]
+   }
   },
   "ja:vocab:小学校": {
    "text": "小学校",
@@ -2525,7 +7960,23 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "近くの",
+      "text": "近くの小学校",
+      "zh": "附近的小學"
+     }
+    ],
+    "related": [
+     {
+      "text": "小学生",
+      "reading": "しょうがくせい",
+      "zh": "小學生"
+     }
+    ]
+   }
   },
   "ja:vocab:乗る": {
    "text": "乗る",
@@ -2536,7 +7987,40 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "電車に",
+      "text": "電車に乗る",
+      "zh": "搭電車"
+     },
+     {
+      "cue": "タクシーに",
+      "text": "タクシーに乗る",
+      "zh": "搭計程車"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "降りる",
+      "reading": "おりる",
+      "zh": "下（車）"
+     }
+    ],
+    "related": [
+     {
+      "text": "電車",
+      "reading": "でんしゃ",
+      "zh": "電車"
+     },
+     {
+      "text": "駅",
+      "reading": "えき",
+      "zh": "車站"
+     }
+    ]
+   }
   },
   "ja:vocab:近く": {
    "text": "近く",
@@ -2547,7 +8031,35 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "駅の",
+      "text": "駅の近く",
+      "zh": "車站附近"
+     },
+     {
+      "cue": "この",
+      "text": "この近く",
+      "zh": "這附近"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "遠く",
+      "reading": "とおく",
+      "zh": "遠處"
+     }
+    ],
+    "related": [
+     {
+      "text": "横",
+      "reading": "よこ",
+      "zh": "旁邊"
+     }
+    ]
+   }
   },
   "ja:vocab:時間": {
    "text": "時間",
@@ -2558,7 +8070,33 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "待ち",
+      "text": "待ち時間",
+      "zh": "等待時間"
+     },
+     {
+      "cue": "集合",
+      "text": "集合時間",
+      "zh": "集合時間"
+     }
+    ],
+    "related": [
+     {
+      "text": "時計",
+      "reading": "とけい",
+      "zh": "時鐘、手錶"
+     },
+     {
+      "text": "午前",
+      "reading": "ごぜん",
+      "zh": "上午"
+     }
+    ]
+   }
   },
   "ja:vocab:痛い": {
    "text": "痛い",
@@ -2569,7 +8107,33 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "頭が",
+      "text": "頭が痛い",
+      "zh": "頭痛"
+     },
+     {
+      "cue": "お腹が",
+      "text": "お腹が痛い",
+      "zh": "肚子痛"
+     }
+    ],
+    "related": [
+     {
+      "text": "薬",
+      "reading": "くすり",
+      "zh": "藥"
+     },
+     {
+      "text": "病院",
+      "reading": "びょういん",
+      "zh": "醫院"
+     }
+    ]
+   }
   },
   "ja:vocab:座る": {
    "text": "座る",
@@ -2580,7 +8144,35 @@
    "introduced": "family-w01-e02",
    "used_in": [
     "family-w01-e02"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "席に",
+      "text": "席に座る",
+      "zh": "坐到座位上"
+     },
+     {
+      "cue": "椅子に",
+      "text": "椅子に座る",
+      "zh": "坐在椅子上"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "立つ",
+      "reading": "たつ",
+      "zh": "站"
+     }
+    ],
+    "related": [
+     {
+      "text": "席",
+      "reading": "せき",
+      "zh": "座位"
+     }
+    ]
+   }
   },
   "ja:vocab:チェックイン": {
    "text": "チェックイン",
@@ -2591,7 +8183,40 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルに",
+      "text": "ホテルにチェックインする",
+      "zh": "在飯店辦入住"
+     },
+     {
+      "cue": "オンライン",
+      "text": "オンラインチェックイン",
+      "zh": "線上報到"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "チェックアウト",
+      "reading": "チェックアウト",
+      "zh": "退房"
+     }
+    ],
+    "related": [
+     {
+      "text": "予約",
+      "reading": "よやく",
+      "zh": "預約、訂房"
+     },
+     {
+      "text": "フロント",
+      "reading": "フロント",
+      "zh": "（飯店）櫃檯"
+     }
+    ]
+   }
   },
   "ja:vocab:紙": {
    "text": "紙",
@@ -2602,7 +8227,28 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "白い",
+      "text": "白い紙",
+      "zh": "白紙"
+     }
+    ],
+    "related": [
+     {
+      "text": "枚",
+      "reading": "まい",
+      "zh": "～張"
+     },
+     {
+      "text": "書く",
+      "reading": "かく",
+      "zh": "寫"
+     }
+    ]
+   }
   },
   "ja:vocab:添い寝": {
    "text": "添い寝",
@@ -2613,7 +8259,28 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "赤ちゃんと",
+      "text": "赤ちゃんと添い寝する",
+      "zh": "和寶寶一起睡"
+     }
+    ],
+    "related": [
+     {
+      "text": "寝る",
+      "reading": "ねる",
+      "zh": "睡覺"
+     },
+     {
+      "text": "エキストラベッド",
+      "reading": "エキストラベッド",
+      "zh": "加床"
+     }
+    ]
+   }
   },
   "ja:vocab:追加": {
    "text": "追加",
@@ -2624,7 +8291,28 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ベッドを",
+      "text": "ベッドを追加する",
+      "zh": "加床"
+     }
+    ],
+    "related": [
+     {
+      "text": "エキストラベッド",
+      "reading": "エキストラベッド",
+      "zh": "加床"
+     },
+     {
+      "text": "料金",
+      "reading": "りょうきん",
+      "zh": "費用"
+     }
+    ]
+   }
   },
   "ja:vocab:エキストラベッド": {
    "text": "エキストラベッド",
@@ -2635,7 +8323,21 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "追加",
+      "reading": "ついか",
+      "zh": "追加、加"
+     },
+     {
+      "text": "ソファベッド",
+      "reading": "ソファベッド",
+      "zh": "沙發床"
+     }
+    ]
+   }
   },
   "ja:vocab:ソファベッド": {
    "text": "ソファベッド",
@@ -2646,7 +8348,21 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "エキストラベッド",
+      "reading": "エキストラベッド",
+      "zh": "加床"
+     },
+     {
+      "text": "ソファ",
+      "reading": "ソファ",
+      "zh": "沙發"
+     }
+    ]
+   }
   },
   "ja:vocab:隣": {
    "text": "隣",
@@ -2657,7 +8373,33 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "私の",
+      "text": "私の隣",
+      "zh": "我旁邊"
+     },
+     {
+      "cue": "駅の",
+      "text": "駅の隣",
+      "zh": "車站隔壁"
+     }
+    ],
+    "related": [
+     {
+      "text": "横",
+      "reading": "よこ",
+      "zh": "旁邊"
+     },
+     {
+      "text": "近く",
+      "reading": "ちかく",
+      "zh": "附近"
+     }
+    ]
+   }
   },
   "ja:vocab:号室": {
    "text": "号室",
@@ -2668,7 +8410,33 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "305",
+      "text": "305号室",
+      "zh": "305 號房"
+     },
+     {
+      "cue": "部屋は何",
+      "text": "部屋は何号室",
+      "zh": "房間是幾號房"
+     }
+    ],
+    "related": [
+     {
+      "text": "部屋",
+      "reading": "へや",
+      "zh": "房間"
+     },
+     {
+      "text": "番号",
+      "reading": "ばんごう",
+      "zh": "號碼"
+     }
+    ]
+   }
   },
   "ja:vocab:歯ブラシ": {
    "text": "歯ブラシ",
@@ -2679,7 +8447,33 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子ども用",
+      "text": "子ども用歯ブラシ",
+      "zh": "兒童牙刷"
+     },
+     {
+      "cue": "電動",
+      "text": "電動歯ブラシ",
+      "zh": "電動牙刷"
+     }
+    ],
+    "related": [
+     {
+      "text": "歯磨き粉",
+      "reading": "はみがきこ",
+      "zh": "牙膏"
+     },
+     {
+      "text": "タオル",
+      "reading": "タオル",
+      "zh": "毛巾"
+     }
+    ]
+   }
   },
   "ja:vocab:大浴場": {
    "text": "大浴場",
@@ -2690,7 +8484,28 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルの",
+      "text": "ホテルの大浴場",
+      "zh": "飯店的大浴池"
+     }
+    ],
+    "related": [
+     {
+      "text": "温泉",
+      "reading": "おんせん",
+      "zh": "溫泉"
+     },
+     {
+      "text": "タオル",
+      "reading": "タオル",
+      "zh": "毛巾"
+     }
+    ]
+   }
   },
   "ja:vocab:夜": {
    "text": "夜",
@@ -2701,7 +8516,35 @@
    "introduced": "family-w01-e03",
    "used_in": [
     "family-w01-e03"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "今日の",
+      "text": "今日の夜",
+      "zh": "今天晚上"
+     },
+     {
+      "cue": "明日の",
+      "text": "明日の夜",
+      "zh": "明天晚上"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "朝",
+      "reading": "あさ",
+      "zh": "早上"
+     }
+    ],
+    "related": [
+     {
+      "text": "今夜",
+      "reading": "こんや",
+      "zh": "今晚"
+     }
+    ]
+   }
   },
   "ja:vocab:椅子": {
    "text": "椅子",
@@ -2712,7 +8555,28 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子ども用の",
+      "text": "子ども用の椅子",
+      "zh": "兒童椅"
+     }
+    ],
+    "related": [
+     {
+      "text": "座る",
+      "reading": "すわる",
+      "zh": "坐"
+     },
+     {
+      "text": "席",
+      "reading": "せき",
+      "zh": "座位"
+     }
+    ]
+   }
   },
   "ja:vocab:メニュー": {
    "text": "メニュー",
@@ -2723,7 +8587,33 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "お子様",
+      "text": "お子様メニュー",
+      "zh": "兒童菜單"
+     },
+     {
+      "cue": "英語の",
+      "text": "英語のメニュー",
+      "zh": "英文菜單"
+     }
+    ],
+    "related": [
+     {
+      "text": "注文",
+      "reading": "ちゅうもん",
+      "zh": "點餐"
+     },
+     {
+      "text": "おすすめ",
+      "reading": "おすすめ",
+      "zh": "推薦"
+     }
+    ]
+   }
   },
   "ja:vocab:おもちゃ": {
    "text": "おもちゃ",
@@ -2734,7 +8624,28 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "おまけの",
+      "text": "おまけのおもちゃ",
+      "zh": "附贈的玩具"
+     },
+     {
+      "cue": "好きな",
+      "text": "好きなおもちゃ",
+      "zh": "喜歡的玩具"
+     }
+    ],
+    "related": [
+     {
+      "text": "子ども",
+      "reading": "こども",
+      "zh": "小孩"
+     }
+    ]
+   }
   },
   "ja:vocab:注文": {
    "text": "注文",
@@ -2745,7 +8656,33 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "追加で",
+      "text": "追加で注文する",
+      "zh": "加點"
+     },
+     {
+      "cue": "ネットで",
+      "text": "ネットで注文する",
+      "zh": "網路訂購"
+     }
+    ],
+    "related": [
+     {
+      "text": "メニュー",
+      "reading": "メニュー",
+      "zh": "菜單"
+     },
+     {
+      "text": "頼む",
+      "reading": "たのむ",
+      "zh": "點（餐）、拜託"
+     }
+    ]
+   }
   },
   "ja:vocab:アレルギー": {
    "text": "アレルギー",
@@ -2756,7 +8693,33 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "えび",
+      "text": "えびアレルギー",
+      "zh": "對蝦子過敏"
+     },
+     {
+      "cue": "食物",
+      "text": "食物アレルギー",
+      "zh": "食物過敏"
+     }
+    ],
+    "related": [
+     {
+      "text": "えび",
+      "reading": "えび",
+      "zh": "蝦子"
+     },
+     {
+      "text": "卵",
+      "reading": "たまご",
+      "zh": "蛋"
+     }
+    ]
+   }
   },
   "ja:vocab:えび": {
    "text": "えび",
@@ -2767,7 +8730,28 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "むき",
+      "text": "むきえび",
+      "zh": "蝦仁（去殼的蝦）"
+     }
+    ],
+    "related": [
+     {
+      "text": "天ぷら",
+      "reading": "てんぷら",
+      "zh": "天婦羅"
+     },
+     {
+      "text": "アレルギー",
+      "reading": "アレルギー",
+      "zh": "過敏"
+     }
+    ]
+   }
   },
   "ja:vocab:天ぷら": {
    "text": "天ぷら",
@@ -2778,7 +8762,33 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "えびの",
+      "text": "えびの天ぷら",
+      "zh": "炸蝦天婦羅"
+     },
+     {
+      "cue": "野菜の",
+      "text": "野菜の天ぷら",
+      "zh": "蔬菜天婦羅"
+     }
+    ],
+    "related": [
+     {
+      "text": "定食",
+      "reading": "ていしょく",
+      "zh": "定食、套餐"
+     },
+     {
+      "text": "えび",
+      "reading": "えび",
+      "zh": "蝦子"
+     }
+    ]
+   }
   },
   "ja:vocab:定食": {
    "text": "定食",
@@ -2789,7 +8799,33 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "焼き魚",
+      "text": "焼き魚定食",
+      "zh": "烤魚定食"
+     },
+     {
+      "cue": "天ぷら",
+      "text": "天ぷら定食",
+      "zh": "天婦羅定食"
+     }
+    ],
+    "related": [
+     {
+      "text": "みそ汁",
+      "reading": "みそしる",
+      "zh": "味噌湯"
+     },
+     {
+      "text": "ご飯",
+      "reading": "ごはん",
+      "zh": "飯"
+     }
+    ]
+   }
   },
   "ja:vocab:焼き魚": {
    "text": "焼き魚",
@@ -2800,7 +8836,21 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "定食",
+      "reading": "ていしょく",
+      "zh": "定食、套餐"
+     },
+     {
+      "text": "魚",
+      "reading": "さかな",
+      "zh": "魚"
+     }
+    ]
+   }
   },
   "ja:vocab:みそ汁": {
    "text": "みそ汁",
@@ -2811,7 +8861,33 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "温かい",
+      "text": "温かいみそ汁",
+      "zh": "熱呼呼的味噌湯"
+     },
+     {
+      "cue": "豆腐の",
+      "text": "豆腐のみそ汁",
+      "zh": "豆腐味噌湯"
+     }
+    ],
+    "related": [
+     {
+      "text": "定食",
+      "reading": "ていしょく",
+      "zh": "定食、套餐"
+     },
+     {
+      "text": "ご飯",
+      "reading": "ごはん",
+      "zh": "飯"
+     }
+    ]
+   }
   },
   "ja:vocab:糖尿病": {
    "text": "糖尿病",
@@ -2822,7 +8898,28 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "母は",
+      "text": "母は糖尿病",
+      "zh": "我媽媽有糖尿病"
+     }
+    ],
+    "related": [
+     {
+      "text": "薬",
+      "reading": "くすり",
+      "zh": "藥"
+     },
+     {
+      "text": "砂糖",
+      "reading": "さとう",
+      "zh": "砂糖"
+     }
+    ]
+   }
   },
   "ja:vocab:甘い": {
    "text": "甘い",
@@ -2833,7 +8930,35 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ちょっと",
+      "text": "ちょっと甘すぎる",
+      "zh": "有點太甜"
+     },
+     {
+      "cue": "あまり",
+      "text": "あまり甘くない",
+      "zh": "不太甜"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "辛い",
+      "reading": "からい",
+      "zh": "辣的"
+     }
+    ],
+    "related": [
+     {
+      "text": "お菓子",
+      "reading": "おかし",
+      "zh": "零食、點心"
+     }
+    ]
+   }
   },
   "ja:vocab:少なめ": {
    "text": "少なめ",
@@ -2844,7 +8969,35 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ご飯",
+      "text": "ご飯少なめ",
+      "zh": "飯少一點"
+     },
+     {
+      "cue": "砂糖",
+      "text": "砂糖少なめ",
+      "zh": "糖少一點"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "多め",
+      "reading": "おおめ",
+      "zh": "多一點"
+     }
+    ],
+    "related": [
+     {
+      "text": "大盛り",
+      "reading": "おおもり",
+      "zh": "大碗、加大份量"
+     }
+    ]
+   }
   },
   "ja:vocab:鉄板": {
    "text": "鉄板",
@@ -2855,7 +9008,28 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "熱い",
+      "text": "熱い鉄板",
+      "zh": "很燙的鐵板"
+     }
+    ],
+    "related": [
+     {
+      "text": "熱い",
+      "reading": "あつい",
+      "zh": "燙的"
+     },
+     {
+      "text": "お好み焼き",
+      "reading": "おこのみやき",
+      "zh": "大阪燒"
+     }
+    ]
+   }
   },
   "ja:vocab:触る": {
    "text": "触る",
@@ -2866,7 +9040,28 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "鉄板に",
+      "text": "鉄板に触る",
+      "zh": "碰到鐵板"
+     },
+     {
+      "cue": "手で",
+      "text": "手で触る",
+      "zh": "用手摸"
+     }
+    ],
+    "related": [
+     {
+      "text": "危ない",
+      "reading": "あぶない",
+      "zh": "危險"
+     }
+    ]
+   }
   },
   "ja:vocab:安心": {
    "text": "安心",
@@ -2877,7 +9072,35 @@
    "introduced": "family-w02-e04",
    "used_in": [
     "family-w02-e04"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "これで",
+      "text": "これで安心",
+      "zh": "這樣就放心了"
+     },
+     {
+      "cue": "ひと",
+      "text": "ひと安心",
+      "zh": "暫且鬆一口氣"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "心配",
+      "reading": "しんぱい",
+      "zh": "擔心"
+     }
+    ],
+    "related": [
+     {
+      "text": "大丈夫",
+      "reading": "だいじょうぶ",
+      "zh": "沒問題、沒事"
+     }
+    ]
+   }
   },
   "ja:vocab:元気": {
    "text": "元気",
@@ -2888,7 +9111,35 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "みんな",
+      "text": "みんな元気",
+      "zh": "大家都很好"
+     },
+     {
+      "cue": "朝から",
+      "text": "朝から元気",
+      "zh": "一大早就很有精神"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "病気",
+      "reading": "びょうき",
+      "zh": "生病"
+     }
+    ],
+    "related": [
+     {
+      "text": "体",
+      "reading": "からだ",
+      "zh": "身體"
+     }
+    ]
+   }
   },
   "ja:vocab:熱": {
    "text": "熱",
@@ -2899,7 +9150,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "高い",
+      "text": "高い熱",
+      "zh": "高燒"
+     },
+     {
+      "cue": "38度の",
+      "text": "38度の熱",
+      "zh": "燒到 38 度"
+     }
+    ],
+    "related": [
+     {
+      "text": "薬",
+      "reading": "くすり",
+      "zh": "藥"
+     },
+     {
+      "text": "風邪",
+      "reading": "かぜ",
+      "zh": "感冒"
+     }
+    ]
+   }
   },
   "ja:vocab:薬局": {
    "text": "薬局",
@@ -2910,7 +9187,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "近くの",
+      "text": "近くの薬局",
+      "zh": "附近的藥局"
+     },
+     {
+      "cue": "駅前の",
+      "text": "駅前の薬局",
+      "zh": "車站前的藥局"
+     }
+    ],
+    "related": [
+     {
+      "text": "薬",
+      "reading": "くすり",
+      "zh": "藥"
+     },
+     {
+      "text": "病院",
+      "reading": "びょういん",
+      "zh": "醫院"
+     }
+    ]
+   }
   },
   "ja:vocab:薬": {
    "text": "薬",
@@ -2921,7 +9224,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "熱の",
+      "text": "熱の薬",
+      "zh": "退燒藥"
+     },
+     {
+      "cue": "子ども用の",
+      "text": "子ども用の薬",
+      "zh": "兒童用藥"
+     }
+    ],
+    "related": [
+     {
+      "text": "薬局",
+      "reading": "やっきょく",
+      "zh": "藥局"
+     },
+     {
+      "text": "飲む",
+      "reading": "のむ",
+      "zh": "吃（藥）、喝"
+     }
+    ]
+   }
   },
   "ja:vocab:体重": {
    "text": "体重",
@@ -2932,7 +9261,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子どもの",
+      "text": "子どもの体重",
+      "zh": "小孩的體重"
+     }
+    ],
+    "related": [
+     {
+      "text": "キロ",
+      "reading": "キロ",
+      "zh": "公斤"
+     },
+     {
+      "text": "身長",
+      "reading": "しんちょう",
+      "zh": "身高"
+     }
+    ]
+   }
   },
   "ja:vocab:キロ": {
    "text": "キロ",
@@ -2943,7 +9293,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "体重は何",
+      "text": "体重は何キロ",
+      "zh": "體重幾公斤"
+     },
+     {
+      "cue": "荷物は20",
+      "text": "荷物は20キロ",
+      "zh": "行李 20 公斤"
+     }
+    ],
+    "related": [
+     {
+      "text": "体重",
+      "reading": "たいじゅう",
+      "zh": "體重"
+     }
+    ]
+   }
   },
   "ja:vocab:量": {
    "text": "量",
@@ -2954,7 +9325,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "薬の",
+      "text": "薬の量",
+      "zh": "藥量"
+     },
+     {
+      "cue": "ご飯の",
+      "text": "ご飯の量",
+      "zh": "飯量"
+     }
+    ],
+    "related": [
+     {
+      "text": "回数",
+      "reading": "かいすう",
+      "zh": "次數"
+     },
+     {
+      "text": "少なめ",
+      "reading": "すくなめ",
+      "zh": "少一點"
+     }
+    ]
+   }
   },
   "ja:vocab:回数": {
    "text": "回数",
@@ -2965,7 +9362,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "飲む",
+      "text": "飲む回数",
+      "zh": "（藥）吃的次數"
+     },
+     {
+      "cue": "トイレの",
+      "text": "トイレの回数",
+      "zh": "上廁所的次數"
+     }
+    ],
+    "related": [
+     {
+      "text": "量",
+      "reading": "りょう",
+      "zh": "份量、用量"
+     }
+    ]
+   }
   },
   "ja:vocab:病院": {
    "text": "病院",
@@ -2976,7 +9394,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "近くの",
+      "text": "近くの病院",
+      "zh": "附近的醫院"
+     },
+     {
+      "cue": "大きな",
+      "text": "大きな病院",
+      "zh": "大醫院"
+     }
+    ],
+    "related": [
+     {
+      "text": "小児科",
+      "reading": "しょうにか",
+      "zh": "小兒科"
+     },
+     {
+      "text": "薬局",
+      "reading": "やっきょく",
+      "zh": "藥局"
+     }
+    ]
+   }
   },
   "ja:vocab:小児科": {
    "text": "小児科",
@@ -2987,7 +9431,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "近くの",
+      "text": "近くの小児科",
+      "zh": "附近的小兒科"
+     }
+    ],
+    "related": [
+     {
+      "text": "病院",
+      "reading": "びょういん",
+      "zh": "醫院"
+     },
+     {
+      "text": "子ども",
+      "reading": "こども",
+      "zh": "小孩"
+     }
+    ]
+   }
   },
   "ja:vocab:午前": {
    "text": "午前",
@@ -2998,7 +9463,30 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "明日の",
+      "text": "明日の午前",
+      "zh": "明天上午"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "午後",
+      "reading": "ごご",
+      "zh": "下午"
+     }
+    ],
+    "related": [
+     {
+      "text": "時間",
+      "reading": "じかん",
+      "zh": "時間"
+     }
+    ]
+   }
   },
   "ja:vocab:旅行者": {
    "text": "旅行者",
@@ -3009,7 +9497,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "外国人",
+      "text": "外国人旅行者",
+      "zh": "外國旅客"
+     },
+     {
+      "cue": "台湾からの",
+      "text": "台湾からの旅行者",
+      "zh": "來自台灣的旅客"
+     }
+    ],
+    "related": [
+     {
+      "text": "観光",
+      "reading": "かんこう",
+      "zh": "觀光"
+     },
+     {
+      "text": "パスポート",
+      "reading": "パスポート",
+      "zh": "護照"
+     }
+    ]
+   }
   },
   "ja:vocab:保険証": {
    "text": "保険証",
@@ -3020,7 +9534,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "健康",
+      "text": "健康保険証",
+      "zh": "健保卡"
+     }
+    ],
+    "related": [
+     {
+      "text": "保険",
+      "reading": "ほけん",
+      "zh": "保險"
+     },
+     {
+      "text": "病院",
+      "reading": "びょういん",
+      "zh": "醫院"
+     }
+    ]
+   }
   },
   "ja:vocab:保険": {
    "text": "保険",
@@ -3031,7 +9566,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "海外旅行",
+      "text": "海外旅行保険",
+      "zh": "海外旅遊險"
+     },
+     {
+      "cue": "健康",
+      "text": "健康保険",
+      "zh": "健康保險"
+     }
+    ],
+    "related": [
+     {
+      "text": "保険証",
+      "reading": "ほけんしょう",
+      "zh": "健保卡"
+     },
+     {
+      "text": "領収書",
+      "reading": "りょうしゅうしょ",
+      "zh": "收據"
+     }
+    ]
+   }
   },
   "ja:vocab:自費": {
    "text": "自費",
@@ -3042,7 +9603,23 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "全額",
+      "text": "全額自費",
+      "zh": "全額自費"
+     }
+    ],
+    "related": [
+     {
+      "text": "保険",
+      "reading": "ほけん",
+      "zh": "保險"
+     }
+    ]
+   }
   },
   "ja:vocab:領収書": {
    "text": "領収書",
@@ -3053,7 +9630,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "病院の",
+      "text": "病院の領収書",
+      "zh": "醫院的收據"
+     }
+    ],
+    "related": [
+     {
+      "text": "レシート",
+      "reading": "レシート",
+      "zh": "收據、發票"
+     },
+     {
+      "text": "保険",
+      "reading": "ほけん",
+      "zh": "保險"
+     }
+    ]
+   }
   },
   "ja:vocab:問診票": {
    "text": "問診票",
@@ -3064,7 +9662,28 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "英語の",
+      "text": "英語の問診票",
+      "zh": "英文問診單"
+     }
+    ],
+    "related": [
+     {
+      "text": "記入",
+      "reading": "きにゅう",
+      "zh": "填寫"
+     },
+     {
+      "text": "病院",
+      "reading": "びょういん",
+      "zh": "醫院"
+     }
+    ]
+   }
   },
   "ja:vocab:記入": {
    "text": "記入",
@@ -3075,7 +9694,33 @@
    "introduced": "family-w02-e05",
    "used_in": [
     "family-w02-e05"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "問診票に",
+      "text": "問診票に記入する",
+      "zh": "填寫問診單"
+     },
+     {
+      "cue": "名前を",
+      "text": "名前を記入する",
+      "zh": "填寫名字"
+     }
+    ],
+    "related": [
+     {
+      "text": "書く",
+      "reading": "かく",
+      "zh": "寫"
+     },
+     {
+      "text": "名前",
+      "reading": "なまえ",
+      "zh": "名字"
+     }
+    ]
+   }
   },
   "ja:vocab:見つける": {
    "text": "見つける",
@@ -3086,7 +9731,33 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子どもを",
+      "text": "子どもを見つける",
+      "zh": "找到小孩"
+     },
+     {
+      "cue": "いい店を",
+      "text": "いい店を見つける",
+      "zh": "找到好店"
+     }
+    ],
+    "related": [
+     {
+      "text": "見つかる",
+      "reading": "みつかる",
+      "zh": "被找到"
+     },
+     {
+      "text": "探す",
+      "reading": "さがす",
+      "zh": "找"
+     }
+    ]
+   }
   },
   "ja:vocab:迷子": {
    "text": "迷子",
@@ -3097,7 +9768,21 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "迷う",
+      "reading": "まよう",
+      "zh": "迷路"
+     },
+     {
+      "text": "放送",
+      "reading": "ほうそう",
+      "zh": "廣播"
+     }
+    ]
+   }
   },
   "ja:vocab:男の子": {
    "text": "男の子",
@@ -3108,7 +9793,35 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "小さな",
+      "text": "小さな男の子",
+      "zh": "小男孩"
+     },
+     {
+      "cue": "五歳の",
+      "text": "五歳の男の子",
+      "zh": "五歲的男孩"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "女の子",
+      "reading": "おんなのこ",
+      "zh": "女孩"
+     }
+    ],
+    "related": [
+     {
+      "text": "息子",
+      "reading": "むすこ",
+      "zh": "兒子"
+     }
+    ]
+   }
   },
   "ja:vocab:服": {
    "text": "服",
@@ -3119,7 +9832,33 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "青い",
+      "text": "青い服",
+      "zh": "藍色的衣服"
+     },
+     {
+      "cue": "子ども",
+      "text": "子ども服",
+      "zh": "童裝"
+     }
+    ],
+    "related": [
+     {
+      "text": "着る",
+      "reading": "きる",
+      "zh": "穿（上衣、衣服）"
+     },
+     {
+      "text": "Tシャツ",
+      "reading": "ティーシャツ",
+      "zh": "T恤"
+     }
+    ]
+   }
   },
   "ja:vocab:着る": {
    "text": "着る",
@@ -3130,7 +9869,40 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "服を",
+      "text": "服を着る",
+      "zh": "穿衣服"
+     },
+     {
+      "cue": "Tシャツを",
+      "text": "Tシャツを着る",
+      "zh": "穿 T 恤"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "脱ぐ",
+      "reading": "ぬぐ",
+      "zh": "脫"
+     }
+    ],
+    "related": [
+     {
+      "text": "服",
+      "reading": "ふく",
+      "zh": "衣服"
+     },
+     {
+      "text": "履く",
+      "reading": "はく",
+      "zh": "穿（褲子、鞋子）"
+     }
+    ]
+   }
   },
   "ja:vocab:Tシャツ": {
    "text": "Tシャツ",
@@ -3141,7 +9913,33 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "青い",
+      "text": "青いTシャツ",
+      "zh": "藍色 T 恤"
+     },
+     {
+      "cue": "白い",
+      "text": "白いTシャツ",
+      "zh": "白色 T 恤"
+     }
+    ],
+    "related": [
+     {
+      "text": "着る",
+      "reading": "きる",
+      "zh": "穿（上衣、衣服）"
+     },
+     {
+      "text": "半ズボン",
+      "reading": "はんズボン",
+      "zh": "短褲"
+     }
+    ]
+   }
   },
   "ja:vocab:黄色い": {
    "text": "黄色い",
@@ -3152,7 +9950,21 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "related": [
+     {
+      "text": "青い",
+      "reading": "あおい",
+      "zh": "藍色的"
+     },
+     {
+      "text": "赤い",
+      "reading": "あかい",
+      "zh": "紅色的"
+     }
+    ]
+   }
   },
   "ja:vocab:帽子": {
    "text": "帽子",
@@ -3163,7 +9975,28 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "黄色い",
+      "text": "黄色い帽子",
+      "zh": "黃色帽子"
+     },
+     {
+      "cue": "麦わら",
+      "text": "麦わら帽子",
+      "zh": "草帽"
+     }
+    ],
+    "related": [
+     {
+      "text": "かぶる",
+      "reading": "かぶる",
+      "zh": "戴（帽子）"
+     }
+    ]
+   }
   },
   "ja:vocab:かぶる": {
    "text": "かぶる",
@@ -3174,7 +10007,35 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "帽子を",
+      "text": "帽子をかぶる",
+      "zh": "戴帽子"
+     },
+     {
+      "cue": "ヘルメットを",
+      "text": "ヘルメットをかぶる",
+      "zh": "戴安全帽"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "脱ぐ",
+      "reading": "ぬぐ",
+      "zh": "脫（帽子）"
+     }
+    ],
+    "related": [
+     {
+      "text": "帽子",
+      "reading": "ぼうし",
+      "zh": "帽子"
+     }
+    ]
+   }
   },
   "ja:vocab:靴": {
    "text": "靴",
@@ -3185,7 +10046,28 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "運動",
+      "text": "運動靴",
+      "zh": "運動鞋"
+     },
+     {
+      "cue": "新しい",
+      "text": "新しい靴",
+      "zh": "新鞋子"
+     }
+    ],
+    "related": [
+     {
+      "text": "履く",
+      "reading": "はく",
+      "zh": "穿（褲子、鞋子、襪子）"
+     }
+    ]
+   }
   },
   "ja:vocab:半ズボン": {
    "text": "半ズボン",
@@ -3196,7 +10078,35 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "黒い",
+      "text": "黒い半ズボン",
+      "zh": "黑色短褲"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "長ズボン",
+      "reading": "ながズボン",
+      "zh": "長褲"
+     }
+    ],
+    "related": [
+     {
+      "text": "履く",
+      "reading": "はく",
+      "zh": "穿（褲子、鞋子、襪子）"
+     },
+     {
+      "text": "Tシャツ",
+      "reading": "ティーシャツ",
+      "zh": "T恤"
+     }
+    ]
+   }
   },
   "ja:vocab:履く": {
    "text": "履く",
@@ -3207,7 +10117,40 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "靴を",
+      "text": "靴を履く",
+      "zh": "穿鞋子"
+     },
+     {
+      "cue": "ズボンを",
+      "text": "ズボンを履く",
+      "zh": "穿褲子"
+     }
+    ],
+    "opposite": [
+     {
+      "text": "脱ぐ",
+      "reading": "ぬぐ",
+      "zh": "脫"
+     }
+    ],
+    "related": [
+     {
+      "text": "着る",
+      "reading": "きる",
+      "zh": "穿（上衣、衣服）"
+     },
+     {
+      "text": "靴",
+      "reading": "くつ",
+      "zh": "鞋子"
+     }
+    ]
+   }
   },
   "ja:vocab:特徴": {
    "text": "特徴",
@@ -3218,7 +10161,23 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "見た目の",
+      "text": "見た目の特徴",
+      "zh": "外表特徵"
+     }
+    ],
+    "related": [
+     {
+      "text": "服",
+      "reading": "ふく",
+      "zh": "衣服"
+     }
+    ]
+   }
   },
   "ja:vocab:恐竜": {
    "text": "恐竜",
@@ -3229,7 +10188,28 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "大きな",
+      "text": "大きな恐竜",
+      "zh": "大恐龍"
+     }
+    ],
+    "related": [
+     {
+      "text": "博物館",
+      "reading": "はくぶつかん",
+      "zh": "博物館"
+     },
+     {
+      "text": "おもちゃ",
+      "reading": "おもちゃ",
+      "zh": "玩具"
+     }
+    ]
+   }
   },
   "ja:vocab:放送": {
    "text": "放送",
@@ -3240,7 +10220,33 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "館内",
+      "text": "館内放送",
+      "zh": "館內廣播"
+     },
+     {
+      "cue": "駅の",
+      "text": "駅の放送",
+      "zh": "車站廣播"
+     }
+    ],
+    "related": [
+     {
+      "text": "係員",
+      "reading": "かかりいん",
+      "zh": "工作人員"
+     },
+     {
+      "text": "迷子",
+      "reading": "まいご",
+      "zh": "走失的小孩"
+     }
+    ]
+   }
   },
   "ja:vocab:見つかる": {
    "text": "見つかる",
@@ -3251,7 +10257,28 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "子どもが",
+      "text": "子どもが見つかる",
+      "zh": "小孩找到了"
+     },
+     {
+      "cue": "財布が",
+      "text": "財布が見つかる",
+      "zh": "錢包找到了"
+     }
+    ],
+    "related": [
+     {
+      "text": "見つける",
+      "reading": "みつける",
+      "zh": "找到"
+     }
+    ]
+   }
   },
   "ja:vocab:係員": {
    "text": "係員",
@@ -3262,7 +10289,33 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "近くの",
+      "text": "近くの係員",
+      "zh": "附近的工作人員"
+     },
+     {
+      "cue": "駅の",
+      "text": "駅の係員",
+      "zh": "車站工作人員"
+     }
+    ],
+    "related": [
+     {
+      "text": "放送",
+      "reading": "ほうそう",
+      "zh": "廣播"
+     },
+     {
+      "text": "店員",
+      "reading": "てんいん",
+      "zh": "店員"
+     }
+    ]
+   }
   },
   "ja:vocab:電話番号": {
    "text": "電話番号",
@@ -3273,7 +10326,33 @@
    "introduced": "family-w02-e06",
    "used_in": [
     "family-w02-e06"
-   ]
+   ],
+   "links": {
+    "collocations": [
+     {
+      "cue": "ホテルの",
+      "text": "ホテルの電話番号",
+      "zh": "飯店的電話號碼"
+     },
+     {
+      "cue": "携帯の",
+      "text": "携帯の電話番号",
+      "zh": "手機號碼"
+     }
+    ],
+    "related": [
+     {
+      "text": "番号",
+      "reading": "ばんごう",
+      "zh": "號碼"
+     },
+     {
+      "text": "名前",
+      "reading": "なまえ",
+      "zh": "名字"
+     }
+    ]
+   }
   }
  },
  "phrases": {

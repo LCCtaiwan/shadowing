@@ -710,7 +710,33 @@
       "pos": "名詞",
       "zh": "家人、家庭",
       "level": "N5",
-      "line": "s1-02"
+      "line": "s1-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "四人",
+            "text": "四人家族",
+            "zh": "四口之家"
+          },
+          {
+            "cue": "うちの",
+            "text": "うちの家族",
+            "zh": "我的家人"
+          }
+        ],
+        "related": [
+          {
+            "text": "旅行",
+            "reading": "りょこう",
+            "zh": "旅行"
+          },
+          {
+            "text": "子ども",
+            "reading": "こども",
+            "zh": "小孩"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:皆さん",
@@ -719,7 +745,23 @@
       "pos": "名詞",
       "zh": "各位、大家",
       "level": "N5",
-      "line": "s1-04"
+      "line": "s1-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ご家族の",
+            "text": "ご家族の皆さん",
+            "zh": "您的家人們"
+          }
+        ],
+        "related": [
+          {
+            "text": "家族",
+            "reading": "かぞく",
+            "zh": "家人、家庭"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:パスポート",
@@ -728,7 +770,33 @@
       "pos": "名詞",
       "zh": "護照",
       "level": "N5",
-      "line": "s1-04"
+      "line": "s1-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "子どもの",
+            "text": "子どものパスポート",
+            "zh": "小孩的護照"
+          },
+          {
+            "cue": "台湾の",
+            "text": "台湾のパスポート",
+            "zh": "台灣護照"
+          }
+        ],
+        "related": [
+          {
+            "text": "入国",
+            "reading": "にゅうこく",
+            "zh": "入境"
+          },
+          {
+            "text": "写真",
+            "reading": "しゃしん",
+            "zh": "照片"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:お子様",
@@ -737,7 +805,35 @@
       "pos": "名詞",
       "zh": "（您的）小孩、小朋友（尊敬說法）",
       "level": "N4",
-      "line": "s1-05"
+      "line": "s1-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "小さな",
+            "text": "小さなお子様",
+            "zh": "年幼的小朋友"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "大人",
+            "reading": "おとな",
+            "zh": "大人、成人"
+          }
+        ],
+        "related": [
+          {
+            "text": "子ども",
+            "reading": "こども",
+            "zh": "小孩"
+          },
+          {
+            "text": "赤ちゃん",
+            "reading": "あかちゃん",
+            "zh": "嬰兒、小寶寶"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:娘",
@@ -746,7 +842,35 @@
       "pos": "名詞",
       "zh": "女兒",
       "level": "N4",
-      "line": "s1-06"
+      "line": "s1-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "上の",
+            "text": "上の娘",
+            "zh": "大女兒"
+          },
+          {
+            "cue": "一人",
+            "text": "一人娘",
+            "zh": "獨生女"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "息子",
+            "reading": "むすこ",
+            "zh": "兒子"
+          }
+        ],
+        "related": [
+          {
+            "text": "家族",
+            "reading": "かぞく",
+            "zh": "家人、家庭"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:息子",
@@ -755,7 +879,35 @@
       "pos": "名詞",
       "zh": "兒子",
       "level": "N4",
-      "line": "s1-06"
+      "line": "s1-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "上の",
+            "text": "上の息子",
+            "zh": "大兒子"
+          },
+          {
+            "cue": "一人",
+            "text": "一人息子",
+            "zh": "獨生子"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "娘",
+            "reading": "むすめ",
+            "zh": "女兒"
+          }
+        ],
+        "related": [
+          {
+            "text": "男の子",
+            "reading": "おとこのこ",
+            "zh": "男孩"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:写真",
@@ -764,7 +916,28 @@
       "pos": "名詞",
       "zh": "照片",
       "level": "N5",
-      "line": "s1-07"
+      "line": "s1-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "家族",
+            "text": "家族写真",
+            "zh": "全家福"
+          },
+          {
+            "cue": "記念",
+            "text": "記念写真",
+            "zh": "紀念照"
+          }
+        ],
+        "related": [
+          {
+            "text": "カメラ",
+            "reading": "カメラ",
+            "zh": "相機"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:赤ちゃん",
@@ -773,7 +946,28 @@
       "pos": "名詞",
       "zh": "嬰兒、小寶寶",
       "level": "N4",
-      "line": "s1-08"
+      "line": "s1-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "かわいい",
+            "text": "かわいい赤ちゃん",
+            "zh": "可愛的小寶寶"
+          }
+        ],
+        "related": [
+          {
+            "text": "ベビーカー",
+            "reading": "ベビーカー",
+            "zh": "嬰兒車"
+          },
+          {
+            "text": "お子様",
+            "reading": "おこさま",
+            "zh": "（您的）小孩、小朋友"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:大人",
@@ -782,7 +976,30 @@
       "pos": "名詞",
       "zh": "大人、成人",
       "level": "N5",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "もう",
+            "text": "もう大人",
+            "zh": "已經是大人了"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "子ども",
+            "reading": "こども",
+            "zh": "小孩"
+          }
+        ],
+        "related": [
+          {
+            "text": "料金",
+            "reading": "りょうきん",
+            "zh": "費用、票價"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:指",
@@ -792,7 +1009,33 @@
       "zh": "手指",
       "level": "N4",
       "line": "s1-09",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "人差し",
+            "text": "人差し指",
+            "zh": "食指"
+          },
+          {
+            "cue": "足の",
+            "text": "足の指",
+            "zh": "腳趾"
+          }
+        ],
+        "related": [
+          {
+            "text": "置く",
+            "reading": "おく",
+            "zh": "放、擺"
+          },
+          {
+            "text": "手",
+            "reading": "て",
+            "zh": "手"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:主人",
@@ -802,7 +1045,28 @@
       "zh": "先生、丈夫（ご主人＝您先生）",
       "level": "N4",
       "line": "s1-12",
-      "surface": "主人"
+      "surface": "主人",
+      "links": {
+        "collocations": [
+          {
+            "cue": "うちの",
+            "text": "うちの主人",
+            "zh": "我先生、我老公"
+          }
+        ],
+        "related": [
+          {
+            "text": "家族",
+            "reading": "かぞく",
+            "zh": "家人、家庭"
+          },
+          {
+            "text": "奥さん",
+            "reading": "おくさん",
+            "zh": "（別人的）太太"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:ベビーカー",
@@ -811,7 +1075,28 @@
       "pos": "名詞",
       "zh": "嬰兒車",
       "level": "N3",
-      "line": "s2-01"
+      "line": "s2-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "レンタル",
+            "text": "レンタルベビーカー",
+            "zh": "出租的嬰兒車"
+          }
+        ],
+        "related": [
+          {
+            "text": "赤ちゃん",
+            "reading": "あかちゃん",
+            "zh": "嬰兒、小寶寶"
+          },
+          {
+            "text": "エレベーター",
+            "reading": "エレベーター",
+            "zh": "電梯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:荷物",
@@ -821,7 +1106,28 @@
       "zh": "行李",
       "level": "N5",
       "line": "s2-02",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "重い",
+            "text": "重い荷物",
+            "zh": "很重的行李"
+          },
+          {
+            "cue": "大きな",
+            "text": "大きな荷物",
+            "zh": "大件行李"
+          }
+        ],
+        "related": [
+          {
+            "text": "預ける",
+            "reading": "あずける",
+            "zh": "寄放、交給人保管"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:青い",
@@ -830,7 +1136,33 @@
       "pos": "い形容詞",
       "zh": "藍色的",
       "level": "N5",
-      "line": "s2-04"
+      "line": "s2-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "空が",
+            "text": "空が青い",
+            "zh": "天空很藍"
+          },
+          {
+            "cue": "顔が",
+            "text": "顔が青い",
+            "zh": "臉色發青、臉色很差"
+          }
+        ],
+        "related": [
+          {
+            "text": "赤い",
+            "reading": "あかい",
+            "zh": "紅色的"
+          },
+          {
+            "text": "黄色い",
+            "reading": "きいろい",
+            "zh": "黃色的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:エレベーター",
@@ -839,7 +1171,28 @@
       "pos": "名詞",
       "zh": "電梯",
       "level": "N5",
-      "line": "s3-01"
+      "line": "s3-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅のエレベーター",
+            "zh": "車站的電梯"
+          }
+        ],
+        "related": [
+          {
+            "text": "階段",
+            "reading": "かいだん",
+            "zh": "樓梯"
+          },
+          {
+            "text": "エスカレーター",
+            "reading": "エスカレーター",
+            "zh": "手扶梯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:膝",
@@ -848,7 +1201,28 @@
       "pos": "名詞",
       "zh": "膝蓋",
       "level": "N3",
-      "line": "s3-01"
+      "line": "s3-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "両方の",
+            "text": "両方の膝",
+            "zh": "兩邊膝蓋"
+          }
+        ],
+        "related": [
+          {
+            "text": "痛い",
+            "reading": "いたい",
+            "zh": "痛"
+          },
+          {
+            "text": "足",
+            "reading": "あし",
+            "zh": "腳"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:悪い",
@@ -859,7 +1233,35 @@
       "level": "N5",
       "line": "s3-01",
       "surface": "悪い",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "膝が",
+            "text": "膝が悪い",
+            "zh": "膝蓋不好"
+          },
+          {
+            "cue": "体に",
+            "text": "体に悪い",
+            "zh": "對身體不好"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "いい",
+            "reading": "いい",
+            "zh": "好的"
+          }
+        ],
+        "related": [
+          {
+            "text": "痛い",
+            "reading": "いたい",
+            "zh": "痛"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:トイレ",
@@ -868,7 +1270,28 @@
       "pos": "名詞",
       "zh": "廁所",
       "level": "N5",
-      "line": "s3-02"
+      "line": "s3-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "多目的",
+            "text": "多目的トイレ",
+            "zh": "多功能廁所（無障礙、可換尿布）"
+          },
+          {
+            "cue": "駅の",
+            "text": "駅のトイレ",
+            "zh": "車站的廁所"
+          }
+        ],
+        "related": [
+          {
+            "text": "お手洗い",
+            "reading": "おてあらい",
+            "zh": "洗手間"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:横",
@@ -878,7 +1301,33 @@
       "zh": "旁邊",
       "level": "N5",
       "line": "s3-02",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "トイレの",
+            "text": "トイレの横",
+            "zh": "廁所旁邊"
+          },
+          {
+            "cue": "駅の",
+            "text": "駅の横",
+            "zh": "車站旁邊"
+          }
+        ],
+        "related": [
+          {
+            "text": "隣",
+            "reading": "となり",
+            "zh": "隔壁、旁邊"
+          },
+          {
+            "text": "近く",
+            "reading": "ちかく",
+            "zh": "附近"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:上手",
@@ -888,7 +1337,35 @@
       "zh": "擅長、很厲害",
       "level": "N5",
       "line": "s3-06",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "日本語が",
+            "text": "日本語が上手",
+            "zh": "日文很好"
+          },
+          {
+            "cue": "料理が",
+            "text": "料理が上手",
+            "zh": "很會做菜"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "下手",
+            "reading": "へた",
+            "zh": "不擅長、很差"
+          }
+        ],
+        "related": [
+          {
+            "text": "得意",
+            "reading": "とくい",
+            "zh": "拿手"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

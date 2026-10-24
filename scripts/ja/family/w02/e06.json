@@ -1030,7 +1030,33 @@
       "zh": "找到（他動詞：我找到～）",
       "level": "N4",
       "line": "s1-04",
-      "surface": "見つけたら"
+      "surface": "見つけたら",
+      "links": {
+        "collocations": [
+          {
+            "cue": "子どもを",
+            "text": "子どもを見つける",
+            "zh": "找到小孩"
+          },
+          {
+            "cue": "いい店を",
+            "text": "いい店を見つける",
+            "zh": "找到好店"
+          }
+        ],
+        "related": [
+          {
+            "text": "見つかる",
+            "reading": "みつかる",
+            "zh": "被找到"
+          },
+          {
+            "text": "探す",
+            "reading": "さがす",
+            "zh": "找"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:迷子",
@@ -1039,7 +1065,21 @@
       "pos": "名詞",
       "zh": "走失的小孩、迷路（迷子になる＝走丟）",
       "level": "N3",
-      "line": "s2-01"
+      "line": "s2-01",
+      "links": {
+        "related": [
+          {
+            "text": "迷う",
+            "reading": "まよう",
+            "zh": "迷路"
+          },
+          {
+            "text": "放送",
+            "reading": "ほうそう",
+            "zh": "廣播"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:男の子",
@@ -1048,7 +1088,35 @@
       "pos": "名詞",
       "zh": "男孩",
       "level": "N5",
-      "line": "s2-03"
+      "line": "s2-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "小さな",
+            "text": "小さな男の子",
+            "zh": "小男孩"
+          },
+          {
+            "cue": "五歳の",
+            "text": "五歳の男の子",
+            "zh": "五歲的男孩"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "女の子",
+            "reading": "おんなのこ",
+            "zh": "女孩"
+          }
+        ],
+        "related": [
+          {
+            "text": "息子",
+            "reading": "むすこ",
+            "zh": "兒子"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:服",
@@ -1057,7 +1125,33 @@
       "pos": "名詞",
       "zh": "衣服",
       "level": "N5",
-      "line": "s2-04"
+      "line": "s2-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "青い",
+            "text": "青い服",
+            "zh": "藍色的衣服"
+          },
+          {
+            "cue": "子ども",
+            "text": "子ども服",
+            "zh": "童裝"
+          }
+        ],
+        "related": [
+          {
+            "text": "着る",
+            "reading": "きる",
+            "zh": "穿（上衣、衣服）"
+          },
+          {
+            "text": "Tシャツ",
+            "reading": "ティーシャツ",
+            "zh": "T恤"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:着る",
@@ -1067,7 +1161,40 @@
       "zh": "穿（上衣、衣服）",
       "level": "N5",
       "line": "s2-04",
-      "surface": "着て"
+      "surface": "着て",
+      "links": {
+        "collocations": [
+          {
+            "cue": "服を",
+            "text": "服を着る",
+            "zh": "穿衣服"
+          },
+          {
+            "cue": "Tシャツを",
+            "text": "Tシャツを着る",
+            "zh": "穿 T 恤"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "脱ぐ",
+            "reading": "ぬぐ",
+            "zh": "脫"
+          }
+        ],
+        "related": [
+          {
+            "text": "服",
+            "reading": "ふく",
+            "zh": "衣服"
+          },
+          {
+            "text": "履く",
+            "reading": "はく",
+            "zh": "穿（褲子、鞋子）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:青い",
@@ -1077,7 +1204,33 @@
       "zh": "藍色的",
       "level": "N5",
       "line": "s2-05",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "空が",
+            "text": "空が青い",
+            "zh": "天空很藍"
+          },
+          {
+            "cue": "顔が",
+            "text": "顔が青い",
+            "zh": "臉色發青、臉色很差"
+          }
+        ],
+        "related": [
+          {
+            "text": "赤い",
+            "reading": "あかい",
+            "zh": "紅色的"
+          },
+          {
+            "text": "黄色い",
+            "reading": "きいろい",
+            "zh": "黃色的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:Tシャツ",
@@ -1086,7 +1239,33 @@
       "pos": "名詞",
       "zh": "T恤",
       "level": "N4",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "青い",
+            "text": "青いTシャツ",
+            "zh": "藍色 T 恤"
+          },
+          {
+            "cue": "白い",
+            "text": "白いTシャツ",
+            "zh": "白色 T 恤"
+          }
+        ],
+        "related": [
+          {
+            "text": "着る",
+            "reading": "きる",
+            "zh": "穿（上衣、衣服）"
+          },
+          {
+            "text": "半ズボン",
+            "reading": "はんズボン",
+            "zh": "短褲"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:黄色い",
@@ -1095,7 +1274,21 @@
       "pos": "い形容詞",
       "zh": "黃色的",
       "level": "N5",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "related": [
+          {
+            "text": "青い",
+            "reading": "あおい",
+            "zh": "藍色的"
+          },
+          {
+            "text": "赤い",
+            "reading": "あかい",
+            "zh": "紅色的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:帽子",
@@ -1104,7 +1297,28 @@
       "pos": "名詞",
       "zh": "帽子",
       "level": "N5",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "黄色い",
+            "text": "黄色い帽子",
+            "zh": "黃色帽子"
+          },
+          {
+            "cue": "麦わら",
+            "text": "麦わら帽子",
+            "zh": "草帽"
+          }
+        ],
+        "related": [
+          {
+            "text": "かぶる",
+            "reading": "かぶる",
+            "zh": "戴（帽子）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:かぶる",
@@ -1114,7 +1328,35 @@
       "zh": "戴（帽子）",
       "level": "N4",
       "line": "s2-05",
-      "surface": "かぶって"
+      "surface": "かぶって",
+      "links": {
+        "collocations": [
+          {
+            "cue": "帽子を",
+            "text": "帽子をかぶる",
+            "zh": "戴帽子"
+          },
+          {
+            "cue": "ヘルメットを",
+            "text": "ヘルメットをかぶる",
+            "zh": "戴安全帽"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "脱ぐ",
+            "reading": "ぬぐ",
+            "zh": "脫（帽子）"
+          }
+        ],
+        "related": [
+          {
+            "text": "帽子",
+            "reading": "ぼうし",
+            "zh": "帽子"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:靴",
@@ -1123,7 +1365,28 @@
       "pos": "名詞",
       "zh": "鞋子",
       "level": "N5",
-      "line": "s2-06"
+      "line": "s2-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "運動",
+            "text": "運動靴",
+            "zh": "運動鞋"
+          },
+          {
+            "cue": "新しい",
+            "text": "新しい靴",
+            "zh": "新鞋子"
+          }
+        ],
+        "related": [
+          {
+            "text": "履く",
+            "reading": "はく",
+            "zh": "穿（褲子、鞋子、襪子）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:半ズボン",
@@ -1132,7 +1395,35 @@
       "pos": "名詞",
       "zh": "短褲",
       "level": "N4",
-      "line": "s2-07"
+      "line": "s2-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "黒い",
+            "text": "黒い半ズボン",
+            "zh": "黑色短褲"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "長ズボン",
+            "reading": "ながズボン",
+            "zh": "長褲"
+          }
+        ],
+        "related": [
+          {
+            "text": "履く",
+            "reading": "はく",
+            "zh": "穿（褲子、鞋子、襪子）"
+          },
+          {
+            "text": "Tシャツ",
+            "reading": "ティーシャツ",
+            "zh": "T恤"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:履く",
@@ -1142,7 +1433,40 @@
       "zh": "穿（褲子、鞋子、襪子）",
       "level": "N4",
       "line": "s2-07",
-      "surface": "はいて"
+      "surface": "はいて",
+      "links": {
+        "collocations": [
+          {
+            "cue": "靴を",
+            "text": "靴を履く",
+            "zh": "穿鞋子"
+          },
+          {
+            "cue": "ズボンを",
+            "text": "ズボンを履く",
+            "zh": "穿褲子"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "脱ぐ",
+            "reading": "ぬぐ",
+            "zh": "脫"
+          }
+        ],
+        "related": [
+          {
+            "text": "着る",
+            "reading": "きる",
+            "zh": "穿（上衣、衣服）"
+          },
+          {
+            "text": "靴",
+            "reading": "くつ",
+            "zh": "鞋子"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:特徴",
@@ -1151,7 +1475,23 @@
       "pos": "名詞",
       "zh": "特徵",
       "level": "N3",
-      "line": "s2-08"
+      "line": "s2-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "見た目の",
+            "text": "見た目の特徴",
+            "zh": "外表特徵"
+          }
+        ],
+        "related": [
+          {
+            "text": "服",
+            "reading": "ふく",
+            "zh": "衣服"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:恐竜",
@@ -1160,7 +1500,28 @@
       "pos": "名詞",
       "zh": "恐龍",
       "level": "N3",
-      "line": "s2-09"
+      "line": "s2-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "大きな",
+            "text": "大きな恐竜",
+            "zh": "大恐龍"
+          }
+        ],
+        "related": [
+          {
+            "text": "博物館",
+            "reading": "はくぶつかん",
+            "zh": "博物館"
+          },
+          {
+            "text": "おもちゃ",
+            "reading": "おもちゃ",
+            "zh": "玩具"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:放送",
@@ -1169,7 +1530,33 @@
       "pos": "名詞・する動詞",
       "zh": "廣播（館内放送＝館內廣播）",
       "level": "N4",
-      "line": "s2-10"
+      "line": "s2-10",
+      "links": {
+        "collocations": [
+          {
+            "cue": "館内",
+            "text": "館内放送",
+            "zh": "館內廣播"
+          },
+          {
+            "cue": "駅の",
+            "text": "駅の放送",
+            "zh": "車站廣播"
+          }
+        ],
+        "related": [
+          {
+            "text": "係員",
+            "reading": "かかりいん",
+            "zh": "工作人員"
+          },
+          {
+            "text": "迷子",
+            "reading": "まいご",
+            "zh": "走失的小孩"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:見つかる",
@@ -1179,7 +1566,28 @@
       "zh": "被找到（自動詞：～找到了）",
       "level": "N4",
       "line": "s2-10",
-      "surface": "見つかったら"
+      "surface": "見つかったら",
+      "links": {
+        "collocations": [
+          {
+            "cue": "子どもが",
+            "text": "子どもが見つかる",
+            "zh": "小孩找到了"
+          },
+          {
+            "cue": "財布が",
+            "text": "財布が見つかる",
+            "zh": "錢包找到了"
+          }
+        ],
+        "related": [
+          {
+            "text": "見つける",
+            "reading": "みつける",
+            "zh": "找到"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:動く",
@@ -1190,7 +1598,35 @@
       "level": "N4",
       "line": "s2-11",
       "surface": "動か",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "電車が",
+            "text": "電車が動く",
+            "zh": "電車在開、恢復行駛"
+          },
+          {
+            "cue": "そこから",
+            "text": "そこから動かない",
+            "zh": "待在那裡不要動"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "止まる",
+            "reading": "とまる",
+            "zh": "停下"
+          }
+        ],
+        "related": [
+          {
+            "text": "体",
+            "reading": "からだ",
+            "zh": "身體"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:係員",
@@ -1199,7 +1635,33 @@
       "pos": "名詞",
       "zh": "工作人員",
       "level": "N3",
-      "line": "s3-04"
+      "line": "s3-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "近くの",
+            "text": "近くの係員",
+            "zh": "附近的工作人員"
+          },
+          {
+            "cue": "駅の",
+            "text": "駅の係員",
+            "zh": "車站工作人員"
+          }
+        ],
+        "related": [
+          {
+            "text": "放送",
+            "reading": "ほうそう",
+            "zh": "廣播"
+          },
+          {
+            "text": "店員",
+            "reading": "てんいん",
+            "zh": "店員"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:電話番号",
@@ -1208,7 +1670,33 @@
       "pos": "名詞",
       "zh": "電話號碼",
       "level": "N5",
-      "line": "s3-10"
+      "line": "s3-10",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルの",
+            "text": "ホテルの電話番号",
+            "zh": "飯店的電話號碼"
+          },
+          {
+            "cue": "携帯の",
+            "text": "携帯の電話番号",
+            "zh": "手機號碼"
+          }
+        ],
+        "related": [
+          {
+            "text": "番号",
+            "reading": "ばんごう",
+            "zh": "號碼"
+          },
+          {
+            "text": "名前",
+            "reading": "なまえ",
+            "zh": "名字"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

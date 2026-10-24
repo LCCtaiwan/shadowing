@@ -740,7 +740,33 @@
       "zh": "～先生／小姐（客人的敬稱）",
       "level": "N4",
       "line": "s1-03",
-      "surface": "様"
+      "surface": "様",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お客",
+            "text": "お客様",
+            "zh": "客人、貴賓"
+          },
+          {
+            "cue": "お子",
+            "text": "お子様",
+            "zh": "（您的）小孩"
+          }
+        ],
+        "related": [
+          {
+            "text": "名前",
+            "reading": "なまえ",
+            "zh": "名字"
+          },
+          {
+            "text": "予約",
+            "reading": "よやく",
+            "zh": "預約、訂位"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:荷物",
@@ -750,7 +776,33 @@
       "zh": "行李",
       "level": "N4",
       "line": "s1-05",
-      "surface": "荷物"
+      "surface": "荷物",
+      "links": {
+        "collocations": [
+          {
+            "cue": "重い",
+            "text": "重い荷物",
+            "zh": "很重的行李"
+          },
+          {
+            "cue": "大きな",
+            "text": "大きな荷物",
+            "zh": "大件行李"
+          }
+        ],
+        "related": [
+          {
+            "text": "預ける",
+            "reading": "あずける",
+            "zh": "寄放"
+          },
+          {
+            "text": "袋",
+            "reading": "ふくろ",
+            "zh": "袋子"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:預ける",
@@ -760,7 +812,35 @@
       "zh": "寄放、交給人保管",
       "level": "N4",
       "line": "s1-05",
-      "surface": "預け"
+      "surface": "預け",
+      "links": {
+        "collocations": [
+          {
+            "cue": "荷物を",
+            "text": "荷物を預ける",
+            "zh": "寄放行李"
+          },
+          {
+            "cue": "フロントに",
+            "text": "フロントに預ける",
+            "zh": "寄放在櫃台"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "預かる",
+            "reading": "あずかる",
+            "zh": "收下、代為保管"
+          }
+        ],
+        "related": [
+          {
+            "text": "荷物",
+            "reading": "にもつ",
+            "zh": "行李"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:番号",
@@ -770,7 +850,33 @@
       "zh": "號碼",
       "level": "N5",
       "line": "s1-06",
-      "surface": "番号"
+      "surface": "番号",
+      "links": {
+        "collocations": [
+          {
+            "cue": "電話",
+            "text": "電話番号",
+            "zh": "電話號碼"
+          },
+          {
+            "cue": "部屋",
+            "text": "部屋番号",
+            "zh": "房號"
+          }
+        ],
+        "related": [
+          {
+            "text": "号室",
+            "reading": "ごうしつ",
+            "zh": "～號房"
+          },
+          {
+            "text": "名前",
+            "reading": "なまえ",
+            "zh": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:使う",
@@ -780,7 +886,28 @@
       "zh": "使用",
       "level": "N5",
       "line": "s1-07",
-      "surface": "使っ"
+      "surface": "使っ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "カードを",
+            "text": "カードを使う",
+            "zh": "用卡"
+          },
+          {
+            "cue": "箸を",
+            "text": "箸を使う",
+            "zh": "用筷子"
+          }
+        ],
+        "related": [
+          {
+            "text": "利用",
+            "reading": "りよう",
+            "zh": "利用、使用"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:本日",
@@ -790,7 +917,22 @@
       "zh": "今天（正式說法）",
       "level": "N3",
       "line": "s2-01",
-      "surface": "本日"
+      "surface": "本日",
+      "links": {
+        "collocations": [],
+        "related": [
+          {
+            "text": "今日",
+            "reading": "きょう",
+            "zh": "今天"
+          },
+          {
+            "text": "予約",
+            "reading": "よやく",
+            "zh": "預約、訂位"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:三泊",
@@ -800,7 +942,33 @@
       "zh": "住三晚",
       "level": "N3",
       "line": "s2-01",
-      "surface": "三泊"
+      "surface": "三泊",
+      "links": {
+        "collocations": [
+          {
+            "cue": "東京で",
+            "text": "東京で三泊",
+            "zh": "在東京住三晚"
+          },
+          {
+            "cue": "ホテルに",
+            "text": "ホテルに三泊",
+            "zh": "在飯店住三晚"
+          }
+        ],
+        "related": [
+          {
+            "text": "泊まる",
+            "reading": "とまる",
+            "zh": "住宿、過夜"
+          },
+          {
+            "text": "滞在",
+            "reading": "たいざい",
+            "zh": "停留、居留"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:住所",
@@ -810,7 +978,33 @@
       "zh": "地址",
       "level": "N4",
       "line": "s2-03",
-      "surface": "住所"
+      "surface": "住所",
+      "links": {
+        "collocations": [
+          {
+            "cue": "日本の",
+            "text": "日本の住所",
+            "zh": "在日本的地址"
+          },
+          {
+            "cue": "ホテルの",
+            "text": "ホテルの住所",
+            "zh": "飯店的地址"
+          }
+        ],
+        "related": [
+          {
+            "text": "書く",
+            "reading": "かく",
+            "zh": "寫"
+          },
+          {
+            "text": "名前",
+            "reading": "なまえ",
+            "zh": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:書く",
@@ -821,7 +1015,33 @@
       "level": "N5",
       "line": "s2-03",
       "surface": "書い",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "住所を",
+            "text": "住所を書く",
+            "zh": "寫地址"
+          },
+          {
+            "cue": "漢字で",
+            "text": "漢字で書く",
+            "zh": "用漢字寫"
+          }
+        ],
+        "related": [
+          {
+            "text": "記入",
+            "reading": "きにゅう",
+            "zh": "填寫"
+          },
+          {
+            "text": "名前",
+            "reading": "なまえ",
+            "zh": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:漢字",
@@ -831,7 +1051,28 @@
       "zh": "漢字",
       "level": "N5",
       "line": "s2-04",
-      "surface": "漢字"
+      "surface": "漢字",
+      "links": {
+        "collocations": [
+          {
+            "cue": "難しい",
+            "text": "難しい漢字",
+            "zh": "很難的漢字"
+          },
+          {
+            "cue": "日本の",
+            "text": "日本の漢字",
+            "zh": "日本的漢字"
+          }
+        ],
+        "related": [
+          {
+            "text": "書く",
+            "reading": "かく",
+            "zh": "寫"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:上手",
@@ -842,7 +1083,35 @@
       "level": "N5",
       "line": "s2-05",
       "surface": "上手",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "日本語が",
+            "text": "日本語が上手",
+            "zh": "日文很好"
+          },
+          {
+            "cue": "料理が",
+            "text": "料理が上手",
+            "zh": "很會做菜"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "下手",
+            "reading": "へた",
+            "zh": "不擅長、很差"
+          }
+        ],
+        "related": [
+          {
+            "text": "苦手",
+            "reading": "にがて",
+            "zh": "不擅長、應付不來"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:難しい",
@@ -852,7 +1121,35 @@
       "zh": "困難的",
       "level": "N5",
       "line": "s2-06",
-      "surface": "難しい"
+      "surface": "難しい",
+      "links": {
+        "collocations": [
+          {
+            "cue": "漢字が",
+            "text": "漢字が難しい",
+            "zh": "漢字很難"
+          },
+          {
+            "cue": "日本語は",
+            "text": "日本語は難しい",
+            "zh": "日文很難"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "簡単",
+            "reading": "かんたん",
+            "zh": "簡單"
+          }
+        ],
+        "related": [
+          {
+            "text": "漢字",
+            "reading": "かんじ",
+            "zh": "漢字"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:部屋",
@@ -862,7 +1159,33 @@
       "zh": "房間",
       "level": "N5",
       "line": "s2-07",
-      "surface": "部屋"
+      "surface": "部屋",
+      "links": {
+        "collocations": [
+          {
+            "cue": "広い",
+            "text": "広い部屋",
+            "zh": "寬敞的房間"
+          },
+          {
+            "cue": "ホテルの",
+            "text": "ホテルの部屋",
+            "zh": "飯店房間"
+          }
+        ],
+        "related": [
+          {
+            "text": "号室",
+            "reading": "ごうしつ",
+            "zh": "～號房"
+          },
+          {
+            "text": "鍵",
+            "reading": "かぎ",
+            "zh": "鑰匙"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:朝ごはん",
@@ -872,7 +1195,28 @@
       "zh": "早餐",
       "level": "N5",
       "line": "s2-08",
-      "surface": "朝ごはん"
+      "surface": "朝ごはん",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルの",
+            "text": "ホテルの朝ごはん",
+            "zh": "飯店的早餐"
+          }
+        ],
+        "related": [
+          {
+            "text": "晩ごはん",
+            "reading": "ばんごはん",
+            "zh": "晚餐"
+          },
+          {
+            "text": "一階",
+            "reading": "いっかい",
+            "zh": "一樓"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:一階",
@@ -882,7 +1226,33 @@
       "zh": "一樓",
       "level": "N5",
       "line": "s2-08",
-      "surface": "一階"
+      "surface": "一階",
+      "links": {
+        "collocations": [
+          {
+            "cue": "地下",
+            "text": "地下一階",
+            "zh": "地下一樓"
+          },
+          {
+            "cue": "レストランは",
+            "text": "レストランは一階",
+            "zh": "餐廳在一樓"
+          }
+        ],
+        "related": [
+          {
+            "text": "階段",
+            "reading": "かいだん",
+            "zh": "樓梯"
+          },
+          {
+            "text": "エレベーター",
+            "reading": "エレベーター",
+            "zh": "電梯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:聞く",
@@ -892,7 +1262,28 @@
       "zh": "問、聽",
       "level": "N5",
       "line": "s2-11",
-      "surface": "聞い"
+      "surface": "聞い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "道を",
+            "text": "道を聞く",
+            "zh": "問路"
+          },
+          {
+            "cue": "音楽を",
+            "text": "音楽を聞く",
+            "zh": "聽音樂"
+          }
+        ],
+        "related": [
+          {
+            "text": "質問",
+            "reading": "しつもん",
+            "zh": "問題、發問"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:小さい",
@@ -902,7 +1293,28 @@
       "zh": "小的",
       "level": "N5",
       "line": "s3-02",
-      "surface": "小さい"
+      "surface": "小さい",
+      "links": {
+        "collocations": [
+          {
+            "cue": "声が",
+            "text": "声が小さい",
+            "zh": "聲音很小"
+          },
+          {
+            "cue": "サイズが",
+            "text": "サイズが小さい",
+            "zh": "尺寸太小"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "大きい",
+            "reading": "おおきい",
+            "zh": "大的"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:早い",
@@ -912,7 +1324,35 @@
       "zh": "早的",
       "level": "N5",
       "line": "s3-03",
-      "surface": "早かった"
+      "surface": "早かった",
+      "links": {
+        "collocations": [
+          {
+            "cue": "朝が",
+            "text": "朝が早い",
+            "zh": "早上很早（起）"
+          },
+          {
+            "cue": "思ったより",
+            "text": "思ったより早かった",
+            "zh": "比想像中早"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "遅い",
+            "reading": "おそい",
+            "zh": "晚的、慢的"
+          }
+        ],
+        "related": [
+          {
+            "text": "速い",
+            "reading": "はやい",
+            "zh": "（速度）快"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

@@ -90,9 +90,10 @@ export default function review(root, [mode]) {
       quiz = linkQuestion(c.note, S.lexicon, c.id);
       front = quiz
         ? `<div class="jp" style="text-align:center">${esc(quiz.cue)}<span class="cloze">？</span></div>
+          <p class="muted" style="text-align:center">選項是辭書形，放進句子時可能會變化</p>
           <div class="stack" style="gap:8px">${quiz.options.map((o, i) => `<button class="opt" data-pick="${i}">${esc(o)}</button>`).join('')}</div>`
         : `<div class="big-word">${esc(d.text)}</div>`;
-      back = `<div style="text-align:center"><div class="jp">${quiz ? `${esc(quiz.cue)}<span class="cloze">${esc(quiz.answer)}</span>` : esc(d.text)}</div>
+      back = `<div style="text-align:center"><div class="jp">${quiz ? `${esc(quiz.cue)}<span class="cloze">${esc(quiz.filled)}</span>` : esc(d.text)}</div>
         <p>${esc(quiz?.zh || d.zh)}</p><p class="muted">${esc(d.text)}（${esc(d.reading)}）${esc(d.zh)}</p></div>${network()}`;
     } else if (c.kind === 'phrase-cloze') {
       const parts = clozeParts(d.line.text, d.surface) || [d.line.text, '', ''];

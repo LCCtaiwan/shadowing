@@ -987,7 +987,33 @@
       "zh": "車站",
       "level": "N5",
       "line": "s1-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "最寄り",
+            "text": "最寄り駅",
+            "zh": "最近的車站"
+          },
+          {
+            "cue": "次の",
+            "text": "次の駅",
+            "zh": "下一站"
+          }
+        ],
+        "related": [
+          {
+            "text": "電車",
+            "reading": "でんしゃ",
+            "zh": "電車"
+          },
+          {
+            "text": "出口",
+            "reading": "でぐち",
+            "zh": "出口"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:予約",
@@ -996,7 +1022,33 @@
       "pos": "名詞・する動詞",
       "zh": "預約、訂位",
       "level": "N4",
-      "line": "s1-02"
+      "line": "s1-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルの",
+            "text": "ホテルの予約",
+            "zh": "飯店的預約"
+          },
+          {
+            "cue": "お店を",
+            "text": "お店を予約する",
+            "zh": "預約餐廳"
+          }
+        ],
+        "related": [
+          {
+            "text": "確認",
+            "reading": "かくにん",
+            "zh": "確認"
+          },
+          {
+            "text": "席",
+            "reading": "せき",
+            "zh": "座位"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:地図",
@@ -1006,7 +1058,33 @@
       "zh": "地圖",
       "level": "N5",
       "line": "s1-02",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "スマホの",
+            "text": "スマホの地図",
+            "zh": "手機地圖"
+          },
+          {
+            "cue": "この辺の",
+            "text": "この辺の地図",
+            "zh": "這附近的地圖"
+          }
+        ],
+        "related": [
+          {
+            "text": "探す",
+            "reading": "さがす",
+            "zh": "找"
+          },
+          {
+            "text": "迷う",
+            "reading": "まよう",
+            "zh": "迷路"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:電池",
@@ -1015,7 +1093,33 @@
       "pos": "名詞",
       "zh": "電池、電量",
       "level": "N3",
-      "line": "s1-03"
+      "line": "s1-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "スマホの",
+            "text": "スマホの電池",
+            "zh": "手機電池、電量"
+          },
+          {
+            "cue": "単三",
+            "text": "単三電池",
+            "zh": "三號電池"
+          }
+        ],
+        "related": [
+          {
+            "text": "切れる",
+            "reading": "きれる",
+            "zh": "用完、斷掉"
+          },
+          {
+            "text": "充電",
+            "reading": "じゅうでん",
+            "zh": "充電"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:切れる",
@@ -1025,7 +1129,28 @@
       "zh": "用完、斷掉（電池が切れる＝沒電）",
       "level": "N4",
       "line": "s1-03",
-      "surface": "切れて"
+      "surface": "切れて",
+      "links": {
+        "collocations": [
+          {
+            "cue": "電池が",
+            "text": "電池が切れる",
+            "zh": "沒電"
+          },
+          {
+            "cue": "期限が",
+            "text": "期限が切れる",
+            "zh": "過期"
+          }
+        ],
+        "related": [
+          {
+            "text": "電池",
+            "reading": "でんち",
+            "zh": "電池、電量"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:探す",
@@ -1035,7 +1160,33 @@
       "zh": "找",
       "level": "N4",
       "line": "s1-06",
-      "surface": "探して"
+      "surface": "探して",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お店を",
+            "text": "お店を探す",
+            "zh": "找店"
+          },
+          {
+            "cue": "財布を",
+            "text": "財布を探す",
+            "zh": "找錢包"
+          }
+        ],
+        "related": [
+          {
+            "text": "見つける",
+            "reading": "みつける",
+            "zh": "找到"
+          },
+          {
+            "text": "地図",
+            "reading": "ちず",
+            "zh": "地圖"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:焼き鳥",
@@ -1044,7 +1195,28 @@
       "pos": "名詞",
       "zh": "烤雞串",
       "level": "N3",
-      "line": "s1-07"
+      "line": "s1-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ビールと",
+            "text": "ビールと焼き鳥",
+            "zh": "啤酒配烤雞串"
+          }
+        ],
+        "related": [
+          {
+            "text": "ビール",
+            "reading": "ビール",
+            "zh": "啤酒"
+          },
+          {
+            "text": "焼肉",
+            "reading": "やきにく",
+            "zh": "烤肉"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:まっすぐ",
@@ -1053,7 +1225,28 @@
       "pos": "副詞",
       "zh": "直直地、筆直",
       "level": "N5",
-      "line": "s1-08"
+      "line": "s1-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "このまま",
+            "text": "このまままっすぐ",
+            "zh": "就這樣直走"
+          }
+        ],
+        "related": [
+          {
+            "text": "曲がる",
+            "reading": "まがる",
+            "zh": "轉彎"
+          },
+          {
+            "text": "信号",
+            "reading": "しんごう",
+            "zh": "紅綠燈"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:信号",
@@ -1062,7 +1255,33 @@
       "pos": "名詞",
       "zh": "紅綠燈",
       "level": "N4",
-      "line": "s1-08"
+      "line": "s1-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "次の",
+            "text": "次の信号",
+            "zh": "下一個紅綠燈"
+          },
+          {
+            "cue": "二つ目の",
+            "text": "二つ目の信号",
+            "zh": "第二個紅綠燈"
+          }
+        ],
+        "related": [
+          {
+            "text": "曲がる",
+            "reading": "まがる",
+            "zh": "轉彎"
+          },
+          {
+            "text": "まっすぐ",
+            "reading": "まっすぐ",
+            "zh": "直直地"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:曲がる",
@@ -1072,7 +1291,33 @@
       "zh": "轉彎",
       "level": "N5",
       "line": "s1-08",
-      "surface": "曲がって"
+      "surface": "曲がって",
+      "links": {
+        "collocations": [
+          {
+            "cue": "右に",
+            "text": "右に曲がる",
+            "zh": "右轉"
+          },
+          {
+            "cue": "角を",
+            "text": "角を曲がる",
+            "zh": "在轉角轉彎"
+          }
+        ],
+        "related": [
+          {
+            "text": "右",
+            "reading": "みぎ",
+            "zh": "右邊"
+          },
+          {
+            "text": "信号",
+            "reading": "しんごう",
+            "zh": "紅綠燈"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:看板",
@@ -1081,7 +1326,28 @@
       "pos": "名詞",
       "zh": "招牌",
       "level": "N3",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お店の",
+            "text": "お店の看板",
+            "zh": "店的招牌"
+          },
+          {
+            "cue": "赤い",
+            "text": "赤い看板",
+            "zh": "紅色的招牌"
+          }
+        ],
+        "related": [
+          {
+            "text": "店",
+            "reading": "みせ",
+            "zh": "店"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:一緒",
@@ -1091,7 +1357,35 @@
       "zh": "一起",
       "level": "N5",
       "line": "s2-06",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "家族と",
+            "text": "家族と一緒に",
+            "zh": "和家人一起"
+          },
+          {
+            "cue": "友達と",
+            "text": "友達と一緒に",
+            "zh": "和朋友一起"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "一人",
+            "reading": "ひとり",
+            "zh": "一個人"
+          }
+        ],
+        "related": [
+          {
+            "text": "家族",
+            "reading": "かぞく",
+            "zh": "家人、家庭"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:閉まる",
@@ -1101,7 +1395,35 @@
       "zh": "（門、店）關著、關閉",
       "level": "N5",
       "line": "s3-02",
-      "surface": "閉まって"
+      "surface": "閉まって",
+      "links": {
+        "collocations": [
+          {
+            "cue": "店が",
+            "text": "店が閉まる",
+            "zh": "店關門"
+          },
+          {
+            "cue": "ドアが",
+            "text": "ドアが閉まる",
+            "zh": "門關上"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "開く",
+            "reading": "あく",
+            "zh": "（門、店）開"
+          }
+        ],
+        "related": [
+          {
+            "text": "閉める",
+            "reading": "しめる",
+            "zh": "關上"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:入り口",
@@ -1110,7 +1432,35 @@
       "pos": "名詞",
       "zh": "入口",
       "level": "N5",
-      "line": "s3-03"
+      "line": "s3-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お店の",
+            "text": "お店の入り口",
+            "zh": "店門口"
+          },
+          {
+            "cue": "地下鉄の",
+            "text": "地下鉄の入り口",
+            "zh": "地鐵入口"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "出口",
+            "reading": "でぐち",
+            "zh": "出口"
+          }
+        ],
+        "related": [
+          {
+            "text": "階段",
+            "reading": "かいだん",
+            "zh": "樓梯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:階段",
@@ -1120,7 +1470,33 @@
       "zh": "樓梯",
       "level": "N5",
       "line": "s3-03",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅の階段",
+            "zh": "車站的樓梯"
+          },
+          {
+            "cue": "急な",
+            "text": "急な階段",
+            "zh": "很陡的樓梯"
+          }
+        ],
+        "related": [
+          {
+            "text": "エレベーター",
+            "reading": "エレベーター",
+            "zh": "電梯"
+          },
+          {
+            "text": "下りる",
+            "reading": "おりる",
+            "zh": "下（樓梯、坡）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:横",
@@ -1129,7 +1505,28 @@
       "pos": "名詞",
       "zh": "旁邊、側面",
       "level": "N5",
-      "line": "s3-03"
+      "line": "s3-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅の横",
+            "zh": "車站旁邊"
+          },
+          {
+            "cue": "コンビニの",
+            "text": "コンビニの横",
+            "zh": "超商旁邊"
+          }
+        ],
+        "related": [
+          {
+            "text": "隣",
+            "reading": "となり",
+            "zh": "隔壁、旁邊"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:間に合う",
@@ -1139,7 +1536,35 @@
       "zh": "趕上、來得及",
       "level": "N4",
       "line": "s3-04",
-      "surface": "間に合いました"
+      "surface": "間に合いました",
+      "links": {
+        "collocations": [
+          {
+            "cue": "終電に",
+            "text": "終電に間に合う",
+            "zh": "趕上末班車"
+          },
+          {
+            "cue": "時間に",
+            "text": "時間に間に合う",
+            "zh": "趕上時間"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "遅れる",
+            "reading": "おくれる",
+            "zh": "遲到、來不及"
+          }
+        ],
+        "related": [
+          {
+            "text": "急ぐ",
+            "reading": "いそぐ",
+            "zh": "趕快、急忙"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:迷う",
@@ -1149,7 +1574,33 @@
       "zh": "迷路、猶豫",
       "level": "N4",
       "line": "s3-06",
-      "surface": "迷います"
+      "surface": "迷います",
+      "links": {
+        "collocations": [
+          {
+            "cue": "道に",
+            "text": "道に迷う",
+            "zh": "迷路"
+          },
+          {
+            "cue": "どれにするか",
+            "text": "どれにするか迷う",
+            "zh": "猶豫要選哪個"
+          }
+        ],
+        "related": [
+          {
+            "text": "地図",
+            "reading": "ちず",
+            "zh": "地圖"
+          },
+          {
+            "text": "迷子",
+            "reading": "まいご",
+            "zh": "走失、迷路"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:優しい",
@@ -1158,7 +1609,35 @@
       "pos": "い形容詞",
       "zh": "溫柔、親切",
       "level": "N4",
-      "line": "s3-07"
+      "line": "s3-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "みんな",
+            "text": "みんな優しい",
+            "zh": "大家都很親切"
+          },
+          {
+            "cue": "店員さんが",
+            "text": "店員さんが優しい",
+            "zh": "店員很親切"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "厳しい",
+            "reading": "きびしい",
+            "zh": "嚴格"
+          }
+        ],
+        "related": [
+          {
+            "text": "親切",
+            "reading": "しんせつ",
+            "zh": "親切"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

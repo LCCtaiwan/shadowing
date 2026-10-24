@@ -62,8 +62,8 @@ export function renderNetwork(net) {
     const [x, y] = pos[i];
     return `<g opacity="${nd.lit ? 1 : 0.55}">
       <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="34" fill="${t.fill}" stroke="${t.stroke}" stroke-width="1.5" ${nd.lit ? '' : 'stroke-dasharray="3 3"'}/>
-      <text x="${x.toFixed(1)}" y="${(y - 3).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="700" fill="${t.ink}">${esc(short(nd.text, 7))}</text>
-      <text x="${x.toFixed(1)}" y="${(y + 12).toFixed(1)}" text-anchor="middle" font-size="9.5" fill="var(--muted)">${esc(short(nd.type === 'scene' ? t.label : nd.sub || t.label, 7))}</text></g>`;
+      <text x="${x.toFixed(1)}" y="${(y - 3).toFixed(1)}" text-anchor="middle" font-size="${nd.text.length > 4 ? 10.5 : 12}" font-weight="700" fill="${t.ink}">${esc(short(nd.text, 6))}</text>
+      <text x="${x.toFixed(1)}" y="${(y + 12).toFixed(1)}" text-anchor="middle" font-size="9" fill="var(--muted)">${esc(short(nd.type === 'scene' ? t.label : nd.sub || t.label, 6))}</text></g>`;
   }).join('');
   const lit = net.nodes.filter(nd => nd.lit).length;
   return `<figure class="net" style="margin:0">
@@ -71,7 +71,7 @@ export function renderNetwork(net) {
     <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(net.center.text)} 的連結：${net.nodes.map(nd => `${TYPE[nd.type].label} ${nd.text}`).join('、')}">
       ${lines}
       <circle cx="${cx}" cy="${cy}" r="44" fill="var(--brand-strong)"/>
-      <text x="${cx}" y="${cy - 2}" text-anchor="middle" font-size="19" font-weight="700" fill="var(--on-brand)">${esc(short(net.center.text, 6))}</text>
+      <text x="${cx}" y="${cy - 2}" text-anchor="middle" font-size="${net.center.text.length > 4 ? 14 : 19}" font-weight="700" fill="var(--on-brand)">${esc(short(net.center.text, 6))}</text>
       <text x="${cx}" y="${cy + 16}" text-anchor="middle" font-size="11" fill="var(--on-brand)">${esc(short(net.center.reading, 9))}</text>
       ${circles}
     </svg>
@@ -79,12 +79,15 @@ export function renderNetwork(net) {
   </figure>`;
 }
 
-/** 連結題的選項：正解＋2 個同詞性的干擾項（依卡片 id 固定順序）。 */
+/**
+ * 連結題：「cue＿＿」空格裡放哪個字。選項一律用辭書形（搭配裡可能是活用形，例：入って、甘すぎる），
+ * 答對後顯示完整搭配。正解＋2 個同詞性的干擾項，依卡片 id 固定順序。
+ */
 export function linkQuestion(note, lexicon, seedText) {
   const v = lexicon?.vocab?.[note];
   const c = v?.links?.collocations?.[0];
   if (!c) return null;
-  const answer = c.text.slice(c.cue.length);
+  const answer = v.text;
   const posKey = (v.pos || '').slice(0, 2);
   let h = 0;
   for (const ch of seedText) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
@@ -95,5 +98,5 @@ export function linkQuestion(note, lexicon, seedText) {
   while (pick.length < 2 && pool.length) pick.push(pool.splice((h = (h * 1103515245 + 12345) >>> 0) % pool.length, 1)[0]);
   const options = [answer, ...pick];
   const shift = h % options.length;
-  return { cue: c.cue, zh: c.zh, full: c.text, answer, options: [...options.slice(shift), ...options.slice(0, shift)] };
+  return { cue: c.cue, zh: c.zh, full: c.text, filled: c.text.slice(c.cue.length), answer, options: [...options.slice(shift), ...options.slice(0, shift)] };
 }

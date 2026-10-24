@@ -839,7 +839,40 @@
       "pos": "名詞・する動詞",
       "zh": "入住手續",
       "level": "N4",
-      "line": "s1-01"
+      "line": "s1-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルに",
+            "text": "ホテルにチェックインする",
+            "zh": "在飯店辦入住"
+          },
+          {
+            "cue": "オンライン",
+            "text": "オンラインチェックイン",
+            "zh": "線上報到"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "チェックアウト",
+            "reading": "チェックアウト",
+            "zh": "退房"
+          }
+        ],
+        "related": [
+          {
+            "text": "予約",
+            "reading": "よやく",
+            "zh": "預約、訂房"
+          },
+          {
+            "text": "フロント",
+            "reading": "フロント",
+            "zh": "（飯店）櫃檯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:予約",
@@ -849,7 +882,35 @@
       "zh": "預約、訂房",
       "level": "N4",
       "line": "s1-02",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルを",
+            "text": "ホテルを予約する",
+            "zh": "訂飯店"
+          },
+          {
+            "cue": "ネットで",
+            "text": "ネットで予約する",
+            "zh": "網路預約"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "キャンセル",
+            "reading": "キャンセル",
+            "zh": "取消"
+          }
+        ],
+        "related": [
+          {
+            "text": "チェックイン",
+            "reading": "チェックイン",
+            "zh": "入住手續"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:紙",
@@ -858,7 +919,28 @@
       "pos": "名詞",
       "zh": "紙、單子",
       "level": "N5",
-      "line": "s1-02"
+      "line": "s1-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "白い",
+            "text": "白い紙",
+            "zh": "白紙"
+          }
+        ],
+        "related": [
+          {
+            "text": "枚",
+            "reading": "まい",
+            "zh": "～張"
+          },
+          {
+            "text": "書く",
+            "reading": "かく",
+            "zh": "寫"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:部屋",
@@ -869,7 +951,33 @@
       "level": "N5",
       "line": "s1-03",
       "surface": "部屋",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "隣の",
+            "text": "隣の部屋",
+            "zh": "隔壁房間"
+          },
+          {
+            "cue": "広い",
+            "text": "広い部屋",
+            "zh": "寬敞的房間"
+          }
+        ],
+        "related": [
+          {
+            "text": "号室",
+            "reading": "ごうしつ",
+            "zh": "～號房"
+          },
+          {
+            "text": "鍵",
+            "reading": "かぎ",
+            "zh": "鑰匙"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:添い寝",
@@ -878,7 +986,28 @@
       "pos": "名詞",
       "zh": "（小孩）和大人同床睡、不另佔床",
       "level": "N1",
-      "line": "s1-04"
+      "line": "s1-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "赤ちゃんと",
+            "text": "赤ちゃんと添い寝する",
+            "zh": "和寶寶一起睡"
+          }
+        ],
+        "related": [
+          {
+            "text": "寝る",
+            "reading": "ねる",
+            "zh": "睡覺"
+          },
+          {
+            "text": "エキストラベッド",
+            "reading": "エキストラベッド",
+            "zh": "加床"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:寝る",
@@ -889,7 +1018,35 @@
       "level": "N5",
       "line": "s1-06",
       "surface": "寝ます",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "早く",
+            "text": "早く寝る",
+            "zh": "早點睡"
+          },
+          {
+            "cue": "ベッドで",
+            "text": "ベッドで寝る",
+            "zh": "睡在床上"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "起きる",
+            "reading": "おきる",
+            "zh": "起床"
+          }
+        ],
+        "related": [
+          {
+            "text": "夜",
+            "reading": "よる",
+            "zh": "晚上"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:無料",
@@ -899,7 +1056,35 @@
       "zh": "免費",
       "level": "N4",
       "line": "s1-06",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "入場",
+            "text": "入場無料",
+            "zh": "免費入場"
+          },
+          {
+            "cue": "子どもは",
+            "text": "子どもは無料",
+            "zh": "小孩免費"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "有料",
+            "reading": "ゆうりょう",
+            "zh": "要收費"
+          }
+        ],
+        "related": [
+          {
+            "text": "料金",
+            "reading": "りょうきん",
+            "zh": "費用、票價"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:追加",
@@ -908,7 +1093,28 @@
       "pos": "名詞・する動詞",
       "zh": "追加、加（床、點餐）",
       "level": "N3",
-      "line": "s1-08"
+      "line": "s1-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ベッドを",
+            "text": "ベッドを追加する",
+            "zh": "加床"
+          }
+        ],
+        "related": [
+          {
+            "text": "エキストラベッド",
+            "reading": "エキストラベッド",
+            "zh": "加床"
+          },
+          {
+            "text": "料金",
+            "reading": "りょうきん",
+            "zh": "費用"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:エキストラベッド",
@@ -917,7 +1123,21 @@
       "pos": "名詞",
       "zh": "加床",
       "level": "N3",
-      "line": "s1-08"
+      "line": "s1-08",
+      "links": {
+        "related": [
+          {
+            "text": "追加",
+            "reading": "ついか",
+            "zh": "追加、加"
+          },
+          {
+            "text": "ソファベッド",
+            "reading": "ソファベッド",
+            "zh": "沙發床"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:ソファベッド",
@@ -926,7 +1146,21 @@
       "pos": "名詞",
       "zh": "沙發床",
       "level": "N3",
-      "line": "s1-10"
+      "line": "s1-10",
+      "links": {
+        "related": [
+          {
+            "text": "エキストラベッド",
+            "reading": "エキストラベッド",
+            "zh": "加床"
+          },
+          {
+            "text": "ソファ",
+            "reading": "ソファ",
+            "zh": "沙發"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:隣",
@@ -935,7 +1169,33 @@
       "pos": "名詞",
       "zh": "隔壁、旁邊（隣同士＝彼此相鄰）",
       "level": "N5",
-      "line": "s1-11"
+      "line": "s1-11",
+      "links": {
+        "collocations": [
+          {
+            "cue": "私の",
+            "text": "私の隣",
+            "zh": "我旁邊"
+          },
+          {
+            "cue": "駅の",
+            "text": "駅の隣",
+            "zh": "車站隔壁"
+          }
+        ],
+        "related": [
+          {
+            "text": "横",
+            "reading": "よこ",
+            "zh": "旁邊"
+          },
+          {
+            "text": "近く",
+            "reading": "ちかく",
+            "zh": "附近"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:号室",
@@ -944,7 +1204,33 @@
       "pos": "助数詞",
       "zh": "～號房",
       "level": "N4",
-      "line": "s1-12"
+      "line": "s1-12",
+      "links": {
+        "collocations": [
+          {
+            "cue": "305",
+            "text": "305号室",
+            "zh": "305 號房"
+          },
+          {
+            "cue": "部屋は何",
+            "text": "部屋は何号室",
+            "zh": "房間是幾號房"
+          }
+        ],
+        "related": [
+          {
+            "text": "部屋",
+            "reading": "へや",
+            "zh": "房間"
+          },
+          {
+            "text": "番号",
+            "reading": "ばんごう",
+            "zh": "號碼"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:歯ブラシ",
@@ -953,7 +1239,33 @@
       "pos": "名詞",
       "zh": "牙刷",
       "level": "N4",
-      "line": "s1-13"
+      "line": "s1-13",
+      "links": {
+        "collocations": [
+          {
+            "cue": "子ども用",
+            "text": "子ども用歯ブラシ",
+            "zh": "兒童牙刷"
+          },
+          {
+            "cue": "電動",
+            "text": "電動歯ブラシ",
+            "zh": "電動牙刷"
+          }
+        ],
+        "related": [
+          {
+            "text": "歯磨き粉",
+            "reading": "はみがきこ",
+            "zh": "牙膏"
+          },
+          {
+            "text": "タオル",
+            "reading": "タオル",
+            "zh": "毛巾"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:家族",
@@ -963,7 +1275,33 @@
       "zh": "家人、家庭",
       "level": "N5",
       "line": "s2-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "四人",
+            "text": "四人家族",
+            "zh": "四口之家"
+          },
+          {
+            "cue": "うちの",
+            "text": "うちの家族",
+            "zh": "我的家人"
+          }
+        ],
+        "related": [
+          {
+            "text": "旅行",
+            "reading": "りょこう",
+            "zh": "旅行"
+          },
+          {
+            "text": "子ども",
+            "reading": "こども",
+            "zh": "小孩"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:旅行",
@@ -973,7 +1311,33 @@
       "zh": "旅行",
       "level": "N5",
       "line": "s2-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "家族",
+            "text": "家族旅行",
+            "zh": "家族旅行"
+          },
+          {
+            "cue": "海外",
+            "text": "海外旅行",
+            "zh": "出國旅行"
+          }
+        ],
+        "related": [
+          {
+            "text": "旅",
+            "reading": "たび",
+            "zh": "旅行、旅途"
+          },
+          {
+            "text": "観光",
+            "reading": "かんこう",
+            "zh": "觀光"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:大浴場",
@@ -982,7 +1346,28 @@
       "pos": "名詞",
       "zh": "（飯店的）大浴池、公共大澡堂",
       "level": "N1",
-      "line": "s2-08"
+      "line": "s2-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ホテルの",
+            "text": "ホテルの大浴場",
+            "zh": "飯店的大浴池"
+          }
+        ],
+        "related": [
+          {
+            "text": "温泉",
+            "reading": "おんせん",
+            "zh": "溫泉"
+          },
+          {
+            "text": "タオル",
+            "reading": "タオル",
+            "zh": "毛巾"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:夜",
@@ -991,7 +1376,35 @@
       "pos": "名詞",
       "zh": "晚上",
       "level": "N5",
-      "line": "s2-09"
+      "line": "s2-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "今日の",
+            "text": "今日の夜",
+            "zh": "今天晚上"
+          },
+          {
+            "cue": "明日の",
+            "text": "明日の夜",
+            "zh": "明天晚上"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "朝",
+            "reading": "あさ",
+            "zh": "早上"
+          }
+        ],
+        "related": [
+          {
+            "text": "今夜",
+            "reading": "こんや",
+            "zh": "今晚"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:一緒",
@@ -1001,7 +1414,35 @@
       "zh": "一起",
       "level": "N5",
       "line": "s2-10",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "家族と",
+            "text": "家族と一緒",
+            "zh": "和家人一起"
+          },
+          {
+            "cue": "みんな",
+            "text": "みんな一緒",
+            "zh": "大家一起"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "別々",
+            "reading": "べつべつ",
+            "zh": "分開、各自"
+          }
+        ],
+        "related": [
+          {
+            "text": "家族",
+            "reading": "かぞく",
+            "zh": "家人、家庭"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

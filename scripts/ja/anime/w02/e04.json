@@ -762,7 +762,28 @@
       "pos": "名詞",
       "zh": "（學校的）福利社；「購買部」的簡稱（超出級別）",
       "level": "N3",
-      "line": "s1-01"
+      "line": "s1-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "学校の",
+            "text": "学校の購買",
+            "zh": "學校的福利社"
+          }
+        ],
+        "related": [
+          {
+            "text": "昼休み",
+            "reading": "ひるやすみ",
+            "zh": "午休"
+          },
+          {
+            "text": "焼きそばパン",
+            "reading": "やきそばパン",
+            "zh": "炒麵麵包"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:昼休み",
@@ -771,7 +792,28 @@
       "pos": "名詞",
       "zh": "午休",
       "level": "N4",
-      "line": "s1-01"
+      "line": "s1-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "短い",
+            "text": "短い昼休み",
+            "zh": "短短的午休"
+          }
+        ],
+        "related": [
+          {
+            "text": "弁当",
+            "reading": "べんとう",
+            "zh": "便當"
+          },
+          {
+            "text": "購買",
+            "reading": "こうばい",
+            "zh": "福利社"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:焼きそばパン",
@@ -780,7 +822,33 @@
       "pos": "名詞",
       "zh": "炒麵麵包",
       "level": "N4",
-      "line": "s1-03"
+      "line": "s1-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "購買の",
+            "text": "購買の焼きそばパン",
+            "zh": "福利社的炒麵麵包"
+          },
+          {
+            "cue": "人気の",
+            "text": "人気の焼きそばパン",
+            "zh": "熱門的炒麵麵包"
+          }
+        ],
+        "related": [
+          {
+            "text": "牛乳",
+            "reading": "ぎゅうにゅう",
+            "zh": "牛奶"
+          },
+          {
+            "text": "購買",
+            "reading": "こうばい",
+            "zh": "福利社"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:個",
@@ -790,7 +858,16 @@
       "zh": "～個（數小東西）；一個 いっこ、十個 じゅっこ",
       "level": "N5",
       "line": "s1-03",
-      "surface": "十個"
+      "surface": "十個",
+      "links": {
+        "related": [
+          {
+            "text": "枚",
+            "reading": "まい",
+            "zh": "～片、～張（數薄的東西）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:うまい",
@@ -799,7 +876,35 @@
       "pos": "い形容詞",
       "zh": "好吃（男生常用的口語，比「おいしい」隨興）",
       "level": "N4",
-      "line": "s1-05"
+      "line": "s1-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "めちゃくちゃ",
+            "text": "めちゃくちゃうまい",
+            "zh": "超好吃（口語）"
+          },
+          {
+            "cue": "ここのラーメンは",
+            "text": "ここのラーメンはうまい",
+            "zh": "這家的拉麵很好吃"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "まずい",
+            "reading": "まずい",
+            "zh": "難吃"
+          }
+        ],
+        "related": [
+          {
+            "text": "おいしい",
+            "reading": "おいしい",
+            "zh": "好吃"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:安い",
@@ -808,7 +913,35 @@
       "pos": "い形容詞",
       "zh": "便宜",
       "level": "N5",
-      "line": "s1-07"
+      "line": "s1-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "値段が",
+            "text": "値段が安い",
+            "zh": "價格便宜"
+          },
+          {
+            "cue": "意外と",
+            "text": "意外と安い",
+            "zh": "意外地便宜"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "高い",
+            "reading": "たかい",
+            "zh": "貴"
+          }
+        ],
+        "related": [
+          {
+            "text": "お金",
+            "reading": "おかね",
+            "zh": "錢"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:廊下",
@@ -817,7 +950,33 @@
       "pos": "名詞",
       "zh": "走廊",
       "level": "N4",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "長い",
+            "text": "長い廊下",
+            "zh": "長長的走廊"
+          },
+          {
+            "cue": "学校の",
+            "text": "学校の廊下",
+            "zh": "學校的走廊"
+          }
+        ],
+        "related": [
+          {
+            "text": "走る",
+            "reading": "はしる",
+            "zh": "跑"
+          },
+          {
+            "text": "階段",
+            "reading": "かいだん",
+            "zh": "樓梯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:走る",
@@ -827,7 +986,35 @@
       "zh": "跑",
       "level": "N5",
       "line": "s1-09",
-      "surface": "走って"
+      "surface": "走って",
+      "links": {
+        "collocations": [
+          {
+            "cue": "廊下を",
+            "text": "廊下を走る",
+            "zh": "在走廊上奔跑"
+          },
+          {
+            "cue": "駅まで",
+            "text": "駅まで走る",
+            "zh": "跑到車站"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "歩く",
+            "reading": "あるく",
+            "zh": "走路"
+          }
+        ],
+        "related": [
+          {
+            "text": "速い",
+            "reading": "はやい",
+            "zh": "（速度）快"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:次",
@@ -837,7 +1024,23 @@
       "zh": "下一個；「次の人」下一位",
       "level": "N5",
       "line": "s2-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "この",
+            "text": "この次",
+            "zh": "下一次"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "前",
+            "reading": "まえ",
+            "zh": "前一個、之前"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:遅い",
@@ -847,7 +1050,40 @@
       "zh": "慢；晚",
       "level": "N5",
       "line": "s2-03",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "足が",
+            "text": "足が遅い",
+            "zh": "跑得慢"
+          },
+          {
+            "cue": "もう",
+            "text": "もう遅い",
+            "zh": "已經太遲了"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "速い",
+            "reading": "はやい",
+            "zh": "（速度）快"
+          },
+          {
+            "text": "早い",
+            "reading": "はやい",
+            "zh": "（時間）早"
+          }
+        ],
+        "related": [
+          {
+            "text": "間に合う",
+            "reading": "まにあう",
+            "zh": "趕得上"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:おしまい",
@@ -856,7 +1092,28 @@
       "pos": "名詞",
       "zh": "結束、賣完（口語）",
       "level": "N4",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "今日は",
+            "text": "今日はおしまい",
+            "zh": "今天到此為止"
+          },
+          {
+            "cue": "これで",
+            "text": "これでおしまい",
+            "zh": "這樣就結束了"
+          }
+        ],
+        "related": [
+          {
+            "text": "終わり",
+            "reading": "おわり",
+            "zh": "結束"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:速い",
@@ -866,7 +1123,35 @@
       "zh": "（速度）快",
       "level": "N5",
       "line": "s2-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "足が",
+            "text": "足が速い",
+            "zh": "跑得快"
+          },
+          {
+            "cue": "頭の回転が",
+            "text": "頭の回転が速い",
+            "zh": "腦筋轉得快"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "遅い",
+            "reading": "おそい",
+            "zh": "慢"
+          }
+        ],
+        "related": [
+          {
+            "text": "走る",
+            "reading": "はしる",
+            "zh": "跑"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:牛乳",
@@ -875,7 +1160,28 @@
       "pos": "名詞",
       "zh": "牛奶",
       "level": "N5",
-      "line": "s2-08"
+      "line": "s2-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "冷たい",
+            "text": "冷たい牛乳",
+            "zh": "冰牛奶"
+          }
+        ],
+        "related": [
+          {
+            "text": "焼きそばパン",
+            "reading": "やきそばパン",
+            "zh": "炒麵麵包"
+          },
+          {
+            "text": "冷蔵庫",
+            "reading": "れいぞうこ",
+            "zh": "冰箱"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:残る",
@@ -885,7 +1191,33 @@
       "zh": "剩下；「残ってる」＝「残っている」的口語縮約",
       "level": "N4",
       "line": "s2-09",
-      "surface": "残ってる"
+      "surface": "残ってる",
+      "links": {
+        "collocations": [
+          {
+            "cue": "最後まで",
+            "text": "最後まで残る",
+            "zh": "留到最後"
+          },
+          {
+            "cue": "学校に",
+            "text": "学校に残る",
+            "zh": "留在學校"
+          }
+        ],
+        "related": [
+          {
+            "text": "なくなる",
+            "reading": "なくなる",
+            "zh": "消失、沒了"
+          },
+          {
+            "text": "半分",
+            "reading": "はんぶん",
+            "zh": "一半"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:うるさい",
@@ -895,7 +1227,35 @@
       "zh": "吵；（口語）囉嗦、吵死了",
       "level": "N4",
       "line": "s3-02",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "音が",
+            "text": "音がうるさい",
+            "zh": "聲音很吵"
+          },
+          {
+            "cue": "親が",
+            "text": "親がうるさい",
+            "zh": "爸媽很囉嗦"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "静か",
+            "reading": "しずか",
+            "zh": "安靜"
+          }
+        ],
+        "related": [
+          {
+            "text": "音",
+            "reading": "おと",
+            "zh": "聲音（物體發出的）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:先輩",
@@ -904,7 +1264,35 @@
       "pos": "名詞",
       "zh": "學長、學姊",
       "level": "N4",
-      "line": "s3-03"
+      "line": "s3-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "部活の",
+            "text": "部活の先輩",
+            "zh": "社團的學長姊"
+          },
+          {
+            "cue": "憧れの",
+            "text": "憧れの先輩",
+            "zh": "憧憬的學長姊"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "後輩",
+            "reading": "こうはい",
+            "zh": "學弟妹"
+          }
+        ],
+        "related": [
+          {
+            "text": "部長",
+            "reading": "ぶちょう",
+            "zh": "社長"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:枚",
@@ -914,7 +1302,21 @@
       "zh": "～片、～張（數薄的東西）；一枚 いちまい",
       "level": "N5",
       "line": "s3-03",
-      "surface": "一枚"
+      "surface": "一枚",
+      "links": {
+        "related": [
+          {
+            "text": "紙",
+            "reading": "かみ",
+            "zh": "紙"
+          },
+          {
+            "text": "個",
+            "reading": "こ",
+            "zh": "～個（數小東西）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:半分",
@@ -923,7 +1325,28 @@
       "pos": "名詞",
       "zh": "一半",
       "level": "N4",
-      "line": "s3-04"
+      "line": "s3-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ちょうど",
+            "text": "ちょうど半分",
+            "zh": "剛好一半"
+          },
+          {
+            "cue": "残り",
+            "text": "残り半分",
+            "zh": "剩下一半"
+          }
+        ],
+        "related": [
+          {
+            "text": "全部",
+            "reading": "ぜんぶ",
+            "zh": "全部"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:別に",
@@ -932,7 +1355,23 @@
       "pos": "副詞",
       "zh": "（後接否定）並沒有特別…；傲嬌常用的嘴硬開頭",
       "level": "N4",
-      "line": "s3-06"
+      "line": "s3-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "いや、",
+            "text": "いや、別に",
+            "zh": "沒什麼啦"
+          }
+        ],
+        "related": [
+          {
+            "text": "全然",
+            "reading": "ぜんぜん",
+            "zh": "（後接否定）完全不…"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

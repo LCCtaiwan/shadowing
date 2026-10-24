@@ -742,7 +742,40 @@
       "zh": "買",
       "level": "N5",
       "line": "s1-01",
-      "surface": "買い"
+      "surface": "買い",
+      "links": {
+        "collocations": [
+          {
+            "cue": "切符を",
+            "text": "切符を買う",
+            "zh": "買車票"
+          },
+          {
+            "cue": "お土産を",
+            "text": "お土産を買う",
+            "zh": "買伴手禮"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "売る",
+            "reading": "うる",
+            "zh": "賣"
+          }
+        ],
+        "related": [
+          {
+            "text": "券売機",
+            "reading": "けんばいき",
+            "zh": "售票機"
+          },
+          {
+            "text": "お金",
+            "reading": "おかね",
+            "zh": "錢"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:券売機",
@@ -752,7 +785,28 @@
       "zh": "售票機",
       "level": "N3",
       "line": "s1-01",
-      "surface": "券売機"
+      "surface": "券売機",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅の券売機",
+            "zh": "車站的售票機"
+          }
+        ],
+        "related": [
+          {
+            "text": "切符",
+            "reading": "きっぷ",
+            "zh": "車票"
+          },
+          {
+            "text": "押す",
+            "reading": "おす",
+            "zh": "按、推"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:押す",
@@ -762,7 +816,35 @@
       "zh": "按、推",
       "level": "N5",
       "line": "s1-04",
-      "surface": "押し"
+      "surface": "押し",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ボタンを",
+            "text": "ボタンを押す",
+            "zh": "按按鈕"
+          },
+          {
+            "cue": "ベビーカーを",
+            "text": "ベビーカーを押す",
+            "zh": "推嬰兒車"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "引く",
+            "reading": "ひく",
+            "zh": "拉"
+          }
+        ],
+        "related": [
+          {
+            "text": "券売機",
+            "reading": "けんばいき",
+            "zh": "售票機"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:入れる",
@@ -772,7 +854,35 @@
       "zh": "放進去",
       "level": "N5",
       "line": "s1-05",
-      "surface": "入れ"
+      "surface": "入れ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お金を",
+            "text": "お金を入れる",
+            "zh": "投錢"
+          },
+          {
+            "cue": "袋に",
+            "text": "袋に入れる",
+            "zh": "裝進袋子"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "出す",
+            "reading": "だす",
+            "zh": "拿出"
+          }
+        ],
+        "related": [
+          {
+            "text": "お金",
+            "reading": "おかね",
+            "zh": "錢"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:お金",
@@ -782,7 +892,28 @@
       "zh": "錢",
       "level": "N5",
       "line": "s1-06",
-      "surface": "お金"
+      "surface": "お金",
+      "links": {
+        "collocations": [
+          {
+            "cue": "細かい",
+            "text": "細かいお金",
+            "zh": "零錢"
+          }
+        ],
+        "related": [
+          {
+            "text": "円",
+            "reading": "えん",
+            "zh": "日圓"
+          },
+          {
+            "text": "金額",
+            "reading": "きんがく",
+            "zh": "金額"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:大丈夫",
@@ -793,7 +924,33 @@
       "level": "N5",
       "line": "s1-05",
       "surface": "大丈夫",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "もう",
+            "text": "もう大丈夫",
+            "zh": "已經沒事了"
+          },
+          {
+            "cue": "一人で",
+            "text": "一人で大丈夫",
+            "zh": "一個人也沒問題"
+          }
+        ],
+        "related": [
+          {
+            "text": "安心",
+            "reading": "あんしん",
+            "zh": "放心、安心"
+          },
+          {
+            "text": "心配",
+            "reading": "しんぱい",
+            "zh": "擔心"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:出る",
@@ -803,7 +960,35 @@
       "zh": "出來、出去",
       "level": "N5",
       "line": "s1-07",
-      "surface": "出ました"
+      "surface": "出ました",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅を",
+            "text": "駅を出る",
+            "zh": "出車站"
+          },
+          {
+            "cue": "切符が",
+            "text": "切符が出る",
+            "zh": "車票出來"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "入る",
+            "reading": "はいる",
+            "zh": "進入"
+          }
+        ],
+        "related": [
+          {
+            "text": "出口",
+            "reading": "でぐち",
+            "zh": "出口"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:楽しい",
@@ -813,7 +998,40 @@
       "zh": "愉快的、開心的",
       "level": "N5",
       "line": "s1-08",
-      "surface": "楽しい"
+      "surface": "楽しい",
+      "links": {
+        "collocations": [
+          {
+            "cue": "毎日が",
+            "text": "毎日が楽しい",
+            "zh": "每天都很開心"
+          },
+          {
+            "cue": "すごく",
+            "text": "すごく楽しかった",
+            "zh": "超好玩的"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "つまらない",
+            "reading": "つまらない",
+            "zh": "無聊的"
+          }
+        ],
+        "related": [
+          {
+            "text": "楽しみ",
+            "reading": "たのしみ",
+            "zh": "期待、樂趣"
+          },
+          {
+            "text": "旅",
+            "reading": "たび",
+            "zh": "旅行、旅途"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:旅",
@@ -823,7 +1041,33 @@
       "zh": "旅行、旅途",
       "level": "N3",
       "line": "s1-08",
-      "surface": "旅"
+      "surface": "旅",
+      "links": {
+        "collocations": [
+          {
+            "cue": "一人",
+            "text": "一人旅",
+            "zh": "一個人旅行"
+          },
+          {
+            "cue": "楽しい",
+            "text": "楽しい旅",
+            "zh": "愉快的旅程"
+          }
+        ],
+        "related": [
+          {
+            "text": "旅行",
+            "reading": "りょこう",
+            "zh": "旅行"
+          },
+          {
+            "text": "観光",
+            "reading": "かんこう",
+            "zh": "觀光"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:番線",
@@ -833,7 +1077,22 @@
       "zh": "第～號月台",
       "level": "N3",
       "line": "s2-01",
-      "surface": "番線"
+      "surface": "番線",
+      "links": {
+        "collocations": [],
+        "related": [
+          {
+            "text": "電車",
+            "reading": "でんしゃ",
+            "zh": "電車"
+          },
+          {
+            "text": "行き",
+            "reading": "ゆき",
+            "zh": "開往～"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:階段",
@@ -843,7 +1102,33 @@
       "zh": "樓梯",
       "level": "N5",
       "line": "s2-04",
-      "surface": "階段"
+      "surface": "階段",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅の階段",
+            "zh": "車站的樓梯"
+          },
+          {
+            "cue": "急な",
+            "text": "急な階段",
+            "zh": "很陡的樓梯"
+          }
+        ],
+        "related": [
+          {
+            "text": "エレベーター",
+            "reading": "エレベーター",
+            "zh": "電梯"
+          },
+          {
+            "text": "下りる",
+            "reading": "おりる",
+            "zh": "下（樓梯、坡）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:下りる",
@@ -853,7 +1138,35 @@
       "zh": "下（樓梯、坡）",
       "level": "N4",
       "line": "s2-04",
-      "surface": "下り"
+      "surface": "下り",
+      "links": {
+        "collocations": [
+          {
+            "cue": "階段を",
+            "text": "階段を下りる",
+            "zh": "下樓梯"
+          },
+          {
+            "cue": "坂を",
+            "text": "坂を下りる",
+            "zh": "下坡"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "上る",
+            "reading": "のぼる",
+            "zh": "上（樓梯、坡）、往上爬"
+          }
+        ],
+        "related": [
+          {
+            "text": "階段",
+            "reading": "かいだん",
+            "zh": "樓梯"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:右",
@@ -863,7 +1176,40 @@
       "zh": "右邊",
       "level": "N5",
       "line": "s2-06",
-      "surface": "右"
+      "surface": "右",
+      "links": {
+        "collocations": [
+          {
+            "cue": "改札を出て",
+            "text": "改札を出て右",
+            "zh": "出剪票口往右"
+          },
+          {
+            "cue": "次の角を",
+            "text": "次の角を右",
+            "zh": "下個轉角往右"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "左",
+            "reading": "ひだり",
+            "zh": "左邊"
+          }
+        ],
+        "related": [
+          {
+            "text": "曲がる",
+            "reading": "まがる",
+            "zh": "轉彎"
+          },
+          {
+            "text": "左側",
+            "reading": "ひだりがわ",
+            "zh": "左側"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:電車",
@@ -873,7 +1219,33 @@
       "zh": "電車",
       "level": "N5",
       "line": "s2-06",
-      "surface": "電車"
+      "surface": "電車",
+      "links": {
+        "collocations": [
+          {
+            "cue": "次の",
+            "text": "次の電車",
+            "zh": "下一班電車"
+          },
+          {
+            "cue": "満員",
+            "text": "満員電車",
+            "zh": "擠滿人的電車"
+          }
+        ],
+        "related": [
+          {
+            "text": "駅",
+            "reading": "えき",
+            "zh": "車站"
+          },
+          {
+            "text": "番線",
+            "reading": "ばんせん",
+            "zh": "第～號月台"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:急ぐ",
@@ -883,7 +1255,30 @@
       "zh": "趕快、急忙",
       "level": "N4",
       "line": "s2-07",
-      "surface": "急ぎ"
+      "surface": "急ぎ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅へ",
+            "text": "駅へ急ぐ",
+            "zh": "趕往車站"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "ゆっくり",
+            "reading": "ゆっくり",
+            "zh": "慢慢地"
+          }
+        ],
+        "related": [
+          {
+            "text": "間に合う",
+            "reading": "まにあう",
+            "zh": "趕上、來得及"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:行き",
@@ -893,7 +1288,33 @@
       "zh": "開往～（電車廣播常唸「ゆき」）",
       "level": "N3",
       "line": "s3-01",
-      "surface": "行き"
+      "surface": "行き",
+      "links": {
+        "collocations": [
+          {
+            "cue": "東京",
+            "text": "東京行き",
+            "zh": "開往東京"
+          },
+          {
+            "cue": "新宿",
+            "text": "新宿行き",
+            "zh": "開往新宿"
+          }
+        ],
+        "related": [
+          {
+            "text": "番線",
+            "reading": "ばんせん",
+            "zh": "第～號月台"
+          },
+          {
+            "text": "電車",
+            "reading": "でんしゃ",
+            "zh": "電車"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:出口",
@@ -903,7 +1324,35 @@
       "zh": "出口",
       "level": "N5",
       "line": "s3-06",
-      "surface": "出口"
+      "surface": "出口",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅の出口",
+            "zh": "車站的出口"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "入り口",
+            "reading": "いりぐち",
+            "zh": "入口"
+          }
+        ],
+        "related": [
+          {
+            "text": "階段",
+            "reading": "かいだん",
+            "zh": "樓梯"
+          },
+          {
+            "text": "地図",
+            "reading": "ちず",
+            "zh": "地圖"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:左側",
@@ -913,7 +1362,40 @@
       "zh": "左側",
       "level": "N4",
       "line": "s3-06",
-      "surface": "左側"
+      "surface": "左側",
+      "links": {
+        "collocations": [
+          {
+            "cue": "道の",
+            "text": "道の左側",
+            "zh": "路的左邊"
+          },
+          {
+            "cue": "エスカレーターの",
+            "text": "エスカレーターの左側",
+            "zh": "手扶梯的左側"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "右側",
+            "reading": "みぎがわ",
+            "zh": "右側"
+          }
+        ],
+        "related": [
+          {
+            "text": "右",
+            "reading": "みぎ",
+            "zh": "右邊"
+          },
+          {
+            "text": "横",
+            "reading": "よこ",
+            "zh": "旁邊、側面"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:寝る",
@@ -924,7 +1406,40 @@
       "level": "N5",
       "line": "s3-04",
       "surface": "寝",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "早く",
+            "text": "早く寝る",
+            "zh": "早點睡"
+          },
+          {
+            "cue": "電車で",
+            "text": "電車で寝る",
+            "zh": "在電車上睡覺"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "起きる",
+            "reading": "おきる",
+            "zh": "起床"
+          }
+        ],
+        "related": [
+          {
+            "text": "休む",
+            "reading": "やすむ",
+            "zh": "休息"
+          },
+          {
+            "text": "夜",
+            "reading": "よる",
+            "zh": "晚上"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:地図",
@@ -934,7 +1449,33 @@
       "zh": "地圖",
       "level": "N5",
       "line": "s3-08",
-      "surface": "地図"
+      "surface": "地図",
+      "links": {
+        "collocations": [
+          {
+            "cue": "スマホの",
+            "text": "スマホの地図",
+            "zh": "手機地圖"
+          },
+          {
+            "cue": "この辺の",
+            "text": "この辺の地図",
+            "zh": "這附近的地圖"
+          }
+        ],
+        "related": [
+          {
+            "text": "探す",
+            "reading": "さがす",
+            "zh": "找"
+          },
+          {
+            "text": "迷う",
+            "reading": "まよう",
+            "zh": "迷路"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

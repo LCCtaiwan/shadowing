@@ -843,7 +843,28 @@
       "pos": "名詞",
       "zh": "麥克風",
       "level": "N4",
-      "line": "s1-01"
+      "line": "s1-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "カラオケの",
+            "text": "カラオケのマイク",
+            "zh": "卡拉OK的麥克風"
+          }
+        ],
+        "related": [
+          {
+            "text": "録音",
+            "reading": "ろくおん",
+            "zh": "錄音"
+          },
+          {
+            "text": "声",
+            "reading": "こえ",
+            "zh": "（人的）聲音"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:叩く",
@@ -853,7 +874,28 @@
       "zh": "敲、拍打",
       "level": "N3",
       "line": "s1-02",
-      "surface": "叩いて"
+      "surface": "叩いて",
+      "links": {
+        "collocations": [
+          {
+            "cue": "肩を",
+            "text": "肩を叩く",
+            "zh": "拍肩膀"
+          },
+          {
+            "cue": "ドアを",
+            "text": "ドアを叩く",
+            "zh": "敲門"
+          }
+        ],
+        "related": [
+          {
+            "text": "音",
+            "reading": "おと",
+            "zh": "聲音（物體發出的）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:お菓子",
@@ -862,7 +904,28 @@
       "pos": "名詞",
       "zh": "零食、點心",
       "level": "N4",
-      "line": "s1-03"
+      "line": "s1-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "甘い",
+            "text": "甘いお菓子",
+            "zh": "甜的零食"
+          },
+          {
+            "cue": "手作りの",
+            "text": "手作りのお菓子",
+            "zh": "手作點心"
+          }
+        ],
+        "related": [
+          {
+            "text": "甘い",
+            "reading": "あまい",
+            "zh": "甜"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:出す",
@@ -872,7 +935,28 @@
       "zh": "發出；拿出",
       "level": "N5",
       "line": "s1-04",
-      "surface": "出し"
+      "surface": "出し",
+      "links": {
+        "collocations": [
+          {
+            "cue": "声を",
+            "text": "声を出す",
+            "zh": "出聲"
+          },
+          {
+            "cue": "宿題を",
+            "text": "宿題を出す",
+            "zh": "交作業"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "入れる",
+            "reading": "いれる",
+            "zh": "放進"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:一番",
@@ -881,7 +965,28 @@
       "pos": "副詞・名詞",
       "zh": "最～、第一",
       "level": "N5",
-      "line": "s1-05"
+      "line": "s1-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "クラスで",
+            "text": "クラスで一番",
+            "zh": "班上第一"
+          },
+          {
+            "cue": "世界で",
+            "text": "世界で一番",
+            "zh": "世界第一"
+          }
+        ],
+        "related": [
+          {
+            "text": "全部",
+            "reading": "ぜんぶ",
+            "zh": "全部"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:うるさい",
@@ -890,7 +995,35 @@
       "pos": "い形容詞",
       "zh": "吵、煩",
       "level": "N4",
-      "line": "s1-05"
+      "line": "s1-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "音が",
+            "text": "音がうるさい",
+            "zh": "聲音很吵"
+          },
+          {
+            "cue": "親が",
+            "text": "親がうるさい",
+            "zh": "爸媽很囉嗦"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "静か",
+            "reading": "しずか",
+            "zh": "安靜"
+          }
+        ],
+        "related": [
+          {
+            "text": "音",
+            "reading": "おと",
+            "zh": "聲音（物體發出的）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:普通",
@@ -900,7 +1033,30 @@
       "zh": "普通、一般",
       "level": "N4",
       "line": "s1-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "ごく",
+            "text": "ごく普通",
+            "zh": "極其普通、再普通不過"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "特別",
+            "reading": "とくべつ",
+            "zh": "特別"
+          }
+        ],
+        "related": [
+          {
+            "text": "学生",
+            "reading": "がくせい",
+            "zh": "學生"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:勇者",
@@ -909,7 +1065,35 @@
       "pos": "名詞",
       "zh": "勇者（奇幻作品的主角）；動漫常見詞",
       "level": "N1",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "伝説の",
+            "text": "伝説の勇者",
+            "zh": "傳說中的勇者"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "魔王",
+            "reading": "まおう",
+            "zh": "魔王"
+          }
+        ],
+        "related": [
+          {
+            "text": "剣",
+            "reading": "けん",
+            "zh": "劍"
+          },
+          {
+            "text": "倒す",
+            "reading": "たおす",
+            "zh": "打倒"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:逃げる",
@@ -919,7 +1103,35 @@
       "zh": "逃跑",
       "level": "N4",
       "line": "s1-09",
-      "surface": "逃げない"
+      "surface": "逃げない",
+      "links": {
+        "collocations": [
+          {
+            "cue": "敵から",
+            "text": "敵から逃げる",
+            "zh": "從敵人那裡逃走"
+          },
+          {
+            "cue": "現実から",
+            "text": "現実から逃げる",
+            "zh": "逃避現實"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "戦う",
+            "reading": "たたかう",
+            "zh": "戰鬥"
+          }
+        ],
+        "related": [
+          {
+            "text": "走る",
+            "reading": "はしる",
+            "zh": "跑"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:早口言葉",
@@ -928,7 +1140,23 @@
       "pos": "名詞",
       "zh": "繞口令",
       "level": "N2",
-      "line": "s2-01"
+      "line": "s2-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "難しい",
+            "text": "難しい早口言葉",
+            "zh": "很難的繞口令"
+          }
+        ],
+        "related": [
+          {
+            "text": "練習",
+            "reading": "れんしゅう",
+            "zh": "練習"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:時計",
@@ -937,7 +1165,23 @@
       "pos": "名詞",
       "zh": "時鐘、手錶",
       "level": "N5",
-      "line": "s2-01"
+      "line": "s2-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "目覚まし",
+            "text": "目覚まし時計",
+            "zh": "鬧鐘"
+          }
+        ],
+        "related": [
+          {
+            "text": "時間",
+            "reading": "じかん",
+            "zh": "時間"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:止める",
@@ -947,7 +1191,35 @@
       "zh": "停下、關掉",
       "level": "N4",
       "line": "s2-01",
-      "surface": "止めた"
+      "surface": "止めた",
+      "links": {
+        "collocations": [
+          {
+            "cue": "車を",
+            "text": "車を止める",
+            "zh": "停車"
+          },
+          {
+            "cue": "音楽を",
+            "text": "音楽を止める",
+            "zh": "把音樂關掉"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "動かす",
+            "reading": "うごかす",
+            "zh": "讓…動起來"
+          }
+        ],
+        "related": [
+          {
+            "text": "止まる",
+            "reading": "とまる",
+            "zh": "停下"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:焼肉",
@@ -956,7 +1228,28 @@
       "pos": "名詞",
       "zh": "烤肉",
       "level": "N3",
-      "line": "s2-06"
+      "line": "s2-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "食べ放題の",
+            "text": "食べ放題の焼肉",
+            "zh": "吃到飽的烤肉"
+          }
+        ],
+        "related": [
+          {
+            "text": "焼き鳥",
+            "reading": "やきとり",
+            "zh": "烤雞串"
+          },
+          {
+            "text": "肉",
+            "reading": "にく",
+            "zh": "肉"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:録音",
@@ -965,7 +1258,33 @@
       "pos": "名詞・する動詞",
       "zh": "錄音",
       "level": "N3",
-      "line": "s2-07"
+      "line": "s2-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "声を",
+            "text": "声を録音する",
+            "zh": "把聲音錄下來"
+          },
+          {
+            "cue": "こっそり",
+            "text": "こっそり録音する",
+            "zh": "偷偷錄音"
+          }
+        ],
+        "related": [
+          {
+            "text": "マイク",
+            "reading": "マイク",
+            "zh": "麥克風"
+          },
+          {
+            "text": "声",
+            "reading": "こえ",
+            "zh": "（人的）聲音"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:森",
@@ -974,7 +1293,33 @@
       "pos": "名詞",
       "zh": "森林",
       "level": "N4",
-      "line": "s3-01"
+      "line": "s3-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "深い",
+            "text": "深い森",
+            "zh": "深邃的森林"
+          },
+          {
+            "cue": "魔法の",
+            "text": "魔法の森",
+            "zh": "魔法森林"
+          }
+        ],
+        "related": [
+          {
+            "text": "村",
+            "reading": "むら",
+            "zh": "村子"
+          },
+          {
+            "text": "木",
+            "reading": "き",
+            "zh": "樹"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:魔王",
@@ -983,7 +1328,30 @@
       "pos": "名詞",
       "zh": "魔王；動漫常見詞",
       "level": "N1",
-      "line": "s3-02"
+      "line": "s3-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "最強の",
+            "text": "最強の魔王",
+            "zh": "最強的魔王"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "勇者",
+            "reading": "ゆうしゃ",
+            "zh": "勇者"
+          }
+        ],
+        "related": [
+          {
+            "text": "城",
+            "reading": "しろ",
+            "zh": "城堡"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:人間",
@@ -992,7 +1360,28 @@
       "pos": "名詞",
       "zh": "人類、人",
       "level": "N4",
-      "line": "s3-03"
+      "line": "s3-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ただの",
+            "text": "ただの人間",
+            "zh": "只是個普通人"
+          }
+        ],
+        "related": [
+          {
+            "text": "精霊",
+            "reading": "せいれい",
+            "zh": "精靈"
+          },
+          {
+            "text": "魔王",
+            "reading": "まおう",
+            "zh": "魔王"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:帰る",
@@ -1002,7 +1391,35 @@
       "zh": "回去、回家",
       "level": "N5",
       "line": "s3-04",
-      "surface": "帰らない"
+      "surface": "帰らない",
+      "links": {
+        "collocations": [
+          {
+            "cue": "家に",
+            "text": "家に帰る",
+            "zh": "回家"
+          },
+          {
+            "cue": "早く",
+            "text": "早く帰る",
+            "zh": "早點回去"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "出かける",
+            "reading": "でかける",
+            "zh": "出門"
+          }
+        ],
+        "related": [
+          {
+            "text": "家",
+            "reading": "いえ",
+            "zh": "家"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:雷",
@@ -1011,7 +1428,28 @@
       "pos": "名詞",
       "zh": "雷",
       "level": "N3",
-      "line": "s3-05"
+      "line": "s3-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "突然の",
+            "text": "突然の雷",
+            "zh": "突如其來的雷"
+          }
+        ],
+        "related": [
+          {
+            "text": "雨",
+            "reading": "あめ",
+            "zh": "雨"
+          },
+          {
+            "text": "光",
+            "reading": "ひかり",
+            "zh": "光"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:忘れる",
@@ -1021,7 +1459,35 @@
       "zh": "忘記",
       "level": "N5",
       "line": "s3-08",
-      "surface": "忘れた"
+      "surface": "忘れた",
+      "links": {
+        "collocations": [
+          {
+            "cue": "宿題を",
+            "text": "宿題を忘れる",
+            "zh": "忘了帶作業"
+          },
+          {
+            "cue": "傘を",
+            "text": "傘を忘れる",
+            "zh": "忘了帶傘"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "覚える",
+            "reading": "おぼえる",
+            "zh": "記住"
+          }
+        ],
+        "related": [
+          {
+            "text": "思い出す",
+            "reading": "おもいだす",
+            "zh": "想起來"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

@@ -897,7 +897,28 @@
       "zh": "劇本、腳本",
       "level": "N3",
       "line": "s1-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "劇の",
+            "text": "劇の台本",
+            "zh": "話劇的劇本"
+          }
+        ],
+        "related": [
+          {
+            "text": "文化祭",
+            "reading": "ぶんかさい",
+            "zh": "文化祭"
+          },
+          {
+            "text": "録音",
+            "reading": "ろくおん",
+            "zh": "錄音"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:勇者",
@@ -907,7 +928,35 @@
       "zh": "勇者（奇幻作品的主角；超出級別，動漫常見）",
       "level": "N1",
       "line": "s1-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "伝説の",
+            "text": "伝説の勇者",
+            "zh": "傳說中的勇者"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "魔王",
+            "reading": "まおう",
+            "zh": "魔王"
+          }
+        ],
+        "related": [
+          {
+            "text": "剣",
+            "reading": "けん",
+            "zh": "劍"
+          },
+          {
+            "text": "倒す",
+            "reading": "たおす",
+            "zh": "打倒"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:魔王",
@@ -917,7 +966,30 @@
       "zh": "魔王（超出級別，動漫常見）",
       "level": "N1",
       "line": "s1-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "最強の",
+            "text": "最強の魔王",
+            "zh": "最強的魔王"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "勇者",
+            "reading": "ゆうしゃ",
+            "zh": "勇者"
+          }
+        ],
+        "related": [
+          {
+            "text": "城",
+            "reading": "しろ",
+            "zh": "城堡"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:録音",
@@ -927,7 +999,33 @@
       "zh": "錄音",
       "level": "N3",
       "line": "s1-04",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "声を",
+            "text": "声を録音する",
+            "zh": "把聲音錄下來"
+          },
+          {
+            "cue": "こっそり",
+            "text": "こっそり録音する",
+            "zh": "偷偷錄音"
+          }
+        ],
+        "related": [
+          {
+            "text": "マイク",
+            "reading": "マイク",
+            "zh": "麥克風"
+          },
+          {
+            "text": "声",
+            "reading": "こえ",
+            "zh": "（人的）聲音"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:城",
@@ -936,7 +1034,33 @@
       "pos": "名詞",
       "zh": "城堡；「お城」",
       "level": "N3",
-      "line": "s2-01"
+      "line": "s2-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "魔王の",
+            "text": "魔王の城",
+            "zh": "魔王的城堡"
+          },
+          {
+            "cue": "大きな",
+            "text": "大きな城",
+            "zh": "很大的城堡"
+          }
+        ],
+        "related": [
+          {
+            "text": "魔王",
+            "reading": "まおう",
+            "zh": "魔王"
+          },
+          {
+            "text": "王様",
+            "reading": "おうさま",
+            "zh": "國王"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:我",
@@ -945,7 +1069,21 @@
       "pos": "代名詞",
       "zh": "吾、我（古風高傲的自稱，動漫魔王、王者常用；超出級別）",
       "level": "N1",
-      "line": "s2-11"
+      "line": "s2-11",
+      "links": {
+        "related": [
+          {
+            "text": "俺",
+            "reading": "おれ",
+            "zh": "我（男生的隨性自稱）"
+          },
+          {
+            "text": "魔王",
+            "reading": "まおう",
+            "zh": "魔王"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:村",
@@ -954,7 +1092,33 @@
       "pos": "名詞",
       "zh": "村子",
       "level": "N4",
-      "line": "s2-04"
+      "line": "s2-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "小さな",
+            "text": "小さな村",
+            "zh": "小村莊"
+          },
+          {
+            "cue": "静かな",
+            "text": "静かな村",
+            "zh": "寧靜的村子"
+          }
+        ],
+        "related": [
+          {
+            "text": "森",
+            "reading": "もり",
+            "zh": "森林"
+          },
+          {
+            "text": "町",
+            "reading": "まち",
+            "zh": "城鎮"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:声",
@@ -964,7 +1128,33 @@
       "zh": "聲音（人或動物發出的）",
       "level": "N5",
       "line": "s2-04",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "大きな",
+            "text": "大きな声",
+            "zh": "很大的聲音"
+          },
+          {
+            "cue": "かわいい",
+            "text": "かわいい声",
+            "zh": "可愛的聲音"
+          }
+        ],
+        "related": [
+          {
+            "text": "音",
+            "reading": "おと",
+            "zh": "聲音（物體發出的）"
+          },
+          {
+            "text": "マイク",
+            "reading": "マイク",
+            "zh": "麥克風"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:返す",
@@ -974,7 +1164,28 @@
       "zh": "歸還；「返せ」是命令形：還來！",
       "level": "N4",
       "line": "s2-04",
-      "surface": "返せ"
+      "surface": "返せ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "本を",
+            "text": "本を返す",
+            "zh": "還書"
+          },
+          {
+            "cue": "お金を",
+            "text": "お金を返す",
+            "zh": "還錢"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "借りる",
+            "reading": "かりる",
+            "zh": "借（入）"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:倒す",
@@ -983,7 +1194,33 @@
       "pos": "動詞",
       "zh": "打倒",
       "level": "N3",
-      "line": "s2-04"
+      "line": "s2-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "敵を",
+            "text": "敵を倒す",
+            "zh": "打倒敵人"
+          },
+          {
+            "cue": "魔王を",
+            "text": "魔王を倒す",
+            "zh": "打倒魔王"
+          }
+        ],
+        "related": [
+          {
+            "text": "勇者",
+            "reading": "ゆうしゃ",
+            "zh": "勇者"
+          },
+          {
+            "text": "戦う",
+            "reading": "たたかう",
+            "zh": "戰鬥"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:全部",
@@ -993,7 +1230,23 @@
       "zh": "全部",
       "level": "N5",
       "line": "s2-05",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "これで",
+            "text": "これで全部",
+            "zh": "這樣就是全部了"
+          }
+        ],
+        "related": [
+          {
+            "text": "半分",
+            "reading": "はんぶん",
+            "zh": "一半"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:許す",
@@ -1003,7 +1256,28 @@
       "zh": "原諒；「許さない」不原諒你",
       "level": "N3",
       "line": "s2-06",
-      "surface": "許さない"
+      "surface": "許さない",
+      "links": {
+        "collocations": [
+          {
+            "cue": "絶対に",
+            "text": "絶対に許さない",
+            "zh": "絕對不原諒"
+          },
+          {
+            "cue": "今回だけ",
+            "text": "今回だけ許す",
+            "zh": "只原諒這一次"
+          }
+        ],
+        "related": [
+          {
+            "text": "謝る",
+            "reading": "あやまる",
+            "zh": "道歉"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:無駄",
@@ -1012,7 +1286,28 @@
       "pos": "名詞・な形容詞",
       "zh": "白費、沒用（動漫反派常說「無駄だ」）",
       "level": "N3",
-      "line": "s2-07"
+      "line": "s2-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "時間の",
+            "text": "時間の無駄",
+            "zh": "浪費時間"
+          },
+          {
+            "cue": "抵抗しても",
+            "text": "抵抗しても無駄",
+            "zh": "抵抗也沒用"
+          }
+        ],
+        "related": [
+          {
+            "text": "必要",
+            "reading": "ひつよう",
+            "zh": "需要、必要"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:体",
@@ -1021,7 +1316,33 @@
       "pos": "名詞",
       "zh": "身體",
       "level": "N5",
-      "line": "s2-08"
+      "line": "s2-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "丈夫な",
+            "text": "丈夫な体",
+            "zh": "強壯的身體"
+          },
+          {
+            "cue": "疲れた",
+            "text": "疲れた体",
+            "zh": "疲累的身體"
+          }
+        ],
+        "related": [
+          {
+            "text": "肩",
+            "reading": "かた",
+            "zh": "肩膀"
+          },
+          {
+            "text": "元気",
+            "reading": "げんき",
+            "zh": "有精神、健康"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:動く",
@@ -1031,7 +1352,28 @@
       "zh": "動、移動",
       "level": "N4",
       "line": "s2-08",
-      "surface": "動かない"
+      "surface": "動かない",
+      "links": {
+        "collocations": [
+          {
+            "cue": "体が",
+            "text": "体が動かない",
+            "zh": "身體動不了"
+          },
+          {
+            "cue": "電車が",
+            "text": "電車が動く",
+            "zh": "電車開動"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "止まる",
+            "reading": "とまる",
+            "zh": "停下"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:光",
@@ -1040,7 +1382,35 @@
       "pos": "名詞",
       "zh": "光",
       "level": "N4",
-      "line": "s2-09"
+      "line": "s2-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "まぶしい",
+            "text": "まぶしい光",
+            "zh": "刺眼的光"
+          },
+          {
+            "cue": "希望の",
+            "text": "希望の光",
+            "zh": "希望之光"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "闇",
+            "reading": "やみ",
+            "zh": "黑暗"
+          }
+        ],
+        "related": [
+          {
+            "text": "精霊",
+            "reading": "せいれい",
+            "zh": "精靈"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:精霊",
@@ -1049,7 +1419,33 @@
       "pos": "名詞",
       "zh": "精靈（超出級別，奇幻作品常見）",
       "level": "N1",
-      "line": "s2-10"
+      "line": "s2-10",
+      "links": {
+        "collocations": [
+          {
+            "cue": "森の",
+            "text": "森の精霊",
+            "zh": "森林的精靈"
+          },
+          {
+            "cue": "光の",
+            "text": "光の精霊",
+            "zh": "光之精靈"
+          }
+        ],
+        "related": [
+          {
+            "text": "森",
+            "reading": "もり",
+            "zh": "森林"
+          },
+          {
+            "text": "魔法",
+            "reading": "まほう",
+            "zh": "魔法"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:負ける",
@@ -1059,7 +1455,35 @@
       "zh": "輸",
       "level": "N4",
       "line": "s2-11",
-      "surface": "負けて"
+      "surface": "負けて",
+      "links": {
+        "collocations": [
+          {
+            "cue": "試合に",
+            "text": "試合に負ける",
+            "zh": "輸掉比賽"
+          },
+          {
+            "cue": "ゲームに",
+            "text": "ゲームに負ける",
+            "zh": "玩遊戲輸了"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "勝つ",
+            "reading": "かつ",
+            "zh": "贏"
+          }
+        ],
+        "related": [
+          {
+            "text": "倒す",
+            "reading": "たおす",
+            "zh": "打倒"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:落とす",
@@ -1069,7 +1493,35 @@
       "zh": "弄掉、掉落",
       "level": "N4",
       "line": "s3-03",
-      "surface": "落としちゃった"
+      "surface": "落としちゃった",
+      "links": {
+        "collocations": [
+          {
+            "cue": "財布を",
+            "text": "財布を落とす",
+            "zh": "掉了錢包"
+          },
+          {
+            "cue": "鍵を",
+            "text": "鍵を落とす",
+            "zh": "掉了鑰匙"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "拾う",
+            "reading": "ひろう",
+            "zh": "撿起來"
+          }
+        ],
+        "related": [
+          {
+            "text": "なくなる",
+            "reading": "なくなる",
+            "zh": "消失、不見"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:怖い",
@@ -1079,7 +1531,28 @@
       "zh": "可怕",
       "level": "N4",
       "line": "s3-04",
-      "surface": "怖かった"
+      "surface": "怖かった",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お化けが",
+            "text": "お化けが怖い",
+            "zh": "怕鬼"
+          },
+          {
+            "cue": "高いところが",
+            "text": "高いところが怖い",
+            "zh": "怕高"
+          }
+        ],
+        "related": [
+          {
+            "text": "危ない",
+            "reading": "あぶない",
+            "zh": "危險"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:悪い",
@@ -1089,7 +1562,28 @@
       "zh": "壞、不好；「悪くない」還不錯（含蓄的稱讚）",
       "level": "N5",
       "line": "s3-08",
-      "surface": "悪くない"
+      "surface": "悪くない",
+      "links": {
+        "collocations": [
+          {
+            "cue": "天気が",
+            "text": "天気が悪い",
+            "zh": "天氣不好"
+          },
+          {
+            "cue": "なかなか",
+            "text": "なかなか悪くない",
+            "zh": "還挺不錯的"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "いい",
+            "reading": "いい",
+            "zh": "好"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

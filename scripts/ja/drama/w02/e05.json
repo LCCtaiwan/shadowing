@@ -945,7 +945,33 @@
       "zh": "排隊、排列",
       "level": "N4",
       "line": "s1-01",
-      "surface": "並んで"
+      "surface": "並んで",
+      "links": {
+        "collocations": [
+          {
+            "cue": "列に",
+            "text": "列に並ぶ",
+            "zh": "排隊"
+          },
+          {
+            "cue": "一時間",
+            "text": "一時間並ぶ",
+            "zh": "排一個小時"
+          }
+        ],
+        "related": [
+          {
+            "text": "次",
+            "reading": "つぎ",
+            "zh": "下一個"
+          },
+          {
+            "text": "待つ",
+            "reading": "まつ",
+            "zh": "等"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:券売機",
@@ -956,7 +982,33 @@
       "level": "N3",
       "line": "s1-04",
       "review": true,
-      "surface": "券売機"
+      "surface": "券売機",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ラーメン屋の",
+            "text": "ラーメン屋の券売機",
+            "zh": "拉麵店的點餐機"
+          },
+          {
+            "cue": "駅の",
+            "text": "駅の券売機",
+            "zh": "車站的售票機"
+          }
+        ],
+        "related": [
+          {
+            "text": "食券",
+            "reading": "しょっけん",
+            "zh": "餐券"
+          },
+          {
+            "text": "押す",
+            "reading": "おす",
+            "zh": "按"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:食券",
@@ -965,7 +1017,22 @@
       "pos": "名詞",
       "zh": "餐券（超出 N4，旅遊必備）",
       "level": "N2",
-      "line": "s1-03"
+      "line": "s1-03",
+      "links": {
+        "collocations": [],
+        "related": [
+          {
+            "text": "券売機",
+            "reading": "けんばいき",
+            "zh": "點餐機、售票機"
+          },
+          {
+            "text": "押す",
+            "reading": "おす",
+            "zh": "按"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:押す",
@@ -975,7 +1042,35 @@
       "zh": "按、推",
       "level": "N5",
       "line": "s1-05",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "ボタンを",
+            "text": "ボタンを押す",
+            "zh": "按按鈕"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "引く",
+            "reading": "ひく",
+            "zh": "拉"
+          }
+        ],
+        "related": [
+          {
+            "text": "券売機",
+            "reading": "けんばいき",
+            "zh": "點餐機、售票機"
+          },
+          {
+            "text": "食券",
+            "reading": "しょっけん",
+            "zh": "餐券"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:一番",
@@ -985,7 +1080,28 @@
       "zh": "最～；第一",
       "level": "N5",
       "line": "s1-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "これが",
+            "text": "これが一番",
+            "zh": "這個最好"
+          },
+          {
+            "cue": "世界で",
+            "text": "世界で一番",
+            "zh": "世界第一"
+          }
+        ],
+        "related": [
+          {
+            "text": "おすすめ",
+            "reading": "おすすめ",
+            "zh": "推薦"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:醤油",
@@ -994,7 +1110,28 @@
       "pos": "名詞",
       "zh": "醬油",
       "level": "N4",
-      "line": "s1-07"
+      "line": "s1-07",
+      "links": {
+        "collocations": [
+          {
+            "cue": "刺身に",
+            "text": "刺身に醤油",
+            "zh": "生魚片沾醬油"
+          }
+        ],
+        "related": [
+          {
+            "text": "塩",
+            "reading": "しお",
+            "zh": "鹽"
+          },
+          {
+            "text": "麺",
+            "reading": "めん",
+            "zh": "麵"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:普通",
@@ -1004,7 +1141,30 @@
       "zh": "普通、一般",
       "level": "N4",
       "line": "s1-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "量は",
+            "text": "量は普通",
+            "zh": "份量普通"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "特別",
+            "reading": "とくべつ",
+            "zh": "特別"
+          }
+        ],
+        "related": [
+          {
+            "text": "大盛り",
+            "reading": "おおもり",
+            "zh": "大碗、加大份量"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:大盛り",
@@ -1013,7 +1173,35 @@
       "pos": "名詞",
       "zh": "大碗、加大份量",
       "level": "N3",
-      "line": "s1-08"
+      "line": "s1-08",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ご飯",
+            "text": "ご飯大盛り",
+            "zh": "飯加大"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "少なめ",
+            "reading": "すくなめ",
+            "zh": "少一點、減量"
+          }
+        ],
+        "related": [
+          {
+            "text": "普通",
+            "reading": "ふつう",
+            "zh": "普通、一般"
+          },
+          {
+            "text": "麺",
+            "reading": "めん",
+            "zh": "麵"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:麺",
@@ -1022,7 +1210,33 @@
       "pos": "名詞",
       "zh": "麵",
       "level": "N3",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "太い",
+            "text": "太い麺",
+            "zh": "粗麵"
+          },
+          {
+            "cue": "ちぢれ",
+            "text": "ちぢれ麺",
+            "zh": "捲麵"
+          }
+        ],
+        "related": [
+          {
+            "text": "醤油",
+            "reading": "しょうゆ",
+            "zh": "醬油"
+          },
+          {
+            "text": "硬さ",
+            "reading": "かたさ",
+            "zh": "硬度"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:無料",
@@ -1031,7 +1245,35 @@
       "pos": "名詞",
       "zh": "免費",
       "level": "N4",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "大盛り",
+            "text": "大盛り無料",
+            "zh": "免費加大"
+          },
+          {
+            "cue": "入場",
+            "text": "入場無料",
+            "zh": "免費入場"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "有料",
+            "reading": "ゆうりょう",
+            "zh": "要付費"
+          }
+        ],
+        "related": [
+          {
+            "text": "お金",
+            "reading": "おかね",
+            "zh": "錢"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:預かる",
@@ -1041,7 +1283,35 @@
       "zh": "收下、代為保管（お預かりします＝店員收東西時說）",
       "level": "N3",
       "line": "s2-03",
-      "surface": "預かり"
+      "surface": "預かり",
+      "links": {
+        "collocations": [
+          {
+            "cue": "荷物を",
+            "text": "荷物を預かる",
+            "zh": "代為保管行李"
+          },
+          {
+            "cue": "鍵を",
+            "text": "鍵を預かる",
+            "zh": "代為保管鑰匙"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "預ける",
+            "reading": "あずける",
+            "zh": "寄放、交給人保管"
+          }
+        ],
+        "related": [
+          {
+            "text": "荷物",
+            "reading": "にもつ",
+            "zh": "行李"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:硬さ",
@@ -1050,7 +1320,28 @@
       "pos": "名詞",
       "zh": "硬度",
       "level": "N3",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "麺の",
+            "text": "麺の硬さ",
+            "zh": "麵的硬度"
+          }
+        ],
+        "related": [
+          {
+            "text": "固め",
+            "reading": "かため",
+            "zh": "偏硬"
+          },
+          {
+            "text": "柔らかめ",
+            "reading": "やわらかめ",
+            "zh": "偏軟"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:固め",
@@ -1059,7 +1350,35 @@
       "pos": "名詞",
       "zh": "偏硬",
       "level": "N3",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "麺は",
+            "text": "麺は固め",
+            "zh": "麵要偏硬"
+          },
+          {
+            "cue": "ご飯は",
+            "text": "ご飯は固め",
+            "zh": "飯偏硬"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "柔らかめ",
+            "reading": "やわらかめ",
+            "zh": "偏軟"
+          }
+        ],
+        "related": [
+          {
+            "text": "硬さ",
+            "reading": "かたさ",
+            "zh": "硬度"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:柔らかめ",
@@ -1068,7 +1387,30 @@
       "pos": "名詞",
       "zh": "偏軟",
       "level": "N3",
-      "line": "s2-05"
+      "line": "s2-05",
+      "links": {
+        "collocations": [
+          {
+            "cue": "麺は",
+            "text": "麺は柔らかめ",
+            "zh": "麵要偏軟"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "固め",
+            "reading": "かため",
+            "zh": "偏硬"
+          }
+        ],
+        "related": [
+          {
+            "text": "硬さ",
+            "reading": "かたさ",
+            "zh": "硬度"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:おすすめ",
@@ -1077,7 +1419,33 @@
       "pos": "名詞",
       "zh": "推薦",
       "level": "N4",
-      "line": "s2-06"
+      "line": "s2-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "今日の",
+            "text": "今日のおすすめ",
+            "zh": "今日推薦"
+          },
+          {
+            "cue": "お店の",
+            "text": "お店のおすすめ",
+            "zh": "店家推薦"
+          }
+        ],
+        "related": [
+          {
+            "text": "一番",
+            "reading": "いちばん",
+            "zh": "最～、第一"
+          },
+          {
+            "text": "人気",
+            "reading": "にんき",
+            "zh": "受歡迎"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:一口",
@@ -1086,7 +1454,28 @@
       "pos": "名詞",
       "zh": "一口",
       "level": "N3",
-      "line": "s2-12"
+      "line": "s2-12",
+      "links": {
+        "collocations": [
+          {
+            "cue": "もう",
+            "text": "もう一口",
+            "zh": "再一口"
+          },
+          {
+            "cue": "最初の",
+            "text": "最初の一口",
+            "zh": "第一口"
+          }
+        ],
+        "related": [
+          {
+            "text": "食べる",
+            "reading": "たべる",
+            "zh": "吃"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:頼む",
@@ -1096,7 +1485,33 @@
       "zh": "點（餐）、拜託",
       "level": "N4",
       "line": "s3-03",
-      "surface": "頼み"
+      "surface": "頼み",
+      "links": {
+        "collocations": [
+          {
+            "cue": "ラーメンを",
+            "text": "ラーメンを頼む",
+            "zh": "點拉麵"
+          },
+          {
+            "cue": "追加で",
+            "text": "追加で頼む",
+            "zh": "加點"
+          }
+        ],
+        "related": [
+          {
+            "text": "注文",
+            "reading": "ちゅうもん",
+            "zh": "點餐、訂購"
+          },
+          {
+            "text": "おすすめ",
+            "reading": "おすすめ",
+            "zh": "推薦"
+          }
+        ]
+      }
     }
   ],
   "phrases": [

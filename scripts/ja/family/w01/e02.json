@@ -903,7 +903,33 @@
       "pos": "名詞",
       "zh": "ICOCA（JR 西日本的交通 IC 卡）",
       "level": "N5",
-      "line": "s1-01"
+      "line": "s1-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "こども",
+            "text": "こどもICOCA",
+            "zh": "兒童用 ICOCA"
+          },
+          {
+            "cue": "モバイル",
+            "text": "モバイルICOCA",
+            "zh": "手機版 ICOCA"
+          }
+        ],
+        "related": [
+          {
+            "text": "Suica",
+            "reading": "スイカ",
+            "zh": "Suica（交通 IC 卡）"
+          },
+          {
+            "text": "電車",
+            "reading": "でんしゃ",
+            "zh": "電車"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:枚",
@@ -914,7 +940,33 @@
       "level": "N5",
       "line": "s1-02",
       "surface": "枚",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "大人二",
+            "text": "大人二枚",
+            "zh": "大人兩張（票）"
+          },
+          {
+            "cue": "切符を一",
+            "text": "切符を一枚",
+            "zh": "一張車票"
+          }
+        ],
+        "related": [
+          {
+            "text": "個",
+            "reading": "こ",
+            "zh": "～個（數小東西）"
+          },
+          {
+            "text": "紙",
+            "reading": "かみ",
+            "zh": "紙"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:大人",
@@ -924,7 +976,30 @@
       "zh": "大人、成人",
       "level": "N5",
       "line": "s1-03",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "もう",
+            "text": "もう大人",
+            "zh": "已經是大人了"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "子ども",
+            "reading": "こども",
+            "zh": "小孩"
+          }
+        ],
+        "related": [
+          {
+            "text": "料金",
+            "reading": "りょうきん",
+            "zh": "費用、票價"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:子ども",
@@ -933,7 +1008,40 @@
       "pos": "名詞",
       "zh": "小孩",
       "level": "N5",
-      "line": "s1-03"
+      "line": "s1-03",
+      "links": {
+        "collocations": [
+          {
+            "cue": "小さい",
+            "text": "小さい子ども",
+            "zh": "年紀小的孩子"
+          },
+          {
+            "cue": "うちの",
+            "text": "うちの子ども",
+            "zh": "我家的小孩"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "大人",
+            "reading": "おとな",
+            "zh": "大人、成人"
+          }
+        ],
+        "related": [
+          {
+            "text": "小学生",
+            "reading": "しょうがくせい",
+            "zh": "小學生"
+          },
+          {
+            "text": "赤ちゃん",
+            "reading": "あかちゃん",
+            "zh": "嬰兒、小寶寶"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:歳",
@@ -942,7 +1050,28 @@
       "pos": "助数詞",
       "zh": "～歲",
       "level": "N5",
-      "line": "s1-04"
+      "line": "s1-04",
+      "links": {
+        "collocations": [
+          {
+            "cue": "お子さんは何",
+            "text": "お子さんは何歳",
+            "zh": "您的小孩幾歲"
+          },
+          {
+            "cue": "息子は四",
+            "text": "息子は四歳",
+            "zh": "我兒子四歲"
+          }
+        ],
+        "related": [
+          {
+            "text": "子ども",
+            "reading": "こども",
+            "zh": "小孩"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:小学生",
@@ -951,7 +1080,28 @@
       "pos": "名詞",
       "zh": "小學生",
       "level": "N4",
-      "line": "s1-06"
+      "line": "s1-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "まだ",
+            "text": "まだ小学生",
+            "zh": "還是小學生"
+          }
+        ],
+        "related": [
+          {
+            "text": "小学校",
+            "reading": "しょうがっこう",
+            "zh": "小學"
+          },
+          {
+            "text": "中学生",
+            "reading": "ちゅうがくせい",
+            "zh": "國中生"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:料金",
@@ -960,7 +1110,33 @@
       "pos": "名詞",
       "zh": "費用、票價",
       "level": "N4",
-      "line": "s1-06"
+      "line": "s1-06",
+      "links": {
+        "collocations": [
+          {
+            "cue": "子ども",
+            "text": "子ども料金",
+            "zh": "兒童票價"
+          },
+          {
+            "cue": "大人",
+            "text": "大人料金",
+            "zh": "全票票價"
+          }
+        ],
+        "related": [
+          {
+            "text": "無料",
+            "reading": "むりょう",
+            "zh": "免費"
+          },
+          {
+            "text": "金額",
+            "reading": "きんがく",
+            "zh": "金額"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:未就学",
@@ -969,7 +1145,21 @@
       "pos": "名詞",
       "zh": "學齡前（還沒上小學）",
       "level": "N1",
-      "line": "s1-07"
+      "line": "s1-07",
+      "links": {
+        "related": [
+          {
+            "text": "小学校",
+            "reading": "しょうがっこう",
+            "zh": "小學"
+          },
+          {
+            "text": "無料",
+            "reading": "むりょう",
+            "zh": "免費"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:無料",
@@ -979,7 +1169,35 @@
       "zh": "免費",
       "level": "N4",
       "line": "s1-07",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "入場",
+            "text": "入場無料",
+            "zh": "免費入場"
+          },
+          {
+            "cue": "子どもは",
+            "text": "子どもは無料",
+            "zh": "小孩免費"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "有料",
+            "reading": "ゆうりょう",
+            "zh": "要收費"
+          }
+        ],
+        "related": [
+          {
+            "text": "料金",
+            "reading": "りょうきん",
+            "zh": "費用、票價"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:小学校",
@@ -988,7 +1206,23 @@
       "pos": "名詞",
       "zh": "小學",
       "level": "N5",
-      "line": "s1-09"
+      "line": "s1-09",
+      "links": {
+        "collocations": [
+          {
+            "cue": "近くの",
+            "text": "近くの小学校",
+            "zh": "附近的小學"
+          }
+        ],
+        "related": [
+          {
+            "text": "小学生",
+            "reading": "しょうがくせい",
+            "zh": "小學生"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:必要",
@@ -998,7 +1232,35 @@
       "zh": "需要、必要",
       "level": "N4",
       "line": "s1-11",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "予約が",
+            "text": "予約が必要",
+            "zh": "需要預約"
+          },
+          {
+            "cue": "パスポートが",
+            "text": "パスポートが必要",
+            "zh": "需要護照"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "不要",
+            "reading": "ふよう",
+            "zh": "不需要"
+          }
+        ],
+        "related": [
+          {
+            "text": "要る",
+            "reading": "いる",
+            "zh": "需要"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:全部",
@@ -1008,7 +1270,23 @@
       "zh": "全部（全部で＝總共）",
       "level": "N5",
       "line": "s1-12",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "これで",
+            "text": "これで全部",
+            "zh": "這樣就全部了"
+          }
+        ],
+        "related": [
+          {
+            "text": "半分",
+            "reading": "はんぶん",
+            "zh": "一半"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:乗る",
@@ -1018,7 +1296,40 @@
       "zh": "搭乘",
       "level": "N5",
       "line": "s2-01",
-      "surface": "乗っ"
+      "surface": "乗っ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "電車に",
+            "text": "電車に乗る",
+            "zh": "搭電車"
+          },
+          {
+            "cue": "タクシーに",
+            "text": "タクシーに乗る",
+            "zh": "搭計程車"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "降りる",
+            "reading": "おりる",
+            "zh": "下（車）"
+          }
+        ],
+        "related": [
+          {
+            "text": "電車",
+            "reading": "でんしゃ",
+            "zh": "電車"
+          },
+          {
+            "text": "駅",
+            "reading": "えき",
+            "zh": "車站"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:近く",
@@ -1027,7 +1338,35 @@
       "pos": "名詞",
       "zh": "附近",
       "level": "N5",
-      "line": "s2-02"
+      "line": "s2-02",
+      "links": {
+        "collocations": [
+          {
+            "cue": "駅の",
+            "text": "駅の近く",
+            "zh": "車站附近"
+          },
+          {
+            "cue": "この",
+            "text": "この近く",
+            "zh": "這附近"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "遠く",
+            "reading": "とおく",
+            "zh": "遠處"
+          }
+        ],
+        "related": [
+          {
+            "text": "横",
+            "reading": "よこ",
+            "zh": "旁邊"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:時間",
@@ -1037,7 +1376,33 @@
       "zh": "時間；～小時",
       "level": "N5",
       "line": "s2-04",
-      "surface": "時間"
+      "surface": "時間",
+      "links": {
+        "collocations": [
+          {
+            "cue": "待ち",
+            "text": "待ち時間",
+            "zh": "等待時間"
+          },
+          {
+            "cue": "集合",
+            "text": "集合時間",
+            "zh": "集合時間"
+          }
+        ],
+        "related": [
+          {
+            "text": "時計",
+            "reading": "とけい",
+            "zh": "時鐘、手錶"
+          },
+          {
+            "text": "午前",
+            "reading": "ごぜん",
+            "zh": "上午"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:膝",
@@ -1047,7 +1412,28 @@
       "zh": "膝蓋",
       "level": "N3",
       "line": "s3-01",
-      "review": true
+      "review": true,
+      "links": {
+        "collocations": [
+          {
+            "cue": "両方の",
+            "text": "両方の膝",
+            "zh": "兩邊膝蓋"
+          }
+        ],
+        "related": [
+          {
+            "text": "痛い",
+            "reading": "いたい",
+            "zh": "痛"
+          },
+          {
+            "text": "足",
+            "reading": "あし",
+            "zh": "腳"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:痛い",
@@ -1056,7 +1442,33 @@
       "pos": "い形容詞",
       "zh": "痛",
       "level": "N5",
-      "line": "s3-01"
+      "line": "s3-01",
+      "links": {
+        "collocations": [
+          {
+            "cue": "頭が",
+            "text": "頭が痛い",
+            "zh": "頭痛"
+          },
+          {
+            "cue": "お腹が",
+            "text": "お腹が痛い",
+            "zh": "肚子痛"
+          }
+        ],
+        "related": [
+          {
+            "text": "薬",
+            "reading": "くすり",
+            "zh": "藥"
+          },
+          {
+            "text": "病院",
+            "reading": "びょういん",
+            "zh": "醫院"
+          }
+        ]
+      }
     },
     {
       "id": "ja:vocab:座る",
@@ -1066,7 +1478,35 @@
       "zh": "坐",
       "level": "N5",
       "line": "s3-02",
-      "surface": "座っ"
+      "surface": "座っ",
+      "links": {
+        "collocations": [
+          {
+            "cue": "席に",
+            "text": "席に座る",
+            "zh": "坐到座位上"
+          },
+          {
+            "cue": "椅子に",
+            "text": "椅子に座る",
+            "zh": "坐在椅子上"
+          }
+        ],
+        "opposite": [
+          {
+            "text": "立つ",
+            "reading": "たつ",
+            "zh": "站"
+          }
+        ],
+        "related": [
+          {
+            "text": "席",
+            "reading": "せき",
+            "zh": "座位"
+          }
+        ]
+      }
     }
   ],
   "phrases": [
