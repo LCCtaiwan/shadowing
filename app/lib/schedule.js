@@ -1,4 +1,4 @@
-// 依內容索引與進度決定「今天要做什麼」。日期鎖：上課日之前看不到；漏掉的會依序補上。
+// 依內容索引與進度決定「今天要做什麼」：依上課順序給下一個；到日期或輪到的才解鎖，漏掉的依序補上。
 
 export function isoDate(d = new Date()) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -6,13 +6,16 @@ export function isoDate(d = new Date()) {
 
 export const available = (items, today) => items.filter(x => x.date <= today);
 
-/** 最早一個已解鎖、還沒完成的項目；全部完成時回傳 null。 */
-export const nextUnfinished = (items, today, done) => available(items, today).find(x => !done[x.id]) || null;
+/** 依上課順序最早一個還沒完成的項目（不管日期，隨時可以先做下一個）；全部完成時回傳 null。 */
+export const nextUnfinished = (items, today, done) => items.find(x => !done[x.id]) || null;
+
+/** 已到上課日，或是下一個要做的，就算解鎖。 */
+export const isUnlocked = (item, items, today, done) => item.date <= today || done[item.id] || nextUnfinished(items, today, done)?.id === item.id;
 
 export function todayTasks(index, progress, today) {
   const episode = nextUnfinished(index.episodes, today, progress.episodes);
   const drill = nextUnfinished(index.drills, today, progress.drills);
-  const upcoming = index.episodes.find(x => x.date > today) || null;
+  const upcoming = index.episodes.find(x => x.date > today && !progress.episodes[x.id]) || null;
   const behind = available(index.episodes, today).filter(x => !progress.episodes[x.id]).length;
   return { episode, drill, upcoming, behind };
 }

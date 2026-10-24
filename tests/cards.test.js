@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { cardsFromEpisode, clozeParts } from '../app/lib/cards.js';
 import { buildQueue, nextCard, deckCounts, dayKey } from '../app/lib/srs.js';
 import { renderRuby } from '../app/lib/ruby.js';
-import { todayTasks, streak } from '../app/lib/schedule.js';
+import { todayTasks, streak, isUnlocked } from '../app/lib/schedule.js';
 
 const load = p => JSON.parse(readFileSync(new URL(`../${p}`, import.meta.url), 'utf8'));
 const index = load('scripts/index.json');
@@ -68,13 +68,21 @@ test('ruby：三種模式與重點標示', () => {
   assert.match(renderRuby(r, 'furi', ['温めますか']), /<mark><ruby>温<rt>あたた<\/rt><\/ruby>めますか<\/mark>？/);
 });
 
-test('今日任務：依日期解鎖，漏掉的依序補', () => {
+test('今日任務：依順序給下一話，開課日前也能先開始；漏掉的照順序補', () => {
   const t = todayTasks(index, { episodes: {}, drills: {} }, '2026-10-28');
   assert.equal(t.episode.id, 'ja-drama-w01-e01');
   assert.equal(t.behind, 3);
   const done = { 'ja-drama-w01-e01': true, 'ja-anime-w01-e01': true, 'ja-drama-w01-e02': true };
-  assert.equal(todayTasks(index, { episodes: done, drills: {} }, '2026-10-28').episode, null);
-  assert.equal(todayTasks(index, { episodes: {}, drills: {} }, '2026-10-20').episode, null);
+  assert.equal(todayTasks(index, { episodes: done, drills: {} }, '2026-10-28').episode.id, 'ja-anime-w01-e02');
+  assert.equal(todayTasks(index, { episodes: {}, drills: {} }, '2026-10-20').episode.id, 'ja-drama-w01-e01');
+});
+
+test('解鎖：到日期的、做完的、下一個要做的', () => {
+  const eps = index.episodes;
+  const done = { [eps[0].id]: true };
+  assert.ok(isUnlocked(eps[1], eps, '2026-10-20', done));
+  assert.ok(!isUnlocked(eps[2], eps, '2026-10-20', done));
+  assert.ok(isUnlocked(eps[2], eps, '2026-10-28', done));
 });
 
 test('連續天數', () => {

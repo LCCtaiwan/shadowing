@@ -10,7 +10,7 @@ import jlpt from './views/jlpt.js';
 import settings from './views/settings.js';
 
 const VIEWS = { home, ep: episode, review, drill, lib: library, jlpt, settings };
-const TABS = [['home', 'ホーム', ICON.home], ['lib', 'ライブラリ', ICON.lib], ['review', '復習', ICON.cards], ['drill', 'ドリル', ICON.head], ['jlpt', 'JLPT', ICON.chart]];
+const TABS = [['home', '首頁', ICON.home], ['lib', '課程', ICON.lib], ['review', '複習', ICON.cards], ['drill', '聽力練習', ICON.head], ['jlpt', 'JLPT', ICON.chart]];
 
 export function go(route) {
   if (location.hash === `#${route}`) render();

@@ -89,10 +89,10 @@ export function schedule(card, g, now, retention = 0.9) {
 export const preview = (card, now, retention = 0.9) => [1, 2, 3, 4].map(g => schedule(card, g, now, retention).due - now);
 
 export function formatInterval(ms) {
-  if (ms < 60 * MIN) return `${Math.max(1, Math.round(ms / MIN))}分`;
-  if (ms < DAY) return `${Math.round(ms / (60 * MIN))}時間`;
+  if (ms < 60 * MIN) return `${Math.max(1, Math.round(ms / MIN))} 分`;
+  if (ms < DAY) return `${Math.round(ms / (60 * MIN))} 小時`;
   const d = Math.round(ms / DAY);
-  if (d < 30) return `${d}日`;
-  if (d < 365) return `${Math.round(d / 30)}か月`;
-  return `${(d / 365).toFixed(1)}年`;
+  if (d < 30) return `${d} 天`;
+  if (d < 365) return `${Math.round(d / 30)} 個月`;
+  return `${(d / 365).toFixed(1)} 年`;
 }

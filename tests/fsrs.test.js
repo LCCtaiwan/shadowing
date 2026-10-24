@@ -45,7 +45,7 @@ test('不改動原卡片物件', () => {
 });
 
 test('間隔顯示', () => {
-  assert.equal(formatInterval(MIN), '1分');
-  assert.equal(formatInterval(3 * DAY), '3日');
-  assert.equal(formatInterval(60 * DAY), '2か月');
+  assert.equal(formatInterval(MIN), '1 分');
+  assert.equal(formatInterval(3 * DAY), '3 天');
+  assert.equal(formatInterval(60 * DAY), '2 個月');
 });

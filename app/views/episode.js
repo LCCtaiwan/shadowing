@@ -1,4 +1,4 @@
-// 一話的五步：ブラインド聴き → 意味を理解 → 見てシャドー → ブラインドシャドー → カードに追加。
+// 一話的五步：盲聽 → 看懂 → 看字跟讀 → 盲跟讀 → 收卡。
 import { S, loadEpisode, saveResume, finishEpisode, setDifficulty, saveSettings } from '../state.js';
 import { $, $$, ICON, esc, toast, seriesChip, wave, ring, animateRing, speakerName, SERIES_NAME } from '../ui.js';
 import { renderRuby, kanaText } from '../lib/ruby.js';
@@ -6,7 +6,7 @@ import { play, stop, wait, keepAwake, mediaSession, prefetch, hasAudio } from '.
 import { cardsFromEpisode, DECK_NAMES } from '../lib/cards.js';
 import { go } from '../main.js';
 
-const STEP_NAMES = ['1 ブラインド聴き', '2 意味を理解', '3 見てシャドー', '4 ブラインドシャドー', '5 カードに追加'];
+const STEP_NAMES = ['步驟 1／5　盲聽：不看字聽一遍', '步驟 2／5　看懂：一句一句理解', '步驟 3／5　跟讀：看著字跟著念', '步驟 4／5　盲跟讀：不看字跟著念', '步驟 5／5　收卡：加入複習'];
 
 export default async function episode(root, [id]) {
   const meta = S.index.episodes.find(e => e.id === id);
@@ -26,13 +26,13 @@ export default async function episode(root, [id]) {
 
   root.innerHTML = `
     <div class="topbar">
-      <button class="icon-btn" id="close" aria-label="閉じる">${ICON.close}</button>
+      <button class="icon-btn" id="close" aria-label="關閉">${ICON.close}</button>
       <div class="steps" id="steps">${STEP_NAMES.map(() => '<span></span>').join('')}</div>
     </div>
     <div class="row between wrap">
       <span class="muted" id="stepName"></span>
-      <div class="seg" role="group" aria-label="ふりがな">
-        <button data-ruby="furi">漢字＋かな</button><button data-ruby="kana">かな</button><button data-ruby="hide">隠す</button>
+      <div class="seg" role="group" aria-label="假名顯示">
+        <button data-ruby="furi">漢字＋假名</button><button data-ruby="kana">只看假名</button><button data-ruby="hide">隱藏</button>
       </div>
     </div>
     <div id="body" class="stack" style="gap:14px"></div>`;
@@ -44,7 +44,7 @@ export default async function episode(root, [id]) {
   }));
 
   const rubyHtml = (l, mode = S.settings.ruby) => mode === 'hide'
-    ? '<span class="muted" style="font-size:15px">（テキスト非表示 — 耳だけで）</span>'
+    ? '<span class="muted" style="font-size:15px">（文字已隱藏，只用耳朵聽）</span>'
     : renderRuby(l.ruby, mode, l.focus || []);
 
   function renderStep(keepAudio) {
@@ -62,21 +62,21 @@ export default async function episode(root, [id]) {
       <div class="row wrap" style="gap:6px">${seriesChip(ep.series)}<span class="chip">${SERIES_NAME[ep.series]}</span><span class="chip">第${ep.week}週 第${ep.episode}話</span><span class="chip good">${ep.level}</span></div>
       <h1 class="ep-title">${esc(ep.title)}</h1>
       <p class="muted">${esc(ep.title_zh)}</p>
-      <div class="card stack" style="gap:6px"><p class="muted">前回まで</p><div class="jp sm">${rubyHtml(ep.recap)}</div>
+      <div class="card stack" style="gap:6px"><p class="muted">前情提要（點中文看翻譯）</p><div class="jp sm">${rubyHtml(ep.recap)}</div>
         <button class="zh blur" data-zh><span>${esc(ep.recap.zh)}</span>${ICON.eye}</button></div>
       <div class="card stack" style="align-items:center">
         ${wave()}
-        <button class="play-main" id="playAll" aria-label="全部聴く">${ICON.play}</button>
-        <p class="muted">文字を見ないで、全体を聴いてみよう（${lines.length} 文）</p>
+        <button class="play-main" id="playAll" aria-label="播放整集">${ICON.play}</button>
+        <p class="muted">按播放，不看字把整集聽一遍（${lines.length} 句），聽完回答下面的問題。</p>
       </div>
-      <div class="card stack"><p style="font-weight:700">聴く前に：${esc(ep.focus.title)}</p><p class="muted">${esc(ep.focus.zh)}</p></div>
+      <div class="card stack"><p style="font-weight:700">聽之前先注意：${esc(ep.focus.title)}</p><p class="muted">${esc(ep.focus.zh)}</p></div>
       ${ep.questions.map((q, qi) => `
         <div class="card stack" style="gap:8px" data-q="${qi}">
           <p style="font-weight:700">Q${qi + 1}. ${esc(q.q)}</p>
           ${q.options.map((o, i) => `<button class="opt" data-i="${i}"><span class="num muted">${i + 1}</span>${esc(o)}</button>`).join('')}
           <p class="muted" data-fb hidden></p>
         </div>`).join('')}
-      <button class="cta" id="next">次へ：意味を理解</button>`;
+      <button class="cta" id="next">下一步：一句一句看懂</button>`;
     bindZh(body);
     $('#playAll', body).addEventListener('click', async () => {
       if (st.running) { stop(); st.running = false; setPlayAll(false); return; }
@@ -102,7 +102,7 @@ export default async function episode(root, [id]) {
         $$('.opt', card).forEach((x, j) => { x.classList.toggle('right', j === q.answer); x.classList.toggle('wrong', j === i && i !== q.answer); });
         const fb = $('[data-fb]', card);
         fb.hidden = false;
-        fb.textContent = `${i === q.answer ? '正解。' : 'もう一度聴いてみよう。'}${q.q_zh}`;
+        fb.textContent = `${i === q.answer ? '答對了。' : '再聽一次看看。'}題目意思：${q.q_zh}`;
       }));
     });
     $('#next', body).addEventListener('click', nextStep);
@@ -111,23 +111,23 @@ export default async function episode(root, [id]) {
   function stepUnderstand(body) {
     let lastScene = null;
     const rows = lines.map((l, i) => {
-      const head = l.scene !== lastScene ? `<p class="muted" style="margin-top:8px">${l.scene.kind === 'radio' ? '<span class="radio-tag">ラジオドラマ</span>　' : ''}${esc(l.scene.setting_zh || '')}</p>` : '';
+      const head = l.scene !== lastScene ? `<p class="muted" style="margin-top:8px">${l.scene.kind === 'radio' ? '<span class="radio-tag">廣播劇</span>　' : ''}${esc(l.scene.setting_zh || '')}</p>` : '';
       lastScene = l.scene;
       return `${head}<div class="line" data-line="${i}">
         <div style="min-width:0"><div class="spk ${isMe(l.speaker) ? 'me' : ''}">${esc(speakerName(S.cast, l.speaker))}</div>
           <div class="jp sm">${rubyHtml(l)}</div>
           <button class="zh blur" data-zh><span>${esc(l.zh)}</span>${ICON.eye}</button></div>
-        <button class="icon-btn" data-say="${i}" aria-label="再生">${ICON.vol}</button></div>`;
+        <button class="icon-btn" data-say="${i}" aria-label="播放這句">${ICON.vol}</button></div>`;
     }).join('');
     body.innerHTML = `
       <p class="muted">一句一句看懂。點中文看翻譯，點喇叭重聽。<mark>底色</mark> = 本話重點。</p>
       <div class="card" style="padding-block:2px">${rows}</div>
-      <div class="card stack"><h2>今回の文法</h2>${ep.grammar.map(g => `
+      <div class="card stack"><h2>這一話的文法</h2>${ep.grammar.map(g => `
         <div><span class="chip brand">${esc(g.pattern)}</span><p class="muted" style="margin-top:4px">${esc(g.zh)}</p></div>`).join('')}</div>
-      <div class="card stack"><h2>フレーズ</h2>${ep.phrases.map(p => `<p><b>${esc(p.text)}</b>　<span class="muted">${esc(p.zh)}</span></p>`).join('')}</div>
-      <details class="card"><summary style="font-weight:700;cursor:pointer">単語 ${ep.vocab.length}</summary>
-        <div class="stack" style="margin-top:8px">${ep.vocab.map(v => `<p>${esc(v.text)}（${esc(v.reading)}）<span class="muted">　${esc(v.zh)}・${v.level}${v.review ? '・復習' : ''}</span></p>`).join('')}</div></details>
-      <button class="cta" id="next">シャドーイングへ</button>`;
+      <div class="card stack"><h2>片語</h2>${ep.phrases.map(p => `<p><b>${esc(p.text)}</b>　<span class="muted">${esc(p.zh)}</span></p>`).join('')}</div>
+      <details class="card"><summary style="font-weight:700;cursor:pointer">單字 ${ep.vocab.length} 個（點開）</summary>
+        <div class="stack" style="margin-top:8px">${ep.vocab.map(v => `<p>${esc(v.text)}（${esc(v.reading)}）<span class="muted">　${esc(v.zh)}・${v.level}${v.review ? '・複習' : ''}</span></p>`).join('')}</div></details>
+      <button class="cta" id="next">下一步：跟讀</button>`;
     bindZh(body);
     $$('[data-say]', body).forEach(b => b.addEventListener('click', async () => {
       const row = b.closest('.line');
@@ -145,20 +145,20 @@ export default async function episode(root, [id]) {
     const l = lines[st.idx];
     const last = st.idx === lines.length - 1;
     body.innerHTML = `
-      <p class="muted num">${st.idx + 1} / ${lines.length} 文　・　各文 ${S.settings.repeats} 回${l.scene.kind === 'radio' ? '　・　<span class="radio-tag">ラジオドラマ</span>' : ''}</p>
+      <p class="muted num">第 ${st.idx + 1} / ${lines.length} 句・每句播 ${S.settings.repeats} 次，播完換你念${l.scene.kind === 'radio' ? '・<span class="radio-tag">廣播劇</span>' : ''}</p>
       <div class="card stack" style="min-height:170px;gap:6px">
         <div class="spk ${isMe(l.speaker) ? 'me' : ''}">${esc(speakerName(S.cast, l.speaker))}</div>
-        <div class="jp" id="shText">${blind ? '<span class="muted" style="font-size:15px">耳だけで追いかけよう</span>' : rubyHtml(l)}</div>
-        ${blind ? '<button class="ghost" id="peek" style="align-self:flex-start">ちょっと見る</button>' : `<button class="zh blur" data-zh><span>${esc(l.zh)}</span>${ICON.eye}</button>`}
+        <div class="jp" id="shText">${blind ? '<span class="muted" style="font-size:15px">不看字，只用耳朵跟著念</span>' : rubyHtml(l)}</div>
+        ${blind ? '<button class="ghost" id="peek" style="align-self:flex-start">偷看一下</button>' : `<button class="zh blur" data-zh><span>${esc(l.zh)}</span>${ICON.eye}</button>`}
       </div>
-      <div aria-live="polite">${ring('shRing', '<span id="shState" style="font-size:16px">準備OK</span><span class="muted num" id="shRound"></span>')}</div>
+      <div aria-live="polite">${ring('shRing', '<span id="shState" style="font-size:16px">按播放開始</span><span class="muted num" id="shRound"></span>')}</div>
       <div class="player">
         <div class="seg" role="group" aria-label="速度">${[0.75, 0.9, 1].map(s => `<button data-speed="${s}" aria-pressed="${S.settings.speed === s}">${s}×</button>`).join('')}</div>
-        <button class="icon-btn" id="prev" aria-label="前の文">${ICON.prev}</button>
-        <button class="play-main" id="play" aria-label="再生">${st.running ? ICON.pause : ICON.play}</button>
-        <button class="icon-btn" id="nextLine" aria-label="次の文">${ICON.next}</button>
+        <button class="icon-btn" id="prev" aria-label="上一句">${ICON.prev}</button>
+        <button class="play-main" id="play" aria-label="播放／暫停">${st.running ? ICON.pause : ICON.play}</button>
+        <button class="icon-btn" id="nextLine" aria-label="下一句">${ICON.next}</button>
       </div>
-      ${last ? `<button class="cta" id="next">${blind ? 'カードへ' : 'ブラインドシャドーへ'}</button>` : '<button class="ghost" id="skip">このステップを終える</button>'}`;
+      ${last ? `<button class="cta" id="next">${blind ? '下一步：收卡' : '下一步：不看字跟讀'}</button>` : '<button class="ghost" id="skip">跳過這一步</button>'}`;
     bindZh(body);
     $('#peek', body)?.addEventListener('click', e => { $('#shText', body).innerHTML = rubyHtml(l, S.settings.ruby === 'hide' ? 'furi' : S.settings.ruby); e.currentTarget.remove(); });
     $$('[data-speed]', body).forEach(b => b.addEventListener('click', async () => {
@@ -170,7 +170,7 @@ export default async function episode(root, [id]) {
     $('#prev', body).addEventListener('click', () => st.idx > 0 && moveTo(st.idx - 1));
     $('#nextLine', body).addEventListener('click', () => st.idx < lines.length - 1 && moveTo(st.idx + 1));
     $('#play', body).addEventListener('click', () => {
-      if (st.running) { stop(); st.running = false; $('#play', body).innerHTML = ICON.play; $('#shState', body).textContent = '一時停止'; animateRing($('#shRing', body), 0); }
+      if (st.running) { stop(); st.running = false; $('#play', body).innerHTML = ICON.play; $('#shState', body).textContent = '已暫停'; animateRing($('#shRing', body), 0); }
       else run();
     });
     $('#next', body)?.addEventListener('click', nextStep);
@@ -189,13 +189,13 @@ export default async function episode(root, [id]) {
       const me = l;
       $('#play', body).innerHTML = ICON.pause;
       for (let round = 1; round <= S.settings.repeats; round++) {
-        $('#shState', body).textContent = '聴いて';
+        $('#shState', body).textContent = '先聽';
         $('#shRound', body).textContent = `${round} / ${S.settings.repeats}`;
         animateRing($('#shRing', body), 0);
         const r = await say(me);
         if (r.cancelled || !alive()) return;
         const pause = Math.round(r.ms * S.settings.pauseFactor);
-        $('#shState', body).textContent = 'あなたの番';
+        $('#shState', body).textContent = '換你念';
         animateRing($('#shRing', body), pause);
         await wait(pause);
         if (!alive() || lines[st.idx] !== me) return;
@@ -207,7 +207,7 @@ export default async function episode(root, [id]) {
         renderStep(true);
       } else {
         st.running = false;
-        $('#shState', body).textContent = 'おつかれ';
+        $('#shState', body).textContent = '這一步完成';
         $('#play', body).innerHTML = ICON.play;
         keepAwake(false);
       }
@@ -220,20 +220,20 @@ export default async function episode(root, [id]) {
     const cards = cardsFromEpisode(ep, meta).filter(c => !existing.has(c.id));
     const label = c => {
       if (c.kind === 'sentence') return esc(c.data.text);
-      if (c.kind === 'vocab-listen') return `${esc(c.data.text)}（${esc(c.data.reading)}）${esc(c.data.zh)}<span class="muted">・聴いて意味</span>`;
-      if (c.kind === 'vocab-read') return `${esc(c.data.text)}<span class="muted">・読み方</span>`;
+      if (c.kind === 'vocab-listen') return `${esc(c.data.text)}（${esc(c.data.reading)}）${esc(c.data.zh)}<span class="muted">・聽音想意思</span>`;
+      if (c.kind === 'vocab-read') return `${esc(c.data.text)}<span class="muted">・看字唸讀音</span>`;
       if (c.kind === 'phrase-cloze') return `${esc(c.data.text)}　<span class="muted">${esc(c.data.zh)}</span>`;
       return `${esc(c.data.pattern)}　<span class="muted">${esc(c.data.zh.slice(0, 24))}…</span>`;
     };
     const groups = ['grammar', 'phrase', 'vocab', 'sentence'].map(deck => [deck, cards.filter(c => c.deck === deck)]).filter(([, cs]) => cs.length);
     body.innerHTML = `
-      <p class="muted">預設全收；不想記的取消勾選。新卡每天依上限慢慢出現（單字 ${S.settings.limits.new.vocab}、文 ${S.settings.limits.new.sentence}…）。</p>
+      <p class="muted">這一話的單字、片語、文法、句子會加進複習。預設全收，不想記的取消勾選。新卡每天依上限慢慢出現（單字 ${S.settings.limits.new.vocab} 張、句子 ${S.settings.limits.new.sentence} 張…）。</p>
       ${cards.length ? groups.map(([deck, cs]) => `
         <div class="card" style="padding-block:4px">
           <div class="row between" style="padding:8px 0"><h2>${DECK_NAMES[deck]}</h2><span class="muted num">${cs.length}</span></div>
           ${cs.map(c => `<label class="check"><input type="checkbox" data-card="${esc(c.id)}" checked><span style="min-width:0">${label(c)}</span></label>`).join('')}
         </div>`).join('') : '<div class="card empty muted">這一話的卡片都已經在牌組裡了。</div>'}
-      <button class="cta" id="finish">デッキに追加して終わる</button>`;
+      <button class="cta" id="finish">加入複習，完成這一話</button>`;
     $('#finish', body).addEventListener('click', async () => {
       const chosen = new Set($$('input[data-card]:checked', body).map(i => i.dataset.card));
       const n = await finishEpisode(meta, ep, chosen, null);
@@ -245,20 +245,20 @@ export default async function episode(root, [id]) {
     stop();
     keepAwake(false);
     $$('#steps span', root).forEach(s => s.classList.add('on'));
-    $('#stepName', root).textContent = '完了';
+    $('#stepName', root).textContent = '完成';
     body.innerHTML = `
-      <h1 class="ep-title">おつかれさま</h1>
+      <h1 class="ep-title">辛苦了</h1>
       <div class="stats3">
-        <div class="card"><b class="num">${lines.length}</b><span class="muted">文</span></div>
-        <div class="card"><b class="num">${lines.length * S.settings.repeats * 2}</b><span class="muted">シャドー回数</span></div>
-        <div class="card"><b class="num">${n}</b><span class="muted">新カード</span></div>
+        <div class="card"><b class="num">${lines.length}</b><span class="muted">句</span></div>
+        <div class="card"><b class="num">${lines.length * S.settings.repeats * 2}</b><span class="muted">跟讀次數</span></div>
+        <div class="card"><b class="num">${n}</b><span class="muted">新卡片</span></div>
       </div>
       <div class="card stack">
-        <p style="font-weight:700">今回の難しさは？</p>
-        <div class="diff">${['簡単すぎ', 'ちょうどいい', '難しい'].map((d, i) => `<button data-d="${i}" aria-pressed="false">${d}</button>`).join('')}</div>
+        <p style="font-weight:700">這一話的難度？</p>
+        <div class="diff">${['太簡單', '剛好', '太難'].map((d, i) => `<button data-d="${i}" aria-pressed="false">${d}</button>`).join('')}</div>
         <p class="muted">每週整理成回饋，Claude 寫下週劇本時參考。</p>
       </div>
-      <button class="cta" id="home">ホームへ</button>`;
+      <button class="cta" id="home">回首頁</button>`;
     $$('.diff button', body).forEach(b => b.addEventListener('click', async () => {
       $$('.diff button', body).forEach(x => x.setAttribute('aria-pressed', String(x === b)));
       await setDifficulty(id, ['easy', 'ok', 'hard'][+b.dataset.d]);
@@ -272,7 +272,7 @@ export default async function episode(root, [id]) {
 
   if (S.progress.episodes[id]?.done && !resume) {
     st.step = 0;
-    toast('這一話已完成，可以再練一次（卡片不會重複加入）。');
+    toast('這一話已經練過，可以再練一次（卡片不會重複加入）。');
   }
   renderStep();
   return () => { stop(); st.running = false; document.body.classList.remove('focus'); };

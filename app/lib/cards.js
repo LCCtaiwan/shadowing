@@ -2,7 +2,7 @@
 import { newCardState } from './fsrs.js';
 
 export const DECKS = ['sentence', 'vocab', 'phrase', 'grammar'];
-export const DECK_NAMES = { sentence: '文（聴き取り）', vocab: '単語', phrase: 'フレーズ', grammar: '文法' };
+export const DECK_NAMES = { sentence: '句子聽力', vocab: '單字', phrase: '片語', grammar: '文法' };
 const KANJI = /[㐀-鿿々]/;
 
 const lineMap = ep => Object.fromEntries(ep.scenes.flatMap(sc => sc.lines.map(l => [l.id, l])));
