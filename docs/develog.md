@@ -14,6 +14,8 @@
   - 建環境：`python3 -m venv .venv && .venv/bin/pip install pytest fugashi unidic-lite`
   - 驗證劇本：`python3 tools/validate.py`；讀音比對：`.venv/bin/python tools/check_readings.py`
   - 更新 lexicon：`python3 tools/build_lexicon.py`
+  - 配音：`export GEMINI_API_KEY=...` 後 `.venv/bin/python tools/voice.py <檔案> [--limit 3] [--dry-run]`；依日期：`--for-date tomorrow`
+  - 套件：`.venv/bin/pip install -r tools/requirements.txt`
   - 測試：`.venv/bin/python -m pytest tools/`（前端完成後加 `node --test tests/`）
 
 ## Brainstorming Summary
@@ -40,8 +42,10 @@
 - 工具：`tools/validate.py`（schema、ruby、連結、依上課順序檢查重複單字）＋ pytest 5 項、`tools/check_readings.py`（fugashi 斷詞比對讀音）、`tools/build_lexicon.py`（產生 `story/ja/lexicon.json`：單字 203、片語 56、文法 24）。
 - 已知：check_readings 的不一致多為斷詞器誤判（小雨、日本、明日、七時、三階、何…），ruby 已人工確認。配音時 voice.py 應對數字、時刻、何、十分等易誤讀片段改送假名給 TTS。
 
+- 2026-10-24：`tools/voice.py`：Gemini TTS（Interactions API，`google-genai` SDK，預設 `gemini-3.8-flash-tts`，可用 `GEMINI_TTS_MODEL` 改）逐句輸出 mp3＋`manifest.json`；依 cast 聲音＋語氣＋級別語速；斷詞比對後只把易誤讀片段（數字、七時、小雨…）改送假名；內容沒變就跳過；`--for-date` 依課表選當天檔案；`--dry-run`、`--limit`、`--rpm`。第一批共 1,142 段。測試 `tools/test_voice.py` 7 項（不呼叫 API）。尚未用真金鑰實測。
+
 ## Current Checkpoint
-第一批劇本與ドリル完成；下一步 voice.py（Gemini TTS）。
+voice.py 完成（dry-run 與單元測試通過）；等使用者用自己的金鑰試配兩集。
 
 ## Recommended Next Step
-寫 tools/voice.py，用使用者的 GEMINI_API_KEY 先配日劇 e01 與動漫 e01 試聽。
+使用者在終端機跑 voice.py 試配日劇 e01、動漫 e01 → 試聽調整聲音與語速 → 實作手機 PWA。

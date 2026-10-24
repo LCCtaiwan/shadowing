@@ -1,0 +1,4 @@
+fugashi==1.5.2
+google-genai==2.33.0
+pytest==9.1.1
+unidic-lite==1.0.8
