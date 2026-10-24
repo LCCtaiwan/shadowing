@@ -17,8 +17,12 @@ import hashlib
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -239,31 +243,72 @@ def with_retry(synth, job, tries=5):
             time.sleep(wait)
 
 
-def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False):
+def compress(audio, bitrate):
+    """用 ffmpeg 轉成單聲道低位元率 mp3（語音 64k 已足夠）；沒有 ffmpeg 時原樣回傳。"""
+    if not bitrate or not shutil.which("ffmpeg"):
+        return audio
+    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", "pipe:0", "-ac", "1", "-b:a", bitrate, "-f", "mp3", "pipe:1"],
+                         input=audio, capture_output=True)
+    return out.stdout if out.returncode == 0 and out.stdout else audio
+
+
+class Pacer:
+    """多執行緒共用的節流器：兩次呼叫開始的間隔至少 60/rpm 秒。"""
+
+    def __init__(self, rpm):
+        self.gap = 60 / rpm if rpm else 0
+        self.next = 0.0
+        self.lock = threading.Lock()
+
+    def wait(self):
+        with self.lock:
+            now = time.monotonic()
+            start = max(now, self.next)
+            self.next = start + self.gap
+        if start > now:
+            time.sleep(start - now)
+
+
+def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, workers=1, bitrate=None):
     """配一個資料夾；回傳 (新配, 跳過)。manifest 記錄每段的檔名、文字與雜湊。"""
     manifest_path = out_dir / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
-    made = skipped = 0
+    todo, skipped = [], 0
     for job in jobs:
         h = job_hash(job, model)
-        fname = safe_name(job["key"]) + ".mp3"
         old = manifest.get(job["key"])
         if not force and old and old["hash"] == h and (out_dir / old["file"]).exists():
             skipped += 1
-            continue
-        if dry_run:
+        else:
+            todo.append((job, h))
+    if dry_run:
+        for job, _ in todo:
             print(f"  [{job['voice']}] {job['key']}: {job['text']}")
-            made += 1
-            continue
-        audio = with_retry(synth, job)
-        out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / fname).write_bytes(audio)
-        manifest[job["key"]] = {"file": fname, "hash": h, "text": job["text"], "voice": job["voice"]}
-        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-        made += 1
-        if rpm:
-            time.sleep(60 / rpm)
-    return made, skipped
+        return len(todo), skipped
+
+    pacer, lock = Pacer(rpm), threading.Lock()
+
+    def one(item):
+        job, h = item
+        pacer.wait()
+        t0 = time.monotonic()
+        audio = compress(with_retry(synth, job), bitrate)
+        fname = safe_name(job["key"]) + ".mp3"
+        with lock:
+            out_dir.mkdir(parents=True, exist_ok=True)
+            (out_dir / fname).write_bytes(audio)
+            manifest[job["key"]] = {"file": fname, "hash": h, "text": job["text"], "voice": job["voice"]}
+            manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"  {job['key']}：{time.monotonic() - t0:.1f} 秒、{len(audio) // 1024} KB", flush=True)
+
+    if workers <= 1:
+        for item in todo:
+            one(item)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for f in [pool.submit(one, item) for item in todo]:
+                f.result()
+    return len(todo), skipped
 
 
 def load_dotenv():
@@ -285,6 +330,8 @@ def main(argv):
     ap.add_argument("--force", action="store_true", help="全部重配")
     ap.add_argument("--rpm", type=float, default=10, help="每分鐘最多呼叫次數（預設 10）")
     ap.add_argument("--limit", type=int, help="每個檔案最多配幾段（試聽用）")
+    ap.add_argument("--workers", type=int, default=4, help="同時送出的請求數（預設 4）")
+    ap.add_argument("--bitrate", default="64k", help="轉成單聲道 mp3 的位元率（預設 64k；空字串 = 不轉）")
     args = ap.parse_args(argv)
 
     files = [Path(p) for p in args.paths]
@@ -312,7 +359,7 @@ def main(argv):
         if args.limit:
             jobs = jobs[:args.limit]
         print(f"{f.relative_to(ROOT) if f.is_absolute() else f} → {out_dir.relative_to(ROOT)}（{len(jobs)} 段）")
-        made, skipped = voice_dir(out_dir, jobs, synth, model, args.rpm, args.force, args.dry_run)
+        made, skipped = voice_dir(out_dir, jobs, synth, model, args.rpm, args.force, args.dry_run, args.workers, args.bitrate)
         total_made += made
         total_skipped += skipped
     verb = "將配" if args.dry_run else "新配"

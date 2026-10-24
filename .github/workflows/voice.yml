@@ -2,14 +2,17 @@ name: 配音（Gemini TTS）
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # 每天台灣時間 03:00：配今天與明天要用的內容
+    - cron: "0 19 * * *"   # 每天台灣時間 03:00：配今天起兩週要用的內容（配過的會跳過）
   push:
     branches: [main, mini/japanese-mvp]
     paths: ["scripts/**", "story/**", "curriculum/**"]
   workflow_dispatch:
     inputs:
       paths:
-        description: "要配音的檔案或資料夾（空白 = 今天與明天）"
+        description: "要配音的檔案或資料夾（空白 = 今天起兩週）"
+        required: false
+      args:
+        description: "額外參數（例：--limit 10 --workers 1）"
         required: false
 
 permissions:
@@ -41,10 +44,11 @@ jobs:
           GEMINI_TTS_MODEL: ${{ vars.GEMINI_TTS_MODEL }}
         run: |
           if [ -n "${{ github.event.inputs.paths }}" ]; then
-            python tools/voice.py ${{ github.event.inputs.paths }}
+            python tools/voice.py ${{ github.event.inputs.paths }} ${{ github.event.inputs.args }}
           else
-            python tools/voice.py --for-date today
-            python tools/voice.py --for-date tomorrow
+            for d in 0 1 2 3 4 5 6 7 8 9 10 11 12 13; do
+              python tools/voice.py --for-date "$(date -u -d "+$d day" +%F)" || exit 1
+            done
           fi
       - name: Commit 音檔與索引
         run: |
