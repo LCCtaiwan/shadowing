@@ -52,7 +52,8 @@ jobs:
               python tools/voice.py --for-date "$(date -u -d "+$d day" +%F)" || exit 1
             done
           fi
-      - name: Commit 音檔與索引
+      - name: Commit 音檔與索引（失敗或逾時也保留已配好的）
+        if: always()
         run: |
           git config user.name "voice-bot"
           git config user.email "voice-bot@users.noreply.github.com"

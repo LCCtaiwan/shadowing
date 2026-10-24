@@ -286,13 +286,18 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
             print(f"  [{job['voice']}] {job['key']}: {job['text']}")
         return len(todo), skipped
 
-    pacer, lock = Pacer(rpm), threading.Lock()
+    pacer, lock, failed = Pacer(rpm), threading.Lock(), []
 
     def one(item):
         job, h = item
         pacer.wait()
         t0 = time.monotonic()
-        audio = compress(with_retry(synth, job), bitrate)
+        try:
+            audio = compress(with_retry(synth, job), bitrate)
+        except Exception as e:  # 單段失敗不中斷整批，下次執行會補配
+            print(f"  失敗 {job['key']}（{time.monotonic() - t0:.0f} 秒）：{type(e).__name__}: {str(e)[:160]}", flush=True)
+            failed.append(job["key"])
+            return
         fname = safe_name(job["key"]) + ".mp3"
         with lock:
             out_dir.mkdir(parents=True, exist_ok=True)
@@ -308,7 +313,9 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
         with ThreadPoolExecutor(max_workers=workers) as pool:
             for f in [pool.submit(one, item) for item in todo]:
                 f.result()
-    return len(todo), skipped
+    if failed:
+        print(f"  這一批有 {len(failed)} 段失敗，下次執行會再試")
+    return len(todo) - len(failed), skipped
 
 
 def load_dotenv():
