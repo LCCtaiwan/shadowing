@@ -227,6 +227,23 @@ def safe_name(key):
 
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
+LEGACY_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"  # 舊 TTS 型號只支援這個端點
+
+
+def legacy_body(job):
+    return {
+        "contents": [{"parts": [{"text": f"Say this Japanese line naturally ({job['style']}): {job['text']}"}]}],
+        "generationConfig": {"responseModalities": ["AUDIO"],
+                             "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": job["voice"]}}}},
+    }
+
+
+def legacy_audio(resp_json):
+    for cand in resp_json.get("candidates", []):
+        for part in cand.get("content", {}).get("parts", []):
+            if part.get("inlineData", {}).get("data"):
+                return part["inlineData"]["data"]
+    return None
 
 
 class RateLimited(Exception):
@@ -287,6 +304,8 @@ def make_synth(model):
     lock = threading.Lock()
 
     def call(m, job):
+        if m not in MP3_MODELS:
+            return client.post(LEGACY_URL.format(model=m), json=legacy_body(job))
         body = {
             "model": m,
             "input": [{"type": "user_input", "content": [{
@@ -320,7 +339,7 @@ def make_synth(model):
                 raise RateLimited(float(ra) if ra and ra.replace(".", "").isdigit() else None, f"HTTP {r.status_code}: {r.text[:200]}")
             if r.status_code != 200:
                 raise RuntimeError(f"{m} HTTP {r.status_code}: {r.text[:300]}")
-            data = _find_audio(r.json())
+            data = _find_audio(r.json()) if m in MP3_MODELS else legacy_audio(r.json())
             if not data:
                 raise RuntimeError(f"{m} 回應裡沒有音訊")
             job["used_model"] = m
@@ -450,8 +469,12 @@ def _probe_one(model):
         "response_format": _response_format(model),
         "generation_config": {"speech_config": [{"voice": "Kore", "language": "ja"}]},
     }
-    r = httpx.post("https://generativelanguage.googleapis.com/v1beta/interactions", json=body,
-                   headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, timeout=60)
+    headers = {"x-goog-api-key": os.environ["GEMINI_API_KEY"]}
+    if model in MP3_MODELS:
+        r = httpx.post(API_URL, json=body, headers=headers, timeout=60)
+    else:
+        job = {"text": "こんにちは", "style": "明るく", "voice": "Kore"}
+        r = httpx.post(LEGACY_URL.format(model=model), json=legacy_body(job), headers=headers, timeout=60)
     print("status", r.status_code, "retry-after", r.headers.get("retry-after"))
     print(r.text[:1500] if r.status_code != 200 else f"OK，回應 {len(r.content)} bytes")
 
