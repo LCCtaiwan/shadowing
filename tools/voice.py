@@ -296,7 +296,9 @@ def make_synth(model):
                 continue
             if r.status_code == 404 or (r.status_code == 400 and "not supported" in r.text):
                 with lock:
-                    exhausted.add(m)
+                    if m not in exhausted:
+                        exhausted.add(m)
+                        print(f"  {m} 不能用（{r.text[:120]}），改用下一個型號", flush=True)
                 continue
             if r.status_code == 429 or r.status_code >= 500:
                 ra = r.headers.get("retry-after")
@@ -378,6 +380,7 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
         pacer.wait()
         t0 = time.monotonic()
         if stop.is_set():
+            failed.append(job["key"])
             return
         try:
             audio = compress(with_retry(synth, job), bitrate or "64k")
@@ -428,7 +431,7 @@ def _probe_one(model):
     body = {
         "model": model,
         "input": [{"type": "user_input", "content": [{"type": "text", "text": "こんにちは"}]}],
-        "response_format": {"type": "audio", "mime_type": "audio/mp3"},
+        "response_format": {"type": "audio", "mime_type": "audio/mp3" if model in MP3_MODELS else "audio/wav"},
         "generation_config": {"speech_config": [{"voice": "Kore", "language": "ja"}]},
     }
     r = httpx.post("https://generativelanguage.googleapis.com/v1beta/interactions", json=body,
