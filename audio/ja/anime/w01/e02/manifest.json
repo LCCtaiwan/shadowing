@@ -28,5 +28,17 @@
   "hash": "e2de8093fdd433f0",
   "text": "一緒に行かない？",
   "voice": "Callirrhoe"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "8de460ae245b4b5c",
+  "text": "すみません。運動はちょっと苦手なんです。",
+  "voice": "Leda"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "fd5b0d5426632330",
+  "text": "ちょっと、あなた。転校生でしょ。部活は、もう決めた？",
+  "voice": "Despina"
  }
 }
