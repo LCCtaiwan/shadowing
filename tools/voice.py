@@ -340,6 +340,12 @@ def make_synth(model):
             if r.status_code != 200:
                 raise RuntimeError(f"{m} HTTP {r.status_code}: {r.text[:300]}")
             data = _find_audio(r.json()) if m in MP3_MODELS else legacy_audio(r.json())
+            if not data and m not in MP3_MODELS:  # 舊型號偶爾回 200 但沒有音訊：當作不能用，換下一個
+                with lock:
+                    if m not in exhausted:
+                        exhausted.add(m)
+                        print(f"  {m} 沒有回傳音訊，改用下一個型號", flush=True)
+                continue
             if not data:
                 raise RuntimeError(f"{m} 回應裡沒有音訊")
             job["used_model"] = m
