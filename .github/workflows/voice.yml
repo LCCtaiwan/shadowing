@@ -34,6 +34,8 @@ jobs:
           cache: pip
           cache-dependency-path: tools/requirements.txt
       - run: pip install -r tools/requirements.txt
+      - name: 安裝 ffmpeg（壓縮音檔）
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - name: 驗證劇本
         run: python tools/validate.py
       - name: 產生索引
