@@ -266,6 +266,17 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False):
     return made, skipped
 
 
+def load_dotenv():
+    """環境變數沒設時，讀專案根目錄的 .env（由 tools/setup_key.py 建立）。"""
+    env = ROOT / ".env"
+    if not env.exists():
+        return
+    for line in env.read_text(encoding="utf-8").splitlines():
+        k, sep, v = line.partition("=")
+        if sep and k.strip() and k.strip() not in os.environ:
+            os.environ[k.strip()] = v.strip()
+
+
 def main(argv):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("paths", nargs="*")
@@ -289,9 +300,10 @@ def main(argv):
     if not expanded:
         ap.error("沒有要配音的檔案")
 
+    load_dotenv()
     model = os.environ.get("GEMINI_TTS_MODEL", DEFAULT_MODEL)
     if not args.dry_run and not os.environ.get("GEMINI_API_KEY"):
-        sys.exit("請先設定環境變數 GEMINI_API_KEY（或加 --dry-run 只看要送的文字）")
+        sys.exit("找不到 GEMINI_API_KEY：請執行 .venv/bin/python tools/setup_key.py，或設定環境變數（--dry-run 可只看要送的文字）")
     synth = None if args.dry_run else make_synth(model)
     cast = load_cast()
     total_made = total_skipped = 0
