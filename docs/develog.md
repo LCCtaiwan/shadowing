@@ -54,8 +54,11 @@
 
 - 2026-10-24：建立公開 repo https://github.com/LCCtaiwan/shadowing ，推送 `mini/japanese-mvp`（目前也是預設分支；尚無 main）；GitHub Pages 從此分支根目錄發布：https://lcctaiwan.github.io/shadowing/ ，線上實測首頁、索引、劇本皆 200、無 console 錯誤。
 
+- 2026-10-24：使用者回饋「看不懂、點進去都沒東西」（因 10/26 才開課，全部被日期鎖住）→ 改為「下一話／下一份練習隨時可開始」（`isUnlocked`）；介面改中文為主（步驟、按鈕、評分「重來／困難／良好／簡單」），首頁加「第一次使用」說明卡（設定可重新顯示）。
+- 2026-10-24：金鑰改存 GitHub Secret `GEMINI_API_KEY`（使用者自行在網頁設定，不經過對話）；Mac mini 上的金鑰輸入分頁已關閉。voice workflow 時限 300 分鐘；首次手動觸發配日劇 e01、動漫 e01。
+
 ## Current Checkpoint
-App 已上線 https://lcctaiwan.github.io/shadowing/ ；還沒有任何真的 Gemini 音檔（等使用者在「Gemini voice」終端機分頁貼金鑰，之後再用 `gh secret set` 設定 repo Secret）。
+App 已上線 https://lcctaiwan.github.io/shadowing/ ；GitHub Actions 正在雲端試配日劇 e01、動漫 e01（第一次真的呼叫 Gemini TTS）。
 
 ## Recommended Next Step
-1) 使用者貼金鑰 → 試配、試聽調整 → 設 repo Secret `GEMINI_API_KEY`，讓 Actions 每天配音；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。
+1) 確認雲端試配成功、試聽調整聲音與語速 → 配完第 1–2 週全部；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。
