@@ -136,9 +136,7 @@ def episode_jobs(path, data, cast):
         for ei, ex in enumerate(g["examples"], 1):
             jobs.append(dict(key=f"g{gi}-ex{ei}", text=tts_text(ex["ruby"]), voice=cast["woman"]["voice"],
                              style=style_for(cast, "woman", lvl)))
-    for v in data["vocab"]:
-        if v.get("review"):
-            continue
+    for v in data["vocab"]:  # 複習單字也配：三部劇順序不固定，卡片可能來自任何一集
         jobs.append(dict(key=v["id"], text=v["reading"], voice=cast["narrator"]["voice"],
                          style="単語をひとつだけ、辞書の発音のように、はっきり読む。"))
     return out_dir, jobs

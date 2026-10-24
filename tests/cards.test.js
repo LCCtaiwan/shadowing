@@ -20,7 +20,7 @@ test('每集產生四種卡，id 穩定且不重複', () => {
   assert.equal(a.filter(c => c.deck === 'grammar').length, 2);
 });
 
-test('有漢字的單字多一張「看字讀音」兄弟卡；複習單字不重複產卡', () => {
+test('有漢字的單字多一張「看字讀音」兄弟卡；複習單字也產卡（id 相同，加入時去重）', () => {
   const cards = cardsFromEpisode(ep, meta);
   const v = ep.vocab.find(x => /[一-鿿]/.test(x.text) && !x.review);
   assert.ok(cards.find(c => c.id === `${v.id}#listen`));
@@ -29,7 +29,7 @@ test('有漢字的單字多一張「看字讀音」兄弟卡；複習單字不�
   const reviewed = later.vocab.filter(x => x.review).map(x => x.id);
   const laterCards = cardsFromEpisode(later, index.episodes.find(e => e.id === later.id));
   assert.ok(reviewed.length > 0);
-  for (const id of reviewed) assert.ok(!laterCards.some(c => c.note === id));
+  for (const id of reviewed) assert.ok(laterCards.some(c => c.id === `${id}#listen`));
 });
 
 test('片語填空：surface 一定切得出來', () => {

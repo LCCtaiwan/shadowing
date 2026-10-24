@@ -22,10 +22,10 @@ def test_tts_text_digits_and_latin_always_kana():
 
 def test_files_for_date_follows_plan():
     names = lambda d: [p.relative_to(voice.ROOT).as_posix() for p in voice.files_for_date(d)]
-    assert names(dt.date(2026, 10, 26)) == ["scripts/ja/drama/w01/e01.json", "scripts/ja/drill/w01/d1.json"]
+    assert names(dt.date(2026, 10, 26)) == ["scripts/ja/drama/w01/e01.json", "scripts/ja/family/w01/e01.json", "scripts/ja/drill/w01/d1.json"]
     assert names(dt.date(2026, 10, 27)) == ["scripts/ja/anime/w01/e01.json", "scripts/ja/drill/w01/d2.json"]
     assert names(dt.date(2026, 11, 1)) == ["scripts/ja/drill/w01/sun.json"]
-    assert names(dt.date(2026, 11, 2)) == ["scripts/ja/drama/w02/e04.json", "scripts/ja/drill/w02/d1.json"]
+    assert names(dt.date(2026, 11, 2)) == ["scripts/ja/drama/w02/e04.json", "scripts/ja/family/w02/e04.json", "scripts/ja/drill/w02/d1.json"]
     assert names(dt.date(2026, 10, 25)) == []
 
 

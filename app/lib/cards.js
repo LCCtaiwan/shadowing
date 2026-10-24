@@ -26,8 +26,8 @@ export function cardsFromEpisode(ep, meta, seq = 0) {
         { speaker: l.speaker, text: l.text, ruby: l.ruby, zh: l.zh, audioKey: l.id });
     }
   }
+  // 三部劇可任選順序，所以標了 review 的單字也產卡；已在牌組裡的卡由 finishEpisode 依 id 略過
   for (const v of ep.vocab) {
-    if (v.review) continue;
     const ex = lines[v.line];
     const data = { text: v.text, reading: v.reading, pos: v.pos, zh: v.zh, audioKey: v.id,
       example: ex && { text: ex.text, ruby: ex.ruby, zh: ex.zh, audioKey: ex.id } };
