@@ -1,0 +1,365 @@
+{
+ "start_date": "2026-10-26",
+ "exam_targets": [
+  {
+   "level": "N3",
+   "date": "2027-07-04"
+  },
+  {
+   "level": "N2",
+   "date": "2027-12-05"
+  }
+ ],
+ "phases": [
+  {
+   "name": "N5 補強→N4",
+   "weeks": "1-8",
+   "dates": "2026-10-26 ~ 2026-12-20",
+   "level": "N5→N4"
+  },
+  {
+   "name": "N4 完成→N3 前半",
+   "weeks": "9-22",
+   "dates": "2026-12-21 ~ 2027-03-28",
+   "level": "N4→N3"
+  },
+  {
+   "name": "N3 完成・模擬",
+   "weeks": "23-36",
+   "dates": "2027-03-29 ~ 2027-07-04",
+   "level": "N3"
+  },
+  {
+   "name": "N2",
+   "weeks": "37-58",
+   "dates": "2027-07-05 ~ 2027-12-05",
+   "level": "N2"
+  }
+ ],
+ "episodes": [
+  {
+   "id": "ja-drama-w01-e01",
+   "series": "drama",
+   "week": 1,
+   "episode": 1,
+   "day": "mon",
+   "date": "2026-10-26",
+   "level": "N5",
+   "title": "成田空港・入国審査",
+   "title_zh": "成田機場・入境審查",
+   "lines": 26,
+   "path": "scripts/ja/drama/w01/e01.json",
+   "audio": "audio/ja/drama/w01/e01"
+  },
+  {
+   "id": "ja-anime-w01-e01",
+   "series": "anime",
+   "week": 1,
+   "episode": 1,
+   "day": "tue",
+   "date": "2026-10-27",
+   "level": "N5",
+   "title": "転校生です",
+   "title_zh": "我是轉學生",
+   "lines": 26,
+   "path": "scripts/ja/anime/w01/e01.json",
+   "audio": "audio/ja/anime/w01/e01"
+  },
+  {
+   "id": "ja-drama-w01-e02",
+   "series": "drama",
+   "week": 1,
+   "episode": 2,
+   "day": "wed",
+   "date": "2026-10-28",
+   "level": "N5",
+   "title": "Suica を買う・電車に乗る",
+   "title_zh": "買 Suica・搭電車",
+   "lines": 23,
+   "path": "scripts/ja/drama/w01/e02.json",
+   "audio": "audio/ja/drama/w01/e02"
+  },
+  {
+   "id": "ja-anime-w01-e02",
+   "series": "anime",
+   "week": 1,
+   "episode": 2,
+   "day": "thu",
+   "date": "2026-10-29",
+   "level": "N5",
+   "title": "部活見学",
+   "title_zh": "社團參觀",
+   "lines": 26,
+   "path": "scripts/ja/anime/w01/e02.json",
+   "audio": "audio/ja/anime/w01/e02"
+  },
+  {
+   "id": "ja-drama-w01-e03",
+   "series": "drama",
+   "week": 1,
+   "episode": 3,
+   "day": "fri",
+   "date": "2026-10-30",
+   "level": "N5",
+   "title": "ホテルのチェックイン",
+   "title_zh": "飯店辦理入住",
+   "lines": 24,
+   "path": "scripts/ja/drama/w01/e03.json",
+   "audio": "audio/ja/drama/w01/e03"
+  },
+  {
+   "id": "ja-anime-w01-e03",
+   "series": "anime",
+   "week": 1,
+   "episode": 3,
+   "day": "sat",
+   "date": "2026-10-31",
+   "level": "N5",
+   "title": "マイクテスト",
+   "title_zh": "麥克風測試",
+   "lines": 25,
+   "path": "scripts/ja/anime/w01/e03.json",
+   "audio": "audio/ja/anime/w01/e03"
+  },
+  {
+   "id": "ja-drama-w02-e04",
+   "series": "drama",
+   "week": 2,
+   "episode": 4,
+   "day": "mon",
+   "date": "2026-11-02",
+   "level": "N4",
+   "title": "コンビニで",
+   "title_zh": "在便利商店",
+   "lines": 28,
+   "path": "scripts/ja/drama/w02/e04.json",
+   "audio": "audio/ja/drama/w02/e04"
+  },
+  {
+   "id": "ja-anime-w02-e04",
+   "series": "anime",
+   "week": 2,
+   "episode": 4,
+   "day": "tue",
+   "date": "2026-11-03",
+   "level": "N4",
+   "title": "購買のパン争奪戦",
+   "title_zh": "福利社麵包爭奪戰",
+   "lines": 26,
+   "path": "scripts/ja/anime/w02/e04.json",
+   "audio": "audio/ja/anime/w02/e04"
+  },
+  {
+   "id": "ja-drama-w02-e05",
+   "series": "drama",
+   "week": 2,
+   "episode": 5,
+   "day": "wed",
+   "date": "2026-11-04",
+   "level": "N4",
+   "title": "ラーメン屋の券売機",
+   "title_zh": "拉麵店的點餐機",
+   "lines": 27,
+   "path": "scripts/ja/drama/w02/e05.json",
+   "audio": "audio/ja/drama/w02/e05"
+  },
+  {
+   "id": "ja-anime-w02-e05",
+   "series": "anime",
+   "week": 2,
+   "episode": 5,
+   "day": "thu",
+   "date": "2026-11-05",
+   "level": "N4",
+   "title": "雨の日の帰り道",
+   "title_zh": "下雨天的回家路",
+   "lines": 26,
+   "path": "scripts/ja/anime/w02/e05.json",
+   "audio": "audio/ja/anime/w02/e05"
+  },
+  {
+   "id": "ja-drama-w02-e06",
+   "series": "drama",
+   "week": 2,
+   "episode": 6,
+   "day": "fri",
+   "date": "2026-11-06",
+   "level": "N4",
+   "title": "渋谷で道に迷う",
+   "title_zh": "在澀谷迷路",
+   "lines": 24,
+   "path": "scripts/ja/drama/w02/e06.json",
+   "audio": "audio/ja/drama/w02/e06"
+  },
+  {
+   "id": "ja-anime-w02-e06",
+   "series": "anime",
+   "week": 2,
+   "episode": 6,
+   "day": "sat",
+   "date": "2026-11-07",
+   "level": "N4",
+   "title": "ラジオドラマ「勇者と魔王」第一話",
+   "title_zh": "廣播劇《勇者與魔王》第一話",
+   "lines": 25,
+   "path": "scripts/ja/anime/w02/e06.json",
+   "audio": "audio/ja/anime/w02/e06"
+  }
+ ],
+ "drills": [
+  {
+   "id": "ja-drill-w01-d1",
+   "week": 1,
+   "day": 1,
+   "date": "2026-10-26",
+   "kind": "daily",
+   "level": "N5",
+   "items": 8,
+   "path": "scripts/ja/drill/w01/d1.json",
+   "audio": "audio/ja/drill/w01/d1"
+  },
+  {
+   "id": "ja-drill-w01-d2",
+   "week": 1,
+   "day": 2,
+   "date": "2026-10-27",
+   "kind": "daily",
+   "level": "N5",
+   "items": 8,
+   "path": "scripts/ja/drill/w01/d2.json",
+   "audio": "audio/ja/drill/w01/d2"
+  },
+  {
+   "id": "ja-drill-w01-d3",
+   "week": 1,
+   "day": 3,
+   "date": "2026-10-28",
+   "kind": "daily",
+   "level": "N5",
+   "items": 8,
+   "path": "scripts/ja/drill/w01/d3.json",
+   "audio": "audio/ja/drill/w01/d3"
+  },
+  {
+   "id": "ja-drill-w01-d4",
+   "week": 1,
+   "day": 4,
+   "date": "2026-10-29",
+   "kind": "daily",
+   "level": "N5",
+   "items": 8,
+   "path": "scripts/ja/drill/w01/d4.json",
+   "audio": "audio/ja/drill/w01/d4"
+  },
+  {
+   "id": "ja-drill-w01-d5",
+   "week": 1,
+   "day": 5,
+   "date": "2026-10-30",
+   "kind": "daily",
+   "level": "N5",
+   "items": 8,
+   "path": "scripts/ja/drill/w01/d5.json",
+   "audio": "audio/ja/drill/w01/d5"
+  },
+  {
+   "id": "ja-drill-w01-d6",
+   "week": 1,
+   "day": 6,
+   "date": "2026-10-31",
+   "kind": "daily",
+   "level": "N5",
+   "items": 8,
+   "path": "scripts/ja/drill/w01/d6.json",
+   "audio": "audio/ja/drill/w01/d6"
+  },
+  {
+   "id": "ja-drill-w01-sun",
+   "week": 1,
+   "day": 7,
+   "date": "2026-11-01",
+   "kind": "mock",
+   "level": "N5",
+   "items": 12,
+   "path": "scripts/ja/drill/w01/sun.json",
+   "audio": "audio/ja/drill/w01/sun"
+  },
+  {
+   "id": "ja-drill-w02-d1",
+   "week": 2,
+   "day": 1,
+   "date": "2026-11-02",
+   "kind": "daily",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/drill/w02/d1.json",
+   "audio": "audio/ja/drill/w02/d1"
+  },
+  {
+   "id": "ja-drill-w02-d2",
+   "week": 2,
+   "day": 2,
+   "date": "2026-11-03",
+   "kind": "daily",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/drill/w02/d2.json",
+   "audio": "audio/ja/drill/w02/d2"
+  },
+  {
+   "id": "ja-drill-w02-d3",
+   "week": 2,
+   "day": 3,
+   "date": "2026-11-04",
+   "kind": "daily",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/drill/w02/d3.json",
+   "audio": "audio/ja/drill/w02/d3"
+  },
+  {
+   "id": "ja-drill-w02-d4",
+   "week": 2,
+   "day": 4,
+   "date": "2026-11-05",
+   "kind": "daily",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/drill/w02/d4.json",
+   "audio": "audio/ja/drill/w02/d4"
+  },
+  {
+   "id": "ja-drill-w02-d5",
+   "week": 2,
+   "day": 5,
+   "date": "2026-11-06",
+   "kind": "daily",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/drill/w02/d5.json",
+   "audio": "audio/ja/drill/w02/d5"
+  },
+  {
+   "id": "ja-drill-w02-d6",
+   "week": 2,
+   "day": 6,
+   "date": "2026-11-07",
+   "kind": "daily",
+   "level": "N4",
+   "items": 8,
+   "path": "scripts/ja/drill/w02/d6.json",
+   "audio": "audio/ja/drill/w02/d6"
+  },
+  {
+   "id": "ja-drill-w02-sun",
+   "week": 2,
+   "day": 7,
+   "date": "2026-11-08",
+   "kind": "mock",
+   "level": "N4",
+   "items": 12,
+   "path": "scripts/ja/drill/w02/sun.json",
+   "audio": "audio/ja/drill/w02/sun"
+  }
+ ]
+}

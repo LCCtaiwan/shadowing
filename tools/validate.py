@@ -218,6 +218,8 @@ def validate(paths):
         except json.JSONDecodeError as e:
             rep.err(f.name, f"JSON 解析失敗：{e}")
             continue
+        if f.name == "index.json":
+            continue
         if "drill" in f.parts:
             check_drill(rep, f, data, cast)
         else:
