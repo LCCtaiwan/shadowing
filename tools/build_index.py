@@ -46,11 +46,17 @@ def build():
         data = json.loads(f.read_text(encoding="utf-8"))
         pron.append({"id": data["id"], "title": data["title"], "title_zh": data["title_zh"], "tip_zh": data.get("tip_zh", ""),
                      "items": len(data["items"]), "path": f.relative_to(ROOT).as_posix(), "audio": f"audio/ja/pron/{f.stem}"})
+    announce = []
+    for f in sorted((ROOT / "scripts" / "ja" / "announce").glob("a*.json")):
+        data = json.loads(f.read_text(encoding="utf-8"))
+        announce.append({"id": data["id"], "kind": "announce", "title": data["title"], "title_zh": data["title_zh"],
+                         "tip_zh": data.get("tip_zh", ""), "level": data["level"], "items": len(data["items"]),
+                         "path": f.relative_to(ROOT).as_posix(), "audio": f"audio/ja/announce/{f.stem}"})
     episodes.sort(key=lambda e: e["date"])
     drills.sort(key=lambda d: d["date"])
     return {
         "start_date": plan["start_date"], "exam_targets": plan["exam_targets"], "phases": plan["phases"],
-        "series": plan.get("series", []), "episodes": episodes, "drills": drills, "pron": pron,
+        "series": plan.get("series", []), "episodes": episodes, "drills": drills, "pron": pron, "announce": announce,
     }
 
 

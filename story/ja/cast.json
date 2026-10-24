@@ -1,5 +1,27 @@
 {
-  "narrator": { "name": "ナレーター", "voice": "Schedar", "style": "落ち着いた標準語、聞き取りやすく、やや遅め" },
-  "man": { "name": "男の人", "voice": "Rasalgethi", "style": "30代男性、自然な標準語" },
-  "woman": { "name": "女の人", "voice": "Sulafat", "style": "30代女性、自然な標準語" }
+  "narrator": {
+    "name": "ナレーター",
+    "voice": "Schedar",
+    "style": "落ち着いた標準語、聞き取りやすく、やや遅め"
+  },
+  "man": {
+    "name": "男の人",
+    "voice": "Rasalgethi",
+    "style": "30代男性、自然な標準語"
+  },
+  "woman": {
+    "name": "女の人",
+    "voice": "Sulafat",
+    "style": "30代女性、自然な標準語"
+  },
+  "announcer_f": {
+    "name": "アナウンス（女性）",
+    "voice": "Kore",
+    "style": "駅や空港の自動アナウンスのように、落ち着いて、はっきり、一定のリズムで"
+  },
+  "announcer_m": {
+    "name": "アナウンス（男性）",
+    "voice": "Alnilam",
+    "style": "電車の車掌のアナウンス。少し鼻にかかった独特の抑揚で、はっきり"
+  }
 }

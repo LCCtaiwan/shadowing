@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = {"N5", "N4", "N3", "N2", "N1"}
-SERIES = {"drama", "anime", "family"}
+SERIES = {"drama", "anime", "family", "kids", "tales"}
 DRILL_TYPES = {"sokuji", "kadai", "point", "gaiyo", "hatsuwa", "togo"}
 KANJI = re.compile(r"[㐀-鿿々]")
 KANA_ONLY = re.compile(r"^[ぁ-ゟ゠-ヿー・]+$")
@@ -136,8 +136,9 @@ def check_episode(rep, path, data, cast, seen):
                     rep.err(lw, f"focus 不在句中：{f!r}")
             lines[ln["id"]] = ln
     n = len(lines)
-    if not 16 <= n <= 36:
-        rep.warn(w, f"句數 {n}（建議 18–30）")
+    lo, hi = {"kids": (12, 18), "tales": (15, 45)}.get(data["series"], (16, 36))
+    if not lo <= n <= hi:
+        rep.warn(w, f"句數 {n}（建議 {lo}–{hi}）")
 
     def link(kind, item, need_surface):
         iw = f"{w} {kind} {item.get('id', '?')}"
@@ -174,7 +175,12 @@ def check_episode(rep, path, data, cast, seen):
             if not p["id"].startswith("ja:phrase:"):
                 rep.err(w, f"phrase id 格式：{p['id']}")
             link("phrase", p, True)
-    if len(data["grammar"]) != 2:
+    if data["series"] == "tales":
+        if len(data["grammar"]) > 2:
+            rep.warn(w, "童話文法點最多 2 個")
+        if not data.get("source"):
+            rep.err(w, "童話缺少 source（出處）")
+    elif len(data["grammar"]) != 2:
         rep.warn(w, f"文法點 {len(data['grammar'])} 個（規格為 2）")
     for g in data["grammar"]:
         if need(rep, f"{w} grammar", g, ["id", "pattern", "zh", "level", "line", "surface", "examples"]):
@@ -194,7 +200,8 @@ def check_episode(rep, path, data, cast, seen):
 
 def check_drill(rep, path, data, cast):
     w = path.name
-    if not need(rep, w, data, ["id", "lang", "week", "day", "level", "items"]):
+    keys = ["id", "lang", "level", "title", "title_zh", "items"] if data.get("kind") == "announce" else ["id", "lang", "week", "day", "level", "items"]
+    if not need(rep, w, data, keys):
         return
     ids = set()
     for item in data["items"]:
@@ -250,6 +257,33 @@ def check_pron(rep, path, data):
             rep.err(iw, "兩個字讀音相同，聽不出差別")
 
 
+def check_tales_verbatim(rep, files):
+    """童話：同一篇的所有句子依序接起來，必須等於青空文庫原文（去空白與假名標記）。"""
+    src_path = ROOT / "story" / "ja" / "tales" / "source.json"
+    if not src_path.exists():
+        return
+    src = {v["title"]: re.sub(r"\s", "", re.sub(r"\{([^|}]+)\|[^}]+\}", r"\1", v["text"]))
+           for v in json.loads(src_path.read_text(encoding="utf-8")).values()}
+    by_title = {}
+    for f in files:
+        if "tales" not in f.parts or not f.name.startswith("e"):
+            continue
+        d = json.loads(f.read_text(encoding="utf-8"))
+        by_title.setdefault(d.get("source", {}).get("title"), []).append(d)
+    for title, eps in by_title.items():
+        eps.sort(key=lambda d: d["episode"])
+        got = re.sub(r"\s", "", "".join(l["text"] for d in eps for sc in d["scenes"] for l in sc["lines"]))
+        want = re.sub(r"[一二三四五六七八九十]+", "", src.get(title, ""))
+        got_n = re.sub(r"[一二三四五六七八九十]+", "", got)
+        if title not in src:
+            rep.err(f"童話 {title}", "source.title 對不到原文")
+        elif not want.startswith(got_n):
+            i = next((k for k, (a, b) in enumerate(zip(got_n, want)) if a != b), min(len(got_n), len(want)))
+            rep.err(f"童話 {title}", f"和原文不同（第 {i} 字附近）：原文「{want[max(0, i - 8):i + 8]}」／劇本「{got_n[max(0, i - 8):i + 8]}」")
+        elif len(got_n) < len(want):
+            rep.warn(f"童話 {title}", f"目前只收錄原文的 {len(got_n)}/{len(want)} 字")
+
+
 def validate(paths):
     cast = load_casts()
     rep, seen = Report(), {}
@@ -269,10 +303,11 @@ def validate(paths):
         if "pron" in f.parts:
             check_pron(rep, f, data)
             continue
-        if "drill" in f.parts:
+        if "drill" in f.parts or "announce" in f.parts:
             check_drill(rep, f, data, cast)
         else:
             check_episode(rep, f, data, cast, seen)
+    check_tales_verbatim(rep, files)
     return rep, len(files)
 
 

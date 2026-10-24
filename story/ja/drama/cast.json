@@ -1,10 +1,47 @@
 {
-  "yuxiang": { "name": "林宇翔（リン・ユーシャン）", "voice": "Iapetus", "style": "26歳の台湾人男性。丁寧語、少しゆっくり、ときどき言葉を探しながら話す" },
-  "officer": { "name": "入国審査官", "voice": "Alnilam", "style": "事務的で落ち着いた男性、はっきり" },
-  "staff_f": { "name": "店員・駅員（女性）", "voice": "Kore", "style": "明るい接客口調の若い女性" },
-  "staff_m": { "name": "店員・駅員（男性）", "voice": "Charon", "style": "丁寧な接客口調の男性" },
-  "passerby_f": { "name": "通行人（女性）", "voice": "Aoede", "style": "親切な20代女性、自然な速さ" },
-  "passerby_m": { "name": "通行人（男性）", "voice": "Orus", "style": "気さくな中年男性" },
-  "sato": { "name": "佐藤さん（喫茶店の店長）", "voice": "Algieba", "style": "40代男性。穏やか、低めの声、敬語と常体を自然に切り替える" },
-  "misaki": { "name": "美咲", "voice": "Zephyr", "style": "24歳女性。明るく早口ぎみ、常体（〜じゃん、〜ちゃう）" }
+  "yuxiang": {
+    "name": "林宇翔（リン・ユーシャン）",
+    "voice": "Iapetus",
+    "style": "26歳の台湾人男性。丁寧語、少しゆっくり、ときどき言葉を探しながら話す"
+  },
+  "officer": {
+    "name": "入国審査官",
+    "voice": "Alnilam",
+    "style": "事務的で落ち着いた男性、はっきり"
+  },
+  "staff_f": {
+    "name": "店員・駅員（女性）",
+    "voice": "Kore",
+    "style": "明るい接客口調の若い女性"
+  },
+  "staff_m": {
+    "name": "店員・駅員（男性）",
+    "voice": "Charon",
+    "style": "丁寧な接客口調の男性"
+  },
+  "passerby_f": {
+    "name": "通行人（女性）",
+    "voice": "Aoede",
+    "style": "親切な20代女性、自然な速さ"
+  },
+  "passerby_m": {
+    "name": "通行人（男性）",
+    "voice": "Orus",
+    "style": "気さくな中年男性"
+  },
+  "sato": {
+    "name": "佐藤さん（喫茶店の店長）",
+    "voice": "Algieba",
+    "style": "40代男性。穏やか、低めの声、敬語と常体を自然に切り替える"
+  },
+  "misaki": {
+    "name": "美咲",
+    "voice": "Zephyr",
+    "style": "24歳女性。明るく早口ぎみ、常体（〜じゃん、〜ちゃう）"
+  },
+  "obasan": {
+    "name": "となりのおばさん",
+    "voice": "Erinome",
+    "style": "50代の日本人女性。気さくで話し好き、ゆっくりめで温かい"
+  }
 }

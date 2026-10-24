@@ -132,13 +132,14 @@ def episode_jobs(path, data, cast):
     for sc in data["scenes"]:
         for ln in sc["lines"]:
             jobs.append(dict(key=ln["id"], text=tts_text(ln["ruby"]), voice=cast[ln["speaker"]]["voice"],
-                             style=style_for(cast, ln["speaker"], lvl, ln.get("style"))))
+                             style=style_for(cast, ln["speaker"], lvl, ln.get("style")),
+                             batch=data["series"] == "tales"))
     for gi, g in enumerate(data["grammar"], 1):
         for ei, ex in enumerate(g["examples"], 1):
             jobs.append(dict(key=f"g{gi}-ex{ei}", text=tts_text(ex["ruby"]), voice=cast["woman"]["voice"],
                              style=style_for(cast, "woman", lvl)))
     for v in data["vocab"]:  # 複習單字也配：三部劇順序不固定，卡片可能來自任何一集
-        jobs.append(dict(key=v["id"], text=v["reading"], voice=cast["narrator"]["voice"],
+        jobs.append(dict(key=v["id"], text=v["reading"], voice=cast["narrator"]["voice"], batch=True,
                          style="単語をひとつだけ、辞書の発音のように、はっきり読む。"))
     return out_dir, jobs
 
@@ -146,7 +147,7 @@ def episode_jobs(path, data, cast):
 def drill_jobs(path, data, cast):
     lvl = data["level"]
     name = path.stem
-    out_dir = AUDIO / "ja" / "drill" / f"w{data['week']:02d}" / name
+    out_dir = (AUDIO / "ja" / "announce" / name) if "announce" in path.parts else (AUDIO / "ja" / "drill" / f"w{data['week']:02d}" / name)
     jobs = []
     for item in data["items"]:
         iid = item["id"]
@@ -176,14 +177,14 @@ def pron_jobs(path, data, cast):
     jobs = []
     for item in data["items"]:
         for side in "ab":
-            jobs.append(dict(key=f"{item['id']}-{side}", text=item[side]["reading"], voice=cast["narrator"]["voice"], style=style))
+            jobs.append(dict(key=f"{item['id']}-{side}", text=item[side]["reading"], voice=cast["narrator"]["voice"], style=style, batch=True))
     return out_dir, jobs
 
 
 def jobs_for(path, cast):
     path = Path(path)
     data = json.loads(path.read_text(encoding="utf-8"))
-    if "drill" in path.parts:
+    if "drill" in path.parts or "announce" in path.parts:
         return drill_jobs(path, data, cast)
     if "pron" in path.parts:
         return pron_jobs(path, data, cast)
@@ -231,8 +232,9 @@ LEGACY_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 
 
 def legacy_body(job):
+    text = job["text"].replace("<long pause>", "\n\n……\n\n")  # 舊型號不認得停頓標籤，改用換行與刪節號
     return {
-        "contents": [{"parts": [{"text": f"Say this Japanese line naturally ({job['style']}): {job['text']}"}]}],
+        "contents": [{"parts": [{"text": f"Say this Japanese line naturally ({job['style']}): {text}"}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": job["voice"]}}}},
     }
@@ -397,7 +399,79 @@ class Pacer:
             time.sleep(start - now)
 
 
-def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, workers=1, bitrate=None):
+BATCH_MAX_ITEMS = 8
+BATCH_MAX_CHARS = 240
+BATCH_JOINER = "<long pause>"
+
+
+def make_units(todo):
+    """把可合併的片段（同聲音、同語氣、標了 batch）依序分組，一次請求唸多段，之後再依停頓切開。"""
+    units, cur = [], []
+    for item in todo:
+        job = item[0]
+        fits = (cur and job.get("batch") and cur[0][0].get("batch")
+                and job["voice"] == cur[0][0]["voice"] and job["style"] == cur[0][0]["style"]
+                and len(cur) < BATCH_MAX_ITEMS
+                and sum(len(j["text"]) for j, _ in cur) + len(job["text"]) <= BATCH_MAX_CHARS)
+        if fits:
+            cur.append(item)
+        else:
+            if cur:
+                units.append(cur)
+            cur = [item]
+    if cur:
+        units.append(cur)
+    return units
+
+
+def _decode_pcm(audio):
+    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", "pipe:0", "-f", "s16le", "-ac", "1", "-ar", "24000", "pipe:1"],
+                         input=audio, capture_output=True)
+    return out.stdout if out.returncode == 0 else b""
+
+
+def split_audio(audio, n, rate=24000):
+    """依最長的 n-1 段靜音把音檔切成 n 段（回傳 mp3 bytes 的 list）；切不出來時回傳 None。"""
+    import array
+    pcm = array.array("h", _decode_pcm(audio))
+    if not pcm or not shutil.which("ffmpeg"):
+        return None
+    win = rate // 50  # 20ms
+    levels = [max(abs(min(pcm[i:i + win])), abs(max(pcm[i:i + win]))) for i in range(0, len(pcm) - win + 1, win)]
+    if not levels:
+        return None
+    loud = sorted(levels)[int(len(levels) * 0.9)] or 1
+    silent = [lv < max(300, loud * 0.06) for lv in levels]
+    gaps, i = [], 0
+    while i < len(silent):
+        if silent[i]:
+            j = i
+            while j < len(silent) and silent[j]:
+                j += 1
+            if i > 0 and j < len(silent) and j - i >= 10:  # 至少 0.2 秒，且不是頭尾
+                gaps.append((j - i, i, j))
+            i = j
+        else:
+            i += 1
+    if len(gaps) < n - 1:
+        return None
+    cuts = sorted(((a + b) // 2) for _, a, b in sorted(gaps, reverse=True)[:n - 1])
+    bounds = [0] + [c * win for c in cuts] + [len(pcm)]
+    segs = []
+    for a, b in zip(bounds, bounds[1:]):
+        if (b - a) / rate < 0.2:
+            return None
+        raw = pcm[a:b].tobytes()
+        out = subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "s16le", "-ar", str(rate), "-ac", "1", "-i", "pipe:0",
+                              "-af", "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=1:stop_threshold=-45dB:stop_duration=0.3",
+                              "-b:a", "64k", "-f", "mp3", "pipe:1"], input=raw, capture_output=True)
+        if out.returncode != 0 or not out.stdout:
+            return None
+        segs.append(out.stdout)
+    return segs
+
+
+def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, workers=1, bitrate=None, batch=True):
     """配一個資料夾；回傳 (新配, 跳過)。manifest 記錄每段的檔名、文字與雜湊。"""
     manifest_path = out_dir / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
@@ -416,25 +490,7 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
 
     pacer, lock, failed, stop = Pacer(rpm), threading.Lock(), [], STOP
 
-    def one(item):
-        job, h = item
-        pacer.wait()
-        t0 = time.monotonic()
-        if stop.is_set():
-            failed.append(job["key"])
-            return
-        try:
-            audio = compress(with_retry(synth, job), bitrate or "64k")
-        except QuotaExhausted as e:
-            if not stop.is_set():
-                print(f"  {e}；已配好的會保存，明天再繼續", flush=True)
-            stop.set()
-            failed.append(job["key"])
-            return
-        except Exception as e:  # 單段失敗不中斷整批，下次執行會補配
-            print(f"  失敗 {job['key']}（{time.monotonic() - t0:.0f} 秒）：{type(e).__name__}: {str(e)[:160]}", flush=True)
-            failed.append(job["key"])
-            return
+    def save(job, h, audio, t0, note=""):
         fname = safe_name(job["key"]) + ".mp3"
         with lock:
             out_dir.mkdir(parents=True, exist_ok=True)
@@ -442,17 +498,68 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
             manifest[job["key"]] = {"file": fname, "hash": h, "text": job["text"], "voice": job["voice"],
                                     "model": job.get("used_model", model)}
             manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-        print(f"  {job['key']}：{time.monotonic() - t0:.1f} 秒、{len(audio) // 1024} KB", flush=True)
+        print(f"  {job['key']}：{time.monotonic() - t0:.1f} 秒、{len(audio) // 1024} KB{note}", flush=True)
 
+    def call(job):
+        """回傳 mp3；額度全用完時設停止旗標並回傳 None。"""
+        try:
+            return compress(with_retry(synth, job), bitrate or "64k")
+        except QuotaExhausted as e:
+            if not stop.is_set():
+                print(f"  {e}；已配好的會保存，明天再繼續", flush=True)
+            stop.set()
+            return None
+
+    def one(unit):
+        if stop.is_set():
+            failed.extend(job["key"] for job, _ in unit)
+            return
+        pacer.wait()
+        t0 = time.monotonic()
+        if len(unit) > 1:
+            joined = dict(unit[0][0], key=f"{unit[0][0]['key']}…×{len(unit)}",
+                          text=BATCH_JOINER.join(j["text"] for j, _ in unit),
+                          style=unit[0][0]["style"] + " 区切りごとにしっかり間をあける。")
+            try:
+                audio = call(joined)
+                parts = split_audio(audio, len(unit)) if audio else None
+            except Exception as e:
+                print(f"  合併請求失敗 {joined['key']}：{type(e).__name__}: {str(e)[:120]}，改為逐段", flush=True)
+                parts = None
+            if parts:
+                for (job, h), seg in zip(unit, parts):
+                    job["used_model"] = joined.get("used_model", model)
+                    save(job, h, seg, t0, "（合併）")
+                return
+            if stop.is_set():
+                failed.extend(job["key"] for job, _ in unit)
+                return
+            print(f"  {joined['key']} 切不開，改為逐段", flush=True)
+        for job, h in unit:
+            if stop.is_set():
+                failed.append(job["key"])
+                continue
+            try:
+                audio = call(job)
+            except Exception as e:  # 單段失敗不中斷整批，下次執行會補配
+                print(f"  失敗 {job['key']}（{time.monotonic() - t0:.0f} 秒）：{type(e).__name__}: {str(e)[:160]}", flush=True)
+                failed.append(job["key"])
+                continue
+            if audio is None:
+                failed.append(job["key"])
+                continue
+            save(job, h, audio, t0)
+
+    units = make_units(todo) if batch else [[item] for item in todo]
     if workers <= 1:
-        for item in todo:
-            one(item)
+        for unit in units:
+            one(unit)
     else:
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            for f in [pool.submit(one, item) for item in todo]:
+            for f in [pool.submit(one, unit) for unit in units]:
                 f.result()
     if failed:
-        print(f"  這一批有 {len(failed)} 段失敗，下次執行會再試")
+        print(f"  這一批有 {len(failed)} 段沒配到，下次執行會再試")
     return len(todo) - len(failed), skipped
 
 
@@ -507,6 +614,7 @@ def main(argv):
     ap.add_argument("--workers", type=int, default=4, help="同時送出的請求數（預設 4）")
     ap.add_argument("--bitrate", default="64k", help="轉成單聲道 mp3 的位元率（預設 64k；空字串 = 不轉）")
     ap.add_argument("--probe", action="store_true", help="只送一次測試請求，印出額度或錯誤訊息")
+    ap.add_argument("--no-batch", action="store_true", help="不要合併請求（每段各送一次）")
     args = ap.parse_args(argv)
 
     if args.probe:
@@ -540,7 +648,7 @@ def main(argv):
         if args.limit:
             jobs = jobs[:args.limit]
         print(f"{f.relative_to(ROOT) if f.is_absolute() else f} → {out_dir.relative_to(ROOT)}（{len(jobs)} 段）")
-        made, skipped = voice_dir(out_dir, jobs, synth, model, args.rpm, args.force, args.dry_run, args.workers, args.bitrate)
+        made, skipped = voice_dir(out_dir, jobs, synth, model, args.rpm, args.force, args.dry_run, args.workers, args.bitrate, not args.no_batch)
         total_made += made
         total_skipped += skipped
     verb = "將配" if args.dry_run else "新配"
