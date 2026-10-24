@@ -632,6 +632,9 @@ def main(argv):
     for p in files:
         expanded += [f for f in sorted(p.glob("**/*.json")) if f.name != "index.json"] if p.is_dir() else [p]
     if not expanded:
+        if args.for_date:
+            print("這天沒有要配音的檔案")
+            return
         ap.error("沒有要配音的檔案")
 
     load_dotenv()
