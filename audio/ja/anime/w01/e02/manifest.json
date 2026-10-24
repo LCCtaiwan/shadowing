@@ -22,5 +22,11 @@
   "hash": "9bf66ab7b52ece1f",
   "text": "ちがうよ！『行かない？』は『行きませんか？』だよ。",
   "voice": "Callirrhoe"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "e2de8093fdd433f0",
+  "text": "一緒に行かない？",
+  "voice": "Callirrhoe"
  }
 }
