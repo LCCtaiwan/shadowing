@@ -1,0 +1,282 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "7bb9e77df9626a46",
+  "text": "家族六人で関西空港に着きました。今日は電車で大阪のホテルへ行きます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "3a4e7a815d8a5c32",
+  "text": "すみません。イコカを買いたいです。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "4d7140edee330c95",
+  "text": "はい。何枚ですか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "3271cf8a468b0abe",
+  "text": "お子様は何歳ですか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "9b568604f98539e2",
+  "text": "えっと、大人よにんと、子ども二人です。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "b986da7545807fcc",
+  "text": "娘は七歳で、息子は四歳です。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "9edad8a71f4845f6",
+  "text": "七歳のお子様は小学生ですね。小学生は子ども料金です。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "d7692c3029c7667f",
+  "text": "四歳のお子様は、未就学ですね。未就学のお子様は無料です。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "e46d848300d56d5b",
+  "text": "すみません。「みしゅうがく」は何ですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "cb20deac8f1c9ebd",
+  "text": "小学校に入る前、です。四歳は無料ですよ。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "ab736b1668701ec4",
+  "text": "無料ですか！よかった。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "800187fe102810dc",
+  "text": "子ども用のイコカは、お子様のパスポートが必要です。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-13": {
+  "file": "s1-13.mp3",
+  "hash": "63112b7101a4ed7e",
+  "text": "ママ、わたしのイコカ、持ってもいい？",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "18cdadcfe3509e6c",
+  "text": "大人のイコカが四枚、子どものイコカが一枚。全部で一万円です。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "e03626d8c4a8e094",
+  "text": "すみません。ベビーカーで電車に乗ってもいいですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "43147b3cddc4f32e",
+  "text": "はい、大丈夫ですよ。ドアの近くにどうぞ。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "5c37be8b2120fd7a",
+  "text": "大阪まで、なんぷんぐらいですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "ec55941f93f2d8fb",
+  "text": "ななじゅっぷんぐらいです。一時間ちょっとですね。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "afcb93c8c4d8f48e",
+  "text": "ママ、アーコンの膝、痛いって。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "25d6907c5c524863",
+  "text": "すみません。父は膝が悪いので、ここに座ってもいいですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "9896e09671202532",
+  "text": "あ、どうぞどうぞ。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "d542325cf4f49ec6",
+  "text": "ありがとうございます。助かります。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "cfb4398307bee649",
+  "text": "お嬢ちゃん、何歳？",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "48360bd0f8c5d616",
+  "text": "七歳です！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "3aa1224fc39bac50",
+  "text": "七歳か。にほんご、上手やなあ。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "ff37e11067b47cac",
+  "text": "ありがとうございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "bc6fc54876bc786e",
+  "text": "大人よにん、子ども二人、イコカは五枚……。うん、大丈夫。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "341a6f862285ffe3",
+  "text": "息子は五歳です。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "bea35d0f38be6be4",
+  "text": "大人二人と子ども一人です。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "e73bae54047a5beb",
+  "text": "すみません、ここでベビーカーをたたんでもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "37a158e4262ccbb9",
+  "text": "トイレを借りてもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ICOCA": {
+  "file": "v-3356771dfb66.mp3",
+  "hash": "f11e6b12c6767475",
+  "text": "イコカ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:枚": {
+  "file": "v-a70452bc75c1.mp3",
+  "hash": "c976c49a96fa2880",
+  "text": "まい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:大人": {
+  "file": "v-612d21626e05.mp3",
+  "hash": "20c5efe7cee5e277",
+  "text": "おとな",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:歳": {
+  "file": "v-a4010eceb925.mp3",
+  "hash": "55c1f04535ff8b16",
+  "text": "さい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:子ども": {
+  "file": "v-4add55d30a45.mp3",
+  "hash": "56545bff7d458838",
+  "text": "こども",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:小学生": {
+  "file": "v-b5ace85a32fc.mp3",
+  "hash": "9ae1489e18f9a192",
+  "text": "しょうがくせい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:料金": {
+  "file": "v-01a947a3428c.mp3",
+  "hash": "5e811cd1be993fb7",
+  "text": "りょうきん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:未就学": {
+  "file": "v-40af8cc52f17.mp3",
+  "hash": "b758c4d7517289fc",
+  "text": "みしゅうがく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:無料": {
+  "file": "v-130a12ad1a04.mp3",
+  "hash": "562c65e7321b4408",
+  "text": "むりょう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "92c2b3c07f5fffa1",
+  "text": "台湾から家族六人でにほんへ来ました。にほんごができるのは、おかあさんのかけいだけです。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "d26cfc3b58ffeb7d",
+  "text": "次のかた、どうぞ。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "528f71411c44f3cc",
+  "text": "ご家族ですか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "9789508a82fd2a32",
+  "text": "はい、家族です。六人です。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "4541737f1803cfb4",
+  "text": "では、皆さんのパスポートを見せてください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "635c6cf323d125b5",
+  "text": "お子様のパスポートもお願いします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "0c080ce8958bb42d",
+  "text": "はい、これです。娘と息子のです。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "05386cd277c79605",
+  "text": "この写真は、お嬢さんですか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "eeb442392436595f",
+  "text": "いいえ、それは息子です。赤ちゃんの時の写真です。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "d283051f6c88337a",
+  "text": "あ、そうですか。では、大人のかただけ、ここに指を置いてください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "aaee07671be2c585",
+  "text": "はい、おとうさまもお願いします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "a5dec9ed440f1dae",
+  "text": "父もですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "1e2b138b3caf65dc",
+  "text": "こちらのかたは、ご主人ですか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-13": {
+  "file": "s1-13.mp3",
+  "hash": "d94890562cfb9c5b",
+  "text": "ハイ！ゴシュジン、デス！",
+  "voice": "Enceladus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-14": {
+  "file": "s1-14.mp3",
+  "hash": "78ac0dd4ad897798",
+  "text": "はい、けっこうです。ようこそにほんへ。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "6db3e29976b46945",
+  "text": "すみません。ベビーカーはどこですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "ee5ae5fdceadad97",
+  "text": "ベビーカーですか。大きいお荷物は、あちらのカウンターです。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "70b9a0fb9ecda7eb",
+  "text": "すみません、もう少しゆっくりお願いします。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "111371bd88bd75e5",
+  "text": "はい。ベビーカーは、あちらの、青いカウンターです。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "97066e12b923d61c",
+  "text": "あった！ママ、ベビーカー、あった！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "f6206abf39dcd2e9",
+  "text": "エレベーターは、あちらです。トイレの横です。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "6891bef2a7a3a547",
+  "text": "すみません。エレベーターはどこですか。父は膝が悪いので……。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "33acbbc078fcf511",
+  "text": "ママ、トイレはどこ？アーバオが、おしっこ！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "a77213c64e769417",
+  "text": "エレベーターの横ですよ。行きましょう。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "0f217366ba88108c",
+  "text": "ありがとうございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "a9e6658257ec9481",
+  "text": "わあ、にほんご、上手ですね。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "4a4f38acaca18225",
+  "text": "次は電車ですね……。がんばります。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "951a8393f240bd33",
+  "text": "「これはお子様の靴ですか。」「はい、そうです。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "8e30e5ef7ee1d5f0",
+  "text": "「お二人ですか。」「いいえ、三人です。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "728f93543e48b506",
+  "text": "すみません、授乳室はどこですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "35535234f751eb46",
+  "text": "おむつ交換台はどこですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:皆さん": {
+  "file": "v-25c9ed68e4ca.mp3",
+  "hash": "aa2130b4a7c48da2",
+  "text": "みなさん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:パスポート": {
+  "file": "v-268fc0e022d3.mp3",
+  "hash": "f531fe924229b00d",
+  "text": "パスポート",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:お子様": {
+  "file": "v-d6a787feb15d.mp3",
+  "hash": "7cc8e8ae18b72f16",
+  "text": "おこさま",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:娘": {
+  "file": "v-a03b08ed522e.mp3",
+  "hash": "79c05fac6f0afc52",
+  "text": "むすめ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:息子": {
+  "file": "v-91bf4bb8d5cf.mp3",
+  "hash": "02708fc8b035ab78",
+  "text": "むすこ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:写真": {
+  "file": "v-d1ec5ed3cfd0.mp3",
+  "hash": "d8cad2f9e150b0c6",
+  "text": "しゃしん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:赤ちゃん": {
+  "file": "v-57fc7d197092.mp3",
+  "hash": "e713f3fe7faf3c59",
+  "text": "あかちゃん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:大人": {
+  "file": "v-612d21626e05.mp3",
+  "hash": "20c5efe7cee5e277",
+  "text": "おとな",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:指": {
+  "file": "v-0e1cd47fe4b1.mp3",
+  "hash": "cf36ae992b4804f3",
+  "text": "ゆび",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:主人": {
+  "file": "v-11222af641ca.mp3",
+  "hash": "7b69f2aad28685af",
+  "text": "しゅじん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:家族": {
+  "file": "v-9d9967fd13da.mp3",
+  "hash": "554d21ed576b4120",
+  "text": "かぞく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ベビーカー": {
+  "file": "v-5854d665739f.mp3",
+  "hash": "6bfe6a2ed505e820",
+  "text": "ベビーカー",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:青い": {
+  "file": "v-54cd7893a606.mp3",
+  "hash": "320c7c90c7d69213",
+  "text": "あおい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:荷物": {
+  "file": "v-d12c5d946e2c.mp3",
+  "hash": "efe3c3f33a515c60",
+  "text": "にもつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:エレベーター": {
+  "file": "v-4de042c460b9.mp3",
+  "hash": "3a2131adf6d48229",
+  "text": "エレベーター",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:膝": {
+  "file": "v-192765ff3d2f.mp3",
+  "hash": "325da24d947dbdd0",
+  "text": "ひざ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:悪い": {
+  "file": "v-5fc21a320338.mp3",
+  "hash": "2c5e16c5079c16a0",
+  "text": "わるい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:トイレ": {
+  "file": "v-ad8d2283d0de.mp3",
+  "hash": "5df05243579c222d",
+  "text": "トイレ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:横": {
+  "file": "v-ceae1e64164a.mp3",
+  "hash": "46bae6f57e48372c",
+  "text": "よこ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:上手": {
+  "file": "v-f84c98273159.mp3",
+  "hash": "6035c904ec68ebd5",
+  "text": "じょうず",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}
