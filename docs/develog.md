@@ -67,8 +67,12 @@
 - 2026-10-24：配音真正原因：`gemini-3.8-flash-tts` 在 Tier 1 每日只有 100 次請求（429「100 requests per day on Tier 1」），SDK 會依 Retry-After 默默睡到額度重置。改為直接呼叫 REST（`tools/voice.py`）、重試最多等 60 秒、每日額度用完自動改用下一個 TTS 型號（3.8-flash-lite、3.1-flash-preview、2.5-pro/flash-preview；非 3.8 型號只能輸出 wav，用 ffmpeg 轉 mp3）、全部用完就停並保存；`--probe` 可查各型號狀態。
 - 2026-10-24：神經元連結單字卡：`app/lib/network.js`（同漢字自動計算、劇中場景、搭配、相反、相關，學過的點亮）；單字卡背面顯示連結圖；新卡型「連結題」（`#link`，cue＿＿ 三選一，選項為辭書形）；單字快練也顯示連結圖。345 個單字都已加 `links`（330 個有搭配），規格見 content-spec「單字連結」。測試 20 項。
 
+- 2026-10-24：內容擴充：自助旅行第 1–3、6 話改寫成 Skyliner、寄放行李、青年旅館、下北澤古著店（避開與家族旅行重複），e04 改成青年旅館；廣播聽力包 `scripts/ja/announce/` 6 組 48 題；親子一起學 `kids` 6 話；動漫第 3 週（推理、戀愛、熱血廣播劇，新角色悠斗）；日本童話原文 `tales` 6 篇 29 話（楠山正雄，青空文庫公有領域，validator 檢查與原文逐字相符，出處見 `story/ja/tales/README.md`）。內容皆已校對。
+- 2026-10-24：配音：舊 TTS 型號改走 generateContent 端點（PCM→mp3）；同聲音片段（單字、發音、童話）合併請求再依靜音切開（`make_units`、`split_audio`，測試 14 項）；workflow 每日也配廣播、發音、童話。
+- 待討論的主題清單在 `curriculum/queue.md`。
+
 ## Current Checkpoint
-App 已上線；三條線、零碎時間、神經元連結卡都已上線。配音受每日額度限制，雲端依優先順序（家族旅行→動漫→聽力→自助旅行→發音）每天配一批，用完額度自動停、隔天繼續。
+App 已上線：家族旅行、動漫、自助旅行、親子、童話五條線＋廣播聽力＋零碎時間＋神經元連結卡。配音受每日額度限制（約 100–200 次請求／天），合併請求後每天可配更多；未配音的片段 App 用系統語音代替。
 
 ## Recommended Next Step
 1) 每天確認配音進度（`gh run list --workflow voice.yml`）；若要加速可考慮升級 Gemini 方案或把單字／發音改成一次請求唸多個再切段；使用者試聽調整聲音與語速；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。
