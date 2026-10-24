@@ -64,8 +64,11 @@
   - validate 新增：日文混入中文繁體字（黃/寶/數…）的檢查；重複新教單字改為同一部劇內檢查；標 review 的單字也產卡、也配音（三部劇順序不固定）。
   - Service worker 改為 App 本體網路優先，更新後馬上看到。
 
+- 2026-10-24：配音真正原因：`gemini-3.8-flash-tts` 在 Tier 1 每日只有 100 次請求（429「100 requests per day on Tier 1」），SDK 會依 Retry-After 默默睡到額度重置。改為直接呼叫 REST（`tools/voice.py`）、重試最多等 60 秒、每日額度用完自動改用下一個 TTS 型號（3.8-flash-lite、3.1-flash-preview、2.5-pro/flash-preview；非 3.8 型號只能輸出 wav，用 ffmpeg 轉 mp3）、全部用完就停並保存；`--probe` 可查各型號狀態。
+- 2026-10-24：神經元連結單字卡：`app/lib/network.js`（同漢字自動計算、劇中場景、搭配、相反、相關，學過的點亮）；單字卡背面顯示連結圖；新卡型「連結題」（`#link`，cue＿＿ 三選一，選項為辭書形）；單字快練也顯示連結圖。345 個單字都已加 `links`（330 個有搭配），規格見 content-spec「單字連結」。測試 20 項。
+
 ## Current Checkpoint
-App 已上線 https://lcctaiwan.github.io/shadowing/ ，三條線（家族旅行、動漫、自助旅行）與零碎時間模式已上線；雲端正在配第 1–2 週全部內容與發音題庫。
+App 已上線；三條線、零碎時間、神經元連結卡都已上線。配音受每日額度限制，雲端依優先順序（家族旅行→動漫→聽力→自助旅行→發音）每天配一批，用完額度自動停、隔天繼續。
 
 ## Recommended Next Step
-1) 確認雲端配音全部完成、使用者試聽調整聲音與語速；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。
+1) 每天確認配音進度（`gh run list --workflow voice.yml`）；若要加速可考慮升級 Gemini 方案或把單字／發音改成一次請求唸多個再切段；使用者試聽調整聲音與語速；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。
