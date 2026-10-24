@@ -16,7 +16,7 @@ DRILL_TYPES = {"sokuji", "kadai", "point", "gaiyo", "hatsuwa", "togo"}
 KANJI = re.compile(r"[㐀-鿿々]")
 KANA_ONLY = re.compile(r"^[ぁ-ゟ゠-ヿー・]+$")
 # 日文要用新字體；這些是常被誤打成中文繁體的字（舊 → 日文寫法）
-TRAD = {p[0]: p[1] for p in "黃黄 圖図 號号 體体 醫医 藥薬 國国 學学 寫写 讀読 價価 錢銭 驛駅 氣気 來来 發発 變変 鐵鉄 廣広 樂楽 賣売 歸帰 應応 對対 單単 觀観 驗験 齒歯 乘乗 鹽塩 樣様 戶戸 內内 黑黒 淺浅 經経 續続 繪絵 兩両 將将 險険 濟済 畫画 聽聴 說説 與与 參参 舊旧 壓圧 團団 圓円 實実 當当 會会 從従 關関 澤沢 擇択 轉転 輕軽 顏顔 麵麺 點点 燈灯 處処 歲歳 濱浜 櫻桜 邊辺 錄録 綠緑 狀状 戰戦 氷氷 鬆松".split() if p[0] != p[1]}
+TRAD = {p[0]: p[1] for p in "黃黄 圖図 號号 體体 醫医 藥薬 國国 學学 寫写 讀読 價価 錢銭 驛駅 氣気 來来 發発 變変 鐵鉄 廣広 樂楽 賣売 歸帰 應応 對対 單単 觀観 驗験 齒歯 乘乗 鹽塩 樣様 戶戸 內内 黑黒 淺浅 經経 續続 繪絵 兩両 將将 險険 濟済 畫画 聽聴 說説 與与 參参 舊旧 壓圧 團団 圓円 實実 當当 會会 從従 關関 澤沢 擇択 轉転 輕軽 顏顔 麵麺 點点 燈灯 處処 歲歳 濱浜 櫻桜 邊辺 錄録 綠緑 狀状 戰戦 數数 寶宝 鬆松".split() if p[0] != p[1]}
 
 
 def load_casts():
@@ -137,7 +137,7 @@ def check_episode(rep, path, data, cast, seen):
 
     for v in data["vocab"]:
         if need(rep, f"{w} vocab", v, ["id", "text", "reading", "pos", "zh", "level", "line"]):
-            bad = sorted({c for c in v["text"] + v["id"] if c in TRAD})
+            bad = sorted({c for c in v["text"] + v["id"] + v.get("pos", "") if c in TRAD})
             if bad:
                 rep.err(w, f"vocab 混了中文繁體字：{v['id']}（" + "、".join(f"{c}→{TRAD[c]}" for c in bad) + "）")
             if not v["id"].startswith("ja:vocab:"):

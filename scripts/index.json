@@ -69,6 +69,20 @@
    "audio": "audio/ja/drama/w01/e01"
   },
   {
+   "id": "ja-family-w01-e01",
+   "series": "family",
+   "week": 1,
+   "episode": 1,
+   "day": "mon",
+   "date": "2026-10-26",
+   "level": "N5",
+   "title": "関西空港・家族で入国",
+   "title_zh": "關西機場・全家一起入境",
+   "lines": 26,
+   "path": "scripts/ja/family/w01/e01.json",
+   "audio": "audio/ja/family/w01/e01"
+  },
+  {
    "id": "ja-anime-w01-e01",
    "series": "anime",
    "week": 1,
@@ -95,6 +109,20 @@
    "lines": 23,
    "path": "scripts/ja/drama/w01/e02.json",
    "audio": "audio/ja/drama/w01/e02"
+  },
+  {
+   "id": "ja-family-w01-e02",
+   "series": "family",
+   "week": 1,
+   "episode": 2,
+   "day": "wed",
+   "date": "2026-10-28",
+   "level": "N5",
+   "title": "ICOCA と子ども料金",
+   "title_zh": "ICOCA 與兒童票價",
+   "lines": 26,
+   "path": "scripts/ja/family/w01/e02.json",
+   "audio": "audio/ja/family/w01/e02"
   },
   {
    "id": "ja-anime-w01-e02",
@@ -125,6 +153,20 @@
    "audio": "audio/ja/drama/w01/e03"
   },
   {
+   "id": "ja-family-w01-e03",
+   "series": "family",
+   "week": 1,
+   "episode": 3,
+   "day": "fri",
+   "date": "2026-10-30",
+   "level": "N5",
+   "title": "ホテルで添い寝とベッド",
+   "title_zh": "飯店的「同床」與加床",
+   "lines": 26,
+   "path": "scripts/ja/family/w01/e03.json",
+   "audio": "audio/ja/family/w01/e03"
+  },
+  {
    "id": "ja-anime-w01-e03",
    "series": "anime",
    "week": 1,
@@ -151,6 +193,20 @@
    "lines": 28,
    "path": "scripts/ja/drama/w02/e04.json",
    "audio": "audio/ja/drama/w02/e04"
+  },
+  {
+   "id": "ja-family-w02-e04",
+   "series": "family",
+   "week": 2,
+   "episode": 4,
+   "day": "mon",
+   "date": "2026-11-02",
+   "level": "N4",
+   "title": "レストランでアレルギー",
+   "title_zh": "在餐廳問過敏",
+   "lines": 28,
+   "path": "scripts/ja/family/w02/e04.json",
+   "audio": "audio/ja/family/w02/e04"
   },
   {
    "id": "ja-anime-w02-e04",
@@ -181,6 +237,20 @@
    "audio": "audio/ja/drama/w02/e05"
   },
   {
+   "id": "ja-family-w02-e05",
+   "series": "family",
+   "week": 2,
+   "episode": 5,
+   "day": "wed",
+   "date": "2026-11-04",
+   "level": "N4",
+   "title": "薬局と病院",
+   "title_zh": "藥局與醫院",
+   "lines": 28,
+   "path": "scripts/ja/family/w02/e05.json",
+   "audio": "audio/ja/family/w02/e05"
+  },
+  {
    "id": "ja-anime-w02-e05",
    "series": "anime",
    "week": 2,
@@ -207,6 +277,20 @@
    "lines": 24,
    "path": "scripts/ja/drama/w02/e06.json",
    "audio": "audio/ja/drama/w02/e06"
+  },
+  {
+   "id": "ja-family-w02-e06",
+   "series": "family",
+   "week": 2,
+   "episode": 6,
+   "day": "fri",
+   "date": "2026-11-06",
+   "level": "N4",
+   "title": "迷子になった！",
+   "title_zh": "走丟了！",
+   "lines": 27,
+   "path": "scripts/ja/family/w02/e06.json",
+   "audio": "audio/ja/family/w02/e06"
   },
   {
    "id": "ja-anime-w02-e06",
@@ -379,5 +463,60 @@
    "audio": "audio/ja/drill/w02/sun"
   }
  ],
- "pron": []
+ "pron": [
+  {
+   "id": "ja-pron-p01",
+   "title": "長音（伸ばす音）",
+   "title_zh": "長音：拉長的音",
+   "tip_zh": "日語每一拍長度相同，長音要多佔一整拍；台灣學習者常把長音唸短、也聽成短音。邊聽邊用手指數拍子，「おばさん」4拍、「おばあさん」5拍。",
+   "items": 20,
+   "path": "scripts/ja/pron/p01.json",
+   "audio": "audio/ja/pron/p01"
+  },
+  {
+   "id": "ja-pron-p02",
+   "title": "促音（小さい「っ」）",
+   "title_zh": "促音：停一拍的小っ",
+   "tip_zh": "小「っ」本身不發聲，是一拍的「停頓」，台灣學習者常直接漏掉。聽到子音前面突然卡住、有一小段安靜，就是有っ。",
+   "items": 20,
+   "path": "scripts/ja/pron/p02.json",
+   "audio": "audio/ja/pron/p02"
+  },
+  {
+   "id": "ja-pron-p03",
+   "title": "撥音「ん」と拗音「ゃ・ゅ・ょ」",
+   "title_zh": "撥音與拗音：ん和小ゃゅょ",
+   "tip_zh": "「ん」自己佔一拍，後面接母音時也不會跟母音連成「な行」；小ゃゅょ則和前一個假名合成一拍。「きよう」3拍、「きょう」2拍，數拍數最準。",
+   "items": 20,
+   "path": "scripts/ja/pron/p03.json",
+   "audio": "audio/ja/pron/p03"
+  },
+  {
+   "id": "ja-pron-p04",
+   "title": "清音・濁音・半濁音",
+   "title_zh": "清音、濁音、半濁音",
+   "tip_zh": "中文的ㄍ、ㄉ是不送氣清音，所以台灣學習者常把詞中間的「か・た」聽成「が・だ」。濁音在發音前聲帶就先振動，聽起來較低沉；ぱ行雙唇有明顯的爆破感。",
+   "items": 20,
+   "path": "scripts/ja/pron/p04.json",
+   "audio": "audio/ja/pron/p04"
+  },
+  {
+   "id": "ja-pron-p05",
+   "title": "長音・促音・拗音の総復習",
+   "title_zh": "綜合複習：長音、促音、拗音",
+   "tip_zh": "這組不練音高（例如雨／飴），只練「拍數」。長音、促音各多一拍，拗音的小ゃゅょ不算一拍；先數拍，再判斷是哪個詞。",
+   "items": 20,
+   "path": "scripts/ja/pron/p05.json",
+   "audio": "audio/ja/pron/p05"
+  },
+  {
+   "id": "ja-pron-p06",
+   "title": "旅行・家族・アニメでよく聞く言葉",
+   "title_zh": "旅行、家人、動漫常聽到的詞",
+   "tip_zh": "旅遊、家人和動漫台詞裡常出現的詞混合複習。聽的時候先抓拍數（長音、促音、ん），再注意第一拍是清音還是濁音。",
+   "items": 20,
+   "path": "scripts/ja/pron/p06.json",
+   "audio": "audio/ja/pron/p06"
+  }
+ ]
 }

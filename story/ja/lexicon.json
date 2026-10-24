@@ -101,7 +101,8 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01",
-    "drama-w01-e02"
+    "drama-w01-e02",
+    "family-w01-e03"
    ]
   },
   "ja:vocab:上手": {
@@ -112,7 +113,8 @@
    "introduced": "anime-w01-e01",
    "used_in": [
     "anime-w01-e01",
-    "drama-w01-e03"
+    "drama-w01-e03",
+    "family-w01-e01"
    ]
   },
   "ja:vocab:速い": {
@@ -236,7 +238,8 @@
    "introduced": "anime-w01-e02",
    "used_in": [
     "anime-w01-e02",
-    "drama-w02-e06"
+    "drama-w02-e06",
+    "family-w01-e03"
    ]
   },
   "ja:vocab:運動": {
@@ -347,7 +350,8 @@
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
-    "anime-w01-e02"
+    "anime-w01-e02",
+    "family-w01-e02"
    ]
   },
   "ja:vocab:なくなる": {
@@ -367,7 +371,8 @@
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
-    "anime-w01-e02"
+    "anime-w01-e02",
+    "family-w02-e04"
    ]
   },
   "ja:vocab:下手": {
@@ -725,7 +730,8 @@
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
-    "anime-w02-e04"
+    "anime-w02-e04",
+    "family-w01-e02"
    ]
   },
   "ja:vocab:半分": {
@@ -978,7 +984,8 @@
    "introduced": "anime-w02-e06",
    "used_in": [
     "anime-w02-e06",
-    "drama-w01-e01"
+    "drama-w01-e01",
+    "family-w01-e02"
    ]
   },
   "ja:vocab:許す": {
@@ -1018,7 +1025,8 @@
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
-    "anime-w02-e06"
+    "anime-w02-e06",
+    "family-w02-e06"
    ]
   },
   "ja:vocab:光": {
@@ -1078,7 +1086,8 @@
    "level": "N5",
    "introduced": "anime-w02-e06",
    "used_in": [
-    "anime-w02-e06"
+    "anime-w02-e06",
+    "family-w01-e01"
    ]
   },
   "ja:vocab:入国": {
@@ -1148,7 +1157,8 @@
    "level": "N4",
    "introduced": "drama-w01-e01",
    "used_in": [
-    "drama-w01-e01"
+    "drama-w01-e01",
+    "family-w01-e01"
    ]
   },
   "ja:vocab:置く": {
@@ -1239,7 +1249,8 @@
    "level": "N3",
    "introduced": "drama-w01-e01",
    "used_in": [
-    "drama-w01-e01"
+    "drama-w01-e01",
+    "family-w02-e04"
    ]
   },
   "ja:vocab:仕事": {
@@ -1259,7 +1270,8 @@
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
-    "drama-w01-e01"
+    "drama-w01-e01",
+    "family-w01-e03"
    ]
   },
   "ja:vocab:買う": {
@@ -1463,7 +1475,8 @@
    "level": "N4",
    "introduced": "drama-w01-e03",
    "used_in": [
-    "drama-w01-e03"
+    "drama-w01-e03",
+    "family-w01-e01"
    ]
   },
   "ja:vocab:預ける": {
@@ -1553,7 +1566,8 @@
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
-    "drama-w01-e03"
+    "drama-w01-e03",
+    "family-w01-e03"
    ]
   },
   "ja:vocab:朝ごはん": {
@@ -1833,7 +1847,9 @@
    "level": "N4",
    "introduced": "drama-w02-e05",
    "used_in": [
-    "drama-w02-e05"
+    "drama-w02-e05",
+    "family-w01-e02",
+    "family-w01-e03"
    ]
   },
   "ja:vocab:預かる": {
@@ -1913,7 +1929,8 @@
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
-    "drama-w02-e06"
+    "drama-w02-e06",
+    "family-w01-e03"
    ]
   },
   "ja:vocab:電池": {
@@ -2023,7 +2040,8 @@
    "level": "N5",
    "introduced": "drama-w02-e06",
    "used_in": [
-    "drama-w02-e06"
+    "drama-w02-e06",
+    "family-w01-e01"
    ]
   },
   "ja:vocab:間に合う": {
@@ -2054,6 +2072,914 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
+   ]
+  },
+  "ja:vocab:家族": {
+   "text": "家族",
+   "reading": "かぞく",
+   "zh": "家人、家庭",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01",
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:皆さん": {
+   "text": "皆さん",
+   "reading": "みなさん",
+   "zh": "各位、大家",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:パスポート": {
+   "text": "パスポート",
+   "reading": "パスポート",
+   "zh": "護照",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:お子様": {
+   "text": "お子様",
+   "reading": "おこさま",
+   "zh": "（您的）小孩、小朋友（尊敬說法）",
+   "level": "N4",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:娘": {
+   "text": "娘",
+   "reading": "むすめ",
+   "zh": "女兒",
+   "level": "N4",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:息子": {
+   "text": "息子",
+   "reading": "むすこ",
+   "zh": "兒子",
+   "level": "N4",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01",
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:写真": {
+   "text": "写真",
+   "reading": "しゃしん",
+   "zh": "照片",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:赤ちゃん": {
+   "text": "赤ちゃん",
+   "reading": "あかちゃん",
+   "zh": "嬰兒、小寶寶",
+   "level": "N4",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:大人": {
+   "text": "大人",
+   "reading": "おとな",
+   "zh": "大人、成人",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01",
+    "family-w01-e02",
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:主人": {
+   "text": "主人",
+   "reading": "しゅじん",
+   "zh": "先生、丈夫（ご主人＝您先生）",
+   "level": "N4",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:ベビーカー": {
+   "text": "ベビーカー",
+   "reading": "ベビーカー",
+   "zh": "嬰兒車",
+   "level": "N3",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:青い": {
+   "text": "青い",
+   "reading": "あおい",
+   "zh": "藍色的",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01",
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:エレベーター": {
+   "text": "エレベーター",
+   "reading": "エレベーター",
+   "zh": "電梯",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:膝": {
+   "text": "膝",
+   "reading": "ひざ",
+   "zh": "膝蓋",
+   "level": "N3",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01",
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:トイレ": {
+   "text": "トイレ",
+   "reading": "トイレ",
+   "zh": "廁所",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:vocab:ICOCA": {
+   "text": "ICOCA",
+   "reading": "イコカ",
+   "zh": "ICOCA（JR 西日本的交通 IC 卡）",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:子ども": {
+   "text": "子ども",
+   "reading": "こども",
+   "zh": "小孩",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02",
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:歳": {
+   "text": "歳",
+   "reading": "さい",
+   "zh": "～歲",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02",
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:小学生": {
+   "text": "小学生",
+   "reading": "しょうがくせい",
+   "zh": "小學生",
+   "level": "N4",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:料金": {
+   "text": "料金",
+   "reading": "りょうきん",
+   "zh": "費用、票價",
+   "level": "N4",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:未就学": {
+   "text": "未就学",
+   "reading": "みしゅうがく",
+   "zh": "學齡前（還沒上小學）",
+   "level": "N1",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:小学校": {
+   "text": "小学校",
+   "reading": "しょうがっこう",
+   "zh": "小學",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:乗る": {
+   "text": "乗る",
+   "reading": "のる",
+   "zh": "搭乘",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:近く": {
+   "text": "近く",
+   "reading": "ちかく",
+   "zh": "附近",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:時間": {
+   "text": "時間",
+   "reading": "じかん",
+   "zh": "時間；～小時",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:痛い": {
+   "text": "痛い",
+   "reading": "いたい",
+   "zh": "痛",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:座る": {
+   "text": "座る",
+   "reading": "すわる",
+   "zh": "坐",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:vocab:チェックイン": {
+   "text": "チェックイン",
+   "reading": "チェックイン",
+   "zh": "入住手續",
+   "level": "N4",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:紙": {
+   "text": "紙",
+   "reading": "かみ",
+   "zh": "紙、單子",
+   "level": "N5",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:添い寝": {
+   "text": "添い寝",
+   "reading": "そいね",
+   "zh": "（小孩）和大人同床睡、不另佔床",
+   "level": "N1",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:追加": {
+   "text": "追加",
+   "reading": "ついか",
+   "zh": "追加、加（床、點餐）",
+   "level": "N3",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:エキストラベッド": {
+   "text": "エキストラベッド",
+   "reading": "エキストラベッド",
+   "zh": "加床",
+   "level": "N3",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:ソファベッド": {
+   "text": "ソファベッド",
+   "reading": "ソファベッド",
+   "zh": "沙發床",
+   "level": "N3",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:隣": {
+   "text": "隣",
+   "reading": "となり",
+   "zh": "隔壁、旁邊（隣同士＝彼此相鄰）",
+   "level": "N5",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:号室": {
+   "text": "号室",
+   "reading": "ごうしつ",
+   "zh": "～號房",
+   "level": "N4",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:歯ブラシ": {
+   "text": "歯ブラシ",
+   "reading": "はブラシ",
+   "zh": "牙刷",
+   "level": "N4",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:大浴場": {
+   "text": "大浴場",
+   "reading": "だいよくじょう",
+   "zh": "（飯店的）大浴池、公共大澡堂",
+   "level": "N1",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:夜": {
+   "text": "夜",
+   "reading": "よる",
+   "zh": "晚上",
+   "level": "N5",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:vocab:椅子": {
+   "text": "椅子",
+   "reading": "いす",
+   "zh": "椅子（子ども用のいす＝兒童椅）",
+   "level": "N5",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:メニュー": {
+   "text": "メニュー",
+   "reading": "メニュー",
+   "zh": "菜單（お子様メニュー＝兒童菜單）",
+   "level": "N5",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:おもちゃ": {
+   "text": "おもちゃ",
+   "reading": "おもちゃ",
+   "zh": "玩具",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:注文": {
+   "text": "注文",
+   "reading": "ちゅうもん",
+   "zh": "點餐、訂購",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:アレルギー": {
+   "text": "アレルギー",
+   "reading": "アレルギー",
+   "zh": "過敏",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:えび": {
+   "text": "えび",
+   "reading": "えび",
+   "zh": "蝦子（漢字寫作「海老」，菜單上常用平假名或片假名）",
+   "level": "N3",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:天ぷら": {
+   "text": "天ぷら",
+   "reading": "てんぷら",
+   "zh": "天婦羅、炸物",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:定食": {
+   "text": "定食",
+   "reading": "ていしょく",
+   "zh": "定食、套餐",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:焼き魚": {
+   "text": "焼き魚",
+   "reading": "やきざかな",
+   "zh": "烤魚",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:みそ汁": {
+   "text": "みそ汁",
+   "reading": "みそしる",
+   "zh": "味噌湯",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:糖尿病": {
+   "text": "糖尿病",
+   "reading": "とうにょうびょう",
+   "zh": "糖尿病（較難的詞，但帶長輩出國很實用）",
+   "level": "N1",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:甘い": {
+   "text": "甘い",
+   "reading": "あまい",
+   "zh": "甜的",
+   "level": "N5",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:少なめ": {
+   "text": "少なめ",
+   "reading": "すくなめ",
+   "zh": "少一點、減量（ご飯少なめ＝飯少一點）",
+   "level": "N3",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:鉄板": {
+   "text": "鉄板",
+   "reading": "てっぱん",
+   "zh": "鐵板",
+   "level": "N3",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:触る": {
+   "text": "触る",
+   "reading": "さわる",
+   "zh": "摸、碰",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:安心": {
+   "text": "安心",
+   "reading": "あんしん",
+   "zh": "放心、安心",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:vocab:元気": {
+   "text": "元気",
+   "reading": "げんき",
+   "zh": "精神、活力（元気がない＝沒精神）",
+   "level": "N5",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:熱": {
+   "text": "熱",
+   "reading": "ねつ",
+   "zh": "發燒、熱度（熱を出す＝發燒）",
+   "level": "N4",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:薬局": {
+   "text": "薬局",
+   "reading": "やっきょく",
+   "zh": "藥局",
+   "level": "N4",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:薬": {
+   "text": "薬",
+   "reading": "くすり",
+   "zh": "藥（熱の薬＝退燒藥）",
+   "level": "N5",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:体重": {
+   "text": "体重",
+   "reading": "たいじゅう",
+   "zh": "體重",
+   "level": "N3",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:キロ": {
+   "text": "キロ",
+   "reading": "キロ",
+   "zh": "公斤",
+   "level": "N5",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:量": {
+   "text": "量",
+   "reading": "りょう",
+   "zh": "份量、用量",
+   "level": "N3",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:回数": {
+   "text": "回数",
+   "reading": "かいすう",
+   "zh": "次數",
+   "level": "N3",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:病院": {
+   "text": "病院",
+   "reading": "びょういん",
+   "zh": "醫院",
+   "level": "N5",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:小児科": {
+   "text": "小児科",
+   "reading": "しょうにか",
+   "zh": "小兒科",
+   "level": "N2",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:午前": {
+   "text": "午前",
+   "reading": "ごぜん",
+   "zh": "上午",
+   "level": "N5",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:旅行者": {
+   "text": "旅行者",
+   "reading": "りょこうしゃ",
+   "zh": "旅客、遊客",
+   "level": "N3",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:保険証": {
+   "text": "保険証",
+   "reading": "ほけんしょう",
+   "zh": "健保卡（日本的健康保險證）",
+   "level": "N2",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:保険": {
+   "text": "保険",
+   "reading": "ほけん",
+   "zh": "保險（海外旅行保険＝海外旅遊險）",
+   "level": "N3",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:自費": {
+   "text": "自費",
+   "reading": "じひ",
+   "zh": "自費（沒有日本健保時要全額自付）",
+   "level": "N1",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:領収書": {
+   "text": "領収書",
+   "reading": "りょうしゅうしょ",
+   "zh": "收據（申請旅遊險理賠時要用）",
+   "level": "N2",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:問診票": {
+   "text": "問診票",
+   "reading": "もんしんひょう",
+   "zh": "問診單（看診前填寫症狀的表格）",
+   "level": "N1",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:記入": {
+   "text": "記入",
+   "reading": "きにゅう",
+   "zh": "填寫",
+   "level": "N3",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:vocab:見つける": {
+   "text": "見つける",
+   "reading": "みつける",
+   "zh": "找到（他動詞：我找到～）",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:迷子": {
+   "text": "迷子",
+   "reading": "まいご",
+   "zh": "走失的小孩、迷路（迷子になる＝走丟）",
+   "level": "N3",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:男の子": {
+   "text": "男の子",
+   "reading": "おとこのこ",
+   "zh": "男孩",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:服": {
+   "text": "服",
+   "reading": "ふく",
+   "zh": "衣服",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:着る": {
+   "text": "着る",
+   "reading": "きる",
+   "zh": "穿（上衣、衣服）",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:Tシャツ": {
+   "text": "Tシャツ",
+   "reading": "ティーシャツ",
+   "zh": "T恤",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:黄色い": {
+   "text": "黄色い",
+   "reading": "きいろい",
+   "zh": "黃色的",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:帽子": {
+   "text": "帽子",
+   "reading": "ぼうし",
+   "zh": "帽子",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:かぶる": {
+   "text": "かぶる",
+   "reading": "かぶる",
+   "zh": "戴（帽子）",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:靴": {
+   "text": "靴",
+   "reading": "くつ",
+   "zh": "鞋子",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:半ズボン": {
+   "text": "半ズボン",
+   "reading": "はんズボン",
+   "zh": "短褲",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:履く": {
+   "text": "履く",
+   "reading": "はく",
+   "zh": "穿（褲子、鞋子、襪子）",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:特徴": {
+   "text": "特徴",
+   "reading": "とくちょう",
+   "zh": "特徵",
+   "level": "N3",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:恐竜": {
+   "text": "恐竜",
+   "reading": "きょうりゅう",
+   "zh": "恐龍",
+   "level": "N3",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:放送": {
+   "text": "放送",
+   "reading": "ほうそう",
+   "zh": "廣播（館内放送＝館內廣播）",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:見つかる": {
+   "text": "見つかる",
+   "reading": "みつかる",
+   "zh": "被找到（自動詞：～找到了）",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:係員": {
+   "text": "係員",
+   "reading": "かかりいん",
+   "zh": "工作人員",
+   "level": "N3",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:vocab:電話番号": {
+   "text": "電話番号",
+   "reading": "でんわばんごう",
+   "zh": "電話號碼",
+   "level": "N5",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
    ]
   }
  },
@@ -2386,7 +3312,8 @@
    "zh": "非常抱歉（正式的道歉）",
    "introduced": "drama-w01-e03",
    "used_in": [
-    "drama-w01-e03"
+    "drama-w01-e03",
+    "family-w01-e03"
    ]
   },
   "ja:phrase:お預かりします": {
@@ -2508,6 +3435,254 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
+   ]
+  },
+  "ja:phrase:ご家族ですか": {
+   "text": "ご家族ですか",
+   "zh": "是一家人嗎？（確認同行家人）",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:phrase:大人の方だけ": {
+   "text": "大人の方だけ",
+   "zh": "只有大人（才需要）",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:phrase:もう少しゆっくりお願いします": {
+   "text": "もう少しゆっくりお願いします",
+   "zh": "請再說慢一點",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:phrase:膝が悪いので": {
+   "text": "膝が悪いので",
+   "zh": "因為膝蓋不好（說明長輩狀況）",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:phrase:日本語、上手ですね": {
+   "text": "日本語、上手ですね",
+   "zh": "日語說得真好",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:phrase:何枚ですか": {
+   "text": "何枚ですか",
+   "zh": "要幾張？",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:phrase:お子様は何歳ですか": {
+   "text": "お子様は何歳ですか",
+   "zh": "小朋友幾歲？",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:phrase:小学生は子ども料金です": {
+   "text": "小学生は子ども料金です",
+   "zh": "小學生是兒童票價",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:phrase:未就学のお子様は無料です": {
+   "text": "未就学のお子様は無料です",
+   "zh": "學齡前兒童免費",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:phrase:どうぞどうぞ": {
+   "text": "どうぞどうぞ",
+   "zh": "請、請（熱心地讓位、讓路）",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:phrase:助かります": {
+   "text": "助かります",
+   "zh": "幫了大忙、真是感謝",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:phrase:少々お待ちください": {
+   "text": "少々お待ちください",
+   "zh": "請稍等一下",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:phrase:はい、ございます": {
+   "text": "はい、ございます",
+   "zh": "有的（「あります」的客氣說法）",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:phrase:すみません、うるさくて": {
+   "text": "すみません、うるさくて",
+   "zh": "不好意思，（小孩）吵到你們了",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:phrase:あとでね": {
+   "text": "あとでね",
+   "zh": "等一下見喔（小孩、朋友間）",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:phrase:お子様用のいすをお持ちします": {
+   "text": "お子様用のいすをお持ちします",
+   "zh": "我拿兒童椅過來（店員用語）",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:phrase:ご注文はお決まりですか": {
+   "text": "ご注文はお決まりですか",
+   "zh": "請問要點餐了嗎？",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:phrase:アレルギーはございますか": {
+   "text": "アレルギーはございますか",
+   "zh": "請問有過敏嗎？（店員用語）",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:phrase:えびは入っておりません": {
+   "text": "〜は入っておりません",
+   "zh": "裡面沒有～（店員的客氣說法）",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:phrase:確認いたします": {
+   "text": "確認いたします",
+   "zh": "我去確認（店員的客氣說法）",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:phrase:少なめでお願いします": {
+   "text": "少なめでお願いします",
+   "zh": "請（幫我）少一點",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:phrase:熱を出しました": {
+   "text": "熱を出しました",
+   "zh": "發燒了",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:phrase:何時から何時までですか": {
+   "text": "何時から何時までですか",
+   "zh": "營業時間是幾點到幾點？",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:phrase:何歳からですか": {
+   "text": "〜は何歳からですか",
+   "zh": "～是幾歲以上可以用？",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:phrase:保険証はお持ちですか": {
+   "text": "保険証はお持ちですか",
+   "zh": "請問有健保卡嗎？（醫院櫃台用語）",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:phrase:問診票にご記入ください": {
+   "text": "問診票にご記入ください",
+   "zh": "請填寫問診單",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:phrase:落ち着いて": {
+   "text": "落ち着いて",
+   "zh": "冷靜一點",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:phrase:迷子になりました": {
+   "text": "迷子になりました",
+   "zh": "（小孩）走丟了",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:phrase:どんな服を着ていますか": {
+   "text": "どんな服を着ていますか",
+   "zh": "穿什麼樣的衣服？",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:phrase:迷子のお知らせをいたします": {
+   "text": "迷子のお知らせをいたします",
+   "zh": "現在播報走失協尋（廣播用語）",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
+   ]
+  },
+  "ja:phrase:お近くの係員までお知らせください": {
+   "text": "お近くの係員までお知らせください",
+   "zh": "請告知附近的工作人員（廣播用語）",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
    ]
   }
  },
@@ -2653,7 +3828,8 @@
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
-    "drama-w01-e02"
+    "drama-w01-e02",
+    "family-w01-e01"
    ]
   },
   "ja:grammar:te-mo-ii-desuka": {
@@ -2662,7 +3838,8 @@
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
-    "drama-w01-e03"
+    "drama-w01-e03",
+    "family-w01-e02"
    ]
   },
   "ja:grammar:kara-riyuu": {
@@ -2716,7 +3893,8 @@
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
-    "drama-w02-e06"
+    "drama-w02-e06",
+    "family-w02-e06"
    ]
   },
   "ja:grammar:te-iru-joutai": {
@@ -2726,6 +3904,87 @@
    "introduced": "drama-w02-e06",
    "used_in": [
     "drama-w02-e06"
+   ]
+  },
+  "ja:grammar:desuka-hai-iie": {
+   "pattern": "〜ですか（確認）／はい・いいえ",
+   "zh": "是～嗎？（確認）／用「はい」「いいえ」回答",
+   "level": "N5",
+   "introduced": "family-w01-e01",
+   "used_in": [
+    "family-w01-e01"
+   ]
+  },
+  "ja:grammar:sai-nin": {
+   "pattern": "数字・年齢（〜歳）・人数（〜人）",
+   "zh": "數字、年齡（～歲）、人數（～人）的說法（注意 四人＝よにん、二人＝ふたり、四歳＝よんさい）",
+   "level": "N5",
+   "introduced": "family-w01-e02",
+   "used_in": [
+    "family-w01-e02"
+   ]
+  },
+  "ja:grammar:ga-arimasuka": {
+   "pattern": "〜がありますか／〜はありません",
+   "zh": "有～嗎？／沒有～（詢問有沒有東西、設施；否定時常用「は」）",
+   "level": "N5",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:grammar:tain-desuga": {
+   "pattern": "〜たいんですが（依頼の前置き）",
+   "zh": "我想～（委婉開口提出請求，後面的「請問可以嗎」常省略）",
+   "level": "N5",
+   "introduced": "family-w01-e03",
+   "used_in": [
+    "family-w01-e03"
+   ]
+  },
+  "ja:grammar:ga-haitte-imasuka": {
+   "pattern": "〜が入っていますか／〜は食べられません",
+   "zh": "問食物裡有沒有某樣東西：「〜が入っていますか」（店員回答會說「入っております／入っておりません」）。說自己不能吃：「〜は食べられません」（食べる的可能形「食べられる」的否定）。",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:grammar:naide-kudasai": {
+   "pattern": "〜ないでください",
+   "zh": "請不要～：動詞ない形＋でください。小孩或家人之間只說「〜ないで」。點餐時說「〜をつけないでください」「〜を入れないでください」很實用。",
+   "level": "N4",
+   "introduced": "family-w02-e04",
+   "used_in": [
+    "family-w02-e04"
+   ]
+  },
+  "ja:grammar:kara-made": {
+   "pattern": "〜から〜まで（時間・年齢）",
+   "zh": "從～到～：表示時間、年齡等範圍的起點和終點。營業時間「九時から十時まで」、藥品適用年齡「三歳から十四歳まで」都用這個句型；只說起點就是「〜から」。",
+   "level": "N4",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:grammar:ta-hou-ga-ii": {
+   "pattern": "〜たほうがいいです",
+   "zh": "最好～、～比較好：動詞た形＋ほうがいいです，給對方建議。家人朋友之間說「〜たほうがいいよ」；否定的建議是「〜ないほうがいいです」。",
+   "level": "N4",
+   "introduced": "family-w02-e05",
+   "used_in": [
+    "family-w02-e05"
+   ]
+  },
+  "ja:grammar:o-kite-imasu": {
+   "pattern": "〜を着ています／〜をかぶっています（服装）",
+   "zh": "描述穿著。上衣、衣服用「着ています」，帽子用「かぶっています」，褲子、鞋子用「はいています」。「〜ている」表示穿上之後的狀態；放在名詞前面修飾時說「青いTシャツを着た男の子」。",
+   "level": "N4",
+   "introduced": "family-w02-e06",
+   "used_in": [
+    "family-w02-e06"
    ]
   }
  }

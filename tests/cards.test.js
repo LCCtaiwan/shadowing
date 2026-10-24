@@ -71,7 +71,7 @@ test('ruby：三種模式與重點標示', () => {
 test('今日任務：依順序給下一話，開課日前也能先開始；漏掉的照順序補', () => {
   const t = todayTasks(index, { episodes: {}, drills: {} }, '2026-10-28');
   assert.equal(t.episode.id, 'ja-drama-w01-e01');
-  assert.equal(t.behind, 3);
+  assert.equal(t.behind, 5);
   const done = { 'ja-drama-w01-e01': true, 'ja-anime-w01-e01': true, 'ja-drama-w01-e02': true };
   assert.equal(todayTasks(index, { episodes: done, drills: {} }, '2026-10-28').episode.id, 'ja-anime-w01-e02');
   assert.equal(todayTasks(index, { episodes: {}, drills: {} }, '2026-10-20').episode.id, 'ja-drama-w01-e01');

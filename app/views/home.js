@@ -82,7 +82,6 @@ export default function home(root) {
       </div>
     </div>
     ${showGuide ? GUIDE : ''}
-    ${t.behind > 1 ? `<div class="card flat muted">有 ${t.behind} 話還沒練，照順序補就好。</div>` : ''}
     <div class="card stack" style="gap:8px">
       <div class="row between"><h2>零碎時間</h2><span class="muted">1–3 分鐘</span></div>
       <div class="quick">
