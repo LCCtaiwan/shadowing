@@ -76,6 +76,22 @@ def need(rep, where, obj, keys):
     return ok
 
 
+def check_links(rep, where, links):
+    if not links:
+        return
+    for c in links.get("collocations", []):
+        if need(rep, f"{where} 搭配", c, ["cue", "text", "zh"]):
+            if not c["text"].startswith(c["cue"]) or c["text"] == c["cue"]:
+                rep.err(where, f"搭配的 text 必須以 cue 開頭且更長：{c['cue']} / {c['text']}")
+            bad = sorted({ch for ch in c["text"] if ch in TRAD})
+            if bad:
+                rep.err(where, f"搭配混了中文繁體字：{c['text']}")
+    for kind in ("opposite", "related"):
+        for x in links.get(kind, []):
+            if need(rep, f"{where} {kind}", x, ["text", "reading", "zh"]) and not KANA_ONLY.match(x["reading"]):
+                rep.err(where, f"{kind} 讀音必須是假名：{x['text']}")
+
+
 def check_options(rep, where, item):
     opts, ans = item.get("options"), item.get("answer")
     if not isinstance(opts, list) or len(opts) < 3:
@@ -147,6 +163,7 @@ def check_episode(rep, path, data, cast, seen):
             if v["level"] not in LEVELS:
                 rep.err(w, f"vocab level：{v['id']}")
             link("vocab", v, False)
+            check_links(rep, f"{w} {v['id']}", v.get("links"))
             # 三部劇使用者可任選順序，只檢查同一部劇內有沒有重複新教
             key = (data["series"], v["id"])
             if key in seen and not v.get("review"):

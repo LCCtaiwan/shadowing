@@ -6,13 +6,14 @@ import { play, stop } from '../lib/audio.js';
 import { buildQueue, nextCard, deckCounts, estimateMinutes } from '../lib/srs.js';
 import { preview, formatInterval } from '../lib/fsrs.js';
 import { DECKS, DECK_NAMES, clozeParts } from '../lib/cards.js';
+import { buildNetwork, renderNetwork, learnedWords, linkQuestion } from '../lib/network.js';
 import { go } from '../main.js';
 
 const LEVELS = [null, 'N5', 'N4', 'N3', 'N2'];
 const RATES = [['重來', 'again'], ['困難', ''], ['良好', 'goodr'], ['簡單', '']];
 const KIND_HINT = {
   sentence: '先聽，跟著念一次，想想意思，再看答案', 'vocab-listen': '聽發音，想想是什麼意思', 'vocab-read': '這個字怎麼唸？',
-  'phrase-cloze': '聽整句，想想空格裡是什麼', grammar: '這個句型是什麼意思？',
+  'phrase-cloze': '聽整句，想想空格裡是什麼', grammar: '這個句型是什麼意思？', 'vocab-link': '哪一個能接在後面？自己想出搭配，記得最牢',
 };
 
 export default function review(root, [mode]) {
@@ -68,6 +69,9 @@ export default function review(root, [mode]) {
     let back = '';
     let autoplay = null;
     const exampleBox = ex => ex ? `<div class="card flat"><div class="jp sm">${renderRuby(ex.ruby, 'furi')}</div><p class="muted">${esc(ex.zh)}</p></div>` : '';
+    const network = () => c.deck === 'vocab'
+      ? renderNetwork(buildNetwork(c.note, S.lexicon, learnedWords(S.cards), d.example && { title: c.src.title, line: d.example })) : '';
+    let quiz = null;
 
     if (c.kind === 'sentence') {
       autoplay = () => sayLine(d);
@@ -81,7 +85,15 @@ export default function review(root, [mode]) {
         : `<div class="big-word" style="margin-top:20px">${esc(d.text)}</div>`;
       back = `<div style="text-align:center">${listen ? `<div class="muted">${esc(d.reading)}</div><div class="big-word">${esc(d.text)}</div>` : `<div style="font-size:22px;color:var(--brand)">${esc(d.reading)}</div>`}
         <div class="muted">${esc(d.pos)}・${c.level}</div><p style="font-size:18px;margin-top:6px">${esc(d.zh)}</p></div>
-        ${exampleBox(d.example)}${d.example ? `<button class="ghost" data-ex>${ICON.vol} 聽例句</button>` : ''}`;
+        ${exampleBox(d.example)}${d.example ? `<button class="ghost" data-ex>${ICON.vol} 聽例句</button>` : ''}${network()}`;
+    } else if (c.kind === 'vocab-link') {
+      quiz = linkQuestion(c.note, S.lexicon, c.id);
+      front = quiz
+        ? `<div class="jp" style="text-align:center">${esc(quiz.cue)}<span class="cloze">？</span></div>
+          <div class="stack" style="gap:8px">${quiz.options.map((o, i) => `<button class="opt" data-pick="${i}">${esc(o)}</button>`).join('')}</div>`
+        : `<div class="big-word">${esc(d.text)}</div>`;
+      back = `<div style="text-align:center"><div class="jp">${quiz ? `${esc(quiz.cue)}<span class="cloze">${esc(quiz.answer)}</span>` : esc(d.text)}</div>
+        <p>${esc(quiz?.zh || d.zh)}</p><p class="muted">${esc(d.text)}（${esc(d.reading)}）${esc(d.zh)}</p></div>${network()}`;
     } else if (c.kind === 'phrase-cloze') {
       const parts = clozeParts(d.line.text, d.surface) || [d.line.text, '', ''];
       autoplay = () => sayLine(d.line);
@@ -121,6 +133,16 @@ export default function review(root, [mode]) {
     $('[data-ex]', root)?.addEventListener('click', () => sayLine(d.example));
     $$('[data-gex]', root).forEach(b => b.addEventListener('click', () => sayLine(d.examples[+b.dataset.gex])));
     if (autoplay) setTimeout(() => autoplay(), 200);
+    $$('[data-pick]', root).forEach(b => b.addEventListener('click', () => {
+      if (!quiz || $('#backSide', root).hidden === false) return;
+      const ok = quiz.options[+b.dataset.pick] === quiz.answer;
+      $$('[data-pick]', root).forEach(x => {
+        x.classList.toggle('right', quiz.options[+x.dataset.pick] === quiz.answer);
+        x.classList.toggle('wrong', x === b && !ok);
+      });
+      $('#show', root).click();
+      sayWord();
+    }));
     $('#show', root).addEventListener('click', () => {
       $('#backSide', root).hidden = false;
       $('#show', root).hidden = true;
@@ -149,7 +171,7 @@ export default function review(root, [mode]) {
       const rows = S.cards.filter(c => (deck === 'all' || (deck === 'suspended' ? c.suspended : c.deck === deck))
         && (!term || JSON.stringify(c.data).includes(term))).slice(0, 200);
       $('#list', root).innerHTML = rows.length ? rows.map(c => `
-        <div class="check"><span style="flex:1;min-width:0"><b>${title(c)}</b><br><span class="muted">${DECK_NAMES[c.deck]}・${{ sentence: '聽句子', 'vocab-listen': '聽音想意思', 'vocab-read': '看字唸讀音', 'phrase-cloze': '填空', grammar: '句型' }[c.kind]}・${c.level}${c.lapses ? `・忘了 ${c.lapses} 次` : ''}</span></span>
+        <div class="check"><span style="flex:1;min-width:0"><b>${title(c)}</b><br><span class="muted">${DECK_NAMES[c.deck]}・${{ sentence: '聽句子', 'vocab-listen': '聽音想意思', 'vocab-read': '看字唸讀音', 'vocab-link': '連結題', 'phrase-cloze': '填空', grammar: '句型' }[c.kind]}・${c.level}${c.lapses ? `・忘了 ${c.lapses} 次` : ''}</span></span>
         ${status(c)}<button class="ghost" data-toggle="${esc(c.id)}">${c.suspended ? '恢復' : '暫停'}</button></div>`).join('')
         : '<p class="muted empty">沒有符合的卡片。</p>';
       $$('[data-toggle]', root).forEach(b => b.addEventListener('click', async () => {

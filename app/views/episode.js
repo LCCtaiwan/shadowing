@@ -222,6 +222,7 @@ export default async function episode(root, [id]) {
       if (c.kind === 'sentence') return esc(c.data.text);
       if (c.kind === 'vocab-listen') return `${esc(c.data.text)}（${esc(c.data.reading)}）${esc(c.data.zh)}<span class="muted">・聽音想意思</span>`;
       if (c.kind === 'vocab-read') return `${esc(c.data.text)}<span class="muted">・看字唸讀音</span>`;
+      if (c.kind === 'vocab-link') return `${esc(c.data.text)}<span class="muted">・連結題（搭配）</span>`;
       if (c.kind === 'phrase-cloze') return `${esc(c.data.text)}　<span class="muted">${esc(c.data.zh)}</span>`;
       return `${esc(c.data.pattern)}　<span class="muted">${esc(c.data.zh.slice(0, 24))}…</span>`;
     };

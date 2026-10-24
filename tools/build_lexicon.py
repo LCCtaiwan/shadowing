@@ -18,9 +18,11 @@ def main():
         where = f"{ep['series']}-w{ep['week']:02d}-e{ep['episode']:02d}"
         for v in ep["vocab"]:
             entry = lex["vocab"].setdefault(v["id"], {
-                "text": v["text"], "reading": v["reading"], "zh": v["zh"], "level": v["level"],
+                "text": v["text"], "reading": v["reading"], "zh": v["zh"], "pos": v.get("pos", ""), "level": v["level"],
                 "introduced": where, "used_in": []})
             entry["used_in"].append(where)
+            if v.get("links") and not entry.get("links"):
+                entry["links"] = v["links"]
         for p in ep["phrases"]:
             entry = lex["phrases"].setdefault(p["id"], {"text": p["text"], "zh": p["zh"], "introduced": where, "used_in": []})
             entry["used_in"].append(where)

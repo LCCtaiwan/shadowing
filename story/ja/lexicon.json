@@ -4,6 +4,7 @@
    "text": "転校生",
    "reading": "てんこうせい",
    "zh": "轉學生",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -15,6 +16,7 @@
    "text": "自己紹介",
    "reading": "じこしょうかい",
    "zh": "自我介紹",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -25,6 +27,7 @@
    "text": "来る",
    "reading": "くる",
    "zh": "來",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -35,6 +38,7 @@
    "text": "質問",
    "reading": "しつもん",
    "zh": "問題、發問",
+   "pos": "名詞・する動詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -45,6 +49,7 @@
    "text": "アイドル",
    "reading": "アイドル",
    "zh": "偶像",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -55,6 +60,7 @@
    "text": "普通",
    "reading": "ふつう",
    "zh": "普通、一般",
+   "pos": "名詞・な形容詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -67,6 +73,7 @@
    "text": "学生",
    "reading": "がくせい",
    "zh": "學生",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -77,6 +84,7 @@
    "text": "大好き",
    "reading": "だいすき",
    "zh": "非常喜歡",
+   "pos": "な形容詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -87,6 +95,7 @@
    "text": "席",
    "reading": "せき",
    "zh": "座位",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -97,6 +106,7 @@
    "text": "寝る",
    "reading": "ねる",
    "zh": "睡覺",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -109,6 +119,7 @@
    "text": "上手",
    "reading": "じょうず",
    "zh": "擅長、很厲害（稱讚別人）",
+   "pos": "な形容詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -121,6 +132,7 @@
    "text": "速い",
    "reading": "はやい",
    "zh": "（速度）快",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -132,6 +144,7 @@
    "text": "危ない",
    "reading": "あぶない",
    "zh": "危險",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -142,6 +155,7 @@
    "text": "大丈夫",
    "reading": "だいじょうぶ",
    "zh": "沒問題、沒事",
+   "pos": "な形容詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -153,6 +167,7 @@
    "text": "俺",
    "reading": "おれ",
    "zh": "我（男生的隨性自稱）",
+   "pos": "代名詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -163,6 +178,7 @@
    "text": "すごい",
    "reading": "すごい",
    "zh": "厲害；「すげえ」是男生口語的說法",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -173,6 +189,7 @@
    "text": "かっこいい",
    "reading": "かっこいい",
    "zh": "帥、酷",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -183,6 +200,7 @@
    "text": "歌手",
    "reading": "かしゅ",
    "zh": "歌手",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -193,6 +211,7 @@
    "text": "遅い",
    "reading": "おそい",
    "zh": "慢、晚",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -204,6 +223,7 @@
    "text": "部長",
    "reading": "ぶちょう",
    "zh": "社長（社團的負責人）；公司裡是「部長、經理」",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e01",
    "used_in": [
@@ -214,6 +234,7 @@
    "text": "部活",
    "reading": "ぶかつ",
    "zh": "社團活動（「部活動」的簡稱）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -224,6 +245,7 @@
    "text": "見学",
    "reading": "けんがく",
    "zh": "參觀、見習",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -234,6 +256,7 @@
    "text": "一緒",
    "reading": "いっしょ",
    "zh": "一起",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -246,6 +269,7 @@
    "text": "運動",
    "reading": "うんどう",
    "zh": "運動",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -256,6 +280,7 @@
    "text": "苦手",
    "reading": "にがて",
    "zh": "不擅長、應付不來",
+   "pos": "な形容詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -266,6 +291,7 @@
    "text": "決める",
    "reading": "きめる",
    "zh": "決定",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -276,6 +302,7 @@
    "text": "店",
    "reading": "みせ",
    "zh": "店",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -286,6 +313,7 @@
    "text": "音",
    "reading": "おと",
    "zh": "聲音（物體發出的聲音）",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -296,6 +324,7 @@
    "text": "作る",
    "reading": "つくる",
    "zh": "做、製作",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -306,6 +335,7 @@
    "text": "係",
    "reading": "かかり",
    "zh": "負責～的人、～股長",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -316,6 +346,7 @@
    "text": "呼ぶ",
    "reading": "よぶ",
    "zh": "叫、找來",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -326,6 +357,7 @@
    "text": "部員",
    "reading": "ぶいん",
    "zh": "社員、社團成員",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -337,6 +369,7 @@
    "text": "足りる",
    "reading": "たりる",
    "zh": "足夠",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -347,6 +380,7 @@
    "text": "必要",
    "reading": "ひつよう",
    "zh": "需要、必要",
+   "pos": "な形容詞・名詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -358,6 +392,7 @@
    "text": "なくなる",
    "reading": "なくなる",
    "zh": "消失、沒了",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -368,6 +403,7 @@
    "text": "入る",
    "reading": "はいる",
    "zh": "加入；進入",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -379,6 +415,7 @@
    "text": "下手",
    "reading": "へた",
    "zh": "不擅長、很差",
+   "pos": "な形容詞",
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -389,6 +426,7 @@
    "text": "声",
    "reading": "こえ",
    "zh": "（人的）聲音",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w01-e02",
    "used_in": [
@@ -400,6 +438,7 @@
    "text": "マイク",
    "reading": "マイク",
    "zh": "麥克風",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -410,6 +449,7 @@
    "text": "叩く",
    "reading": "たたく",
    "zh": "敲、拍打",
+   "pos": "動詞",
    "level": "N3",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -420,6 +460,7 @@
    "text": "お菓子",
    "reading": "おかし",
    "zh": "零食、點心",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -430,6 +471,7 @@
    "text": "出す",
    "reading": "だす",
    "zh": "發出；拿出",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -440,6 +482,7 @@
    "text": "一番",
    "reading": "いちばん",
    "zh": "最～、第一",
+   "pos": "副詞・名詞",
    "level": "N5",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -451,6 +494,7 @@
    "text": "うるさい",
    "reading": "うるさい",
    "zh": "吵、煩",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -462,6 +506,7 @@
    "text": "勇者",
    "reading": "ゆうしゃ",
    "zh": "勇者（奇幻作品的主角）；動漫常見詞",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -473,6 +518,7 @@
    "text": "逃げる",
    "reading": "にげる",
    "zh": "逃跑",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -483,6 +529,7 @@
    "text": "早口言葉",
    "reading": "はやくちことば",
    "zh": "繞口令",
+   "pos": "名詞",
    "level": "N2",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -493,6 +540,7 @@
    "text": "時計",
    "reading": "とけい",
    "zh": "時鐘、手錶",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -503,6 +551,7 @@
    "text": "止める",
    "reading": "とめる",
    "zh": "停下、關掉",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -513,6 +562,7 @@
    "text": "焼肉",
    "reading": "やきにく",
    "zh": "烤肉",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -523,6 +573,7 @@
    "text": "録音",
    "reading": "ろくおん",
    "zh": "錄音",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -534,6 +585,7 @@
    "text": "森",
    "reading": "もり",
    "zh": "森林",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -544,6 +596,7 @@
    "text": "魔王",
    "reading": "まおう",
    "zh": "魔王；動漫常見詞",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -555,6 +608,7 @@
    "text": "人間",
    "reading": "にんげん",
    "zh": "人類、人",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -565,6 +619,7 @@
    "text": "帰る",
    "reading": "かえる",
    "zh": "回去、回家",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -575,6 +630,7 @@
    "text": "雷",
    "reading": "かみなり",
    "zh": "雷",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -585,6 +641,7 @@
    "text": "忘れる",
    "reading": "わすれる",
    "zh": "忘記",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w01-e03",
    "used_in": [
@@ -595,6 +652,7 @@
    "text": "購買",
    "reading": "こうばい",
    "zh": "（學校的）福利社；「購買部」的簡稱（超出級別）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -605,6 +663,7 @@
    "text": "昼休み",
    "reading": "ひるやすみ",
    "zh": "午休",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -615,6 +674,7 @@
    "text": "焼きそばパン",
    "reading": "やきそばパン",
    "zh": "炒麵麵包",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -625,6 +685,7 @@
    "text": "個",
    "reading": "こ",
    "zh": "～個（數小東西）；一個 いっこ、十個 じゅっこ",
+   "pos": "助数詞",
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -635,6 +696,7 @@
    "text": "うまい",
    "reading": "うまい",
    "zh": "好吃（男生常用的口語，比「おいしい」隨興）",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -645,6 +707,7 @@
    "text": "安い",
    "reading": "やすい",
    "zh": "便宜",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -655,6 +718,7 @@
    "text": "廊下",
    "reading": "ろうか",
    "zh": "走廊",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -665,6 +729,7 @@
    "text": "走る",
    "reading": "はしる",
    "zh": "跑",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -675,6 +740,7 @@
    "text": "次",
    "reading": "つぎ",
    "zh": "下一個；「次の人」下一位",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -687,6 +753,7 @@
    "text": "おしまい",
    "reading": "おしまい",
    "zh": "結束、賣完（口語）",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -697,6 +764,7 @@
    "text": "牛乳",
    "reading": "ぎゅうにゅう",
    "zh": "牛奶",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -707,6 +775,7 @@
    "text": "残る",
    "reading": "のこる",
    "zh": "剩下；「残ってる」＝「残っている」的口語縮約",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -717,6 +786,7 @@
    "text": "先輩",
    "reading": "せんぱい",
    "zh": "學長、學姊",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -727,6 +797,7 @@
    "text": "枚",
    "reading": "まい",
    "zh": "～片、～張（數薄的東西）；一枚 いちまい",
+   "pos": "助数詞",
    "level": "N5",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -738,6 +809,7 @@
    "text": "半分",
    "reading": "はんぶん",
    "zh": "一半",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -748,6 +820,7 @@
    "text": "別に",
    "reading": "べつに",
    "zh": "（後接否定）並沒有特別…；傲嬌常用的嘴硬開頭",
+   "pos": "副詞",
    "level": "N4",
    "introduced": "anime-w02-e04",
    "used_in": [
@@ -758,6 +831,7 @@
    "text": "雨",
    "reading": "あめ",
    "zh": "雨",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -768,6 +842,7 @@
    "text": "傘",
    "reading": "かさ",
    "zh": "傘",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -778,6 +853,7 @@
    "text": "持ってくる",
    "reading": "もってくる",
    "zh": "帶來",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -788,6 +864,7 @@
    "text": "鍵",
    "reading": "かぎ",
    "zh": "鑰匙；鎖",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -798,6 +875,7 @@
    "text": "閉める",
    "reading": "しめる",
    "zh": "關上；「鍵を閉める」鎖門",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -808,6 +886,7 @@
    "text": "迎える",
    "reading": "むかえる",
    "zh": "迎接；「迎えに来る」來接（人）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -818,6 +897,7 @@
    "text": "駅",
    "reading": "えき",
    "zh": "車站",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -829,6 +909,7 @@
    "text": "休む",
    "reading": "やすむ",
    "zh": "休息；請假、缺席",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -839,6 +920,7 @@
    "text": "心配",
    "reading": "しんぱい",
    "zh": "擔心",
+   "pos": "名詞・な形容詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -849,6 +931,7 @@
    "text": "当たり前",
    "reading": "あたりまえ",
    "zh": "理所當然；「当たり前じゃない」那還用說",
+   "pos": "名詞・な形容詞",
    "level": "N3",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -859,6 +942,7 @@
    "text": "文化祭",
    "reading": "ぶんかさい",
    "zh": "（學校的）文化祭、校慶園遊會",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -869,6 +953,7 @@
    "text": "台本",
    "reading": "だいほん",
    "zh": "劇本、腳本",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -880,6 +965,7 @@
    "text": "助ける",
    "reading": "たすける",
    "zh": "幫助；「助けてない」＝「助けていない」",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -890,6 +976,7 @@
    "text": "肩",
    "reading": "かた",
    "zh": "肩膀",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -900,6 +987,7 @@
    "text": "濡れる",
    "reading": "ぬれる",
    "zh": "淋濕；「濡れてる」＝「濡れている」（狀態）",
+   "pos": "動詞",
    "level": "N3",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -910,6 +998,7 @@
    "text": "楽しみ",
    "reading": "たのしみ",
    "zh": "期待、樂趣；「楽しみにしてる」很期待",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -920,6 +1009,7 @@
    "text": "今夜",
    "reading": "こんや",
    "zh": "今晚",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e05",
    "used_in": [
@@ -930,6 +1020,7 @@
    "text": "城",
    "reading": "しろ",
    "zh": "城堡；「お城」",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -940,6 +1031,7 @@
    "text": "我",
    "reading": "われ",
    "zh": "吾、我（古風高傲的自稱，動漫魔王、王者常用；超出級別）",
+   "pos": "代名詞",
    "level": "N1",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -950,6 +1042,7 @@
    "text": "村",
    "reading": "むら",
    "zh": "村子",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -960,6 +1053,7 @@
    "text": "返す",
    "reading": "かえす",
    "zh": "歸還；「返せ」是命令形：還來！",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -970,6 +1064,7 @@
    "text": "倒す",
    "reading": "たおす",
    "zh": "打倒",
+   "pos": "動詞",
    "level": "N3",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -980,6 +1075,7 @@
    "text": "全部",
    "reading": "ぜんぶ",
    "zh": "全部",
+   "pos": "名詞・副詞",
    "level": "N5",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -992,6 +1088,7 @@
    "text": "許す",
    "reading": "ゆるす",
    "zh": "原諒；「許さない」不原諒你",
+   "pos": "動詞",
    "level": "N3",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1002,6 +1099,7 @@
    "text": "無駄",
    "reading": "むだ",
    "zh": "白費、沒用（動漫反派常說「無駄だ」）",
+   "pos": "名詞・な形容詞",
    "level": "N3",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1012,6 +1110,7 @@
    "text": "体",
    "reading": "からだ",
    "zh": "身體",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1022,6 +1121,7 @@
    "text": "動く",
    "reading": "うごく",
    "zh": "動、移動",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1033,6 +1133,7 @@
    "text": "光",
    "reading": "ひかり",
    "zh": "光",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1043,6 +1144,7 @@
    "text": "精霊",
    "reading": "せいれい",
    "zh": "精靈（超出級別，奇幻作品常見）",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1053,6 +1155,7 @@
    "text": "負ける",
    "reading": "まける",
    "zh": "輸",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1063,6 +1166,7 @@
    "text": "落とす",
    "reading": "おとす",
    "zh": "弄掉、掉落",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1073,6 +1177,7 @@
    "text": "怖い",
    "reading": "こわい",
    "zh": "可怕",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1083,6 +1188,7 @@
    "text": "悪い",
    "reading": "わるい",
    "zh": "壞、不好；「悪くない」還不錯（含蓄的稱讚）",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "anime-w02-e06",
    "used_in": [
@@ -1094,6 +1200,7 @@
    "text": "入国",
    "reading": "にゅうこく",
    "zh": "入境",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1104,6 +1211,7 @@
    "text": "目的",
    "reading": "もくてき",
    "zh": "目的",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1114,6 +1222,7 @@
    "text": "観光",
    "reading": "かんこう",
    "zh": "觀光",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1124,6 +1233,7 @@
    "text": "滞在",
    "reading": "たいざい",
    "zh": "停留、居留",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1134,6 +1244,7 @@
    "text": "泊まる",
    "reading": "とまる",
    "zh": "住宿、過夜",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1144,6 +1255,7 @@
    "text": "見せる",
    "reading": "みせる",
    "zh": "給人看、出示",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1154,6 +1266,7 @@
    "text": "指",
    "reading": "ゆび",
    "zh": "手指",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1165,6 +1278,7 @@
    "text": "置く",
    "reading": "おく",
    "zh": "放、擺",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1175,6 +1289,7 @@
    "text": "黒い",
    "reading": "くろい",
    "zh": "黑色的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1185,6 +1300,7 @@
    "text": "多い",
    "reading": "おおい",
    "zh": "多的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1195,6 +1311,7 @@
    "text": "赤い",
    "reading": "あかい",
    "zh": "紅色的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1205,6 +1322,7 @@
    "text": "円",
    "reading": "えん",
    "zh": "日圓",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1215,6 +1333,7 @@
    "text": "金額",
    "reading": "きんがく",
    "zh": "金額",
+   "pos": "名詞",
    "level": "N2",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1225,6 +1344,7 @@
    "text": "名前",
    "reading": "なまえ",
    "zh": "名字",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1235,6 +1355,7 @@
    "text": "書く",
    "reading": "かく",
    "zh": "寫",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1246,6 +1367,7 @@
    "text": "確認",
    "reading": "かくにん",
    "zh": "確認",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1257,6 +1379,7 @@
    "text": "仕事",
    "reading": "しごと",
    "zh": "工作",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1267,6 +1390,7 @@
    "text": "旅行",
    "reading": "りょこう",
    "zh": "旅行",
+   "pos": "名詞・する動詞",
    "level": "N5",
    "introduced": "drama-w01-e01",
    "used_in": [
@@ -1278,6 +1402,7 @@
    "text": "買う",
    "reading": "かう",
    "zh": "買",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1288,6 +1413,7 @@
    "text": "券売機",
    "reading": "けんばいき",
    "zh": "售票機",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1299,6 +1425,7 @@
    "text": "押す",
    "reading": "おす",
    "zh": "按、推",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1310,6 +1437,7 @@
    "text": "入れる",
    "reading": "いれる",
    "zh": "放進去",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1320,6 +1448,7 @@
    "text": "お金",
    "reading": "おかね",
    "zh": "錢",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1330,6 +1459,7 @@
    "text": "出る",
    "reading": "でる",
    "zh": "出來、出去",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1340,6 +1470,7 @@
    "text": "楽しい",
    "reading": "たのしい",
    "zh": "愉快的、開心的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1350,6 +1481,7 @@
    "text": "旅",
    "reading": "たび",
    "zh": "旅行、旅途",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1360,6 +1492,7 @@
    "text": "番線",
    "reading": "ばんせん",
    "zh": "第～號月台",
+   "pos": "名詞（接尾）",
    "level": "N3",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1370,6 +1503,7 @@
    "text": "階段",
    "reading": "かいだん",
    "zh": "樓梯",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1381,6 +1515,7 @@
    "text": "下りる",
    "reading": "おりる",
    "zh": "下（樓梯、坡）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1391,6 +1526,7 @@
    "text": "右",
    "reading": "みぎ",
    "zh": "右邊",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1401,6 +1537,7 @@
    "text": "電車",
    "reading": "でんしゃ",
    "zh": "電車",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1411,6 +1548,7 @@
    "text": "急ぐ",
    "reading": "いそぐ",
    "zh": "趕快、急忙",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1421,6 +1559,7 @@
    "text": "行き",
    "reading": "ゆき",
    "zh": "開往～（電車廣播常唸「ゆき」）",
+   "pos": "名詞（接尾）",
    "level": "N3",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1431,6 +1570,7 @@
    "text": "出口",
    "reading": "でぐち",
    "zh": "出口",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1441,6 +1581,7 @@
    "text": "左側",
    "reading": "ひだりがわ",
    "zh": "左側",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1451,6 +1592,7 @@
    "text": "地図",
    "reading": "ちず",
    "zh": "地圖",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e02",
    "used_in": [
@@ -1462,6 +1604,7 @@
    "text": "様",
    "reading": "さま",
    "zh": "～先生／小姐（客人的敬稱）",
+   "pos": "接尾辞",
    "level": "N4",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1472,6 +1615,7 @@
    "text": "荷物",
    "reading": "にもつ",
    "zh": "行李",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1483,6 +1627,7 @@
    "text": "預ける",
    "reading": "あずける",
    "zh": "寄放、交給人保管",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1493,6 +1638,7 @@
    "text": "番号",
    "reading": "ばんごう",
    "zh": "號碼",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1503,6 +1649,7 @@
    "text": "使う",
    "reading": "つかう",
    "zh": "使用",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1513,6 +1660,7 @@
    "text": "本日",
    "reading": "ほんじつ",
    "zh": "今天（正式說法）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1523,6 +1671,7 @@
    "text": "三泊",
    "reading": "さんぱく",
    "zh": "住三晚",
+   "pos": "名詞（数量）",
    "level": "N3",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1533,6 +1682,7 @@
    "text": "住所",
    "reading": "じゅうしょ",
    "zh": "地址",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1543,6 +1693,7 @@
    "text": "漢字",
    "reading": "かんじ",
    "zh": "漢字",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1553,6 +1704,7 @@
    "text": "難しい",
    "reading": "むずかしい",
    "zh": "困難的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1563,6 +1715,7 @@
    "text": "部屋",
    "reading": "へや",
    "zh": "房間",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1574,6 +1727,7 @@
    "text": "朝ごはん",
    "reading": "あさごはん",
    "zh": "早餐",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1584,6 +1738,7 @@
    "text": "一階",
    "reading": "いっかい",
    "zh": "一樓",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1594,6 +1749,7 @@
    "text": "聞く",
    "reading": "きく",
    "zh": "問、聽",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1604,6 +1760,7 @@
    "text": "小さい",
    "reading": "ちいさい",
    "zh": "小的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1614,6 +1771,7 @@
    "text": "早い",
    "reading": "はやい",
    "zh": "早的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w01-e03",
    "used_in": [
@@ -1624,6 +1782,7 @@
    "text": "弁当",
    "reading": "べんとう",
    "zh": "便當",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1634,6 +1793,7 @@
    "text": "冷蔵庫",
    "reading": "れいぞうこ",
    "zh": "冰箱；（店裡的）冷藏櫃",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1644,6 +1804,7 @@
    "text": "奥",
    "reading": "おく",
    "zh": "裡面、深處",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1654,6 +1815,7 @@
    "text": "温める",
    "reading": "あたためる",
    "zh": "加熱、弄熱",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1664,6 +1826,7 @@
    "text": "袋",
    "reading": "ふくろ",
    "zh": "袋子",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1674,6 +1837,7 @@
    "text": "利用",
    "reading": "りよう",
    "zh": "利用、使用（ご利用＝店員的敬語說法）",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1684,6 +1848,7 @@
    "text": "分ける",
    "reading": "わける",
    "zh": "分開",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1694,6 +1859,7 @@
    "text": "温かい",
    "reading": "あたたかい",
    "zh": "溫熱的",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1704,6 +1870,7 @@
    "text": "冷たい",
    "reading": "つめたい",
    "zh": "冰的、冷的（摸起來）",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1714,6 +1881,7 @@
    "text": "箸",
    "reading": "はし",
    "zh": "筷子",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1724,6 +1892,7 @@
    "text": "付ける",
    "reading": "つける",
    "zh": "附上、加上",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1734,6 +1903,7 @@
    "text": "ポイントカード",
    "reading": "ポイントカード",
    "zh": "集點卡",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1744,6 +1914,7 @@
    "text": "持つ",
    "reading": "もつ",
    "zh": "拿、持有（お持ちですか＝您有嗎）",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1754,6 +1925,7 @@
    "text": "会計",
    "reading": "かいけい",
    "zh": "結帳（お会計）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1764,6 +1936,7 @@
    "text": "Suica",
    "reading": "スイカ",
    "zh": "Suica（交通 IC 卡，也能在便利商店付款）",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1774,6 +1947,7 @@
    "text": "レシート",
    "reading": "レシート",
    "zh": "收據、發票",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1784,6 +1958,7 @@
    "text": "恥ずかしい",
    "reading": "はずかしい",
    "zh": "丟臉、不好意思",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "drama-w02-e04",
    "used_in": [
@@ -1794,6 +1969,7 @@
    "text": "並ぶ",
    "reading": "ならぶ",
    "zh": "排隊、排列",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1804,6 +1980,7 @@
    "text": "食券",
    "reading": "しょっけん",
    "zh": "餐券（超出 N4，旅遊必備）",
+   "pos": "名詞",
    "level": "N2",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1814,6 +1991,7 @@
    "text": "醤油",
    "reading": "しょうゆ",
    "zh": "醬油",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1824,6 +2002,7 @@
    "text": "大盛り",
    "reading": "おおもり",
    "zh": "大碗、加大份量",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1834,6 +2013,7 @@
    "text": "麺",
    "reading": "めん",
    "zh": "麵",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1844,6 +2024,7 @@
    "text": "無料",
    "reading": "むりょう",
    "zh": "免費",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1856,6 +2037,7 @@
    "text": "預かる",
    "reading": "あずかる",
    "zh": "收下、代為保管（お預かりします＝店員收東西時說）",
+   "pos": "動詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1866,6 +2048,7 @@
    "text": "硬さ",
    "reading": "かたさ",
    "zh": "硬度",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1876,6 +2059,7 @@
    "text": "固め",
    "reading": "かため",
    "zh": "偏硬",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1886,6 +2070,7 @@
    "text": "柔らかめ",
    "reading": "やわらかめ",
    "zh": "偏軟",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1896,6 +2081,7 @@
    "text": "おすすめ",
    "reading": "おすすめ",
    "zh": "推薦",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1906,6 +2092,7 @@
    "text": "一口",
    "reading": "ひとくち",
    "zh": "一口",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1916,6 +2103,7 @@
    "text": "頼む",
    "reading": "たのむ",
    "zh": "點（餐）、拜託",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e05",
    "used_in": [
@@ -1926,6 +2114,7 @@
    "text": "予約",
    "reading": "よやく",
    "zh": "預約、訂位",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1937,6 +2126,7 @@
    "text": "電池",
    "reading": "でんち",
    "zh": "電池、電量",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1947,6 +2137,7 @@
    "text": "切れる",
    "reading": "きれる",
    "zh": "用完、斷掉（電池が切れる＝沒電）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1957,6 +2148,7 @@
    "text": "探す",
    "reading": "さがす",
    "zh": "找",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1967,6 +2159,7 @@
    "text": "焼き鳥",
    "reading": "やきとり",
    "zh": "烤雞串",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1977,6 +2170,7 @@
    "text": "まっすぐ",
    "reading": "まっすぐ",
    "zh": "直直地、筆直",
+   "pos": "副詞",
    "level": "N5",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1987,6 +2181,7 @@
    "text": "信号",
    "reading": "しんごう",
    "zh": "紅綠燈",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -1997,6 +2192,7 @@
    "text": "曲がる",
    "reading": "まがる",
    "zh": "轉彎",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2007,6 +2203,7 @@
    "text": "看板",
    "reading": "かんばん",
    "zh": "招牌",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2017,6 +2214,7 @@
    "text": "閉まる",
    "reading": "しまる",
    "zh": "（門、店）關著、關閉",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2027,6 +2225,7 @@
    "text": "入り口",
    "reading": "いりぐち",
    "zh": "入口",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2037,6 +2236,7 @@
    "text": "横",
    "reading": "よこ",
    "zh": "旁邊、側面",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2048,6 +2248,7 @@
    "text": "間に合う",
    "reading": "まにあう",
    "zh": "趕上、來得及",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2058,6 +2259,7 @@
    "text": "迷う",
    "reading": "まよう",
    "zh": "迷路、猶豫",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2068,6 +2270,7 @@
    "text": "優しい",
    "reading": "やさしい",
    "zh": "溫柔、親切",
+   "pos": "い形容詞",
    "level": "N4",
    "introduced": "drama-w02-e06",
    "used_in": [
@@ -2078,6 +2281,7 @@
    "text": "家族",
    "reading": "かぞく",
    "zh": "家人、家庭",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2089,6 +2293,7 @@
    "text": "皆さん",
    "reading": "みなさん",
    "zh": "各位、大家",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2099,6 +2304,7 @@
    "text": "パスポート",
    "reading": "パスポート",
    "zh": "護照",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2109,6 +2315,7 @@
    "text": "お子様",
    "reading": "おこさま",
    "zh": "（您的）小孩、小朋友（尊敬說法）",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2119,6 +2326,7 @@
    "text": "娘",
    "reading": "むすめ",
    "zh": "女兒",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2129,6 +2337,7 @@
    "text": "息子",
    "reading": "むすこ",
    "zh": "兒子",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2140,6 +2349,7 @@
    "text": "写真",
    "reading": "しゃしん",
    "zh": "照片",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2150,6 +2360,7 @@
    "text": "赤ちゃん",
    "reading": "あかちゃん",
    "zh": "嬰兒、小寶寶",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2160,6 +2371,7 @@
    "text": "大人",
    "reading": "おとな",
    "zh": "大人、成人",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2172,6 +2384,7 @@
    "text": "主人",
    "reading": "しゅじん",
    "zh": "先生、丈夫（ご主人＝您先生）",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2182,6 +2395,7 @@
    "text": "ベビーカー",
    "reading": "ベビーカー",
    "zh": "嬰兒車",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2192,6 +2406,7 @@
    "text": "青い",
    "reading": "あおい",
    "zh": "藍色的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2203,6 +2418,7 @@
    "text": "エレベーター",
    "reading": "エレベーター",
    "zh": "電梯",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2213,6 +2429,7 @@
    "text": "膝",
    "reading": "ひざ",
    "zh": "膝蓋",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2224,6 +2441,7 @@
    "text": "トイレ",
    "reading": "トイレ",
    "zh": "廁所",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e01",
    "used_in": [
@@ -2234,6 +2452,7 @@
    "text": "ICOCA",
    "reading": "イコカ",
    "zh": "ICOCA（JR 西日本的交通 IC 卡）",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2244,6 +2463,7 @@
    "text": "子ども",
    "reading": "こども",
    "zh": "小孩",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2255,6 +2475,7 @@
    "text": "歳",
    "reading": "さい",
    "zh": "～歲",
+   "pos": "助数詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2266,6 +2487,7 @@
    "text": "小学生",
    "reading": "しょうがくせい",
    "zh": "小學生",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2276,6 +2498,7 @@
    "text": "料金",
    "reading": "りょうきん",
    "zh": "費用、票價",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2286,6 +2509,7 @@
    "text": "未就学",
    "reading": "みしゅうがく",
    "zh": "學齡前（還沒上小學）",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2296,6 +2520,7 @@
    "text": "小学校",
    "reading": "しょうがっこう",
    "zh": "小學",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2306,6 +2531,7 @@
    "text": "乗る",
    "reading": "のる",
    "zh": "搭乘",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2316,6 +2542,7 @@
    "text": "近く",
    "reading": "ちかく",
    "zh": "附近",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2326,6 +2553,7 @@
    "text": "時間",
    "reading": "じかん",
    "zh": "時間；～小時",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2336,6 +2564,7 @@
    "text": "痛い",
    "reading": "いたい",
    "zh": "痛",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2346,6 +2575,7 @@
    "text": "座る",
    "reading": "すわる",
    "zh": "坐",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "family-w01-e02",
    "used_in": [
@@ -2356,6 +2586,7 @@
    "text": "チェックイン",
    "reading": "チェックイン",
    "zh": "入住手續",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2366,6 +2597,7 @@
    "text": "紙",
    "reading": "かみ",
    "zh": "紙、單子",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2376,6 +2608,7 @@
    "text": "添い寝",
    "reading": "そいね",
    "zh": "（小孩）和大人同床睡、不另佔床",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2386,6 +2619,7 @@
    "text": "追加",
    "reading": "ついか",
    "zh": "追加、加（床、點餐）",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2396,6 +2630,7 @@
    "text": "エキストラベッド",
    "reading": "エキストラベッド",
    "zh": "加床",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2406,6 +2641,7 @@
    "text": "ソファベッド",
    "reading": "ソファベッド",
    "zh": "沙發床",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2416,6 +2652,7 @@
    "text": "隣",
    "reading": "となり",
    "zh": "隔壁、旁邊（隣同士＝彼此相鄰）",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2426,6 +2663,7 @@
    "text": "号室",
    "reading": "ごうしつ",
    "zh": "～號房",
+   "pos": "助数詞",
    "level": "N4",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2436,6 +2674,7 @@
    "text": "歯ブラシ",
    "reading": "はブラシ",
    "zh": "牙刷",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2446,6 +2685,7 @@
    "text": "大浴場",
    "reading": "だいよくじょう",
    "zh": "（飯店的）大浴池、公共大澡堂",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2456,6 +2696,7 @@
    "text": "夜",
    "reading": "よる",
    "zh": "晚上",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w01-e03",
    "used_in": [
@@ -2466,6 +2707,7 @@
    "text": "椅子",
    "reading": "いす",
    "zh": "椅子（子ども用のいす＝兒童椅）",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2476,6 +2718,7 @@
    "text": "メニュー",
    "reading": "メニュー",
    "zh": "菜單（お子様メニュー＝兒童菜單）",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2486,6 +2729,7 @@
    "text": "おもちゃ",
    "reading": "おもちゃ",
    "zh": "玩具",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2496,6 +2740,7 @@
    "text": "注文",
    "reading": "ちゅうもん",
    "zh": "點餐、訂購",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2506,6 +2751,7 @@
    "text": "アレルギー",
    "reading": "アレルギー",
    "zh": "過敏",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2516,6 +2762,7 @@
    "text": "えび",
    "reading": "えび",
    "zh": "蝦子（漢字寫作「海老」，菜單上常用平假名或片假名）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2526,6 +2773,7 @@
    "text": "天ぷら",
    "reading": "てんぷら",
    "zh": "天婦羅、炸物",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2536,6 +2784,7 @@
    "text": "定食",
    "reading": "ていしょく",
    "zh": "定食、套餐",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2546,6 +2795,7 @@
    "text": "焼き魚",
    "reading": "やきざかな",
    "zh": "烤魚",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2556,6 +2806,7 @@
    "text": "みそ汁",
    "reading": "みそしる",
    "zh": "味噌湯",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2566,6 +2817,7 @@
    "text": "糖尿病",
    "reading": "とうにょうびょう",
    "zh": "糖尿病（較難的詞，但帶長輩出國很實用）",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2576,6 +2828,7 @@
    "text": "甘い",
    "reading": "あまい",
    "zh": "甜的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2586,6 +2839,7 @@
    "text": "少なめ",
    "reading": "すくなめ",
    "zh": "少一點、減量（ご飯少なめ＝飯少一點）",
+   "pos": "名詞・な形容詞",
    "level": "N3",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2596,6 +2850,7 @@
    "text": "鉄板",
    "reading": "てっぱん",
    "zh": "鐵板",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2606,6 +2861,7 @@
    "text": "触る",
    "reading": "さわる",
    "zh": "摸、碰",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2616,6 +2872,7 @@
    "text": "安心",
    "reading": "あんしん",
    "zh": "放心、安心",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "family-w02-e04",
    "used_in": [
@@ -2626,6 +2883,7 @@
    "text": "元気",
    "reading": "げんき",
    "zh": "精神、活力（元気がない＝沒精神）",
+   "pos": "名詞・な形容詞",
    "level": "N5",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2636,6 +2894,7 @@
    "text": "熱",
    "reading": "ねつ",
    "zh": "發燒、熱度（熱を出す＝發燒）",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2646,6 +2905,7 @@
    "text": "薬局",
    "reading": "やっきょく",
    "zh": "藥局",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2656,6 +2916,7 @@
    "text": "薬",
    "reading": "くすり",
    "zh": "藥（熱の薬＝退燒藥）",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2666,6 +2927,7 @@
    "text": "体重",
    "reading": "たいじゅう",
    "zh": "體重",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2676,6 +2938,7 @@
    "text": "キロ",
    "reading": "キロ",
    "zh": "公斤",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2686,6 +2949,7 @@
    "text": "量",
    "reading": "りょう",
    "zh": "份量、用量",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2696,6 +2960,7 @@
    "text": "回数",
    "reading": "かいすう",
    "zh": "次數",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2706,6 +2971,7 @@
    "text": "病院",
    "reading": "びょういん",
    "zh": "醫院",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2716,6 +2982,7 @@
    "text": "小児科",
    "reading": "しょうにか",
    "zh": "小兒科",
+   "pos": "名詞",
    "level": "N2",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2726,6 +2993,7 @@
    "text": "午前",
    "reading": "ごぜん",
    "zh": "上午",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2736,6 +3004,7 @@
    "text": "旅行者",
    "reading": "りょこうしゃ",
    "zh": "旅客、遊客",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2746,6 +3015,7 @@
    "text": "保険証",
    "reading": "ほけんしょう",
    "zh": "健保卡（日本的健康保險證）",
+   "pos": "名詞",
    "level": "N2",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2756,6 +3026,7 @@
    "text": "保険",
    "reading": "ほけん",
    "zh": "保險（海外旅行保険＝海外旅遊險）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2766,6 +3037,7 @@
    "text": "自費",
    "reading": "じひ",
    "zh": "自費（沒有日本健保時要全額自付）",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2776,6 +3048,7 @@
    "text": "領収書",
    "reading": "りょうしゅうしょ",
    "zh": "收據（申請旅遊險理賠時要用）",
+   "pos": "名詞",
    "level": "N2",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2786,6 +3059,7 @@
    "text": "問診票",
    "reading": "もんしんひょう",
    "zh": "問診單（看診前填寫症狀的表格）",
+   "pos": "名詞",
    "level": "N1",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2796,6 +3070,7 @@
    "text": "記入",
    "reading": "きにゅう",
    "zh": "填寫",
+   "pos": "名詞・する動詞",
    "level": "N3",
    "introduced": "family-w02-e05",
    "used_in": [
@@ -2806,6 +3081,7 @@
    "text": "見つける",
    "reading": "みつける",
    "zh": "找到（他動詞：我找到～）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2816,6 +3092,7 @@
    "text": "迷子",
    "reading": "まいご",
    "zh": "走失的小孩、迷路（迷子になる＝走丟）",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2826,6 +3103,7 @@
    "text": "男の子",
    "reading": "おとこのこ",
    "zh": "男孩",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2836,6 +3114,7 @@
    "text": "服",
    "reading": "ふく",
    "zh": "衣服",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2846,6 +3125,7 @@
    "text": "着る",
    "reading": "きる",
    "zh": "穿（上衣、衣服）",
+   "pos": "動詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2856,6 +3136,7 @@
    "text": "Tシャツ",
    "reading": "ティーシャツ",
    "zh": "T恤",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2866,6 +3147,7 @@
    "text": "黄色い",
    "reading": "きいろい",
    "zh": "黃色的",
+   "pos": "い形容詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2876,6 +3158,7 @@
    "text": "帽子",
    "reading": "ぼうし",
    "zh": "帽子",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2886,6 +3169,7 @@
    "text": "かぶる",
    "reading": "かぶる",
    "zh": "戴（帽子）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2896,6 +3180,7 @@
    "text": "靴",
    "reading": "くつ",
    "zh": "鞋子",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2906,6 +3191,7 @@
    "text": "半ズボン",
    "reading": "はんズボン",
    "zh": "短褲",
+   "pos": "名詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2916,6 +3202,7 @@
    "text": "履く",
    "reading": "はく",
    "zh": "穿（褲子、鞋子、襪子）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2926,6 +3213,7 @@
    "text": "特徴",
    "reading": "とくちょう",
    "zh": "特徵",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2936,6 +3224,7 @@
    "text": "恐竜",
    "reading": "きょうりゅう",
    "zh": "恐龍",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2946,6 +3235,7 @@
    "text": "放送",
    "reading": "ほうそう",
    "zh": "廣播（館内放送＝館內廣播）",
+   "pos": "名詞・する動詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2956,6 +3246,7 @@
    "text": "見つかる",
    "reading": "みつかる",
    "zh": "被找到（自動詞：～找到了）",
+   "pos": "動詞",
    "level": "N4",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2966,6 +3257,7 @@
    "text": "係員",
    "reading": "かかりいん",
    "zh": "工作人員",
+   "pos": "名詞",
    "level": "N3",
    "introduced": "family-w02-e06",
    "used_in": [
@@ -2976,6 +3268,7 @@
    "text": "電話番号",
    "reading": "でんわばんごう",
    "zh": "電話號碼",
+   "pos": "名詞",
    "level": "N5",
    "introduced": "family-w02-e06",
    "used_in": [

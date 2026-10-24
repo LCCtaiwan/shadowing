@@ -33,6 +33,7 @@ export function cardsFromEpisode(ep, meta, seq = 0) {
       example: ex && { text: ex.text, ruby: ex.ruby, zh: ex.zh, audioKey: ex.id } };
     add(`${v.id}#listen`, v.id, 'vocab', 'vocab-listen', v.level, data);
     if (KANJI.test(v.text)) add(`${v.id}#read`, v.id, 'vocab', 'vocab-read', v.level, data);
+    if (v.links?.collocations?.length) add(`${v.id}#link`, v.id, 'vocab', 'vocab-link', v.level, data);
   }
   for (const p of ep.phrases) {
     const l = lines[p.line];

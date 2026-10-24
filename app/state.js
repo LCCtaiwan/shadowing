@@ -12,7 +12,7 @@ export const DEFAULT_SETTINGS = {
 
 export const S = {
   index: null, settings: { ...DEFAULT_SETTINGS }, progress: { episodes: {}, drills: {}, resume: {} },
-  days: [], reading: {}, today: null, cards: [], episodes: new Map(), drills: new Map(), cast: {},
+  days: [], reading: {}, today: null, cards: [], episodes: new Map(), drills: new Map(), cast: {}, lexicon: { vocab: {} },
 };
 
 const CAST_FILES = ['story/ja/cast.json', 'story/ja/drama/cast.json', 'story/ja/anime/cast.json', 'story/ja/family/cast.json'];
@@ -24,6 +24,7 @@ export const todayStr = () => (/^\d{4}-\d{2}-\d{2}$/.test(OVERRIDE || '') ? OVER
 export async function boot() {
   const casts = await Promise.all(CAST_FILES.map(f => fetch(f).then(r => (r.ok ? r.json() : {})).catch(() => ({}))));
   S.cast = Object.assign({}, ...casts);
+  S.lexicon = await fetch('story/ja/lexicon.json').then(r => (r.ok ? r.json() : { vocab: {} })).catch(() => ({ vocab: {} }));
   const [index, settings, progress, days, reading, today, cards] = await Promise.all([
     fetch('scripts/index.json', { cache: 'no-cache' }).then(r => r.json()),
     db.kvGet('settings'), db.kvGet('progress'), db.kvGet('days'), db.kvGet('reading'), db.kvGet('today'), db.allCards(),

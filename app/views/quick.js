@@ -5,6 +5,7 @@ import { renderRuby } from '../lib/ruby.js';
 import { play, stop, wait } from '../lib/audio.js';
 import { endOfDay } from '../lib/srs.js';
 import { nextUnfinished } from '../lib/schedule.js';
+import { buildNetwork, renderNetwork, learnedWords } from '../lib/network.js';
 import { go } from '../main.js';
 
 const SESSION = 10;
@@ -86,6 +87,7 @@ async function vocab(root) {
           <div class="muted">${esc(w.reading)}</div><div class="big-word">${esc(w.text)}</div>
           <div class="muted">${esc(w.pos || '')}</div><p style="font-size:18px">${esc(w.zh)}</p>
           ${w.example ? `<div class="card flat" style="text-align:left;width:100%"><div class="jp sm">${renderRuby(w.example.ruby, 'furi')}</div><p class="muted">${esc(w.example.zh)}</p></div>` : ''}
+          <div style="width:100%">${renderNetwork(buildNetwork(w.card?.note || w.audioKey, S.lexicon, learnedWords(S.cards)))}</div>
         </div>
       </div>
       <div class="row wrap" style="justify-content:center">
