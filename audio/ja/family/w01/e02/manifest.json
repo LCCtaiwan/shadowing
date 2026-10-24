@@ -278,5 +278,68 @@
   "text": "むりょう",
   "voice": "Schedar",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:小学校": {
+  "file": "v-2d9a2e7e704d.mp3",
+  "hash": "2c93609c03fa3482",
+  "text": "しょうがっこう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:必要": {
+  "file": "v-bf62757e1c7d.mp3",
+  "hash": "4ad6e6f0a0db0e34",
+  "text": "ひつよう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:全部": {
+  "file": "v-a5ffb5044c74.mp3",
+  "hash": "6c93a0f6aa7d63b4",
+  "text": "ぜんぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:乗る": {
+  "file": "v-42f8d2951b38.mp3",
+  "hash": "f7af623aec23afe5",
+  "text": "のる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:近く": {
+  "file": "v-2b6d7d2a4155.mp3",
+  "hash": "e5fbc7207178ac3e",
+  "text": "ちかく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:時間": {
+  "file": "v-7799c3f6d669.mp3",
+  "hash": "4f9aaadffc5ad4c6",
+  "text": "じかん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:膝": {
+  "file": "v-192765ff3d2f.mp3",
+  "hash": "325da24d947dbdd0",
+  "text": "ひざ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:痛い": {
+  "file": "v-3e2e4e8ebb42.mp3",
+  "hash": "6b4680938f085c03",
+  "text": "いたい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:座る": {
+  "file": "v-37fc2d957713.mp3",
+  "hash": "631a571c51c25f3f",
+  "text": "すわる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }

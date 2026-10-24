@@ -1,0 +1,345 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "72e7a6668ec051f7",
+  "text": "電車で大阪に着きました。今日は家族みんなでホテルに泊まります。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "ba7797b2a63087cc",
+  "text": "いらっしゃいませ。チェックインですか。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "2adaca7f7dde074f",
+  "text": "はい、チェックインをお願いします。これ、予約の紙です。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "b8a6fba3e4c07502",
+  "text": "ありがとうございます。本日からさんぱく、ふたへや、大人四名様、お子様二名様ですね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "bed73bd79c543db0",
+  "text": "お子様は、添い寝ですか。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "28d7ed9d9d58a314",
+  "text": "お子様が、大人と一緒のベッドで寝ます。添い寝のお子様は無料です。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "7bf9c721e253ea68",
+  "text": "あ、わかりました。息子は添い寝です。でも、娘は七歳で、大きいです。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "3f448f4255651899",
+  "text": "すみません、「そいね」は何ですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "fcce06cd0c4b3834",
+  "text": "少々お待ちください。……申し訳ございません。今日はエキストラベッドはありません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "2345a044964e2032",
+  "text": "ベッドを一つ追加したいんですが……。エキストラベッドがありますか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "3339ac633c1478e0",
+  "text": "でも、こちらのお部屋には、大きいソファベッドがあります。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "e424962b5f3c8e33",
+  "text": "ソファベッドですか。じゃあ、大丈夫です。それから、部屋は隣同士にしたいんですが。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "71fd69ebc3602bd3",
+  "text": "はい、隣同士のお部屋です。はっぴゃくごごうしつとはっぴゃくろくごうしつです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-13": {
+  "file": "s1-13.mp3",
+  "hash": "ed8ed4b60fa2c392",
+  "text": "子ども用の歯ブラシはありますか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-14": {
+  "file": "s1-14.mp3",
+  "hash": "d1245db90962881e",
+  "text": "はい、ございます。あちらから、ご自由にどうぞ。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "37da548755876acd",
+  "text": "あっ、イコカだ！ぼくも持ってる！",
+  "voice": "Achird",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "c2fdc0a44bdc0fc3",
+  "text": "うん！わたしのイコカ！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "ff4c94476f30b52d",
+  "text": "ぼく、そうた。六歳！",
+  "voice": "Achird",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "725c245d59373f3a",
+  "text": "わたし、シャオミー。七歳！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "07f8708d42ec4307",
+  "text": "すみません、うるさくて。どちらからですか。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "9f02b60a26e58f92",
+  "text": "台湾から来ました。かけいです。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "28bd348e822061b3",
+  "text": "中村です。うちも家族旅行なんです。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "ebd0ae49fb3bd389",
+  "text": "あの、大浴場に行きたいんですが、どこですか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "3fc9dfb74056779e",
+  "text": "大浴場は二階ですよ。夜十一時までです。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "0e2952a784c066bb",
+  "text": "シャオミー、あとでね！",
+  "voice": "Achird",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "8e60a3dd19593067",
+  "text": "わたしたちも、あとで行きます。一緒にどうですか。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "c977e6345d278c03",
+  "text": "うん、あとでね！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "02bc36910aa8c24b",
+  "text": "このホテルには、プールはありません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "4aace17c99af4a32",
+  "text": "すみません、タクシーを呼びたいんですが……。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "34491818eda952c4",
+  "text": "すみません、子ども用のいすがありますか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "e32bbb3e7cd39f87",
+  "text": "荷物を預けたいんですが、いいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:チェックイン": {
+  "file": "v-65d0fd9870ee.mp3",
+  "hash": "7b9af7d731751091",
+  "text": "チェックイン",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:予約": {
+  "file": "v-98d5dfd66a79.mp3",
+  "hash": "3effbd61d73029f1",
+  "text": "よやく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:紙": {
+  "file": "v-9b0963d2eeef.mp3",
+  "hash": "f5c02ef9eb2275bc",
+  "text": "かみ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:部屋": {
+  "file": "v-75eeed168c2a.mp3",
+  "hash": "0d842cca8a29cb6f",
+  "text": "へや",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:添い寝": {
+  "file": "v-630885fe94e7.mp3",
+  "hash": "eb94b62ab72f78f4",
+  "text": "そいね",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:寝る": {
+  "file": "v-2733728255c5.mp3",
+  "hash": "eea7f81d7ba99d4a",
+  "text": "ねる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:無料": {
+  "file": "v-130a12ad1a04.mp3",
+  "hash": "562c65e7321b4408",
+  "text": "むりょう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:追加": {
+  "file": "v-88a6f2df0fb0.mp3",
+  "hash": "c894a3372403767c",
+  "text": "ついか",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:ソファベッド": {
+  "file": "v-4f30aaa1ee55.mp3",
+  "hash": "5acfa8890e2f9779",
+  "text": "ソファベッド",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:エキストラベッド": {
+  "file": "v-6f252fcd07ec.mp3",
+  "hash": "1ede0220e10755a4",
+  "text": "エキストラベッド",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:隣": {
+  "file": "v-ae4f8c2103f3.mp3",
+  "hash": "820e2d85ddce4b3e",
+  "text": "となり",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:歯ブラシ": {
+  "file": "v-59895bb997d6.mp3",
+  "hash": "ed6a51bc63690c46",
+  "text": "はブラシ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:号室": {
+  "file": "v-1c5a0d1998b7.mp3",
+  "hash": "5c377ad210c6d5b5",
+  "text": "ごうしつ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:家族": {
+  "file": "v-9d9967fd13da.mp3",
+  "hash": "554d21ed576b4120",
+  "text": "かぞく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:旅行": {
+  "file": "v-61679583d3a2.mp3",
+  "hash": "d8c6b05155971e73",
+  "text": "りょこう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:大浴場": {
+  "file": "v-c7517576175b.mp3",
+  "hash": "22cb85244a41d118",
+  "text": "だいよくじょう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:夜": {
+  "file": "v-5757496f6454.mp3",
+  "hash": "48cb36dc66fe13f0",
+  "text": "よる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:一緒": {
+  "file": "v-8b2edc0b5ee0.mp3",
+  "hash": "3e4cd4b8fa2db064",
+  "text": "いっしょ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

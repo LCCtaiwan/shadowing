@@ -40,5 +40,201 @@
   "hash": "fd5b0d5426632330",
   "text": "ちょっと、あなた。転校生でしょ。部活は、もう決めた？",
   "voice": "Despina"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "6882815f9ac8ac9c",
+  "text": "あ、そうなんですか。じゃあ、行きましょう！",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "540c70faaddba4f3",
+  "text": "テニス部です！一緒にやりませんか？",
+  "voice": "Puck",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "94f5023da9dad4a6",
+  "text": "じゃあ、来なさい！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "4f1ef8202d1b52d5",
+  "text": "いいえ、まだなんです。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "fa7ae39462b551d3",
+  "text": "いらっしゃいませぇ～。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "12a74735e6e1040c",
+  "text": "ひな、ここはお店じゃない！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "8e1fdc8dacb1490a",
+  "text": "はじめましてぇ。一年のひなです。音を作る係なんですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "3fb3616b304de079",
+  "text": "あの……どうしてわたしをここに呼んだんですか？",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "c6b8852c477ce99c",
+  "text": "えっ？ど、どこへ行くんですか～！？",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "e241bc86d6a0fb90",
+  "text": "べ、別に……。部員が足りないの。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "e4f9a59593da202e",
+  "text": "よう、シャオユー！ラジオ部は今、三人だけなんだ。でも、五人必要なんだぜ。",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "1f8167c0188c6e79",
+  "text": "だから……ラジオ部は、もうすぐなくなるんですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "0b540528359a1e33",
+  "text": "なくならない！わたしがいるから！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "94465d134d5eaeca",
+  "text": "シャオユー、ラジオ部に入らないか？",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "8143546985c54ac9",
+  "text": "一緒にラジオドラマを作りませんかぁ？",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-12": {
+  "file": "s3-12.mp3",
+  "hash": "7fcf23390e11095c",
+  "text": "べ、別にいいじゃない。あなたの声、悪くないから。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "49b8af576e23c5b0",
+  "text": "でも……わたし、にほんごがまだ下手なんです。",
+  "voice": "Leda",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-13": {
+  "file": "s3-13.mp3",
+  "hash": "7353997aa1ef299e",
+  "text": "……はい！入りましょう！あっ、入ります！",
+  "voice": "Leda",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-14": {
+  "file": "s3-14.mp3",
+  "hash": "f7afd53b29e27ec7",
+  "text": "よし！これでよにんだぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-15": {
+  "file": "s3-15.mp3",
+  "hash": "6137cf52b734ff1c",
+  "text": "……あー、うるさい。好きにしろ。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "7a07073a9869117b",
+  "text": "今度のにちようび、一緒に映画を見ませんか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "5d82e76358101975",
+  "text": "疲れましたね。ちょっと休みましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "eaec21061a40a8ad",
+  "text": "すみません、今日は頭が痛いんです。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "05680b037c94fb1f",
+  "text": "どうして昨日来なかったんですか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:部活": {
+  "file": "v-fd56a334df02.mp3",
+  "hash": "d3f50126c68bd280",
+  "text": "ぶかつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:見学": {
+  "file": "v-ebec358299bb.mp3",
+  "hash": "709ffe7a9827b79b",
+  "text": "けんがく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:一緒": {
+  "file": "v-8b2edc0b5ee0.mp3",
+  "hash": "3e4cd4b8fa2db064",
+  "text": "いっしょ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:苦手": {
+  "file": "v-91430a68635a.mp3",
+  "hash": "5fbfca53b366d9ae",
+  "text": "にがて",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }
