@@ -301,7 +301,7 @@ def main(argv):
         ap.error("沒有要配音的檔案")
 
     load_dotenv()
-    model = os.environ.get("GEMINI_TTS_MODEL", DEFAULT_MODEL)
+    model = os.environ.get("GEMINI_TTS_MODEL") or DEFAULT_MODEL
     if not args.dry_run and not os.environ.get("GEMINI_API_KEY"):
         sys.exit("找不到 GEMINI_API_KEY：請執行 .venv/bin/python tools/setup_key.py，或設定環境變數（--dry-run 可只看要送的文字）")
     synth = None if args.dry_run else make_synth(model)
