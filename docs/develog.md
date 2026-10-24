@@ -52,8 +52,10 @@
   - 測試：`node --test tests/*.test.js` 16 項（FSRS、卡片、佇列、ruby、今日任務、連續天數）。內建瀏覽器手機尺寸實測整個流程通過。
 - 2026-10-24：`.github/workflows/voice.yml`（每天 03:00 配今天＋明天、scripts 有更新時也跑、可手動指定），需 repo Secret `GEMINI_API_KEY`；尚未上 GitHub。
 
+- 2026-10-24：建立公開 repo https://github.com/LCCtaiwan/shadowing ，推送 `mini/japanese-mvp`（目前也是預設分支；尚無 main）；GitHub Pages 從此分支根目錄發布：https://lcctaiwan.github.io/shadowing/ ，線上實測首頁、索引、劇本皆 200、無 console 錯誤。
+
 ## Current Checkpoint
-App 本體完成並在本機瀏覽器測過；還沒有任何真的 Gemini 音檔（等使用者在「Gemini voice」終端機分頁貼金鑰）；還沒建 GitHub repo。
+App 已上線 https://lcctaiwan.github.io/shadowing/ ；還沒有任何真的 Gemini 音檔（等使用者在「Gemini voice」終端機分頁貼金鑰，之後再用 `gh secret set` 設定 repo Secret）。
 
 ## Recommended Next Step
-1) 使用者貼金鑰 → 試配、試聽調整；2) 建 GitHub repo（問使用者公開與否）＋ Pages ＋ Secret；3) iPhone 加主畫面實測；4) 建 Claude 每週寫課例行工作。
+1) 使用者貼金鑰 → 試配、試聽調整 → 設 repo Secret `GEMINI_API_KEY`，讓 Actions 每天配音；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。
