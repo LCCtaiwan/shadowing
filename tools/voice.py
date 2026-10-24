@@ -259,7 +259,22 @@ class QuotaExhausted(Exception):
 # 主要型號用完每日額度時，依序改用下一個（各型號額度分開計算；聲音名稱共用）
 FALLBACK_MODELS = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts", "gemini-3.1-flash-tts-preview",
                    "gemini-2.5-pro-preview-tts", "gemini-2.5-flash-preview-tts"]
-MP3_MODELS = {"gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"}  # 其他型號只能輸出 wav，之後用 ffmpeg 轉 mp3
+MP3_MODELS = {"gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"}  # 其他型號只能輸出原始 PCM（audio/l16），用 ffmpeg 轉 mp3
+
+
+def _response_format(model):
+    if model in MP3_MODELS:
+        return {"type": "audio", "mime_type": "audio/mp3"}
+    return {"type": "audio", "mime_type": "audio/l16", "sample_rate": 24000}
+
+
+def pcm_to_mp3(pcm):
+    """24kHz 16-bit 單聲道 PCM → 64k mp3。"""
+    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", "pipe:0",
+                          "-b:a", "64k", "-f", "mp3", "pipe:1"], input=pcm, capture_output=True)
+    if out.returncode != 0 or not out.stdout:
+        raise RuntimeError(f"PCM 轉 mp3 失敗：{out.stderr[:200]!r}")
+    return out.stdout
 
 
 def make_synth(model):
@@ -278,7 +293,7 @@ def make_synth(model):
                 "type": "text", "text": job["text"],
                 "annotations": [{"type": "speech_metadata", "style": job["style"]}],
             }]}],
-            "response_format": {"type": "audio", "mime_type": "audio/mp3" if m in MP3_MODELS else "audio/wav"},
+            "response_format": _response_format(m),
             "generation_config": {"speech_config": [{"voice": job["voice"], "language": "ja"}]},
         }
         return client.post(API_URL, json=body)
@@ -309,7 +324,8 @@ def make_synth(model):
             if not data:
                 raise RuntimeError(f"{m} 回應裡沒有音訊")
             job["used_model"] = m
-            return base64.b64decode(data)
+            raw = base64.b64decode(data)
+            return raw if m in MP3_MODELS else pcm_to_mp3(raw)
         raise QuotaExhausted("所有 TTS 型號今天的額度都用完了")
 
     return synth
@@ -431,7 +447,7 @@ def _probe_one(model):
     body = {
         "model": model,
         "input": [{"type": "user_input", "content": [{"type": "text", "text": "こんにちは"}]}],
-        "response_format": {"type": "audio", "mime_type": "audio/mp3" if model in MP3_MODELS else "audio/wav"},
+        "response_format": _response_format(model),
         "generation_config": {"speech_config": [{"voice": "Kore", "language": "ja"}]},
     }
     r = httpx.post("https://generativelanguage.googleapis.com/v1beta/interactions", json=body,
