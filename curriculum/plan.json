@@ -180,6 +180,325 @@
             "〜をください",
             "いくつ／〜つ（数え方）"
           ]
+        },
+        {
+          "series": "tales",
+          "episode": 11,
+          "day": "sun",
+          "level": "N3",
+          "title": "桃太郎（一）",
+          "grammar": [
+            "〜にちがいない",
+            "〜ものだから"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 12,
+          "day": "sun",
+          "level": "N3",
+          "title": "桃太郎（二）",
+          "grammar": [
+            "〜につれて",
+            "〜てみたい／〜てみたくなる"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 13,
+          "day": "sun",
+          "level": "N4",
+          "title": "桃太郎（三）",
+          "grammar": [
+            "おいでになる",
+            "お〜する"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 14,
+          "day": "sun",
+          "level": "N3",
+          "title": "桃太郎（四）",
+          "grammar": [
+            "〜にしたがって",
+            "〜てある"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 15,
+          "day": "sun",
+          "level": "N3",
+          "title": "桃太郎（五）",
+          "grammar": [
+            "〜てしまう",
+            "〜てもらう"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 21,
+          "day": "sun",
+          "level": "N4",
+          "title": "浦島太郎（一）",
+          "grammar": [
+            "〜ものではない",
+            "〜ておくれ"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 22,
+          "day": "sun",
+          "level": "N3",
+          "title": "浦島太郎（二）",
+          "grammar": [
+            "〜にはおよばない",
+            "〜ていただく"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 23,
+          "day": "sun",
+          "level": "N3",
+          "title": "浦島太郎（三）",
+          "grammar": [
+            "〜たり〜たりする",
+            "お目にかける"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 24,
+          "day": "sun",
+          "level": "N3",
+          "title": "浦島太郎（四）",
+          "grammar": [
+            "〜ものですから",
+            "〜てはいけない"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 25,
+          "day": "sun",
+          "level": "N3",
+          "title": "浦島太郎（五）",
+          "grammar": [
+            "〜はずはない",
+            "〜ものだ（感嘆）"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 26,
+          "day": "sun",
+          "level": "N3",
+          "title": "浦島太郎（六）",
+          "grammar": [
+            "〜てたまらない",
+            "〜かもしれない"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 31,
+          "day": "sun",
+          "level": "N4",
+          "title": "一寸法師（一）",
+          "grammar": [
+            "〜ものですから",
+            "〜しか〜ない"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 32,
+          "day": "sun",
+          "level": "N4",
+          "title": "一寸法師（二）",
+          "grammar": [
+            "〜(よ)うと思います",
+            "〜だけあって"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 33,
+          "day": "sun",
+          "level": "N3",
+          "title": "一寸法師（三）",
+          "grammar": [
+            "〜に違いない",
+            "〜とみえて"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 34,
+          "day": "sun",
+          "level": "N3",
+          "title": "一寸法師（四）",
+          "grammar": [
+            "〜たり〜たりする",
+            "お〜になる（尊敬語）"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 35,
+          "day": "sun",
+          "level": "N3",
+          "title": "一寸法師（五）",
+          "grammar": [
+            "〜(よ)うとする",
+            "〜が早いか"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 36,
+          "day": "sun",
+          "level": "N3",
+          "title": "一寸法師（六）",
+          "grammar": [
+            "〜ば（條件）",
+            "動詞命令形（〜なれ、〜ろ）"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 37,
+          "day": "sun",
+          "level": "N3",
+          "title": "一寸法師（七）",
+          "grammar": [
+            "〜まい（否定推量）",
+            "〜ということが分かる"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 41,
+          "day": "sun",
+          "level": "N4",
+          "title": "花咲かじじい（一）",
+          "grammar": [
+            "〜がる",
+            "〜のように"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 42,
+          "day": "sun",
+          "level": "N4",
+          "title": "花咲かじじい（二）",
+          "grammar": [
+            "〜はずだ",
+            "〜ても〜ても"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 43,
+          "day": "sun",
+          "level": "N3",
+          "title": "花咲かじじい（三）",
+          "grammar": [
+            "〜どころか",
+            "〜にちがいない"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 51,
+          "day": "sun",
+          "level": "N4",
+          "title": "舌切りすずめ（一）",
+          "grammar": [
+            "〜ものですから",
+            "〜てしまう"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 52,
+          "day": "sun",
+          "level": "N4",
+          "title": "舌切りすずめ（二）",
+          "grammar": [
+            "〜ないうちに",
+            "〜ことにする"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 53,
+          "day": "sun",
+          "level": "N3",
+          "title": "舌切りすずめ（三）",
+          "grammar": [
+            "〜ものではない",
+            "〜とは思わなかった"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 54,
+          "day": "sun",
+          "level": "N3",
+          "title": "舌切りすずめ（四）",
+          "grammar": [
+            "〜ものの",
+            "〜だけに"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 61,
+          "day": "sun",
+          "level": "N3",
+          "title": "金太郎（一）",
+          "grammar": [
+            "〜くせに",
+            "〜ては"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 62,
+          "day": "sun",
+          "level": "N3",
+          "title": "金太郎（二）",
+          "grammar": [
+            "〜やら〜やら",
+            "〜たり〜たり"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 63,
+          "day": "sun",
+          "level": "N3",
+          "title": "金太郎（三）",
+          "grammar": [
+            "〜たと思うと",
+            "〜もある"
+          ]
+        },
+        {
+          "series": "tales",
+          "episode": 64,
+          "day": "sun",
+          "level": "N3",
+          "title": "金太郎（四）",
+          "grammar": [
+            "〜さえ〜ば",
+            "〜ようになる"
+          ]
         }
       ]
     },
@@ -483,6 +802,11 @@
       "id": "kids",
       "name": "親子でにほんご",
       "zh": "親子學日語"
+    },
+    {
+      "id": "tales",
+      "name": "むかしばなし",
+      "zh": "日本童話原文（楠山正雄，青空文庫）"
     }
   ],
   "rhythm_note": "三條線並行、每天任選一話（建議家族旅行與動漫優先）；聽力練習照日期一份。"
