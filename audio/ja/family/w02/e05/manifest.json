@@ -1,0 +1,373 @@
+{
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "6d3779792bad38d5",
+  "text": "あ、かけいさん、おはようございます。……あら、アーバオくん、元気がないですね。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "02c6fc5feaa1c250",
+  "text": "レストランで、かけいさんのおかあさんは安心して食べられました。でも次の朝、アーバオは元気がありません。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "2e37b17c44e8ed73",
+  "text": "えー、アーバオ、だいじょうぶ？",
+  "voice": "Achird",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "e85a11060be67dd4",
+  "text": "おはようございます。アーバオが熱を出しました。三十八度です。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "bf30f12e3bd36c02",
+  "text": "近くに薬局はありますか。なんじから何時までですか。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "35677e654db92f22",
+  "text": "駅の前に大きい薬局がありますよ。朝くじから夜十時までです。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "004229e19f43875a",
+  "text": "アーバオくん、お水をたくさん飲んだほうがいいよ。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "7032480a2d371677",
+  "text": "ありがとうございます。くじに行ってみます。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "6dcc58822fe08290",
+  "text": "はい、ございます。お子様は何歳ですか。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "f348fc969017a7af",
+  "text": "すみません、子ども用の熱の薬はありますか。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "dd5be828515aee02",
+  "text": "四歳です。この薬は、何歳からですか。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "62803b34d034dee5",
+  "text": "こちらは三歳から十四歳までのお薬です。体重は何キロぐらいですか。お薬のアレルギーはありますか。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "43d9f69c81d94212",
+  "text": "十六キロぐらいです。アレルギーはありません。一日何回飲みますか。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "4337667f98fa3189",
+  "text": "熱が高い時だけ飲むお薬です。量と回数は、このはこに書いてあります。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "72684d88b1de1368",
+  "text": "でも、小さいお子様ですから、一度病院でみてもらったほうがいいですよ。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "afb75d55440791e8",
+  "text": "病院……。近くに小児科はありますか。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "7266974b259d26c3",
+  "text": "このビルの二階にあります。午前はくじから十二時までです。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "1b981513bfa1e8f7",
+  "text": "わかりました。先に病院に行ったほうがいいですね。ありがとうございます。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "afd7ec63392c4008",
+  "text": "おはようございます。こちらは初めてですか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "9680b5dd3064371b",
+  "text": "はい。台湾から来た旅行者です。息子が熱を出しました。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "aef9b79dca2902eb",
+  "text": "保険証はお持ちですか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "5e001250f30af5a5",
+  "text": "いいえ。でも、海外旅行保険に入っています。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "e1d4c49fa1536b30",
+  "text": "では、今日は全額自費になります。領収書は、あとでお渡ししますね。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "df590c31ec736816",
+  "text": "こちらの問診票にご記入ください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "364e04c8fec76fcf",
+  "text": "すみません、中国語の問診票はありますか。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "574b277c2d1cc601",
+  "text": "はい、ございます。お子様の体重も書いてくださいね。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "0da1c42ff3410551",
+  "text": "待ち時間は、にじゅっぷんからさんじゅっぷんぐらいです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "ce34bf5e8b5aa63c",
+  "text": "熱は、昨日の夜から……。体重は、十六キロ……。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "aba94a31cc0a5a83",
+  "text": "アーバオくん、どうぞー。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "9e96e163773d51a4",
+  "text": "銀行は、朝くじから午後三時までです。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "8d887f359aca58ae",
+  "text": "このおもちゃは、三歳から六歳までの子ども用です。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "003bfd58ae9c351a",
+  "text": "雨ですから、傘を持っていったほうがいいですよ。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "5d956bc63de0bdca",
+  "text": "疲れた時は、早く寝たほうがいいです。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:回数": {
+  "file": "v-52c38f465750.mp3",
+  "hash": "0d7359799740323d",
+  "text": "かいすう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:病院": {
+  "file": "v-26b671d90a78.mp3",
+  "hash": "bab54f9886b0df8a",
+  "text": "びょういん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:小児科": {
+  "file": "v-f7ae076a1039.mp3",
+  "hash": "9889fe4b0c55683f",
+  "text": "しょうにか",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:午前": {
+  "file": "v-1d3d502717d6.mp3",
+  "hash": "f99c976babd18654",
+  "text": "ごぜん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:旅行者": {
+  "file": "v-95a79f21f37f.mp3",
+  "hash": "513f2e0b70a4120f",
+  "text": "りょこうしゃ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:息子": {
+  "file": "v-91bf4bb8d5cf.mp3",
+  "hash": "02708fc8b035ab78",
+  "text": "むすこ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:保険証": {
+  "file": "v-b2499aaf01b2.mp3",
+  "hash": "d253c95762248568",
+  "text": "ほけんしょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:保険": {
+  "file": "v-04418c44f846.mp3",
+  "hash": "462b8ceb0994256d",
+  "text": "ほけん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:自費": {
+  "file": "v-009016b8c56f.mp3",
+  "hash": "60c9eb937aae0c99",
+  "text": "じひ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:領収書": {
+  "file": "v-07f929a52110.mp3",
+  "hash": "1bde65e8aa91cf82",
+  "text": "りょうしゅうしょ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:問診票": {
+  "file": "v-c9ac557b753d.mp3",
+  "hash": "3059628ce6103353",
+  "text": "もんしんひょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:記入": {
+  "file": "v-36c8a5a6223e.mp3",
+  "hash": "e181d5318ba6f02f",
+  "text": "きにゅう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:元気": {
+  "file": "v-f557256050b8.mp3",
+  "hash": "341840321e70d51a",
+  "text": "げんき",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:熱": {
+  "file": "v-cd4a0fc28810.mp3",
+  "hash": "cf833e4c6af20c00",
+  "text": "ねつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:薬局": {
+  "file": "v-d0bc3bbe7ab6.mp3",
+  "hash": "4060d4a0dd23a9e2",
+  "text": "やっきょく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:薬": {
+  "file": "v-92a20e764e33.mp3",
+  "hash": "b9646aec5c3aa719",
+  "text": "くすり",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:歳": {
+  "file": "v-a4010eceb925.mp3",
+  "hash": "55c1f04535ff8b16",
+  "text": "さい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:体重": {
+  "file": "v-2027f58a5d33.mp3",
+  "hash": "9893ef3d65ab263a",
+  "text": "たいじゅう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:キロ": {
+  "file": "v-641244c4664c.mp3",
+  "hash": "0590f94ad49703ca",
+  "text": "キロ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:量": {
+  "file": "v-4e228ad40575.mp3",
+  "hash": "0e3d452f7d869c01",
+  "text": "りょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

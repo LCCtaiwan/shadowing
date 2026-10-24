@@ -1,0 +1,366 @@
+{
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "798811ee14279bba",
+  "text": "アーバオ？アーバオ！……いない！",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "b669c569d7e659ba",
+  "text": "お医者さんの薬で、アーバオの熱は下がりました。今日は中村さんとそうたくんと一緒に、大阪のショッピングモールに来ました。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "987d3f33ca0f37c2",
+  "text": "さっき、そこにいたよ！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "189947e442632309",
+  "text": "かけいさん、落ち着いて。すぐお店の人に言ったほうがいいです。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "9fdc6cd1869352af",
+  "text": "そうた、ママと一緒に探そう。もしアーバオくんを見つけたら、大きい声で教えてね。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "1339bc2402231800",
+  "text": "うん！ママ、あっち見てみよう！",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "8c689cf8e7547193",
+  "text": "すみません！子どもが迷子になりました。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "9f8663a8eac3f435",
+  "text": "お子様は何歳ですか。お名前は？",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "86d5eeee236cc2c8",
+  "text": "四歳の男の子です。名前はアーバオです。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "5d75c921cd8d15a8",
+  "text": "どんな服を着ていますか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "6237bef6aa52a517",
+  "text": "ズボンと靴は、何色ですか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "5d1eb333e2ce5b47",
+  "text": "青いティーシャツを着ています。黄色い帽子をかぶっています。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "276c142233f63ecb",
+  "text": "黒い半ズボンです。赤い靴をはいています。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "bc8b6c723c72d3f4",
+  "text": "ほかに、なにか特徴はありますか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "2f13ca06749dbcab",
+  "text": "息子は、にほんごがわかりません。中国語だけです。それから、恐竜のおもちゃを持っています。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "62fa15b459ff390f",
+  "text": "すぐに館内放送をします。もしお子様が見つかったら、こちらのカウンターにお連れします。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "4dc7f7d33ce89f10",
+  "text": "おかあさまは、ここから動かないでくださいね。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "954cf05a2ad8e780",
+  "text": "ご来館中のお客様に、迷子のお知らせをいたします。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "e393e2cbaf0b2604",
+  "text": "青いティーシャツを着た四歳の男の子を、おかあさまがお探しです。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "472e5a6cea70fb5a",
+  "text": "お名前はアーバオくん、黄色い帽子をかぶっています。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "6c86e301f8b23c9e",
+  "text": "いた！あの子、黄色い帽子をかぶってる！",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "c78897888df4f590",
+  "text": "お見かけのお客様は、お近くの係員までお知らせください。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "d38040c4c76bd896",
+  "text": "かけいさん！アーバオくん、ガチャガチャの前にいましたよ！",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "39bef3d17e92de01",
+  "text": "アーバオ！……よかった……。本当にありがとうございます。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "530186fb2bde664a",
+  "text": "アーバオ、恐竜のガチャ、ずっと見てたよ。",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "48790adbb25af739",
+  "text": "アリガトウ……ゴザイマス！",
+  "voice": "Enceladus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "f09c60e080c6ca6d",
+  "text": "アーバオ、もうどこにも行かないで！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "0902e0160b21285e",
+  "text": "これから、帽子の中にわたしの電話番号を書きます。もしまた迷子になったら、お店の人がすぐ電話できます。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "8d85e77d7315c895",
+  "text": "父は白いシャツを着ています。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "295c074509b43ce8",
+  "text": "あの赤い帽子をかぶっている女の子が、妹です。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "13d656c554ac41ee",
+  "text": "もし雨が降ったら、ホテルで休みましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "2e79c041aca8d78a",
+  "text": "もし道がわからなかったら、駅員さんに聞いてください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:見つける": {
+  "file": "v-4abb189e5a86.mp3",
+  "hash": "c7daa7185bfb4a6d",
+  "text": "みつける",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:迷子": {
+  "file": "v-32ebbe27491c.mp3",
+  "hash": "af64cc151fb73a75",
+  "text": "まいご",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:男の子": {
+  "file": "v-c7b7975f44c2.mp3",
+  "hash": "af218c191339015d",
+  "text": "おとこのこ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:服": {
+  "file": "v-4bf05b3df450.mp3",
+  "hash": "0e50b58a14bbde44",
+  "text": "ふく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:着る": {
+  "file": "v-e565b4cfc3a2.mp3",
+  "hash": "a23ca9cf70303346",
+  "text": "きる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:青い": {
+  "file": "v-54cd7893a606.mp3",
+  "hash": "320c7c90c7d69213",
+  "text": "あおい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:Tシャツ": {
+  "file": "v-1da2ce19cfdf.mp3",
+  "hash": "7e6a6db54b35dbe2",
+  "text": "ティーシャツ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:黄色い": {
+  "file": "v-ff04ba9cdc42.mp3",
+  "hash": "b8e257ba5f61cc59",
+  "text": "きいろい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:帽子": {
+  "file": "v-ee9e447c6c1f.mp3",
+  "hash": "45a9c080774d6f73",
+  "text": "ぼうし",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:かぶる": {
+  "file": "v-dac651a7d23b.mp3",
+  "hash": "62710cbf102cfb30",
+  "text": "かぶる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:靴": {
+  "file": "v-d18935f663a8.mp3",
+  "hash": "0662ebf004b54a7e",
+  "text": "くつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:半ズボン": {
+  "file": "v-5dd0688238f1.mp3",
+  "hash": "d803e83561739453",
+  "text": "はんズボン",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:履く": {
+  "file": "v-8e400b8103c8.mp3",
+  "hash": "1e2f8ed07dfd6655",
+  "text": "はく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:特徴": {
+  "file": "v-4f3423e80358.mp3",
+  "hash": "675f91e0f685cb28",
+  "text": "とくちょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:恐竜": {
+  "file": "v-9e9cece16fdc.mp3",
+  "hash": "b902c7fd59680e15",
+  "text": "きょうりゅう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:放送": {
+  "file": "v-568ca3aeac51.mp3",
+  "hash": "7a02d125ec57b147",
+  "text": "ほうそう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:見つかる": {
+  "file": "v-c453b1b4483f.mp3",
+  "hash": "597e179a60c8eca0",
+  "text": "みつかる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:動く": {
+  "file": "v-f669e9910c18.mp3",
+  "hash": "46fe3557ce44438c",
+  "text": "うごく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:係員": {
+  "file": "v-f0e44957aa23.mp3",
+  "hash": "eef399ad4132c579",
+  "text": "かかりいん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:電話番号": {
+  "file": "v-fb588e431602.mp3",
+  "hash": "6a39142868330ddd",
+  "text": "でんわばんごう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

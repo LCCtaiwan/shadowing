@@ -1,0 +1,240 @@
+{
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "0f4d4996ec3bc208",
+  "text": "おはようございます。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "019ca17ed86eddaa",
+  "text": "シャオミーとアーバオは、台湾からにほんに来ました。きょうは、あいさつをおぼえます。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "fb9183b96165b4f5",
+  "text": "おはようございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "fdaa284546d1c74b",
+  "text": "おはよう…ございます。",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "8e5032625d38fee5",
+  "text": "わあ、上手ですね。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "86556d9136393cc5",
+  "text": "ぼく、そうた。よろしくね！",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "53c7d915bb6f2fd5",
+  "text": "わたしはシャオミーです。よろしくね！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "6e05336dade28a8f",
+  "text": "こっちは、弟のアーバオです。",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "f2d245a3a3c2c639",
+  "text": "アーバオです！",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "ac5ff819729f538b",
+  "text": "いっしょに朝ごはん、食べよう！",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "a60e1fb38b30f662",
+  "text": "こんばんは。はい、これ、どうぞ。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "eb05c814ac504686",
+  "text": "わあ、かわいい！ありがとうございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "fc07bb65a2df479a",
+  "text": "ありがとう！",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "0807bff73485496c",
+  "text": "どういたしまして。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "cb18956cbb14917a",
+  "text": "あ、シャオミーちゃん！こんばんは！",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "dcef77b75c6f572a",
+  "text": "こんばんは！見て、おりがみのつるだよ。",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "d51dc68378ab9dc1",
+  "text": "いいね！かわいいね。",
+  "voice": "Achird",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "2cf8ee28d66a7a7d",
+  "text": "おやすみなさい！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "115f11f53c3a737a",
+  "text": "「いただきます！」「ごちそうさまでした！」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "6792a214e33a0f92",
+  "text": "もう遅いですね。おやすみなさい。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "f7810ffd2f7e9950",
+  "text": "きょうは、ありがとうございました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "2fbc929e76cec14c",
+  "text": "このアイス、おいしいね。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "bb1d3d71af825284",
+  "text": "ママ、あそこにトイレがあるよ。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:鶴": {
+  "file": "v-04e6c4e2bf2c.mp3",
+  "hash": "4496f3b3841f7954",
+  "text": "つる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:いい": {
+  "file": "v-3c3f8f983b7b.mp3",
+  "hash": "094e8f142ab7f89e",
+  "text": "いい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:遅い": {
+  "file": "v-af0d4fda8dc7.mp3",
+  "hash": "f80ad1ff74839b58",
+  "text": "おそい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:上手": {
+  "file": "v-f84c98273159.mp3",
+  "hash": "6035c904ec68ebd5",
+  "text": "じょうず",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:こっち": {
+  "file": "v-ca083d3f2faf.mp3",
+  "hash": "d1e87af867d384e0",
+  "text": "こっち",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:弟": {
+  "file": "v-39f2e8755ec8.mp3",
+  "hash": "9e0ae97cdc6fe09a",
+  "text": "おとうと",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:朝ごはん": {
+  "file": "v-df78dd899d2f.mp3",
+  "hash": "d4e46722c615543a",
+  "text": "あさごはん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:かわいい": {
+  "file": "v-f461cdf11088.mp3",
+  "hash": "071b468221148e50",
+  "text": "かわいい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:どうぞ": {
+  "file": "v-696706b2866e.mp3",
+  "hash": "79349d61492b145c",
+  "text": "どうぞ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:見る": {
+  "file": "v-5bcddbfe468e.mp3",
+  "hash": "061475615a58a8f5",
+  "text": "みる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:折り紙": {
+  "file": "v-3cb028b4f97f.mp3",
+  "hash": "0f4effc287bdd7ae",
+  "text": "おりがみ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

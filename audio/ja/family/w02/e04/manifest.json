@@ -1,0 +1,373 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "1c07e03b7031a041",
+  "text": "大阪のホテルに着いたかけいさんたち。夜は家族みんなでレストランに行きます。でも、かけいさんのおかあさんは、えびのアレルギーがあります。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "679e54186ac287eb",
+  "text": "いらっしゃいませ。何名様ですか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "74e54aae961d7590",
+  "text": "六人です。大人よにんと、子ども二人です。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "37e6d3b683cb0675",
+  "text": "六名様ですね。こちらへどうぞ。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "76d60f6fca729c68",
+  "text": "すみません、子ども用のいすはありますか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "263d05ec73a48e69",
+  "text": "はい。お子様用のいすをお持ちしますね。こちら、お子様メニューです。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "9d267fb17668a6cd",
+  "text": "わあ、ハンバーグ！これ、なに？",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "ff28a3f52a4254db",
+  "text": "おもちゃですよ。お子様ランチについています。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "6aad56da66c4bda3",
+  "text": "ご注文はお決まりですか。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "d683e247aa3c5144",
+  "text": "はい。お子様ランチを二つお願いします。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "fc9850c0cadd1a71",
+  "text": "お子様ランチをお二つですね。食べ物のアレルギーはございますか。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "165d80e049ab5fa0",
+  "text": "はい。母はえびのアレルギーがあります。えびは食べられません。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "624818b4a5c9ad10",
+  "text": "この天ぷら定食は、えびが入っていますか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "6a262e5e14666cce",
+  "text": "はい、えびの天ぷらが入っております。こちらの焼き魚定食は、えびは入っておりません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "18d3beec8434de7e",
+  "text": "みそ汁にも、えびは入っていませんか。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "045a5a3676f96967",
+  "text": "確認いたします。少々お待ちください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "f41b0eb6a8727018",
+  "text": "お待たせいたしました。みそ汁にも、えびは入っておりません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "b3c92a206daf9563",
+  "text": "よかった。では、焼き魚定食を一つと、天ぷら定食を三つお願いします。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "8434f0082f40d058",
+  "text": "かしこまりました。定食には、デザートのアイスがつきます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "1f7bde1e8a844af3",
+  "text": "母は糖尿病なので、甘いものはあまり食べられません。母の定食には、デザートをつけないでください。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "e177716106d2caef",
+  "text": "じゃあ、ご飯も少なめでお願いします。",
+  "voice": "Autonoe",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "3476122936772666",
+  "text": "お待たせいたしました。こちら、えびの入っていない焼き魚定食です。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "b6789266094ee6a6",
+  "text": "ハンバーグの鉄板が熱いので、さわらないでくださいね。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "ec661f1cf3a46274",
+  "text": "かしこまりました。ご飯も少なめにできますよ。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "d0ca3cd66a895107",
+  "text": "はーい！アーバオ、さわらないで！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "6c879c30d4be5867",
+  "text": "この旗も、食べられる？",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "de4c576ed05b5a0e",
+  "text": "旗は食べられませんよ。おうちに持って帰ってくださいね。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "c0e7e28cc5e6d769",
+  "text": "母が「安心して食べられる」と言っています。ありがとうございます。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "275e23432992e93c",
+  "text": "このカレーには、肉が入っていますか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "8e345ebc8e61aa90",
+  "text": "「えびが入っていますか」「えびは食べられません」。この二つは、旅行中ずっと使います。",
+  "voice": "Autonoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "524f354ebfe4bfa5",
+  "text": "わたしは、生の魚は食べられません。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "ed19434523c9eb98",
+  "text": "ここで写真を撮らないでください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:大人": {
+  "file": "v-612d21626e05.mp3",
+  "hash": "20c5efe7cee5e277",
+  "text": "おとな",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:子ども": {
+  "file": "v-4add55d30a45.mp3",
+  "hash": "56545bff7d458838",
+  "text": "こども",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:椅子": {
+  "file": "v-91c0eb1e129c.mp3",
+  "hash": "ec0c4749ffb8202b",
+  "text": "いす",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:メニュー": {
+  "file": "v-22869b80b004.mp3",
+  "hash": "9ac49c8cd5de0b53",
+  "text": "メニュー",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:おもちゃ": {
+  "file": "v-ae258c490fda.mp3",
+  "hash": "d7e58c62bff1b29a",
+  "text": "おもちゃ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:注文": {
+  "file": "v-932f4f62c8cf.mp3",
+  "hash": "970d0d6ad1101031",
+  "text": "ちゅうもん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:アレルギー": {
+  "file": "v-8336b5cd414d.mp3",
+  "hash": "8d92cbf131955f23",
+  "text": "アレルギー",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:えび": {
+  "file": "v-c994cb784692.mp3",
+  "hash": "a0a2983cdeea05d4",
+  "text": "えび",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "0d1ef98a71592af1",
+  "text": "からいのは苦手なので、わさびを入れないでください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:少なめ": {
+  "file": "v-9db2cbe748c2.mp3",
+  "hash": "753b4828d7ec04a4",
+  "text": "すくなめ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:鉄板": {
+  "file": "v-ab68b815789c.mp3",
+  "hash": "ef1dbd39754ec30f",
+  "text": "てっぱん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:触る": {
+  "file": "v-2e5ae138a4e7.mp3",
+  "hash": "da0de8db5edeee80",
+  "text": "さわる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:安心": {
+  "file": "v-c58a6f19379e.mp3",
+  "hash": "55b0dcec08ee9d4e",
+  "text": "あんしん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:入る": {
+  "file": "v-2e91b3bf9ac3.mp3",
+  "hash": "8b956a7abd505e54",
+  "text": "はいる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:天ぷら": {
+  "file": "v-55752834ea58.mp3",
+  "hash": "110f296feab9d91d",
+  "text": "てんぷら",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:定食": {
+  "file": "v-78b63e5ea270.mp3",
+  "hash": "86d999af6011c0c9",
+  "text": "ていしょく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:焼き魚": {
+  "file": "v-f0b89a081b18.mp3",
+  "hash": "b8f64ac8a9fb87a6",
+  "text": "やきざかな",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:みそ汁": {
+  "file": "v-48705f5d5aaf.mp3",
+  "hash": "6d8ae0504fc589c8",
+  "text": "みそしる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:確認": {
+  "file": "v-dfa1f0ad03ba.mp3",
+  "hash": "193c4f4ffebcb910",
+  "text": "かくにん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:糖尿病": {
+  "file": "v-89c299b05d15.mp3",
+  "hash": "99750818d88d40b7",
+  "text": "とうにょうびょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:甘い": {
+  "file": "v-e2f428f4e8ee.mp3",
+  "hash": "5777b9c36c470e65",
+  "text": "あまい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}
