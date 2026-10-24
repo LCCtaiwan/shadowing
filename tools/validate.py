@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = {"N5", "N4", "N3", "N2", "N1"}
-SERIES = {"drama", "anime"}
+SERIES = {"drama", "anime", "family"}
 DRILL_TYPES = {"sokuji", "kadai", "point", "gaiyo", "hatsuwa", "togo"}
 KANJI = re.compile(r"[㐀-鿿々]")
 KANA_ONLY = re.compile(r"^[ぁ-ゟ゠-ヿー・]+$")
@@ -204,6 +204,25 @@ def calendar_order(f):
     return ("drill" in f.parts, week, num, "anime" in f.parts, f.as_posix())
 
 
+def check_pron(rep, path, data):
+    w = path.name
+    if not need(rep, w, data, ["id", "title", "title_zh", "items"]):
+        return
+    ids = set()
+    for item in data["items"]:
+        iw = f"{w} {item.get('id', '?')}"
+        if not need(rep, iw, item, ["id", "contrast", "a", "b"]):
+            continue
+        if item["id"] in ids:
+            rep.err(iw, "id 重複")
+        ids.add(item["id"])
+        for side in "ab":
+            if need(rep, f"{iw} {side}", item[side], ["text", "reading", "zh"]) and not KANA_ONLY.match(item[side]["reading"]):
+                rep.err(iw, f"讀音必須是假名：{item[side]['reading']}")
+        if item["a"].get("reading") == item["b"].get("reading"):
+            rep.err(iw, "兩個字讀音相同，聽不出差別")
+
+
 def validate(paths):
     cast = load_casts()
     rep, seen = Report(), {}
@@ -219,6 +238,9 @@ def validate(paths):
             rep.err(f.name, f"JSON 解析失敗：{e}")
             continue
         if f.name == "index.json":
+            continue
+        if "pron" in f.parts:
+            check_pron(rep, f, data)
             continue
         if "drill" in f.parts:
             check_drill(rep, f, data, cast)

@@ -8,8 +8,9 @@ import drill from './views/drill.js';
 import library from './views/library.js';
 import jlpt from './views/jlpt.js';
 import settings from './views/settings.js';
+import quick from './views/quick.js';
 
-const VIEWS = { home, ep: episode, review, drill, lib: library, jlpt, settings };
+const VIEWS = { home, ep: episode, review, drill, lib: library, jlpt, settings, quick };
 const TABS = [['home', '首頁', ICON.home], ['lib', '課程', ICON.lib], ['review', '複習', ICON.cards], ['drill', '聽力練習', ICON.head], ['jlpt', 'JLPT', ICON.chart]];
 
 export function go(route) {

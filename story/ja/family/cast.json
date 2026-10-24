@@ -1,0 +1,8 @@
+{
+  "jiahui": { "name": "佳慧", "voice": "Autonoe", "style": "38歳の台湾人女性。丁寧語、ゆっくり、相手に伝わるように一語一語はっきり話す" },
+  "azhe": { "name": "阿哲", "voice": "Enceladus", "style": "40歳の台湾人男性。日本語はほとんど話せない。カタコトで照れくさそうに" },
+  "xiaomi": { "name": "小米（シャオミー）", "voice": "Laomedeia", "style": "7歳の女の子。元気で好奇心いっぱい、子どもらしい高い声" },
+  "abao": { "name": "阿寶（アーバオ）", "voice": "Pulcherrima", "style": "4歳の男の子。甘えた幼い声、単語だけ" },
+  "nakamura": { "name": "中村さん", "voice": "Vindemiatrix", "style": "40代の日本人のお母さん。やさしく、ゆっくり、子ども連れに慣れた話し方" },
+  "sota": { "name": "そうた", "voice": "Achird", "style": "6歳の日本人の男の子。元気な常体、早口ぎみ" }
+}

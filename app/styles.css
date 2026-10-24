@@ -2,7 +2,7 @@
 :root {
   --bg: #FAF8F5; --surface: #FFFFFF; --surface-2: #F3EFEA; --ink: #221D1A; --muted: #6E6560; --line: #E7E0D9;
   --brand: #A33A1C; --brand-strong: #D2552B; --brand-tint: #FBEDE6; --on-brand: #FFFFFF;
-  --anime: #5A4FC0; --anime-tint: #EEECFC;
+  --anime: #5A4FC0; --anime-tint: #EEECFC; --family: #0F6E56; --family-tint: #E1F5EE;
   --good: #2E7D5B; --good-tint: #E3F2EA; --bad: #B3261E; --bad-tint: #FBE9E7; --warn: #8A5A00; --warn-tint: #FBF1DC;
   --new: #2F6DB5;
   --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "PingFang TC", "Noto Sans JP", system-ui, sans-serif;
@@ -14,7 +14,7 @@
   :root {
     --bg: #171412; --surface: #221E1B; --surface-2: #2C2724; --ink: #F2EDE8; --muted: #A89F98; --line: #3A3430;
     --brand: #F08A62; --brand-strong: #D2552B; --brand-tint: #3B2219; --on-brand: #FFFFFF;
-    --anime: #A79FF0; --anime-tint: #2A2645;
+    --anime: #A79FF0; --anime-tint: #2A2645; --family: #6CC5A4; --family-tint: #173A2F;
     --good: #6CC59A; --good-tint: #1E3329; --bad: #F2867D; --bad-tint: #3A1F1D; --warn: #E7B85C; --warn-tint: #352A14;
     --new: #8DB8EC;
     color-scheme: dark;
@@ -165,3 +165,16 @@ mark { background: var(--brand-tint); color: inherit; border-radius: 4px; paddin
 .gex { display: flex; flex-direction: column; align-items: flex-start; width: 100%; text-align: left; padding: 6px 0; border-top: 1px solid var(--line); }
 .gex .muted { display: inline-flex; align-items: center; gap: 4px; }
 .guide { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+
+.chip.family { background: var(--family-tint); color: var(--family); }
+.choice { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; padding: 10px 0; border-top: 1px solid var(--line); min-height: 52px; }
+.choice:first-of-type { border-top: 0; }
+.quick { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.quick button { min-height: 64px; border-radius: 14px; background: var(--brand-tint); color: var(--brand); font-weight: 700; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; }
+.quick button small { font-weight: 400; font-size: 12px; }
+.quick svg { width: 20px; height: 20px; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.pair .opt { flex-direction: column; justify-content: center; text-align: center; min-height: 88px; font-size: 20px; }
+.pair .opt small { font-size: 12px; color: var(--muted); }
+.ghost { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.ghost svg { width: 18px; height: 18px; flex: none; }

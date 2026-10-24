@@ -15,7 +15,7 @@ export default async function episode(root, [id]) {
   const lines = ep.scenes.flatMap(sc => sc.lines.map(l => ({ ...l, scene: sc })));
   const resume = S.progress.resume[id];
   const st = { step: resume?.step ?? 0, idx: resume?.lineIdx ?? 0, running: false };
-  const isMe = sp => sp === 'yuxiang' || sp === 'xiaoyu';
+  const isMe = sp => ['yuxiang', 'xiaoyu', 'jiahui'].includes(sp);
   const say = l => play(meta.audio, l.id, kanaText(l.ruby), S.settings.speed);
   document.body.classList.add('focus');
 

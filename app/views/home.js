@@ -1,6 +1,6 @@
 import { S, todayStr, toggleReading, saveSettings } from '../state.js';
-import { ICON, esc, seriesChip } from '../ui.js';
-import { todayTasks, daysUntil, streak, weekDots } from '../lib/schedule.js';
+import { ICON, esc, seriesChip, SERIES_ORDER } from '../ui.js';
+import { todayTasks, daysUntil, streak, weekDots, nextUnfinished } from '../lib/schedule.js';
 import { buildQueue, deckCounts, estimateMinutes, dayKey } from '../lib/srs.js';
 import { go } from '../main.js';
 
@@ -10,7 +10,8 @@ const GUIDE = `
   <div class="card stack" id="guide">
     <h2>第一次使用：每天這樣練</h2>
     <ol class="guide">
-      <li><b>照順序按下面的任務</b>：複習 → 新的一話 → 聽力練習 → 讀解。也可以直接按最下面的「繼續」，App 會帶你去下一件事。</li>
+      <li><b>照順序按下面的任務</b>：複習 → 新的一話（家族旅行、動漫、自助旅行三選一）→ 聽力練習 → 讀解。也可以直接按最下面的「繼續」。</li>
+      <li><b>零碎時間</b>：排隊、等車時按「單字快練」或「發音聽辨」，1–3 分鐘就能練一輪。</li>
       <li><b>一話分 5 步</b>：① 不看字先聽一遍 ② 一句一句看懂 ③ 看著字跟著念 ④ 不看字跟著念 ⑤ 把單字、文法收進複習。</li>
       <li><b>跟讀時</b>：App 播完一句會停下來，圓圈倒數時換你念出來，念完自動播下一句。</li>
       <li><b>複習卡</b>：先聽或看題目，在心裡想答案，再按「看答案」，依記得的程度按「重來／困難／良好／簡單」。</li>
@@ -39,14 +40,16 @@ export default function home(root) {
       sub: reviewLeft ? `單字・文法・片語・句子　約 ${Math.max(1, reviewMin)} 分鐘` : (S.cards.length ? '今天的份做完了' : '做完一話的最後一步，卡片就會出現在這裡'),
       route: 'review',
     },
-    epDone.length
-      ? { k: 'ep', icon: ICON.tv, done: true, title: `${epLabel(epDone.at(-1))} 完成`,
-        sub: t.episode ? `有空可以先練下一話：${epLabel(t.episode)}` : '今天的一話完成了', route: t.episode ? `ep/${t.episode.id}` : `ep/${epDone.at(-1).id}` }
-      : t.episode
-        ? { k: 'ep', icon: ICON.tv, done: false, title: epLabel(t.episode),
-          sub: `${seriesChip(t.episode.series)} ${esc(t.episode.title_zh)}・${t.episode.level}・約 25 分鐘`, route: `ep/${t.episode.id}` }
-        : { k: 'ep', icon: ICON.tv, done: false, idle: true, title: '目前的話都練完了',
-          sub: '下一週的劇本準備中', route: 'lib' },
+    (() => {
+      const choices = SERIES_ORDER.map(sr => nextUnfinished(S.index.episodes.filter(e => e.series === sr), today, S.progress.episodes)).filter(Boolean);
+      const done = epDone.length > 0;
+      return {
+        k: 'ep', icon: ICON.tv, done, idle: !done && !choices.length, choices,
+        title: done ? `${epLabel(epDone.at(-1))} 完成` : choices.length ? '新的一話（三選一）' : '目前的話都練完了',
+        sub: done ? (choices.length ? '有空可以再練一話：' : '今天的一話完成了') : choices.length ? '每天挑一部練一話，約 25 分鐘' : '下一週的劇本準備中',
+        route: choices.length ? `ep/${choices[0].id}` : 'lib',
+      };
+    })(),
     drDone.length
       ? { k: 'drill', icon: ICON.head, done: true, title: '聽力練習 完成', sub: t.drill ? '還有下一份可以先做' : '結果在 JLPT 頁', route: t.drill ? `drill/${t.drill.id}` : 'jlpt' }
       : t.drill
@@ -80,7 +83,19 @@ export default function home(root) {
     </div>
     ${showGuide ? GUIDE : ''}
     ${t.behind > 1 ? `<div class="card flat muted">有 ${t.behind} 話還沒練，照順序補就好。</div>` : ''}
-    <div class="stack" style="gap:8px">${tasks.map(x => `
+    <div class="card stack" style="gap:8px">
+      <div class="row between"><h2>零碎時間</h2><span class="muted">1–3 分鐘</span></div>
+      <div class="quick">
+        <button data-quick="vocab">${ICON.bolt}單字快練<small>聽→跟念→看意思</small></button>
+        <button data-quick="pron">${ICON.ear}發音聽辨<small>長音、促音、濁音</small></button>
+      </div>
+    </div>
+    <div class="stack" style="gap:8px">${tasks.map(x => x.choices && x.choices.length ? `
+      <div class="task ${x.done ? 'done' : ''} ${x === nextTask ? 'next' : ''}" style="flex-direction:column;align-items:stretch">
+        <div class="row"><span class="task-ic">${x.done ? ICON.check : x.icon}</span>
+          <span style="flex:1;min-width:0"><span class="t-title">${x.title}</span><span class="muted">${x.sub}</span></span></div>
+        <div>${x.choices.map(e => `<button class="choice" data-ep="${e.id}">${seriesChip(e.series)}<span style="flex:1;min-width:0"><b>${epLabel(e)}</b><br><span class="muted">${esc(e.title_zh)}・${e.level}</span></span></button>`).join('')}</div>
+      </div>` : `
       <button class="task ${x.done ? 'done' : ''} ${x.idle ? 'idle' : ''} ${x === nextTask ? 'next' : ''}" data-k="${x.k}">
         <span class="task-ic">${x.done ? ICON.check : x.icon}</span>
         <span style="flex:1;min-width:0"><span class="t-title">${x.title}</span><span class="muted">${x.sub}</span></span>
@@ -91,7 +106,9 @@ export default function home(root) {
     </div>
     <button class="cta" id="cta">${nextTask ? `繼續：${nextTask.title.replace(/<[^>]+>/g, '')}` : '今天辛苦了'}</button>`;
 
-  root.querySelectorAll('.task').forEach(b => b.addEventListener('click', async () => {
+  root.querySelectorAll('[data-ep]').forEach(b => b.addEventListener('click', () => go(`ep/${b.dataset.ep}`)));
+  root.querySelectorAll('[data-quick]').forEach(b => b.addEventListener('click', () => go(`quick/${b.dataset.quick}`)));
+  root.querySelectorAll('button.task').forEach(b => b.addEventListener('click', async () => {
     const x = tasks.find(y => y.k === b.dataset.k);
     if (x.route) go(x.route);
     else { await toggleReading(); home(root); }

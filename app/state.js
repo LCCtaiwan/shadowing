@@ -15,7 +15,7 @@ export const S = {
   days: [], reading: {}, today: null, cards: [], episodes: new Map(), drills: new Map(), cast: {},
 };
 
-const CAST_FILES = ['story/ja/cast.json', 'story/ja/drama/cast.json', 'story/ja/anime/cast.json'];
+const CAST_FILES = ['story/ja/cast.json', 'story/ja/drama/cast.json', 'story/ja/anime/cast.json', 'story/ja/family/cast.json'];
 
 // 測試用：網址加 ?today=2026-10-26 可模擬某天（只影響課程解鎖與首頁顯示）
 const OVERRIDE = new URLSearchParams(location.search).get('today');

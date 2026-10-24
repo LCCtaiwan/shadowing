@@ -36,6 +36,23 @@
    "level": "N2"
   }
  ],
+ "series": [
+  {
+   "id": "family",
+   "name": "三世代で日本へ",
+   "zh": "三代同堂遊日本・家族旅行"
+  },
+  {
+   "id": "anime",
+   "name": "放課後ラジオ部",
+   "zh": "放學後廣播社・動漫"
+  },
+  {
+   "id": "drama",
+   "name": "終電のあとで",
+   "zh": "末班車之後・自助旅行"
+  }
+ ],
  "episodes": [
   {
    "id": "ja-drama-w01-e01",
@@ -361,5 +378,6 @@
    "path": "scripts/ja/drill/w02/sun.json",
    "audio": "audio/ja/drill/w02/sun"
   }
- ]
+ ],
+ "pron": []
 }

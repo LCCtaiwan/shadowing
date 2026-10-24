@@ -1,5 +1,5 @@
-// Service worker：App 本體先用快取（背景更新）；課程索引與劇本先抓網路；音檔抓過就留在快取，離線可播。
-const VERSION = 'v1';
+// Service worker：App 本體與劇本先抓網路（有更新馬上看到），離線時用快取；音檔抓過就留在快取，離線可播。
+const VERSION = 'v2';
 const SHELL = `shell-${VERSION}`;
 const CONTENT = 'content';
 const AUDIO = 'audio';
@@ -7,7 +7,7 @@ const SHELL_FILES = [
   './', 'index.html', 'manifest.webmanifest', 'app/styles.css', 'app/main.js', 'app/state.js', 'app/ui.js',
   'app/lib/audio.js', 'app/lib/cards.js', 'app/lib/db.js', 'app/lib/fsrs.js', 'app/lib/ruby.js', 'app/lib/schedule.js', 'app/lib/srs.js',
   'app/views/home.js', 'app/views/episode.js', 'app/views/review.js', 'app/views/drill.js', 'app/views/library.js',
-  'app/views/jlpt.js', 'app/views/settings.js', 'app/icons/icon.svg', 'app/icons/icon-192.png', 'app/icons/apple-touch-icon.png',
+  'app/views/jlpt.js', 'app/views/settings.js', 'app/views/quick.js', 'app/icons/icon.svg', 'app/icons/icon-192.png', 'app/icons/apple-touch-icon.png',
 ];
 
 self.addEventListener('install', e => {
@@ -55,5 +55,5 @@ self.addEventListener('fetch', e => {
   const path = url.pathname;
   if (path.includes('/audio/') && path.endsWith('.mp3')) e.respondWith(cacheFirst(e.request, AUDIO, false));
   else if (path.includes('/audio/') || path.includes('/scripts/') || path.includes('/story/')) e.respondWith(networkFirst(e.request, CONTENT));
-  else e.respondWith(cacheFirst(e.request, SHELL, true));
+  else e.respondWith(networkFirst(e.request, SHELL));
 });

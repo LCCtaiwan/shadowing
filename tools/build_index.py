@@ -41,11 +41,16 @@ def build():
             "kind": "mock" if f.stem == "sun" else "daily", "level": data["level"], "items": len(data["items"]),
             "path": f.relative_to(ROOT).as_posix(), "audio": f"audio/ja/drill/w{data['week']:02d}/{f.stem}",
         })
+    pron = []
+    for f in sorted((ROOT / "scripts" / "ja" / "pron").glob("p*.json")):
+        data = json.loads(f.read_text(encoding="utf-8"))
+        pron.append({"id": data["id"], "title": data["title"], "title_zh": data["title_zh"], "tip_zh": data.get("tip_zh", ""),
+                     "items": len(data["items"]), "path": f.relative_to(ROOT).as_posix(), "audio": f"audio/ja/pron/{f.stem}"})
     episodes.sort(key=lambda e: e["date"])
     drills.sort(key=lambda d: d["date"])
     return {
         "start_date": plan["start_date"], "exam_targets": plan["exam_targets"], "phases": plan["phases"],
-        "episodes": episodes, "drills": drills,
+        "series": plan.get("series", []), "episodes": episodes, "drills": drills, "pron": pron,
     }
 
 
@@ -53,7 +58,7 @@ def main():
     index = build()
     out = ROOT / "scripts" / "index.json"
     out.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"已寫入 {out.relative_to(ROOT)}：{len(index['episodes'])} 集、{len(index['drills'])} 份ドリル")
+    print(f"已寫入 {out.relative_to(ROOT)}：{len(index['episodes'])} 集、{len(index['drills'])} 份聽力練習、{len(index['pron'])} 組發音")
 
 
 if __name__ == "__main__":

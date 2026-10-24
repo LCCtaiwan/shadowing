@@ -170,9 +170,25 @@ def drill_jobs(path, data, cast):
     return out_dir, jobs
 
 
+def pron_jobs(path, data, cast):
+    """發音聽辨：每組兩個字各配一段，用旁白聲音、不帶語氣，只唸單字。"""
+    out_dir = AUDIO / "ja" / "pron" / path.stem
+    style = "単語をひとつだけ、辞書の発音のように、はっきり自然に読む。長音・促音・撥音は正確に。"
+    jobs = []
+    for item in data["items"]:
+        for side in "ab":
+            jobs.append(dict(key=f"{item['id']}-{side}", text=item[side]["reading"], voice=cast["narrator"]["voice"], style=style))
+    return out_dir, jobs
+
+
 def jobs_for(path, cast):
-    data = json.loads(Path(path).read_text(encoding="utf-8"))
-    return (drill_jobs if "drill" in Path(path).parts else episode_jobs)(Path(path), data, cast)
+    path = Path(path)
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if "drill" in path.parts:
+        return drill_jobs(path, data, cast)
+    if "pron" in path.parts:
+        return pron_jobs(path, data, cast)
+    return episode_jobs(path, data, cast)
 
 
 def files_for_date(day):
@@ -352,7 +368,7 @@ def main(argv):
         print(f"{day}：{[str(f.relative_to(ROOT)) for f in files_for_date(day)] or '沒有排課'}")
     expanded = []
     for p in files:
-        expanded += sorted(p.glob("**/*.json")) if p.is_dir() else [p]
+        expanded += [f for f in sorted(p.glob("**/*.json")) if f.name != "index.json"] if p.is_dir() else [p]
     if not expanded:
         ap.error("沒有要配音的檔案")
 

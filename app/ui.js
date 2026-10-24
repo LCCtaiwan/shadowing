@@ -24,6 +24,9 @@ export const ICON = {
   gear: svg('<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>'),
   download: svg('<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>'),
   flag: svg('<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>'),
+  bolt: svg('<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>'),
+  mic: svg('<rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>'),
+  ear: svg('<path d="M6 9a6 6 0 1 1 12 0c0 3-2 4-3 5s-1 3-3 4-4 0-4-2"/><path d="M9 9a3 3 0 0 1 6 0"/>'),
 };
 
 let toastTimer;
@@ -35,8 +38,12 @@ export function toast(msg, ms = 3200) {
   toastTimer = setTimeout(() => { t.hidden = true; }, ms);
 }
 
-export const seriesChip = series => series === 'anime' ? '<span class="chip anime">動漫</span>' : '<span class="chip brand">日劇</span>';
-export const SERIES_NAME = { drama: '終電のあとで', anime: '放課後ラジオ部' };
+export const SERIES_ORDER = ['family', 'anime', 'drama'];
+export const SERIES_LABEL = { family: '家族旅行', anime: '動漫', drama: '自助旅行' };
+export const SERIES_NAME = { family: '三世代で日本へ', anime: '放課後ラジオ部', drama: '終電のあとで' };
+export const SERIES_ZH = { family: '三代同堂遊日本', anime: '放學後廣播社', drama: '末班車之後' };
+const SERIES_CHIP = { family: 'family', anime: 'anime', drama: 'brand' };
+export const seriesChip = series => `<span class="chip ${SERIES_CHIP[series] || ''}">${SERIES_LABEL[series] || series}</span>`;
 export const wave = (n = 22) => `<div class="wave">${Array.from({ length: n }, (_, i) => `<i style="animation-delay:${(i * 73) % 600}ms"></i>`).join('')}</div>`;
 
 export function ring(id, label = '') {
