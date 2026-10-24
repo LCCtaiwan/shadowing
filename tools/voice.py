@@ -249,32 +249,66 @@ def _find_audio(obj):
     return found
 
 
+STOP = threading.Event()  # 額度全用完時，讓之後的檔案也直接跳過
+
+
+class QuotaExhausted(Exception):
+    """所有 TTS 型號今天的額度都用完了。"""
+
+
+# 主要型號用完每日額度時，依序改用下一個（各型號額度分開計算；聲音名稱共用）
+FALLBACK_MODELS = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts", "gemini-3.1-flash-tts-preview",
+                   "gemini-2.5-pro-preview-tts", "gemini-2.5-flash-preview-tts"]
+MP3_MODELS = {"gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"}  # 其他型號只能輸出 wav，之後用 ffmpeg 轉 mp3
+
+
 def make_synth(model):
     """直接呼叫 REST（不用 SDK 的自動重試，SDK 遇到 429 會依 Retry-After 默默睡很久）。"""
     import httpx
 
     client = httpx.Client(headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, timeout=REQUEST_TIMEOUT)
+    models = [model] + [m for m in FALLBACK_MODELS if m != model]
+    exhausted = set()
+    lock = threading.Lock()
 
-    def synth(job):
+    def call(m, job):
         body = {
-            "model": model,
+            "model": m,
             "input": [{"type": "user_input", "content": [{
                 "type": "text", "text": job["text"],
                 "annotations": [{"type": "speech_metadata", "style": job["style"]}],
             }]}],
-            "response_format": {"type": "audio", "mime_type": "audio/mp3"},
+            "response_format": {"type": "audio", "mime_type": "audio/mp3" if m in MP3_MODELS else "audio/wav"},
             "generation_config": {"speech_config": [{"voice": job["voice"], "language": "ja"}]},
         }
-        r = client.post(API_URL, json=body)
-        if r.status_code == 429 or r.status_code >= 500:
-            ra = r.headers.get("retry-after")
-            raise RateLimited(float(ra) if ra and ra.replace(".", "").isdigit() else None, f"HTTP {r.status_code}: {r.text[:200]}")
-        if r.status_code != 200:
-            raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
-        data = _find_audio(r.json())
-        if not data:
-            raise RuntimeError("回應裡沒有音訊")
-        return base64.b64decode(data)
+        return client.post(API_URL, json=body)
+
+    def synth(job):
+        for m in models:
+            if m in exhausted:
+                continue
+            r = call(m, job)
+            if r.status_code == 429 and "per day" in r.text:
+                with lock:
+                    if m not in exhausted:
+                        exhausted.add(m)
+                        print(f"  {m} 今天的額度用完了，改用下一個型號", flush=True)
+                continue
+            if r.status_code == 404 or (r.status_code == 400 and "not supported" in r.text):
+                with lock:
+                    exhausted.add(m)
+                continue
+            if r.status_code == 429 or r.status_code >= 500:
+                ra = r.headers.get("retry-after")
+                raise RateLimited(float(ra) if ra and ra.replace(".", "").isdigit() else None, f"HTTP {r.status_code}: {r.text[:200]}")
+            if r.status_code != 200:
+                raise RuntimeError(f"{m} HTTP {r.status_code}: {r.text[:300]}")
+            data = _find_audio(r.json())
+            if not data:
+                raise RuntimeError(f"{m} 回應裡沒有音訊")
+            job["used_model"] = m
+            return base64.b64decode(data)
+        raise QuotaExhausted("所有 TTS 型號今天的額度都用完了")
 
     return synth
 
@@ -283,6 +317,8 @@ def with_retry(synth, job, tries=5):
     for attempt in range(tries):
         try:
             return synth(job)
+        except QuotaExhausted:
+            raise
         except Exception as e:  # 429／5xx／逾時：短暫退避後重試，最多等 60 秒
             if attempt == tries - 1:
                 raise
@@ -335,14 +371,22 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
             print(f"  [{job['voice']}] {job['key']}: {job['text']}")
         return len(todo), skipped
 
-    pacer, lock, failed = Pacer(rpm), threading.Lock(), []
+    pacer, lock, failed, stop = Pacer(rpm), threading.Lock(), [], STOP
 
     def one(item):
         job, h = item
         pacer.wait()
         t0 = time.monotonic()
+        if stop.is_set():
+            return
         try:
-            audio = compress(with_retry(synth, job), bitrate)
+            audio = compress(with_retry(synth, job), bitrate or "64k")
+        except QuotaExhausted as e:
+            if not stop.is_set():
+                print(f"  {e}；已配好的會保存，明天再繼續", flush=True)
+            stop.set()
+            failed.append(job["key"])
+            return
         except Exception as e:  # 單段失敗不中斷整批，下次執行會補配
             print(f"  失敗 {job['key']}（{time.monotonic() - t0:.0f} 秒）：{type(e).__name__}: {str(e)[:160]}", flush=True)
             failed.append(job["key"])
@@ -351,7 +395,8 @@ def voice_dir(out_dir, jobs, synth, model, rpm=10, force=False, dry_run=False, w
         with lock:
             out_dir.mkdir(parents=True, exist_ok=True)
             (out_dir / fname).write_bytes(audio)
-            manifest[job["key"]] = {"file": fname, "hash": h, "text": job["text"], "voice": job["voice"]}
+            manifest[job["key"]] = {"file": fname, "hash": h, "text": job["text"], "voice": job["voice"],
+                                    "model": job.get("used_model", model)}
             manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(f"  {job['key']}：{time.monotonic() - t0:.1f} 秒、{len(audio) // 1024} KB", flush=True)
 
