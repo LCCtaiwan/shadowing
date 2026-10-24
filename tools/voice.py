@@ -12,6 +12,7 @@
 """
 import argparse
 import base64
+import faulthandler
 import datetime as dt
 import hashlib
 import json
@@ -371,6 +372,8 @@ def main(argv):
         ap.error("沒有要配音的檔案")
 
     load_dotenv()
+    # 卡住時每 3 分鐘印出各執行緒停在哪裡，方便在 Actions 紀錄裡找原因
+    faulthandler.dump_traceback_later(180, repeat=True)
     model = os.environ.get("GEMINI_TTS_MODEL") or DEFAULT_MODEL
     if not args.dry_run and not os.environ.get("GEMINI_API_KEY"):
         sys.exit("找不到 GEMINI_API_KEY：請執行 .venv/bin/python tools/setup_key.py，或設定環境變數（--dry-run 可只看要送的文字）")
