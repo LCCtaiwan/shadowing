@@ -1,0 +1,30 @@
+{
+ "w01d2-01-s1": {
+  "file": "w01d2-01-s1.mp3",
+  "hash": "8e807d8dff468efe",
+  "text": "シャオユーさんは中国から来ましたか。",
+  "voice": "Callirrhoe",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-01-o1": {
+  "file": "w01d2-01-o1.mp3",
+  "hash": "82a37dd8cbb02989",
+  "text": "はい、台湾から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d2-01-o2": {
+  "file": "w01d2-01-o2.mp3",
+  "hash": "7e16b183518f45d6",
+  "text": "いいえ、台湾から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d2-01-o3": {
+  "file": "w01d2-01-o3.mp3",
+  "hash": "8d645afb83e85182",
+  "text": "いいえ、台湾じゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

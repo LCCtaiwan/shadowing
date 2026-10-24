@@ -1,0 +1,9 @@
+{
+ "a01-01-setup": {
+  "file": "a01-01-setup.mp3",
+  "hash": "f915074783101423",
+  "text": "駅でアナウンスを聞いています。快速に乗りたい人は、何番線へ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

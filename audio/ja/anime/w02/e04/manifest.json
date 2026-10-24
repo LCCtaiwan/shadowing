@@ -1,0 +1,23 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "a9ec096cd8ef399a",
+  "text": "シャオユーはラジオ部に入りました。部員はよにんになりました。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "959d5efaad7ce6e7",
+  "text": "よし、昼休みだ！シャオユー、購買に行くぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "93e11e513ae8457e",
+  "text": "購買は、パンを買うところですか？",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

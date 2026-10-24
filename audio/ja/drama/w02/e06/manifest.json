@@ -1,0 +1,16 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "055643784c9a5ff5",
+  "text": "ラーメン屋で、券売機の使い方を覚えたユーシャン。夜は少し寒いので、今日は下北沢の古着屋で上着を探します。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "03bcfa9de1ffb7b4",
+  "text": "いらっしゃいませー。ゆっくり見てくださいね。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

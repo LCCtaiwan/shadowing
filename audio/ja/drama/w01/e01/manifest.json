@@ -1,93 +1,108 @@
 {
  "recap": {
   "file": "recap.mp3",
-  "hash": "54a5f64246ffa6d3",
-  "text": "台湾のエンジニア、リン・ユーシャン、二十六歳。仕事をやめて、一人でにほんへ旅行に来ました。",
-  "voice": "Schedar"
+  "hash": "d233254e039d39f9",
+  "text": "台湾のエンジニア、リン・ユーシャン、二十六歳。仕事をやめて、一人でにほんに来ました。入国審査が終わって、今から東京へ行きます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  },
  "s1-01": {
   "file": "s1-01.mp3",
-  "hash": "d26cfc3b58ffeb7d",
-  "text": "次のかた、どうぞ。",
-  "voice": "Alnilam"
+  "hash": "dd1aa848dabde5d7",
+  "text": "いらっしゃいませ。どうぞ。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
  },
  "s1-02": {
   "file": "s1-02.mp3",
-  "hash": "3b272158fd3909a1",
-  "text": "パスポートを見せてください。",
-  "voice": "Alnilam"
+  "hash": "1746e83dc6dbaea7",
+  "text": "すみません。スカイライナーで上野まで、一枚お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
  },
  "s1-03": {
   "file": "s1-03.mp3",
-  "hash": "e86801a5ac2113ea",
-  "text": "入国の目的は何ですか。",
-  "voice": "Alnilam"
+  "hash": "2feb29a1ad283dea",
+  "text": "かしこまりました。次は十時半発です。発車まであと五分ですが、よろしいですか。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-04": {
   "file": "s1-04.mp3",
-  "hash": "2aa1be5ce853f127",
-  "text": "えっと……すみません、もう一度お願いします。",
-  "voice": "Iapetus"
+  "hash": "98cda15d5db881db",
+  "text": "五分！？じゃあ、その次の電車にしてください。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-05": {
   "file": "s1-05.mp3",
-  "hash": "62354eeb44627fdb",
-  "text": "にほんになにをしに来ましたか。",
-  "voice": "Alnilam"
+  "hash": "bc85a7c2ae381567",
+  "text": "はい、十一時発ですね。お席は窓側と通路側、どちらがよろしいですか。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-06": {
   "file": "s1-06.mp3",
-  "hash": "26f481b3ceeff759",
-  "text": "あ、観光です。観光に来ました。",
-  "voice": "Iapetus"
+  "hash": "ac53f5aa9f593087",
+  "text": "窓側をお願いします。あの……ふじさんは見えますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-07": {
   "file": "s1-07.mp3",
-  "hash": "045e96597493a18d",
-  "text": "なんにちかん滞在しますか。",
-  "voice": "Alnilam"
+  "hash": "45a915efca6547cf",
+  "text": "ふじさんは……ちょっと見えませんね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-08": {
   "file": "s1-08.mp3",
-  "hash": "6ff470a46040adba",
-  "text": "えっと、三週間です。",
-  "voice": "Iapetus"
+  "hash": "5f6f5d4c8e70fce6",
+  "text": "そうですか……。でも、窓側でお願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-09": {
   "file": "s1-09.mp3",
-  "hash": "9708a5116934404a",
-  "text": "どちらに泊まりますか。",
-  "voice": "Alnilam"
+  "hash": "55b24b6d155f9421",
+  "text": "上野まで、二千五百七十円です。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-10": {
   "file": "s1-10.mp3",
-  "hash": "900232507f4388dd",
-  "text": "浅草のホテルです。",
-  "voice": "Iapetus"
+  "hash": "71fe09a7cbc42f1b",
+  "text": "カードでお願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-11": {
   "file": "s1-11.mp3",
-  "hash": "c0b5a6f2af1edd4c",
-  "text": "では、ここに指を置いてください。",
-  "voice": "Alnilam"
+  "hash": "e713a6482e19d983",
+  "text": "では、こちらにカードを入れてください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-12": {
   "file": "s1-12.mp3",
-  "hash": "e39a149563a0590c",
-  "text": "こう……ですか。",
-  "voice": "Iapetus"
+  "hash": "3de0559ae26011ae",
+  "text": "こちら、指定席のチケットです。四号車のじゅうにエー、窓側のお席です。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "s1-13": {
   "file": "s1-13.mp3",
-  "hash": "b79ed876ff023316",
-  "text": "はい。次に、このカメラを見てください。",
-  "voice": "Alnilam"
+  "hash": "fd4eeb6177e1a47d",
+  "text": "乗り場は地下です。あちらのエスカレーターで下に行ってください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "s1-14": {
   "file": "s1-14.mp3",
-  "hash": "acc53e7df1d7b979",
-  "text": "はい、けっこうです。パスポートをどうぞ。",
-  "voice": "Alnilam"
+  "hash": "21fb08a5bc4d391e",
+  "text": "四号車のじゅうにエー……。ありがとうございます！",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "s1-15": {
   "file": "s1-15.mp3",
@@ -97,33 +112,38 @@
  },
  "s2-01": {
   "file": "s2-01.mp3",
-  "hash": "a9a4e2db5b7a8c45",
-  "text": "あ、黒いスーツケース。ありました！",
-  "voice": "Iapetus"
+  "hash": "269c26c6a9f12ec7",
+  "text": "すみません、じゅうにエーは……ここですか。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "s2-02": {
   "file": "s2-02.mp3",
-  "hash": "db8e142c153adfb9",
-  "text": "あの、すみません。それ、わたしのです。",
-  "voice": "Orus"
+  "hash": "c4fa1160671fa4b8",
+  "text": "はい、そこですよ。大きいスーツケースですね。どちらから来ましたか。",
+  "voice": "Erinome",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "s2-03": {
   "file": "s2-03.mp3",
-  "hash": "b8066cce1219f630",
-  "text": "えっ！あっ、すみません！",
-  "voice": "Iapetus"
+  "hash": "08d5498d5590a38b",
+  "text": "台湾から来ました。たいちゅうです。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "s2-04": {
   "file": "s2-04.mp3",
-  "hash": "0190909d7e01a459",
-  "text": "いえいえ。黒いの、多いですよね。",
-  "voice": "Orus"
+  "hash": "80eb70cda2a12a93",
+  "text": "あら、台湾！去年、たいぺいに行きましたよ。しょうろんぽう、おいしかったです。",
+  "voice": "Erinome",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "s2-05": {
   "file": "s2-05.mp3",
-  "hash": "265b80131cea6cd9",
-  "text": "わたしのは……あ、これです。赤いリボンがあります。",
-  "voice": "Iapetus"
+  "hash": "451465ffcef56363",
+  "text": "にほんには、お仕事で？",
+  "voice": "Erinome",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "s3-01": {
   "file": "s3-01.mp3",
@@ -304,5 +324,12 @@
   "hash": "d8c6b05155971e73",
   "text": "りょこう",
   "voice": "Schedar"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "492f24d09b896111",
+  "text": "いいえ、観光に来ました。仕事は……やめました。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

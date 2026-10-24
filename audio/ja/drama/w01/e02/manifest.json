@@ -1,9 +1,10 @@
 {
  "recap": {
   "file": "recap.mp3",
-  "hash": "0e2d09b86a38dbb6",
-  "text": "ユーシャンは成田空港に着きました。入国審査も両替も、大丈夫でした。",
-  "voice": "Schedar"
+  "hash": "271ab1a2c8b63491",
+  "text": "スカイライナーで上野に着いたユーシャン。ゲストハウスのチェックインは三時からです。それまで、大きいスーツケースを預けたいです。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
  },
  "s1-01": {
   "file": "s1-01.mp3",

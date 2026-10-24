@@ -1,0 +1,30 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "2f6be3fc128171f9",
+  "text": "ゲストハウスに荷物を置いたユーシャン。おなかがすいたので、近くのコンビニに行きます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "a1f4c0e37a548611",
+  "text": "いらっしゃいませー。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "d2cd09fd1b542ceb",
+  "text": "わあ、お弁当がたくさんありますね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "f8025814779c6a26",
+  "text": "からあげ弁当と、アイスを買います。あとは……お茶。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}

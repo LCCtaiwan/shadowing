@@ -1,0 +1,16 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "40d5c59d38643323",
+  "text": "シャオユーはラジオ部に入りました。今日は初めての録音です。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "28e8cea26e2d64cd",
+  "text": "今日はマイクテストよ。ルールをいうから、よく聞きなさい。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}
