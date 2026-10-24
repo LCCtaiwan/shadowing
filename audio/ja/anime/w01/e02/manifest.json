@@ -16,5 +16,11 @@
   "hash": "0aeca3baad0480e6",
   "text": "えっ……行かないんですか？",
   "voice": "Leda"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "9bf66ab7b52ece1f",
+  "text": "ちがうよ！『行かない？』は『行きませんか？』だよ。",
+  "voice": "Callirrhoe"
  }
 }
