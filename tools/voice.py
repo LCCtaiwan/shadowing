@@ -28,6 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 AUDIO = ROOT / "audio"
 DEFAULT_MODEL = "gemini-3.8-flash-tts"
+REQUEST_TIMEOUT = 60  # 秒；偶爾有請求一直沒回應，不設上限會卡住整批
 PACE = {
     "N5": "学習者向けに、ゆっくり、はっきり話す。",
     "N4": "少しゆっくり、でも自然に話す。",
@@ -224,6 +225,7 @@ def make_synth(model):
             }]}],
             response_format={"type": "audio", "mime_type": "audio/mp3"},
             generation_config={"speech_config": [{"voice": job["voice"], "language": "ja"}]},
+            timeout=REQUEST_TIMEOUT,
         )
         data = interaction.output_audio.data
         return base64.b64decode(data) if isinstance(data, str) else bytes(data)
