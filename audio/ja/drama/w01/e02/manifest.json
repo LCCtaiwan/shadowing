@@ -1,0 +1,50 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "0e2d09b86a38dbb6",
+  "text": "ユーシャンは成田空港に着きました。入国審査も両替も、大丈夫でした。",
+  "voice": "Schedar"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "5e528fc1161e0a64",
+  "text": "すみません。スイカを買いたいです。券売機はどこですか。",
+  "voice": "Iapetus"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "42b2d65faea72677",
+  "text": "券売機ですね。あちらです。一緒に行きましょうか。",
+  "voice": "Kore"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "c01ef2dfeb9ae8a6",
+  "text": "はい、お願いします。",
+  "voice": "Iapetus"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "212881e2924bafaf",
+  "text": "まず、ここを押してください。",
+  "voice": "Kore"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "5ed7dbfc3c7d43ca",
+  "text": "二千円を入れたいです。……大丈夫ですか。",
+  "voice": "Iapetus"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "657429dcbe35846e",
+  "text": "はい、大丈夫です。お金はここに入れてください。",
+  "voice": "Kore"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "83d3105be1bbf2f8",
+  "text": "あっ、出ました！スイカです！",
+  "voice": "Iapetus"
+ }
+}
