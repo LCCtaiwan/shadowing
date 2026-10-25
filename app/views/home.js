@@ -1,4 +1,4 @@
-import { S, todayStr, toggleReading, saveSettings, effectiveLimits, studyPlan, copyQueue } from '../state.js';
+import { S, todayStr, toggleReading, saveSettings, saveProgress, effectiveLimits, studyPlan, copyQueue } from '../state.js';
 import { ICON, esc, seriesChip, SERIES_ORDER } from '../ui.js';
 import { todayTasks, daysUntil, streak, weekDots, nextUnfinished } from '../lib/schedule.js';
 import { buildQueue, deckCounts, estimateMinutes, dayKey } from '../lib/srs.js';
@@ -11,7 +11,7 @@ const GUIDE = `
     <h2>第一次使用：每天這樣練</h2>
     <ol class="guide">
       <li><b>照順序按下面的任務</b>：複習 → 新的一話（家族旅行、動漫、自助旅行三選一）→ 聽力練習 → 讀解。也可以直接按最下面的「繼續」。</li>
-      <li><b>零碎時間</b>：排隊、等車時按「單字快練」或「發音聽辨」，1–3 分鐘就能練一輪。</li>
+      <li><b>零碎時間</b>：排隊、等車時按「單字篩選」、「今日抄寫」或「聽力小題」，一次練一點。</li>
       <li><b>一話分 5 步</b>：① 不看字先聽一遍 ② 一句一句看懂 ③ 看著字跟著念 ④ 不看字跟著念 ⑤ 把單字、文法收進複習。</li>
       <li><b>跟讀時</b>：App 播完一句會停下來，圓圈倒數時換你念出來，念完自動播下一句。</li>
       <li><b>複習卡</b>：先聽或看題目，在心裡想答案，再按「看答案」，依記得的程度按「重來／困難／良好／簡單」。</li>
@@ -65,6 +65,8 @@ export default function home(root) {
   const exam = S.index.exam_targets.find(e => e.date >= today);
   const now = new Date(`${today}T12:00:00`);
   const showGuide = !S.settings.guideSeen;
+  const plan = (S.index.jlpt || []).some(l => l.ready) ? studyPlan(today) : null;
+  const copyLeft = copyQueue().length;
 
   root.innerHTML = `
     <div class="row between">
@@ -85,13 +87,10 @@ export default function home(root) {
     <div class="card stack" style="gap:8px">
       <div class="row between"><h2>零碎時間</h2><span class="muted">1–3 分鐘</span></div>
       <div class="quick">
-        <button data-quick="vocab">${ICON.bolt}單字快練<small>聽→跟念→看意思</small></button>
-        <button data-quick="pron">${ICON.ear}發音聽辨<small>長音、促音、濁音</small></button>
-        <button data-quick="announce">${ICON.radio}廣播聽力<small>車站、機場、商場</small></button>
-        <button data-quick="kids">${ICON.kid}親子一起學<small>和小孩一起念</small></button>
-        <button data-quick="copy">${ICON.edit}今日抄寫<small>${(() => { const n = copyQueue().length; return n ? `${n} 個字待寫・紙上默寫` : '在筆記本默寫，對答案'; })()}</small></button>
+        ${plan ? `<button data-go-words>${ICON.cards}單字篩選<small>還剩 ${plan.remaining} 個・每天 ${plan.daily} 個</small></button>` : ''}
+        <button data-quick="copy">${ICON.edit}今日抄寫<small>${copyLeft} 個待寫</small></button>
+        <button data-quick="listen">${ICON.ear}聽力小題<small>發音・廣播輪流練</small></button>
       </div>
-      ${(S.index.jlpt || []).some(l => l.ready) ? (() => { const p = studyPlan(today); return `<button class="ghost" data-go-words style="width:100%;justify-content:space-between"><span>${ICON.cards} JLPT 單字篩選</span><span class="muted">${S.settings.plan.target} 還剩 ${p.remaining} 個・每天 ${p.daily}</span></button>`; })() : ''}
     </div>
     <div class="stack" style="gap:8px">${tasks.map(x => x.choices && x.choices.length ? `
       <div class="task ${x.done ? 'done' : ''} ${x === nextTask ? 'next' : ''}" style="flex-direction:column;align-items:stretch">
@@ -111,16 +110,18 @@ export default function home(root) {
 
   root.querySelectorAll('[data-ep]').forEach(b => b.addEventListener('click', () => go(`ep/${b.dataset.ep}`)));
   root.querySelector('[data-go-words]')?.addEventListener('click', () => go('words'));
-  root.querySelectorAll('[data-quick]').forEach(b => b.addEventListener('click', () => {
+  root.querySelectorAll('[data-quick]').forEach(b => b.addEventListener('click', async () => {
     const q = b.dataset.quick;
-    if (q === 'announce') {
-      const sets = S.index.announce || [];
-      const next = nextUnfinished(sets, today, S.progress.drills) || sets[0];
-      return next ? go(`drill/${next.id}`) : go('lib');
-    }
-    if (q === 'kids') {
-      const next = nextUnfinished(S.index.episodes.filter(e => e.series === 'kids'), today, S.progress.episodes);
-      return next ? go(`ep/${next.id}`) : go('lib');
+    if (q === 'listen') {
+      const pron = (S.index.pron || []).length > 0;
+      const announce = S.index.announce || [];
+      const kind = S.progress.listenLast === 'pron' && announce.length ? 'announce' : pron ? 'pron' : announce.length ? 'announce' : null;
+      if (!kind) return go('lib');
+      S.progress.listenLast = kind;
+      await saveProgress();
+      if (kind === 'pron') return go('quick/pron');
+      const next = nextUnfinished(announce, today, S.progress.drills) || announce[0];
+      return go(`drill/${next.id}`);
     }
     go(`quick/${q}`);
   }));
