@@ -61,5 +61,194 @@
   "text": "にほんご、上手ですね。",
   "voice": "Callirrhoe",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d2-03-o1": {
+  "file": "w01d2-03-o1.mp3",
+  "hash": "e292fd219473b6bb",
+  "text": "はい、上手ですね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-03-o2": {
+  "file": "w01d2-03-o2.mp3",
+  "hash": "aa29ff8ccf8c3132",
+  "text": "いいえ、まだまだです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-03-o3": {
+  "file": "w01d2-03-o3.mp3",
+  "hash": "5dbb22dcb262bc6e",
+  "text": "いいえ、にほんごじゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-04-s1": {
+  "file": "w01d2-04-s1.mp3",
+  "hash": "58ccb3032a12e590",
+  "text": "君が転校生？",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-04-o1": {
+  "file": "w01d2-04-o1.mp3",
+  "hash": "7281f3050bdd9f95",
+  "text": "はい、そうです。よろしくお願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-04-o2": {
+  "file": "w01d2-04-o2.mp3",
+  "hash": "b08b5ee4041be9ba",
+  "text": "はい、転校生じゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-04-o3": {
+  "file": "w01d2-04-o3.mp3",
+  "hash": "4e3638505c01dcc5",
+  "text": "いいえ、そうです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-05-s1": {
+  "file": "w01d2-05-s1.mp3",
+  "hash": "fd75216025afd27f",
+  "text": "台湾のどこから来ましたか。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-05-o1": {
+  "file": "w01d2-05-o1.mp3",
+  "hash": "93cec78d0afa5dc0",
+  "text": "台湾から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-05-o2": {
+  "file": "w01d2-05-o2.mp3",
+  "hash": "a2cd9d82a498a99e",
+  "text": "飛行機で来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-05-o3": {
+  "file": "w01d2-05-o3.mp3",
+  "hash": "723e2146b46c88fb",
+  "text": "高雄から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-06-s1": {
+  "file": "w01d2-06-s1.mp3",
+  "hash": "d6b036fa96fcd1be",
+  "text": "シャオユーさん、前に来てください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-06-o1": {
+  "file": "w01d2-06-o1.mp3",
+  "hash": "394fdb1358697c01",
+  "text": "はい、来てください。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-06-o2": {
+  "file": "w01d2-06-o2.mp3",
+  "hash": "75f22c786f12596b",
+  "text": "前に来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-06-o3": {
+  "file": "w01d2-06-o3.mp3",
+  "hash": "078a0ffb1029327a",
+  "text": "はい、わかりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-setup": {
+  "file": "w01d2-07-setup.mp3",
+  "hash": "8bd04b2c5f9c37be",
+  "text": "教室で男の学生と女の学生が話しています。女の学生はどうしてにほんに来ましたか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-question": {
+  "file": "w01d2-07-question.mp3",
+  "hash": "714f0253571fab23",
+  "text": "女の学生はどうしてにほんに来ましたか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-s1": {
+  "file": "w01d2-07-s1.mp3",
+  "hash": "82ea1e8e0a608c91",
+  "text": "シャオユーさんは台湾から来ましたね。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-s2": {
+  "file": "w01d2-07-s2.mp3",
+  "hash": "8e775a30b9d68cab",
+  "text": "はい、高雄から来ました。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-s3": {
+  "file": "w01d2-07-s3.mp3",
+  "hash": "08561449ecea230f",
+  "text": "どうしてにほんに来ましたか。アニメが好きですか。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-s4": {
+  "file": "w01d2-07-s4.mp3",
+  "hash": "c55784c6b226b810",
+  "text": "アニメも好きです。でも、にほんの学校で勉強しに来ました。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-s5": {
+  "file": "w01d2-07-s5.mp3",
+  "hash": "0660e2664d249de7",
+  "text": "へえ、すごいですね。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-07-s6": {
+  "file": "w01d2-07-s6.mp3",
+  "hash": "c4499c47ec4a1205",
+  "text": "それから、にほんの友達がほしいです。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-08-s1": {
+  "file": "w01d2-08-s1.mp3",
+  "hash": "b2caaa1619ad6562",
+  "text": "クラスで初めて自己紹介をします。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-08-o1": {
+  "file": "w01d2-08-o1.mp3",
+  "hash": "7bfc053f2c9884ac",
+  "text": "台湾へ行きました。シャオユーです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-08-o2": {
+  "file": "w01d2-08-o2.mp3",
+  "hash": "1a27f9a929ef14c1",
+  "text": "台湾から来ました。シャオユーです。よろしくお願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-08-o3": {
+  "file": "w01d2-08-o3.mp3",
+  "hash": "447c77579e7cde92",
+  "text": "台湾から来ましたか。よろしくお願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
  }
 }

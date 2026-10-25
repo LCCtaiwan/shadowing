@@ -1,0 +1,16 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "d9a9ac95f83a3d03",
+  "text": "コンビニで、たくさんの質問に答えたユーシャン。今日のお昼は、ネットで見た有名なラーメン屋に行きます。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "27cd0788d6c7f71d",
+  "text": "ここが、ネットで見たお店です。わあ、人がたくさん並んでいますね。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

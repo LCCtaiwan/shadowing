@@ -1,0 +1,254 @@
+{
+ "w01d5-01-s1": {
+  "file": "w01d5-01-s1.mp3",
+  "hash": "6be99703b7966c0a",
+  "text": "すみません、荷物を預けてもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-01-o2": {
+  "file": "w01d5-01-o2.mp3",
+  "hash": "31ec58f3804549c0",
+  "text": "はい、どうぞ。こちらでお預かりします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-01-o3": {
+  "file": "w01d5-01-o3.mp3",
+  "hash": "2d482c1f46357880",
+  "text": "いいえ、荷物はありません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-01-o1": {
+  "file": "w01d5-01-o1.mp3",
+  "hash": "24c5e95244dfd3ed",
+  "text": "はい、預けてもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-02-s1": {
+  "file": "w01d5-02-s1.mp3",
+  "hash": "b00dd70c9186e5a7",
+  "text": "お名前をお願いします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-02-o1": {
+  "file": "w01d5-02-o1.mp3",
+  "hash": "234f88b10f2dd36a",
+  "text": "リン・ユーシャンです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-02-o2": {
+  "file": "w01d5-02-o2.mp3",
+  "hash": "d4c9b790d313d569",
+  "text": "はい、お願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-02-o3": {
+  "file": "w01d5-02-o3.mp3",
+  "hash": "93cec78d0afa5dc0",
+  "text": "台湾から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-03-s1": {
+  "file": "w01d5-03-s1.mp3",
+  "hash": "e4379a8c3a29027c",
+  "text": "朝ごはんはしちじからです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-03-o1": {
+  "file": "w01d5-03-o1.mp3",
+  "hash": "aa7d94f6b2e756e3",
+  "text": "しちじまでですか。わかりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-03-o2": {
+  "file": "w01d5-03-o2.mp3",
+  "hash": "43ba402a8de34d16",
+  "text": "はい、しちじに来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-03-o3": {
+  "file": "w01d5-03-o3.mp3",
+  "hash": "63a6fa00dba50947",
+  "text": "しちじからですね。わかりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-04-s1": {
+  "file": "w01d5-04-s1.mp3",
+  "hash": "20b18d47f787b9f5",
+  "text": "窓を開けてもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-04-o1": {
+  "file": "w01d5-04-o1.mp3",
+  "hash": "b58227efccc6e38e",
+  "text": "すみません、ちょっと寒いですから…。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-04-o2": {
+  "file": "w01d5-04-o2.mp3",
+  "hash": "bf1dee466c6f9f69",
+  "text": "はい、開けてもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-04-o3": {
+  "file": "w01d5-04-o3.mp3",
+  "hash": "70ca72a5b78f8512",
+  "text": "いいえ、開けました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-05-s1": {
+  "file": "w01d5-05-s1.mp3",
+  "hash": "94701ca37ef91ea7",
+  "text": "どうして今日は早く寝るんですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-05-o1": {
+  "file": "w01d5-05-o1.mp3",
+  "hash": "8a2a7bcc8eb812f9",
+  "text": "はい、早く寝ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-05-o2": {
+  "file": "w01d5-05-o2.mp3",
+  "hash": "e77380340c4039cc",
+  "text": "あした、朝が早いですから。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-05-o3": {
+  "file": "w01d5-05-o3.mp3",
+  "hash": "c56ad403cfc2f838",
+  "text": "十時に寝てもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-06-s1": {
+  "file": "w01d5-06-s1.mp3",
+  "hash": "4c8ac33cafc5bd2b",
+  "text": "部屋はなんがいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-06-o1": {
+  "file": "w01d5-06-o1.mp3",
+  "hash": "6ccebb6c76304320",
+  "text": "五時です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-06-o2": {
+  "file": "w01d5-06-o2.mp3",
+  "hash": "aa17ba1f39d3fa93",
+  "text": "はい、五階に行きたいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-06-o3": {
+  "file": "w01d5-06-o3.mp3",
+  "hash": "d21f5a4629ee28d8",
+  "text": "五階です。エレベーターはあちらです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-setup": {
+  "file": "w01d5-07-setup.mp3",
+  "hash": "377e24cd316cea7c",
+  "text": "ホテルで男の人とホテルの女の人が話しています。チェックインはなんじからですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-question": {
+  "file": "w01d5-07-question.mp3",
+  "hash": "fd68c9f68413e99d",
+  "text": "チェックインはなんじからですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-s1": {
+  "file": "w01d5-07-s1.mp3",
+  "hash": "18a1743ae4ac65d4",
+  "text": "すみません、チェックインをお願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-s2": {
+  "file": "w01d5-07-s2.mp3",
+  "hash": "83680f15ea05f8bb",
+  "text": "申し訳ございません。チェックインは三時からなんです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-s3": {
+  "file": "w01d5-07-s3.mp3",
+  "hash": "8afb77b0349d005a",
+  "text": "そうですか。今、十二時ですから…。じゃ、荷物を預けてもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-s4": {
+  "file": "w01d5-07-s4.mp3",
+  "hash": "0152f7c38a4a9d6e",
+  "text": "はい、お預かりします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-s5": {
+  "file": "w01d5-07-s5.mp3",
+  "hash": "4a112e898ed4eb2a",
+  "text": "それから、朝ごはんはなんじからですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-07-s6": {
+  "file": "w01d5-07-s6.mp3",
+  "hash": "b93b566662a45421",
+  "text": "しちじからくじまでです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-08-s1": {
+  "file": "w01d5-08-s1.mp3",
+  "hash": "155780950c3536a6",
+  "text": "チェックアウトのあとで、荷物を預けたいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-08-o1": {
+  "file": "w01d5-08-o1.mp3",
+  "hash": "bc01a6181fa11d59",
+  "text": "荷物を預かってもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-08-o2": {
+  "file": "w01d5-08-o2.mp3",
+  "hash": "aaee33668b00a41a",
+  "text": "荷物を預けてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d5-08-o3": {
+  "file": "w01d5-08-o3.mp3",
+  "hash": "4d4369f7cd06bdea",
+  "text": "荷物を預けてもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

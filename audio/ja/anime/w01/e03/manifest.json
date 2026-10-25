@@ -26,5 +26,327 @@
   "text": "二つ。マイクの前で、お菓子を食べちゃだめですぅ。",
   "voice": "Achernar",
   "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "bdbf3e62ff0f3609",
+  "text": "三つ！大きい声を出しちゃだめだぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "eefd87b261cbc796",
+  "text": "……あなたが一番うるさいの！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "e499eaf54d2748cb",
+  "text": "あの、質問です。ドラマでも、です・ますで話しますか？",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "b9ba88ba1d090e56",
+  "text": "だめ。ドラマは普通の話し方よ。『学生です』は『学生だ』。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "2827d42ebe5ac39a",
+  "text": "『行きます』は『行く』。『行きません』は『行かない』ですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "e79d3639b87e05d1",
+  "text": "じゃあ……『わたしは勇者だ。逃げない』？",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "ddc5c288f76ef5fd",
+  "text": "次は早口言葉よ。『となりのトナカイ、時計を止めた』。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "c82c776a5901cc69",
+  "text": "よし！となりのトナカイ、とけ……とかげ……？",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "2db4adf9a4fbaf18",
+  "text": "となりのトナカイ、時計を……止めた！",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "d935f42f0683d13c",
+  "text": "シャオユー、悪くない。陽太は、だめ。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "75e53decae6a4540",
+  "text": "雨の音、いきますぅ。……ジュージュー。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "06538f79ef6b5be0",
+  "text": "それ、焼肉の音だろ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "a3d97f523a914c32",
+  "text": "……もういい。録音、スタート！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "9774802ffd0a8b07",
+  "text": "ここは暗い森。勇者は一人で歩く。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "39a243f8cbb210c0",
+  "text": "俺は勇者だ！魔王、どこだ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "f5c6643e8023d211",
+  "text": "ふふふ……ここだ。人間は、この森に入ってはいけない。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "97783d9b3615976f",
+  "text": "帰らない！俺は逃げないぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "272a0aca77234e55",
+  "text": "そのとき、空で雷が鳴った。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "bfc98f8d29a76290",
+  "text": "ピヨピヨ、ピヨピヨ～。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "01e2e3febdd423a1",
+  "text": "……雷じゃない！ひよこだ！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "a296bbcfbf885dfe",
+  "text": "すみませぇん。雷の音、忘れたんですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "7de113c53aa4d9f4",
+  "text": "ふふっ……ラジオ部、楽しいです。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "5ca1bdcbb586b4a4",
+  "text": "あしたは休みだ。学校に行かない。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "d2684bf96bb6b277",
+  "text": "今日は雨じゃない。公園で遊ぶ。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "d73c90a94488e0ee",
+  "text": "ここで写真を撮ってはいけません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "81039ecbe6dfe529",
+  "text": "夜、一人で出かけちゃだめだよ。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:マイク": {
+  "file": "v-f7c45200a40a.mp3",
+  "hash": "d2f88a3f1fdf71e9",
+  "text": "マイク",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:叩く": {
+  "file": "v-539a81ebbc9f.mp3",
+  "hash": "f6fe414b58d705dc",
+  "text": "たたく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:お菓子": {
+  "file": "v-0bbbb6772c81.mp3",
+  "hash": "4c12e30981ec8b31",
+  "text": "おかし",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:出す": {
+  "file": "v-bb305bb13d11.mp3",
+  "hash": "9390692786007ccb",
+  "text": "だす",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:一番": {
+  "file": "v-89023a609db0.mp3",
+  "hash": "b089944186d5c97f",
+  "text": "いちばん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:うるさい": {
+  "file": "v-709dfb453697.mp3",
+  "hash": "954f4f5bd50cf0e7",
+  "text": "うるさい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:普通": {
+  "file": "v-2d7078352c5c.mp3",
+  "hash": "1b20704a8333edd5",
+  "text": "ふつう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:勇者": {
+  "file": "v-b2534be01511.mp3",
+  "hash": "c8ad6757ed1aecce",
+  "text": "ゆうしゃ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:人間": {
+  "file": "v-b4b354cee694.mp3",
+  "hash": "3443986b55ac7dd9",
+  "text": "にんげん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:帰る": {
+  "file": "v-081ec76e249a.mp3",
+  "hash": "42184d0acd5e6392",
+  "text": "かえる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:雷": {
+  "file": "v-46764d27b474.mp3",
+  "hash": "9085561810a90ecd",
+  "text": "かみなり",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:忘れる": {
+  "file": "v-f51ca9c86953.mp3",
+  "hash": "73db6d465f1c0223",
+  "text": "わすれる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:逃げる": {
+  "file": "v-b85068e08728.mp3",
+  "hash": "aa881c9f5bdb9946",
+  "text": "にげる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:早口言葉": {
+  "file": "v-c175642e24b0.mp3",
+  "hash": "8bba757a9d2f1a6b",
+  "text": "はやくちことば",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:時計": {
+  "file": "v-7b5f27e20872.mp3",
+  "hash": "43dbf5bc1ed8da9e",
+  "text": "とけい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:止める": {
+  "file": "v-ecc0d62bfc48.mp3",
+  "hash": "304c5e07b1928411",
+  "text": "とめる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:焼肉": {
+  "file": "v-702f941f8d4f.mp3",
+  "hash": "dfda79d6b745d195",
+  "text": "やきにく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:録音": {
+  "file": "v-deadc9593bfd.mp3",
+  "hash": "19bae1df9db586c6",
+  "text": "ろくおん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:森": {
+  "file": "v-e6928181302c.mp3",
+  "hash": "751a6b580057015e",
+  "text": "もり",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:魔王": {
+  "file": "v-be754b40b006.mp3",
+  "hash": "d292852e791ff30e",
+  "text": "まおう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }

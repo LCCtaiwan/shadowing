@@ -197,15 +197,17 @@
  },
  "g2-ex1": {
   "file": "g2-ex1.mp3",
-  "hash": "3264b1d755536e37",
-  "text": "友だちに会いに来ました。",
-  "voice": "Sulafat"
+  "hash": "dbe006628480b02a",
+  "text": "友達に会いに来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
  },
  "g2-ex2": {
   "file": "g2-ex2.mp3",
-  "hash": "01428b52aba6186a",
-  "text": "渋谷へ買い物に来ました。",
-  "voice": "Sulafat"
+  "hash": "c33dfca1c55fdd68",
+  "text": "浅草へ写真を撮りに来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
  },
  "ja:vocab:入国": {
   "file": "v-7b2913c1a5fe.mp3",
@@ -375,5 +377,117 @@
   "text": "……はい、知っています。",
   "voice": "Iapetus",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:発": {
+  "file": "v-23744a24c32f.mp3",
+  "hash": "b419311abbd84600",
+  "text": "はつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:席": {
+  "file": "v-78a87ddd5120.mp3",
+  "hash": "b93b135459df0c18",
+  "text": "せき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:窓側": {
+  "file": "v-98f9f1d1616e.mp3",
+  "hash": "8402f87e203fbcb4",
+  "text": "まどがわ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:見える": {
+  "file": "v-48d039668e73.mp3",
+  "hash": "bb81c789952b867e",
+  "text": "みえる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:カード": {
+  "file": "v-ea97be22220e.mp3",
+  "hash": "28072f83dc1d7fba",
+  "text": "カード",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:入れる": {
+  "file": "v-9595e0d1be7a.mp3",
+  "hash": "ca47e28f2d0a3d79",
+  "text": "いれる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:指定席": {
+  "file": "v-8845f37c5085.mp3",
+  "hash": "f955b9f6b524b8b6",
+  "text": "していせき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:乗り場": {
+  "file": "v-24ec3345ea62.mp3",
+  "hash": "9c259bc5e8105bbc",
+  "text": "のりば",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:地下": {
+  "file": "v-07d1ebf9dae4.mp3",
+  "hash": "84b26b083fb7c34f",
+  "text": "ちか",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:エスカレーター": {
+  "file": "v-96568dcc1c21.mp3",
+  "hash": "f997573d78835b47",
+  "text": "エスカレーター",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:大きい": {
+  "file": "v-c57d34585274.mp3",
+  "hash": "4acaae5ad9f50997",
+  "text": "おおきい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:スーツケース": {
+  "file": "v-9d84924f3b91.mp3",
+  "hash": "4f75bd00b2f38cfe",
+  "text": "スーツケース",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:やめる": {
+  "file": "v-840628f820c9.mp3",
+  "hash": "e1222995ee0c3076",
+  "text": "やめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:終点": {
+  "file": "v-6cd359548105.mp3",
+  "hash": "d6eef4e21017fb53",
+  "text": "しゅうてん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:休む": {
+  "file": "v-ac4480008b3c.mp3",
+  "hash": "6ceeb2464af84d09",
+  "text": "やすむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:外": {
+  "file": "v-90556f898fe6.mp3",
+  "hash": "1846cb21f4685960",
+  "text": "そと",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

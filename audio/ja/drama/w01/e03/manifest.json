@@ -5,5 +5,348 @@
   "text": "荷物預かりでスーツケースを受け取って、ユーシャンは浅草のゲストハウスに来ました。今日からさんぱくします。",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "cc4a54de7d5eee8c",
+  "text": "こんにちは！いらっしゃいませ。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "24580dada3791758",
+  "text": "こんにちは。リン・ユーシャンです。予約しています。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "05889406fef7d4a6",
+  "text": "リンさんですね。お待ちしていました。あ、ここで靴を脱いでください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "897a180070a5c98e",
+  "text": "あっ、すみません！……スーツケースは、中に入れてもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "57801bf869367493",
+  "text": "はい。でも、このタオルでタイヤを拭いてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "cc362134537a2e78",
+  "text": "スーツケースも、靴を脱ぎますね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "d2a0cac929d0f1be",
+  "text": "チェックインは三時からです。今はにじごじゅっぷんですから、ラウンジで少し待ってくださいね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "26958b91415a75f8",
+  "text": "はい。あの、ラウンジの写真を撮ってもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "5c973047cdc88484",
+  "text": "はい、どうぞ。でも、ほかのお客さんの顔は撮らないでくださいね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "8224e16f6e81a80a",
+  "text": "お待たせしました。では、ハウスルールを説明しますね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "5d2e41dddf89fc02",
+  "text": "シャワーは朝六時から夜十二時までです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "455f5471764137d9",
+  "text": "夜十二時まで……。夜中はだめですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "03268b7753e7eb2e",
+  "text": "はい。シャワーはドミトリーの隣ですから、夜中は使わないでください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "b382f359815e1de0",
+  "text": "それから、ラウンジは夜十時から、静かにお願いします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "b4feb4e662ccdb5f",
+  "text": "十時から静かに……。はい、わかりました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "9b1359bf767a39b9",
+  "text": "あの、部屋で晩ごはんを食べてもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "c948f62bb0d9eb79",
+  "text": "すみません、お部屋はだめです。ほかのお客さんもいますから。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "024ffbba8b5cc765",
+  "text": "お食事は、このラウンジでどうぞ。キッチンも使ってもいいですよ。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "860925d81f1c929d",
+  "text": "よかった！じゃあ、ラウンジで食べます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "6effdb3ce9cf0ee1",
+  "text": "それから……タオルはありますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "a08887138093c2f8",
+  "text": "タオルはレンタルです。一枚二百円です。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "1e5ce53cfe19c53a",
+  "text": "タオルは持ってきました。でも、スーツケースの一番下ですから……一枚お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "81de89f2a62a9691",
+  "text": "ふふ、わかります。はい、どうぞ。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "77825d658de8ef4d",
+  "text": "靴は玄関で脱ぐ。シャワーは十二時まで。ラウンジは十時から静かに。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "08d8b9e8dbeae6ad",
+  "text": "ごはんはラウンジで。……ルールがたくさんありますね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "bba864d1331dc7ab",
+  "text": "ここに座ってもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "035cb7ea22475c60",
+  "text": "でも、静かですから、今夜はゆっくり寝ます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "f27b4f16c4922447",
+  "text": "この傘を借りてもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "55c29c3208f3780f",
+  "text": "今日は寒いですから、コートを着ます。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "c43814716a2d72f1",
+  "text": "あしたは朝が早いですから、もう寝ます。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:靴": {
+  "file": "v-d18935f663a8.mp3",
+  "hash": "0662ebf004b54a7e",
+  "text": "くつ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:脱ぐ": {
+  "file": "v-d7e879694dea.mp3",
+  "hash": "ebfd40d780b5bba2",
+  "text": "ぬぐ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:タオル": {
+  "file": "v-ac0841990ec0.mp3",
+  "hash": "25816ea151bf3e11",
+  "text": "タオル",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:拭く": {
+  "file": "v-faa68658e953.mp3",
+  "hash": "0e50b58a14bbde44",
+  "text": "ふく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:ルール": {
+  "file": "v-3e1f735ea1fb.mp3",
+  "hash": "c4f6fcf722ef7d8b",
+  "text": "ルール",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:撮る": {
+  "file": "v-4fdd3082e8e2.mp3",
+  "hash": "fcb08f287208a27a",
+  "text": "とる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:お客さん": {
+  "file": "v-5955f631cc5e.mp3",
+  "hash": "8ff32fa769495b62",
+  "text": "おきゃくさん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:説明": {
+  "file": "v-1ff23b116821.mp3",
+  "hash": "a1d19444d5495e50",
+  "text": "せつめい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:一番": {
+  "file": "v-89023a609db0.mp3",
+  "hash": "b089944186d5c97f",
+  "text": "いちばん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:玄関": {
+  "file": "v-ae4b043c7a24.mp3",
+  "hash": "6dfb0bd256a580ae",
+  "text": "げんかん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:寝る": {
+  "file": "v-2733728255c5.mp3",
+  "hash": "eea7f81d7ba99d4a",
+  "text": "ねる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:シャワー": {
+  "file": "v-cb5b67b693c1.mp3",
+  "hash": "795bdd6a653a8d5b",
+  "text": "シャワー",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:隣": {
+  "file": "v-ae4f8c2103f3.mp3",
+  "hash": "820e2d85ddce4b3e",
+  "text": "となり",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:静か": {
+  "file": "v-36d92025dc0b.mp3",
+  "hash": "8495e49f2984eb4e",
+  "text": "しずか",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:晩ごはん": {
+  "file": "v-663a146943c9.mp3",
+  "hash": "23b4a6867650ebe0",
+  "text": "ばんごはん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:食べる": {
+  "file": "v-ece110969c48.mp3",
+  "hash": "036595e176fc482c",
+  "text": "たべる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:使う": {
+  "file": "v-c7d5b9b5638a.mp3",
+  "hash": "02701881741ee9bf",
+  "text": "つかう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:キッチン": {
+  "file": "v-216ad95d52ba.mp3",
+  "hash": "3130d4de0b9ee04e",
+  "text": "キッチン",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:レンタル": {
+  "file": "v-97b37d4591b6.mp3",
+  "hash": "cb209ce5240f1705",
+  "text": "レンタル",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }

@@ -1,0 +1,254 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "8d7c9da1a418760c",
+  "text": "きょうは京都です。とても暑いです。アイスが食べたいです！",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "c8a0613e9f567473",
+  "text": "いらっしゃいませ！",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "b91a45ea4f553a19",
+  "text": "こんにちは！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "df395eb28e825e7f",
+  "text": "どのアイスにしますか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "b05caf2fbb9994c9",
+  "text": "これください！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "5c5bae2ad94c0710",
+  "text": "抹茶ですね。いくつですか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "7b0741d571766c80",
+  "text": "ひとつください。",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "407b016265ca5fc3",
+  "text": "アーバオは、いちご！",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "7a3e23e3c9b6beb4",
+  "text": "いちごも、ひとつください。",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "ec368d61db4a1788",
+  "text": "抹茶といちごで、ふたつですね。カップとコーン、どちらがいいですか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "ad79d051979baa69",
+  "text": "コーンがいいです！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "df196ccd26b8ad8f",
+  "text": "はい、どうぞ。とけるから、気をつけてね。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "ff37e11067b47cac",
+  "text": "ありがとうございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "7390781da6f9af8a",
+  "text": "冷たい！おいしいね！",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "35d752ee68cc97f7",
+  "text": "うん、おいしいね！",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "063bc52c468e4632",
+  "text": "おねえちゃん、手がべたべた…。",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "dfd64780e6aa5859",
+  "text": "すみません、ティッシュをください。",
+  "voice": "Laomedeia",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "b4ad3082e7ee5a3e",
+  "text": "はい、どうぞ。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "15c0905d342a3525",
+  "text": "お水をください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "791b8f46f57a0f65",
+  "text": "このパンをください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "cccb69c0c99913a9",
+  "text": "「りんごはいくつですか。」「みっつです。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "1d270da35e357689",
+  "text": "おにぎりをふたつください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:アイス": {
+  "file": "v-a5a684865a1d.mp3",
+  "hash": "d3ca066bd86a1599",
+  "text": "アイス",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:これ": {
+  "file": "v-a2d04636220e.mp3",
+  "hash": "c0c801dcb14f0526",
+  "text": "これ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:抹茶": {
+  "file": "v-42609020a470.mp3",
+  "hash": "1778fdc1d131e048",
+  "text": "まっちゃ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:いくつ": {
+  "file": "v-f5e23a68ed5b.mp3",
+  "hash": "26bd2dc1061caa7b",
+  "text": "いくつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:一つ": {
+  "file": "v-3c476fbb38a1.mp3",
+  "hash": "f0d34f881421fb43",
+  "text": "ひとつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:いちご": {
+  "file": "v-8245894019e0.mp3",
+  "hash": "6c7e8a3b41e50900",
+  "text": "いちご",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:二つ": {
+  "file": "v-d117c35486f4.mp3",
+  "hash": "5076c02f20c6d7a4",
+  "text": "ふたつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:カップ": {
+  "file": "v-4806428432d8.mp3",
+  "hash": "67999d7b9ec9eb27",
+  "text": "カップ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:コーン": {
+  "file": "v-0cf534016abd.mp3",
+  "hash": "78171e5086591c6d",
+  "text": "コーン",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:冷たい": {
+  "file": "v-bbae96743617.mp3",
+  "hash": "c0178b9b55095e3d",
+  "text": "つめたい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:気をつける": {
+  "file": "v-f8a34da04c63.mp3",
+  "hash": "0026342578c359c0",
+  "text": "きをつける",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:おいしい": {
+  "file": "v-6302cc701e43.mp3",
+  "hash": "d5628b630fe30b6a",
+  "text": "おいしい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:手": {
+  "file": "v-327d6c1567df.mp3",
+  "hash": "d85d97e82504a773",
+  "text": "て",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:ティッシュ": {
+  "file": "v-f47dcb44dc8b.mp3",
+  "hash": "37c298c162447a9e",
+  "text": "ティッシュ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}

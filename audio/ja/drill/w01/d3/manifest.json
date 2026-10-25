@@ -1,0 +1,289 @@
+{
+ "w01d3-01-s1": {
+  "file": "w01d3-01-s1.mp3",
+  "hash": "758cabe236e0fa22",
+  "text": "どちらまで行きますか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-01-o1": {
+  "file": "w01d3-01-o1.mp3",
+  "hash": "9c653b5658bcb361",
+  "text": "はい、行きたいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-01-o2": {
+  "file": "w01d3-01-o2.mp3",
+  "hash": "ac7a03e1323ecd38",
+  "text": "浅草まで行きたいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-01-o3": {
+  "file": "w01d3-01-o3.mp3",
+  "hash": "ad2d94feaf35dd71",
+  "text": "浅草から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-02-s1": {
+  "file": "w01d3-02-s1.mp3",
+  "hash": "9090fb967e7a7930",
+  "text": "すみません、トイレはどこですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-02-o1": {
+  "file": "w01d3-02-o1.mp3",
+  "hash": "a1517b4fd928b73b",
+  "text": "トイレに行きたいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-02-o2": {
+  "file": "w01d3-02-o2.mp3",
+  "hash": "c7cadaa7b2c5fa3c",
+  "text": "はい、トイレです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-03-s1": {
+  "file": "w01d3-03-s1.mp3",
+  "hash": "51d2a3773212f31a",
+  "text": "いくらチャージしますか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-03-o1": {
+  "file": "w01d3-03-o1.mp3",
+  "hash": "12df5105f90d2489",
+  "text": "三千円お願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d3-03-o2": {
+  "file": "w01d3-03-o2.mp3",
+  "hash": "3b4e82332cf8e498",
+  "text": "三千円でした。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-03-o3": {
+  "file": "w01d3-03-o3.mp3",
+  "hash": "03bb4cd4affb4f92",
+  "text": "三番線です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-04-s1": {
+  "file": "w01d3-04-s1.mp3",
+  "hash": "31aae946fa86c428",
+  "text": "すみません、浅草へ行く電車は何番線ですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-04-o1": {
+  "file": "w01d3-04-o1.mp3",
+  "hash": "89013a4052cc59d3",
+  "text": "二つ目の駅です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-04-o2": {
+  "file": "w01d3-04-o2.mp3",
+  "hash": "643c9f4fb0b8528e",
+  "text": "二時に来ます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-04-o3": {
+  "file": "w01d3-04-o3.mp3",
+  "hash": "332c3339ab8c3f6c",
+  "text": "二番線です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-05-s1": {
+  "file": "w01d3-05-s1.mp3",
+  "hash": "dc9ffa466448e939",
+  "text": "次の電車はなんじですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-02-o3": {
+  "file": "w01d3-02-o3.mp3",
+  "hash": "a7d4c02547a56784",
+  "text": "あちらです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-05-o1": {
+  "file": "w01d3-05-o1.mp3",
+  "hash": "34c8c25a8aa3b3a2",
+  "text": "じゅっぷんかかります。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-05-o3": {
+  "file": "w01d3-05-o3.mp3",
+  "hash": "5f60094eb93da4f6",
+  "text": "十番線です。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-06-s1": {
+  "file": "w01d3-06-s1.mp3",
+  "hash": "055a8476c091c83a",
+  "text": "旅行ですか。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-06-o1": {
+  "file": "w01d3-06-o1.mp3",
+  "hash": "5e0f8d13933bba93",
+  "text": "いいえ、旅行です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-06-o2": {
+  "file": "w01d3-06-o2.mp3",
+  "hash": "f9d5f4f8f6571480",
+  "text": "はい、台湾から旅行に来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-06-o3": {
+  "file": "w01d3-06-o3.mp3",
+  "hash": "d59a16f844d0de16",
+  "text": "はい、旅行に来てください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-setup": {
+  "file": "w01d3-07-setup.mp3",
+  "hash": "7bdaf31fb5fd5533",
+  "text": "駅で男の人と駅員が話しています。男の人はまずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-question": {
+  "file": "w01d3-07-question.mp3",
+  "hash": "aab6421c9cf0800f",
+  "text": "男の人はまずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s1": {
+  "file": "w01d3-07-s1.mp3",
+  "hash": "dadf1230933eeb1f",
+  "text": "すみません、スイカを買いたいです。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-05-o2": {
+  "file": "w01d3-05-o2.mp3",
+  "hash": "564d2c75779bafa5",
+  "text": "十時五分です。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s2": {
+  "file": "w01d3-07-s2.mp3",
+  "hash": "45ce98b5edb830ef",
+  "text": "スイカですね。あちらの青い機械で買ってください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s3": {
+  "file": "w01d3-07-s3.mp3",
+  "hash": "4cdc0a4b7b815a43",
+  "text": "はい。お金はどこに入れますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s4": {
+  "file": "w01d3-07-s4.mp3",
+  "hash": "5d166c74864d1df8",
+  "text": "まず、画面の「スイカ」のボタンを押してください。それから、お金を入れてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s5": {
+  "file": "w01d3-07-s5.mp3",
+  "hash": "d2667f3a72225c52",
+  "text": "チャージもできますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s6": {
+  "file": "w01d3-07-s6.mp3",
+  "hash": "ecc3c1a3dba3ab51",
+  "text": "はい、買ったあとでできますよ。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-07-s7": {
+  "file": "w01d3-07-s7.mp3",
+  "hash": "58fedb83658a3c7d",
+  "text": "わかりました。ありがとうございます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-setup": {
+  "file": "w01d3-08-setup.mp3",
+  "hash": "87bc4764a3f2acf1",
+  "text": "駅で女の人と男の人が話しています。男の人は、はじめにどの駅で電車を降りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-question": {
+  "file": "w01d3-08-question.mp3",
+  "hash": "a755ac047b6a59d0",
+  "text": "男の人は、はじめにどの駅で電車を降りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-s1": {
+  "file": "w01d3-08-s1.mp3",
+  "hash": "e16e47d2bdf324d7",
+  "text": "すみません、この電車は浅草に行きますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-s2": {
+  "file": "w01d3-08-s2.mp3",
+  "hash": "0a3f03b2ce23c999",
+  "text": "いいえ、行きません。上野で乗り換えてください。",
+  "voice": "Aoede",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-s3": {
+  "file": "w01d3-08-s3.mp3",
+  "hash": "b049750b664f0f41",
+  "text": "上野ですね。上野で何線に乗りますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-s4": {
+  "file": "w01d3-08-s4.mp3",
+  "hash": "02a4522d6cf0aef2",
+  "text": "銀座線です。銀座線は浅草まで行きますよ。",
+  "voice": "Aoede",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-s5": {
+  "file": "w01d3-08-s5.mp3",
+  "hash": "2796d69c24444d3d",
+  "text": "銀座で降りますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d3-08-s6": {
+  "file": "w01d3-08-s6.mp3",
+  "hash": "8c5d3a9ddba1d7e5",
+  "text": "いいえ、銀座じゃないです。上野で降りてください。",
+  "voice": "Aoede",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

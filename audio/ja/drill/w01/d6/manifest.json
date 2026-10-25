@@ -1,0 +1,296 @@
+{
+ "w01d6-01-s1": {
+  "file": "w01d6-01-s1.mp3",
+  "hash": "1a9f2715aacc27ba",
+  "text": "そのマイク、触っちゃだめ！",
+  "voice": "Despina",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-01-o1": {
+  "file": "w01d6-01-o1.mp3",
+  "hash": "04433a1dc2b190cf",
+  "text": "はい、触ります。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-01-o2": {
+  "file": "w01d6-01-o2.mp3",
+  "hash": "06ce95d01c6b8def",
+  "text": "あ、ごめんなさい。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-01-o3": {
+  "file": "w01d6-01-o3.mp3",
+  "hash": "a952422fe1b7c1e9",
+  "text": "どうぞ、触ってください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-02-s1": {
+  "file": "w01d6-02-s1.mp3",
+  "hash": "ca3fd7734b5a90f7",
+  "text": "あしたも部室に来る？",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-02-o1": {
+  "file": "w01d6-02-o1.mp3",
+  "hash": "96c66362d98e609b",
+  "text": "はい、行きます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-02-o2": {
+  "file": "w01d6-02-o2.mp3",
+  "hash": "17725effe70d5a3a",
+  "text": "いいえ、来なかったです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-02-o3": {
+  "file": "w01d6-02-o3.mp3",
+  "hash": "51b53a8ff47d2da2",
+  "text": "あした、来てください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-03-s1": {
+  "file": "w01d6-03-s1.mp3",
+  "hash": "bba62f97f0fbc2e6",
+  "text": "これ、シャオユーのペン？",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-03-o1": {
+  "file": "w01d6-03-o1.mp3",
+  "hash": "f2c43ef2f628f036",
+  "text": "はい、わたしのペンじゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-03-o2": {
+  "file": "w01d6-03-o2.mp3",
+  "hash": "7e4a0e7628b4841b",
+  "text": "いいえ、ペンです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-03-o3": {
+  "file": "w01d6-03-o3.mp3",
+  "hash": "cfba16b73728a8bc",
+  "text": "いいえ、わたしのじゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-04-s1": {
+  "file": "w01d6-04-s1.mp3",
+  "hash": "faefe15561ac98ca",
+  "text": "録音中は、しゃべっちゃだめよ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-04-o1": {
+  "file": "w01d6-04-o1.mp3",
+  "hash": "1ad1f3cebfb6da5b",
+  "text": "じゃ、しゃべってもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-04-o2": {
+  "file": "w01d6-04-o2.mp3",
+  "hash": "78d78728c3ed4c0c",
+  "text": "はい、静かにします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-04-o3": {
+  "file": "w01d6-04-o3.mp3",
+  "hash": "17f0364e7c1f76ca",
+  "text": "はい、たくさん話します。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-05-s1": {
+  "file": "w01d6-05-s1.mp3",
+  "hash": "134560c822a6bb14",
+  "text": "今日、一緒に部室行かない？",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-05-o1": {
+  "file": "w01d6-05-o1.mp3",
+  "hash": "fd20a3e973b8c125",
+  "text": "はい、行かないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-05-o3": {
+  "file": "w01d6-05-o3.mp3",
+  "hash": "346d6321991dcf4e",
+  "text": "いいえ、行きました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-05-o2": {
+  "file": "w01d6-05-o2.mp3",
+  "hash": "96c66362d98e609b",
+  "text": "はい、行きます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-06-s1": {
+  "file": "w01d6-06-s1.mp3",
+  "hash": "86c5c456904feb66",
+  "text": "先輩、マイクの前で食べてもいいですかぁ？",
+  "voice": "Achernar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-06-o1": {
+  "file": "w01d6-06-o1.mp3",
+  "hash": "2a52a50a30ba116c",
+  "text": "はい、食べてはいけません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-06-o2": {
+  "file": "w01d6-06-o2.mp3",
+  "hash": "4cf26b353d7da519",
+  "text": "はい、食べました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-06-o3": {
+  "file": "w01d6-06-o3.mp3",
+  "hash": "061c8864746a45de",
+  "text": "いいえ、食べてはいけません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-07-question": {
+  "file": "w01d6-07-question.mp3",
+  "hash": "0e3e0988894d7343",
+  "text": "新しい部員はまずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-s1": {
+  "file": "w01d6-07-s1.mp3",
+  "hash": "f8c9452f630b88ec",
+  "text": "シャオユー、今からマイクテストよ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-setup": {
+  "file": "w01d6-07-setup.mp3",
+  "hash": "78c7a821b78b00f9",
+  "text": "部室で部長と新しい部員が話しています。新しい部員はまずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d6-07-s2": {
+  "file": "w01d6-07-s2.mp3",
+  "hash": "ebd5d9482f57188b",
+  "text": "はい。すぐ話してもいいですか。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-s3": {
+  "file": "w01d6-07-s3.mp3",
+  "hash": "b68bb5d7929dab64",
+  "text": "ちょっと待って。まず、スマホの音を消しなさい。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-s4": {
+  "file": "w01d6-07-s4.mp3",
+  "hash": "c509d2d9f4441a31",
+  "text": "あ、はい。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-s5": {
+  "file": "w01d6-07-s5.mp3",
+  "hash": "153ee3d873b86078",
+  "text": "それから、水を飲んで。声がよくなるから。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-s6": {
+  "file": "w01d6-07-s6.mp3",
+  "hash": "0c75cdff229d761c",
+  "text": "はい。そのあとで話しますね。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-07-s7": {
+  "file": "w01d6-07-s7.mp3",
+  "hash": "819f24a20f06eed0",
+  "text": "そう。あ、マイクは触っちゃだめよ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-setup": {
+  "file": "w01d6-08-setup.mp3",
+  "hash": "7da9d498fcf12037",
+  "text": "部室で男の学生と女の学生が話しています。録音のとき、してはいけないことは何ですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-question": {
+  "file": "w01d6-08-question.mp3",
+  "hash": "fdaeab9b463f54f6",
+  "text": "録音のとき、してはいけないことは何ですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s1": {
+  "file": "w01d6-08-s1.mp3",
+  "hash": "ae1983493b7acab8",
+  "text": "陽太先輩、録音のとき、座ってもいいですかぁ？",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s2": {
+  "file": "w01d6-08-s2.mp3",
+  "hash": "8c112574fa11ce37",
+  "text": "おう、座っていいぞ。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s3": {
+  "file": "w01d6-08-s3.mp3",
+  "hash": "2a55a3139c745a21",
+  "text": "じゃあ、お菓子を食べてもいいですかぁ？",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s4": {
+  "file": "w01d6-08-s4.mp3",
+  "hash": "5c7726ff19f5f707",
+  "text": "それはだめだ。音が入るからな。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s5": {
+  "file": "w01d6-08-s5.mp3",
+  "hash": "c2c4c98d5d3ee69b",
+  "text": "えー。じゃ、お水は？",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s6": {
+  "file": "w01d6-08-s6.mp3",
+  "hash": "b29b3816a72a37bb",
+  "text": "水は飲んでもいいぞ。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d6-08-s7": {
+  "file": "w01d6-08-s7.mp3",
+  "hash": "9b5cbe7ceae47129",
+  "text": "よかったですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

@@ -26,5 +26,19 @@
   "text": "そうだ。焼きそばパンは、毎日じゅっこだけなんだ。",
   "voice": "Fenrir",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "9f0816e37a93ee94",
+  "text": "あんた、また焼きそばパン？カレーパンのほうがおいしいじゃない。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "a025b2ef5794031d",
+  "text": "いや、カレーパンより焼きそばパンのほうがうまいだろ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }

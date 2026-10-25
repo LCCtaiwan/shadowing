@@ -1,0 +1,58 @@
+{
+ "ja:vocab:現像": {
+  "file": "v-7a99d44df863.mp3",
+  "hash": "63678fb046a64aba",
+  "text": "げんぞう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:原則": {
+  "file": "v-bf4c8d2e5c37.mp3",
+  "hash": "cd1a59a4739d497c",
+  "text": "げんそく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:見地": {
+  "file": "v-421b83bbfba7.mp3",
+  "hash": "8d7469dbe7bf5932",
+  "text": "けんち",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:現地": {
+  "file": "v-bd7e42db622f.mp3",
+  "hash": "5e4fc41746d8fb9e",
+  "text": "げんち",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:限定": {
+  "file": "v-d528b0204f8e.mp3",
+  "hash": "da20ff8ecf335606",
+  "text": "げんてい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:原点": {
+  "file": "v-7b36cfa1e12a.mp3",
+  "hash": "6ec447f5ae793b68",
+  "text": "げんてん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:原典": {
+  "file": "v-a095e51b215a.mp3",
+  "hash": "6ec447f5ae793b68",
+  "text": "げんてん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:原爆": {
+  "file": "v-5c8b8e765fdb.mp3",
+  "hash": "9d1bcc5c31992b51",
+  "text": "げんばく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

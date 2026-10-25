@@ -1,0 +1,9 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "e862a16feaffcd18",
+  "text": "むかし、むかし、あるところに、おじいさんとおばあさんがありました。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

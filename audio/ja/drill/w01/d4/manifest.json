@@ -1,0 +1,254 @@
+{
+ "w01d4-01-s1": {
+  "file": "w01d4-01-s1.mp3",
+  "hash": "a933292f26b1d95c",
+  "text": "一緒に部活を見に行きませんか。",
+  "voice": "Callirrhoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-01-o1": {
+  "file": "w01d4-01-o1.mp3",
+  "hash": "a204eaf0eaf9a6c3",
+  "text": "いいですね。行きましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-01-o2": {
+  "file": "w01d4-01-o2.mp3",
+  "hash": "340a2af6474d4556",
+  "text": "いいえ、行きませんでした。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-01-o3": {
+  "file": "w01d4-01-o3.mp3",
+  "hash": "7e7b2683318ef7cf",
+  "text": "はい、見に行きませんか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-02-s1": {
+  "file": "w01d4-02-s1.mp3",
+  "hash": "240fb95dad6c0502",
+  "text": "お茶、飲みませんかぁ？",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-02-o1": {
+  "file": "w01d4-02-o1.mp3",
+  "hash": "0e62eb5adee58f1d",
+  "text": "はい、飲みませんでした。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-02-o2": {
+  "file": "w01d4-02-o2.mp3",
+  "hash": "0b95938f190da097",
+  "text": "どうぞ、飲んでください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-02-o3": {
+  "file": "w01d4-02-o3.mp3",
+  "hash": "18177df615dcb01c",
+  "text": "ありがとうございます。いただきます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-03-s1": {
+  "file": "w01d4-03-s1.mp3",
+  "hash": "9b61927e99f97c75",
+  "text": "どうしたんですか。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-03-o1": {
+  "file": "w01d4-03-o1.mp3",
+  "hash": "630ff64a2383fa8d",
+  "text": "はい、そうなんです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-03-o2": {
+  "file": "w01d4-03-o2.mp3",
+  "hash": "4fa99feed97c1ca3",
+  "text": "部室がわからないんです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-03-o3": {
+  "file": "w01d4-03-o3.mp3",
+  "hash": "29eb99c729a0ee5d",
+  "text": "どういたしまして。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-04-s1": {
+  "file": "w01d4-04-s1.mp3",
+  "hash": "163fcfcc567ba8c1",
+  "text": "放送部に入りませんか。楽しいですよぉ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-04-o2": {
+  "file": "w01d4-04-o2.mp3",
+  "hash": "96a86cb4db834487",
+  "text": "すみません、もう少し考えたいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-04-o3": {
+  "file": "w01d4-04-o3.mp3",
+  "hash": "0ef9e37b80ac995a",
+  "text": "いいえ、楽しいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-05-s1": {
+  "file": "w01d4-05-s1.mp3",
+  "hash": "d9f037a2c6d2f82b",
+  "text": "どうしてにほんに来たんですか。",
+  "voice": "Callirrhoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-05-o1": {
+  "file": "w01d4-05-o1.mp3",
+  "hash": "93cec78d0afa5dc0",
+  "text": "台湾から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-05-o2": {
+  "file": "w01d4-05-o2.mp3",
+  "hash": "de2b916658f5fddc",
+  "text": "にほんに来たいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-05-o3": {
+  "file": "w01d4-05-o3.mp3",
+  "hash": "914db2b3350d9c72",
+  "text": "にほんのアニメが好きなんです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-04-o1": {
+  "file": "w01d4-04-o1.mp3",
+  "hash": "5b4e1136ead69ee9",
+  "text": "はい、入ってください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-06-s1": {
+  "file": "w01d4-06-s1.mp3",
+  "hash": "364dd1e53ed3a94f",
+  "text": "じゃ、三時に会いましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-06-o1": {
+  "file": "w01d4-06-o1.mp3",
+  "hash": "23a74a5eb605a186",
+  "text": "はい、三時に会いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-06-o2": {
+  "file": "w01d4-06-o2.mp3",
+  "hash": "dd744e2c71517e85",
+  "text": "はい、じゃ、またあとで。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-07-s1": {
+  "file": "w01d4-07-s1.mp3",
+  "hash": "611526a0cf008eb0",
+  "text": "友達と一緒に部活を見に行きたいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-07-o1": {
+  "file": "w01d4-07-o1.mp3",
+  "hash": "fcfca3cfe0af9f1a",
+  "text": "一緒に見に行きましたか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-07-o2": {
+  "file": "w01d4-07-o2.mp3",
+  "hash": "9808e1ba2dd7eddb",
+  "text": "一人で見に行ってください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-07-o3": {
+  "file": "w01d4-07-o3.mp3",
+  "hash": "8bfd968c208c4c6b",
+  "text": "一緒に見に行きませんか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-setup": {
+  "file": "w01d4-08-setup.mp3",
+  "hash": "9deeac849e0820c3",
+  "text": "廊下で男の学生と女の学生が話しています。女の学生はこれからなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-question": {
+  "file": "w01d4-08-question.mp3",
+  "hash": "183c2b82d792d128",
+  "text": "女の学生はこれからなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-06-o3": {
+  "file": "w01d4-06-o3.mp3",
+  "hash": "b03eed30b4223b09",
+  "text": "三時に会いませんか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-s1": {
+  "file": "w01d4-08-s1.mp3",
+  "hash": "3a3c2186cff14716",
+  "text": "すみません、放送部の部室はどこですか。見学したいんです。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-s2": {
+  "file": "w01d4-08-s2.mp3",
+  "hash": "cd10f2e1d1808dca",
+  "text": "さんがいですよ。でも、今、部室にはだれもいないんです。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-s3": {
+  "file": "w01d4-08-s3.mp3",
+  "hash": "d1bd9af8bb0f6350",
+  "text": "えっ、そうなんですか。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-s5": {
+  "file": "w01d4-08-s5.mp3",
+  "hash": "582466fd331d5d50",
+  "text": "そうですね。じゃ、図書室に行きます。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-s6": {
+  "file": "w01d4-08-s6.mp3",
+  "hash": "1b10211a287e0270",
+  "text": "一緒に行きましょう。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d4-08-s4": {
+  "file": "w01d4-08-s4.mp3",
+  "hash": "54eaebb0afff0fa9",
+  "text": "部長は今、図書室にいますよ。先に部長に会いませんか。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "w01d1-01-s1": {
+  "file": "w01d1-01-s1.mp3",
+  "hash": "3b272158fd3909a1",
+  "text": "パスポートを見せてください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-01-o1": {
+  "file": "w01d1-01-o1.mp3",
+  "hash": "1fd910ee8c8cac0f",
+  "text": "はい、見ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-01-o2": {
+  "file": "w01d1-01-o2.mp3",
+  "hash": "0dee19f81b772910",
+  "text": "はい、どうぞ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-01-o3": {
+  "file": "w01d1-01-o3.mp3",
+  "hash": "a5053ff24a7d89e4",
+  "text": "パスポートを見せてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-02-s1": {
+  "file": "w01d1-02-s1.mp3",
+  "hash": "bb9656bb1addf42b",
+  "text": "にほんへはなにをしに来ましたか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-02-o2": {
+  "file": "w01d1-02-o2.mp3",
+  "hash": "a2cd9d82a498a99e",
+  "text": "飛行機で来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-02-o3": {
+  "file": "w01d1-02-o3.mp3",
+  "hash": "209d3f265d268107",
+  "text": "観光に来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-03-s1": {
+  "file": "w01d1-03-s1.mp3",
+  "hash": "1c3f6065b7fc12ff",
+  "text": "にほんに何日いますか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-03-o1": {
+  "file": "w01d1-03-o1.mp3",
+  "hash": "249eea72247f5ef8",
+  "text": "いっしゅうかんいます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-03-o2": {
+  "file": "w01d1-03-o2.mp3",
+  "hash": "dc21e878d06fcade",
+  "text": "先週来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-02-o1": {
+  "file": "w01d1-02-o1.mp3",
+  "hash": "93cec78d0afa5dc0",
+  "text": "台湾から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-03-o3": {
+  "file": "w01d1-03-o3.mp3",
+  "hash": "8fe4b694a65b4df5",
+  "text": "一人で来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-04-s1": {
+  "file": "w01d1-04-s1.mp3",
+  "hash": "712836c9e63563be",
+  "text": "どこに泊まりますか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-04-o1": {
+  "file": "w01d1-04-o1.mp3",
+  "hash": "66bcce52c334737a",
+  "text": "はい、泊まります。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-04-o2": {
+  "file": "w01d1-04-o2.mp3",
+  "hash": "102465551fbb4c1e",
+  "text": "浅草のホテルです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-05-s1": {
+  "file": "w01d1-05-s1.mp3",
+  "hash": "be45b7f3211ce9b2",
+  "text": "少々お待ちください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-05-o1": {
+  "file": "w01d1-05-o1.mp3",
+  "hash": "acea7069a7a9c3f9",
+  "text": "いいえ、待ちませんでした。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-05-o2": {
+  "file": "w01d1-05-o2.mp3",
+  "hash": "af6ce7beace190ea",
+  "text": "はい、わかりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-05-o3": {
+  "file": "w01d1-05-o3.mp3",
+  "hash": "f02859864c66e14f",
+  "text": "はい、お待ちください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-04-o3": {
+  "file": "w01d1-04-o3.mp3",
+  "hash": "c2719a00184ab966",
+  "text": "さんぱくです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-06-s1": {
+  "file": "w01d1-06-s1.mp3",
+  "hash": "cbd78a01be738c86",
+  "text": "にほんは初めてですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-06-o1": {
+  "file": "w01d1-06-o1.mp3",
+  "hash": "dc34c49d42b59d0a",
+  "text": "はじめまして、よろしくお願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-06-o2": {
+  "file": "w01d1-06-o2.mp3",
+  "hash": "1039c9aa7423b961",
+  "text": "いいえ、にほんじゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-06-o3": {
+  "file": "w01d1-06-o3.mp3",
+  "hash": "691299112c199ff5",
+  "text": "はい、初めてです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-setup": {
+  "file": "w01d1-07-setup.mp3",
+  "hash": "0e570ce891336a84",
+  "text": "空港で男の人と女の人が話しています。男の人はまずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-s1": {
+  "file": "w01d1-07-s1.mp3",
+  "hash": "dc4e14821e356bbc",
+  "text": "こんにちは。どうしましたか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-s2": {
+  "file": "w01d1-07-s2.mp3",
+  "hash": "2f340cc63425d013",
+  "text": "すみません、お金を替えに来ました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-s3": {
+  "file": "w01d1-07-s3.mp3",
+  "hash": "19217c44b924c377",
+  "text": "両替ですね。まず、この紙に名前を書いてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-s4": {
+  "file": "w01d1-07-s4.mp3",
+  "hash": "76d6c7502b739b8a",
+  "text": "はい。パスポートも見せますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-s5": {
+  "file": "w01d1-07-s5.mp3",
+  "hash": "a0f502a9f202fea8",
+  "text": "はい。パスポートはあとで見せてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-question": {
+  "file": "w01d1-07-question.mp3",
+  "hash": "aab6421c9cf0800f",
+  "text": "男の人はまずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-07-s6": {
+  "file": "w01d1-07-s6.mp3",
+  "hash": "5e4547c77937a5c3",
+  "text": "わかりました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-08-s1": {
+  "file": "w01d1-08-s1.mp3",
+  "hash": "316e16b0599509ef",
+  "text": "審査官の言葉がわかりません。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-08-o1": {
+  "file": "w01d1-08-o1.mp3",
+  "hash": "966a11850c897d42",
+  "text": "すみません、もう一度言ってください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-08-o2": {
+  "file": "w01d1-08-o2.mp3",
+  "hash": "91078424e2adf048",
+  "text": "すみません、もう一度言いました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d1-08-o3": {
+  "file": "w01d1-08-o3.mp3",
+  "hash": "fcf65ad0b50a6385",
+  "text": "はい、よくわかりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ }
+}

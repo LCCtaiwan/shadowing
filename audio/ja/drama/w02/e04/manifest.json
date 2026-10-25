@@ -40,5 +40,306 @@
   "text": "お茶は、あちらの奥の冷蔵庫になります。",
   "voice": "Charon",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "8f2a24f3f543d12e",
+  "text": "お次のお客様、どうぞー。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "8b1d639738ffc019",
+  "text": "お弁当、温めますか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "50ad559f9fdb41af",
+  "text": "はい、お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "6aafca43855dc85d",
+  "text": "袋はご利用ですか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "681bdf76f3c26de4",
+  "text": "あ、はい。一つください。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "9e04e46a26e13401",
+  "text": "アイスは袋をお分けしますか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "23fd0f5b88cbfe2c",
+  "text": "え？すみません、もう一度お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "de11dce9feef790b",
+  "text": "温かいお弁当と、冷たいアイスです。袋を二つに分けますか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "783c9fa2110c0ef2",
+  "text": "あ、はい。分けてください。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "5b1c94e26e3221c5",
+  "text": "お箸とスプーンはおつけしますか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "50ad559f9fdb41af",
+  "text": "はい、お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "1a18f55291bd1157",
+  "text": "ポイントカードはお持ちですか。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "a2ea959cd2b13881",
+  "text": "えっと……はい、お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "ea5f0accca06963e",
+  "text": "あ……カード、ありますか？",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-15": {
+  "file": "s2-15.mp3",
+  "hash": "9ef4fa229e1c22cf",
+  "text": "あっ、カード……ないです。すみません。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-16": {
+  "file": "s2-16.mp3",
+  "hash": "ecfc3327c6c51856",
+  "text": "大丈夫ですよ。お会計、九百二十円になります。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-17": {
+  "file": "s2-17.mp3",
+  "hash": "389f112289e278b0",
+  "text": "スイカでもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-18": {
+  "file": "s2-18.mp3",
+  "hash": "685660330858668d",
+  "text": "はい。こちらにタッチをお願いします。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-19": {
+  "file": "s2-19.mp3",
+  "hash": "9523d85eb74886cf",
+  "text": "ありがとうございます。こちら、レシートになります。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "22b5945577b0d41b",
+  "text": "お弁当はまだ温かいです。アイスは冷たいです。袋を分けて、よかったです。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "9f5df57e38dedca6",
+  "text": "「温めますか」「おつけしますか」……コンビニでは、質問がたくさんありますね。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "fca955e738a47228",
+  "text": "でも、ポイントカードの時は、ちょっと恥ずかしかったです。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "e94639008278836c",
+  "text": "あしたは、ラーメンを食べに行きます！",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "50db30d4619d7d82",
+  "text": "こちらがお部屋の鍵になります。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "8d3faa4de97eedb4",
+  "text": "お支払いは現金だけになります。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "29b007223cbd64b1",
+  "text": "コーヒーに砂糖を入れますか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "32b5bec3b7a83912",
+  "text": "寒いですね。窓を閉めますか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:温かい": {
+  "file": "v-33f1793f6f26.mp3",
+  "hash": "afa1403dd9218564",
+  "text": "あたたかい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:弁当": {
+  "file": "v-e2422ec84871.mp3",
+  "hash": "6e7b9ca11904c7b5",
+  "text": "べんとう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:冷蔵庫": {
+  "file": "v-fc33bfa220f4.mp3",
+  "hash": "690a024bf41a3ff9",
+  "text": "れいぞうこ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:奥": {
+  "file": "v-30144868f062.mp3",
+  "hash": "52a7e79991609e22",
+  "text": "おく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:次": {
+  "file": "v-9c562dae1d90.mp3",
+  "hash": "d017c9ee3f406e22",
+  "text": "つぎ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:温める": {
+  "file": "v-d8d8f92c4cd3.mp3",
+  "hash": "568df02bf283f23d",
+  "text": "あたためる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:袋": {
+  "file": "v-84ac7e79d098.mp3",
+  "hash": "c35f8a08d0f93614",
+  "text": "ふくろ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:利用": {
+  "file": "v-350bde696bab.mp3",
+  "hash": "9486261f4a1cdf13",
+  "text": "りよう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:分ける": {
+  "file": "v-ed3b0c872b51.mp3",
+  "hash": "fbcc0618bd0fafd4",
+  "text": "わける",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:冷たい": {
+  "file": "v-bbae96743617.mp3",
+  "hash": "c0178b9b55095e3d",
+  "text": "つめたい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:箸": {
+  "file": "v-5f9749308682.mp3",
+  "hash": "b9af387e81e1c2e8",
+  "text": "はし",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:付ける": {
+  "file": "v-cd4ffc7065be.mp3",
+  "hash": "ad23bf3ffa1d4b49",
+  "text": "つける",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:レシート": {
+  "file": "v-c48947023aa8.mp3",
+  "hash": "321d3b8be40493d9",
+  "text": "レシート",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:恥ずかしい": {
+  "file": "v-b8d60c92f337.mp3",
+  "hash": "b260204f39d05d7c",
+  "text": "はずかしい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:ポイントカード": {
+  "file": "v-a9119fd34a8b.mp3",
+  "hash": "979324fb5f1b5eff",
+  "text": "ポイントカード",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:持つ": {
+  "file": "v-b72b93ec9136.mp3",
+  "hash": "2716176443c16ada",
+  "text": "もつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

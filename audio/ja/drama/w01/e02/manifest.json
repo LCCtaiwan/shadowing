@@ -50,8 +50,303 @@
  },
  "s1-07": {
   "file": "s1-07.mp3",
-  "hash": "83d3105be1bbf2f8",
-  "text": "あっ、出ました！スイカです！",
-  "voice": "Iapetus"
+  "hash": "27b2532de9768b3d",
+  "text": "えっ、どこも……。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "b51f1e21c99ef292",
+  "text": "でも、駅の中に荷物預かりがありますよ。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "7a45fd9aeab36a88",
+  "text": "荷物預かり？すみません、それはどこですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "8e38403cd86859dc",
+  "text": "まっすぐ行って、左ですね。ありがとうございます！",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "f3a116ba74b8db5e",
+  "text": "いらっしゃいませ。お荷物のお預けですか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "f004982f7f9256bb",
+  "text": "はい。このスーツケースをお願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "68ea4f65b738b0da",
+  "text": "かしこまりました。……大きいサイズですね。このサイズは、一日千円です。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "8109e0786a294659",
+  "text": "千円ですね。なんじまで大丈夫ですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "ccde317ec6c3d53a",
+  "text": "夜八時までです。八時までに取りに来てください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "3764b79ee0ab102b",
+  "text": "八時ですね。じゃあ、二時半ごろ取りに来ます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "eeb06700e6168b34",
+  "text": "では、こちらにお名前と電話番号を書いてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "b81c776ce7fb83cd",
+  "text": "あの……台湾の電話番号ですが、大丈夫ですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "418672ba5476b8ba",
+  "text": "この通路をまっすぐ行って、左です。あんないじょの隣です。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "350fdb0ab2e2aa28",
+  "text": "はい、大丈夫ですよ。お支払いは先にお願いします。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "7f645fdc3c99179a",
+  "text": "はい、千円です。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "60c3c433d101304b",
+  "text": "ありがとうございます。こちらが引換券です。お受け取りの時に、見せてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "6d53b4f31b39d596",
+  "text": "はい。……じゃあ、スーツケース、また後でね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "df380e89a4f89680",
+  "text": "ああ、体が軽いです！",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "15fe5e6abf2e635d",
+  "text": "ロッカーはだめでしたが、荷物預かりがありました。よかったです。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "d247cd2b7c6d544d",
+  "text": "さて、上野公園に行きたいです。スマホの地図を見ます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "e1ba53a7f9b141a3",
+  "text": "あしたは浅草のお寺を見たいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "be312e831743f9fb",
+  "text": "のどがかわきました。水を飲みたいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "01d89b938015c96f",
+  "text": "すみません、エレベーターはどこですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "8a385f3c4a4d7b41",
+  "text": "京成線の乗り場はどこですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:コインロッカー": {
+  "file": "v-fea94d7e1acd.mp3",
+  "hash": "8aaad883dc34b163",
+  "text": "コインロッカー",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:使用中": {
+  "file": "v-87147067e353.mp3",
+  "hash": "74d591e01bbba7af",
+  "text": "しようちゅう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:空く": {
+  "file": "v-ea9e4a0e761b.mp3",
+  "hash": "906282db94d4674e",
+  "text": "あく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:入る": {
+  "file": "v-2e91b3bf9ac3.mp3",
+  "hash": "8b956a7abd505e54",
+  "text": "はいる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:スーツケース": {
+  "file": "v-9d84924f3b91.mp3",
+  "hash": "4f75bd00b2f38cfe",
+  "text": "スーツケース",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:預ける": {
+  "file": "v-3a96cbe78a2f.mp3",
+  "hash": "3e1dec361192b6bd",
+  "text": "あずける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:大きい": {
+  "file": "v-c57d34585274.mp3",
+  "hash": "4acaae5ad9f50997",
+  "text": "おおきい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:いっぱい": {
+  "file": "v-a8826a7995ce.mp3",
+  "hash": "090aebf669a5d87f",
+  "text": "いっぱい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:荷物預かり": {
+  "file": "v-7581e47a4719.mp3",
+  "hash": "351e0a0dd7ea234b",
+  "text": "にもつあずかり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:通路": {
+  "file": "v-c2dbc296e48d.mp3",
+  "hash": "268e9a5a7a497cb2",
+  "text": "つうろ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:左": {
+  "file": "v-acfcd16b4951.mp3",
+  "hash": "82289b5b3cb97586",
+  "text": "ひだり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:隣": {
+  "file": "v-ae4f8c2103f3.mp3",
+  "hash": "820e2d85ddce4b3e",
+  "text": "となり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:案内所": {
+  "file": "v-984a7c1aecdf.mp3",
+  "hash": "5c4ac63dbdd6ab53",
+  "text": "あんないじょ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:荷物": {
+  "file": "v-d12c5d946e2c.mp3",
+  "hash": "efe3c3f33a515c60",
+  "text": "にもつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:電話番号": {
+  "file": "v-fb588e431602.mp3",
+  "hash": "6a39142868330ddd",
+  "text": "でんわばんごう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:引換券": {
+  "file": "v-8f43cff3e964.mp3",
+  "hash": "cf26c410b99b69ea",
+  "text": "ひきかえけん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:見せる": {
+  "file": "v-28de2ccebf9e.mp3",
+  "hash": "e556a49c5a7cd8a1",
+  "text": "みせる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:軽い": {
+  "file": "v-1bf662b8cd0a.mp3",
+  "hash": "9126cbe64c09cdea",
+  "text": "かるい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:地図": {
+  "file": "v-e80914636405.mp3",
+  "hash": "371b9929503e2b9c",
+  "text": "ちず",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

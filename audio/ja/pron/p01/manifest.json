@@ -1,0 +1,58 @@
+{
+ "p01-01-a": {
+  "file": "p01-01-a.mp3",
+  "hash": "b946434e24f72432",
+  "text": "おばさん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-01-b": {
+  "file": "p01-01-b.mp3",
+  "hash": "296e782c4598107f",
+  "text": "おばあさん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-02-a": {
+  "file": "p01-02-a.mp3",
+  "hash": "dc886d8a8d5adc57",
+  "text": "おじさん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-02-b": {
+  "file": "p01-02-b.mp3",
+  "hash": "1363627af0033c70",
+  "text": "おじいさん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-03-a": {
+  "file": "p01-03-a.mp3",
+  "hash": "3e06f542bae71781",
+  "text": "ここ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-03-b": {
+  "file": "p01-03-b.mp3",
+  "hash": "b7ff5b8569d6dde8",
+  "text": "こうこう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-04-a": {
+  "file": "p01-04-a.mp3",
+  "hash": "04984e21cb48e516",
+  "text": "いえ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-04-b": {
+  "file": "p01-04-b.mp3",
+  "hash": "4147deac245a84ea",
+  "text": "いいえ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

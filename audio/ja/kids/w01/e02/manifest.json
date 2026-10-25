@@ -12,5 +12,222 @@
   "text": "おねえちゃん、トイレ、行きたい…。",
   "voice": "Pulcherrima",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "1ea8993a8f86cd8d",
+  "text": "えっ、トイレ？ちょっと待ってね。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "362718fbfbfe1ce5",
+  "text": "すみません。トイレはどこですか。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "51ad3e398c3e9d0a",
+  "text": "トイレですね。あそこのエレベーターの横ですよ。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "509c87e65243fd24",
+  "text": "エレベーターの横ですね。ありがとうございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "4e593e0586e8ae77",
+  "text": "ありがとう！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "e804434464a44c73",
+  "text": "ペンギン、見たい！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "0e27f10836b39ed6",
+  "text": "わたしも！すみません、ペンギンが見たいです。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "a9f74ce08bb72472",
+  "text": "ペンギンはどこですか。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "b99b88a907651955",
+  "text": "ペンギンは二階ですよ。あの階段を上がってください。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "2b5de77c77d7f244",
+  "text": "おねえちゃん、お水、飲みたい。",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "d3bbd28cf9f6a4c4",
+  "text": "すみません、お水はどこですか。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "fa9906e4fd2d1067",
+  "text": "水飲み場は、トイレの前にありますよ。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "e017fbcb663da678",
+  "text": "おもちゃやさんは、どこですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "4c4ec070108205be",
+  "text": "すみません、出口はどこですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "49359540fba35abb",
+  "text": "二階ですね。ありがとうございます！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "4383e2d98255019d",
+  "text": "わあ、ペンギン！かわいいね。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "80ef47208fc444b9",
+  "text": "アイスが食べたいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "187e7bd7ce5a759e",
+  "text": "公園であそびたいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:トイレ": {
+  "file": "v-ad8d2283d0de.mp3",
+  "hash": "5df05243579c222d",
+  "text": "トイレ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:行く": {
+  "file": "v-84c7888f7459.mp3",
+  "hash": "0d455d31764c9436",
+  "text": "いく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:待つ": {
+  "file": "v-ab70084ee5d5.mp3",
+  "hash": "a4283d2e15d217dd",
+  "text": "まつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:横": {
+  "file": "v-ceae1e64164a.mp3",
+  "hash": "46bae6f57e48372c",
+  "text": "よこ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:エレベーター": {
+  "file": "v-4de042c460b9.mp3",
+  "hash": "3a2131adf6d48229",
+  "text": "エレベーター",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ペンギン": {
+  "file": "v-1bc6d8856e4c.mp3",
+  "hash": "ac82060148bf6364",
+  "text": "ペンギン",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:二階": {
+  "file": "v-5aacab8e9c0b.mp3",
+  "hash": "3bc41a5eec99e0f9",
+  "text": "にかい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:階段": {
+  "file": "v-c97e57e5cf6b.mp3",
+  "hash": "fa9efbcf5e4c2de2",
+  "text": "かいだん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:上がる": {
+  "file": "v-62e9310d3c68.mp3",
+  "hash": "6766a16d2f3ba53f",
+  "text": "あがる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:水": {
+  "file": "v-c68d6e68c7a3.mp3",
+  "hash": "81887a5089f2a2d3",
+  "text": "みず",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:飲む": {
+  "file": "v-96985d365827.mp3",
+  "hash": "b9bd6654cdffc846",
+  "text": "のむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:水飲み場": {
+  "file": "v-8f5febcc6323.mp3",
+  "hash": "2348481b4bf69074",
+  "text": "みずのみば",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:前": {
+  "file": "v-a26f7b24b508.mp3",
+  "hash": "93d72dc7281b607b",
+  "text": "まえ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
  }
 }
