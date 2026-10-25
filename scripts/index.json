@@ -1154,7 +1154,7 @@
   {
    "level": "N2",
    "count": 1734,
-   "ready": false,
+   "ready": true,
    "path": "data/jlpt/n2.json",
    "audio": "audio/ja/jlpt/n2"
   },
