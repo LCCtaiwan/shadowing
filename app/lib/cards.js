@@ -34,7 +34,6 @@ export function cardsFromEpisode(ep, meta, seq = 0) {
     add(`${v.id}#listen`, v.id, 'vocab', 'vocab-listen', v.level, data);
     if (KANJI.test(v.text)) add(`${v.id}#read`, v.id, 'vocab', 'vocab-read', v.level, data);
     if (v.links?.collocations?.length) add(`${v.id}#link`, v.id, 'vocab', 'vocab-link', v.level, data);
-    add(`${v.id}#write`, v.id, 'vocab', 'vocab-write', v.level, data);
   }
   for (const p of ep.phrases) {
     const l = lines[p.line];
@@ -70,6 +69,5 @@ export function cardsFromJlpt(v, meta, seq = 0) {
   add('listen', 'vocab-listen');
   if (KANJI.test(v.text)) add('read', 'vocab-read');
   if (v.links?.collocations?.length) add('link', 'vocab-link');
-  add('write', 'vocab-write');
   return out;
 }

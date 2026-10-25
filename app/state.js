@@ -9,13 +9,12 @@ export const DEFAULT_SETTINGS = {
   ruby: 'furi', speed: 1, retention: 0.9, limits: DEFAULT_LIMITS, pauseFactor: 1.3, repeats: 2,
   reading: '新完全マスター 読解 N3', feedbackRepo: '',
   plan: { current: 'none', target: 'N3', examDate: '2027-07-04', autoDaily: true },
-  writeCards: true,
 };
 
 export const S = {
   index: null, settings: { ...DEFAULT_SETTINGS }, progress: { episodes: {}, drills: {}, resume: {} },
   days: [], reading: {}, today: null, cards: [], episodes: new Map(), drills: new Map(), cast: {}, lexicon: { vocab: {} },
-  screen: {}, jlpt: new Map(),
+  screen: {}, jlpt: new Map(), copy: {},
 };
 
 const CAST_FILES = ['story/ja/cast.json', 'story/ja/drama/cast.json', 'story/ja/anime/cast.json', 'story/ja/family/cast.json'];
@@ -28,11 +27,12 @@ export async function boot() {
   const casts = await Promise.all(CAST_FILES.map(f => fetch(f).then(r => (r.ok ? r.json() : {})).catch(() => ({}))));
   S.cast = Object.assign({}, ...casts);
   S.lexicon = await fetch('story/ja/lexicon.json').then(r => (r.ok ? r.json() : { vocab: {} })).catch(() => ({ vocab: {} }));
-  const [index, settings, progress, days, reading, today, cards, screen] = await Promise.all([
+  const [index, settings, progress, days, reading, today, cards, screen, copy] = await Promise.all([
     fetch('scripts/index.json', { cache: 'no-cache' }).then(r => r.json()),
-    db.kvGet('settings'), db.kvGet('progress'), db.kvGet('days'), db.kvGet('reading'), db.kvGet('today'), db.allCards(), db.kvGet('screen'),
+    db.kvGet('settings'), db.kvGet('progress'), db.kvGet('days'), db.kvGet('reading'), db.kvGet('today'), db.allCards(), db.kvGet('screen'), db.kvGet('copy'),
   ]);
   S.screen = screen || {};
+  S.copy = copy || {};
   S.index = index;
   S.settings = { ...DEFAULT_SETTINGS, ...(settings || {}), limits: { ...DEFAULT_LIMITS, ...(settings?.limits || {}) },
     plan: { ...DEFAULT_SETTINGS.plan, ...(settings?.plan || {}) } };
@@ -41,30 +41,39 @@ export async function boot() {
   S.reading = reading || {};
   S.today = today?.day === todayStr() ? today : { day: todayStr(), newByDeck: {}, reviews: 0, notes: [] };
   S.cards = cards || [];
-  await ensureWriteCards();
+  await dropWriteCards();
 }
 
-/** 舊的單字卡補上手寫卡（關掉手寫卡時暫停所有手寫卡）。 */
-export async function ensureWriteCards() {
-  const changed = [];
-  const have = new Set(S.cards.map(c => c.id));
-  if (S.settings.writeCards) {
-    const listen = S.cards.filter(c => c.kind === 'vocab-listen');
-    let order = S.cards.reduce((m, c) => Math.max(m, c.order || 0), 0);
-    for (const c of listen) {
-      const id = `${c.note}#write`;
-      if (have.has(id)) continue;
-      const w = { ...c, id, kind: 'vocab-write', order: ++order, state: 'new', due: 0, s: 0, d: 0, reps: 0, lapses: 0, step: 0, last: 0, suspended: c.suspended };
-      S.cards.push(w);
-      changed.push(w);
-    }
-  }
-  for (const c of S.cards) {
-    if (c.kind !== 'vocab-write') continue;
-    const want = !S.settings.writeCards;
-    if (Boolean(c.writeOff) !== want) { c.writeOff = want; c.suspended = want || (c.known || false); changed.push(c); }
-  }
-  if (changed.length) await db.putCards(changed);
+/** 手機手寫卡已停用（改成紙上默寫的「今日抄寫」），舊資料裡的手寫卡直接移除。 */
+async function dropWriteCards() {
+  const old = S.cards.filter(c => c.kind === 'vocab-write');
+  if (!old.length) return;
+  S.cards = S.cards.filter(c => c.kind !== 'vocab-write');
+  await db.deleteCards(old.map(c => c.id));
+}
+
+/* ---------- 今日抄寫：在筆記本默寫，App 出題、對答案 ---------- */
+/** 加進抄寫清單（只收有漢字的字）。reason：new＝剛決定要學，forgot＝複習時忘了。 */
+export async function addCopy(d, audio, reason) {
+  if (!/[㐀-鿿々]/.test(d.text)) return; // 只有假名的字不用抄
+  const prev = S.copy[d.id];
+  if (prev && !prev.done && (prev.reason === 'forgot' || reason === 'new')) return;
+  S.copy[d.id] = { id: d.id, text: d.text, reading: d.reading, zh: d.zh, pos: d.pos || '', audio, audioKey: d.audioKey || d.id,
+    example: d.example || null, reason, added: todayStr(), done: null, misses: prev && !prev.done ? prev.misses : 0 };
+  await db.kvSet('copy', S.copy);
+}
+
+/** 待抄寫的字：忘了的排前面，再依加入日期。 */
+export const copyQueue = () => Object.values(S.copy).filter(x => !x.done)
+  .sort((a, b) => (a.reason === 'forgot' ? 0 : 1) - (b.reason === 'forgot' ? 0 : 1) || a.added.localeCompare(b.added));
+
+/** 寫對：從清單劃掉；寫錯：留著，下次再寫。 */
+export async function markCopy(id, ok) {
+  const x = S.copy[id];
+  if (!x) return;
+  if (ok) x.done = todayStr();
+  else x.misses = (x.misses || 0) + 1;
+  await Promise.all([db.kvSet('copy', S.copy), markPracticed()]);
 }
 
 export async function loadEpisode(meta) {
@@ -141,6 +150,7 @@ export async function rate(card, g) {
   else if (card.state === 'review') S.today.reviews += 1;
   if (!S.today.notes.includes(card.note)) S.today.notes.push(card.note);
   if (next.lapses >= 8 && !next.flagged) next.flagged = true;
+  if (g === 1 && card.deck === 'vocab') await addCopy({ ...card.data, id: card.note }, card.src?.audio, 'forgot');
   await Promise.all([db.putCards([next]), db.addLog({ id: card.id, deck: card.deck, g, at: now, from: card.state }), saveToday(), markPracticed()]);
   return next;
 }
@@ -165,6 +175,7 @@ export async function screenWord(v, meta, choice) {
     const fresh = cardsFromJlpt(v, meta, maxOrder + 1).filter(c => !existing.has(c.id));
     S.cards.push(...fresh);
     await db.putCards(fresh);
+    await addCopy(v, meta.audio, 'new');
   } else {
     const mine = S.cards.filter(c => c.note === v.id && !c.suspended);
     for (const c of mine) { c.suspended = true; c.known = true; }
@@ -176,6 +187,7 @@ export async function screenWord(v, meta, choice) {
 export async function undoScreen(v) {
   const prev = S.screen[v.id];
   delete S.screen[v.id];
+  if (S.copy[v.id]?.reason === 'new' && !S.copy[v.id].done) { delete S.copy[v.id]; await db.kvSet('copy', S.copy); }
   if (prev?.choice === 'known') {
     const mine = S.cards.filter(c => c.note === v.id && c.known);
     for (const c of mine) { c.suspended = false; delete c.known; }

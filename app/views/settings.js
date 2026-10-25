@@ -1,5 +1,5 @@
 // 設定：顯示、跟讀、複習上限、讀解教材、每週回饋、備份與還原、關於。
-import { S, saveSettings, db, todayStr, studyPlan, ensureWriteCards } from '../state.js';
+import { S, saveSettings, db, todayStr, studyPlan } from '../state.js';
 import { $, $$, ICON, esc, toast } from '../ui.js';
 import { DECKS, DECK_NAMES } from '../lib/cards.js';
 import { go } from '../main.js';
@@ -12,7 +12,6 @@ export default function settings(root) {
       <div class="field"><label for="ruby">假名顯示</label><select id="ruby">
         <option value="furi">漢字＋假名</option><option value="kana">只看假名</option><option value="hide">隱藏</option></select></div>
       <div class="field"><label for="large">放大字體</label><input type="checkbox" id="large" ${s.largeText ? 'checked' : ''}></div>
-      <div class="field"><label for="writeCards">手寫卡（每個單字多一張手寫練習）</label><input type="checkbox" id="writeCards" ${s.writeCards ? 'checked' : ''}></div>
     </div>
     <div class="card">
       <h2>考試計畫</h2>
@@ -72,9 +71,6 @@ export default function settings(root) {
   async function save() {
     s.ruby = $('#ruby', root).value;
     s.largeText = $('#large', root).checked;
-    const writeWas = s.writeCards;
-    s.writeCards = $('#writeCards', root).checked;
-    if (writeWas !== s.writeCards) await ensureWriteCards();
     s.repeats = num('#repeats', 1, 5);
     s.pauseFactor = num('#pause', 0.8, 3);
     s.speed = Number($('#speed', root).value);

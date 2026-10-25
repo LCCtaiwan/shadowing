@@ -1,4 +1,4 @@
-import { S, todayStr, toggleReading, saveSettings, effectiveLimits, studyPlan } from '../state.js';
+import { S, todayStr, toggleReading, saveSettings, effectiveLimits, studyPlan, copyQueue } from '../state.js';
 import { ICON, esc, seriesChip, SERIES_ORDER } from '../ui.js';
 import { todayTasks, daysUntil, streak, weekDots, nextUnfinished } from '../lib/schedule.js';
 import { buildQueue, deckCounts, estimateMinutes, dayKey } from '../lib/srs.js';
@@ -89,7 +89,7 @@ export default function home(root) {
         <button data-quick="pron">${ICON.ear}發音聽辨<small>長音、促音、濁音</small></button>
         <button data-quick="announce">${ICON.radio}廣播聽力<small>車站、機場、商場</small></button>
         <button data-quick="kids">${ICON.kid}親子一起學<small>和小孩一起念</small></button>
-        <button data-quick="write">${ICON.edit}手寫練習<small>聽音寫字，和正確字形比對</small></button>
+        <button data-quick="copy">${ICON.edit}今日抄寫<small>${(() => { const n = copyQueue().length; return n ? `${n} 個字待寫・紙上默寫` : '在筆記本默寫，對答案'; })()}</small></button>
       </div>
       ${(S.index.jlpt || []).some(l => l.ready) ? (() => { const p = studyPlan(today); return `<button class="ghost" data-go-words style="width:100%;justify-content:space-between"><span>${ICON.cards} JLPT 單字篩選</span><span class="muted">${S.settings.plan.target} 還剩 ${p.remaining} 個・每天 ${p.daily}</span></button>`; })() : ''}
     </div>

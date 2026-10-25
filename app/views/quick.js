@@ -1,12 +1,11 @@
-// 零碎時間：單字快練（聽 → 跟念 → 看意思，可錄音比對）與發音聽辨（長音、促音、濁音…二選一）。
-import { S, rate, loadEpisode, saveProgress, markPracticed, todayStr } from '../state.js';
+// 零碎時間：單字快練（聽 → 跟念 → 看意思，可錄音比對）、今日抄寫（在筆記本默寫，App 對答案）與發音聽辨（長音、促音、濁音…二選一）。
+import { S, rate, loadEpisode, saveProgress, markPracticed, todayStr, copyQueue, markCopy } from '../state.js';
 import { $, $$, ICON, esc, toast, ring, animateRing } from '../ui.js';
 import { renderRuby } from '../lib/ruby.js';
 import { play, stop, wait } from '../lib/audio.js';
 import { endOfDay } from '../lib/srs.js';
 import { nextUnfinished } from '../lib/schedule.js';
 import { buildNetwork, renderNetwork, learnedWords } from '../lib/network.js';
-import { createPad } from '../lib/pad.js';
 import { go } from '../main.js';
 
 const SESSION = 10;
@@ -14,7 +13,7 @@ const SESSION = 10;
 export default async function quick(root, [mode]) {
   document.body.classList.add('focus');
   if (mode === 'pron') await pron(root);
-  else if (mode === 'write') await write(root);
+  else if (mode === 'copy') await copy(root);
   else await vocab(root);
   return () => { stop(); stopRecording(); document.body.classList.remove('focus'); };
 }
@@ -154,11 +153,15 @@ async function vocab(root) {
   show();
 }
 
-/* ---------- 手寫練習 ---------- */
-async function write(root) {
-  const { words } = await pickWords();
+/* ---------- 今日抄寫 ---------- */
+// 滑卡選「我要學」的字、複習時按「重來」的單字會進清單。看中文聽發音 → 在筆記本寫 → 看答案 → 寫對才劃掉。
+async function copy(root) {
+  const words = copyQueue().slice(0, SESSION);
   if (!words.length) {
-    root.innerHTML = `<div class="card empty stack"><h2>還沒有單字</h2><p class="muted">先練一話或篩選 JLPT 單字。</p><button class="cta" id="back">回首頁</button></div>`;
+    root.innerHTML = `<div class="card empty stack"><h2>今天沒有要抄寫的字</h2>
+      <p class="muted">在「JLPT 單字篩選」選「我要學」的字，和複習時按「重來」的單字，會自動加進這裡。</p>
+      <button class="cta" id="words">去篩選單字</button><button class="ghost" id="back">回首頁</button></div>`;
+    $('#words', root).addEventListener('click', () => go('words'));
     $('#back', root).addEventListener('click', () => go('home'));
     return;
   }
@@ -168,51 +171,52 @@ async function write(root) {
     stop();
     const w = words[i];
     if (!w) return finish();
+    const forgot = w.reason === 'forgot';
     root.innerHTML = `
       <div class="row between"><button class="icon-btn" id="close" aria-label="關閉">${ICON.close}</button>
-        <span class="muted num">手寫練習 ${i + 1} / ${words.length}</span><span style="width:44px"></span></div>
+        <span class="muted num">今日抄寫 ${i + 1} / ${words.length}</span><span style="width:44px"></span></div>
       <div class="bar"><i style="width:${(i / words.length) * 100}%"></i></div>
-      <div class="card stack" style="align-items:center">
-        <p style="font-size:20px">${esc(w.zh)}</p><p class="muted">${[...w.text].length} 個字</p>
-        <div class="tools"><button class="ghost" id="again">${ICON.vol} 再聽</button>
-          <button class="ghost" id="hint">提示讀音</button><button class="ghost" id="undo">上一筆</button><button class="ghost" id="clear">擦掉</button></div>
+      <div class="card stack" style="align-items:center;text-align:center">
+        ${forgot ? '<span class="chip brand">複習時忘了</span>' : ''}
+        <p style="font-size:22px">${esc(w.zh)}</p>
+        <p class="muted">${esc(w.pos)}${w.pos ? '・' : ''}${[...w.text].length} 個字</p>
+        <div class="tools"><button class="ghost" id="again">${ICON.vol} 再聽</button><button class="ghost" id="hint">提示讀音</button></div>
         <p class="muted" id="hintText" hidden>${esc(w.reading)}</p>
-        <div id="padHost" style="width:100%"></div>
-        <div id="answer" class="stack" style="align-items:center" hidden><div class="muted">${esc(w.reading)}</div><div class="big-word">${esc(w.text)}</div></div>
+        <p class="muted">${forgot ? '在筆記本寫 3 遍，再用它寫一個短句' : '在筆記本寫出這個字'}</p>
+        <div id="answer" class="stack" style="align-items:center" hidden>
+          <div class="muted">${esc(w.reading)}</div><div class="big-word">${esc(w.text)}</div>
+          ${w.example ? `<button class="gex" id="ex"><span class="jp sm">${renderRuby(w.example.ruby, 'furi', [w.text])}</span><span class="muted">${esc(w.example.zh)}</span></button>` : ''}
+        </div>
       </div>
-      <button class="cta" id="show">看答案</button>
+      <button class="cta" id="show">寫好了，看答案</button>
       <div class="rates" id="rates" style="grid-template-columns:1fr 1fr" hidden>
-        <button class="again" data-r="1">寫錯了<small>再練</small></button><button class="goodr" data-r="3">寫對了<small>下一個</small></button></div>`;
-    const pad = createPad($('#padHost', root), w.text);
+        <button class="again" data-r="0">寫錯了<small>留著下次再寫</small></button><button class="goodr" data-r="1">寫對了<small>劃掉</small></button></div>`;
     const say = () => play(w.audio, w.audioKey, w.reading, 1);
     setTimeout(say, 200);
     $('#close', root).addEventListener('click', () => go('home'));
     $('#again', root).addEventListener('click', say);
     $('#hint', root).addEventListener('click', () => { $('#hintText', root).hidden = false; });
-    $('#undo', root).addEventListener('click', () => pad.undo());
-    $('#clear', root).addEventListener('click', () => pad.clear());
     $('#show', root).addEventListener('click', () => {
-      pad.reveal();
       $('#answer', root).hidden = false;
       $('#show', root).hidden = true;
       $('#rates', root).hidden = false;
+      $('#ex', root)?.addEventListener('click', () => play(w.audio, w.example.audioKey, w.example.text, S.settings.speed));
     });
     $$('[data-r]', root).forEach(b => b.addEventListener('click', async () => {
-      const g = +b.dataset.r;
-      if (g === 3) ok++;
-      const card = w.card && S.cards.find(c => c.id === `${w.card.note}#write`);
-      if (card && card.state !== 'new' && card.due < endOfDay(Date.now())) await rate(card, g);
-      if (g === 1 && !w.requeued) words.push({ ...w, requeued: true });
+      const good = b.dataset.r === '1';
+      if (good) ok++;
+      await markCopy(w.id, good);
       i++;
       show();
     }));
   };
-  async function finish() {
-    await markPracticed();
-    root.innerHTML = `<h1 class="ep-title">手寫練習完成</h1>
+  function finish() {
+    const left = copyQueue().length;
+    root.innerHTML = `<h1 class="ep-title">抄寫完成</h1>
       <div class="card row between"><span>寫對</span><b class="num">${ok} / ${words.length}</b></div>
-      <button class="cta" id="more">再來一輪</button><button class="ghost" id="home">回首頁</button>`;
-    $('#more', root).addEventListener('click', () => write(root));
+      <p class="muted">${left ? `還有 ${left} 個沒寫對或還沒寫，會留在清單裡。` : '清單清空了。'}</p>
+      ${left ? '<button class="cta" id="more">再寫一輪</button>' : ''}<button class="ghost" id="home">回首頁</button>`;
+    $('#more', root)?.addEventListener('click', () => copy(root));
     $('#home', root).addEventListener('click', () => go('home'));
   }
   show();
