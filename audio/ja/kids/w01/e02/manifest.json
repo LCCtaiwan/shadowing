@@ -1,0 +1,16 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "b5353daae915d2cc",
+  "text": "きょうは、家族で水族館に来ました。大きい魚がたくさんいます。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "73595905ae760b0f",
+  "text": "おねえちゃん、トイレ、行きたい…。",
+  "voice": "Pulcherrima",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

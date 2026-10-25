@@ -26,5 +26,12 @@
   "text": "からあげ弁当と、アイスを買います。あとは……お茶。",
   "voice": "Iapetus",
   "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "8f20e0d445d93b3f",
+  "text": "すみません、お茶はどこですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
  }
 }

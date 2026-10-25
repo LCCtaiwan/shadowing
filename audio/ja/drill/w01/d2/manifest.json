@@ -53,20 +53,13 @@
   "hash": "3e2a1453822b4dc1",
   "text": "十七歳です。",
   "voice": "Rasalgethi",
-  "model": "gemini-3.1-flash-tts-preview"
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "w01d2-03-s1": {
   "file": "w01d2-03-s1.mp3",
   "hash": "daa161a5c3269c18",
   "text": "にほんご、上手ですね。",
   "voice": "Callirrhoe",
-  "model": "gemini-2.5-pro-preview-tts"
- },
- "w01d2-03-o1": {
-  "file": "w01d2-03-o1.mp3",
-  "hash": "e292fd219473b6bb",
-  "text": "はい、上手ですね。",
-  "voice": "Rasalgethi",
   "model": "gemini-2.5-flash-preview-tts"
  }
 }

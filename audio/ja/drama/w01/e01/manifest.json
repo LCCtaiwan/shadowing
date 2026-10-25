@@ -186,7 +186,7 @@
   "hash": "b30b9b225f322833",
   "text": "すみません、もう少しゆっくり言ってください。",
   "voice": "Sulafat",
-  "model": "gemini-2.5-pro-preview-tts"
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "g1-ex2": {
   "file": "g1-ex2.mp3",
@@ -360,20 +360,20 @@
   "hash": "4f0897cb63bfedae",
   "text": "ありがとうございます。じゃあ……窓の外を見ます。富士山……。",
   "voice": "Iapetus",
-  "model": "gemini-3.8-flash-lite-tts"
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s2-11": {
   "file": "s2-11.mp3",
   "hash": "e2ece233364d13bc",
   "text": "ふふ。ふじさんは見えませんよ。",
   "voice": "Erinome",
-  "model": "gemini-3.1-flash-tts-preview"
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "s2-12": {
   "file": "s2-12.mp3",
   "hash": "93014807722ec4ee",
   "text": "……はい、知っています。",
   "voice": "Iapetus",
-  "model": "gemini-3.1-flash-tts-preview"
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

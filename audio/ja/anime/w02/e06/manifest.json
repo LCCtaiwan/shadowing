@@ -1,0 +1,9 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "b7fbd16d6f04e681",
+  "text": "雨の日、凛はシャオユーを傘に入れてくれました。シャオユーは、ラジオドラマの台本を書きました。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

@@ -236,5 +236,110 @@
   "text": "にがて",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:運動": {
+  "file": "v-87f69e7f37e8.mp3",
+  "hash": "a05219e024007491",
+  "text": "うんどう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:転校生": {
+  "file": "v-184bccb91024.mp3",
+  "hash": "469642dafcda1035",
+  "text": "てんこうせい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:決める": {
+  "file": "v-ff220b8b3fc7.mp3",
+  "hash": "6c425be6b570de81",
+  "text": "きめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:店": {
+  "file": "v-9c8aabbb91dc.mp3",
+  "hash": "7aad2b692f7f5056",
+  "text": "みせ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:音": {
+  "file": "v-6c0392338592.mp3",
+  "hash": "cbe762752b8d9c32",
+  "text": "おと",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:作る": {
+  "file": "v-a7bdd9892c81.mp3",
+  "hash": "f696698b0d313b77",
+  "text": "つくる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:係": {
+  "file": "v-b86bdd51833d.mp3",
+  "hash": "a3193de979796b07",
+  "text": "かかり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:呼ぶ": {
+  "file": "v-27f4a152ada8.mp3",
+  "hash": "0e2e49ec7ed4c396",
+  "text": "よぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:部員": {
+  "file": "v-1dc27bcd872d.mp3",
+  "hash": "b71cddef3c11680f",
+  "text": "ぶいん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:足りる": {
+  "file": "v-6da451de9282.mp3",
+  "hash": "4583f98db6db849e",
+  "text": "たりる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:必要": {
+  "file": "v-bf62757e1c7d.mp3",
+  "hash": "4ad6e6f0a0db0e34",
+  "text": "ひつよう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:なくなる": {
+  "file": "v-d9f75ef2ebf8.mp3",
+  "hash": "3c87ec9e8a6a8696",
+  "text": "なくなる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:入る": {
+  "file": "v-2e91b3bf9ac3.mp3",
+  "hash": "8b956a7abd505e54",
+  "text": "はいる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:下手": {
+  "file": "v-560d8ce5d594.mp3",
+  "hash": "400a17cde15206c2",
+  "text": "へた",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:声": {
+  "file": "v-77c605be145d.mp3",
+  "hash": "58310fe0241c2091",
+  "text": "こえ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }
