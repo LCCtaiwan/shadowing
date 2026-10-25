@@ -71,12 +71,13 @@
 - 2026-10-24：配音：舊 TTS 型號改走 generateContent 端點（PCM→mp3）；同聲音片段（單字、發音、童話）合併請求再依靜音切開（`make_units`、`split_audio`，測試 14 項）；workflow 每日也配廣播、發音、童話。
 - 待討論的主題清單在 `curriculum/queue.md`。
 
-- 2026-10-25：JLPT 單字庫：`data/jlpt/raw-nN.json`（open-anki-jlpt-decks，MIT；資料源自 tanos.co.uk，CC BY；共約 8,100 字），N5（702）、N4（651）已補中文、詞性、原創例句、連結（`data/jlpt/n5.json`、`n4.json`；`tools/merge_jlpt.py` 合併並修正原始清單錯誤）。N3–N1 待補。
+- 2026-10-25：JLPT 單字庫：`data/jlpt/raw-nN.json`（open-anki-jlpt-decks，MIT；資料源自 tanos.co.uk，CC BY；共約 8,100 字），N5（702）、N4（651）已補中文、詞性、原創例句、連結（`data/jlpt/n5.json`、`n4.json`；`tools/merge_jlpt.py` 合併並修正原始清單錯誤）。
+- 2026-10-25：所有 JLPT `zh` 一律用台灣用語（content-spec「台灣用語對照」）。N3（2,072）完成；原始清單的送假名／讀音錯誤加進 FIXES（付き合う、釣り、年寄り、当たり、押さえる、代わる、反る→そる、下ろす），「清む」與「澄む」重複略過。N2、N1 待補。
 - 2026-10-25：App：「JLPT 單字篩選」（滑卡：我會了／我要學，可復原）、考試計畫（目前程度含「入門」、目標、考試日 → 還要背幾個、每天幾個，可自動調整每日新單字上限）、手寫板（`app/lib/pad.js`：田字格、Apple Pencil 壓力、看答案時疊上正確字形）＋手寫卡（每個單字一張，可在設定關閉）＋零碎時間「手寫練習」。
 - 2026-10-25：主畫面圖示改為朱紅底「聴」（apple-touch-icon2.png）；配音修正：某天沒排課時不再中斷。
 
 ## Current Checkpoint
-App 已上線：五條劇集線＋廣播聽力＋零碎時間（單字、發音、廣播、親子、手寫）＋神經元連結卡＋JLPT 單字篩選（N5、N4）＋手寫卡。配音受每日額度限制（約 100–200 次請求／天），合併請求後每天可配更多；未配音的片段 App 用系統語音代替。
+App 已上線：五條劇集線＋廣播聽力＋零碎時間（單字、發音、廣播、親子、手寫）＋神經元連結卡＋JLPT 單字篩選（N5、N4、N3）＋手寫卡。配音受每日額度限制（約 100–200 次請求／天），合併請求後每天可配更多；未配音的片段 App 用系統語音代替。
 
 ## Recommended Next Step
 1) 每天確認配音進度（`gh run list --workflow voice.yml`）；若要加速可考慮升級 Gemini 方案或把單字／發音改成一次請求唸多個再切段；使用者試聽調整聲音與語速；2) iPhone Safari 開網址 → 分享 → 加入主畫面實測；3) 建 Claude 每週寫課例行工作；4) 之後是否建立 main 分支（需問使用者）。

@@ -1147,7 +1147,7 @@
   {
    "level": "N3",
    "count": 2073,
-   "ready": false,
+   "ready": true,
    "path": "data/jlpt/n3.json",
    "audio": "audio/ja/jlpt/n3"
   },
