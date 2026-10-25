@@ -34,6 +34,7 @@ export function cardsFromEpisode(ep, meta, seq = 0) {
     add(`${v.id}#listen`, v.id, 'vocab', 'vocab-listen', v.level, data);
     if (KANJI.test(v.text)) add(`${v.id}#read`, v.id, 'vocab', 'vocab-read', v.level, data);
     if (v.links?.collocations?.length) add(`${v.id}#link`, v.id, 'vocab', 'vocab-link', v.level, data);
+    add(`${v.id}#write`, v.id, 'vocab', 'vocab-write', v.level, data);
   }
   for (const p of ep.phrases) {
     const l = lines[p.line];
@@ -56,4 +57,19 @@ export function cardsFromEpisode(ep, meta, seq = 0) {
 export function clozeParts(text, surface) {
   const i = text.indexOf(surface);
   return i < 0 ? null : [text.slice(0, i), surface, text.slice(i + surface.length)];
+}
+
+/** JLPT 單字庫的一個字 → 聽音、看字（有漢字時）、連結題（有搭配時）。 */
+export function cardsFromJlpt(v, meta, seq = 0) {
+  const src = { episode: `jlpt-${v.level}`, series: 'jlpt', title: `JLPT ${v.level} 單字`, audio: meta.audio };
+  const data = { text: v.text, reading: v.reading, pos: v.pos, zh: v.zh, audioKey: v.id,
+    example: v.example && { text: v.example.text, ruby: v.example.ruby, zh: v.example.zh, audioKey: `${v.id}#ex` } };
+  const out = [];
+  const add = (suffix, kind) => out.push({ id: `${v.id}#${suffix}`, note: v.id, deck: 'vocab', kind, level: v.level, order: seq + out.length,
+    src, data, suspended: false, flagged: false, ...newCardState() });
+  add('listen', 'vocab-listen');
+  if (KANJI.test(v.text)) add('read', 'vocab-read');
+  if (v.links?.collocations?.length) add('link', 'vocab-link');
+  add('write', 'vocab-write');
+  return out;
 }

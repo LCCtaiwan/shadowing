@@ -181,6 +181,20 @@ def pron_jobs(path, data, cast):
     return out_dir, jobs
 
 
+def jlpt_jobs(path, data, cast):
+    """JLPT 單字庫：單字與例句都用旁白聲音，可合併請求。"""
+    out_dir = AUDIO / "ja" / "jlpt" / path.stem
+    word_style = "単語をひとつだけ、辞書の発音のように、はっきり読む。"
+    jobs = []
+    for v in data:
+        jobs.append(dict(key=v["id"], text=v["reading"], voice=cast["narrator"]["voice"], style=word_style, batch=True))
+    for v in data:
+        if v.get("example"):
+            jobs.append(dict(key=f"{v['id']}#ex", text=tts_text(v["example"]["ruby"]), voice=cast["narrator"]["voice"],
+                             style=style_for(cast, "narrator", v["level"]), batch=True))
+    return out_dir, jobs
+
+
 def jobs_for(path, cast):
     path = Path(path)
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -188,6 +202,8 @@ def jobs_for(path, cast):
         return drill_jobs(path, data, cast)
     if "pron" in path.parts:
         return pron_jobs(path, data, cast)
+    if "jlpt" in path.parts:
+        return jlpt_jobs(path, data, cast)
     return episode_jobs(path, data, cast)
 
 
@@ -630,7 +646,7 @@ def main(argv):
         print(f"{day}：{[str(f.relative_to(ROOT)) for f in files_for_date(day)] or '沒有排課'}")
     expanded = []
     for p in files:
-        expanded += [f for f in sorted(p.glob("**/*.json")) if f.name != "index.json"] if p.is_dir() else [p]
+        expanded += [f for f in sorted(p.glob("**/*.json")) if f.name != "index.json" and not f.name.startswith("raw-") and ".part" not in f.name] if p.is_dir() else [p]
     if not expanded:
         if args.for_date:
             print("這天沒有要配音的檔案")

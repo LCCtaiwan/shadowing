@@ -52,11 +52,18 @@ def build():
         announce.append({"id": data["id"], "kind": "announce", "title": data["title"], "title_zh": data["title_zh"],
                          "tip_zh": data.get("tip_zh", ""), "level": data["level"], "items": len(data["items"]),
                          "path": f.relative_to(ROOT).as_posix(), "audio": f"audio/ja/announce/{f.stem}"})
+    jlpt = []
+    for n in [5, 4, 3, 2, 1]:
+        raw = ROOT / "data" / "jlpt" / f"raw-n{n}.json"
+        full = ROOT / "data" / "jlpt" / f"n{n}.json"
+        if raw.exists():
+            jlpt.append({"level": f"N{n}", "count": len(json.loads(raw.read_text(encoding="utf-8"))),
+                         "ready": full.exists(), "path": f"data/jlpt/n{n}.json", "audio": f"audio/ja/jlpt/n{n}"})
     episodes.sort(key=lambda e: e["date"])
     drills.sort(key=lambda d: d["date"])
     return {
         "start_date": plan["start_date"], "exam_targets": plan["exam_targets"], "phases": plan["phases"],
-        "series": plan.get("series", []), "episodes": episodes, "drills": drills, "pron": pron, "announce": announce,
+        "series": plan.get("series", []), "episodes": episodes, "drills": drills, "pron": pron, "announce": announce, "jlpt": jlpt,
     }
 
 

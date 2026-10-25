@@ -37,6 +37,7 @@ export const kvGet = key => tx('kv', 'readonly', s => req2p(s.get(key)));
 export const kvSet = (key, value) => tx('kv', 'readwrite', s => { s.put(value, key); });
 export const allCards = () => tx('cards', 'readonly', s => req2p(s.getAll()));
 export const putCards = cards => tx('cards', 'readwrite', s => { for (const c of cards) s.put(c); });
+export const deleteCards = ids => tx('cards', 'readwrite', s => { for (const id of ids) s.delete(id); });
 export const addLog = entry => tx('log', 'readwrite', s => { s.add(entry); });
 export const allLogs = () => tx('log', 'readonly', s => req2p(s.getAll()));
 

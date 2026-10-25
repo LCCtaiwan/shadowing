@@ -1,5 +1,5 @@
 // 設定：顯示、跟讀、複習上限、讀解教材、每週回饋、備份與還原、關於。
-import { S, saveSettings, db, todayStr } from '../state.js';
+import { S, saveSettings, db, todayStr, studyPlan, ensureWriteCards } from '../state.js';
 import { $, $$, ICON, esc, toast } from '../ui.js';
 import { DECKS, DECK_NAMES } from '../lib/cards.js';
 import { go } from '../main.js';
@@ -12,6 +12,15 @@ export default function settings(root) {
       <div class="field"><label for="ruby">假名顯示</label><select id="ruby">
         <option value="furi">漢字＋假名</option><option value="kana">只看假名</option><option value="hide">隱藏</option></select></div>
       <div class="field"><label for="large">放大字體</label><input type="checkbox" id="large" ${s.largeText ? 'checked' : ''}></div>
+      <div class="field"><label for="writeCards">手寫卡（每個單字多一張手寫練習）</label><input type="checkbox" id="writeCards" ${s.writeCards ? 'checked' : ''}></div>
+    </div>
+    <div class="card">
+      <h2>考試計畫</h2>
+      <div class="field"><label for="pCur">目前程度</label><select id="pCur">${['N5', 'N4', 'N3', 'N2'].map(l => `<option ${s.plan.current === l ? 'selected' : ''}>${l}</option>`).join('')}</select></div>
+      <div class="field"><label for="pTarget">目標級別</label><select id="pTarget">${['N4', 'N3', 'N2', 'N1'].map(l => `<option ${s.plan.target === l ? 'selected' : ''}>${l}</option>`).join('')}</select></div>
+      <div class="field"><label for="pDate">考試日期</label><input type="date" id="pDate" value="${esc(s.plan.examDate)}"></div>
+      <div class="field"><label for="pAuto">依考試日自動調整每天新單字數</label><input type="checkbox" id="pAuto" ${s.plan.autoDaily ? 'checked' : ''}></div>
+      <p class="muted" id="planText"></p>
     </div>
     <div class="card">
       <h2>跟讀</h2>
@@ -53,11 +62,19 @@ export default function settings(root) {
     </div>`;
 
   $('#ruby', root).value = s.ruby;
+  function showPlan() {
+    const p = studyPlan();
+    $('#planText', root).textContent = `達到 ${s.plan.target} 還要背 ${p.remaining} 個單字（${p.levels.join('、') || '—'}），距離考試 ${p.days} 天，每天約 ${p.daily} 個。`;
+  }
+  showPlan();
   $('#speed', root).value = String(s.speed);
   const num = (sel, min, max) => Math.min(max, Math.max(min, Number($(sel, root).value) || min));
   async function save() {
     s.ruby = $('#ruby', root).value;
     s.largeText = $('#large', root).checked;
+    const writeWas = s.writeCards;
+    s.writeCards = $('#writeCards', root).checked;
+    if (writeWas !== s.writeCards) await ensureWriteCards();
     s.repeats = num('#repeats', 1, 5);
     s.pauseFactor = num('#pause', 0.8, 3);
     s.speed = Number($('#speed', root).value);
@@ -66,6 +83,8 @@ export default function settings(root) {
     s.retention = num('#retention', 80, 97) / 100;
     s.reading = $('#reading', root).value.trim() || '讀解教材';
     s.feedbackRepo = $('#repo', root).value.trim();
+    s.plan = { current: $('#pCur', root).value, target: $('#pTarget', root).value, examDate: $('#pDate', root).value || s.plan.examDate, autoDaily: $('#pAuto', root).checked };
+    showPlan();
     document.documentElement.dataset.size = s.largeText ? 'large' : '';
     await saveSettings();
     toast('已儲存');

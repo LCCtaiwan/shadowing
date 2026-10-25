@@ -1,5 +1,5 @@
 // 一話的五步：盲聽 → 看懂 → 看字跟讀 → 盲跟讀 → 收卡。
-import { S, loadEpisode, saveResume, finishEpisode, setDifficulty, saveSettings } from '../state.js';
+import { S, loadEpisode, saveResume, finishEpisode, setDifficulty, saveSettings, effectiveLimits } from '../state.js';
 import { $, $$, ICON, esc, toast, seriesChip, wave, ring, animateRing, speakerName, SERIES_NAME } from '../ui.js';
 import { renderRuby, kanaText } from '../lib/ruby.js';
 import { play, stop, wait, keepAwake, mediaSession, prefetch, hasAudio } from '../lib/audio.js';
@@ -224,12 +224,13 @@ export default async function episode(root, [id]) {
       if (c.kind === 'vocab-listen') return `${esc(c.data.text)}（${esc(c.data.reading)}）${esc(c.data.zh)}<span class="muted">・聽音想意思</span>`;
       if (c.kind === 'vocab-read') return `${esc(c.data.text)}<span class="muted">・看字唸讀音</span>`;
       if (c.kind === 'vocab-link') return `${esc(c.data.text)}<span class="muted">・連結題（搭配）</span>`;
+      if (c.kind === 'vocab-write') return `${esc(c.data.text)}<span class="muted">・手寫</span>`;
       if (c.kind === 'phrase-cloze') return `${esc(c.data.text)}　<span class="muted">${esc(c.data.zh)}</span>`;
       return `${esc(c.data.pattern)}　<span class="muted">${esc(c.data.zh.slice(0, 24))}…</span>`;
     };
     const groups = ['grammar', 'phrase', 'vocab', 'sentence'].map(deck => [deck, cards.filter(c => c.deck === deck)]).filter(([, cs]) => cs.length);
     body.innerHTML = `
-      <p class="muted">這一話的單字、片語、文法、句子會加進複習。預設全收，不想記的取消勾選。新卡每天依上限慢慢出現（單字 ${S.settings.limits.new.vocab} 張、句子 ${S.settings.limits.new.sentence} 張…）。</p>
+      <p class="muted">這一話的單字、片語、文法、句子會加進複習。預設全收，不想記的取消勾選。新卡每天依上限慢慢出現（單字 ${effectiveLimits().new.vocab} 張、句子 ${S.settings.limits.new.sentence} 張…）。</p>
       ${cards.length ? groups.map(([deck, cs]) => `
         <div class="card" style="padding-block:4px">
           <div class="row between" style="padding:8px 0"><h2>${DECK_NAMES[deck]}</h2><span class="muted num">${cs.length}</span></div>

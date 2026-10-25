@@ -1,0 +1,12140 @@
+[
+{
+"id": "ja:vocab: (まる) ごと",
+"text": " (まる) ごと",
+"reading": " (まる) ごと",
+"en": "whole ~, all of ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:(かさを～) さす",
+"text": "(かさを～) さす",
+"reading": "(かさを～) さす",
+"en": "to open; hold (an umbrella)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:(日本) 式",
+"text": "(日本) 式",
+"reading": "(にほん) しき",
+"en": "custom,",
+"level": "N2"
+},
+{
+"id": "ja:vocab:いち (にほんいち)",
+"text": "いち (にほんいち)",
+"reading": "いち (にほんいち)",
+"en": "No. 1 ~ (in)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:園",
+"text": "園",
+"reading": "えん",
+"en": "~ garden (especially man made)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おしまい (おわり)",
+"text": "おしまい (おわり)",
+"reading": "おしまい (おわり)",
+"en": "end up ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:化",
+"text": "化",
+"reading": "か",
+"en": "action of making something",
+"level": "N2"
+},
+{
+"id": "ja:vocab:科",
+"text": "科",
+"reading": "か",
+"en": "family, group, course",
+"level": "N2"
+},
+{
+"id": "ja:vocab:画",
+"text": "画",
+"reading": "が",
+"en": "picture, painting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:難い",
+"text": "難い",
+"reading": "がたい",
+"en": "hard (difficult) to do ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:がち",
+"text": "がち",
+"reading": "がち",
+"en": "tend to do ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:刊",
+"text": "刊",
+"reading": "かん",
+"en": "~ issued (magazine, newspaper)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:巻",
+"text": "巻",
+"reading": "かん",
+"en": "volume",
+"level": "N2"
+},
+{
+"id": "ja:vocab:館",
+"text": "館",
+"reading": "かん",
+"en": "~ hall, ~ building",
+"level": "N2"
+},
+{
+"id": "ja:vocab:感",
+"text": "感",
+"reading": "かん",
+"en": "feeling, sense, impression",
+"level": "N2"
+},
+{
+"id": "ja:vocab:期",
+"text": "期",
+"reading": "き",
+"en": "~age, ~period",
+"level": "N2"
+},
+{
+"id": "ja:vocab:器",
+"text": "器",
+"reading": "き",
+"en": "device, equipment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:機",
+"text": "機",
+"reading": "き",
+"en": "machine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:教",
+"text": "教",
+"reading": "きょう",
+"en": "religion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:行",
+"text": "行",
+"reading": "ぎょう",
+"en": "line, row",
+"level": "N2"
+},
+{
+"id": "ja:vocab:業",
+"text": "業",
+"reading": "ぎょう",
+"en": "type of business",
+"level": "N2"
+},
+{
+"id": "ja:vocab:きる",
+"text": "きる",
+"reading": "きる",
+"en": "nevertheless, to carry through",
+"level": "N2"
+},
+{
+"id": "ja:vocab:系",
+"text": "系",
+"reading": "けい",
+"en": "~ system, ~ lineage, ~ group",
+"level": "N2"
+},
+{
+"id": "ja:vocab:圏",
+"text": "圏",
+"reading": "けん",
+"en": "bloc, sphere, area",
+"level": "N2"
+},
+{
+"id": "ja:vocab:校",
+"text": "校",
+"reading": "こう",
+"en": "counter for school",
+"level": "N2"
+},
+{
+"id": "ja:vocab:号",
+"text": "号",
+"reading": "ごう",
+"en": "counter for magazine; the name of ship",
+"level": "N2"
+},
+{
+"id": "ja:vocab:毎",
+"text": "毎",
+"reading": "ごと",
+"en": "every ~, each ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:産",
+"text": "産",
+"reading": "さん",
+"en": "made in ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:史",
+"text": "史",
+"reading": "し",
+"en": "history of ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:時間目",
+"text": "時間目",
+"reading": "じかんめ",
+"en": "~th hour, ~th period",
+"level": "N2"
+},
+{
+"id": "ja:vocab:室",
+"text": "室",
+"reading": "しつ",
+"en": "counter for room",
+"level": "N2"
+},
+{
+"id": "ja:vocab:社",
+"text": "社",
+"reading": "しゃ",
+"en": "counter for company",
+"level": "N2"
+},
+{
+"id": "ja:vocab:集",
+"text": "集",
+"reading": "しゅう",
+"en": "collection of ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:省",
+"text": "省",
+"reading": "しょう",
+"en": "kind of ministry",
+"level": "N2"
+},
+{
+"id": "ja:vocab:商",
+"text": "商",
+"reading": "しょう",
+"en": "merchant, business",
+"level": "N2"
+},
+{
+"id": "ja:vocab:勝",
+"text": "勝",
+"reading": "しょう",
+"en": "count for victory",
+"level": "N2"
+},
+{
+"id": "ja:vocab:条",
+"text": "条",
+"reading": "じょう",
+"en": "counter for article",
+"level": "N2"
+},
+{
+"id": "ja:vocab:済",
+"text": "済",
+"reading": "ずみ",
+"en": "finished",
+"level": "N2"
+},
+{
+"id": "ja:vocab:船",
+"text": "船",
+"reading": "せん",
+"en": "counter for ships",
+"level": "N2"
+},
+{
+"id": "ja:vocab:戦",
+"text": "戦",
+"reading": "せん",
+"en": "counter for games, matches",
+"level": "N2"
+},
+{
+"id": "ja:vocab:沿い",
+"text": "沿い",
+"reading": "そい",
+"en": "along",
+"level": "N2"
+},
+{
+"id": "ja:vocab:艘",
+"text": "艘",
+"reading": "そう",
+"en": "counter for ships",
+"level": "N2"
+},
+{
+"id": "ja:vocab:だらけ",
+"text": "だらけ",
+"reading": "だらけ",
+"en": "be full of ~, be filled with ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:団",
+"text": "団",
+"reading": "だん",
+"en": "group, corps, party",
+"level": "N2"
+},
+{
+"id": "ja:vocab:着",
+"text": "着",
+"reading": "ちゃく",
+"en": "counter for clothes; finishing place",
+"level": "N2"
+},
+{
+"id": "ja:vocab:庁",
+"text": "庁",
+"reading": "ちょう",
+"en": "office, agency",
+"level": "N2"
+},
+{
+"id": "ja:vocab:兆",
+"text": "兆",
+"reading": "ちょう",
+"en": "trillion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長",
+"text": "長",
+"reading": "ちょう",
+"en": "leader, head",
+"level": "N2"
+},
+{
+"id": "ja:vocab:帳",
+"text": "帳",
+"reading": "ちょう",
+"en": "~ book, notebook",
+"level": "N2"
+},
+{
+"id": "ja:vocab:丁目",
+"text": "丁目",
+"reading": "ちょうめ",
+"en": "~ district (of a town; city, block)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通",
+"text": "通",
+"reading": "つう",
+"en": "counter for letters",
+"level": "N2"
+},
+{
+"id": "ja:vocab:遣い",
+"text": "遣い",
+"reading": "づかい",
+"en": "use of ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:付",
+"text": "付",
+"reading": "つき",
+"en": "with ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:滴",
+"text": "滴",
+"reading": "てき",
+"en": "drop",
+"level": "N2"
+},
+{
+"id": "ja:vocab:等",
+"text": "等",
+"reading": "とう",
+"en": "level, place",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ところ",
+"text": "ところ",
+"reading": "ところ",
+"en": "about to do ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:年生",
+"text": "年生",
+"reading": "ねんせい",
+"en": "counter for school year",
+"level": "N2"
+},
+{
+"id": "ja:vocab:泊",
+"text": "泊",
+"reading": "はく",
+"en": "counter for staying (e.g., 2 nights)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:発",
+"text": "発",
+"reading": "はつ",
+"en": "counter for bullets",
+"level": "N2"
+},
+{
+"id": "ja:vocab:番目",
+"text": "番目",
+"reading": "ばんめ",
+"en": "~th",
+"level": "N2"
+},
+{
+"id": "ja:vocab:費",
+"text": "費",
+"reading": "ひ",
+"en": "cost of ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:病",
+"text": "病",
+"reading": "びょう",
+"en": "kind of disease",
+"level": "N2"
+},
+{
+"id": "ja:vocab:部",
+"text": "部",
+"reading": "ぶ",
+"en": "~ part",
+"level": "N2"
+},
+{
+"id": "ja:vocab:遍",
+"text": "遍",
+"reading": "へん",
+"en": "time",
+"level": "N2"
+},
+{
+"id": "ja:vocab:弁",
+"text": "弁",
+"reading": "べん",
+"en": "speech, dialect",
+"level": "N2"
+},
+{
+"id": "ja:vocab:歩",
+"text": "歩",
+"reading": "ほ",
+"en": "step, pace",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぽい",
+"text": "ぽい",
+"reading": "ぽい",
+"en": "~ish",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ほう (ひかく)",
+"text": "ほう (ひかく)",
+"reading": "ほう (ひかく)",
+"en": "(in comparison)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:みたい",
+"text": "みたい",
+"reading": "みたい",
+"en": "looks like ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:向け",
+"text": "向け",
+"reading": "むけ",
+"en": "for ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:もち",
+"text": "もち",
+"reading": "もち",
+"en": "person who has ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:問",
+"text": "問",
+"reading": "もん",
+"en": "counter for questions",
+"level": "N2"
+},
+{
+"id": "ja:vocab:流",
+"text": "流",
+"reading": "りゅう",
+"en": "fashion, manner, way",
+"level": "N2"
+},
+{
+"id": "ja:vocab:料",
+"text": "料",
+"reading": "りょう",
+"en": "fare, charge",
+"level": "N2"
+},
+{
+"id": "ja:vocab:領",
+"text": "領",
+"reading": "りょう",
+"en": "territory",
+"level": "N2"
+},
+{
+"id": "ja:vocab:論",
+"text": "論",
+"reading": "ろん",
+"en": "theory",
+"level": "N2"
+},
+{
+"id": "ja:vocab:アイデア",
+"text": "アイデア",
+"reading": "アイデア",
+"en": "idea",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あいまい",
+"text": "あいまい",
+"reading": "あいまい",
+"en": "vague, ambiguous",
+"level": "N2"
+},
+{
+"id": "ja:vocab:扇ぐ",
+"text": "扇ぐ",
+"reading": "あおぐ",
+"en": "to fan, to flap",
+"level": "N2"
+},
+{
+"id": "ja:vocab:青白い",
+"text": "青白い",
+"reading": "あおじろい",
+"en": "pale",
+"level": "N2"
+},
+{
+"id": "ja:vocab:呆れる",
+"text": "呆れる",
+"reading": "あきれる",
+"en": "to be shocked, to be appalled",
+"level": "N2"
+},
+{
+"id": "ja:vocab:アクセント",
+"text": "アクセント",
+"reading": "アクセント",
+"en": "accent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あくび",
+"text": "あくび",
+"reading": "あくび",
+"en": "yawn",
+"level": "N2"
+},
+{
+"id": "ja:vocab:飽くまで",
+"text": "飽くまで",
+"reading": "あくまで",
+"en": "to the end, to the last, stubbornly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:明くる",
+"text": "明くる",
+"reading": "あくる",
+"en": "next, following",
+"level": "N2"
+},
+{
+"id": "ja:vocab:明け方",
+"text": "明け方",
+"reading": "あけがた",
+"en": "dawn",
+"level": "N2"
+},
+{
+"id": "ja:vocab:憧れる",
+"text": "憧れる",
+"reading": "あこがれる",
+"en": "to long for, to yearn after",
+"level": "N2"
+},
+{
+"id": "ja:vocab:朝寝坊",
+"text": "朝寝坊",
+"reading": "あさねぼう",
+"en": "oversleeping, late riser",
+"level": "N2"
+},
+{
+"id": "ja:vocab:足跡",
+"text": "足跡",
+"reading": "あしあと",
+"en": "footprint",
+"level": "N2"
+},
+{
+"id": "ja:vocab:足元",
+"text": "足元",
+"reading": "あしもと",
+"en": "at one's feet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:味わう",
+"text": "味わう",
+"reading": "あじわう",
+"en": "to taste, to savor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あちらこちら",
+"text": "あちらこちら",
+"reading": "あちらこちら",
+"en": "here and there",
+"level": "N2"
+},
+{
+"id": "ja:vocab:厚かましい",
+"text": "厚かましい",
+"reading": "あつかましい",
+"en": "impudent, shameless,",
+"level": "N2"
+},
+{
+"id": "ja:vocab:圧縮",
+"text": "圧縮",
+"reading": "あっしゅく",
+"en": "compression, condensation, pressure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:宛名",
+"text": "宛名",
+"reading": "あてな",
+"en": "address, direction",
+"level": "N2"
+},
+{
+"id": "ja:vocab:当てはまる",
+"text": "当てはまる",
+"reading": "あてはまる",
+"en": "to be applicable, to come under (a category)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:当てはめる",
+"text": "当てはめる",
+"reading": "あてはめる",
+"en": "to apply, to adapt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:暴れる",
+"text": "暴れる",
+"reading": "あばれる",
+"en": "to act violently, to rage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あぶる",
+"text": "あぶる",
+"reading": "あぶる",
+"en": "to scorch, to roast",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あふれる",
+"text": "あふれる",
+"reading": "あふれる",
+"en": "to flood, to overflow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:雨戸",
+"text": "雨戸",
+"reading": "あまど",
+"en": "sliding storm door",
+"level": "N2"
+},
+{
+"id": "ja:vocab:甘やかす",
+"text": "甘やかす",
+"reading": "あまやかす",
+"en": "to pamper, to spoil",
+"level": "N2"
+},
+{
+"id": "ja:vocab:余る",
+"text": "余る",
+"reading": "あまる",
+"en": "to be left over, to be in excess",
+"level": "N2"
+},
+{
+"id": "ja:vocab:編み物",
+"text": "編み物",
+"reading": "あみもの",
+"en": "knitting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あみもの",
+"text": "あみもの",
+"reading": "あみもの",
+"en": "knitting, web",
+"level": "N2"
+},
+{
+"id": "ja:vocab:編む",
+"text": "編む",
+"reading": "あむ",
+"en": "to knit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:危うい",
+"text": "危うい",
+"reading": "あやうい",
+"en": "dangerous, critical",
+"level": "N2"
+},
+{
+"id": "ja:vocab:怪しい",
+"text": "怪しい",
+"reading": "あやしい",
+"en": "suspicious, dubious, doubtful",
+"level": "N2"
+},
+{
+"id": "ja:vocab:荒い",
+"text": "荒い",
+"reading": "あらい",
+"en": "rough, rude, wild",
+"level": "N2"
+},
+{
+"id": "ja:vocab:粗い",
+"text": "粗い",
+"reading": "あらい",
+"en": "coarse, rough",
+"level": "N2"
+},
+{
+"id": "ja:vocab:粗筋",
+"text": "粗筋",
+"reading": "あらすじ",
+"en": "outline, synopsis",
+"level": "N2"
+},
+{
+"id": "ja:vocab:改めて",
+"text": "改めて",
+"reading": "あらためて",
+"en": "another time, again",
+"level": "N2"
+},
+{
+"id": "ja:vocab:改める",
+"text": "改める",
+"reading": "あらためる",
+"en": "to change, to reform, to revise",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あらわす",
+"text": "あらわす",
+"reading": "あらわす",
+"en": "to write, to publish",
+"level": "N2"
+},
+{
+"id": "ja:vocab:有難い",
+"text": "有難い",
+"reading": "ありがたい",
+"en": "grateful, thankful, appreciated",
+"level": "N2"
+},
+{
+"id": "ja:vocab:あれこれ",
+"text": "あれこれ",
+"reading": "あれこれ",
+"en": "one thing or another, this and that",
+"level": "N2"
+},
+{
+"id": "ja:vocab:荒れる",
+"text": "荒れる",
+"reading": "あれる",
+"en": "to be stormy, to be rough, to be ruined",
+"level": "N2"
+},
+{
+"id": "ja:vocab:慌ただしい",
+"text": "慌ただしい",
+"reading": "あわただしい",
+"en": "busy, hurried",
+"level": "N2"
+},
+{
+"id": "ja:vocab:安易",
+"text": "安易",
+"reading": "あんい",
+"en": "easy-going",
+"level": "N2"
+},
+{
+"id": "ja:vocab:アンテナ",
+"text": "アンテナ",
+"reading": "アンテナ",
+"en": "antenna",
+"level": "N2"
+},
+{
+"id": "ja:vocab:言い出す",
+"text": "言い出す",
+"reading": "いいだす",
+"en": "to start talking, to suggest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:言い付ける",
+"text": "言い付ける",
+"reading": "いいつける",
+"en": "to tell, to order",
+"level": "N2"
+},
+{
+"id": "ja:vocab:意義",
+"text": "意義",
+"reading": "いぎ",
+"en": "meaning, significance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:生き生き",
+"text": "生き生き",
+"reading": "いきいき",
+"en": "vividly, lively",
+"level": "N2"
+},
+{
+"id": "ja:vocab:いきなり",
+"text": "いきなり",
+"reading": "いきなり",
+"en": "all of a sudden",
+"level": "N2"
+},
+{
+"id": "ja:vocab:幾",
+"text": "幾",
+"reading": "いく",
+"en": "several ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:育児",
+"text": "育児",
+"reading": "いくじ",
+"en": "childcare, nursing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:幾分",
+"text": "幾分",
+"reading": "いくぶん",
+"en": "somewhat",
+"level": "N2"
+},
+{
+"id": "ja:vocab:生け花",
+"text": "生け花",
+"reading": "いけばな",
+"en": "flower arrangement",
+"level": "N2"
+},
+{
+"id": "ja:vocab:以後",
+"text": "以後",
+"reading": "いご",
+"en": "after this; from now on; hereafter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:イコール",
+"text": "イコール",
+"reading": "イコール",
+"en": "equal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:以降",
+"text": "以降",
+"reading": "いこう",
+"en": "on and after, hereafter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:勇ましい",
+"text": "勇ましい",
+"reading": "いさましい",
+"en": "brave, valiant",
+"level": "N2"
+},
+{
+"id": "ja:vocab:衣食住",
+"text": "衣食住",
+"reading": "いしょくじゅう",
+"en": "food, clothing and shelter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:いちいち",
+"text": "いちいち",
+"reading": "いちいち",
+"en": "one by one, separately",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一応",
+"text": "一応",
+"reading": "いちおう",
+"en": "tentatively, for the time being",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一段と",
+"text": "一段と",
+"reading": "いちだんと",
+"en": "by far, greater",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一流",
+"text": "一流",
+"reading": "いちりゅう",
+"en": "first class, leading",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一昨年",
+"text": "一昨年",
+"reading": "いっさくねん",
+"en": "year before last",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一斉",
+"text": "一斉",
+"reading": "いっせい",
+"en": "simultaneous, all at once",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一旦",
+"text": "一旦",
+"reading": "いったん",
+"en": "once, for a moment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一定",
+"text": "一定",
+"reading": "いってい",
+"en": "fixed, settled, regular",
+"level": "N2"
+},
+{
+"id": "ja:vocab:行っていらっしゃい",
+"text": "行っていらっしゃい",
+"reading": "いっていらっしゃい",
+"en": "have a nice day, see you",
+"level": "N2"
+},
+{
+"id": "ja:vocab:いってきます",
+"text": "いってきます",
+"reading": "いってきます",
+"en": "(Lit.) I'll go and come back, 'I'm going, see you later'",
+"level": "N2"
+},
+{
+"id": "ja:vocab:いってまいります",
+"text": "いってまいります",
+"reading": "いってまいります",
+"en": "(Lit.) I'll go and come back, 'I'm going, see you later'",
+"level": "N2"
+},
+{
+"id": "ja:vocab:行ってらっしゃい",
+"text": "行ってらっしゃい",
+"reading": "いってらっしゃい",
+"en": "have a nice day, see you",
+"level": "N2"
+},
+{
+"id": "ja:vocab:移転",
+"text": "移転",
+"reading": "いてん",
+"en": "moving, transfer",
+"level": "N2"
+},
+{
+"id": "ja:vocab:井戸",
+"text": "井戸",
+"reading": "いど",
+"en": "water well",
+"level": "N2"
+},
+{
+"id": "ja:vocab:緯度",
+"text": "緯度",
+"reading": "いど",
+"en": "latitude (navigation)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:威張る",
+"text": "威張る",
+"reading": "いばる",
+"en": "to be proud, to swagger",
+"level": "N2"
+},
+{
+"id": "ja:vocab:嫌がる",
+"text": "嫌がる",
+"reading": "いやがる",
+"en": "reluctant, to dislike",
+"level": "N2"
+},
+{
+"id": "ja:vocab:いよいよ",
+"text": "いよいよ",
+"reading": "いよいよ",
+"en": "more and more, increasingly, at last",
+"level": "N2"
+},
+{
+"id": "ja:vocab:煎る",
+"text": "煎る",
+"reading": "いる",
+"en": "to roast",
+"level": "N2"
+},
+{
+"id": "ja:vocab:炒る",
+"text": "炒る",
+"reading": "いる",
+"en": "to parch, to roast",
+"level": "N2"
+},
+{
+"id": "ja:vocab:入れ物",
+"text": "入れ物",
+"reading": "いれもの",
+"en": "container, case",
+"level": "N2"
+},
+{
+"id": "ja:vocab:インキ",
+"text": "インキ",
+"reading": "インキ",
+"en": "ink",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引力",
+"text": "引力",
+"reading": "いんりょく",
+"en": "gravity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ウーマン",
+"text": "ウーマン",
+"reading": "ウーマン",
+"en": "woman",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ウール",
+"text": "ウール",
+"reading": "ウール",
+"en": "wool",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ウエートレス",
+"text": "ウエートレス",
+"reading": "ウエートレス",
+"en": "waitress",
+"level": "N2"
+},
+{
+"id": "ja:vocab:植木",
+"text": "植木",
+"reading": "うえき",
+"en": "garden shrubs, trees, potted plant",
+"level": "N2"
+},
+{
+"id": "ja:vocab:飢える",
+"text": "飢える",
+"reading": "うえる",
+"en": "to starve",
+"level": "N2"
+},
+{
+"id": "ja:vocab:浮ぶ",
+"text": "浮ぶ",
+"reading": "うかぶ",
+"en": "to float, to rise to surface, to come to mind",
+"level": "N2"
+},
+{
+"id": "ja:vocab:浮かべる",
+"text": "浮かべる",
+"reading": "うかべる",
+"en": "to float; to express",
+"level": "N2"
+},
+{
+"id": "ja:vocab:浮く",
+"text": "浮く",
+"reading": "うく",
+"en": "to float",
+"level": "N2"
+},
+{
+"id": "ja:vocab:承る",
+"text": "承る",
+"reading": "うけたまわる",
+"en": "(humble) to hear, to be told, to know",
+"level": "N2"
+},
+{
+"id": "ja:vocab:受取",
+"text": "受取",
+"reading": "うけとり",
+"en": "receipt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:受け持つ",
+"text": "受け持つ",
+"reading": "うけもつ",
+"en": "to take (be in) charge of",
+"level": "N2"
+},
+{
+"id": "ja:vocab:薄暗い",
+"text": "薄暗い",
+"reading": "うすぐらい",
+"en": "dim, gloomy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:薄める",
+"text": "薄める",
+"reading": "うすめる",
+"en": "to dilute, to water down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:打合せ",
+"text": "打合せ",
+"reading": "うちあわせ",
+"en": "business meeting, previous arrangement",
+"level": "N2"
+},
+{
+"id": "ja:vocab:打ち消す",
+"text": "打ち消す",
+"reading": "うちけす",
+"en": "to deny, to negate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:うどん",
+"text": "うどん",
+"reading": "うどん",
+"en": "udon noodles (Japanese traditional noodles)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:うなずく",
+"text": "うなずく",
+"reading": "うなずく",
+"en": "to nod",
+"level": "N2"
+},
+{
+"id": "ja:vocab:敬う",
+"text": "敬う",
+"reading": "うやまう",
+"en": "to show respect, to honor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:裏返す",
+"text": "裏返す",
+"reading": "うらがえす",
+"en": "to turn inside out, to turn (something) over",
+"level": "N2"
+},
+{
+"id": "ja:vocab:裏口",
+"text": "裏口",
+"reading": "うらぐち",
+"en": "backdoor, rear entrance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:占う",
+"text": "占う",
+"reading": "うらなう",
+"en": "to predict, to divine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:恨み",
+"text": "恨み",
+"reading": "うらみ",
+"en": "resentment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:恨む",
+"text": "恨む",
+"reading": "うらむ",
+"en": "to curse, to feel bitter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:羨む",
+"text": "羨む",
+"reading": "うらやむ",
+"en": "to envy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売上",
+"text": "売上",
+"reading": "うりあげ",
+"en": "amount sold, proceeds",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売り上げ",
+"text": "売り上げ",
+"reading": "うりあげ",
+"en": "amount sold, sales, proceeds, takings, turnover",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売り切れ",
+"text": "売り切れ",
+"reading": "うりきれ",
+"en": "sold-out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売り切れる",
+"text": "売り切れる",
+"reading": "うりきれる",
+"en": "to be sold out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売行き",
+"text": "売行き",
+"reading": "うれゆき",
+"en": "sales",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売れ行き",
+"text": "売れ行き",
+"reading": "うれゆき",
+"en": "sales, demand",
+"level": "N2"
+},
+{
+"id": "ja:vocab:うろうろ",
+"text": "うろうろ",
+"reading": "うろうろ",
+"en": "loitering, aimless wandering",
+"level": "N2"
+},
+{
+"id": "ja:vocab:運河",
+"text": "運河",
+"reading": "うんが",
+"en": "canal, waterway",
+"level": "N2"
+},
+{
+"id": "ja:vocab:うんと",
+"text": "うんと",
+"reading": "うんと",
+"en": "a great deal, very much",
+"level": "N2"
+},
+{
+"id": "ja:vocab:英文",
+"text": "英文",
+"reading": "えいぶん",
+"en": "sentence in English",
+"level": "N2"
+},
+{
+"id": "ja:vocab:英和",
+"text": "英和",
+"reading": "えいわ",
+"en": "English-Japanese (e.g., dictionary)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ええと",
+"text": "ええと",
+"reading": "ええと",
+"en": "let me see, well, er...",
+"level": "N2"
+},
+{
+"id": "ja:vocab:液体",
+"text": "液体",
+"reading": "えきたい",
+"en": "liquid, fluid",
+"level": "N2"
+},
+{
+"id": "ja:vocab:エチケット",
+"text": "エチケット",
+"reading": "エチケット",
+"en": "etiquette",
+"level": "N2"
+},
+{
+"id": "ja:vocab:絵の具",
+"text": "絵の具",
+"reading": "えのぐ",
+"en": "colors, paints",
+"level": "N2"
+},
+{
+"id": "ja:vocab:エプロン",
+"text": "エプロン",
+"reading": "エプロン",
+"en": "apron",
+"level": "N2"
+},
+{
+"id": "ja:vocab:偉い",
+"text": "偉い",
+"reading": "えらい",
+"en": "great, celebrated, remarkable,",
+"level": "N2"
+},
+{
+"id": "ja:vocab:宴会",
+"text": "宴会",
+"reading": "えんかい",
+"en": "party, banquet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:園芸",
+"text": "園芸",
+"reading": "えんげい",
+"en": "horticulture, gardening",
+"level": "N2"
+},
+{
+"id": "ja:vocab:演劇",
+"text": "演劇",
+"reading": "えんげき",
+"en": "play (theatrical)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:円周",
+"text": "円周",
+"reading": "えんしゅう",
+"en": "circumference",
+"level": "N2"
+},
+{
+"id": "ja:vocab:遠足",
+"text": "遠足",
+"reading": "えんそく",
+"en": "trip, hike, picnic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:延長",
+"text": "延長",
+"reading": "えんちょう",
+"en": "extension, prolongation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:煙突",
+"text": "煙突",
+"reading": "えんとつ",
+"en": "chimney",
+"level": "N2"
+},
+{
+"id": "ja:vocab:オーケストラ",
+"text": "オーケストラ",
+"reading": "オーケストラ",
+"en": "orchestra",
+"level": "N2"
+},
+{
+"id": "ja:vocab:オートメーション",
+"text": "オートメーション",
+"reading": "オートメーション",
+"en": "automation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:追いかける",
+"text": "追いかける",
+"reading": "おいかける",
+"en": "to chase or run after someone",
+"level": "N2"
+},
+{
+"id": "ja:vocab:追い越す",
+"text": "追い越す",
+"reading": "おいこす",
+"en": "to pass (e.g., car), to outdistance, to outstrip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:オイル",
+"text": "オイル",
+"reading": "オイル",
+"en": "oil",
+"level": "N2"
+},
+{
+"id": "ja:vocab:王女",
+"text": "王女",
+"reading": "おうじょ",
+"en": "princess",
+"level": "N2"
+},
+{
+"id": "ja:vocab:応ずる",
+"text": "応ずる",
+"reading": "おうずる",
+"en": "to respond, to comply with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:応接",
+"text": "応接",
+"reading": "おうせつ",
+"en": "reception",
+"level": "N2"
+},
+{
+"id": "ja:vocab:応対",
+"text": "応対",
+"reading": "おうたい",
+"en": "receiving, dealing with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:往復",
+"text": "往復",
+"reading": "おうふく",
+"en": "(col) round trip, coming and going, return ticket",
+"level": "N2"
+},
+{
+"id": "ja:vocab:欧米",
+"text": "欧米",
+"reading": "おうべい",
+"en": "Europe and America, the West",
+"level": "N2"
+},
+{
+"id": "ja:vocab:応用",
+"text": "応用",
+"reading": "おうよう",
+"en": "application, put to practical use",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おおざっぱ",
+"text": "おおざっぱ",
+"reading": "おおざっぱ",
+"en": "rough (not precise), broad, sketchy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大通り",
+"text": "大通り",
+"reading": "おおどおり",
+"en": "main street",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大凡",
+"text": "大凡",
+"reading": "おおよそ",
+"en": "about, approximately",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お帰り",
+"text": "お帰り",
+"reading": "おかえり",
+"en": "return, welcome",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おかけください",
+"text": "おかけください",
+"reading": "おかけください",
+"en": "please sit down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おかげさまで",
+"text": "おかげさまで",
+"reading": "おかげさまで",
+"en": "Thanks to god, thanks to you",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おかず",
+"text": "おかず",
+"reading": "おかず",
+"en": "side dish, accompaniment for rice dishes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おかまいなく",
+"text": "おかまいなく",
+"reading": "おかまいなく",
+"en": "please don't fuss over me",
+"level": "N2"
+},
+{
+"id": "ja:vocab:拝む",
+"text": "拝む",
+"reading": "おがむ",
+"en": "to worship, to pray",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お代わり",
+"text": "お代わり",
+"reading": "おかわり",
+"en": "second helping, another cup",
+"level": "N2"
+},
+{
+"id": "ja:vocab:補う",
+"text": "補う",
+"reading": "おぎなう",
+"en": "to compensate for",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お気の毒に",
+"text": "お気の毒に",
+"reading": "おきのどくに",
+"en": "I'm sorry to hear that…",
+"level": "N2"
+},
+{
+"id": "ja:vocab:屋外",
+"text": "屋外",
+"reading": "おくがい",
+"en": "outdoors",
+"level": "N2"
+},
+{
+"id": "ja:vocab:送り仮名",
+"text": "送り仮名",
+"reading": "おくりがな",
+"en": "part of word written in kana",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お元気で",
+"text": "お元気で",
+"reading": "おげんきで",
+"en": "Take care'",
+"level": "N2"
+},
+{
+"id": "ja:vocab:怠る",
+"text": "怠る",
+"reading": "おこたる",
+"en": "to neglect, to fail",
+"level": "N2"
+},
+{
+"id": "ja:vocab:押さえる",
+"text": "押さえる",
+"reading": "おさえる",
+"en": "to pin down, to hold down, to press down, to hold in place, to hold steady to cover (esp. a part of one's body with one's hand), to clutch (a body part in pain), to press (a body part) to get a hold of, to obtain, to seize, to catch, to arrest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お先に",
+"text": "お先に",
+"reading": "おさきに",
+"en": "before, after you",
+"level": "N2"
+},
+{
+"id": "ja:vocab:叔父",
+"text": "叔父",
+"reading": "おじ",
+"en": "uncle (younger than one's parent)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:惜しい",
+"text": "惜しい",
+"reading": "おしい",
+"en": "regrettable, disappointing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:伯父さん",
+"text": "伯父さん",
+"reading": "おじさん",
+"en": "(hon.) middle-aged gentleman, uncle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小父さん",
+"text": "小父さん",
+"reading": "おじさん",
+"en": "(hon.) middle-aged gentleman, uncle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:叔父さん",
+"text": "叔父さん",
+"reading": "おじさん",
+"en": "(hon.) middle-aged gentleman, uncle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お邪魔します",
+"text": "お邪魔します",
+"reading": "おじゃまします",
+"en": "Excuse me for disturbing you",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お世話になりました",
+"text": "お世話になりました",
+"reading": "おせわになりました",
+"en": "I've been in your care",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お大事に",
+"text": "お大事に",
+"reading": "おだいじに",
+"en": "Take care of yourself, Take care!, Get well soon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:落着く",
+"text": "落着く",
+"reading": "おちつく",
+"en": "to calm down, to settle down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お出掛け",
+"text": "お出掛け",
+"reading": "おでかけ",
+"en": "outing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お手伝いさん",
+"text": "お手伝いさん",
+"reading": "おてつだいさん",
+"en": "maid",
+"level": "N2"
+},
+{
+"id": "ja:vocab:脅かす",
+"text": "脅かす",
+"reading": "おどかす",
+"en": "to threaten, to coerce",
+"level": "N2"
+},
+{
+"id": "ja:vocab:落し物",
+"text": "落し物",
+"reading": "おとしもの",
+"en": "lost property",
+"level": "N2"
+},
+{
+"id": "ja:vocab:驚かす",
+"text": "驚かす",
+"reading": "おどろかす",
+"en": "to surprise, to frighten",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お願いします",
+"text": "お願いします",
+"reading": "おねがいします",
+"en": "Please (lit., I request)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:各々",
+"text": "各々",
+"reading": "おのおの",
+"en": "each, every, either",
+"level": "N2"
+},
+{
+"id": "ja:vocab:伯母",
+"text": "伯母",
+"reading": "おば",
+"en": "(humble) aunt (older than one's parent)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:叔母",
+"text": "叔母",
+"reading": "おば",
+"en": "aunt (younger than one's parent)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小母さん",
+"text": "小母さん",
+"reading": "おばさん",
+"en": "lady, woman, ma'am",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おはよう",
+"text": "おはよう",
+"reading": "おはよう",
+"en": "(abbr.) Good morning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お参り",
+"text": "お参り",
+"reading": "おまいり",
+"en": "worship, shrine visit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お待たせしました",
+"text": "お待たせしました",
+"reading": "おまたせしました",
+"en": "Sorry to have kept you waiting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お待ちください",
+"text": "お待ちください",
+"reading": "おまちください",
+"en": "Please wait a moment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おまちどおさま",
+"text": "おまちどおさま",
+"reading": "おまちどおさま",
+"en": "Sorry to have kept you waiting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おめでたい",
+"text": "おめでたい",
+"reading": "おめでたい",
+"en": "happy event, matter for congratulation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:思い掛けない",
+"text": "思い掛けない",
+"reading": "おもいがけない",
+"en": "unexpected, casual",
+"level": "N2"
+},
+{
+"id": "ja:vocab:思い切り",
+"text": "思い切り",
+"reading": "おもいきり",
+"en": "with all one's strength (heart), resignation, resolution",
+"level": "N2"
+},
+{
+"id": "ja:vocab:思い込む",
+"text": "思い込む",
+"reading": "おもいこむ",
+"en": "to be under impression that, to be convinced that",
+"level": "N2"
+},
+{
+"id": "ja:vocab:思いっ切り",
+"text": "思いっ切り",
+"reading": "おもいっきり",
+"en": "very, much, fully",
+"level": "N2"
+},
+{
+"id": "ja:vocab:思いっきり",
+"text": "思いっきり",
+"reading": "おもいっきり",
+"en": "to the best of one's ability",
+"level": "N2"
+},
+{
+"id": "ja:vocab:重たい",
+"text": "重たい",
+"reading": "おもたい",
+"en": "heavy, massive, serious",
+"level": "N2"
+},
+{
+"id": "ja:vocab:お休み",
+"text": "お休み",
+"reading": "おやすみ",
+"en": "holiday, absence; (exp.) Good night",
+"level": "N2"
+},
+{
+"id": "ja:vocab:おやつ",
+"text": "おやつ",
+"reading": "おやつ",
+"en": "between meal snack, afternoon refreshment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:親指",
+"text": "親指",
+"reading": "おやゆび",
+"en": "thumb",
+"level": "N2"
+},
+{
+"id": "ja:vocab:オルガン",
+"text": "オルガン",
+"reading": "オルガン",
+"en": "organ",
+"level": "N2"
+},
+{
+"id": "ja:vocab:恩恵",
+"text": "恩恵",
+"reading": "おんけい",
+"en": "blessing, benefit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:温室",
+"text": "温室",
+"reading": "おんしつ",
+"en": "greenhouse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:温泉",
+"text": "温泉",
+"reading": "おんせん",
+"en": "spa, hot spring",
+"level": "N2"
+},
+{
+"id": "ja:vocab:温帯",
+"text": "温帯",
+"reading": "おんたい",
+"en": "temperate zone",
+"level": "N2"
+},
+{
+"id": "ja:vocab:御中",
+"text": "御中",
+"reading": "おんちゅう",
+"en": "Messrs.",
+"level": "N2"
+},
+{
+"id": "ja:vocab:女の人",
+"text": "女の人",
+"reading": "おんなのひと",
+"en": "woman",
+"level": "N2"
+},
+{
+"id": "ja:vocab:カーブ",
+"text": "カーブ",
+"reading": "カーブ",
+"en": "curve; curve ball (baseball)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:開会",
+"text": "開会",
+"reading": "かいかい",
+"en": "opening of a meeting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:会館",
+"text": "会館",
+"reading": "かいかん",
+"en": "meeting hall, assembly hall",
+"level": "N2"
+},
+{
+"id": "ja:vocab:改札",
+"text": "改札",
+"reading": "かいさつ",
+"en": "examination of tickets",
+"level": "N2"
+},
+{
+"id": "ja:vocab:解散",
+"text": "解散",
+"reading": "かいさん",
+"en": "breakup, dissolution",
+"level": "N2"
+},
+{
+"id": "ja:vocab:海水浴",
+"text": "海水浴",
+"reading": "かいすいよく",
+"en": "sea bathing, seawater bath",
+"level": "N2"
+},
+{
+"id": "ja:vocab:回数",
+"text": "回数",
+"reading": "かいすう",
+"en": "number of times, frequency",
+"level": "N2"
+},
+{
+"id": "ja:vocab:回数券",
+"text": "回数券",
+"reading": "かいすうけん",
+"en": "book of tickets",
+"level": "N2"
+},
+{
+"id": "ja:vocab:改正",
+"text": "改正",
+"reading": "かいせい",
+"en": "revision, amendment, alteration",
+"level": "N2"
+},
+{
+"id": "ja:vocab:快晴",
+"text": "快晴",
+"reading": "かいせい",
+"en": "good weather",
+"level": "N2"
+},
+{
+"id": "ja:vocab:解説",
+"text": "解説",
+"reading": "かいせつ",
+"en": "explanation, commentary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:改造",
+"text": "改造",
+"reading": "かいぞう",
+"en": "remodeling",
+"level": "N2"
+},
+{
+"id": "ja:vocab:開通",
+"text": "開通",
+"reading": "かいつう",
+"en": "opening, open",
+"level": "N2"
+},
+{
+"id": "ja:vocab:回転",
+"text": "回転",
+"reading": "かいてん",
+"en": "rotation, turning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:解答",
+"text": "解答",
+"reading": "かいとう",
+"en": "answer, solution",
+"level": "N2"
+},
+{
+"id": "ja:vocab:回答",
+"text": "回答",
+"reading": "かいとう",
+"en": "reply, answer",
+"level": "N2"
+},
+{
+"id": "ja:vocab:外部",
+"text": "外部",
+"reading": "がいぶ",
+"en": "the outside, external",
+"level": "N2"
+},
+{
+"id": "ja:vocab:解放",
+"text": "解放",
+"reading": "かいほう",
+"en": "release, liberation, emancipation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:開放",
+"text": "開放",
+"reading": "かいほう",
+"en": "open, throw open, liberalization",
+"level": "N2"
+},
+{
+"id": "ja:vocab:海洋",
+"text": "海洋",
+"reading": "かいよう",
+"en": "ocean",
+"level": "N2"
+},
+{
+"id": "ja:vocab:概論",
+"text": "概論",
+"reading": "がいろん",
+"en": "introduction, general remark",
+"level": "N2"
+},
+{
+"id": "ja:vocab:却って",
+"text": "却って",
+"reading": "かえって",
+"en": "on the contrary, rather",
+"level": "N2"
+},
+{
+"id": "ja:vocab:家屋",
+"text": "家屋",
+"reading": "かおく",
+"en": "house, building",
+"level": "N2"
+},
+{
+"id": "ja:vocab:係わる",
+"text": "係わる",
+"reading": "かかわる",
+"en": "to concern oneself in, to be involved in",
+"level": "N2"
+},
+{
+"id": "ja:vocab:書留",
+"text": "書留",
+"reading": "かきとめ",
+"en": "registered mail",
+"level": "N2"
+},
+{
+"id": "ja:vocab:書取",
+"text": "書取",
+"reading": "かきとり",
+"en": "dictation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:垣根",
+"text": "垣根",
+"reading": "かきね",
+"en": "hedge",
+"level": "N2"
+},
+{
+"id": "ja:vocab:限り",
+"text": "限り",
+"reading": "かぎり",
+"en": "limit(s), as far as possible",
+"level": "N2"
+},
+{
+"id": "ja:vocab:各",
+"text": "各",
+"reading": "かく",
+"en": "every ~, each ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:架空",
+"text": "架空",
+"reading": "かくう",
+"en": "imaginary, fiction, fanciful",
+"level": "N2"
+},
+{
+"id": "ja:vocab:各自",
+"text": "各自",
+"reading": "かくじ",
+"en": "individual, each",
+"level": "N2"
+},
+{
+"id": "ja:vocab:拡充",
+"text": "拡充",
+"reading": "かくじゅう",
+"en": "expansion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:学術",
+"text": "学術",
+"reading": "がくじゅつ",
+"en": "science, learning, scholarship",
+"level": "N2"
+},
+{
+"id": "ja:vocab:各地",
+"text": "各地",
+"reading": "かくち",
+"en": "various parts of the country",
+"level": "N2"
+},
+{
+"id": "ja:vocab:拡張",
+"text": "拡張",
+"reading": "かくちょう",
+"en": "expansion, extension",
+"level": "N2"
+},
+{
+"id": "ja:vocab:角度",
+"text": "角度",
+"reading": "かくど",
+"en": "angle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:学年",
+"text": "学年",
+"reading": "がくねん",
+"en": "year in school, grade in school",
+"level": "N2"
+},
+{
+"id": "ja:vocab:格別",
+"text": "格別",
+"reading": "かくべつ",
+"en": "exceptional",
+"level": "N2"
+},
+{
+"id": "ja:vocab:確率",
+"text": "確率",
+"reading": "かくりつ",
+"en": "probability",
+"level": "N2"
+},
+{
+"id": "ja:vocab:学力",
+"text": "学力",
+"reading": "がくりょく",
+"en": "scholarship, knowledge",
+"level": "N2"
+},
+{
+"id": "ja:vocab:掛け算",
+"text": "掛け算",
+"reading": "かけざん",
+"en": "multiplication",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かけざん",
+"text": "かけざん",
+"reading": "かけざん",
+"en": "multiplication",
+"level": "N2"
+},
+{
+"id": "ja:vocab:可決",
+"text": "可決",
+"reading": "かけつ",
+"en": "approval, adoption (e.g., motion, bill), passage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:火口",
+"text": "火口",
+"reading": "かこう",
+"en": "crater (of a volcano)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下降",
+"text": "下降",
+"reading": "かこう",
+"en": "decline, descent, fall",
+"level": "N2"
+},
+{
+"id": "ja:vocab:火山",
+"text": "火山",
+"reading": "かざん",
+"en": "volcano",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かしこまりました",
+"text": "かしこまりました",
+"reading": "かしこまりました",
+"en": "Certainly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:貸し出し",
+"text": "貸し出し",
+"reading": "かしだし",
+"en": "lending, loaning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:過失",
+"text": "過失",
+"reading": "かしつ",
+"en": "error, mistake, negligence",
+"level": "N2"
+},
+{
+"id": "ja:vocab:果実",
+"text": "果実",
+"reading": "かじつ",
+"en": "fruit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:貸間",
+"text": "貸間",
+"reading": "かしま",
+"en": "room to let",
+"level": "N2"
+},
+{
+"id": "ja:vocab:貸家",
+"text": "貸家",
+"reading": "かしや",
+"en": "house for rent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:箇所",
+"text": "箇所",
+"reading": "かしょ",
+"en": "place, point, part",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かしょ",
+"text": "かしょ",
+"reading": "かしょ",
+"en": "passage, place",
+"level": "N2"
+},
+{
+"id": "ja:vocab:過剰",
+"text": "過剰",
+"reading": "かじょう",
+"en": "excess, over-",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かじる",
+"text": "かじる",
+"reading": "かじる",
+"en": "to chew, to bite (at)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:課税",
+"text": "課税",
+"reading": "かぜい",
+"en": "taxation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:カセット",
+"text": "カセット",
+"reading": "カセット",
+"en": "cassette (tape)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下線",
+"text": "下線",
+"reading": "かせん",
+"en": "underline, underscore",
+"level": "N2"
+},
+{
+"id": "ja:vocab:加速",
+"text": "加速",
+"reading": "かそく",
+"en": "acceleration",
+"level": "N2"
+},
+{
+"id": "ja:vocab:加速度",
+"text": "加速度",
+"reading": "かそくど",
+"en": "acceleration",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かたかな",
+"text": "かたかな",
+"reading": "かたかな",
+"en": "katakana",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かたづく",
+"text": "かたづく",
+"reading": "かたづく",
+"en": "to put in order, to dispose of, to solve",
+"level": "N2"
+},
+{
+"id": "ja:vocab:塊",
+"text": "塊",
+"reading": "かたまり",
+"en": "lump, mass, cluster",
+"level": "N2"
+},
+{
+"id": "ja:vocab:固まる",
+"text": "固まる",
+"reading": "かたまる",
+"en": "to harden, to solidify, to become firm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:片道",
+"text": "片道",
+"reading": "かたみち",
+"en": "one-way (trip)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:傾く",
+"text": "傾く",
+"reading": "かたむく",
+"en": "to incline toward, to slant, to lurch",
+"level": "N2"
+},
+{
+"id": "ja:vocab:片寄る",
+"text": "片寄る",
+"reading": "かたよる",
+"en": "to be one-sided, to incline, to be partial",
+"level": "N2"
+},
+{
+"id": "ja:vocab:学科",
+"text": "学科",
+"reading": "がっか",
+"en": "study subject, course of study",
+"level": "N2"
+},
+{
+"id": "ja:vocab:学会",
+"text": "学会",
+"reading": "がっかい",
+"en": "academic conference",
+"level": "N2"
+},
+{
+"id": "ja:vocab:学級",
+"text": "学級",
+"reading": "がっきゅう",
+"en": "class",
+"level": "N2"
+},
+{
+"id": "ja:vocab:担ぐ",
+"text": "担ぐ",
+"reading": "かつぐ",
+"en": "to shoulder, to carry on shoulder",
+"level": "N2"
+},
+{
+"id": "ja:vocab:括弧",
+"text": "括弧",
+"reading": "かっこ",
+"en": "parenthesis, brackets",
+"level": "N2"
+},
+{
+"id": "ja:vocab:活字",
+"text": "活字",
+"reading": "かつじ",
+"en": "printing type",
+"level": "N2"
+},
+{
+"id": "ja:vocab:勝手に",
+"text": "勝手に",
+"reading": "かってに",
+"en": "arbitrarily,",
+"level": "N2"
+},
+{
+"id": "ja:vocab:活力",
+"text": "活力",
+"reading": "かつりょく",
+"en": "vitality, energy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:仮名",
+"text": "仮名",
+"reading": "かな",
+"en": "kana",
+"level": "N2"
+},
+{
+"id": "ja:vocab:仮名遣い",
+"text": "仮名遣い",
+"reading": "かなづかい",
+"en": "kana orthography, syllabary spelling",
+"level": "N2"
+},
+{
+"id": "ja:vocab:加熱",
+"text": "加熱",
+"reading": "かねつ",
+"en": "heating",
+"level": "N2"
+},
+{
+"id": "ja:vocab:兼ねる",
+"text": "兼ねる",
+"reading": "かねる",
+"en": "to simultaneously serve two or more functions",
+"level": "N2"
+},
+{
+"id": "ja:vocab:カバー",
+"text": "カバー",
+"reading": "カバー",
+"en": "cover (e.g., book)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:過半数",
+"text": "過半数",
+"reading": "かはんすう",
+"en": "majority",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かび (～がはえる)",
+"text": "かび (～がはえる)",
+"reading": "かび (～がはえる)",
+"en": "mold, mildew",
+"level": "N2"
+},
+{
+"id": "ja:vocab:被せる",
+"text": "被せる",
+"reading": "かぶせる",
+"en": "to cover (with something)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:釜",
+"text": "釜",
+"reading": "かま",
+"en": "iron pot, kettle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:構いません",
+"text": "構いません",
+"reading": "かまいません",
+"en": "it's all right; one doesn’t mind",
+"level": "N2"
+},
+{
+"id": "ja:vocab:紙屑",
+"text": "紙屑",
+"reading": "かみくず",
+"en": "wastepaper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:神様",
+"text": "神様",
+"reading": "かみさま",
+"en": "god",
+"level": "N2"
+},
+{
+"id": "ja:vocab:剃刀",
+"text": "剃刀",
+"reading": "かみそり",
+"en": "razor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ガム",
+"text": "ガム",
+"reading": "ガム",
+"en": "chewing gum",
+"level": "N2"
+},
+{
+"id": "ja:vocab:貨物",
+"text": "貨物",
+"reading": "かもつ",
+"en": "cargo, freight",
+"level": "N2"
+},
+{
+"id": "ja:vocab:カラー",
+"text": "カラー",
+"reading": "カラー",
+"en": "collar, color",
+"level": "N2"
+},
+{
+"id": "ja:vocab:からかう",
+"text": "からかう",
+"reading": "からかう",
+"en": "to ridicule, to make fun of",
+"level": "N2"
+},
+{
+"id": "ja:vocab:空っぽ",
+"text": "空っぽ",
+"reading": "からっぽ",
+"en": "empty, vacant, hollow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:かるた",
+"text": "かるた",
+"reading": "かるた",
+"en": "playing cards (POR: carta)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:枯れる",
+"text": "枯れる",
+"reading": "かれる",
+"en": "to wither, to die (plant), to be blasted (plant)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:カロリー",
+"text": "カロリー",
+"reading": "カロリー",
+"en": "calorie",
+"level": "N2"
+},
+{
+"id": "ja:vocab:可愛がる",
+"text": "可愛がる",
+"reading": "かわいがる",
+"en": "to love, to be affectionate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:為替",
+"text": "為替",
+"reading": "かわせ",
+"en": "money order, exchange",
+"level": "N2"
+},
+{
+"id": "ja:vocab:瓦",
+"text": "瓦",
+"reading": "かわら",
+"en": "roof tile",
+"level": "N2"
+},
+{
+"id": "ja:vocab:換気",
+"text": "換気",
+"reading": "かんき",
+"en": "ventilation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:感激",
+"text": "感激",
+"reading": "かんげき",
+"en": "deep emotion, impression, inspiration",
+"level": "N2"
+},
+{
+"id": "ja:vocab:関西",
+"text": "関西",
+"reading": "かんさい",
+"en": "south-western half of Japan, including Osaka",
+"level": "N2"
+},
+{
+"id": "ja:vocab:元日",
+"text": "元日",
+"reading": "がんじつ",
+"en": "New Year's Day",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鑑賞",
+"text": "鑑賞",
+"reading": "かんしょう",
+"en": "appreciation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:感ずる",
+"text": "感ずる",
+"reading": "かんずる",
+"en": "to feel, to sense",
+"level": "N2"
+},
+{
+"id": "ja:vocab:間接",
+"text": "間接",
+"reading": "かんせつ",
+"en": "indirect, indirectness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:観測",
+"text": "観測",
+"reading": "かんそく",
+"en": "observation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寒帯",
+"text": "寒帯",
+"reading": "かんたい",
+"en": "frigid zone",
+"level": "N2"
+},
+{
+"id": "ja:vocab:勘違い",
+"text": "勘違い",
+"reading": "かんちがい",
+"en": "misunderstanding, wrong guess",
+"level": "N2"
+},
+{
+"id": "ja:vocab:官庁",
+"text": "官庁",
+"reading": "かんちょう",
+"en": "government office, authorities",
+"level": "N2"
+},
+{
+"id": "ja:vocab:缶詰",
+"text": "缶詰",
+"reading": "かんづめ",
+"en": "canning, canned goods,",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乾電池",
+"text": "乾電池",
+"reading": "かんでんち",
+"en": "dry cell, battery",
+"level": "N2"
+},
+{
+"id": "ja:vocab:関東",
+"text": "関東",
+"reading": "かんとう",
+"en": "eastern half of Japan, including Tokyo",
+"level": "N2"
+},
+{
+"id": "ja:vocab:観念",
+"text": "観念",
+"reading": "かんねん",
+"en": "idea, notion; sense",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乾杯",
+"text": "乾杯",
+"reading": "かんぱい",
+"en": "Cheers! (a toast)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:看板",
+"text": "看板",
+"reading": "かんばん",
+"en": "sign, signboard",
+"level": "N2"
+},
+{
+"id": "ja:vocab:看病",
+"text": "看病",
+"reading": "かんびょう",
+"en": "nursing (a patient)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:冠",
+"text": "冠",
+"reading": "かんむり",
+"en": "crown, wreath",
+"level": "N2"
+},
+{
+"id": "ja:vocab:漢和",
+"text": "漢和",
+"reading": "かんわ",
+"en": "Chinese Character-Japanese (e.g., dictionary)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:気圧",
+"text": "気圧",
+"reading": "きあつ",
+"en": "atmospheric pressure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:着替え",
+"text": "着替え",
+"reading": "きがえ",
+"en": "changing clothes, change of clothes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:着替える",
+"text": "着替える",
+"reading": "きがえる",
+"en": "to change (one's) clothes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:機関車",
+"text": "機関車",
+"reading": "きかんしゃ",
+"en": "locomotive, engine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:飢饉",
+"text": "飢饉",
+"reading": "ききん",
+"en": "famine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:器具",
+"text": "器具",
+"reading": "きぐ",
+"en": "instrument",
+"level": "N2"
+},
+{
+"id": "ja:vocab:記号",
+"text": "記号",
+"reading": "きごう",
+"en": "symbol, code",
+"level": "N2"
+},
+{
+"id": "ja:vocab:刻む",
+"text": "刻む",
+"reading": "きざむ",
+"en": "to mince, to carve, to engrave",
+"level": "N2"
+},
+{
+"id": "ja:vocab:儀式",
+"text": "儀式",
+"reading": "ぎしき",
+"en": "ceremony, rite, ritual",
+"level": "N2"
+},
+{
+"id": "ja:vocab:基準",
+"text": "基準",
+"reading": "きじゅん",
+"en": "standard, basis, criteria",
+"level": "N2"
+},
+{
+"id": "ja:vocab:規準",
+"text": "規準",
+"reading": "きじゅん",
+"en": "standard, basis, criteria",
+"level": "N2"
+},
+{
+"id": "ja:vocab:起床",
+"text": "起床",
+"reading": "きしょう",
+"en": "rising, getting out of bed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:着せる",
+"text": "着せる",
+"reading": "きせる",
+"en": "to put on clothes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:基礎",
+"text": "基礎",
+"reading": "きそ",
+"en": "foundation, basis",
+"level": "N2"
+},
+{
+"id": "ja:vocab:基地",
+"text": "基地",
+"reading": "きち",
+"en": "base",
+"level": "N2"
+},
+{
+"id": "ja:vocab:きっかけ",
+"text": "きっかけ",
+"reading": "きっかけ",
+"en": "prompt, trigger, cue",
+"level": "N2"
+},
+{
+"id": "ja:vocab:切っ掛け",
+"text": "切っ掛け",
+"reading": "きっかけ",
+"en": "chance, start, cue, excuse, motive, impetus, occassion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぎっしり",
+"text": "ぎっしり",
+"reading": "ぎっしり",
+"en": "tightly, fully",
+"level": "N2"
+},
+{
+"id": "ja:vocab:基盤",
+"text": "基盤",
+"reading": "きばん",
+"en": "foundation, basis",
+"level": "N2"
+},
+{
+"id": "ja:vocab:客席",
+"text": "客席",
+"reading": "きゃくせき",
+"en": "guest seating",
+"level": "N2"
+},
+{
+"id": "ja:vocab:客間",
+"text": "客間",
+"reading": "きゃくま",
+"en": "parlor, guest room",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ギャング",
+"text": "ギャング",
+"reading": "ギャング",
+"en": "gang",
+"level": "N2"
+},
+{
+"id": "ja:vocab:キャンパス",
+"text": "キャンパス",
+"reading": "キャンパス",
+"en": "campus",
+"level": "N2"
+},
+{
+"id": "ja:vocab:休業",
+"text": "休業",
+"reading": "きゅうぎょう",
+"en": "closure, shutdown, holiday",
+"level": "N2"
+},
+{
+"id": "ja:vocab:休講",
+"text": "休講",
+"reading": "きゅうこう",
+"en": "lecture canceled",
+"level": "N2"
+},
+{
+"id": "ja:vocab:給与",
+"text": "給与",
+"reading": "きゅうよ",
+"en": "salary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:休養",
+"text": "休養",
+"reading": "きゅうよう",
+"en": "rest, break, recreation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:清い",
+"text": "清い",
+"reading": "きよい",
+"en": "clear, pure, noble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:強化",
+"text": "強化",
+"reading": "きょうか",
+"en": "strengthen, intensify, reinforce",
+"level": "N2"
+},
+{
+"id": "ja:vocab:境界",
+"text": "境界",
+"reading": "きょうかい",
+"en": "boundary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:共産",
+"text": "共産",
+"reading": "きょうさん",
+"en": "communist ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:行事",
+"text": "行事",
+"reading": "ぎょうじ",
+"en": "event, function",
+"level": "N2"
+},
+{
+"id": "ja:vocab:恐縮",
+"text": "恐縮",
+"reading": "きょうしゅく",
+"en": "sorry to trouble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:教養",
+"text": "教養",
+"reading": "きょうよう",
+"en": "culture, education, sophistication",
+"level": "N2"
+},
+{
+"id": "ja:vocab:行列",
+"text": "行列",
+"reading": "ぎょうれつ",
+"en": "line, procession; matrix (math)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:漁業",
+"text": "漁業",
+"reading": "ぎょぎょう",
+"en": "fishing (industry)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:曲線",
+"text": "曲線",
+"reading": "きょくせん",
+"en": "curve",
+"level": "N2"
+},
+{
+"id": "ja:vocab:規律",
+"text": "規律",
+"reading": "きりつ",
+"en": "order, rules, law",
+"level": "N2"
+},
+{
+"id": "ja:vocab:斬る",
+"text": "斬る",
+"reading": "きる",
+"en": "to behead, to murder",
+"level": "N2"
+},
+{
+"id": "ja:vocab:気を付ける",
+"text": "気を付ける",
+"reading": "きをつける",
+"en": "to be careful, to pay attention, to take care",
+"level": "N2"
+},
+{
+"id": "ja:vocab:金魚",
+"text": "金魚",
+"reading": "きんぎょ",
+"en": "goldfish",
+"level": "N2"
+},
+{
+"id": "ja:vocab:クーラー",
+"text": "クーラー",
+"reading": "クーラー",
+"en": "air conditioner",
+"level": "N2"
+},
+{
+"id": "ja:vocab:区域",
+"text": "区域",
+"reading": "くいき",
+"en": "zone, district, area",
+"level": "N2"
+},
+{
+"id": "ja:vocab:偶数",
+"text": "偶数",
+"reading": "ぐうすう",
+"en": "even number",
+"level": "N2"
+},
+{
+"id": "ja:vocab:空想",
+"text": "空想",
+"reading": "くうそう",
+"en": "daydream, fantasy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:空中",
+"text": "空中",
+"reading": "くうちゅう",
+"en": "sky, air",
+"level": "N2"
+},
+{
+"id": "ja:vocab:釘",
+"text": "釘",
+"reading": "くぎ",
+"en": "nail",
+"level": "N2"
+},
+{
+"id": "ja:vocab:区切る",
+"text": "区切る",
+"reading": "くぎる",
+"en": "to punctuate, to cut off, to mark off",
+"level": "N2"
+},
+{
+"id": "ja:vocab:櫛",
+"text": "櫛",
+"reading": "くし",
+"en": "comb",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くしゃみ",
+"text": "くしゃみ",
+"reading": "くしゃみ",
+"en": "sneeze",
+"level": "N2"
+},
+{
+"id": "ja:vocab:苦情",
+"text": "苦情",
+"reading": "くじょう",
+"en": "complaint, grievance, grumble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:苦心",
+"text": "苦心",
+"reading": "くしん",
+"en": "pain, trouble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:屑",
+"text": "屑",
+"reading": "くず",
+"en": "waste, scrap",
+"level": "N2"
+},
+{
+"id": "ja:vocab:崩す",
+"text": "崩す",
+"reading": "くずす",
+"en": "to destroy, to make change (money)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:薬指",
+"text": "薬指",
+"reading": "くすりゆび",
+"en": "ring finger",
+"level": "N2"
+},
+{
+"id": "ja:vocab:崩れる",
+"text": "崩れる",
+"reading": "くずれる",
+"en": "to collapse, to crumble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:砕く",
+"text": "砕く",
+"reading": "くだく",
+"en": "to break, to smash",
+"level": "N2"
+},
+{
+"id": "ja:vocab:砕ける",
+"text": "砕ける",
+"reading": "くだける",
+"en": "to break, to be broken",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くたびれる",
+"text": "くたびれる",
+"reading": "くたびれる",
+"en": "to get tired, to wear out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くだらない",
+"text": "くだらない",
+"reading": "くだらない",
+"en": "good-for-nothing, stupid, worthless",
+"level": "N2"
+},
+{
+"id": "ja:vocab:唇",
+"text": "唇",
+"reading": "くちびる",
+"en": "lip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:口紅",
+"text": "口紅",
+"reading": "くちべに",
+"en": "lipstick",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くっつく",
+"text": "くっつく",
+"reading": "くっつく",
+"en": "to adhere to, to keep close to",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くっつける",
+"text": "くっつける",
+"reading": "くっつける",
+"en": "to attach",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くどい",
+"text": "くどい",
+"reading": "くどい",
+"en": "verbose, importunate, heavy (taste)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:句読点",
+"text": "句読点",
+"reading": "くとうてん",
+"en": "punctuation marks",
+"level": "N2"
+},
+{
+"id": "ja:vocab:配る",
+"text": "配る",
+"reading": "くばる",
+"en": "to distribute, to deliver",
+"level": "N2"
+},
+{
+"id": "ja:vocab:工夫",
+"text": "工夫",
+"reading": "くふう",
+"en": "device, artifice, ingenuity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:区分",
+"text": "区分",
+"reading": "くぶん",
+"en": "division, section, classification",
+"level": "N2"
+},
+{
+"id": "ja:vocab:組合せ",
+"text": "組合せ",
+"reading": "くみあわせ",
+"en": "combination",
+"level": "N2"
+},
+{
+"id": "ja:vocab:組み立てる",
+"text": "組み立てる",
+"reading": "くみたてる",
+"en": "to assemble, to set up, to construct",
+"level": "N2"
+},
+{
+"id": "ja:vocab:悔やむ",
+"text": "悔やむ",
+"reading": "くやむ",
+"en": "to regret, to mourn",
+"level": "N2"
+},
+{
+"id": "ja:vocab:クリーニング",
+"text": "クリーニング",
+"reading": "クリーニング",
+"en": "cleaning, dry cleaning, laundry service",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くるむ",
+"text": "くるむ",
+"reading": "くるむ",
+"en": "to be enveloped by, to wrap up",
+"level": "N2"
+},
+{
+"id": "ja:vocab:くれぐれも",
+"text": "くれぐれも",
+"reading": "くれぐれも",
+"en": "repeatedly, sincerely, earnestly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:稽古",
+"text": "稽古",
+"reading": "けいこ",
+"en": "practice, training, study",
+"level": "N2"
+},
+{
+"id": "ja:vocab:敬語",
+"text": "敬語",
+"reading": "けいご",
+"en": "honorific language (lit., respect language)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蛍光灯",
+"text": "蛍光灯",
+"reading": "けいこうとう",
+"en": "fluorescent lamp",
+"level": "N2"
+},
+{
+"id": "ja:vocab:形式",
+"text": "形式",
+"reading": "けいしき",
+"en": "form, formality, format",
+"level": "N2"
+},
+{
+"id": "ja:vocab:継続",
+"text": "継続",
+"reading": "けいぞく",
+"en": "continuation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:毛糸",
+"text": "毛糸",
+"reading": "けいと",
+"en": "knitting wool",
+"level": "N2"
+},
+{
+"id": "ja:vocab:経度",
+"text": "経度",
+"reading": "けいど",
+"en": "longitude",
+"level": "N2"
+},
+{
+"id": "ja:vocab:系統",
+"text": "系統",
+"reading": "けいとう",
+"en": "system, genealogy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:芸能",
+"text": "芸能",
+"reading": "げいのう",
+"en": "public entertainment, performing arts",
+"level": "N2"
+},
+{
+"id": "ja:vocab:競馬",
+"text": "競馬",
+"reading": "けいば",
+"en": "horse racing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:警備",
+"text": "警備",
+"reading": "けいび",
+"en": "defense, guard, policing, security",
+"level": "N2"
+},
+{
+"id": "ja:vocab:形容詞",
+"text": "形容詞",
+"reading": "けいようし",
+"en": "adjective",
+"level": "N2"
+},
+{
+"id": "ja:vocab:形容動詞",
+"text": "形容動詞",
+"reading": "けいようどうし",
+"en": "adjectival noun, quasi-adjective",
+"level": "N2"
+},
+{
+"id": "ja:vocab:外科",
+"text": "外科",
+"reading": "げか",
+"en": "surgical department",
+"level": "N2"
+},
+{
+"id": "ja:vocab:毛皮",
+"text": "毛皮",
+"reading": "けがわ",
+"en": "fur, skin, pelt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:激増",
+"text": "激増",
+"reading": "げきぞう",
+"en": "sudden increase",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下車",
+"text": "下車",
+"reading": "げしゃ",
+"en": "alighting, getting off",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下旬",
+"text": "下旬",
+"reading": "げじゅん",
+"en": "month (last third of)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下水",
+"text": "下水",
+"reading": "げすい",
+"en": "drainage, sewage, ditch, gutter, sewerage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:削る",
+"text": "削る",
+"reading": "けずる",
+"en": "to cut down little by little, to take a percentage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:桁",
+"text": "桁",
+"reading": "けた",
+"en": "column, beam, digit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下駄",
+"text": "下駄",
+"reading": "げた",
+"en": "(Japanese footwear), wooden clogs",
+"level": "N2"
+},
+{
+"id": "ja:vocab:血圧",
+"text": "血圧",
+"reading": "けつあつ",
+"en": "blood pressure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:月給",
+"text": "月給",
+"reading": "げっきゅう",
+"en": "monthly salary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:傑作",
+"text": "傑作",
+"reading": "けっさく",
+"en": "masterpiece, best work",
+"level": "N2"
+},
+{
+"id": "ja:vocab:月末",
+"text": "月末",
+"reading": "げつまつ",
+"en": "end of the month",
+"level": "N2"
+},
+{
+"id": "ja:vocab:気配",
+"text": "気配",
+"reading": "けはい",
+"en": "indication, sign, hint",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下品",
+"text": "下品",
+"reading": "げひん",
+"en": "vulgar, indecent, coarse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下品(な)",
+"text": "下品(な)",
+"reading": "げひん(な)",
+"en": "vulgar",
+"level": "N2"
+},
+{
+"id": "ja:vocab:煙い",
+"text": "煙い",
+"reading": "けむい",
+"en": "smoky",
+"level": "N2"
+},
+{
+"id": "ja:vocab:険しい",
+"text": "険しい",
+"reading": "けわしい",
+"en": "steep, rugged; severe",
+"level": "N2"
+},
+{
+"id": "ja:vocab:現",
+"text": "現",
+"reading": "げん",
+"en": "present, incumbent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見学",
+"text": "見学",
+"reading": "けんがく",
+"en": "tour, study by observation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:謙虚",
+"text": "謙虚",
+"reading": "けんきょ",
+"en": "modesty, humble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:原稿",
+"text": "原稿",
+"reading": "げんこう",
+"en": "manuscript, copy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:原産",
+"text": "原産",
+"reading": "げんさん",
+"en": "place of origin",
+"level": "N2"
+},
+{
+"id": "ja:vocab:原始",
+"text": "原始",
+"reading": "げんし",
+"en": "origin, primeval",
+"level": "N2"
+},
+{
+"id": "ja:vocab:研修",
+"text": "研修",
+"reading": "けんしゅう",
+"en": "training",
+"level": "N2"
+},
+{
+"id": "ja:vocab:厳重",
+"text": "厳重",
+"reading": "げんじゅう",
+"en": "strict, severe, firm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:謙遜",
+"text": "謙遜",
+"reading": "けんそん",
+"en": "humble, humility, modesty",
+"level": "N2"
+},
+{
+"id": "ja:vocab:県庁",
+"text": "県庁",
+"reading": "けんちょう",
+"en": "prefectural office",
+"level": "N2"
+},
+{
+"id": "ja:vocab:限度",
+"text": "限度",
+"reading": "げんど",
+"en": "limit, bounds",
+"level": "N2"
+},
+{
+"id": "ja:vocab:現に",
+"text": "現に",
+"reading": "げんに",
+"en": "actually, really",
+"level": "N2"
+},
+{
+"id": "ja:vocab:顕微鏡",
+"text": "顕微鏡",
+"reading": "けんびきょう",
+"en": "microscope",
+"level": "N2"
+},
+{
+"id": "ja:vocab:懸命",
+"text": "懸命",
+"reading": "けんめい",
+"en": "eagerness, strenuous",
+"level": "N2"
+},
+{
+"id": "ja:vocab:原理",
+"text": "原理",
+"reading": "げんり",
+"en": "principle, theory, fundamental truth",
+"level": "N2"
+},
+{
+"id": "ja:vocab:原料",
+"text": "原料",
+"reading": "げんりょう",
+"en": "raw materials",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コース",
+"text": "コース",
+"reading": "コース",
+"en": "course",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コーラス",
+"text": "コーラス",
+"reading": "コーラス",
+"en": "chorus",
+"level": "N2"
+},
+{
+"id": "ja:vocab:恋しい",
+"text": "恋しい",
+"reading": "こいしい",
+"en": "dear, beloved; to miss",
+"level": "N2"
+},
+{
+"id": "ja:vocab:高",
+"text": "高",
+"reading": "こう",
+"en": "high (level) ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:工員",
+"text": "工員",
+"reading": "こういん",
+"en": "factory worker",
+"level": "N2"
+},
+{
+"id": "ja:vocab:強引",
+"text": "強引",
+"reading": "ごういん",
+"en": "forcible, assertive, pushy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:公害",
+"text": "公害",
+"reading": "こうがい",
+"en": "public nuisance, pollution",
+"level": "N2"
+},
+{
+"id": "ja:vocab:高級",
+"text": "高級",
+"reading": "こうきゅう",
+"en": "high class; first-rate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:公共",
+"text": "公共",
+"reading": "こうきょう",
+"en": "public, community, communal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:工芸",
+"text": "工芸",
+"reading": "こうげい",
+"en": "industrial arts",
+"level": "N2"
+},
+{
+"id": "ja:vocab:孝行",
+"text": "孝行",
+"reading": "こうこう",
+"en": "filial piety",
+"level": "N2"
+},
+{
+"id": "ja:vocab:交差",
+"text": "交差",
+"reading": "こうさ",
+"en": "cross",
+"level": "N2"
+},
+{
+"id": "ja:vocab:講師",
+"text": "講師",
+"reading": "こうし",
+"en": "lecturer",
+"level": "N2"
+},
+{
+"id": "ja:vocab:工事",
+"text": "工事",
+"reading": "こうじ",
+"en": "construction work",
+"level": "N2"
+},
+{
+"id": "ja:vocab:公式",
+"text": "公式",
+"reading": "こうしき",
+"en": "formula, formality, official",
+"level": "N2"
+},
+{
+"id": "ja:vocab:口実",
+"text": "口実",
+"reading": "こうじつ",
+"en": "excuse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こうして",
+"text": "こうして",
+"reading": "こうして",
+"en": "like this, with this",
+"level": "N2"
+},
+{
+"id": "ja:vocab:公衆",
+"text": "公衆",
+"reading": "こうしゅう",
+"en": "the public",
+"level": "N2"
+},
+{
+"id": "ja:vocab:香水",
+"text": "香水",
+"reading": "こうすい",
+"en": "perfume",
+"level": "N2"
+},
+{
+"id": "ja:vocab:功績",
+"text": "功績",
+"reading": "こうせき",
+"en": "achievements, merit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:光線",
+"text": "光線",
+"reading": "こうせん",
+"en": "beam, light ray",
+"level": "N2"
+},
+{
+"id": "ja:vocab:高層",
+"text": "高層",
+"reading": "こうそう",
+"en": "tall, high rise",
+"level": "N2"
+},
+{
+"id": "ja:vocab:構造",
+"text": "構造",
+"reading": "こうぞう",
+"en": "structure, construction",
+"level": "N2"
+},
+{
+"id": "ja:vocab:交替",
+"text": "交替",
+"reading": "こうたい",
+"en": "change, relief, alteration",
+"level": "N2"
+},
+{
+"id": "ja:vocab:交代",
+"text": "交代",
+"reading": "こうたい",
+"en": "alternation, change, relief, relay, shift, substitution (sports, etc.), taking turns",
+"level": "N2"
+},
+{
+"id": "ja:vocab:耕地",
+"text": "耕地",
+"reading": "こうち",
+"en": "arable land",
+"level": "N2"
+},
+{
+"id": "ja:vocab:交通機関",
+"text": "交通機関",
+"reading": "こうつうきかん",
+"en": "transportation facilities",
+"level": "N2"
+},
+{
+"id": "ja:vocab:校庭",
+"text": "校庭",
+"reading": "こうてい",
+"en": "school yard",
+"level": "N2"
+},
+{
+"id": "ja:vocab:肯定",
+"text": "肯定",
+"reading": "こうてい",
+"en": "positive, affirmation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:高度",
+"text": "高度",
+"reading": "こうど",
+"en": "altitude, height; advanced",
+"level": "N2"
+},
+{
+"id": "ja:vocab:高等",
+"text": "高等",
+"reading": "こうとう",
+"en": "high class, high grade",
+"level": "N2"
+},
+{
+"id": "ja:vocab:合同",
+"text": "合同",
+"reading": "ごうどう",
+"en": "combination, incorporation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:高等学校",
+"text": "高等学校",
+"reading": "こうとうがっこう",
+"en": "senior high school",
+"level": "N2"
+},
+{
+"id": "ja:vocab:公表",
+"text": "公表",
+"reading": "こうひょう",
+"en": "official announcement, proclamation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鉱物",
+"text": "鉱物",
+"reading": "こうぶつ",
+"en": "mineral",
+"level": "N2"
+},
+{
+"id": "ja:vocab:公務",
+"text": "公務",
+"reading": "こうむ",
+"en": "official business, public business",
+"level": "N2"
+},
+{
+"id": "ja:vocab:項目",
+"text": "項目",
+"reading": "こうもく",
+"en": "item",
+"level": "N2"
+},
+{
+"id": "ja:vocab:紅葉",
+"text": "紅葉",
+"reading": "こうよう",
+"en": "fall colors (of leaves)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こうよう もみじ",
+"text": "こうよう もみじ",
+"reading": "こうよう もみじ",
+"en": "(Japanese) maple",
+"level": "N2"
+},
+{
+"id": "ja:vocab:合理",
+"text": "合理",
+"reading": "ごうり",
+"en": "rational",
+"level": "N2"
+},
+{
+"id": "ja:vocab:交流",
+"text": "交流",
+"reading": "こうりゅう",
+"en": "exchange; alternating current",
+"level": "N2"
+},
+{
+"id": "ja:vocab:合流",
+"text": "合流",
+"reading": "ごうりゅう",
+"en": "confluence, merge, join",
+"level": "N2"
+},
+{
+"id": "ja:vocab:効力",
+"text": "効力",
+"reading": "こうりょく",
+"en": "effect, efficacy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:焦がす",
+"text": "焦がす",
+"reading": "こがす",
+"en": "to burn, to scorch",
+"level": "N2"
+},
+{
+"id": "ja:vocab:国王",
+"text": "国王",
+"reading": "こくおう",
+"en": "king",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こくせき",
+"text": "こくせき",
+"reading": "こくせき",
+"en": "nationality",
+"level": "N2"
+},
+{
+"id": "ja:vocab:国立",
+"text": "国立",
+"reading": "こくりつ",
+"en": "national",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ご苦労様",
+"text": "ご苦労様",
+"reading": "ごくろうさま",
+"en": "Thank you for your hard work",
+"level": "N2"
+},
+{
+"id": "ja:vocab:焦げる",
+"text": "焦げる",
+"reading": "こげる",
+"en": "to burn, to be burned",
+"level": "N2"
+},
+{
+"id": "ja:vocab:凍える",
+"text": "凍える",
+"reading": "こごえる",
+"en": "to freeze, to be chilled, to be frozen",
+"level": "N2"
+},
+{
+"id": "ja:vocab:心当たり",
+"text": "心当たり",
+"reading": "こころあたり",
+"en": "having some knowledge of, happening to know",
+"level": "N2"
+},
+{
+"id": "ja:vocab:心得る",
+"text": "心得る",
+"reading": "こころえる",
+"en": "to understand, to have thorough knowledge",
+"level": "N2"
+},
+{
+"id": "ja:vocab:腰掛け",
+"text": "腰掛け",
+"reading": "こしかけ",
+"en": "seat, bench",
+"level": "N2"
+},
+{
+"id": "ja:vocab:腰掛",
+"text": "腰掛",
+"reading": "こしかけ",
+"en": "seat, bench",
+"level": "N2"
+},
+{
+"id": "ja:vocab:腰掛ける",
+"text": "腰掛ける",
+"reading": "こしかける",
+"en": "to sit (down)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:五十音",
+"text": "五十音",
+"reading": "ごじゅうおん",
+"en": "the Japanese syllabary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こしらえる",
+"text": "こしらえる",
+"reading": "こしらえる",
+"en": "to make, to manufacture",
+"level": "N2"
+},
+{
+"id": "ja:vocab:個体",
+"text": "個体",
+"reading": "こたい",
+"en": "an individual",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ごちそうさま",
+"text": "ごちそうさま",
+"reading": "ごちそうさま",
+"en": "Thank you for the meal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こちらこそ",
+"text": "こちらこそ",
+"reading": "こちらこそ",
+"en": "it is I who should say so",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小遣い",
+"text": "小遣い",
+"reading": "こづかい",
+"en": "pocket money, allowance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コック",
+"text": "コック",
+"reading": "コック",
+"en": "cook; tap, cock",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こっそり",
+"text": "こっそり",
+"reading": "こっそり",
+"en": "stealthily, secretly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:古典",
+"text": "古典",
+"reading": "こてん",
+"en": "classics, classic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:言付ける",
+"text": "言付ける",
+"reading": "ことづける",
+"en": "to leave a message",
+"level": "N2"
+},
+{
+"id": "ja:vocab:言葉遣い",
+"text": "言葉遣い",
+"reading": "ことばづかい",
+"en": "speech, expression, wording",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こないだ",
+"text": "こないだ",
+"reading": "こないだ",
+"en": "the other day, lately, recently",
+"level": "N2"
+},
+{
+"id": "ja:vocab:御無沙汰",
+"text": "御無沙汰",
+"reading": "ごぶさた",
+"en": "not writing or contacting for a while",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ゴム",
+"text": "ゴム",
+"reading": "ゴム",
+"en": "gum, rubber",
+"level": "N2"
+},
+{
+"id": "ja:vocab:御免",
+"text": "御免",
+"reading": "ごめん",
+"en": "declining (something); pardon, sorry",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ごめんください",
+"text": "ごめんください",
+"reading": "ごめんください",
+"en": "May I come in, Is anyone here",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小指",
+"text": "小指",
+"reading": "こゆび",
+"en": "little finger",
+"level": "N2"
+},
+{
+"id": "ja:vocab:堪える",
+"text": "堪える",
+"reading": "こらえる",
+"en": "to bear, to endure, to put up with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:娯楽",
+"text": "娯楽",
+"reading": "ごらく",
+"en": "pleasure, amusement, recreation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:御覧",
+"text": "御覧",
+"reading": "ごらん",
+"en": "(hon.) look, inspection, try",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コレクション",
+"text": "コレクション",
+"reading": "コレクション",
+"en": "collection; correction",
+"level": "N2"
+},
+{
+"id": "ja:vocab:転がす",
+"text": "転がす",
+"reading": "ころがす",
+"en": "to roll",
+"level": "N2"
+},
+{
+"id": "ja:vocab:転がる",
+"text": "転がる",
+"reading": "ころがる",
+"en": "to roll, to tumble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:紺",
+"text": "紺",
+"reading": "こん",
+"en": "navy blue, deep blue",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コンクール",
+"text": "コンクール",
+"reading": "コンクール",
+"en": "contest (FRE: concours)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コンクリート",
+"text": "コンクリート",
+"reading": "コンクリート",
+"en": "concrete",
+"level": "N2"
+},
+{
+"id": "ja:vocab:混合",
+"text": "混合",
+"reading": "こんごう",
+"en": "mixing, mixture",
+"level": "N2"
+},
+{
+"id": "ja:vocab:コンセント",
+"text": "コンセント",
+"reading": "コンセント",
+"en": "consent; power outlet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:献立",
+"text": "献立",
+"reading": "こんだて",
+"en": "menu",
+"level": "N2"
+},
+{
+"id": "ja:vocab:こんばんは",
+"text": "こんばんは",
+"reading": "こんばんは",
+"en": "good evening",
+"level": "N2"
+},
+{
+"id": "ja:vocab:サークル",
+"text": "サークル",
+"reading": "サークル",
+"en": "circle, sports club (e.g., at a company)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:再",
+"text": "再",
+"reading": "さい",
+"en": "re ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:最",
+"text": "最",
+"reading": "さい",
+"en": "the most ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:在学",
+"text": "在学",
+"reading": "ざいがく",
+"en": "(enrolled) in school",
+"level": "N2"
+},
+{
+"id": "ja:vocab:再三",
+"text": "再三",
+"reading": "さいさん",
+"en": "again and again, repeatedly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:祭日",
+"text": "祭日",
+"reading": "さいじつ",
+"en": "national holiday, festival day",
+"level": "N2"
+},
+{
+"id": "ja:vocab:催促",
+"text": "催促",
+"reading": "さいそく",
+"en": "demand, urge (action), press for",
+"level": "N2"
+},
+{
+"id": "ja:vocab:採点",
+"text": "採点",
+"reading": "さいてん",
+"en": "marking, grading",
+"level": "N2"
+},
+{
+"id": "ja:vocab:災難",
+"text": "災難",
+"reading": "さいなん",
+"en": "calamity, misfortune",
+"level": "N2"
+},
+{
+"id": "ja:vocab:裁縫",
+"text": "裁縫",
+"reading": "さいほう",
+"en": "sewing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:材木",
+"text": "材木",
+"reading": "ざいもく",
+"en": "lumber, timber",
+"level": "N2"
+},
+{
+"id": "ja:vocab:サイレン",
+"text": "サイレン",
+"reading": "サイレン",
+"en": "siren",
+"level": "N2"
+},
+{
+"id": "ja:vocab:逆さ",
+"text": "逆さ",
+"reading": "さかさ",
+"en": "reverse, upside down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:逆様",
+"text": "逆様",
+"reading": "さかさま",
+"en": "reverse, upside down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:捜す",
+"text": "捜す",
+"reading": "さがす",
+"en": "to search, to seek, to look for",
+"level": "N2"
+},
+{
+"id": "ja:vocab:遡る",
+"text": "遡る",
+"reading": "さかのぼる",
+"en": "to go back, to date back; ascend",
+"level": "N2"
+},
+{
+"id": "ja:vocab:酒場",
+"text": "酒場",
+"reading": "さかば",
+"en": "bar, bar-room",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一昨昨日",
+"text": "一昨昨日",
+"reading": "さきおととい",
+"en": "two days before yesterday, three days ago",
+"level": "N2"
+},
+{
+"id": "ja:vocab:先程",
+"text": "先程",
+"reading": "さきほど",
+"en": "a little while ago",
+"level": "N2"
+},
+{
+"id": "ja:vocab:索引",
+"text": "索引",
+"reading": "さくいん",
+"en": "index, indices",
+"level": "N2"
+},
+{
+"id": "ja:vocab:作者",
+"text": "作者",
+"reading": "さくしゃ",
+"en": "author, artist",
+"level": "N2"
+},
+{
+"id": "ja:vocab:削除",
+"text": "削除",
+"reading": "さくじょ",
+"en": "elimination, deletion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:作成",
+"text": "作成",
+"reading": "さくせい",
+"en": "creation, preparation, to make",
+"level": "N2"
+},
+{
+"id": "ja:vocab:作製",
+"text": "作製",
+"reading": "さくせい",
+"en": "manufacture, production",
+"level": "N2"
+},
+{
+"id": "ja:vocab:探る",
+"text": "探る",
+"reading": "さぐる",
+"en": "to search, to look for, investigate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:囁く",
+"text": "囁く",
+"reading": "ささやく",
+"en": "to whisper, to murmur",
+"level": "N2"
+},
+{
+"id": "ja:vocab:匙",
+"text": "匙",
+"reading": "さじ",
+"en": "spoon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:座敷",
+"text": "座敷",
+"reading": "ざしき",
+"en": "tatami room",
+"level": "N2"
+},
+{
+"id": "ja:vocab:差し支え",
+"text": "差し支え",
+"reading": "さしつかえ",
+"en": "hindrance, impediment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:差し引き",
+"text": "差し引き",
+"reading": "さしひき",
+"en": "deduction, balance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:刺身",
+"text": "刺身",
+"reading": "さしみ",
+"en": "sliced raw fish",
+"level": "N2"
+},
+{
+"id": "ja:vocab:流石",
+"text": "流石",
+"reading": "さすが",
+"en": "indeed, truly, as one would expect",
+"level": "N2"
+},
+{
+"id": "ja:vocab:撮影",
+"text": "撮影",
+"reading": "さつえい",
+"en": "photographing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:雑音",
+"text": "雑音",
+"reading": "ざつおん",
+"en": "noise (jarring, grating)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:さっさと",
+"text": "さっさと",
+"reading": "さっさと",
+"en": "quickly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:早速",
+"text": "早速",
+"reading": "さっそく",
+"en": "at once, immediately, promptly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:錆",
+"text": "錆",
+"reading": "さび",
+"en": "rust (color)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:錆びる",
+"text": "錆びる",
+"reading": "さびる",
+"en": "to rust, to become rusty",
+"level": "N2"
+},
+{
+"id": "ja:vocab:座布団",
+"text": "座布団",
+"reading": "ざぶとん",
+"en": "cushion (Japanese)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:妨げる",
+"text": "妨げる",
+"reading": "さまたげる",
+"en": "to disturb, to prevent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:さようなら",
+"text": "さようなら",
+"reading": "さようなら",
+"en": "good-bye",
+"level": "N2"
+},
+{
+"id": "ja:vocab:サラリーマン",
+"text": "サラリーマン",
+"reading": "サラリーマン",
+"en": "salaryman; company employee",
+"level": "N2"
+},
+{
+"id": "ja:vocab:騒がしい",
+"text": "騒がしい",
+"reading": "さわがしい",
+"en": "noisy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:さわやか",
+"text": "さわやか",
+"reading": "さわやか",
+"en": "fresh, refreshing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:三角",
+"text": "三角",
+"reading": "さんかく",
+"en": "triangle, triangular",
+"level": "N2"
+},
+{
+"id": "ja:vocab:算数",
+"text": "算数",
+"reading": "さんすう",
+"en": "arithmetic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:産地",
+"text": "産地",
+"reading": "さんち",
+"en": "producing area",
+"level": "N2"
+},
+{
+"id": "ja:vocab:サンプル",
+"text": "サンプル",
+"reading": "サンプル",
+"en": "sample",
+"level": "N2"
+},
+{
+"id": "ja:vocab:山林",
+"text": "山林",
+"reading": "さんりん",
+"en": "mountain forest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:シーズン",
+"text": "シーズン",
+"reading": "シーズン",
+"en": "season (sporting)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:シーツ",
+"text": "シーツ",
+"reading": "シーツ",
+"en": "sheet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:仕上がる",
+"text": "仕上がる",
+"reading": "しあがる",
+"en": "to be finished",
+"level": "N2"
+},
+{
+"id": "ja:vocab:明明後日",
+"text": "明明後日",
+"reading": "しあさって",
+"en": "two days after tomorrow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寺院",
+"text": "寺院",
+"reading": "じいん",
+"en": "temple",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しいんと (する)",
+"text": "しいんと (する)",
+"reading": "しいんと (する)",
+"en": "silent (as the grave), (deathly) quiet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:自衛",
+"text": "自衛",
+"reading": "じえい",
+"en": "self-defense",
+"level": "N2"
+},
+{
+"id": "ja:vocab:塩辛",
+"text": "塩辛",
+"reading": "しおから",
+"en": "salty (taste)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:塩辛い",
+"text": "塩辛い",
+"reading": "しおからい",
+"en": "salty (taste)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:司会",
+"text": "司会",
+"reading": "しかい",
+"en": "host, chairperson",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しかく しかくい",
+"text": "しかく しかくい",
+"reading": "しかく しかくい",
+"en": "square",
+"level": "N2"
+},
+{
+"id": "ja:vocab:四角い",
+"text": "四角い",
+"reading": "しかくい",
+"en": "square",
+"level": "N2"
+},
+{
+"id": "ja:vocab:仕方がない",
+"text": "仕方がない",
+"reading": "しかたがない",
+"en": "it can't be helped, it's inevitable",
+"level": "N2"
+},
+{
+"id": "ja:vocab:時間割",
+"text": "時間割",
+"reading": "じかんわり",
+"en": "timetable, schedule",
+"level": "N2"
+},
+{
+"id": "ja:vocab:敷地",
+"text": "敷地",
+"reading": "しきち",
+"en": "site",
+"level": "N2"
+},
+{
+"id": "ja:vocab:敷く",
+"text": "敷く",
+"reading": "しく",
+"en": "to spread out, to lay out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:茂る",
+"text": "茂る",
+"reading": "しげる",
+"en": "to grow thick",
+"level": "N2"
+},
+{
+"id": "ja:vocab:持参",
+"text": "持参",
+"reading": "じさん",
+"en": "bringing, taking, carrying",
+"level": "N2"
+},
+{
+"id": "ja:vocab:磁石",
+"text": "磁石",
+"reading": "じしゃく",
+"en": "magnet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:四捨五入",
+"text": "四捨五入",
+"reading": "ししゃごにゅう",
+"en": "rounding up (fractions)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:始終",
+"text": "始終",
+"reading": "しじゅう",
+"en": "continuously, always, constantly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:自習",
+"text": "自習",
+"reading": "じしゅう",
+"en": "self-study",
+"level": "N2"
+},
+{
+"id": "ja:vocab:静まる",
+"text": "静まる",
+"reading": "しずまる",
+"en": "to quieten down, to calm down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:姿勢",
+"text": "姿勢",
+"reading": "しせい",
+"en": "attitude; posture",
+"level": "N2"
+},
+{
+"id": "ja:vocab:自然科学",
+"text": "自然科学",
+"reading": "しぜんかがく",
+"en": "natural science",
+"level": "N2"
+},
+{
+"id": "ja:vocab:時速",
+"text": "時速",
+"reading": "じそく",
+"en": "speed (per hour)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:子孫",
+"text": "子孫",
+"reading": "しそん",
+"en": "descendant, offspring",
+"level": "N2"
+},
+{
+"id": "ja:vocab:死体",
+"text": "死体",
+"reading": "したい",
+"en": "corpse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下書き",
+"text": "下書き",
+"reading": "したがき",
+"en": "rough copy, draft",
+"level": "N2"
+},
+{
+"id": "ja:vocab:自宅",
+"text": "自宅",
+"reading": "じたく",
+"en": "one's own home (same as 自分の家 (じぶんのいえ))",
+"level": "N2"
+},
+{
+"id": "ja:vocab:下町",
+"text": "下町",
+"reading": "したまち",
+"en": "old parts of town",
+"level": "N2"
+},
+{
+"id": "ja:vocab:自治",
+"text": "自治",
+"reading": "じち",
+"en": "self-government, autonomy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実感",
+"text": "実感",
+"reading": "じっかん",
+"en": "feelings, realization",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しつこい",
+"text": "しつこい",
+"reading": "しつこい",
+"en": "insistent, obstinate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実習",
+"text": "実習",
+"reading": "じっしゅう",
+"en": "practice, training",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実績",
+"text": "実績",
+"reading": "じっせき",
+"en": "achievements, actual results",
+"level": "N2"
+},
+{
+"id": "ja:vocab:執筆",
+"text": "執筆",
+"reading": "しっぴつ",
+"en": "writing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実物",
+"text": "実物",
+"reading": "じつぶつ",
+"en": "an actual thing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しっぽ",
+"text": "しっぽ",
+"reading": "しっぽ",
+"en": "tail (animal)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実用",
+"text": "実用",
+"reading": "じつよう",
+"en": "practical use, utility",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実例",
+"text": "実例",
+"reading": "じつれい",
+"en": "example, instance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しつれいしました (かん)",
+"text": "しつれいしました (かん)",
+"reading": "しつれいしました (かん)",
+"en": "Excuse me., I'm sorry.",
+"level": "N2"
+},
+{
+"id": "ja:vocab:失恋",
+"text": "失恋",
+"reading": "しつれん",
+"en": "broken heart, unrequited love",
+"level": "N2"
+},
+{
+"id": "ja:vocab:指定",
+"text": "指定",
+"reading": "してい",
+"en": "designation, specification, assignment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:私鉄",
+"text": "私鉄",
+"reading": "してつ",
+"en": "private railway",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縛る",
+"text": "縛る",
+"reading": "しばる",
+"en": "to tie, to bind",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地盤",
+"text": "地盤",
+"reading": "じばん",
+"en": "(the) ground",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しびれる",
+"text": "しびれる",
+"reading": "しびれる",
+"en": "to become numb",
+"level": "N2"
+},
+{
+"id": "ja:vocab:紙幣",
+"text": "紙幣",
+"reading": "しへい",
+"en": "paper money, notes, bills",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しぼむ",
+"text": "しぼむ",
+"reading": "しぼむ",
+"en": "to wither, to shrivel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:萎む",
+"text": "萎む",
+"reading": "しぼむ",
+"en": "to wither (of flowers, dreams, etc.), to wilt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:絞る",
+"text": "絞る",
+"reading": "しぼる",
+"en": "to press, to wring, to squeeze",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縞",
+"text": "縞",
+"reading": "しま",
+"en": "stripe",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しみじみ",
+"text": "しみじみ",
+"reading": "しみじみ",
+"en": "keenly, deeply, heartily",
+"level": "N2"
+},
+{
+"id": "ja:vocab:氏名",
+"text": "氏名",
+"reading": "しめい",
+"en": "full name",
+"level": "N2"
+},
+{
+"id": "ja:vocab:締切",
+"text": "締切",
+"reading": "しめきり",
+"en": "deadline",
+"level": "N2"
+},
+{
+"id": "ja:vocab:締め切り",
+"text": "締め切り",
+"reading": "しめきり",
+"en": "deadline, closing, cut-off, end",
+"level": "N2"
+},
+{
+"id": "ja:vocab:締め切る",
+"text": "締め切る",
+"reading": "しめきる",
+"en": "to close, cancel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しめた (かん)",
+"text": "しめた (かん)",
+"reading": "しめた (かん)",
+"en": "I've got it, all right, fine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しめる",
+"text": "しめる",
+"reading": "しめる",
+"en": "to be wet, to become wet, to be damp",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地面",
+"text": "地面",
+"reading": "じめん",
+"en": "ground, earth's surface",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ジャーナリスト",
+"text": "ジャーナリスト",
+"reading": "ジャーナリスト",
+"en": "journalist",
+"level": "N2"
+},
+{
+"id": "ja:vocab:社会科学",
+"text": "社会科学",
+"reading": "しゃかいかがく",
+"en": "social science",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しゃがむ",
+"text": "しゃがむ",
+"reading": "しゃがむ",
+"en": "to squat",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蛇口",
+"text": "蛇口",
+"reading": "じゃぐち",
+"en": "faucet, tap",
+"level": "N2"
+},
+{
+"id": "ja:vocab:弱点",
+"text": "弱点",
+"reading": "じゃくてん",
+"en": "weak point, weakness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:車庫",
+"text": "車庫",
+"reading": "しゃこ",
+"en": "garage, car shed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:車掌",
+"text": "車掌",
+"reading": "しゃしょう",
+"en": "(train) conductor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:写生",
+"text": "写生",
+"reading": "しゃせい",
+"en": "sketching, drawing from nature",
+"level": "N2"
+},
+{
+"id": "ja:vocab:社説",
+"text": "社説",
+"reading": "しゃせつ",
+"en": "editorial",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しゃっくり",
+"text": "しゃっくり",
+"reading": "しゃっくり",
+"en": "hiccough, hiccup",
+"level": "N2"
+},
+{
+"id": "ja:vocab:シャッター",
+"text": "シャッター",
+"reading": "シャッター",
+"en": "shutter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しゃぶる",
+"text": "しゃぶる",
+"reading": "しゃぶる",
+"en": "to suck, to chew",
+"level": "N2"
+},
+{
+"id": "ja:vocab:車輪",
+"text": "車輪",
+"reading": "しゃりん",
+"en": "(car) wheel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:洒落",
+"text": "洒落",
+"reading": "しゃれ",
+"en": "joke, pun, witticism",
+"level": "N2"
+},
+{
+"id": "ja:vocab:じゃんけん",
+"text": "じゃんけん",
+"reading": "じゃんけん",
+"en": "rock-scissors-paper game",
+"level": "N2"
+},
+{
+"id": "ja:vocab:重",
+"text": "重",
+"reading": "じゅう",
+"en": "heavy ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:集会",
+"text": "集会",
+"reading": "しゅうかい",
+"en": "meeting, assembly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:住居",
+"text": "住居",
+"reading": "じゅうきょ",
+"en": "dwelling, house, residence, address",
+"level": "N2"
+},
+{
+"id": "ja:vocab:集金",
+"text": "集金",
+"reading": "しゅうきん",
+"en": "money collection",
+"level": "N2"
+},
+{
+"id": "ja:vocab:集合",
+"text": "集合",
+"reading": "しゅうごう",
+"en": "gathering, assembly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:習字",
+"text": "習字",
+"reading": "しゅうじ",
+"en": "penmanship",
+"level": "N2"
+},
+{
+"id": "ja:vocab:修繕",
+"text": "修繕",
+"reading": "しゅうぜん",
+"en": "repair, mending",
+"level": "N2"
+},
+{
+"id": "ja:vocab:じゅうたん (カーペット)",
+"text": "じゅうたん (カーペット)",
+"reading": "じゅうたん (カーペット)",
+"en": "carpet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:終点",
+"text": "終点",
+"reading": "しゅうてん",
+"en": "terminus, last stop (e.g train)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:重点",
+"text": "重点",
+"reading": "じゅうてん",
+"en": "important point, lay stress on, emphasis",
+"level": "N2"
+},
+{
+"id": "ja:vocab:就任",
+"text": "就任",
+"reading": "しゅうにん",
+"en": "inauguration, assumption of office",
+"level": "N2"
+},
+{
+"id": "ja:vocab:周辺",
+"text": "周辺",
+"reading": "しゅうへん",
+"en": "circumference, peripheral",
+"level": "N2"
+},
+{
+"id": "ja:vocab:重役",
+"text": "重役",
+"reading": "じゅうやく",
+"en": "director, high executive",
+"level": "N2"
+},
+{
+"id": "ja:vocab:終了",
+"text": "終了",
+"reading": "しゅうりょう",
+"en": "end, close, termination",
+"level": "N2"
+},
+{
+"id": "ja:vocab:重量",
+"text": "重量",
+"reading": "じゅうりょう",
+"en": "heavyweight",
+"level": "N2"
+},
+{
+"id": "ja:vocab:重力",
+"text": "重力",
+"reading": "じゅうりょく",
+"en": "gravity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:熟語",
+"text": "熟語",
+"reading": "じゅくご",
+"en": "idiom, kanji compound",
+"level": "N2"
+},
+{
+"id": "ja:vocab:祝日",
+"text": "祝日",
+"reading": "しゅくじつ",
+"en": "national holiday",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縮小",
+"text": "縮小",
+"reading": "しゅくしょう",
+"en": "reduction, curtailment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:受験",
+"text": "受験",
+"reading": "じゅけん",
+"en": "taking an examination",
+"level": "N2"
+},
+{
+"id": "ja:vocab:主語",
+"text": "主語",
+"reading": "しゅご",
+"en": "(gram) subject",
+"level": "N2"
+},
+{
+"id": "ja:vocab:主人",
+"text": "主人",
+"reading": "しゅじん",
+"en": "(one's own) husband",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出勤",
+"text": "出勤",
+"reading": "しゅっきん",
+"en": "going to work, at work",
+"level": "N2"
+},
+{
+"id": "ja:vocab:述語",
+"text": "述語",
+"reading": "じゅつご",
+"en": "predicate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出張",
+"text": "出張",
+"reading": "しゅっちょう",
+"en": "official tour, business trip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寿命",
+"text": "寿命",
+"reading": "じゅみょう",
+"en": "life span",
+"level": "N2"
+},
+{
+"id": "ja:vocab:主役",
+"text": "主役",
+"reading": "しゅやく",
+"en": "leading part",
+"level": "N2"
+},
+{
+"id": "ja:vocab:受話器",
+"text": "受話器",
+"reading": "じゅわき",
+"en": "(telephone) receiver",
+"level": "N2"
+},
+{
+"id": "ja:vocab:循環",
+"text": "循環",
+"reading": "じゅんかん",
+"en": "circulation, rotation, cycle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:巡査",
+"text": "巡査",
+"reading": "じゅんさ",
+"en": "policeman",
+"level": "N2"
+},
+{
+"id": "ja:vocab:順々",
+"text": "順々",
+"reading": "じゅんじゅん",
+"en": "in order, in turn",
+"level": "N2"
+},
+{
+"id": "ja:vocab:順序",
+"text": "順序",
+"reading": "じゅんじょ",
+"en": "order, sequence, procedure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:純情",
+"text": "純情",
+"reading": "じゅんじょう",
+"en": "pure heart",
+"level": "N2"
+},
+{
+"id": "ja:vocab:純粋",
+"text": "純粋",
+"reading": "じゅんすい",
+"en": "pure, genuine, unmixed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:初",
+"text": "初",
+"reading": "しょ",
+"en": "first ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:諸",
+"text": "諸",
+"reading": "しょ",
+"en": "various ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:消化",
+"text": "消化",
+"reading": "しょうか",
+"en": "digestion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小学生",
+"text": "小学生",
+"reading": "しょうがくせい",
+"en": "elementary school pupil",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しょうがない",
+"text": "しょうがない",
+"reading": "しょうがない",
+"en": "It is not worth ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:将棋",
+"text": "将棋",
+"reading": "しょうぎ",
+"en": "Japanese chess",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蒸気",
+"text": "蒸気",
+"reading": "じょうき",
+"en": "steam, vapor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:定規",
+"text": "定規",
+"reading": "じょうぎ",
+"en": "(measuring) ruler",
+"level": "N2"
+},
+{
+"id": "ja:vocab:上級",
+"text": "上級",
+"reading": "じょうきゅう",
+"en": "advanced level, high grade, senior",
+"level": "N2"
+},
+{
+"id": "ja:vocab:商業",
+"text": "商業",
+"reading": "しょうぎょう",
+"en": "commerce, trade, business",
+"level": "N2"
+},
+{
+"id": "ja:vocab:消極的",
+"text": "消極的",
+"reading": "しょうきょくてき",
+"en": "passive",
+"level": "N2"
+},
+{
+"id": "ja:vocab:賞金",
+"text": "賞金",
+"reading": "しょうきん",
+"en": "prize, monetary award",
+"level": "N2"
+},
+{
+"id": "ja:vocab:上下",
+"text": "上下",
+"reading": "じょうげ",
+"en": "high and low, up and down",
+"level": "N2"
+},
+{
+"id": "ja:vocab:障子",
+"text": "障子",
+"reading": "しょうじ",
+"en": "paper sliding door",
+"level": "N2"
+},
+{
+"id": "ja:vocab:商社",
+"text": "商社",
+"reading": "しょうしゃ",
+"en": "trading company",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乗車",
+"text": "乗車",
+"reading": "じょうしゃ",
+"en": "taking a train, entraining",
+"level": "N2"
+},
+{
+"id": "ja:vocab:上旬",
+"text": "上旬",
+"reading": "じょうじゅん",
+"en": "first 10 days of month",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小数",
+"text": "小数",
+"reading": "しょうすう",
+"en": "fraction (part of), decimal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:生ずる",
+"text": "生ずる",
+"reading": "しょうずる",
+"en": "to cause, to arise, to be generated",
+"level": "N2"
+},
+{
+"id": "ja:vocab:商店",
+"text": "商店",
+"reading": "しょうてん",
+"en": "shop, business firm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:焦点",
+"text": "焦点",
+"reading": "しょうてん",
+"en": "focus, point",
+"level": "N2"
+},
+{
+"id": "ja:vocab:消毒",
+"text": "消毒",
+"reading": "しょうどく",
+"en": "disinfection",
+"level": "N2"
+},
+{
+"id": "ja:vocab:勝敗",
+"text": "勝敗",
+"reading": "しょうはい",
+"en": "victory or defeat, issue (of battle)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蒸発",
+"text": "蒸発",
+"reading": "じょうはつ",
+"en": "evaporation; unexplained disappearance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:上品",
+"text": "上品",
+"reading": "じょうひん",
+"en": "refined, elegant, well-mannered",
+"level": "N2"
+},
+{
+"id": "ja:vocab:勝負",
+"text": "勝負",
+"reading": "しょうぶ",
+"en": "victory or defeat, game",
+"level": "N2"
+},
+{
+"id": "ja:vocab:小便",
+"text": "小便",
+"reading": "しょうべん",
+"en": "(col) urine, piss",
+"level": "N2"
+},
+{
+"id": "ja:vocab:消防署",
+"text": "消防署",
+"reading": "しょうぼうしょ",
+"en": "fire station",
+"level": "N2"
+},
+{
+"id": "ja:vocab:正味",
+"text": "正味",
+"reading": "しょうみ",
+"en": "net (weight)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:正面",
+"text": "正面",
+"reading": "しょうめん",
+"en": "front",
+"level": "N2"
+},
+{
+"id": "ja:vocab:消耗",
+"text": "消耗",
+"reading": "しょうもう",
+"en": "exhaustion, consumption",
+"level": "N2"
+},
+{
+"id": "ja:vocab:初級",
+"text": "初級",
+"reading": "しょきゅう",
+"en": "elementary level",
+"level": "N2"
+},
+{
+"id": "ja:vocab:助教授",
+"text": "助教授",
+"reading": "じょきょうじゅ",
+"en": "assistant professor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:食塩",
+"text": "食塩",
+"reading": "しょくえん",
+"en": "table salt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:職人",
+"text": "職人",
+"reading": "しょくにん",
+"en": "artisan, craftsman",
+"level": "N2"
+},
+{
+"id": "ja:vocab:職場",
+"text": "職場",
+"reading": "しょくば",
+"en": "workplace",
+"level": "N2"
+},
+{
+"id": "ja:vocab:初旬",
+"text": "初旬",
+"reading": "しょじゅん",
+"en": "first 10 days of the month",
+"level": "N2"
+},
+{
+"id": "ja:vocab:書籍",
+"text": "書籍",
+"reading": "しょせき",
+"en": "book, publication",
+"level": "N2"
+},
+{
+"id": "ja:vocab:食器",
+"text": "食器",
+"reading": "しょっき",
+"en": "tableware",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ショップ",
+"text": "ショップ",
+"reading": "ショップ",
+"en": "a shop",
+"level": "N2"
+},
+{
+"id": "ja:vocab:書店",
+"text": "書店",
+"reading": "しょてん",
+"en": "bookshop",
+"level": "N2"
+},
+{
+"id": "ja:vocab:書道",
+"text": "書道",
+"reading": "しょどう",
+"en": "calligraphy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:初歩",
+"text": "初歩",
+"reading": "しょほ",
+"en": "elements, rudiments",
+"level": "N2"
+},
+{
+"id": "ja:vocab:白髪",
+"text": "白髪",
+"reading": "しらが",
+"en": "white or grey hair, trendy hair bleaching",
+"level": "N2"
+},
+{
+"id": "ja:vocab:シリーズ",
+"text": "シリーズ",
+"reading": "シリーズ",
+"en": "series",
+"level": "N2"
+},
+{
+"id": "ja:vocab:知り合い",
+"text": "知り合い",
+"reading": "しりあい",
+"en": "acquaintance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:私立",
+"text": "私立",
+"reading": "しりつ",
+"en": "private (establishment)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:資料",
+"text": "資料",
+"reading": "しりょう",
+"en": "materials, data",
+"level": "N2"
+},
+{
+"id": "ja:vocab:汁",
+"text": "汁",
+"reading": "しる",
+"en": "juice, soup",
+"level": "N2"
+},
+{
+"id": "ja:vocab:素人",
+"text": "素人",
+"reading": "しろうと",
+"en": "layman, amateur, novice",
+"level": "N2"
+},
+{
+"id": "ja:vocab:しわ (かおの～)",
+"text": "しわ (かおの～)",
+"reading": "しわ (かおの～)",
+"en": "wrinkles, creases",
+"level": "N2"
+},
+{
+"id": "ja:vocab:芯",
+"text": "芯",
+"reading": "しん",
+"en": "core, heart, wick",
+"level": "N2"
+},
+{
+"id": "ja:vocab:新幹線",
+"text": "新幹線",
+"reading": "しんかんせん",
+"en": "Shinkansen, \"Bullet Train\"",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真空",
+"text": "真空",
+"reading": "しんくう",
+"en": "vacuum",
+"level": "N2"
+},
+{
+"id": "ja:vocab:人事",
+"text": "人事",
+"reading": "じんじ",
+"en": "human resources, personnel management",
+"level": "N2"
+},
+{
+"id": "ja:vocab:心身",
+"text": "心身",
+"reading": "しんしん",
+"en": "mind and body",
+"level": "N2"
+},
+{
+"id": "ja:vocab:信ずる",
+"text": "信ずる",
+"reading": "しんずる",
+"en": "to believe",
+"level": "N2"
+},
+{
+"id": "ja:vocab:申請",
+"text": "申請",
+"reading": "しんせい",
+"en": "application, request, petition",
+"level": "N2"
+},
+{
+"id": "ja:vocab:人造",
+"text": "人造",
+"reading": "じんぞう",
+"en": "man-made, synthetic, artificial",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寝台",
+"text": "寝台",
+"reading": "しんだい",
+"en": "bed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:診断",
+"text": "診断",
+"reading": "しんだん",
+"en": "diagnosis",
+"level": "N2"
+},
+{
+"id": "ja:vocab:侵入",
+"text": "侵入",
+"reading": "しんにゅう",
+"en": "invasion, raid, trespass",
+"level": "N2"
+},
+{
+"id": "ja:vocab:人文科学",
+"text": "人文科学",
+"reading": "じんぶんかがく",
+"en": "social sciences, humanities",
+"level": "N2"
+},
+{
+"id": "ja:vocab:人命",
+"text": "人命",
+"reading": "じんめい",
+"en": "(human) life",
+"level": "N2"
+},
+{
+"id": "ja:vocab:深夜",
+"text": "深夜",
+"reading": "しんや",
+"en": "late at night",
+"level": "N2"
+},
+{
+"id": "ja:vocab:森林",
+"text": "森林",
+"reading": "しんりん",
+"en": "forest, woods",
+"level": "N2"
+},
+{
+"id": "ja:vocab:親類",
+"text": "親類",
+"reading": "しんるい",
+"en": "relative(s) (same as 親戚 (しんせき))",
+"level": "N2"
+},
+{
+"id": "ja:vocab:針路",
+"text": "針路",
+"reading": "しんろ",
+"en": "course, direction",
+"level": "N2"
+},
+{
+"id": "ja:vocab:神話",
+"text": "神話",
+"reading": "しんわ",
+"en": "myth, legend",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水産",
+"text": "水産",
+"reading": "すいさん",
+"en": "marine products, fisheries",
+"level": "N2"
+},
+{
+"id": "ja:vocab:炊事",
+"text": "炊事",
+"reading": "すいじ",
+"en": "cooking",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水蒸気",
+"text": "水蒸気",
+"reading": "すいじょうき",
+"en": "water vapor, steam",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水素",
+"text": "水素",
+"reading": "すいそ",
+"en": "hydrogen",
+"level": "N2"
+},
+{
+"id": "ja:vocab:垂直",
+"text": "垂直",
+"reading": "すいちょく",
+"en": "vertical, perpendicular",
+"level": "N2"
+},
+{
+"id": "ja:vocab:推定",
+"text": "推定",
+"reading": "すいてい",
+"en": "presumption, assumption, estimation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水滴",
+"text": "水滴",
+"reading": "すいてき",
+"en": "drop of water",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水筒",
+"text": "水筒",
+"reading": "すいとう",
+"en": "canteen, flask, water bottle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:随筆",
+"text": "随筆",
+"reading": "ずいひつ",
+"en": "essays, miscellaneous writings",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水分",
+"text": "水分",
+"reading": "すいぶん",
+"en": "moisture",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水平",
+"text": "水平",
+"reading": "すいへい",
+"en": "level, horizontal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水平線",
+"text": "水平線",
+"reading": "すいへいせん",
+"en": "horizon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水面",
+"text": "水面",
+"reading": "すいめん",
+"en": "water's surface",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水曜",
+"text": "水曜",
+"reading": "すいよう",
+"en": "Wednesday",
+"level": "N2"
+},
+{
+"id": "ja:vocab:図々しい",
+"text": "図々しい",
+"reading": "ずうずうしい",
+"en": "impudent, shameless",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ずうっと",
+"text": "ずうっと",
+"reading": "ずうっと",
+"en": "all the time, all the way",
+"level": "N2"
+},
+{
+"id": "ja:vocab:末っ子",
+"text": "末っ子",
+"reading": "すえっこ",
+"en": "youngest child",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スカーフ",
+"text": "スカーフ",
+"reading": "スカーフ",
+"en": "scarf",
+"level": "N2"
+},
+{
+"id": "ja:vocab:図鑑",
+"text": "図鑑",
+"reading": "ずかん",
+"en": "picture book",
+"level": "N2"
+},
+{
+"id": "ja:vocab:隙",
+"text": "隙",
+"reading": "すき",
+"en": "unguarded moment, chance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:杉",
+"text": "杉",
+"reading": "すぎ",
+"en": "Japanese cedar",
+"level": "N2"
+},
+{
+"id": "ja:vocab:好き嫌い",
+"text": "好き嫌い",
+"reading": "すききらい",
+"en": "likes and dislikes, taste",
+"level": "N2"
+},
+{
+"id": "ja:vocab:好き好き",
+"text": "好き好き",
+"reading": "すきずき",
+"en": "matter of taste",
+"level": "N2"
+},
+{
+"id": "ja:vocab:透き通る",
+"text": "透き通る",
+"reading": "すきとおる",
+"en": "to be(come) transparent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:隙間",
+"text": "隙間",
+"reading": "すきま",
+"en": "crack, gap, opening",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スクール",
+"text": "スクール",
+"reading": "スクール",
+"en": "school",
+"level": "N2"
+},
+{
+"id": "ja:vocab:少なくとも",
+"text": "少なくとも",
+"reading": "すくなくとも",
+"en": "at least",
+"level": "N2"
+},
+{
+"id": "ja:vocab:図形",
+"text": "図形",
+"reading": "ずけい",
+"en": "figure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鈴",
+"text": "鈴",
+"reading": "すず",
+"en": "bell",
+"level": "N2"
+},
+{
+"id": "ja:vocab:涼む",
+"text": "涼む",
+"reading": "すずむ",
+"en": "to cool oneself, to cool off",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スタート",
+"text": "スタート",
+"reading": "スタート",
+"en": "start",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スチュワーデス",
+"text": "スチュワーデス",
+"reading": "スチュワーデス",
+"en": "stewardess",
+"level": "N2"
+},
+{
+"id": "ja:vocab:すっきり",
+"text": "すっきり",
+"reading": "すっきり",
+"en": "shapely, clear, neat",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ステージ",
+"text": "ステージ",
+"reading": "ステージ",
+"en": "stage; performance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ストッキング",
+"text": "ストッキング",
+"reading": "ストッキング",
+"en": "stockings",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ストップ",
+"text": "ストップ",
+"reading": "ストップ",
+"en": "stop",
+"level": "N2"
+},
+{
+"id": "ja:vocab:素直",
+"text": "素直",
+"reading": "すなお",
+"en": "obedient, meek, docile",
+"level": "N2"
+},
+{
+"id": "ja:vocab:頭脳",
+"text": "頭脳",
+"reading": "ずのう",
+"en": "head, brains, intellect",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スピーカー",
+"text": "スピーカー",
+"reading": "スピーカー",
+"en": "speaker",
+"level": "N2"
+},
+{
+"id": "ja:vocab:図表",
+"text": "図表",
+"reading": "ずひょう",
+"en": "chart, diagram, graph",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スマート",
+"text": "スマート",
+"reading": "スマート",
+"en": "smart, stylish, slim",
+"level": "N2"
+},
+{
+"id": "ja:vocab:住まい",
+"text": "住まい",
+"reading": "すまい",
+"en": "dwelling, house",
+"level": "N2"
+},
+{
+"id": "ja:vocab:すまない",
+"text": "すまない",
+"reading": "すまない",
+"en": "sorry (phrase)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:相撲",
+"text": "相撲",
+"reading": "すもう",
+"en": "sumo wrestling",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スライド",
+"text": "スライド",
+"reading": "スライド",
+"en": "slide",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ずらす",
+"text": "ずらす",
+"reading": "ずらす",
+"en": "to put off, to delay",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ずらり",
+"text": "ずらり",
+"reading": "ずらり",
+"en": "in a line, in a row",
+"level": "N2"
+},
+{
+"id": "ja:vocab:スリッパ",
+"text": "スリッパ",
+"reading": "スリッパ",
+"en": "slippers",
+"level": "N2"
+},
+{
+"id": "ja:vocab:狡い",
+"text": "狡い",
+"reading": "ずるい",
+"en": "sly, cunning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寸法",
+"text": "寸法",
+"reading": "すんぽう",
+"en": "measurement, size, dimension",
+"level": "N2"
+},
+{
+"id": "ja:vocab:税関",
+"text": "税関",
+"reading": "ぜいかん",
+"en": "customs",
+"level": "N2"
+},
+{
+"id": "ja:vocab:製作",
+"text": "製作",
+"reading": "せいさく",
+"en": "manufacture, production",
+"level": "N2"
+},
+{
+"id": "ja:vocab:制作",
+"text": "制作",
+"reading": "せいさく",
+"en": "work (e.g., film, book)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:清書",
+"text": "清書",
+"reading": "せいしょ",
+"en": "clean copy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:青少年",
+"text": "青少年",
+"reading": "せいしょうねん",
+"en": "youth, young person",
+"level": "N2"
+},
+{
+"id": "ja:vocab:整数",
+"text": "整数",
+"reading": "せいすう",
+"en": "integer",
+"level": "N2"
+},
+{
+"id": "ja:vocab:清掃",
+"text": "清掃",
+"reading": "せいそう",
+"en": "cleaning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:生存",
+"text": "生存",
+"reading": "せいぞん",
+"en": "existence, being, survival",
+"level": "N2"
+},
+{
+"id": "ja:vocab:政党",
+"text": "政党",
+"reading": "せいとう",
+"en": "(member of) political party",
+"level": "N2"
+},
+{
+"id": "ja:vocab:性能",
+"text": "性能",
+"reading": "せいのう",
+"en": "ability, capability",
+"level": "N2"
+},
+{
+"id": "ja:vocab:整備",
+"text": "整備",
+"reading": "せいび",
+"en": "maintenance, overhaul",
+"level": "N2"
+},
+{
+"id": "ja:vocab:成分",
+"text": "成分",
+"reading": "せいぶん",
+"en": "ingredient, component, composition",
+"level": "N2"
+},
+{
+"id": "ja:vocab:性別",
+"text": "性別",
+"reading": "せいべつ",
+"en": "sex, gender",
+"level": "N2"
+},
+{
+"id": "ja:vocab:正方形",
+"text": "正方形",
+"reading": "せいほうけい",
+"en": "square",
+"level": "N2"
+},
+{
+"id": "ja:vocab:正門",
+"text": "正門",
+"reading": "せいもん",
+"en": "main gate, main entrance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:成立",
+"text": "成立",
+"reading": "せいりつ",
+"en": "formation, establishment, completion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:西暦",
+"text": "西暦",
+"reading": "せいれき",
+"en": "Christian Era, after (Christ’s) death (A.D.)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:背負う",
+"text": "背負う",
+"reading": "せおう",
+"en": "to be burdened with; to carry on (one's) back or shoulder(s)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:赤道",
+"text": "赤道",
+"reading": "せきどう",
+"en": "equator",
+"level": "N2"
+},
+{
+"id": "ja:vocab:折角",
+"text": "折角",
+"reading": "せっかく",
+"en": "with trouble, at great pains, long-awaited",
+"level": "N2"
+},
+{
+"id": "ja:vocab:接近",
+"text": "接近",
+"reading": "せっきん",
+"en": "getting closer, drawing nearer, approaching",
+"level": "N2"
+},
+{
+"id": "ja:vocab:接する",
+"text": "接する",
+"reading": "せっする",
+"en": "to attend to (someone); to associate with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:せっせと",
+"text": "せっせと",
+"reading": "せっせと",
+"en": "busily, away",
+"level": "N2"
+},
+{
+"id": "ja:vocab:接続",
+"text": "接続",
+"reading": "せつぞく",
+"en": "connection, union, join, link; changing trains",
+"level": "N2"
+},
+{
+"id": "ja:vocab:瀬戸物",
+"text": "瀬戸物",
+"reading": "せともの",
+"en": "earthenware, crockery, china",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぜひとも",
+"text": "ぜひとも",
+"reading": "ぜひとも",
+"en": "by all means (with sense of not taking 'no' for an answer)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:迫る",
+"text": "迫る",
+"reading": "せまる",
+"en": "to draw near, to press",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ゼミ",
+"text": "ゼミ",
+"reading": "ゼミ",
+"en": "seminar",
+"level": "N2"
+},
+{
+"id": "ja:vocab:せめて",
+"text": "せめて",
+"reading": "せめて",
+"en": "at least",
+"level": "N2"
+},
+{
+"id": "ja:vocab:セメント",
+"text": "セメント",
+"reading": "セメント",
+"en": "cement",
+"level": "N2"
+},
+{
+"id": "ja:vocab:台詞",
+"text": "台詞",
+"reading": "せりふ",
+"en": "speech, words, one's lines, remarks",
+"level": "N2"
+},
+{
+"id": "ja:vocab:栓",
+"text": "栓",
+"reading": "せん",
+"en": "stopper, cork, stopcock",
+"level": "N2"
+},
+{
+"id": "ja:vocab:前後",
+"text": "前後",
+"reading": "ぜんご",
+"en": "front and back, before and after",
+"level": "N2"
+},
+{
+"id": "ja:vocab:全集",
+"text": "全集",
+"reading": "ぜんしゅう",
+"en": "complete works",
+"level": "N2"
+},
+{
+"id": "ja:vocab:扇子",
+"text": "扇子",
+"reading": "せんす",
+"en": "folding fan",
+"level": "N2"
+},
+{
+"id": "ja:vocab:専制",
+"text": "専制",
+"reading": "せんせい",
+"en": "despotism, autocracy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:先々月",
+"text": "先々月",
+"reading": "せんせんげつ",
+"en": "month before last",
+"level": "N2"
+},
+{
+"id": "ja:vocab:先々週",
+"text": "先々週",
+"reading": "せんせんしゅう",
+"en": "2 weeks before",
+"level": "N2"
+},
+{
+"id": "ja:vocab:先祖",
+"text": "先祖",
+"reading": "せんぞ",
+"en": "ancestor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:先端",
+"text": "先端",
+"reading": "せんたん",
+"en": "pointed end, tip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:センチ",
+"text": "センチ",
+"reading": "センチ",
+"en": "centimeter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:先頭",
+"text": "先頭",
+"reading": "せんとう",
+"en": "head, lead, vanguard",
+"level": "N2"
+},
+{
+"id": "ja:vocab:全般",
+"text": "全般",
+"reading": "ぜんぱん",
+"en": "(the) whole, general",
+"level": "N2"
+},
+{
+"id": "ja:vocab:扇風機",
+"text": "扇風機",
+"reading": "せんぷうき",
+"en": "electric fan",
+"level": "N2"
+},
+{
+"id": "ja:vocab:洗面",
+"text": "洗面",
+"reading": "せんめん",
+"en": "wash up (one's face), have a wash",
+"level": "N2"
+},
+{
+"id": "ja:vocab:全力",
+"text": "全力",
+"reading": "ぜんりょく",
+"en": "all one's power, whole energy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:線路",
+"text": "線路",
+"reading": "せんろ",
+"en": "line, track, roadbed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:総",
+"text": "総",
+"reading": "そう",
+"en": "gross, general, entire",
+"level": "N2"
+},
+{
+"id": "ja:vocab:相違",
+"text": "相違",
+"reading": "そうい",
+"en": "difference, discrepancy, variation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:そういえば",
+"text": "そういえば",
+"reading": "そういえば",
+"en": "which reminds me ..",
+"level": "N2"
+},
+{
+"id": "ja:vocab:雑巾",
+"text": "雑巾",
+"reading": "ぞうきん",
+"en": "house-cloth, dust cloth",
+"level": "N2"
+},
+{
+"id": "ja:vocab:増減",
+"text": "増減",
+"reading": "ぞうげん",
+"en": "increase and decrease, fluctuation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:倉庫",
+"text": "倉庫",
+"reading": "そうこ",
+"en": "storehouse, warehouse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:相互",
+"text": "相互",
+"reading": "そうご",
+"en": "mutual, reciprocal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:創作",
+"text": "創作",
+"reading": "そうさく",
+"en": "production, creation, work",
+"level": "N2"
+},
+{
+"id": "ja:vocab:葬式",
+"text": "葬式",
+"reading": "そうしき",
+"en": "funeral",
+"level": "N2"
+},
+{
+"id": "ja:vocab:造船",
+"text": "造船",
+"reading": "ぞうせん",
+"en": "shipbuilding",
+"level": "N2"
+},
+{
+"id": "ja:vocab:騒々しい",
+"text": "騒々しい",
+"reading": "そうぞうしい",
+"en": "noisy, boisterous",
+"level": "N2"
+},
+{
+"id": "ja:vocab:増大",
+"text": "増大",
+"reading": "ぞうだい",
+"en": "increase, growth",
+"level": "N2"
+},
+{
+"id": "ja:vocab:そうっと",
+"text": "そうっと",
+"reading": "そうっと",
+"en": "softly, cautiously, gently",
+"level": "N2"
+},
+{
+"id": "ja:vocab:送別",
+"text": "送別",
+"reading": "そうべつ",
+"en": "farewell, send-off",
+"level": "N2"
+},
+{
+"id": "ja:vocab:草履",
+"text": "草履",
+"reading": "ぞうり",
+"en": "Japanese sandals (footwear)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:総理大臣",
+"text": "総理大臣",
+"reading": "そうりだいじん",
+"en": "Prime Minister",
+"level": "N2"
+},
+{
+"id": "ja:vocab:送料",
+"text": "送料",
+"reading": "そうりょう",
+"en": "postage, carriage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:属する",
+"text": "属する",
+"reading": "ぞくする",
+"en": "to belong to, to come under",
+"level": "N2"
+},
+{
+"id": "ja:vocab:続々",
+"text": "続々",
+"reading": "ぞくぞく",
+"en": "successively, one after another",
+"level": "N2"
+},
+{
+"id": "ja:vocab:速達",
+"text": "速達",
+"reading": "そくたつ",
+"en": "express, special delivery",
+"level": "N2"
+},
+{
+"id": "ja:vocab:測定",
+"text": "測定",
+"reading": "そくてい",
+"en": "measurement",
+"level": "N2"
+},
+{
+"id": "ja:vocab:測量",
+"text": "測量",
+"reading": "そくりょう",
+"en": "measurement, surveying",
+"level": "N2"
+},
+{
+"id": "ja:vocab:速力",
+"text": "速力",
+"reading": "そくりょく",
+"en": "speed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:素質",
+"text": "素質",
+"reading": "そしつ",
+"en": "talent, capability",
+"level": "N2"
+},
+{
+"id": "ja:vocab:祖先",
+"text": "祖先",
+"reading": "そせん",
+"en": "ancestor(s)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:そそっかしい",
+"text": "そそっかしい",
+"reading": "そそっかしい",
+"en": "careless, thoughtless",
+"level": "N2"
+},
+{
+"id": "ja:vocab:卒直",
+"text": "卒直",
+"reading": "そっちょく",
+"en": "frank, candid, honest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:率直",
+"text": "率直",
+"reading": "そっちょく",
+"en": "frank, candid, straightforward, openhearted, direct, outspoken",
+"level": "N2"
+},
+{
+"id": "ja:vocab:そのころ",
+"text": "そのころ",
+"reading": "そのころ",
+"en": "in those days, at that time, then",
+"level": "N2"
+},
+{
+"id": "ja:vocab:そのため",
+"text": "そのため",
+"reading": "そのため",
+"en": "hence, for that reason",
+"level": "N2"
+},
+{
+"id": "ja:vocab:その他",
+"text": "その他",
+"reading": "そのほか",
+"en": "besides",
+"level": "N2"
+},
+{
+"id": "ja:vocab:剃る",
+"text": "剃る",
+"reading": "そる",
+"en": "to shave",
+"level": "N2"
+},
+{
+"id": "ja:vocab:それなのに",
+"text": "それなのに",
+"reading": "それなのに",
+"en": "though, although",
+"level": "N2"
+},
+{
+"id": "ja:vocab:それなら",
+"text": "それなら",
+"reading": "それなら",
+"en": "If that's the case..., If so..., That being the case...",
+"level": "N2"
+},
+{
+"id": "ja:vocab:それはいけませんね (かん)",
+"text": "それはいけませんね (かん)",
+"reading": "それはいけませんね (かん)",
+"en": "that's not good",
+"level": "N2"
+},
+{
+"id": "ja:vocab:逸れる",
+"text": "逸れる",
+"reading": "それる",
+"en": "to stray (turn) from subject, to go astray",
+"level": "N2"
+},
+{
+"id": "ja:vocab:算盤",
+"text": "算盤",
+"reading": "そろばん",
+"en": "abacus",
+"level": "N2"
+},
+{
+"id": "ja:vocab:存じる",
+"text": "存じる",
+"reading": "ぞんじる",
+"en": "(humble) to know",
+"level": "N2"
+},
+{
+"id": "ja:vocab:存ずる",
+"text": "存ずる",
+"reading": "ぞんずる",
+"en": "(humble) to know",
+"level": "N2"
+},
+{
+"id": "ja:vocab:損得",
+"text": "損得",
+"reading": "そんとく",
+"en": "loss and gain, advantage and disadvantage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:第",
+"text": "第",
+"reading": "だい",
+"en": "~th",
+"level": "N2"
+},
+{
+"id": "ja:vocab:タイア",
+"text": "タイア",
+"reading": "タイア",
+"en": "tire, tyre",
+"level": "N2"
+},
+{
+"id": "ja:vocab:だいいち (とりわけ)",
+"text": "だいいち (とりわけ)",
+"reading": "だいいち (とりわけ)",
+"en": "first, foremost,&nbsp;&nbsp;#1",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大学院",
+"text": "大学院",
+"reading": "だいがくいん",
+"en": "graduate school",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大工",
+"text": "大工",
+"reading": "だいく",
+"en": "carpenter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:体系",
+"text": "体系",
+"reading": "たいけい",
+"en": "system, organization",
+"level": "N2"
+},
+{
+"id": "ja:vocab:太鼓",
+"text": "太鼓",
+"reading": "たいこ",
+"en": "drum, tambourine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:対策",
+"text": "対策",
+"reading": "たいさく",
+"en": "counter-plan, counter-measure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大して",
+"text": "大して",
+"reading": "たいして",
+"en": "(not so) much, (not) very",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大小",
+"text": "大小",
+"reading": "だいしょう",
+"en": "size",
+"level": "N2"
+},
+{
+"id": "ja:vocab:体制",
+"text": "体制",
+"reading": "たいせい",
+"en": "order, system, structure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:体積",
+"text": "体積",
+"reading": "たいせき",
+"en": "capacity, volume",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大層",
+"text": "大層",
+"reading": "たいそう",
+"en": "very much, greatly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:体操",
+"text": "体操",
+"reading": "たいそう",
+"en": "gymnastics, physical exercises, calisthenics",
+"level": "N2"
+},
+{
+"id": "ja:vocab:大木",
+"text": "大木",
+"reading": "たいぼく",
+"en": "large tree",
+"level": "N2"
+},
+{
+"id": "ja:vocab:代名詞",
+"text": "代名詞",
+"reading": "だいめいし",
+"en": "pronoun",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ダイヤグラム",
+"text": "ダイヤグラム",
+"reading": "ダイヤグラム",
+"en": "diagram",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ダイヤモンド",
+"text": "ダイヤモンド",
+"reading": "ダイヤモンド",
+"en": "diamond",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ダイヤル",
+"text": "ダイヤル",
+"reading": "ダイヤル",
+"en": "dial",
+"level": "N2"
+},
+{
+"id": "ja:vocab:対立",
+"text": "対立",
+"reading": "たいりつ",
+"en": "confrontation, opposition, antagonism",
+"level": "N2"
+},
+{
+"id": "ja:vocab:田植え",
+"text": "田植え",
+"reading": "たうえ",
+"en": "rice planting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:絶えず",
+"text": "絶えず",
+"reading": "たえず",
+"en": "constantly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:楕円",
+"text": "楕円",
+"reading": "だえん",
+"en": "ellipse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:耕す",
+"text": "耕す",
+"reading": "たがやす",
+"en": "to till, to plow, to cultivate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:滝",
+"text": "滝",
+"reading": "たき",
+"en": "waterfall",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蓄える",
+"text": "蓄える",
+"reading": "たくわえる",
+"en": "to save, to store, to lay in stock",
+"level": "N2"
+},
+{
+"id": "ja:vocab:竹",
+"text": "竹",
+"reading": "たけ",
+"en": "bamboo",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ただいま",
+"text": "ただいま",
+"reading": "ただいま",
+"en": "Here I am, I'm home!",
+"level": "N2"
+},
+{
+"id": "ja:vocab:但し",
+"text": "但し",
+"reading": "ただし",
+"en": "but, however, provided that",
+"level": "N2"
+},
+{
+"id": "ja:vocab:立ち止まる",
+"text": "立ち止まる",
+"reading": "たちどまる",
+"en": "to stop, to halt, to stand still",
+"level": "N2"
+},
+{
+"id": "ja:vocab:たちまち",
+"text": "たちまち",
+"reading": "たちまち",
+"en": "instantly, suddenly, all at once",
+"level": "N2"
+},
+{
+"id": "ja:vocab:脱線",
+"text": "脱線",
+"reading": "だっせん",
+"en": "derailment, digression",
+"level": "N2"
+},
+{
+"id": "ja:vocab:妥当",
+"text": "妥当",
+"reading": "だとう",
+"en": "proper, appropriate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:例える",
+"text": "例える",
+"reading": "たとえる",
+"en": "to compare, to liken",
+"level": "N2"
+},
+{
+"id": "ja:vocab:頼もしい",
+"text": "頼もしい",
+"reading": "たのもしい",
+"en": "reliable, promising",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ダブル",
+"text": "ダブル",
+"reading": "ダブル",
+"en": "double",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ダム",
+"text": "ダム",
+"reading": "ダム",
+"en": "dam",
+"level": "N2"
+},
+{
+"id": "ja:vocab:溜息",
+"text": "溜息",
+"reading": "ためいき",
+"en": "a sigh",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ためらう",
+"text": "ためらう",
+"reading": "ためらう",
+"en": "to be hesitant",
+"level": "N2"
+},
+{
+"id": "ja:vocab:だらしない",
+"text": "だらしない",
+"reading": "だらしない",
+"en": "slovenly, loose, a slut",
+"level": "N2"
+},
+{
+"id": "ja:vocab:足る",
+"text": "足る",
+"reading": "たる",
+"en": "to be sufficient, to be enough",
+"level": "N2"
+},
+{
+"id": "ja:vocab:短",
+"text": "短",
+"reading": "たん",
+"en": "short ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:段階",
+"text": "段階",
+"reading": "だんかい",
+"en": "gradation, grade, stage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:短期",
+"text": "短期",
+"reading": "たんき",
+"en": "short term",
+"level": "N2"
+},
+{
+"id": "ja:vocab:炭鉱",
+"text": "炭鉱",
+"reading": "たんこう",
+"en": "coal mine, coal pit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:短所",
+"text": "短所",
+"reading": "たんしょ",
+"en": "defect, weak point; disadvantage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:たんす",
+"text": "たんす",
+"reading": "たんす",
+"en": "chest of drawers",
+"level": "N2"
+},
+{
+"id": "ja:vocab:淡水",
+"text": "淡水",
+"reading": "たんすい",
+"en": "fresh water",
+"level": "N2"
+},
+{
+"id": "ja:vocab:断水",
+"text": "断水",
+"reading": "だんすい",
+"en": "water outage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:単数",
+"text": "単数",
+"reading": "たんすう",
+"en": "singular (number)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:団地",
+"text": "団地",
+"reading": "だんち",
+"en": "housing complex",
+"level": "N2"
+},
+{
+"id": "ja:vocab:断定",
+"text": "断定",
+"reading": "だんてい",
+"en": "conclusion, decision",
+"level": "N2"
+},
+{
+"id": "ja:vocab:短編",
+"text": "短編",
+"reading": "たんぺん",
+"en": "short (e.g., story, film)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:田ぼ",
+"text": "田ぼ",
+"reading": "たんぼ",
+"en": "paddy field, farm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:誓う",
+"text": "誓う",
+"reading": "ちかう",
+"en": "to swear, to vow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地下水",
+"text": "地下水",
+"reading": "ちかすい",
+"en": "underground water",
+"level": "N2"
+},
+{
+"id": "ja:vocab:近々",
+"text": "近々",
+"reading": "ちかぢか",
+"en": "soon, before long",
+"level": "N2"
+},
+{
+"id": "ja:vocab:近付ける",
+"text": "近付ける",
+"reading": "ちかづける",
+"en": "to bring near, to put close, to let come near",
+"level": "N2"
+},
+{
+"id": "ja:vocab:近寄る",
+"text": "近寄る",
+"reading": "ちかよる",
+"en": "to approach, to draw near",
+"level": "N2"
+},
+{
+"id": "ja:vocab:力強い",
+"text": "力強い",
+"reading": "ちからづよい",
+"en": "powerful, strong, vigorous",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ちぎる",
+"text": "ちぎる",
+"reading": "ちぎる",
+"en": "to cut up fine, to pick (fruit)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地質",
+"text": "地質",
+"reading": "ちしつ",
+"en": "geological features",
+"level": "N2"
+},
+{
+"id": "ja:vocab:知人",
+"text": "知人",
+"reading": "ちじん",
+"en": "friend, acquaintance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地帯",
+"text": "地帯",
+"reading": "ちたい",
+"en": "area, zone",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縮む",
+"text": "縮む",
+"reading": "ちぢむ",
+"en": "to shrink, to be contracted",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縮める",
+"text": "縮める",
+"reading": "ちぢめる",
+"en": "to shorten, to reduce, to shrink",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縮れる",
+"text": "縮れる",
+"reading": "ちぢれる",
+"en": "to be wavy, to be curled",
+"level": "N2"
+},
+{
+"id": "ja:vocab:チップ",
+"text": "チップ",
+"reading": "チップ",
+"en": "gratuity, tip; chip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地点",
+"text": "地点",
+"reading": "ちてん",
+"en": "site, point on a map",
+"level": "N2"
+},
+{
+"id": "ja:vocab:地名",
+"text": "地名",
+"reading": "ちめい",
+"en": "place name",
+"level": "N2"
+},
+{
+"id": "ja:vocab:茶色い",
+"text": "茶色い",
+"reading": "ちゃいろい",
+"en": "brown",
+"level": "N2"
+},
+{
+"id": "ja:vocab:着々",
+"text": "着々",
+"reading": "ちゃくちゃく",
+"en": "steadily",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中間",
+"text": "中間",
+"reading": "ちゅうかん",
+"en": "middle, midway, interim",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中旬",
+"text": "中旬",
+"reading": "ちゅうじゅん",
+"en": "second third of a month",
+"level": "N2"
+},
+{
+"id": "ja:vocab:抽象",
+"text": "抽象",
+"reading": "ちゅうしょう",
+"en": "abstract",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中世",
+"text": "中世",
+"reading": "ちゅうせい",
+"en": "Middle Ages, medieval times",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中性",
+"text": "中性",
+"reading": "ちゅうせい",
+"en": "neuter gender, neutral",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中途",
+"text": "中途",
+"reading": "ちゅうと",
+"en": "in the middle, half-way",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中年",
+"text": "中年",
+"reading": "ちゅうねん",
+"en": "middle-aged",
+"level": "N2"
+},
+{
+"id": "ja:vocab:チョーク",
+"text": "チョーク",
+"reading": "チョーク",
+"en": "chalk",
+"level": "N2"
+},
+{
+"id": "ja:vocab:超過",
+"text": "超過",
+"reading": "ちょうか",
+"en": "excess, being more than",
+"level": "N2"
+},
+{
+"id": "ja:vocab:彫刻",
+"text": "彫刻",
+"reading": "ちょうこく",
+"en": "carving, engraving, sculpture",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長所",
+"text": "長所",
+"reading": "ちょうしょ",
+"en": "strong point, merit; advantage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長女",
+"text": "長女",
+"reading": "ちょうじょ",
+"en": "eldest daughter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:調整",
+"text": "調整",
+"reading": "ちょうせい",
+"en": "regulation, adjustment, tuning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:調節",
+"text": "調節",
+"reading": "ちょうせつ",
+"en": "regulation, adjustment, control",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長短",
+"text": "長短",
+"reading": "ちょうたん",
+"en": "length, long and short, +-",
+"level": "N2"
+},
+{
+"id": "ja:vocab:頂点",
+"text": "頂点",
+"reading": "ちょうてん",
+"en": "top, summit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長男",
+"text": "長男",
+"reading": "ちょうなん",
+"en": "eldest son",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長方形",
+"text": "長方形",
+"reading": "ちょうほうけい",
+"en": "rectangle, oblong",
+"level": "N2"
+},
+{
+"id": "ja:vocab:調味料",
+"text": "調味料",
+"reading": "ちょうみりょう",
+"en": "condiment, seasoning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直後",
+"text": "直後",
+"reading": "ちょくご",
+"en": "immediately following",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直線",
+"text": "直線",
+"reading": "ちょくせん",
+"en": "straight line",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直前",
+"text": "直前",
+"reading": "ちょくぜん",
+"en": "just before",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直通",
+"text": "直通",
+"reading": "ちょくつう",
+"en": "direct connection",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直流",
+"text": "直流",
+"reading": "ちょくりゅう",
+"en": "direct current",
+"level": "N2"
+},
+{
+"id": "ja:vocab:貯蔵",
+"text": "貯蔵",
+"reading": "ちょぞう",
+"en": "storage, preservation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直角",
+"text": "直角",
+"reading": "ちょっかく",
+"en": "right angle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:直径",
+"text": "直径",
+"reading": "ちょっけい",
+"en": "diameter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:散らかす",
+"text": "散らかす",
+"reading": "ちらかす",
+"en": "to scatter around, to leave untidy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:散らかる",
+"text": "散らかる",
+"reading": "ちらかる",
+"en": "to be in disorder",
+"level": "N2"
+},
+{
+"id": "ja:vocab:塵紙",
+"text": "塵紙",
+"reading": "ちりがみ",
+"en": "tissue paper, toilet paper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:追加",
+"text": "追加",
+"reading": "ついか",
+"en": "addition, supplement, appendix",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ついで",
+"text": "ついで",
+"reading": "ついで",
+"en": "opportunity, occasion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:つうか",
+"text": "つうか",
+"reading": "つうか",
+"en": "currency",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通ずる",
+"text": "通ずる",
+"reading": "つうずる",
+"en": "to lead, to run, to open",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通知",
+"text": "通知",
+"reading": "つうち",
+"en": "notice, notification",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通帳",
+"text": "通帳",
+"reading": "つうちょう",
+"en": "bankbook",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通用",
+"text": "通用",
+"reading": "つうよう",
+"en": "popular use, circulation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通路",
+"text": "通路",
+"reading": "つうろ",
+"en": "passage, pathway",
+"level": "N2"
+},
+{
+"id": "ja:vocab:突き当たり",
+"text": "突き当たり",
+"reading": "つきあたり",
+"en": "end (e.g., of street)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:突き当たる",
+"text": "突き当たる",
+"reading": "つきあたる",
+"en": "to run into, to collide with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:月日",
+"text": "月日",
+"reading": "つきひ",
+"en": "time, years, days",
+"level": "N2"
+},
+{
+"id": "ja:vocab:突っ込む",
+"text": "突っ込む",
+"reading": "つっこむ",
+"en": "to plunge into, to stick into",
+"level": "N2"
+},
+{
+"id": "ja:vocab:務める",
+"text": "務める",
+"reading": "つとめる",
+"en": "to serve, to act",
+"level": "N2"
+},
+{
+"id": "ja:vocab:努める",
+"text": "努める",
+"reading": "つとめる",
+"en": "to try, to aim",
+"level": "N2"
+},
+{
+"id": "ja:vocab:綱",
+"text": "綱",
+"reading": "つな",
+"en": "rope",
+"level": "N2"
+},
+{
+"id": "ja:vocab:繋がり",
+"text": "繋がり",
+"reading": "つながり",
+"en": "connection, link, relationship",
+"level": "N2"
+},
+{
+"id": "ja:vocab:粒",
+"text": "粒",
+"reading": "つぶ",
+"en": "grain",
+"level": "N2"
+},
+{
+"id": "ja:vocab:潰す",
+"text": "潰す",
+"reading": "つぶす",
+"en": "to smash, to waste",
+"level": "N2"
+},
+{
+"id": "ja:vocab:潰れる",
+"text": "潰れる",
+"reading": "つぶれる",
+"en": "to be smashed, to go bankrupt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:つまずく",
+"text": "つまずく",
+"reading": "つまずく",
+"en": "to stumble, to trip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:躓く",
+"text": "躓く",
+"reading": "つまずく",
+"en": "to trip (over), to stumble",
+"level": "N2"
+},
+{
+"id": "ja:vocab:詰まる",
+"text": "詰まる",
+"reading": "つまる",
+"en": "to be blocked, to be packed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:爪",
+"text": "爪",
+"reading": "つめ",
+"en": "fingernail or toenail",
+"level": "N2"
+},
+{
+"id": "ja:vocab:艶",
+"text": "艶",
+"reading": "つや",
+"en": "gloss, glaze",
+"level": "N2"
+},
+{
+"id": "ja:vocab:強気",
+"text": "強気",
+"reading": "つよき",
+"en": "firm, strong",
+"level": "N2"
+},
+{
+"id": "ja:vocab:釣り合う",
+"text": "釣り合う",
+"reading": "つりあう",
+"en": "to balance, to be in harmony, to suit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:吊る",
+"text": "吊る",
+"reading": "つる",
+"en": "to hang",
+"level": "N2"
+},
+{
+"id": "ja:vocab:吊す",
+"text": "吊す",
+"reading": "つるす",
+"en": "to hang",
+"level": "N2"
+},
+{
+"id": "ja:vocab:テーマ",
+"text": "テーマ",
+"reading": "テーマ",
+"en": "theme, project, topic (GER: Thema)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手洗い",
+"text": "手洗い",
+"reading": "てあらい",
+"en": "restroom, lavatory",
+"level": "N2"
+},
+{
+"id": "ja:vocab:低",
+"text": "低",
+"reading": "てい",
+"en": "low ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:定員",
+"text": "定員",
+"reading": "ていいん",
+"en": "fixed number of regular personnel, capacity (e.g., of boat)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:定価",
+"text": "定価",
+"reading": "ていか",
+"en": "established price",
+"level": "N2"
+},
+{
+"id": "ja:vocab:低下",
+"text": "低下",
+"reading": "ていか",
+"en": "fall, decline",
+"level": "N2"
+},
+{
+"id": "ja:vocab:定期券",
+"text": "定期券",
+"reading": "ていきけん",
+"en": "commuter pass, season ticket",
+"level": "N2"
+},
+{
+"id": "ja:vocab:定休日",
+"text": "定休日",
+"reading": "ていきゅうび",
+"en": "regular holiday",
+"level": "N2"
+},
+{
+"id": "ja:vocab:停止",
+"text": "停止",
+"reading": "ていし",
+"en": "suspension, interruption, stoppage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:停車",
+"text": "停車",
+"reading": "ていしゃ",
+"en": "stopping (e.g., train)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出入り",
+"text": "出入り",
+"reading": "でいり",
+"en": "in and out, coming and going",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出入口",
+"text": "出入口",
+"reading": "でいりぐち",
+"en": "exit and entrance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出入り口",
+"text": "出入り口",
+"reading": "でいりぐち",
+"en": "exit and entrance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手入れ",
+"text": "手入れ",
+"reading": "ていれ",
+"en": "repairs, maintenance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出来上がり",
+"text": "出来上がり",
+"reading": "できあがり",
+"en": "be finished, ready",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出来上がる",
+"text": "出来上がる",
+"reading": "できあがる",
+"en": "to be finished, to be ready",
+"level": "N2"
+},
+{
+"id": "ja:vocab:的確",
+"text": "的確",
+"reading": "てきかく",
+"en": "precise, accurate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:適確",
+"text": "適確",
+"reading": "てきかく",
+"en": "precise, accurate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手首",
+"text": "手首",
+"reading": "てくび",
+"en": "wrist",
+"level": "N2"
+},
+{
+"id": "ja:vocab:凸凹",
+"text": "凸凹",
+"reading": "でこぼこ",
+"en": "unevenness, roughness, ruggedness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手頃",
+"text": "手頃",
+"reading": "てごろ",
+"en": "moderate, handy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手ごろ",
+"text": "手ごろ",
+"reading": "てごろ",
+"en": "handy, convenient suitable, reasoanble, moderate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:弟子",
+"text": "弟子",
+"reading": "でし",
+"en": "pupil, disciple, apprentice",
+"level": "N2"
+},
+{
+"id": "ja:vocab:でたらめ",
+"text": "でたらめ",
+"reading": "でたらめ",
+"en": "irresponsible utterance, nonsense; random",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手帳",
+"text": "手帳",
+"reading": "てちょう",
+"en": "notebook",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鉄橋",
+"text": "鉄橋",
+"reading": "てっきょう",
+"en": "iron bridge",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手続き",
+"text": "手続き",
+"reading": "てつづき",
+"en": "procedure, (legal) process, formalities",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鉄砲",
+"text": "鉄砲",
+"reading": "てっぽう",
+"en": "gun",
+"level": "N2"
+},
+{
+"id": "ja:vocab:テニスコート",
+"text": "テニスコート",
+"reading": "テニスコート",
+"en": "tennis court",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手拭い",
+"text": "手拭い",
+"reading": "てぬぐい",
+"en": "(hand) towel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:手前",
+"text": "手前",
+"reading": "てまえ",
+"en": "before, this side",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出迎え",
+"text": "出迎え",
+"reading": "でむかえ",
+"en": "meeting, reception",
+"level": "N2"
+},
+{
+"id": "ja:vocab:出迎える",
+"text": "出迎える",
+"reading": "でむかえる",
+"en": "to meet, to greet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:照らす",
+"text": "照らす",
+"reading": "てらす",
+"en": "to shine on, to illuminate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:照る",
+"text": "照る",
+"reading": "てる",
+"en": "to shine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:展開",
+"text": "展開",
+"reading": "てんかい",
+"en": "develop, expansion (opposite of compression)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:伝記",
+"text": "伝記",
+"reading": "でんき",
+"en": "biography, life story",
+"level": "N2"
+},
+{
+"id": "ja:vocab:電球",
+"text": "電球",
+"reading": "でんきゅう",
+"en": "light bulb",
+"level": "N2"
+},
+{
+"id": "ja:vocab:点数",
+"text": "点数",
+"reading": "てんすう",
+"en": "marks, points, score",
+"level": "N2"
+},
+{
+"id": "ja:vocab:伝染",
+"text": "伝染",
+"reading": "でんせん",
+"en": "contagion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:電池",
+"text": "電池",
+"reading": "でんち",
+"en": "battery",
+"level": "N2"
+},
+{
+"id": "ja:vocab:電柱",
+"text": "電柱",
+"reading": "でんちゅう",
+"en": "telephone pole, telegraph pole, light pole",
+"level": "N2"
+},
+{
+"id": "ja:vocab:点々",
+"text": "点々",
+"reading": "てんてん",
+"en": "here and there, little by little",
+"level": "N2"
+},
+{
+"id": "ja:vocab:転々",
+"text": "転々",
+"reading": "てんてん",
+"en": "from one to another",
+"level": "N2"
+},
+{
+"id": "ja:vocab:天皇",
+"text": "天皇",
+"reading": "てんのう",
+"en": "Emperor of Japan",
+"level": "N2"
+},
+{
+"id": "ja:vocab:電波",
+"text": "電波",
+"reading": "でんぱ",
+"en": "electro-magnetic wave",
+"level": "N2"
+},
+{
+"id": "ja:vocab:テンポ",
+"text": "テンポ",
+"reading": "テンポ",
+"en": "tempo",
+"level": "N2"
+},
+{
+"id": "ja:vocab:電流",
+"text": "電流",
+"reading": "でんりゅう",
+"en": "electric current",
+"level": "N2"
+},
+{
+"id": "ja:vocab:電力",
+"text": "電力",
+"reading": "でんりょく",
+"en": "electric power",
+"level": "N2"
+},
+{
+"id": "ja:vocab:問い合わせ",
+"text": "問い合わせ",
+"reading": "といあわせ",
+"en": "inquiry",
+"level": "N2"
+},
+{
+"id": "ja:vocab:銅",
+"text": "銅",
+"reading": "どう",
+"en": "copper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:同",
+"text": "同",
+"reading": "どう",
+"en": "same ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:どういたしまして (かん)",
+"text": "どういたしまして (かん)",
+"reading": "どういたしまして (かん)",
+"en": "you are welcome, don't mention it",
+"level": "N2"
+},
+{
+"id": "ja:vocab:統一",
+"text": "統一",
+"reading": "とういつ",
+"en": "unity, consolidation, uniformity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:同格",
+"text": "同格",
+"reading": "どうかく",
+"en": "the same rank, equality, apposition",
+"level": "N2"
+},
+{
+"id": "ja:vocab:峠",
+"text": "峠",
+"reading": "とうげ",
+"en": "ridge, (mountain) pass, difficult part",
+"level": "N2"
+},
+{
+"id": "ja:vocab:統計",
+"text": "統計",
+"reading": "とうけい",
+"en": "statistics",
+"level": "N2"
+},
+{
+"id": "ja:vocab:動作",
+"text": "動作",
+"reading": "どうさ",
+"en": "action, movements, motions",
+"level": "N2"
+},
+{
+"id": "ja:vocab:東西",
+"text": "東西",
+"reading": "とうざい",
+"en": "East and West, whole country",
+"level": "N2"
+},
+{
+"id": "ja:vocab:当日",
+"text": "当日",
+"reading": "とうじつ",
+"en": "appointed day, very day",
+"level": "N2"
+},
+{
+"id": "ja:vocab:投書",
+"text": "投書",
+"reading": "とうしょ",
+"en": "letter to the editor, letter from a reader, contribution",
+"level": "N2"
+},
+{
+"id": "ja:vocab:登場",
+"text": "登場",
+"reading": "とうじょう",
+"en": "entry (on stage)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:どうせ",
+"text": "どうせ",
+"reading": "どうせ",
+"en": "anyhow, in any case, at any rate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:灯台",
+"text": "灯台",
+"reading": "とうだい",
+"en": "lighthouse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:盗難",
+"text": "盗難",
+"reading": "とうなん",
+"en": "theft, robbery",
+"level": "N2"
+},
+{
+"id": "ja:vocab:当番",
+"text": "当番",
+"reading": "とうばん",
+"en": "being on duty",
+"level": "N2"
+},
+{
+"id": "ja:vocab:等分",
+"text": "等分",
+"reading": "とうぶん",
+"en": "division into equal parts",
+"level": "N2"
+},
+{
+"id": "ja:vocab:透明",
+"text": "透明",
+"reading": "とうめい",
+"en": "transparency, cleanness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:灯油",
+"text": "灯油",
+"reading": "とうゆ",
+"en": "lamp oil, kerosene",
+"level": "N2"
+},
+{
+"id": "ja:vocab:童話",
+"text": "童話",
+"reading": "どうわ",
+"en": "fairy tale",
+"level": "N2"
+},
+{
+"id": "ja:vocab:通り掛かる",
+"text": "通り掛かる",
+"reading": "とおりかかる",
+"en": "to happen to pass by",
+"level": "N2"
+},
+{
+"id": "ja:vocab:溶かす",
+"text": "溶かす",
+"reading": "とかす",
+"en": "to melt, to dissolve",
+"level": "N2"
+},
+{
+"id": "ja:vocab:尖る",
+"text": "尖る",
+"reading": "とがる",
+"en": "to taper to a point, to become sharp",
+"level": "N2"
+},
+{
+"id": "ja:vocab:どきどき",
+"text": "どきどき",
+"reading": "どきどき",
+"en": "throb, beat (fast)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:特殊",
+"text": "特殊",
+"reading": "とくしゅ",
+"en": "special, unique",
+"level": "N2"
+},
+{
+"id": "ja:vocab:特色",
+"text": "特色",
+"reading": "とくしょく",
+"en": "characteristic, feature",
+"level": "N2"
+},
+{
+"id": "ja:vocab:特定",
+"text": "特定",
+"reading": "とくてい",
+"en": "specific, special, particular",
+"level": "N2"
+},
+{
+"id": "ja:vocab:特売",
+"text": "特売",
+"reading": "とくばい",
+"en": "special sale",
+"level": "N2"
+},
+{
+"id": "ja:vocab:溶け込む",
+"text": "溶け込む",
+"reading": "とけこむ",
+"en": "to melt into; to become a part of",
+"level": "N2"
+},
+{
+"id": "ja:vocab:退ける",
+"text": "退ける",
+"reading": "どける",
+"en": "to dislodge, to put something out of the way",
+"level": "N2"
+},
+{
+"id": "ja:vocab:床の間",
+"text": "床の間",
+"reading": "とこのま",
+"en": "alcove",
+"level": "N2"
+},
+{
+"id": "ja:vocab:所々",
+"text": "所々",
+"reading": "ところどころ",
+"en": "here and there, some parts (of something)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:都心",
+"text": "都心",
+"reading": "としん",
+"en": "heart (of city)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:戸棚",
+"text": "戸棚",
+"reading": "とだな",
+"en": "cupboard, cabinet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:とっくに",
+"text": "とっくに",
+"reading": "とっくに",
+"en": "long ago, already, a long time ago",
+"level": "N2"
+},
+{
+"id": "ja:vocab:どっと",
+"text": "どっと",
+"reading": "どっと",
+"en": "suddenly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:整う",
+"text": "整う",
+"reading": "ととのう",
+"en": "to be prepared, to be in order, to be arranged",
+"level": "N2"
+},
+{
+"id": "ja:vocab:留まる",
+"text": "留まる",
+"reading": "とどまる",
+"en": "to be fixed; to abide, to stay (in the one place)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:怒鳴る",
+"text": "怒鳴る",
+"reading": "どなる",
+"en": "to shout, to yell",
+"level": "N2"
+},
+{
+"id": "ja:vocab:殿",
+"text": "殿",
+"reading": "どの",
+"en": "Mister (mostly in addressing someone on an envelope)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:飛び込む",
+"text": "飛び込む",
+"reading": "とびこむ",
+"en": "to jump in, to leap in, to plunge into",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ともかく",
+"text": "ともかく",
+"reading": "ともかく",
+"en": "anyhow, at any rate, anyway",
+"level": "N2"
+},
+{
+"id": "ja:vocab:捕える",
+"text": "捕える",
+"reading": "とらえる",
+"en": "to seize, to capture, to arrest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:取り入れる",
+"text": "取り入れる",
+"reading": "とりいれる",
+"en": "to harvest, to take in, to adopt",
+"level": "N2"
+},
+{
+"id": "ja:vocab:取り消す",
+"text": "取り消す",
+"reading": "とりけす",
+"en": "to cancel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:取り出す",
+"text": "取り出す",
+"reading": "とりだす",
+"en": "to take out, to pick out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:採る",
+"text": "採る",
+"reading": "とる",
+"en": "to adopt (measure, proposal); to pick (fruit)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:捕る",
+"text": "捕る",
+"reading": "とる",
+"en": "to take, to catch (fish)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:丼",
+"text": "丼",
+"reading": "どんぶり",
+"en": "porcelain bowl, bowl of rice with food on top",
+"level": "N2"
+},
+{
+"id": "ja:vocab:内科",
+"text": "内科",
+"reading": "ないか",
+"en": "internist clinic, internal medicine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:内線",
+"text": "内線",
+"reading": "ないせん",
+"en": "phone extension",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ナイロン",
+"text": "ナイロン",
+"reading": "ナイロン",
+"en": "nylon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:仲直り",
+"text": "仲直り",
+"reading": "なかなおり",
+"en": "reconciliation, make peace with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:長引く",
+"text": "長引く",
+"reading": "ながびく",
+"en": "to be prolonged, to drag on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:中指",
+"text": "中指",
+"reading": "なかゆび",
+"en": "middle finger",
+"level": "N2"
+},
+{
+"id": "ja:vocab:仲良し",
+"text": "仲良し",
+"reading": "なかよし",
+"en": "intimate friend, bosom buddy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:慰める",
+"text": "慰める",
+"reading": "なぐさめる",
+"en": "to comfort, to console",
+"level": "N2"
+},
+{
+"id": "ja:vocab:為す",
+"text": "為す",
+"reading": "なす",
+"en": "to accomplish, to do",
+"level": "N2"
+},
+{
+"id": "ja:vocab:謎謎",
+"text": "謎謎",
+"reading": "なぞなぞ",
+"en": "riddle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:傾らか",
+"text": "傾らか",
+"reading": "なだらか",
+"en": "gradual, gentle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:懐かしい",
+"text": "懐かしい",
+"reading": "なつかしい",
+"en": "dear, desired, missed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:撫でる",
+"text": "撫でる",
+"reading": "なでる",
+"en": "to brush gently, to stroke",
+"level": "N2"
+},
+{
+"id": "ja:vocab:斜め",
+"text": "斜め",
+"reading": "ななめ",
+"en": "diagonal, oblique",
+"level": "N2"
+},
+{
+"id": "ja:vocab:なにしろ",
+"text": "なにしろ",
+"reading": "なにしろ",
+"en": "at any rate, in any case",
+"level": "N2"
+},
+{
+"id": "ja:vocab:何しろ",
+"text": "何しろ",
+"reading": "なにしろ",
+"en": "in any case, at any rate, anyhow, anyway, as you know, for you see, particularly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:何々",
+"text": "何々",
+"reading": "なになに",
+"en": "such and such, What?",
+"level": "N2"
+},
+{
+"id": "ja:vocab:何分",
+"text": "何分",
+"reading": "なにぶん",
+"en": "by all means, please",
+"level": "N2"
+},
+{
+"id": "ja:vocab:生意気",
+"text": "生意気",
+"reading": "なまいき",
+"en": "impertinent, impudent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:生意気な",
+"text": "生意気な",
+"reading": "なまいきな",
+"en": "impertinent, saucy, cheeky, impudent, audacious, cocky, pert, brash",
+"level": "N2"
+},
+{
+"id": "ja:vocab:並木",
+"text": "並木",
+"reading": "なみき",
+"en": "roadside tree, row of trees",
+"level": "N2"
+},
+{
+"id": "ja:vocab:倣う",
+"text": "倣う",
+"reading": "ならう",
+"en": "to imitate, to follow, to emulate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:南極",
+"text": "南極",
+"reading": "なんきょく",
+"en": "south pole, Antarctic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:なんとなく",
+"text": "なんとなく",
+"reading": "なんとなく",
+"en": "somehow or other, for some reason or another",
+"level": "N2"
+},
+{
+"id": "ja:vocab:なんとも",
+"text": "なんとも",
+"reading": "なんとも",
+"en": "nothing (with neg. verb), quite, not a bit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:何とも",
+"text": "何とも",
+"reading": "なんとも",
+"en": "really, very, extremely, terribly, awfully (not) anything, (not) at all, (not) a bit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ナンバー",
+"text": "ナンバー",
+"reading": "ナンバー",
+"en": "number",
+"level": "N2"
+},
+{
+"id": "ja:vocab:南米",
+"text": "南米",
+"reading": "なんべい",
+"en": "South America",
+"level": "N2"
+},
+{
+"id": "ja:vocab:南北",
+"text": "南北",
+"reading": "なんぼく",
+"en": "south and north",
+"level": "N2"
+},
+{
+"id": "ja:vocab:匂う",
+"text": "匂う",
+"reading": "におう",
+"en": "to be fragrant, to smell",
+"level": "N2"
+},
+{
+"id": "ja:vocab:逃がす",
+"text": "逃がす",
+"reading": "にがす",
+"en": "to let loose, to set free, to let escape",
+"level": "N2"
+},
+{
+"id": "ja:vocab:憎い",
+"text": "憎い",
+"reading": "にくい",
+"en": "hateful, abominable, detestable",
+"level": "N2"
+},
+{
+"id": "ja:vocab:憎む",
+"text": "憎む",
+"reading": "にくむ",
+"en": "to hate, to detest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:憎らしい",
+"text": "憎らしい",
+"reading": "にくらしい",
+"en": "odious, hateful",
+"level": "N2"
+},
+{
+"id": "ja:vocab:にこにこ",
+"text": "にこにこ",
+"reading": "にこにこ",
+"en": "smile sweetly, smiley",
+"level": "N2"
+},
+{
+"id": "ja:vocab:濁る",
+"text": "濁る",
+"reading": "にごる",
+"en": "to become muddy, to get cloudy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:虹",
+"text": "虹",
+"reading": "にじ",
+"en": "rainbow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日時",
+"text": "日時",
+"reading": "にちじ",
+"en": "date and time",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日用品",
+"text": "日用品",
+"reading": "にちようひん",
+"en": "daily necessities",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日課",
+"text": "日課",
+"reading": "にっか",
+"en": "daily work, daily routine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日程",
+"text": "日程",
+"reading": "にってい",
+"en": "schedule",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鈍い",
+"text": "鈍い",
+"reading": "にぶい",
+"en": "dull (e.g., a knife), thickheaded, slow (opposite of fast), stupid",
+"level": "N2"
+},
+{
+"id": "ja:vocab:入社",
+"text": "入社",
+"reading": "にゅうしゃ",
+"en": "entry to a company",
+"level": "N2"
+},
+{
+"id": "ja:vocab:女房",
+"text": "女房",
+"reading": "にょうぼう",
+"en": "wife",
+"level": "N2"
+},
+{
+"id": "ja:vocab:睨む",
+"text": "睨む",
+"reading": "にらむ",
+"en": "to glare at, to stare; to keep an eye on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:俄",
+"text": "俄",
+"reading": "にわか",
+"en": "sudden, abrupt, unexpected",
+"level": "N2"
+},
+{
+"id": "ja:vocab:縫う",
+"text": "縫う",
+"reading": "ぬう",
+"en": "to sew",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ねじ",
+"text": "ねじ",
+"reading": "ねじ",
+"en": "(a) screw",
+"level": "N2"
+},
+{
+"id": "ja:vocab:捩る",
+"text": "捩る",
+"reading": "ねじる",
+"en": "to twist",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ネックレス",
+"text": "ネックレス",
+"reading": "ネックレス",
+"en": "necklace",
+"level": "N2"
+},
+{
+"id": "ja:vocab:熱する",
+"text": "熱する",
+"reading": "ねっする",
+"en": "to heat",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寝間着",
+"text": "寝間着",
+"reading": "ねまき",
+"en": "sleep-wear, pajamas",
+"level": "N2"
+},
+{
+"id": "ja:vocab:寝巻",
+"text": "寝巻",
+"reading": "ねまき",
+"en": "sleep-wear, pajamas",
+"level": "N2"
+},
+{
+"id": "ja:vocab:狙い",
+"text": "狙い",
+"reading": "ねらい",
+"en": "aim",
+"level": "N2"
+},
+{
+"id": "ja:vocab:狙う",
+"text": "狙う",
+"reading": "ねらう",
+"en": "to aim at",
+"level": "N2"
+},
+{
+"id": "ja:vocab:年度",
+"text": "年度",
+"reading": "ねんど",
+"en": "year, fiscal year",
+"level": "N2"
+},
+{
+"id": "ja:vocab:農産物",
+"text": "農産物",
+"reading": "のうさんぶつ",
+"en": "agricultural produce",
+"level": "N2"
+},
+{
+"id": "ja:vocab:農村",
+"text": "農村",
+"reading": "のうそん",
+"en": "agricultural community",
+"level": "N2"
+},
+{
+"id": "ja:vocab:濃度",
+"text": "濃度",
+"reading": "のうど",
+"en": "concentration, density",
+"level": "N2"
+},
+{
+"id": "ja:vocab:農薬",
+"text": "農薬",
+"reading": "のうやく",
+"en": "agricultural chemicals",
+"level": "N2"
+},
+{
+"id": "ja:vocab:能率",
+"text": "能率",
+"reading": "のうりつ",
+"en": "efficiency",
+"level": "N2"
+},
+{
+"id": "ja:vocab:のこぎり",
+"text": "のこぎり",
+"reading": "のこぎり",
+"en": "saw",
+"level": "N2"
+},
+{
+"id": "ja:vocab:残らず",
+"text": "残らず",
+"reading": "のこらず",
+"en": "completely, without exception",
+"level": "N2"
+},
+{
+"id": "ja:vocab:上り",
+"text": "上り",
+"reading": "のぼり",
+"en": "up-train (going to Tokyo), ascent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:糊",
+"text": "糊",
+"reading": "のり",
+"en": "glue, paste, starch",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乗換",
+"text": "乗換",
+"reading": "のりかえ",
+"en": "a transfer (e.g., trains, buses)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乗り換え",
+"text": "乗り換え",
+"reading": "のりかえ",
+"en": "(n) transfer (trains, buses, etc.)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乗り越し",
+"text": "乗り越し",
+"reading": "のりこし",
+"en": "riding past (one's station)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:のろのろ",
+"text": "のろのろ",
+"reading": "のろのろ",
+"en": "slowly, sluggishly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:呑気",
+"text": "呑気",
+"reading": "のんき",
+"en": "carefree, optimistic, careless",
+"level": "N2"
+},
+{
+"id": "ja:vocab:はい (かん)",
+"text": "はい (かん)",
+"reading": "はい (かん)",
+"en": "yes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:灰色",
+"text": "灰色",
+"reading": "はいいろ",
+"en": "grey, ashen",
+"level": "N2"
+},
+{
+"id": "ja:vocab:俳句",
+"text": "俳句",
+"reading": "はいく",
+"en": "haiku poetry",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売店",
+"text": "売店",
+"reading": "ばいてん",
+"en": "shop, stand",
+"level": "N2"
+},
+{
+"id": "ja:vocab:バイバイ",
+"text": "バイバイ",
+"reading": "バイバイ",
+"en": "bye bye",
+"level": "N2"
+},
+{
+"id": "ja:vocab:売買",
+"text": "売買",
+"reading": "ばいばい",
+"en": "trade, buying and selling",
+"level": "N2"
+},
+{
+"id": "ja:vocab:這う",
+"text": "這う",
+"reading": "はう",
+"en": "to creep, to crawl",
+"level": "N2"
+},
+{
+"id": "ja:vocab:剥す",
+"text": "剥す",
+"reading": "はがす",
+"en": "to tear off, to peel off, to rip off",
+"level": "N2"
+},
+{
+"id": "ja:vocab:剥がす",
+"text": "剥がす",
+"reading": "はがす",
+"en": "to tear off, to peel off, to rip off, to strip off, to skin, to flay, to disrobe, to deprive of, to detach, to disconnect",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ばからしい",
+"text": "ばからしい",
+"reading": "ばからしい",
+"en": "absurd",
+"level": "N2"
+},
+{
+"id": "ja:vocab:秤",
+"text": "秤",
+"reading": "はかり",
+"en": "scales, weighing machine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:吐き気",
+"text": "吐き気",
+"reading": "はきけ",
+"en": "nausea, sickness in the stomach",
+"level": "N2"
+},
+{
+"id": "ja:vocab:はきはき",
+"text": "はきはき",
+"reading": "はきはき",
+"en": "clearly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:歯車",
+"text": "歯車",
+"reading": "はぐるま",
+"en": "gear, cog-wheel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:バケツ",
+"text": "バケツ",
+"reading": "バケツ",
+"en": "bucket, pail",
+"level": "N2"
+},
+{
+"id": "ja:vocab:挟まる",
+"text": "挟まる",
+"reading": "はさまる",
+"en": "to get between, to be caught in",
+"level": "N2"
+},
+{
+"id": "ja:vocab:挟む",
+"text": "挟む",
+"reading": "はさむ",
+"en": "to pinch; to hold between; to insert",
+"level": "N2"
+},
+{
+"id": "ja:vocab:梯子",
+"text": "梯子",
+"reading": "はしご",
+"en": "ladder, stairs",
+"level": "N2"
+},
+{
+"id": "ja:vocab:始めに",
+"text": "始めに",
+"reading": "はじめに",
+"en": "to begin with, first of all",
+"level": "N2"
+},
+{
+"id": "ja:vocab:初めに",
+"text": "初めに",
+"reading": "はじめに",
+"en": "to begin with, first of all",
+"level": "N2"
+},
+{
+"id": "ja:vocab:はじめまして",
+"text": "はじめまして",
+"reading": "はじめまして",
+"en": "How do you do, I am glad to meet you",
+"level": "N2"
+},
+{
+"id": "ja:vocab:斜",
+"text": "斜",
+"reading": "はす",
+"en": "diagonal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:パターン",
+"text": "パターン",
+"reading": "パターン",
+"en": "pattern",
+"level": "N2"
+},
+{
+"id": "ja:vocab:肌着",
+"text": "肌着",
+"reading": "はだぎ",
+"en": "underwear",
+"level": "N2"
+},
+{
+"id": "ja:vocab:果して",
+"text": "果して",
+"reading": "はたして",
+"en": "as was expected, really",
+"level": "N2"
+},
+{
+"id": "ja:vocab:果たして",
+"text": "果たして",
+"reading": "はたして",
+"en": "as was expected, just as one thought, sure enough",
+"level": "N2"
+},
+{
+"id": "ja:vocab:鉢",
+"text": "鉢",
+"reading": "はち",
+"en": "a bowl, a pot",
+"level": "N2"
+},
+{
+"id": "ja:vocab:×",
+"text": "×",
+"reading": "ばつ",
+"en": "cross",
+"level": "N2"
+},
+{
+"id": "ja:vocab:発揮",
+"text": "発揮",
+"reading": "はっき",
+"en": "exhibition, demonstration, display",
+"level": "N2"
+},
+{
+"id": "ja:vocab:バック",
+"text": "バック",
+"reading": "バック",
+"en": "back",
+"level": "N2"
+},
+{
+"id": "ja:vocab:発想",
+"text": "発想",
+"reading": "はっそう",
+"en": "idea; way of thinking (same as 考え方 (かんがえかた))",
+"level": "N2"
+},
+{
+"id": "ja:vocab:発電",
+"text": "発電",
+"reading": "はつでん",
+"en": "generation (e.g., power)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:発売",
+"text": "発売",
+"reading": "はつばい",
+"en": "sale",
+"level": "N2"
+},
+{
+"id": "ja:vocab:話合い",
+"text": "話合い",
+"reading": "はなしあい",
+"en": "discussion, talk",
+"level": "N2"
+},
+{
+"id": "ja:vocab:話し合い",
+"text": "話し合い",
+"reading": "はなしあい",
+"en": "discussion, talk, conference",
+"level": "N2"
+},
+{
+"id": "ja:vocab:話し掛ける",
+"text": "話し掛ける",
+"reading": "はなしかける",
+"en": "to accost a person, to talk (to someone)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:話中",
+"text": "話中",
+"reading": "はなしちゅう",
+"en": "while talking, the line is busy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:甚だしい",
+"text": "甚だしい",
+"reading": "はなはだしい",
+"en": "extreme, excessive, terrible",
+"level": "N2"
+},
+{
+"id": "ja:vocab:花火",
+"text": "花火",
+"reading": "はなび",
+"en": "fireworks",
+"level": "N2"
+},
+{
+"id": "ja:vocab:花嫁",
+"text": "花嫁",
+"reading": "はなよめ",
+"en": "bride",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ばね",
+"text": "ばね",
+"reading": "ばね",
+"en": "spring (e.g., coil, leaf)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:跳ねる",
+"text": "跳ねる",
+"reading": "はねる",
+"en": "to jump, to leap",
+"level": "N2"
+},
+{
+"id": "ja:vocab:破片",
+"text": "破片",
+"reading": "はへん",
+"en": "fragment, broken piece",
+"level": "N2"
+},
+{
+"id": "ja:vocab:歯磨き",
+"text": "歯磨き",
+"reading": "はみがき",
+"en": "toothbrushing, toothpaste",
+"level": "N2"
+},
+{
+"id": "ja:vocab:はめる",
+"text": "はめる",
+"reading": "はめる",
+"en": "(col) to get in, to insert, to put on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:早口",
+"text": "早口",
+"reading": "はやくち",
+"en": "fast-talking",
+"level": "N2"
+},
+{
+"id": "ja:vocab:払い込む",
+"text": "払い込む",
+"reading": "はらいこむ",
+"en": "to deposit, to pay in",
+"level": "N2"
+},
+{
+"id": "ja:vocab:払い戻す",
+"text": "払い戻す",
+"reading": "はらいもどす",
+"en": "to repay, to pay back",
+"level": "N2"
+},
+{
+"id": "ja:vocab:針金",
+"text": "針金",
+"reading": "はりがね",
+"en": "wire",
+"level": "N2"
+},
+{
+"id": "ja:vocab:張り切る",
+"text": "張り切る",
+"reading": "はりきる",
+"en": "to be in high spirits, to be full of vigor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:反",
+"text": "反",
+"reading": "はん",
+"en": "anti ~, counter ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:反映",
+"text": "反映",
+"reading": "はんえい",
+"en": "reflection, influence",
+"level": "N2"
+},
+{
+"id": "ja:vocab:半径",
+"text": "半径",
+"reading": "はんけい",
+"en": "radius",
+"level": "N2"
+},
+{
+"id": "ja:vocab:判子",
+"text": "判子",
+"reading": "はんこ",
+"en": "seal (used for signature)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:万歳",
+"text": "万歳",
+"reading": "ばんざい",
+"en": "banzai, Long live ~!",
+"level": "N2"
+},
+{
+"id": "ja:vocab:判事",
+"text": "判事",
+"reading": "はんじ",
+"en": "judge, justice",
+"level": "N2"
+},
+{
+"id": "ja:vocab:番地",
+"text": "番地",
+"reading": "ばんち",
+"en": "house number, address",
+"level": "N2"
+},
+{
+"id": "ja:vocab:パンツ",
+"text": "パンツ",
+"reading": "パンツ",
+"en": "underpants",
+"level": "N2"
+},
+{
+"id": "ja:vocab:バンド",
+"text": "バンド",
+"reading": "バンド",
+"en": "band",
+"level": "N2"
+},
+{
+"id": "ja:vocab:半島",
+"text": "半島",
+"reading": "はんとう",
+"en": "peninsula",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ハンドル",
+"text": "ハンドル",
+"reading": "ハンドル",
+"en": "handle, steering wheel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:非",
+"text": "非",
+"reading": "ひ",
+"en": "anti~, counter~, an~, non~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日当たり",
+"text": "日当たり",
+"reading": "ひあたり",
+"en": "exposure to the sun, sunny place",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日帰り",
+"text": "日帰り",
+"reading": "ひがえり",
+"en": "day trip",
+"level": "N2"
+},
+{
+"id": "ja:vocab:比較的",
+"text": "比較的",
+"reading": "ひかくてき",
+"en": "comparatively; relatively",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日陰",
+"text": "日陰",
+"reading": "ひかげ",
+"en": "shadow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぴかぴか",
+"text": "ぴかぴか",
+"reading": "ぴかぴか",
+"en": "glitter, sparkle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引受る",
+"text": "引受る",
+"reading": "ひきうける",
+"en": "to undertake, to take up, to take over",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引き返す",
+"text": "引き返す",
+"reading": "ひきかえす",
+"en": "to turn back, to go back, reverse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引算",
+"text": "引算",
+"reading": "ひきざん",
+"en": "subtraction",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引き出す",
+"text": "引き出す",
+"reading": "ひきだす",
+"en": "to pull out, to take out, to withdraw",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引き止める",
+"text": "引き止める",
+"reading": "ひきとめる",
+"en": "to keep back, to prevent, to hold back",
+"level": "N2"
+},
+{
+"id": "ja:vocab:卑怯",
+"text": "卑怯",
+"reading": "ひきょう",
+"en": "cowardice, meanness, unfairness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引分け",
+"text": "引分け",
+"reading": "ひきわけ",
+"en": "a draw (in competition), tie game",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引き分け",
+"text": "引き分け",
+"reading": "ひきわけ",
+"en": "draw (in competition), tie game",
+"level": "N2"
+},
+{
+"id": "ja:vocab:陽射",
+"text": "陽射",
+"reading": "ひざし",
+"en": "sunlight, rays of the sun",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日差し",
+"text": "日差し",
+"reading": "ひざし",
+"en": "sunlight",
+"level": "N2"
+},
+{
+"id": "ja:vocab:肘",
+"text": "肘",
+"reading": "ひじ",
+"en": "elbow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ピストル",
+"text": "ピストル",
+"reading": "ピストル",
+"en": "pistol",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ビタミン",
+"text": "ビタミン",
+"reading": "ビタミン",
+"en": "vitamin",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぴたり",
+"text": "ぴたり",
+"reading": "ぴたり",
+"en": "exactly; close-fitting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引っ掛かる",
+"text": "引っ掛かる",
+"reading": "ひっかかる",
+"en": "to be caught in, to be stuck in",
+"level": "N2"
+},
+{
+"id": "ja:vocab:筆記",
+"text": "筆記",
+"reading": "ひっき",
+"en": "note taking, writing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引っ繰り返す",
+"text": "引っ繰り返す",
+"reading": "ひっくりかえす",
+"en": "to turn over, to overturn, to knock over",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引っ繰り返る",
+"text": "引っ繰り返る",
+"reading": "ひっくりかえる",
+"en": "to be overturned, to be upset, to topple over, to be reversed",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引っ越し",
+"text": "引っ越し",
+"reading": "ひっこし",
+"en": "moving (dwelling, office, etc.), changing residence",
+"level": "N2"
+},
+{
+"id": "ja:vocab:引っ込む",
+"text": "引っ込む",
+"reading": "ひっこむ",
+"en": "to draw back, to sink, to cave in",
+"level": "N2"
+},
+{
+"id": "ja:vocab:筆者",
+"text": "筆者",
+"reading": "ひっしゃ",
+"en": "writer, author",
+"level": "N2"
+},
+{
+"id": "ja:vocab:必需品",
+"text": "必需品",
+"reading": "ひつじゅひん",
+"en": "necessities, essential",
+"level": "N2"
+},
+{
+"id": "ja:vocab:人差指",
+"text": "人差指",
+"reading": "ひとさしゆび",
+"en": "index finger",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一通り",
+"text": "一通り",
+"reading": "ひととおり",
+"en": "general, briefly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:人通り",
+"text": "人通り",
+"reading": "ひとどおり",
+"en": "pedestrian traffic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ひとまず",
+"text": "ひとまず",
+"reading": "ひとまず",
+"en": "for the present, once, for the time being",
+"level": "N2"
+},
+{
+"id": "ja:vocab:瞳",
+"text": "瞳",
+"reading": "ひとみ",
+"en": "pupil (of eye)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:一休み",
+"text": "一休み",
+"reading": "ひとやすみ",
+"en": "a rest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:独り言",
+"text": "独り言",
+"reading": "ひとりごと",
+"en": "a soliloquy, a monologue, speaking to oneself",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ひとりでに",
+"text": "ひとりでに",
+"reading": "ひとりでに",
+"en": "by itself, automatically, naturally",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ビニール",
+"text": "ビニール",
+"reading": "ビニール",
+"en": "vinyl",
+"level": "N2"
+},
+{
+"id": "ja:vocab:皮肉",
+"text": "皮肉",
+"reading": "ひにく",
+"en": "cynicism, sarcasm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日日",
+"text": "日日",
+"reading": "ひにち",
+"en": "date",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日にち",
+"text": "日にち",
+"reading": "ひにち",
+"en": "date (of a planned event, act, etc.), day",
+"level": "N2"
+},
+{
+"id": "ja:vocab:捻る",
+"text": "捻る",
+"reading": "ひねる",
+"en": "to twist, to turn",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日の入り",
+"text": "日の入り",
+"reading": "ひのいり",
+"en": "sunset",
+"level": "N2"
+},
+{
+"id": "ja:vocab:日の出",
+"text": "日の出",
+"reading": "ひので",
+"en": "sunrise",
+"level": "N2"
+},
+{
+"id": "ja:vocab:響き",
+"text": "響き",
+"reading": "ひびき",
+"en": "echo, sound",
+"level": "N2"
+},
+{
+"id": "ja:vocab:響く",
+"text": "響く",
+"reading": "ひびく",
+"en": "to resound; to affect",
+"level": "N2"
+},
+{
+"id": "ja:vocab:皮膚",
+"text": "皮膚",
+"reading": "ひふ",
+"en": "skin",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ひゃっかじてん",
+"text": "ひゃっかじてん",
+"reading": "ひゃっかじてん",
+"en": "encyclopedia",
+"level": "N2"
+},
+{
+"id": "ja:vocab:百科事典",
+"text": "百科事典",
+"reading": "ひゃっかじてん",
+"en": "encyclopedia",
+"level": "N2"
+},
+{
+"id": "ja:vocab:美容",
+"text": "美容",
+"reading": "びよう",
+"en": "beauty of figure or form",
+"level": "N2"
+},
+{
+"id": "ja:vocab:表紙",
+"text": "表紙",
+"reading": "ひょうし",
+"en": "front cover, binding",
+"level": "N2"
+},
+{
+"id": "ja:vocab:標識",
+"text": "標識",
+"reading": "ひょうしき",
+"en": "sign, mark",
+"level": "N2"
+},
+{
+"id": "ja:vocab:標準",
+"text": "標準",
+"reading": "ひょうじゅん",
+"en": "standard, level",
+"level": "N2"
+},
+{
+"id": "ja:vocab:標本",
+"text": "標本",
+"reading": "ひょうほん",
+"en": "example, specimen",
+"level": "N2"
+},
+{
+"id": "ja:vocab:評論",
+"text": "評論",
+"reading": "ひょうろん",
+"en": "criticism, critique",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ビルディング",
+"text": "ビルディング",
+"reading": "ビルディング",
+"en": "building",
+"level": "N2"
+},
+{
+"id": "ja:vocab:昼寝",
+"text": "昼寝",
+"reading": "ひるね",
+"en": "nap (at home), siesta",
+"level": "N2"
+},
+{
+"id": "ja:vocab:広さ",
+"text": "広さ",
+"reading": "ひろさ",
+"en": "extent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:広場",
+"text": "広場",
+"reading": "ひろば",
+"en": "plaza",
+"level": "N2"
+},
+{
+"id": "ja:vocab:広々",
+"text": "広々",
+"reading": "ひろびろ",
+"en": "extensive, spacious",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ピンク",
+"text": "ピンク",
+"reading": "ピンク",
+"en": "pink",
+"level": "N2"
+},
+{
+"id": "ja:vocab:便箋",
+"text": "便箋",
+"reading": "びんせん",
+"en": "writing paper, stationery",
+"level": "N2"
+},
+{
+"id": "ja:vocab:瓶詰",
+"text": "瓶詰",
+"reading": "びんづめ",
+"en": "bottling, bottled",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ファスナー",
+"text": "ファスナー",
+"reading": "ファスナー",
+"en": "fastener, zipper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:風船",
+"text": "風船",
+"reading": "ふうせん",
+"en": "balloon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:不運",
+"text": "不運",
+"reading": "ふうん",
+"en": "unlucky, misfortune, bad luck",
+"level": "N2"
+},
+{
+"id": "ja:vocab:不規則",
+"text": "不規則",
+"reading": "ふきそく",
+"en": "irregularity, unsteadiness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:普及",
+"text": "普及",
+"reading": "ふきゅう",
+"en": "diffusion, spread",
+"level": "N2"
+},
+{
+"id": "ja:vocab:付近",
+"text": "付近",
+"reading": "ふきん",
+"en": "neighborhood, vicinity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:副",
+"text": "副",
+"reading": "ふく",
+"en": "vice ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:副詞",
+"text": "副詞",
+"reading": "ふくし",
+"en": "adverb",
+"level": "N2"
+},
+{
+"id": "ja:vocab:複写",
+"text": "複写",
+"reading": "ふくしゃ",
+"en": "copy, duplicate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:複数",
+"text": "複数",
+"reading": "ふくすう",
+"en": "plural, multiple",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ふくめる",
+"text": "ふくめる",
+"reading": "ふくめる",
+"en": "to include, to instruct, to make one understand",
+"level": "N2"
+},
+{
+"id": "ja:vocab:膨らます",
+"text": "膨らます",
+"reading": "ふくらます",
+"en": "to swell, to expand, to inflate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:膨らむ",
+"text": "膨らむ",
+"reading": "ふくらむ",
+"en": "to expand, to swell (out), to become inflated",
+"level": "N2"
+},
+{
+"id": "ja:vocab:不潔",
+"text": "不潔",
+"reading": "ふけつ",
+"en": "unclean, dirty",
+"level": "N2"
+},
+{
+"id": "ja:vocab:更ける",
+"text": "更ける",
+"reading": "ふける",
+"en": "to get late, to wear on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:符号",
+"text": "符号",
+"reading": "ふごう",
+"en": "sign, mark, symbol",
+"level": "N2"
+},
+{
+"id": "ja:vocab:夫妻",
+"text": "夫妻",
+"reading": "ふさい",
+"en": "man and wife, married couple",
+"level": "N2"
+},
+{
+"id": "ja:vocab:塞がる",
+"text": "塞がる",
+"reading": "ふさがる",
+"en": "to be plugged up, to be shut up",
+"level": "N2"
+},
+{
+"id": "ja:vocab:塞ぐ",
+"text": "塞ぐ",
+"reading": "ふさぐ",
+"en": "to stuff, to close up, to block (up)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ふざける",
+"text": "ふざける",
+"reading": "ふざける",
+"en": "to romp, to gambol, to frolic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:無沙汰",
+"text": "無沙汰",
+"reading": "ぶさた",
+"en": "neglecting to stay in contact",
+"level": "N2"
+},
+{
+"id": "ja:vocab:武士",
+"text": "武士",
+"reading": "ぶし",
+"en": "warrior, samurai",
+"level": "N2"
+},
+{
+"id": "ja:vocab:部首",
+"text": "部首",
+"reading": "ぶしゅ",
+"en": "radical (of a kanji character)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:襖",
+"text": "襖",
+"reading": "ふすま",
+"en": "sliding screen",
+"level": "N2"
+},
+{
+"id": "ja:vocab:附属",
+"text": "附属",
+"reading": "ふぞく",
+"en": "attached, belonging, affiliated",
+"level": "N2"
+},
+{
+"id": "ja:vocab:付属",
+"text": "付属",
+"reading": "ふぞく",
+"en": "being attached (to), being affiliated (to), belonging (to), going with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蓋",
+"text": "蓋",
+"reading": "ふた",
+"en": "cover, lid, cap",
+"level": "N2"
+},
+{
+"id": "ja:vocab:物騒",
+"text": "物騒",
+"reading": "ぶっそう",
+"en": "dangerous, disturbed, insecure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぶつぶつ",
+"text": "ぶつぶつ",
+"reading": "ぶつぶつ",
+"en": "grumbling, complaining in a small voice",
+"level": "N2"
+},
+{
+"id": "ja:vocab:船便",
+"text": "船便",
+"reading": "ふなびん",
+"en": "surface mail (ship)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:部品",
+"text": "部品",
+"reading": "ぶひん",
+"en": "parts, accessories",
+"level": "N2"
+},
+{
+"id": "ja:vocab:吹雪",
+"text": "吹雪",
+"reading": "ふぶき",
+"en": "snow storm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:父母",
+"text": "父母",
+"reading": "ふぼ",
+"en": "father and mother, parents",
+"level": "N2"
+},
+{
+"id": "ja:vocab:踏切",
+"text": "踏切",
+"reading": "ふみきり",
+"en": "railway crossing, level crossing, starting line, scratch, crossover",
+"level": "N2"
+},
+{
+"id": "ja:vocab:麓",
+"text": "麓",
+"reading": "ふもと",
+"en": "the foot, the bottom, the base (of a mountain)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:フライパン",
+"text": "フライパン",
+"reading": "フライパン",
+"en": "fry pan, frying pan",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ブラウス",
+"text": "ブラウス",
+"reading": "ブラウス",
+"en": "blouse",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぶらさげる",
+"text": "ぶらさげる",
+"reading": "ぶらさげる",
+"en": "to hang, to suspend, to swing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ブラシ",
+"text": "ブラシ",
+"reading": "ブラシ",
+"en": "brush",
+"level": "N2"
+},
+{
+"id": "ja:vocab:プラットホーム",
+"text": "プラットホーム",
+"reading": "プラットホーム",
+"en": "platform",
+"level": "N2"
+},
+{
+"id": "ja:vocab:フリー",
+"text": "フリー",
+"reading": "フリー",
+"en": "free",
+"level": "N2"
+},
+{
+"id": "ja:vocab:振り仮名",
+"text": "振り仮名",
+"reading": "ふりがな",
+"en": "pronunciation key",
+"level": "N2"
+},
+{
+"id": "ja:vocab:振り向く",
+"text": "振り向く",
+"reading": "ふりむく",
+"en": "to turn one's face, to turn around",
+"level": "N2"
+},
+{
+"id": "ja:vocab:プリント",
+"text": "プリント",
+"reading": "プリント",
+"en": "print, handout",
+"level": "N2"
+},
+{
+"id": "ja:vocab:古",
+"text": "古",
+"reading": "ふる",
+"en": "old ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:古里",
+"text": "古里",
+"reading": "ふるさと",
+"en": "home town, birthplace",
+"level": "N2"
+},
+{
+"id": "ja:vocab:振舞う",
+"text": "振舞う",
+"reading": "ふるまう",
+"en": "to behave, to conduct",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ブローチ",
+"text": "ブローチ",
+"reading": "ブローチ",
+"en": "brooch",
+"level": "N2"
+},
+{
+"id": "ja:vocab:プログラム",
+"text": "プログラム",
+"reading": "プログラム",
+"en": "program",
+"level": "N2"
+},
+{
+"id": "ja:vocab:風呂敷",
+"text": "風呂敷",
+"reading": "ふろしき",
+"en": "wrapping cloth, cloth wrapper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ふわふわ",
+"text": "ふわふわ",
+"reading": "ふわふわ",
+"en": "light, soft",
+"level": "N2"
+},
+{
+"id": "ja:vocab:噴火",
+"text": "噴火",
+"reading": "ふんか",
+"en": "eruption",
+"level": "N2"
+},
+{
+"id": "ja:vocab:分解",
+"text": "分解",
+"reading": "ぶんかい",
+"en": "analysis, disassembly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:文芸",
+"text": "文芸",
+"reading": "ぶんげい",
+"en": "literature, art and literature",
+"level": "N2"
+},
+{
+"id": "ja:vocab:文献",
+"text": "文献",
+"reading": "ぶんけん",
+"en": "literature, books (reference)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:噴水",
+"text": "噴水",
+"reading": "ふんすい",
+"en": "water fountain",
+"level": "N2"
+},
+{
+"id": "ja:vocab:分数",
+"text": "分数",
+"reading": "ぶんすう",
+"en": "fraction (in math)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:文体",
+"text": "文体",
+"reading": "ぶんたい",
+"en": "literary style",
+"level": "N2"
+},
+{
+"id": "ja:vocab:分布",
+"text": "分布",
+"reading": "ぶんぷ",
+"en": "distribution",
+"level": "N2"
+},
+{
+"id": "ja:vocab:文房具",
+"text": "文房具",
+"reading": "ぶんぼうぐ",
+"en": "stationery",
+"level": "N2"
+},
+{
+"id": "ja:vocab:文脈",
+"text": "文脈",
+"reading": "ぶんみゃく",
+"en": "context",
+"level": "N2"
+},
+{
+"id": "ja:vocab:分量",
+"text": "分量",
+"reading": "ぶんりょう",
+"en": "amount, quantity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:分類",
+"text": "分類",
+"reading": "ぶんるい",
+"en": "classification",
+"level": "N2"
+},
+{
+"id": "ja:vocab:閉会",
+"text": "閉会",
+"reading": "へいかい",
+"en": "closure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:平気",
+"text": "平気",
+"reading": "へいき",
+"en": "coolness, calmness, unconcern",
+"level": "N2"
+},
+{
+"id": "ja:vocab:並行",
+"text": "並行",
+"reading": "へいこう",
+"en": "(going) side by side, concurrent, at the same time",
+"level": "N2"
+},
+{
+"id": "ja:vocab:平日",
+"text": "平日",
+"reading": "へいじつ",
+"en": "weekday",
+"level": "N2"
+},
+{
+"id": "ja:vocab:兵隊",
+"text": "兵隊",
+"reading": "へいたい",
+"en": "soldier",
+"level": "N2"
+},
+{
+"id": "ja:vocab:平凡",
+"text": "平凡",
+"reading": "へいぼん",
+"en": "common, ordinary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:平野",
+"text": "平野",
+"reading": "へいや",
+"en": "plain, open field",
+"level": "N2"
+},
+{
+"id": "ja:vocab:凹む",
+"text": "凹む",
+"reading": "へこむ",
+"en": "to be dented, to be indented",
+"level": "N2"
+},
+{
+"id": "ja:vocab:へそ",
+"text": "へそ",
+"reading": "へそ",
+"en": "navel, belly-button",
+"level": "N2"
+},
+{
+"id": "ja:vocab:隔てる",
+"text": "隔てる",
+"reading": "へだてる",
+"en": "to be shut out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:別荘",
+"text": "別荘",
+"reading": "べっそう",
+"en": "villa; vacation home; summer cottage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:別々",
+"text": "別々",
+"reading": "べつべつ",
+"en": "separately, individually",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ベテラン",
+"text": "ベテラン",
+"reading": "ベテラン",
+"en": "veteran",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ヘリコプター",
+"text": "ヘリコプター",
+"reading": "ヘリコプター",
+"en": "helicopter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:編集",
+"text": "編集",
+"reading": "へんしゅう",
+"en": "editing, compilation, editorial (e.g., committee)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:便所",
+"text": "便所",
+"reading": "べんじょ",
+"en": "toilet, lavatory",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ペンチ",
+"text": "ペンチ",
+"reading": "ペンチ",
+"en": "pliers (lit: pinchers)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ボーナス",
+"text": "ボーナス",
+"reading": "ボーナス",
+"en": "bonus",
+"level": "N2"
+},
+{
+"id": "ja:vocab:防",
+"text": "防",
+"reading": "ぼう",
+"en": "~ prevention",
+"level": "N2"
+},
+{
+"id": "ja:vocab:望遠鏡",
+"text": "望遠鏡",
+"reading": "ぼうえんきょう",
+"en": "telescope",
+"level": "N2"
+},
+{
+"id": "ja:vocab:方角",
+"text": "方角",
+"reading": "ほうがく",
+"en": "direction, way",
+"level": "N2"
+},
+{
+"id": "ja:vocab:箒",
+"text": "箒",
+"reading": "ほうき",
+"en": "broom",
+"level": "N2"
+},
+{
+"id": "ja:vocab:方言",
+"text": "方言",
+"reading": "ほうげん",
+"en": "dialect",
+"level": "N2"
+},
+{
+"id": "ja:vocab:坊さん",
+"text": "坊さん",
+"reading": "ぼうさん",
+"en": "Buddhist priest, monk",
+"level": "N2"
+},
+{
+"id": "ja:vocab:防止",
+"text": "防止",
+"reading": "ぼうし",
+"en": "prevention, check",
+"level": "N2"
+},
+{
+"id": "ja:vocab:方針",
+"text": "方針",
+"reading": "ほうしん",
+"en": "objective, plan, policy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:法則",
+"text": "法則",
+"reading": "ほうそく",
+"en": "law, rule",
+"level": "N2"
+},
+{
+"id": "ja:vocab:包帯",
+"text": "包帯",
+"reading": "ほうたい",
+"en": "bandage",
+"level": "N2"
+},
+{
+"id": "ja:vocab:膨大",
+"text": "膨大",
+"reading": "ぼうだい",
+"en": "enormous, extensive",
+"level": "N2"
+},
+{
+"id": "ja:vocab:包丁",
+"text": "包丁",
+"reading": "ほうちょう",
+"en": "kitchen knife, carving knife",
+"level": "N2"
+},
+{
+"id": "ja:vocab:方程式",
+"text": "方程式",
+"reading": "ほうていしき",
+"en": "equation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:防犯",
+"text": "防犯",
+"reading": "ぼうはん",
+"en": "prevention of crime",
+"level": "N2"
+},
+{
+"id": "ja:vocab:方面",
+"text": "方面",
+"reading": "ほうめん",
+"en": "direction; area",
+"level": "N2"
+},
+{
+"id": "ja:vocab:坊や",
+"text": "坊や",
+"reading": "ぼうや",
+"en": "boy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:放る",
+"text": "放る",
+"reading": "ほうる",
+"en": "to let go",
+"level": "N2"
+},
+{
+"id": "ja:vocab:朗らか",
+"text": "朗らか",
+"reading": "ほがらか",
+"en": "bright, cheerful, melodious",
+"level": "N2"
+},
+{
+"id": "ja:vocab:朗らか(な)",
+"text": "朗らか(な)",
+"reading": "ほがらか(な)",
+"en": "cheerful, merry bright (sky, day, etc.), fine, clear",
+"level": "N2"
+},
+{
+"id": "ja:vocab:牧場",
+"text": "牧場",
+"reading": "ぼくじょう",
+"en": "farm (livestock); pasture land",
+"level": "N2"
+},
+{
+"id": "ja:vocab:牧畜",
+"text": "牧畜",
+"reading": "ぼくちく",
+"en": "stock-farming",
+"level": "N2"
+},
+{
+"id": "ja:vocab:保健",
+"text": "保健",
+"reading": "ほけん",
+"en": "health preservation, hygiene, sanitation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:募集",
+"text": "募集",
+"reading": "ぼしゅう",
+"en": "recruitment",
+"level": "N2"
+},
+{
+"id": "ja:vocab:干す",
+"text": "干す",
+"reading": "ほす",
+"en": "to air, to dry, to drink up",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ポスター",
+"text": "ポスター",
+"reading": "ポスター",
+"en": "poster",
+"level": "N2"
+},
+{
+"id": "ja:vocab:北極",
+"text": "北極",
+"reading": "ほっきょく",
+"en": "North Pole",
+"level": "N2"
+},
+{
+"id": "ja:vocab:坊っちゃん",
+"text": "坊っちゃん",
+"reading": "ぼっちゃん",
+"en": "son (of others)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:掘る",
+"text": "掘る",
+"reading": "ほる",
+"en": "to dig, to excavate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:彫る",
+"text": "彫る",
+"reading": "ほる",
+"en": "to carve, to chisel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ぼろ",
+"text": "ぼろ",
+"reading": "ぼろ",
+"en": "rag, tattered clothes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:盆",
+"text": "盆",
+"reading": "ぼん",
+"en": "Festival of the Dead; tray",
+"level": "N2"
+},
+{
+"id": "ja:vocab:盆地",
+"text": "盆地",
+"reading": "ぼんち",
+"en": "basin (e.g., between mountains)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ほんの",
+"text": "ほんの",
+"reading": "ほんの",
+"en": "mere, just",
+"level": "N2"
+},
+{
+"id": "ja:vocab:本部",
+"text": "本部",
+"reading": "ほんぶ",
+"en": "headquarters",
+"level": "N2"
+},
+{
+"id": "ja:vocab:本来",
+"text": "本来",
+"reading": "ほんらい",
+"en": "essentially, naturally, by nature",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まあまあ",
+"text": "まあまあ",
+"reading": "まあまあ",
+"en": "okay; so-so; decent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:枚数",
+"text": "枚数",
+"reading": "まいすう",
+"en": "the number of flat things",
+"level": "N2"
+},
+{
+"id": "ja:vocab:毎度",
+"text": "毎度",
+"reading": "まいど",
+"en": "each time, common service-sector greeting",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まく",
+"text": "まく",
+"reading": "まく",
+"en": "to wind, to coil, to roll",
+"level": "N2"
+},
+{
+"id": "ja:vocab:枕",
+"text": "枕",
+"reading": "まくら",
+"en": "pillow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:曲げる",
+"text": "曲げる",
+"reading": "まげる",
+"en": "to bend, to crook, to lean",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まごまご",
+"text": "まごまご",
+"reading": "まごまご",
+"en": "confused, be at a loss",
+"level": "N2"
+},
+{
+"id": "ja:vocab:摩擦",
+"text": "摩擦",
+"reading": "まさつ",
+"en": "friction; rubbing; chafe",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まざる",
+"text": "まざる",
+"reading": "まざる",
+"en": "to be mixed, to be blended with, to associate with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まじる",
+"text": "まじる",
+"reading": "まじる",
+"en": "to be mixed, to be blended with, to associate with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:マスク",
+"text": "マスク",
+"reading": "マスク",
+"en": "mask",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まぜる",
+"text": "まぜる",
+"reading": "まぜる",
+"en": "to mix, to stir",
+"level": "N2"
+},
+{
+"id": "ja:vocab:またぐ",
+"text": "またぐ",
+"reading": "またぐ",
+"en": "to straddle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:跨ぐ",
+"text": "跨ぐ",
+"reading": "またぐ",
+"en": "to step over/across, to stride over/across, to cross to stretch over, to span, to bridge, to saddle, to straddle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:待合室",
+"text": "待合室",
+"reading": "まちあいしつ",
+"en": "waiting room",
+"level": "N2"
+},
+{
+"id": "ja:vocab:待ち合わせる",
+"text": "待ち合わせる",
+"reading": "まちあわせる",
+"en": "to rendezvous, to meet at a prearranged place and time",
+"level": "N2"
+},
+{
+"id": "ja:vocab:街角",
+"text": "街角",
+"reading": "まちかど",
+"en": "street corner",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真っ暗",
+"text": "真っ暗",
+"reading": "まっくら",
+"en": "total darkness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真っ黒",
+"text": "真っ黒",
+"reading": "まっくろ",
+"en": "pitch black",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真っ青",
+"text": "真っ青",
+"reading": "まっさお",
+"en": "deep blue, ghastly pale",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真っ先",
+"text": "真っ先",
+"reading": "まっさき",
+"en": "foremost, beginning",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真っ白",
+"text": "真っ白",
+"reading": "まっしろ",
+"en": "pure white",
+"level": "N2"
+},
+{
+"id": "ja:vocab:祭る",
+"text": "祭る",
+"reading": "まつる",
+"en": "to deify, to enshrine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:窓口",
+"text": "窓口",
+"reading": "まどぐち",
+"en": "(ticket) window",
+"level": "N2"
+},
+{
+"id": "ja:vocab:真似る",
+"text": "真似る",
+"reading": "まねる",
+"en": "to mimic, to imitate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:まぶた",
+"text": "まぶた",
+"reading": "まぶた",
+"en": "eyelids",
+"level": "N2"
+},
+{
+"id": "ja:vocab:マフラー",
+"text": "マフラー",
+"reading": "マフラー",
+"en": "a winter scarf",
+"level": "N2"
+},
+{
+"id": "ja:vocab:間も無く",
+"text": "間も無く",
+"reading": "まもなく",
+"en": "soon, in a short time",
+"level": "N2"
+},
+{
+"id": "ja:vocab:間もなく",
+"text": "間もなく",
+"reading": "まもなく",
+"en": "soon, shortly, before long, in a short time, in a little while",
+"level": "N2"
+},
+{
+"id": "ja:vocab:マラソン",
+"text": "マラソン",
+"reading": "マラソン",
+"en": "marathon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:稀",
+"text": "稀",
+"reading": "まれ",
+"en": "rare, seldom",
+"level": "N2"
+},
+{
+"id": "ja:vocab:回り道",
+"text": "回り道",
+"reading": "まわりみち",
+"en": "detour",
+"level": "N2"
+},
+{
+"id": "ja:vocab:満員",
+"text": "満員",
+"reading": "まんいん",
+"en": "full house, no vacancy, sold out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:マンション",
+"text": "マンション",
+"reading": "マンション",
+"en": "multistory apartment house, condominium",
+"level": "N2"
+},
+{
+"id": "ja:vocab:満点",
+"text": "満点",
+"reading": "まんてん",
+"en": "perfect score",
+"level": "N2"
+},
+{
+"id": "ja:vocab:未",
+"text": "未",
+"reading": "み",
+"en": "not yet ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見上げる",
+"text": "見上げる",
+"reading": "みあげる",
+"en": "to look up at, to admire",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見送る",
+"text": "見送る",
+"reading": "みおくる",
+"en": "to see off; to escort; to let pass",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見下ろす",
+"text": "見下ろす",
+"reading": "みおろす",
+"en": "to overlook, to look down on something",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見掛け",
+"text": "見掛け",
+"reading": "みかけ",
+"en": "outward appearance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:三日月",
+"text": "三日月",
+"reading": "みかづき",
+"en": "crescent moon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:岬",
+"text": "岬",
+"reading": "みさき",
+"en": "cape (on coast)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:みじめ",
+"text": "みじめ",
+"reading": "みじめ",
+"en": "sad, pitiful, wretched",
+"level": "N2"
+},
+{
+"id": "ja:vocab:惨めな",
+"text": "惨めな",
+"reading": "みじめな",
+"en": "miserable, wretched, unhappy, sad, pitiable",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ミシン",
+"text": "ミシン",
+"reading": "ミシン",
+"en": "sewing machine",
+"level": "N2"
+},
+{
+"id": "ja:vocab:自ら",
+"text": "自ら",
+"reading": "みずから",
+"en": "for one's self, personally",
+"level": "N2"
+},
+{
+"id": "ja:vocab:水着",
+"text": "水着",
+"reading": "みずぎ",
+"en": "bathing suit (woman's)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:店屋",
+"text": "店屋",
+"reading": "みせや",
+"en": "store, shop",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見出し",
+"text": "見出し",
+"reading": "みだし",
+"en": "heading, index",
+"level": "N2"
+},
+{
+"id": "ja:vocab:道順",
+"text": "道順",
+"reading": "みちじゅん",
+"en": "itinerary, route",
+"level": "N2"
+},
+{
+"id": "ja:vocab:みっともない",
+"text": "みっともない",
+"reading": "みっともない",
+"en": "shameful, indecent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見詰める",
+"text": "見詰める",
+"reading": "みつめる",
+"en": "to stare at, to gaze at",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見直す",
+"text": "見直す",
+"reading": "みなおす",
+"en": "to look over again, to review",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見慣れる",
+"text": "見慣れる",
+"reading": "みなれる",
+"en": "to become used to seeing, to be familiar with",
+"level": "N2"
+},
+{
+"id": "ja:vocab:醜い",
+"text": "醜い",
+"reading": "みにくい",
+"en": "ugly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:実る",
+"text": "実る",
+"reading": "みのる",
+"en": "to bear fruit, to ripen",
+"level": "N2"
+},
+{
+"id": "ja:vocab:身分",
+"text": "身分",
+"reading": "みぶん",
+"en": "position, status",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見本",
+"text": "見本",
+"reading": "みほん",
+"en": "sample",
+"level": "N2"
+},
+{
+"id": "ja:vocab:見舞う",
+"text": "見舞う",
+"reading": "みまう",
+"en": "to ask after (health), to visit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:未満",
+"text": "未満",
+"reading": "みまん",
+"en": "less than, insufficient",
+"level": "N2"
+},
+{
+"id": "ja:vocab:名字",
+"text": "名字",
+"reading": "みょうじ",
+"en": "surname, family name",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ミリ (メートル)",
+"text": "ミリ (メートル)",
+"reading": "ミリ (メートル)",
+"en": "milli-",
+"level": "N2"
+},
+{
+"id": "ja:vocab:民間",
+"text": "民間",
+"reading": "みんかん",
+"en": "private, civilian",
+"level": "N2"
+},
+{
+"id": "ja:vocab:民主",
+"text": "民主",
+"reading": "みんしゅ",
+"en": "democratic",
+"level": "N2"
+},
+{
+"id": "ja:vocab:民謡",
+"text": "民謡",
+"reading": "みんよう",
+"en": "folk song, popular song",
+"level": "N2"
+},
+{
+"id": "ja:vocab:無限",
+"text": "無限",
+"reading": "むげん",
+"en": "infinite",
+"level": "N2"
+},
+{
+"id": "ja:vocab:無地",
+"text": "無地",
+"reading": "むじ",
+"en": "plain",
+"level": "N2"
+},
+{
+"id": "ja:vocab:矛盾",
+"text": "矛盾",
+"reading": "むじゅん",
+"en": "contradiction, inconsistency",
+"level": "N2"
+},
+{
+"id": "ja:vocab:無数",
+"text": "無数",
+"reading": "むすう",
+"en": "countless number, infinite number",
+"level": "N2"
+},
+{
+"id": "ja:vocab:紫",
+"text": "紫",
+"reading": "むらさき",
+"en": "purple color, violet",
+"level": "N2"
+},
+{
+"id": "ja:vocab:群れ",
+"text": "群れ",
+"reading": "むれ",
+"en": "crowd, flock, herd",
+"level": "N2"
+},
+{
+"id": "ja:vocab:姪",
+"text": "姪",
+"reading": "めい",
+"en": "niece",
+"level": "N2"
+},
+{
+"id": "ja:vocab:名作",
+"text": "名作",
+"reading": "めいさく",
+"en": "masterpiece",
+"level": "N2"
+},
+{
+"id": "ja:vocab:名所",
+"text": "名所",
+"reading": "めいしょ",
+"en": "famous place",
+"level": "N2"
+},
+{
+"id": "ja:vocab:迷信",
+"text": "迷信",
+"reading": "めいしん",
+"en": "superstition",
+"level": "N2"
+},
+{
+"id": "ja:vocab:命ずる",
+"text": "命ずる",
+"reading": "めいずる",
+"en": "to command, to appoint",
+"level": "N2"
+},
+{
+"id": "ja:vocab:名物",
+"text": "名物",
+"reading": "めいぶつ",
+"en": "famous product, special product, speciality",
+"level": "N2"
+},
+{
+"id": "ja:vocab:銘々",
+"text": "銘々",
+"reading": "めいめい",
+"en": "each, individual",
+"level": "N2"
+},
+{
+"id": "ja:vocab:恵まれる",
+"text": "恵まれる",
+"reading": "めぐまれる",
+"en": "to be blessed with, to be rich in",
+"level": "N2"
+},
+{
+"id": "ja:vocab:巡る",
+"text": "巡る",
+"reading": "めぐる",
+"en": "to go around",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目指す",
+"text": "目指す",
+"reading": "めざす",
+"en": "to aim at, to have an eye on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目覚し",
+"text": "目覚し",
+"reading": "めざまし",
+"en": "alarm-clock",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目下",
+"text": "目下",
+"reading": "めした",
+"en": "at present, now",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目印",
+"text": "目印",
+"reading": "めじるし",
+"en": "mark, sign, landmark",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目立つ",
+"text": "目立つ",
+"reading": "めだつ",
+"en": "to be conspicuous, to stand out",
+"level": "N2"
+},
+{
+"id": "ja:vocab:めちゃくちゃ",
+"text": "めちゃくちゃ",
+"reading": "めちゃくちゃ",
+"en": "absurd, messed up, wrecked",
+"level": "N2"
+},
+{
+"id": "ja:vocab:めっきり",
+"text": "めっきり",
+"reading": "めっきり",
+"en": "remarkably",
+"level": "N2"
+},
+{
+"id": "ja:vocab:めでたい",
+"text": "めでたい",
+"reading": "めでたい",
+"en": "happy, propitious, joyous",
+"level": "N2"
+},
+{
+"id": "ja:vocab:メニュー",
+"text": "メニュー",
+"reading": "メニュー",
+"en": "menu",
+"level": "N2"
+},
+{
+"id": "ja:vocab:めまい",
+"text": "めまい",
+"reading": "めまい",
+"en": "dizziness, giddiness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目安",
+"text": "目安",
+"reading": "めやす",
+"en": "criterion, aim",
+"level": "N2"
+},
+{
+"id": "ja:vocab:免税",
+"text": "免税",
+"reading": "めんぜい",
+"en": "tax exemption",
+"level": "N2"
+},
+{
+"id": "ja:vocab:面積",
+"text": "面積",
+"reading": "めんせき",
+"en": "area",
+"level": "N2"
+},
+{
+"id": "ja:vocab:面倒臭い",
+"text": "面倒臭い",
+"reading": "めんどうくさい",
+"en": "bother to do, tiresome",
+"level": "N2"
+},
+{
+"id": "ja:vocab:モーター",
+"text": "モーター",
+"reading": "モーター",
+"en": "motor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:儲かる",
+"text": "儲かる",
+"reading": "もうかる",
+"en": "to be profitable, to yield a profit",
+"level": "N2"
+},
+{
+"id": "ja:vocab:儲ける",
+"text": "儲ける",
+"reading": "もうける",
+"en": "to earn, to have (bear, beget) a child",
+"level": "N2"
+},
+{
+"id": "ja:vocab:申し訳ない",
+"text": "申し訳ない",
+"reading": "もうしわけない",
+"en": "inexcusable, I am sorry",
+"level": "N2"
+},
+{
+"id": "ja:vocab:木材",
+"text": "木材",
+"reading": "もくざい",
+"en": "lumber, timber, wood",
+"level": "N2"
+},
+{
+"id": "ja:vocab:目次",
+"text": "目次",
+"reading": "もくじ",
+"en": "table of contents",
+"level": "N2"
+},
+{
+"id": "ja:vocab:潜る",
+"text": "潜る",
+"reading": "もぐる",
+"en": "to dive, to pass through; to evade, to hide",
+"level": "N2"
+},
+{
+"id": "ja:vocab:もしかしたら",
+"text": "もしかしたら",
+"reading": "もしかしたら",
+"en": "perhaps, maybe, by some chance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:もたれる",
+"text": "もたれる",
+"reading": "もたれる",
+"en": "to lean against, to lean on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:凭れる",
+"text": "凭れる",
+"reading": "もたれる",
+"en": "to lean against, to lean on, to recline on",
+"level": "N2"
+},
+{
+"id": "ja:vocab:モダン",
+"text": "モダン",
+"reading": "モダン",
+"en": "modern",
+"level": "N2"
+},
+{
+"id": "ja:vocab:餅",
+"text": "餅",
+"reading": "もち",
+"en": "sticky rice cake",
+"level": "N2"
+},
+{
+"id": "ja:vocab:モデル",
+"text": "モデル",
+"reading": "モデル",
+"en": "a fashion model",
+"level": "N2"
+},
+{
+"id": "ja:vocab:元々",
+"text": "元々",
+"reading": "もともと",
+"en": "originally, by nature, from the start",
+"level": "N2"
+},
+{
+"id": "ja:vocab:物置",
+"text": "物置",
+"reading": "ものおき",
+"en": "storage room",
+"level": "N2"
+},
+{
+"id": "ja:vocab:物語る",
+"text": "物語る",
+"reading": "ものがたる",
+"en": "to tell, to indicate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:物差し",
+"text": "物差し",
+"reading": "ものさし",
+"en": "ruler, measure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:物凄い",
+"text": "物凄い",
+"reading": "ものすごい",
+"en": "earth-shattering, staggering, to a very great extent",
+"level": "N2"
+},
+{
+"id": "ja:vocab:モノレール",
+"text": "モノレール",
+"reading": "モノレール",
+"en": "monorail",
+"level": "N2"
+},
+{
+"id": "ja:vocab:揉む",
+"text": "揉む",
+"reading": "もむ",
+"en": "to rub, to crumple (up), to wrinkle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:もやす",
+"text": "もやす",
+"reading": "もやす",
+"en": "to burn",
+"level": "N2"
+},
+{
+"id": "ja:vocab:催し",
+"text": "催し",
+"reading": "もよおし",
+"en": "event, festivities, function",
+"level": "N2"
+},
+{
+"id": "ja:vocab:盛る",
+"text": "盛る",
+"reading": "もる",
+"en": "to serve (food); to fill up; to prescribe",
+"level": "N2"
+},
+{
+"id": "ja:vocab:問答",
+"text": "問答",
+"reading": "もんどう",
+"en": "questions and answers, dialogue",
+"level": "N2"
+},
+{
+"id": "ja:vocab:やかましい",
+"text": "やかましい",
+"reading": "やかましい",
+"en": "to be fussy, to be overly critical",
+"level": "N2"
+},
+{
+"id": "ja:vocab:喧しい",
+"text": "喧しい",
+"reading": "やかましい",
+"en": "noisy, loud, clamorous, boisterous",
+"level": "N2"
+},
+{
+"id": "ja:vocab:夜間",
+"text": "夜間",
+"reading": "やかん",
+"en": "at night, nighttime",
+"level": "N2"
+},
+{
+"id": "ja:vocab:やかん",
+"text": "やかん",
+"reading": "やかん",
+"en": "kettle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:役者",
+"text": "役者",
+"reading": "やくしゃ",
+"en": "actor",
+"level": "N2"
+},
+{
+"id": "ja:vocab:役所",
+"text": "役所",
+"reading": "やくしょ",
+"en": "government office, public office",
+"level": "N2"
+},
+{
+"id": "ja:vocab:役人",
+"text": "役人",
+"reading": "やくにん",
+"en": "government official",
+"level": "N2"
+},
+{
+"id": "ja:vocab:薬品",
+"text": "薬品",
+"reading": "やくひん",
+"en": "medicine(s), chemical(s)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:役目",
+"text": "役目",
+"reading": "やくめ",
+"en": "duty, business",
+"level": "N2"
+},
+{
+"id": "ja:vocab:火傷",
+"text": "火傷",
+"reading": "やけど",
+"en": "burn, scald",
+"level": "N2"
+},
+{
+"id": "ja:vocab:夜行",
+"text": "夜行",
+"reading": "やこう",
+"en": "night train, night travel",
+"level": "N2"
+},
+{
+"id": "ja:vocab:矢印",
+"text": "矢印",
+"reading": "やじるし",
+"en": "directing arrow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:やたらに",
+"text": "やたらに",
+"reading": "やたらに",
+"en": "randomly, recklessly, blindly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:薬局",
+"text": "薬局",
+"reading": "やっきょく",
+"en": "pharmacy, drugstore",
+"level": "N2"
+},
+{
+"id": "ja:vocab:やっつける",
+"text": "やっつける",
+"reading": "やっつける",
+"en": "to attack (an enemy), to beat, to finish off",
+"level": "N2"
+},
+{
+"id": "ja:vocab:やっぱり",
+"text": "やっぱり",
+"reading": "やっぱり",
+"en": "after all, anyway",
+"level": "N2"
+},
+{
+"id": "ja:vocab:家主",
+"text": "家主",
+"reading": "やぬし",
+"en": "landlord",
+"level": "N2"
+},
+{
+"id": "ja:vocab:破く",
+"text": "破く",
+"reading": "やぶく",
+"en": "to tear",
+"level": "N2"
+},
+{
+"id": "ja:vocab:やむをえない",
+"text": "やむをえない",
+"reading": "やむをえない",
+"en": "cannot be helped, unavoidable",
+"level": "N2"
+},
+{
+"id": "ja:vocab:軟らかい",
+"text": "軟らかい",
+"reading": "やわらかい",
+"en": "soft, tender, limp",
+"level": "N2"
+},
+{
+"id": "ja:vocab:遊園地",
+"text": "遊園地",
+"reading": "ゆうえんち",
+"en": "amusement park",
+"level": "N2"
+},
+{
+"id": "ja:vocab:夕刊",
+"text": "夕刊",
+"reading": "ゆうかん",
+"en": "evening paper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:郵送",
+"text": "郵送",
+"reading": "ゆうそう",
+"en": "mailing",
+"level": "N2"
+},
+{
+"id": "ja:vocab:夕立",
+"text": "夕立",
+"reading": "ゆうだち",
+"en": "(sudden) evening shower (rain)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:夕日",
+"text": "夕日",
+"reading": "ゆうひ",
+"en": "(in) the evening sun, setting sun",
+"level": "N2"
+},
+{
+"id": "ja:vocab:悠々",
+"text": "悠々",
+"reading": "ゆうゆう",
+"en": "quiet, calm, leisurely",
+"level": "N2"
+},
+{
+"id": "ja:vocab:有料",
+"text": "有料",
+"reading": "ゆうりょう",
+"en": "admission-paid, toll",
+"level": "N2"
+},
+{
+"id": "ja:vocab:浴衣",
+"text": "浴衣",
+"reading": "ゆかた",
+"en": "bathrobe, informal summer kimono",
+"level": "N2"
+},
+{
+"id": "ja:vocab:行方",
+"text": "行方",
+"reading": "ゆくえ",
+"en": "one's whereabouts",
+"level": "N2"
+},
+{
+"id": "ja:vocab:湯気",
+"text": "湯気",
+"reading": "ゆげ",
+"en": "steam",
+"level": "N2"
+},
+{
+"id": "ja:vocab:輸血",
+"text": "輸血",
+"reading": "ゆけつ",
+"en": "blood transfusion",
+"level": "N2"
+},
+{
+"id": "ja:vocab:輸送",
+"text": "輸送",
+"reading": "ゆそう",
+"en": "transport, transportation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:油断",
+"text": "油断",
+"reading": "ゆだん",
+"en": "negligence, unpreparedness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:湯飲み",
+"text": "湯飲み",
+"reading": "ゆのみ",
+"en": "teacup",
+"level": "N2"
+},
+{
+"id": "ja:vocab:湯飲",
+"text": "湯飲",
+"reading": "ゆのみ",
+"en": "teacup",
+"level": "N2"
+},
+{
+"id": "ja:vocab:緩い",
+"text": "緩い",
+"reading": "ゆるい",
+"en": "loose, lenient, slow",
+"level": "N2"
+},
+{
+"id": "ja:vocab:溶岩",
+"text": "溶岩",
+"reading": "ようがん",
+"en": "lava",
+"level": "N2"
+},
+{
+"id": "ja:vocab:用語",
+"text": "用語",
+"reading": "ようご",
+"en": "term, terminology",
+"level": "N2"
+},
+{
+"id": "ja:vocab:要旨",
+"text": "要旨",
+"reading": "ようし",
+"en": "gist, essentials, summary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:幼児",
+"text": "幼児",
+"reading": "ようじ",
+"en": "infant, baby, child",
+"level": "N2"
+},
+{
+"id": "ja:vocab:容積",
+"text": "容積",
+"reading": "ようせき",
+"en": "capacity, volume",
+"level": "N2"
+},
+{
+"id": "ja:vocab:幼稚",
+"text": "幼稚",
+"reading": "ようち",
+"en": "infancy, childish, infantile",
+"level": "N2"
+},
+{
+"id": "ja:vocab:幼稚園",
+"text": "幼稚園",
+"reading": "ようちえん",
+"en": "kindergarten",
+"level": "N2"
+},
+{
+"id": "ja:vocab:用途",
+"text": "用途",
+"reading": "ようと",
+"en": "use, usefulness",
+"level": "N2"
+},
+{
+"id": "ja:vocab:洋品店",
+"text": "洋品店",
+"reading": "ようひんてん",
+"en": "clothes store",
+"level": "N2"
+},
+{
+"id": "ja:vocab:養分",
+"text": "養分",
+"reading": "ようぶん",
+"en": "nourishment, nutrient",
+"level": "N2"
+},
+{
+"id": "ja:vocab:羊毛",
+"text": "羊毛",
+"reading": "ようもう",
+"en": "wool",
+"level": "N2"
+},
+{
+"id": "ja:vocab:漸く",
+"text": "漸く",
+"reading": "ようやく",
+"en": "at last, finally, hardly",
+"level": "N2"
+},
+{
+"id": "ja:vocab:要領",
+"text": "要領",
+"reading": "ようりょう",
+"en": "gist, essentials, outline",
+"level": "N2"
+},
+{
+"id": "ja:vocab:翌",
+"text": "翌",
+"reading": "よく",
+"en": "next ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:欲張り",
+"text": "欲張り",
+"reading": "よくばり",
+"en": "greedy",
+"level": "N2"
+},
+{
+"id": "ja:vocab:余計",
+"text": "余計",
+"reading": "よけい",
+"en": "too much, unnecessary, abundance, surplus, excess, superfluity",
+"level": "N2"
+},
+{
+"id": "ja:vocab:よこす",
+"text": "よこす",
+"reading": "よこす",
+"en": "to send, to forward; to hand over (e.g., money)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:よごす",
+"text": "よごす",
+"reading": "よごす",
+"en": "(1) to disgrace, to dishonour, (2) to pollute, to contaminate, to soil, to make dirty, to stain",
+"level": "N2"
+},
+{
+"id": "ja:vocab:余所",
+"text": "余所",
+"reading": "よそ",
+"en": "another place, somewhere else, strange parts",
+"level": "N2"
+},
+{
+"id": "ja:vocab:四つ角",
+"text": "四つ角",
+"reading": "よつかど",
+"en": "four corners, crossroads",
+"level": "N2"
+},
+{
+"id": "ja:vocab:酔っ払い",
+"text": "酔っ払い",
+"reading": "よっぱらい",
+"en": "drunkard",
+"level": "N2"
+},
+{
+"id": "ja:vocab:予備",
+"text": "予備",
+"reading": "よび",
+"en": "preparation, spare",
+"level": "N2"
+},
+{
+"id": "ja:vocab:呼び掛ける",
+"text": "呼び掛ける",
+"reading": "よびかける",
+"en": "to call out to, to accost, to address (crowd), to appeal",
+"level": "N2"
+},
+{
+"id": "ja:vocab:呼び出す",
+"text": "呼び出す",
+"reading": "よびだす",
+"en": "to summon, to call (e.g., phone)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:蘇る",
+"text": "蘇る",
+"reading": "よみがえる",
+"en": "to be resurrected, to be revived",
+"level": "N2"
+},
+{
+"id": "ja:vocab:慶ぶ",
+"text": "慶ぶ",
+"reading": "よろこぶ",
+"en": "to be delighted, to be glad",
+"level": "N2"
+},
+{
+"id": "ja:vocab:来日",
+"text": "来日",
+"reading": "らいにち",
+"en": "coming to Japan, visit to Japan",
+"level": "N2"
+},
+{
+"id": "ja:vocab:落第",
+"text": "落第",
+"reading": "らくだい",
+"en": "failure, dropping out of a class",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ラッシュアワー",
+"text": "ラッシュアワー",
+"reading": "ラッシュアワー",
+"en": "rush hour",
+"level": "N2"
+},
+{
+"id": "ja:vocab:欄",
+"text": "欄",
+"reading": "らん",
+"en": "column of text (e.g., as in a newspaper)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ランチ",
+"text": "ランチ",
+"reading": "ランチ",
+"en": "lunch",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ランニング",
+"text": "ランニング",
+"reading": "ランニング",
+"en": "running; tank top",
+"level": "N2"
+},
+{
+"id": "ja:vocab:乱暴",
+"text": "乱暴",
+"reading": "らんぼう",
+"en": "rude, violent, rough",
+"level": "N2"
+},
+{
+"id": "ja:vocab:理科",
+"text": "理科",
+"reading": "りか",
+"en": "science",
+"level": "N2"
+},
+{
+"id": "ja:vocab:利害",
+"text": "利害",
+"reading": "りがい",
+"en": "advantages and disadvantages, interest",
+"level": "N2"
+},
+{
+"id": "ja:vocab:リズム",
+"text": "リズム",
+"reading": "リズム",
+"en": "rhythm",
+"level": "N2"
+},
+{
+"id": "ja:vocab:リットル",
+"text": "リットル",
+"reading": "リットル",
+"en": "liter",
+"level": "N2"
+},
+{
+"id": "ja:vocab:リポート",
+"text": "リポート",
+"reading": "リポート",
+"en": "report, paper",
+"level": "N2"
+},
+{
+"id": "ja:vocab:リボン",
+"text": "リボン",
+"reading": "リボン",
+"en": "ribbon",
+"level": "N2"
+},
+{
+"id": "ja:vocab:略す",
+"text": "略す",
+"reading": "りゃくす",
+"en": "to abbreviate",
+"level": "N2"
+},
+{
+"id": "ja:vocab:流域",
+"text": "流域",
+"reading": "りゅういき",
+"en": "(river) basin",
+"level": "N2"
+},
+{
+"id": "ja:vocab:両",
+"text": "両",
+"reading": "りょう",
+"en": "both ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:両側",
+"text": "両側",
+"reading": "りょうがわ",
+"en": "both sides",
+"level": "N2"
+},
+{
+"id": "ja:vocab:漁師",
+"text": "漁師",
+"reading": "りょうし",
+"en": "fisherman",
+"level": "N2"
+},
+{
+"id": "ja:vocab:領事",
+"text": "領事",
+"reading": "りょうじ",
+"en": "consul",
+"level": "N2"
+},
+{
+"id": "ja:vocab:領収",
+"text": "領収",
+"reading": "りょうしゅう",
+"en": "receipt, voucher",
+"level": "N2"
+},
+{
+"id": "ja:vocab:臨時",
+"text": "臨時",
+"reading": "りんじ",
+"en": "temporary, special, extraordinary",
+"level": "N2"
+},
+{
+"id": "ja:vocab:留守番",
+"text": "留守番",
+"reading": "るすばん",
+"en": "care-taking, caretaker, house-watching",
+"level": "N2"
+},
+{
+"id": "ja:vocab:零点",
+"text": "零点",
+"reading": "れいてん",
+"en": "zero, no marks",
+"level": "N2"
+},
+{
+"id": "ja:vocab:冷凍",
+"text": "冷凍",
+"reading": "れいとう",
+"en": "freezing, cold storage, refrigeration",
+"level": "N2"
+},
+{
+"id": "ja:vocab:レインコート",
+"text": "レインコート",
+"reading": "レインコート",
+"en": "raincoat",
+"level": "N2"
+},
+{
+"id": "ja:vocab:レクリェーション",
+"text": "レクリェーション",
+"reading": "レクリェーション",
+"en": "recreation",
+"level": "N2"
+},
+{
+"id": "ja:vocab:レジャー",
+"text": "レジャー",
+"reading": "レジャー",
+"en": "leisure",
+"level": "N2"
+},
+{
+"id": "ja:vocab:列島",
+"text": "列島",
+"reading": "れっとう",
+"en": "chain of islands",
+"level": "N2"
+},
+{
+"id": "ja:vocab:煉瓦",
+"text": "煉瓦",
+"reading": "れんが",
+"en": "brick",
+"level": "N2"
+},
+{
+"id": "ja:vocab:連合",
+"text": "連合",
+"reading": "れんごう",
+"en": "union, alliance",
+"level": "N2"
+},
+{
+"id": "ja:vocab:レンズ",
+"text": "レンズ",
+"reading": "レンズ",
+"en": "lens",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ローマ字",
+"text": "ローマ字",
+"reading": "ローマじ",
+"en": "romanization, Roman letters (alphabet)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ろうそく",
+"text": "ろうそく",
+"reading": "ろうそく",
+"en": "candle",
+"level": "N2"
+},
+{
+"id": "ja:vocab:録音",
+"text": "録音",
+"reading": "ろくおん",
+"en": "(audio) recording",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ロッカー",
+"text": "ロッカー",
+"reading": "ロッカー",
+"en": "locker",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ロビー",
+"text": "ロビー",
+"reading": "ロビー",
+"en": "lobby",
+"level": "N2"
+},
+{
+"id": "ja:vocab:論ずる",
+"text": "論ずる",
+"reading": "ろんずる",
+"en": "to argue, to discuss",
+"level": "N2"
+},
+{
+"id": "ja:vocab:和",
+"text": "和",
+"reading": "わ",
+"en": "Japanese style",
+"level": "N2"
+},
+{
+"id": "ja:vocab:和英",
+"text": "和英",
+"reading": "わえい",
+"en": "Japanese-English",
+"level": "N2"
+},
+{
+"id": "ja:vocab:我",
+"text": "我",
+"reading": "わが",
+"en": "our ~",
+"level": "N2"
+},
+{
+"id": "ja:vocab:若々しい",
+"text": "若々しい",
+"reading": "わかわかしい",
+"en": "youthful, young",
+"level": "N2"
+},
+{
+"id": "ja:vocab:詫びる",
+"text": "詫びる",
+"reading": "わびる",
+"en": "to apologize",
+"level": "N2"
+},
+{
+"id": "ja:vocab:和服",
+"text": "和服",
+"reading": "わふく",
+"en": "Japanese clothes",
+"level": "N2"
+},
+{
+"id": "ja:vocab:割合に",
+"text": "割合に",
+"reading": "わりあいに",
+"en": "relatively, comparatively",
+"level": "N2"
+},
+{
+"id": "ja:vocab:割算",
+"text": "割算",
+"reading": "わりざん",
+"en": "division (math)",
+"level": "N2"
+},
+{
+"id": "ja:vocab:割と",
+"text": "割と",
+"reading": "わりと",
+"en": "relatively, comparatively",
+"level": "N2"
+},
+{
+"id": "ja:vocab:割引",
+"text": "割引",
+"reading": "わりびき",
+"en": "discount",
+"level": "N2"
+},
+{
+"id": "ja:vocab:ワンピース",
+"text": "ワンピース",
+"reading": "ワンピース",
+"en": "one-piece dress",
+"level": "N2"
+}
+]

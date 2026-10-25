@@ -1,4 +1,4 @@
-import { S, todayStr, toggleReading, saveSettings } from '../state.js';
+import { S, todayStr, toggleReading, saveSettings, effectiveLimits, studyPlan } from '../state.js';
 import { ICON, esc, seriesChip, SERIES_ORDER } from '../ui.js';
 import { todayTasks, daysUntil, streak, weekDots, nextUnfinished } from '../lib/schedule.js';
 import { buildQueue, deckCounts, estimateMinutes, dayKey } from '../lib/srs.js';
@@ -23,7 +23,7 @@ const GUIDE = `
 export default function home(root) {
   const today = todayStr();
   const t = todayTasks(S.index, S.progress, today);
-  const q = buildQueue(S.cards, Date.now(), S.today, S.settings.limits);
+  const q = buildQueue(S.cards, Date.now(), S.today, effectiveLimits());
   const counts = deckCounts(q);
   const reviewLeft = q.fresh.length + q.review.length + q.learning.filter(c => c.due < Date.now() + 864e5).length;
   const reviewMin = estimateMinutes(counts);
@@ -89,7 +89,9 @@ export default function home(root) {
         <button data-quick="pron">${ICON.ear}發音聽辨<small>長音、促音、濁音</small></button>
         <button data-quick="announce">${ICON.radio}廣播聽力<small>車站、機場、商場</small></button>
         <button data-quick="kids">${ICON.kid}親子一起學<small>和小孩一起念</small></button>
+        <button data-quick="write">${ICON.edit}手寫練習<small>聽音寫字，和正確字形比對</small></button>
       </div>
+      ${(S.index.jlpt || []).some(l => l.ready) ? (() => { const p = studyPlan(today); return `<button class="ghost" data-go-words style="width:100%;justify-content:space-between"><span>${ICON.cards} JLPT 單字篩選</span><span class="muted">${S.settings.plan.target} 還剩 ${p.remaining} 個・每天 ${p.daily}</span></button>`; })() : ''}
     </div>
     <div class="stack" style="gap:8px">${tasks.map(x => x.choices && x.choices.length ? `
       <div class="task ${x.done ? 'done' : ''} ${x === nextTask ? 'next' : ''}" style="flex-direction:column;align-items:stretch">
@@ -108,6 +110,7 @@ export default function home(root) {
     <button class="cta" id="cta">${nextTask ? `繼續：${nextTask.title.replace(/<[^>]+>/g, '')}` : '今天辛苦了'}</button>`;
 
   root.querySelectorAll('[data-ep]').forEach(b => b.addEventListener('click', () => go(`ep/${b.dataset.ep}`)));
+  root.querySelector('[data-go-words]')?.addEventListener('click', () => go('words'));
   root.querySelectorAll('[data-quick]').forEach(b => b.addEventListener('click', () => {
     const q = b.dataset.quick;
     if (q === 'announce') {

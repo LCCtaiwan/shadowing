@@ -1128,5 +1128,42 @@
    "path": "scripts/ja/announce/a06.json",
    "audio": "audio/ja/announce/a06"
   }
+ ],
+ "jlpt": [
+  {
+   "level": "N5",
+   "count": 702,
+   "ready": false,
+   "path": "data/jlpt/n5.json",
+   "audio": "audio/ja/jlpt/n5"
+  },
+  {
+   "level": "N4",
+   "count": 651,
+   "ready": false,
+   "path": "data/jlpt/n4.json",
+   "audio": "audio/ja/jlpt/n4"
+  },
+  {
+   "level": "N3",
+   "count": 2073,
+   "ready": false,
+   "path": "data/jlpt/n3.json",
+   "audio": "audio/ja/jlpt/n3"
+  },
+  {
+   "level": "N2",
+   "count": 1734,
+   "ready": false,
+   "path": "data/jlpt/n2.json",
+   "audio": "audio/ja/jlpt/n2"
+  },
+  {
+   "level": "N1",
+   "count": 2642,
+   "ready": false,
+   "path": "data/jlpt/n1.json",
+   "audio": "audio/ja/jlpt/n1"
+  }
  ]
 }

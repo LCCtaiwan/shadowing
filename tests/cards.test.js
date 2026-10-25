@@ -97,3 +97,14 @@ test('新卡交錯：今天某子牌組用掉較多額度時，先出其他子�
   const q = buildQueue(cards, T0, today);
   assert.notEqual(nextCard(q, T0, today).deck, 'sentence');
 });
+
+test('JLPT 單字：有漢字四張卡（聽、讀、連結、手寫），id 與劇中單字共用', async () => {
+  const { cardsFromJlpt } = await import('../app/lib/cards.js');
+  const v = { id: 'ja:vocab:会う', text: '会う', reading: 'あう', level: 'N5', zh: '見面', pos: '動詞',
+    example: { text: '駅で会います。', ruby: [['駅', 'えき'], ['で'], ['会', 'あ'], ['います。']], zh: '在車站見面。' },
+    links: { collocations: [{ cue: '友だちに', text: '友だちに会う', zh: '和朋友見面' }] } };
+  const cards = cardsFromJlpt(v, { audio: 'audio/ja/jlpt/n5' });
+  assert.deepEqual(cards.map(c => c.kind), ['vocab-listen', 'vocab-read', 'vocab-link', 'vocab-write']);
+  assert.equal(cards[0].id, 'ja:vocab:会う#listen');
+  assert.equal(cards[0].data.example.audioKey, 'ja:vocab:会う#ex');
+});

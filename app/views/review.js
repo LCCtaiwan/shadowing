@@ -1,5 +1,5 @@
 // Anki 式複習：牌組總覽 → 一張張卡片 → 四段評分（按鈕顯示下次間隔）。另有卡片一覽（搜尋、暫停）。
-import { S, rate, updateCard } from '../state.js';
+import { S, rate, updateCard, effectiveLimits } from '../state.js';
 import { $, $$, ICON, esc, toast, speakerName } from '../ui.js';
 import { renderRuby, kanaText } from '../lib/ruby.js';
 import { play, stop } from '../lib/audio.js';
@@ -7,13 +7,14 @@ import { buildQueue, nextCard, deckCounts, estimateMinutes } from '../lib/srs.js
 import { preview, formatInterval } from '../lib/fsrs.js';
 import { DECKS, DECK_NAMES, clozeParts } from '../lib/cards.js';
 import { buildNetwork, renderNetwork, learnedWords, linkQuestion } from '../lib/network.js';
+import { createPad } from '../lib/pad.js';
 import { go } from '../main.js';
 
 const LEVELS = [null, 'N5', 'N4', 'N3', 'N2'];
 const RATES = [['重來', 'again'], ['困難', ''], ['良好', 'goodr'], ['簡單', '']];
 const KIND_HINT = {
   sentence: '先聽，跟著念一次，想想意思，再看答案', 'vocab-listen': '聽發音，想想是什麼意思', 'vocab-read': '這個字怎麼唸？',
-  'phrase-cloze': '聽整句，想想空格裡是什麼', grammar: '這個句型是什麼意思？', 'vocab-link': '哪一個能接在後面？自己想出搭配，記得最牢',
+  'phrase-cloze': '聽整句，想想空格裡是什麼', grammar: '這個句型是什麼意思？', 'vocab-link': '哪一個能接在後面？自己想出搭配，記得最牢', 'vocab-write': '聽發音、看意思，把這個字寫在格子裡',
 };
 
 export default function review(root, [mode]) {
@@ -23,7 +24,7 @@ export default function review(root, [mode]) {
   if (mode === 'browse') return browse();
   overview();
 
-  function queue() { return buildQueue(S.cards, Date.now(), S.today, S.settings.limits, level); }
+  function queue() { return buildQueue(S.cards, Date.now(), S.today, effectiveLimits(), level); }
 
   function overview() {
     const q = queue();
@@ -51,7 +52,7 @@ export default function review(root, [mode]) {
   function show() {
     stop();
     const q = queue();
-    const c = nextCard(q, Date.now(), S.today, S.settings.limits);
+    const c = nextCard(q, Date.now(), S.today, effectiveLimits());
     const left = q.review.length + q.fresh.length + q.learning.filter(x => x.due <= Date.now() + 20 * 60e3).length;
     if (!c) {
       const later = q.learning[0];
@@ -86,6 +87,19 @@ export default function review(root, [mode]) {
       back = `<div style="text-align:center">${listen ? `<div class="muted">${esc(d.reading)}</div><div class="big-word">${esc(d.text)}</div>` : `<div style="font-size:22px;color:var(--brand)">${esc(d.reading)}</div>`}
         <div class="muted">${esc(d.pos)}・${c.level}</div><p style="font-size:18px;margin-top:6px">${esc(d.zh)}</p></div>
         ${exampleBox(d.example)}${d.example ? `<button class="ghost" data-ex>${ICON.vol} 聽例句</button>` : ''}${network()}`;
+    } else if (c.kind === 'vocab-write') {
+      autoplay = sayWord;
+      front = `<div style="text-align:center"><p style="font-size:20px">${esc(d.zh)}</p><p class="muted">${esc(d.pos || '')}・${[...d.text].length} 個字</p></div>
+        <div class="tools">
+          <button class="ghost" data-play>${ICON.vol} 再聽</button>
+          <button class="ghost" id="hint">提示讀音</button>
+          <button class="ghost" id="undoStroke">上一筆</button>
+          <button class="ghost" id="clearPad">擦掉</button></div>
+        <p class="muted" id="hintText" style="text-align:center" hidden>${esc(d.reading)}</p>
+        <div id="padHost"></div>`;
+      back = `<div style="text-align:center"><div class="muted">${esc(d.reading)}</div><div class="big-word">${esc(d.text)}</div>
+        <p class="muted">淡色的字是正確字形，和你寫的比比看${/[\u3400-\u9fff]/.test(d.text) ? '；注意日本字形（新字體）和繁體可能不同' : ''}</p></div>
+        ${exampleBox(d.example)}${network()}`;
     } else if (c.kind === 'vocab-link') {
       quiz = linkQuestion(c.note, S.lexicon, c.id);
       front = quiz
@@ -131,6 +145,13 @@ export default function review(root, [mode]) {
       show();
     });
     $$('[data-play]', root).forEach(b => b.addEventListener('click', () => autoplay && autoplay()));
+    let pad = null;
+    if (c.kind === 'vocab-write') {
+      pad = createPad($('#padHost', root), d.text);
+      $('#hint', root).addEventListener('click', () => { $('#hintText', root).hidden = false; });
+      $('#undoStroke', root).addEventListener('click', () => pad.undo());
+      $('#clearPad', root).addEventListener('click', () => pad.clear());
+    }
     $('[data-ex]', root)?.addEventListener('click', () => sayLine(d.example));
     $$('[data-gex]', root).forEach(b => b.addEventListener('click', () => sayLine(d.examples[+b.dataset.gex])));
     if (autoplay) setTimeout(() => autoplay(), 200);
@@ -148,6 +169,7 @@ export default function review(root, [mode]) {
       $('#backSide', root).hidden = false;
       $('#show', root).hidden = true;
       $('#rates', root).hidden = false;
+      pad?.reveal();
       if (c.kind === 'vocab-read') sayWord();
     });
     $$('[data-r]', root).forEach(b => b.addEventListener('click', async () => {
@@ -172,7 +194,7 @@ export default function review(root, [mode]) {
       const rows = S.cards.filter(c => (deck === 'all' || (deck === 'suspended' ? c.suspended : c.deck === deck))
         && (!term || JSON.stringify(c.data).includes(term))).slice(0, 200);
       $('#list', root).innerHTML = rows.length ? rows.map(c => `
-        <div class="check"><span style="flex:1;min-width:0"><b>${title(c)}</b><br><span class="muted">${DECK_NAMES[c.deck]}・${{ sentence: '聽句子', 'vocab-listen': '聽音想意思', 'vocab-read': '看字唸讀音', 'vocab-link': '連結題', 'phrase-cloze': '填空', grammar: '句型' }[c.kind]}・${c.level}${c.lapses ? `・忘了 ${c.lapses} 次` : ''}</span></span>
+        <div class="check"><span style="flex:1;min-width:0"><b>${title(c)}</b><br><span class="muted">${DECK_NAMES[c.deck]}・${{ sentence: '聽句子', 'vocab-listen': '聽音想意思', 'vocab-read': '看字唸讀音', 'vocab-link': '連結題', 'vocab-write': '手寫', 'phrase-cloze': '填空', grammar: '句型' }[c.kind]}・${c.level}${c.lapses ? `・忘了 ${c.lapses} 次` : ''}</span></span>
         ${status(c)}<button class="ghost" data-toggle="${esc(c.id)}">${c.suspended ? '恢復' : '暫停'}</button></div>`).join('')
         : '<p class="muted empty">沒有符合的卡片。</p>';
       $$('[data-toggle]', root).forEach(b => b.addEventListener('click', async () => {

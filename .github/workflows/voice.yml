@@ -51,7 +51,7 @@ jobs:
             for d in 0 1 2 3 4 5 6 7 8 9 10 11 12 13; do
               python tools/voice.py --for-date "$(date -u -d "+$d day" +%F)"
             done
-            for d in scripts/ja/announce scripts/ja/pron scripts/ja/tales; do
+            for d in scripts/ja/announce scripts/ja/pron scripts/ja/tales data/jlpt; do
               [ -d "$d" ] && python tools/voice.py "$d"
             done
           fi

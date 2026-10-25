@@ -179,3 +179,12 @@ mark { background: var(--brand-tint); color: inherit; border-radius: 4px; paddin
 .ghost { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
 .ghost svg { width: 18px; height: 18px; flex: none; }
 .net svg text { stroke: none; }
+.field input[type="date"] { min-height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); padding: 0 10px; }
+.swipe { transition: background .15s; user-select: none; }
+
+.pad { display: flex; justify-content: center; }
+.pad canvas { touch-action: none; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; cursor: crosshair; }
+.quick button:last-child:nth-child(odd) { grid-column: span 2; }
+.ghost.sm, .row .ghost { white-space: nowrap; }
+.tools { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.tools .ghost { min-height: 38px; padding: 0 10px; font-size: 13px; }

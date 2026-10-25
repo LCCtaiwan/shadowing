@@ -1,11 +1,12 @@
 // JLPT 頁：考試倒數、路線、各級單字／文法學習量、聽解題型正確率、模擬分數、記憶率。
-import { S, todayStr, db } from '../state.js';
+import { S, todayStr, db, studyPlan } from '../state.js';
 import { esc } from '../ui.js';
+import { go } from '../main.js';
 import { daysUntil } from '../lib/schedule.js';
 import { TYPE_NAMES } from './drill.js';
 
 // 各級新增的大約數量（非官方，見 docs/jlpt-research.md）
-const VOCAB_REF = { N5: 800, N4: 700, N3: 2250, N2: 2250, N1: 4000 };
+const VOCAB_FALLBACK = { N5: 800, N4: 700, N3: 2250, N2: 2250, N1: 4000 };
 const GRAMMAR_REF = { N5: 70, N4: 60, N3: 70, N2: 60, N1: 60 };
 const WD = '日一二三四五六';
 
@@ -26,6 +27,8 @@ export default async function jlpt(root) {
     return by;
   };
   const vocab = learned('vocab');
+  for (const x of Object.values(S.screen)) if (x.choice === 'known' && x.level) vocab[x.level] = (vocab[x.level] || 0) + 1;
+  const plan = studyPlan(today);
   const grammar = learned('grammar');
 
   const typeStats = {};
@@ -60,11 +63,16 @@ export default async function jlpt(root) {
       <p class="muted">現在：${esc(phase.name)}。每天約 2 小時：複習 35 分、跟讀 30 分、聽力練習 15 分、讀解教材 30 分。</p>
     </div>
     <div class="card stack">
+      <div class="row between"><h2>單字計畫</h2><button class="ghost" id="toWords">篩選單字</button></div>
+      <p>達到 <b>${esc(S.settings.plan.target)}</b> 還要背 <b class="num">${plan.remaining}</b> 個，距離考試 ${plan.days} 天，每天約 <b class="num">${plan.daily}</b> 個。</p>
+      <p class="muted">「我會了」的單字也算進去。到設定可以改目前程度、目標和考試日期。</p>
+    </div>
+    <div class="card stack">
       <h2>學過的單字</h2>
-      ${['N5', 'N4', 'N3', 'N2'].map(l => meter(`${l} 單字`, vocab[l] || 0, VOCAB_REF[l])).join('')}
+      ${['N5', 'N4', 'N3', 'N2', 'N1'].map(l => meter(`${l} 單字`, vocab[l] || 0, (S.index.jlpt || []).find(x => x.level === l)?.count || VOCAB_FALLBACK[l])).join('')}
       <h2 style="margin-top:6px">學過的文法</h2>
       ${['N5', 'N4', 'N3', 'N2'].map(l => meter(`${l} 文法`, grammar[l] || 0, GRAMMAR_REF[l])).join('')}
-      <p class="muted">分母是各級大約新增的量（非官方推估），只當方向參考。</p>
+      <p class="muted">分母是各級單字表的數量（非官方，資料來自 open-anki-jlpt-decks／tanos.co.uk）；含「我會了」的單字。</p>
     </div>
     <div class="card stack">
       <h2>聽解各題型正確率</h2>
@@ -79,4 +87,5 @@ export default async function jlpt(root) {
     </div>
     <div class="card row between"><span>最近 30 天的記憶率</span><b class="num">${retention === null ? '—' : `${retention}%`}</b></div>
     <p class="muted">考前 8 週起，建議每兩週做一次官方『日本語能力試験 公式問題集』，把分數記下來對照。</p>`;
+  root.querySelector('#toWords')?.addEventListener('click', () => go('words'));
 }

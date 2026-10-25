@@ -284,6 +284,25 @@ def check_tales_verbatim(rep, files):
             rep.warn(f"童話 {title}", f"目前只收錄原文的 {len(got_n)}/{len(want)} 字")
 
 
+def check_jlpt(rep, path, rows):
+    w = path.name
+    ids = set()
+    for v in rows:
+        vw = f"{w} {v.get('id', '?')}"
+        if not need(rep, vw, v, ["id", "text", "reading", "level", "zh", "pos", "example"]):
+            continue
+        if v["id"] in ids:
+            rep.err(vw, "id 重複")
+        ids.add(v["id"])
+        if v["level"] not in LEVELS:
+            rep.err(vw, "level 不明")
+        if not KANA_ONLY.match(v["reading"].replace(" ", "")):
+            rep.warn(vw, f"讀音含非假名：{v['reading']}")
+        check_ruby(rep, f"{vw} 例句", v["example"])
+        need(rep, f"{vw} 例句", v["example"], ["zh"])
+        check_links(rep, vw, v.get("links"))
+
+
 def validate(paths):
     cast = load_casts()
     rep, seen = Report(), {}
@@ -298,7 +317,10 @@ def validate(paths):
         except json.JSONDecodeError as e:
             rep.err(f.name, f"JSON 解析失敗：{e}")
             continue
-        if f.name == "index.json":
+        if f.name == "index.json" or f.name.startswith("raw-") or "jlpt" in f.parts and f.suffix != ".json":
+            continue
+        if "jlpt" in f.parts:
+            check_jlpt(rep, f, data)
             continue
         if "pron" in f.parts:
             check_pron(rep, f, data)
