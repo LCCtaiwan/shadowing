@@ -16,7 +16,7 @@ export default function settings(root) {
     </div>
     <div class="card">
       <h2>考試計畫</h2>
-      <div class="field"><label for="pCur">目前程度</label><select id="pCur">${['N5', 'N4', 'N3', 'N2'].map(l => `<option ${s.plan.current === l ? 'selected' : ''}>${l}</option>`).join('')}</select></div>
+      <div class="field"><label for="pCur">目前程度</label><select id="pCur">${[['none', '入門（還沒考過）'], ['N5', '已有 N5'], ['N4', '已有 N4'], ['N3', '已有 N3'], ['N2', '已有 N2']].map(([v, t]) => `<option value="${v}" ${s.plan.current === v ? 'selected' : ''}>${t}</option>`).join('')}</select></div>
       <div class="field"><label for="pTarget">目標級別</label><select id="pTarget">${['N4', 'N3', 'N2', 'N1'].map(l => `<option ${s.plan.target === l ? 'selected' : ''}>${l}</option>`).join('')}</select></div>
       <div class="field"><label for="pDate">考試日期</label><input type="date" id="pDate" value="${esc(s.plan.examDate)}"></div>
       <div class="field"><label for="pAuto">依考試日自動調整每天新單字數</label><input type="checkbox" id="pAuto" ${s.plan.autoDaily ? 'checked' : ''}></div>

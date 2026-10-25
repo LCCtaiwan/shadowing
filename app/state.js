@@ -8,7 +8,7 @@ import { isoDate } from './lib/schedule.js';
 export const DEFAULT_SETTINGS = {
   ruby: 'furi', speed: 1, retention: 0.9, limits: DEFAULT_LIMITS, pauseFactor: 1.3, repeats: 2,
   reading: '新完全マスター 読解 N3', feedbackRepo: '',
-  plan: { current: 'N5', target: 'N3', examDate: '2027-07-04', autoDaily: true },
+  plan: { current: 'none', target: 'N3', examDate: '2027-07-04', autoDaily: true },
   writeCards: true,
 };
 
@@ -201,7 +201,7 @@ const ORDER = ['N5', 'N4', 'N3', 'N2', 'N1'];
 /** 依「目前級別、目標級別、考試日」算出還要背幾個、每天幾個。 */
 export function studyPlan(today = todayStr()) {
   const { current, target, examDate } = S.settings.plan;
-  const from = ORDER.indexOf(current), to = ORDER.indexOf(target);
+  const from = current === 'none' ? -1 : ORDER.indexOf(current), to = ORDER.indexOf(target);
   const levels = (S.index.jlpt || []).filter(l => { const i = ORDER.indexOf(l.level); return i > from && i <= to; });
   const total = levels.reduce((a, l) => a + l.count, 0);
   const ids = new Set(Object.keys(S.screen));

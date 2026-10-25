@@ -1133,7 +1133,7 @@
   {
    "level": "N5",
    "count": 702,
-   "ready": false,
+   "ready": true,
    "path": "data/jlpt/n5.json",
    "audio": "audio/ja/jlpt/n5"
   },
