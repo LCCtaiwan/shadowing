@@ -7082,8 +7082,8 @@
   }
  },
  {
-  "id": "ja:vocab:終る",
-  "text": "終る",
+  "id": "ja:vocab:終わる",
+  "text": "終わる",
   "reading": "おわる",
   "level": "N5",
   "en": "to finish, to close",
@@ -32467,8 +32467,8 @@
   }
  },
  {
-  "id": "ja:vocab:曲る",
-  "text": "曲る",
+  "id": "ja:vocab:曲がる",
+  "text": "曲がる",
   "reading": "まがる",
   "level": "N5",
   "en": "to turn, to bend",

@@ -1140,7 +1140,7 @@
   {
    "level": "N4",
    "count": 651,
-   "ready": false,
+   "ready": true,
    "path": "data/jlpt/n4.json",
    "audio": "audio/ja/jlpt/n4"
   },

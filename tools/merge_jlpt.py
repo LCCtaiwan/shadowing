@@ -17,6 +17,13 @@ FIXES = {
     "お金持ち": {"reading": "おかねもち"},
     "堅": {"text": "堅い"},
     "伯父": {"reading": "おじ"},
+    "落る": {"text": "落ちる"},
+    "楽む": {"text": "楽しむ"},
+    "答": {"text": "答え"},
+    "いただく": {"reading": "いただく"},
+    "終る": {"text": "終わる"},
+    "曲る": {"text": "曲がる"},
+    "落す": {"text": "落とす"},
 }
 
 
@@ -27,9 +34,9 @@ def clean(s):
 
 
 def merge(level):
-    parts = sorted(DIR.glob(f"{level}.part*.json"))
-    if not parts:
-        raise SystemExit(f"找不到 {level}.part*.json")
+    parts = sorted(DIR.glob(f"{level}.part*.json")) or [DIR / f"{level}.json"]  # 沒有分檔時就重新整理已合併的檔
+    if not parts[0].exists():
+        raise SystemExit(f"找不到 {level}.part*.json 或 {level}.json")
     rows, seen = [], set()
     for p in parts:
         for v in json.loads(p.read_text(encoding="utf-8")):
