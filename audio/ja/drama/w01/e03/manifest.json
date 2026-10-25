@@ -1,0 +1,9 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "131b576825f7ecf7",
+  "text": "荷物預かりでスーツケースを受け取って、ユーシャンは浅草のゲストハウスに来ました。今日からさんぱくします。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

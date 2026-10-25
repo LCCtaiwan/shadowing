@@ -33,5 +33,12 @@
   "text": "すみません、お茶はどこですか。",
   "voice": "Iapetus",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "27d155d30bc4ea81",
+  "text": "お茶は、あちらの奥の冷蔵庫になります。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-lite-tts"
  }
 }
