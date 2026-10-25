@@ -19,5 +19,12 @@
   "text": "購買は、パンを買うところですか？",
   "voice": "Leda",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "debb73c39ef978d0",
+  "text": "そうだ。焼きそばパンは、毎日じゅっこだけなんだ。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
  }
 }

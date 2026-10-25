@@ -1,0 +1,16 @@
+{
+ "w01sun-01-s1": {
+  "file": "w01sun-01-s1.mp3",
+  "hash": "3afe070cfba0b4c8",
+  "text": "お仕事ですか。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01sun-01-o1": {
+  "file": "w01sun-01-o1.mp3",
+  "hash": "c1f0b1d396798590",
+  "text": "はい、仕事じゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

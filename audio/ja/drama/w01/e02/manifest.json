@@ -8,39 +8,45 @@
  },
  "s1-01": {
   "file": "s1-01.mp3",
-  "hash": "5e528fc1161e0a64",
-  "text": "すみません。スイカを買いたいです。券売機はどこですか。",
-  "voice": "Iapetus"
+  "hash": "130ea568dd3c1f41",
+  "text": "コインロッカー、コインロッカー……。あ、ありました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
  },
  "s1-02": {
   "file": "s1-02.mp3",
-  "hash": "42b2d65faea72677",
-  "text": "券売機ですね。あちらです。一緒に行きましょうか。",
-  "voice": "Kore"
+  "hash": "36b7cea71b1ad3d0",
+  "text": "あれ？全部「使用中」です……。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
  },
  "s1-03": {
   "file": "s1-03.mp3",
-  "hash": "c01ef2dfeb9ae8a6",
-  "text": "はい、お願いします。",
-  "voice": "Iapetus"
+  "hash": "88235ed5b031f0da",
+  "text": "あ、あそこ！一つ空いています！",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
  },
  "s1-04": {
   "file": "s1-04.mp3",
-  "hash": "212881e2924bafaf",
-  "text": "まず、ここを押してください。",
-  "voice": "Kore"
+  "hash": "f9d58329e5620113",
+  "text": "よいしょ……。あれ？スーツケースが入りません。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
  },
  "s1-05": {
   "file": "s1-05.mp3",
-  "hash": "5ed7dbfc3c7d43ca",
-  "text": "二千円を入れたいです。……大丈夫ですか。",
-  "voice": "Iapetus"
+  "hash": "aab9ffa7008d5692",
+  "text": "すみません。このスーツケースを預けたいです。大きいロッカーはどこですか。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "s1-06": {
   "file": "s1-06.mp3",
-  "hash": "657429dcbe35846e",
-  "text": "はい、大丈夫です。お金はここに入れてください。",
-  "voice": "Kore"
+  "hash": "4621c1c9cf88c049",
+  "text": "大きいロッカーですか。申し訳ありません、今日はどこもいっぱいです。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "s1-07": {
   "file": "s1-07.mp3",

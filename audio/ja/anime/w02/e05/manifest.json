@@ -1,0 +1,16 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "72b91a72e853b0ae",
+  "text": "昼休み、陽太はコッペパンだけ買いました。みんなが自分のパンを少しあげました。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "3955550122e1968c",
+  "text": "あれぇ？外、雨ですよぉ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}

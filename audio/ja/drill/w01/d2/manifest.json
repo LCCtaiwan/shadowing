@@ -26,5 +26,47 @@
   "text": "いいえ、台湾じゃないです。",
   "voice": "Rasalgethi",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "w01d2-02-s1": {
+  "file": "w01d2-02-s1.mp3",
+  "hash": "590e13da3928ca05",
+  "text": "何歳ですか。",
+  "voice": "Puck",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w01d2-02-o1": {
+  "file": "w01d2-02-o1.mp3",
+  "hash": "a3d9ff2813a1eb9a",
+  "text": "じゅうななにんです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w01d2-02-o2": {
+  "file": "w01d2-02-o2.mp3",
+  "hash": "bb53698b8fb92068",
+  "text": "二年生です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d2-02-o3": {
+  "file": "w01d2-02-o3.mp3",
+  "hash": "3e2a1453822b4dc1",
+  "text": "十七歳です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w01d2-03-s1": {
+  "file": "w01d2-03-s1.mp3",
+  "hash": "daa161a5c3269c18",
+  "text": "にほんご、上手ですね。",
+  "voice": "Callirrhoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w01d2-03-o1": {
+  "file": "w01d2-03-o1.mp3",
+  "hash": "e292fd219473b6bb",
+  "text": "はい、上手ですね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

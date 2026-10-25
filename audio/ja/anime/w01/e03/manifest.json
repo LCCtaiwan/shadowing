@@ -12,5 +12,19 @@
   "text": "今日はマイクテストよ。ルールをいうから、よく聞きなさい。",
   "voice": "Despina",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "b8b9c8db5e6cb236",
+  "text": "一つ。マイクを叩いてはいけない。",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "5854f45a8a580df6",
+  "text": "二つ。マイクの前で、お菓子を食べちゃだめですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-pro-preview-tts"
  }
 }

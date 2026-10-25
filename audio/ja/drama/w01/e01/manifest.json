@@ -183,15 +183,17 @@
  },
  "g1-ex1": {
   "file": "g1-ex1.mp3",
-  "hash": "69572600560d4cba",
-  "text": "すみません、ゆっくり話してください。",
-  "voice": "Sulafat"
+  "hash": "b30b9b225f322833",
+  "text": "すみません、もう少しゆっくり言ってください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
  },
  "g1-ex2": {
   "file": "g1-ex2.mp3",
-  "hash": "9da06f03b08e83c0",
-  "text": "ここで少し待ってください。",
-  "voice": "Sulafat"
+  "hash": "9207d3b269b79690",
+  "text": "この紙に名前を書いてください。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
  },
  "g2-ex1": {
   "file": "g2-ex1.mp3",
@@ -331,5 +333,47 @@
   "text": "いいえ、観光に来ました。仕事は……やめました。",
   "voice": "Iapetus",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "6d16ff32a2342689",
+  "text": "あら、いいですね。にほんにはどのくらいいますか。",
+  "voice": "Erinome",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "cb845c3e7974fa5c",
+  "text": "三週間です。東京と京都を見に来ました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "b0c24f17510285b9",
+  "text": "上野は終点ですから、ゆっくり休んでくださいね。",
+  "voice": "Erinome",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "4f0897cb63bfedae",
+  "text": "ありがとうございます。じゃあ……窓の外を見ます。富士山……。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "e2ece233364d13bc",
+  "text": "ふふ。ふじさんは見えませんよ。",
+  "voice": "Erinome",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "93014807722ec4ee",
+  "text": "……はい、知っています。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }
