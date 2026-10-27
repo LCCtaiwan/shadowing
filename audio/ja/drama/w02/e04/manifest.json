@@ -341,5 +341,19 @@
   "text": "もつ",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:会計": {
+  "file": "v-f4782756ef5b.mp3",
+  "hash": "28a17a25246e0335",
+  "text": "かいけい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:Suica": {
+  "file": "v-7c75cfd3a89c.mp3",
+  "hash": "01bea11ec31cbafb",
+  "text": "スイカ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

@@ -1,0 +1,282 @@
+{
+ "w02d1-01-s1": {
+  "file": "w02d1-01-s1.mp3",
+  "hash": "9043287a77660dc3",
+  "text": "こちらのお弁当、温めますか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-01-o1": {
+  "file": "w02d1-01-o1.mp3",
+  "hash": "168a2cc6b0b2bfe0",
+  "text": "はい、温かいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-01-o2": {
+  "file": "w02d1-01-o2.mp3",
+  "hash": "1316b31006dc3033",
+  "text": "はい、お願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-01-o3": {
+  "file": "w02d1-01-o3.mp3",
+  "hash": "babe547a5d946569",
+  "text": "いいえ、温めました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-02-s1": {
+  "file": "w02d1-02-s1.mp3",
+  "hash": "52c7d07a5005a46e",
+  "text": "袋はご利用ですか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-02-o1": {
+  "file": "w02d1-02-o1.mp3",
+  "hash": "af7ee1f76857fb51",
+  "text": "いえ、大丈夫です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-02-o2": {
+  "file": "w02d1-02-o2.mp3",
+  "hash": "797309dfbdf00ac0",
+  "text": "はい、袋です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-02-o3": {
+  "file": "w02d1-02-o3.mp3",
+  "hash": "ef0195fcd9c3417a",
+  "text": "いいえ、使ってください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-03-s1": {
+  "file": "w02d1-03-s1.mp3",
+  "hash": "792df76e82177ca4",
+  "text": "お会計、六百八十円になります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-03-o1": {
+  "file": "w02d1-03-o1.mp3",
+  "hash": "5420923ff80a65e4",
+  "text": "いいえ、なりません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-03-o2": {
+  "file": "w02d1-03-o2.mp3",
+  "hash": "6ca1a3b19392c8db",
+  "text": "じゃあ、六百八十円ください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-03-o3": {
+  "file": "w02d1-03-o3.mp3",
+  "hash": "3dcf26ff90eb1a41",
+  "text": "スイカで払ってもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-04-s1": {
+  "file": "w02d1-04-s1.mp3",
+  "hash": "527f93b22728772c",
+  "text": "お箸はおつけしますか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-04-o1": {
+  "file": "w02d1-04-o1.mp3",
+  "hash": "f32378afee2925c6",
+  "text": "はい、つけました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-04-o2": {
+  "file": "w02d1-04-o2.mp3",
+  "hash": "46ca0b65d9f3c1a9",
+  "text": "はい、二人分お願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-04-o3": {
+  "file": "w02d1-04-o3.mp3",
+  "hash": "422846d3a85822e4",
+  "text": "はい、おつけします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-05-s1": {
+  "file": "w02d1-05-s1.mp3",
+  "hash": "fb8988dfe9867fd3",
+  "text": "すみません、トイレを借りてもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-05-o1": {
+  "file": "w02d1-05-o1.mp3",
+  "hash": "212a46de0594a3d0",
+  "text": "はい、貸してください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-05-o2": {
+  "file": "w02d1-05-o2.mp3",
+  "hash": "e7e4514c160c5b8b",
+  "text": "いいえ、借りました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-05-o3": {
+  "file": "w02d1-05-o3.mp3",
+  "hash": "737aac60424a33a4",
+  "text": "はい、どうぞ。奥にあります。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-06-s1": {
+  "file": "w02d1-06-s1.mp3",
+  "hash": "9908034e5e5d46b9",
+  "text": "ポイントカードはお持ちですか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-06-o1": {
+  "file": "w02d1-06-o1.mp3",
+  "hash": "9941b479c5b5b0b7",
+  "text": "いえ、持っていません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-06-o2": {
+  "file": "w02d1-06-o2.mp3",
+  "hash": "c95af31965c6770c",
+  "text": "はい、お持ちします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-06-o3": {
+  "file": "w02d1-06-o3.mp3",
+  "hash": "cd53ab25f7c1479a",
+  "text": "いいえ、カードで払います。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-setup": {
+  "file": "w02d1-07-setup.mp3",
+  "hash": "469db45d35f240f0",
+  "text": "コンビニで男の人と店員が話しています。男の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-question": {
+  "file": "w02d1-07-question.mp3",
+  "hash": "9a0730decb348d20",
+  "text": "男の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-s1": {
+  "file": "w02d1-07-s1.mp3",
+  "hash": "867520745c8276bc",
+  "text": "お弁当、温めますか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-s2": {
+  "file": "w02d1-07-s2.mp3",
+  "hash": "50ad559f9fdb41af",
+  "text": "はい、お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-s3": {
+  "file": "w02d1-07-s3.mp3",
+  "hash": "26e9fc428f98c7c4",
+  "text": "お支払いは、そちらの機械でお願いします。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-s4": {
+  "file": "w02d1-07-s4.mp3",
+  "hash": "7c9f355195d18785",
+  "text": "え？あの、スイカは使えますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-s5": {
+  "file": "w02d1-07-s5.mp3",
+  "hash": "2489b88ebe55edfb",
+  "text": "はい。まず画面の「スイカ」を押してください。それから、ここにタッチしてください。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-07-s6": {
+  "file": "w02d1-07-s6.mp3",
+  "hash": "4565524697cb0ac5",
+  "text": "わかりました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-setup": {
+  "file": "w02d1-08-setup.mp3",
+  "hash": "ee0e41dbdd7f64f8",
+  "text": "コンビニで女の人と店員が話しています。女の人はいくら払いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-question": {
+  "file": "w02d1-08-question.mp3",
+  "hash": "eb6c664fe221e680",
+  "text": "女の人はいくら払いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-s1": {
+  "file": "w02d1-08-s1.mp3",
+  "hash": "210ba818d9a2c76e",
+  "text": "お弁当とお茶で、七百二十円になります。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-s2": {
+  "file": "w02d1-08-s2.mp3",
+  "hash": "e95353a61a4e31cb",
+  "text": "すみません、このお茶、やめてもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-s3": {
+  "file": "w02d1-08-s3.mp3",
+  "hash": "6298007f7c91922a",
+  "text": "はい。では、お弁当だけで、五百八十円になります。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-s4": {
+  "file": "w02d1-08-s4.mp3",
+  "hash": "2c5e262438e89b26",
+  "text": "あと、袋もお願いします。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-s5": {
+  "file": "w02d1-08-s5.mp3",
+  "hash": "1f7a394714ed49cb",
+  "text": "袋は五円ですが、よろしいですか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d1-08-s6": {
+  "file": "w02d1-08-s6.mp3",
+  "hash": "8c790a05512160db",
+  "text": "はい。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ }
+}

@@ -40,5 +40,313 @@
   "text": "いや、カレーパンより焼きそばパンのほうがうまいだろ！",
   "voice": "Fenrir",
   "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "5593ee849e39e58f",
+  "text": "焼きそばパンは、いくらですか？",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "af4cd088aa6790bd",
+  "text": "百五十円よ。カレーパンより三十円安いの。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "f9c6b7719080718f",
+  "text": "時間がないぞ！走れ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "c22a25a5f3a5b6f3",
+  "text": "あっ、廊下は走ってはいけませんよ！",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "89de534667fbeb55",
+  "text": "はいはい、次の人！焼きそば？カレー？メロン？早く言って！",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "b2186f615d8d0c68",
+  "text": "えっと、焼きそばパンと…いや、カレーパンも…。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "39e3ec3ac413e030",
+  "text": "はい、遅い！次！",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "373f7ecf31000744",
+  "text": "焼きそばパン、いっこください！",
+  "voice": "Callirrhoe",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "8d53c48cacd7c13f",
+  "text": "はい、百五十円ね。焼きそばパンは、これでおしまい！",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "56f51f9a9a4fded9",
+  "text": "ええっ！？俺の焼きそばパンが…！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "2fc5f73776481eb8",
+  "text": "ごめんね。あんたの口より、おばちゃんの手のほうが速いのよ！",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "508de9e33094bef3",
+  "text": "すみません、メロンパンを一つと、牛乳をください。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "18168e72d1c1a8c2",
+  "text": "はい、二百円ね！そっちのおにいさんは？残ってるのは、コッペパンだけよ。",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "aca8aa918bc5984c",
+  "text": "で、あんたの昼ごはんは、コッペパンだけ？",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "b98fb4b980be6686",
+  "text": "うるさい…。俺は、コッペパンも好きだぜ…。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "0865936bc2a7eeb5",
+  "text": "陽太先輩、わたしのクッキー、一枚だけあげますねぇ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "621b42567594cca1",
+  "text": "わたしのメロンパンも、半分どうぞ。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "a1b5fde87ca40f79",
+  "text": "シャオユー…ひな…！お前ら、いいやつだな！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "d592fe0374cd65ef",
+  "text": "あしたは、みんなで早く行きましょう。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "26873adfa5508d5f",
+  "text": "みんな、ありがとう！焼きそばパンより、みんなのパンのほうがうまいぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "d5ba47d72f34ae3b",
+  "text": "べ、別に…わたしのカレーパンも、少しだけならあげてもいいわよ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "4050e5e464de2f5d",
+  "text": "電車よりバスのほうが安いです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "274c103f2fa715a8",
+  "text": "わたしは夏より冬のほうが好きです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "9c946a3fbdbc6c6f",
+  "text": "財布の中に、百円だけあります。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "6924f0d2af9d56b0",
+  "text": "今日は一時間だけ勉強しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:購買": {
+  "file": "v-f2ec5fe190e3.mp3",
+  "hash": "ff3a5307521f98d1",
+  "text": "こうばい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:昼休み": {
+  "file": "v-a35d428916ab.mp3",
+  "hash": "80666bb1911e42ce",
+  "text": "ひるやすみ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:焼きそばパン": {
+  "file": "v-ce5e996ac860.mp3",
+  "hash": "1bf9f528c8eb662e",
+  "text": "やきそばパン",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:個": {
+  "file": "v-04ea0d0cecc2.mp3",
+  "hash": "ffa13345f5005619",
+  "text": "こ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:うまい": {
+  "file": "v-4a64fe922a5a.mp3",
+  "hash": "96fd223f15b851b2",
+  "text": "うまい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:安い": {
+  "file": "v-c938ad171220.mp3",
+  "hash": "c17e39e3d8fb2285",
+  "text": "やすい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:廊下": {
+  "file": "v-834e4f9b4776.mp3",
+  "hash": "99ea1e449184011b",
+  "text": "ろうか",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:走る": {
+  "file": "v-68580e4aa8c6.mp3",
+  "hash": "5176e329273ee260",
+  "text": "はしる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:次": {
+  "file": "v-9c562dae1d90.mp3",
+  "hash": "d017c9ee3f406e22",
+  "text": "つぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:遅い": {
+  "file": "v-af0d4fda8dc7.mp3",
+  "hash": "f80ad1ff74839b58",
+  "text": "おそい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:おしまい": {
+  "file": "v-64f2852add25.mp3",
+  "hash": "b47d1ab9c7887031",
+  "text": "おしまい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:速い": {
+  "file": "v-c3e1edb45a9f.mp3",
+  "hash": "b5c79bb9c73e3d77",
+  "text": "はやい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:牛乳": {
+  "file": "v-679fdf2de08f.mp3",
+  "hash": "0a54807c50b87e86",
+  "text": "ぎゅうにゅう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:残る": {
+  "file": "v-9ac0da8593da.mp3",
+  "hash": "4d98c336465ef5a6",
+  "text": "のこる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:うるさい": {
+  "file": "v-709dfb453697.mp3",
+  "hash": "954f4f5bd50cf0e7",
+  "text": "うるさい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:先輩": {
+  "file": "v-51bd80bcdca2.mp3",
+  "hash": "d884c72f1432d742",
+  "text": "せんぱい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:枚": {
+  "file": "v-a70452bc75c1.mp3",
+  "hash": "c976c49a96fa2880",
+  "text": "まい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:半分": {
+  "file": "v-a1d78500cf51.mp3",
+  "hash": "0e27ea4c8ee24b16",
+  "text": "はんぶん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:別に": {
+  "file": "v-2af780b7feb2.mp3",
+  "hash": "275eaba11788671c",
+  "text": "べつに",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

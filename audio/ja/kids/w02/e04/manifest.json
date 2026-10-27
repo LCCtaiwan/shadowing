@@ -1,0 +1,247 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "043db63f6151eb25",
+  "text": "きょうは公園に来ました。そうたくんもいます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "4db8f9a84f5b3f4a",
+  "text": "いっしょにあそぼう！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "934da4a4db1dc9e8",
+  "text": "うん、あそぼう！すべり台、行こう！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "e03a13767dde0893",
+  "text": "アーバオも！いれて！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "57c539291e7ecba7",
+  "text": "いいよ！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "ba0195cea402fb86",
+  "text": "あ、そうたくんだ！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "5b1ab770f4e7a4c3",
+  "text": "シャオミーちゃん！アーバオくん！こっち、こっち！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "82064e8c1da60393",
+  "text": "順番ね。そうたくん、どうぞ。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "db54d9cb938ffb4c",
+  "text": "ありがとう！次は、シャオミーちゃんね。",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "078eb8ad88d878cf",
+  "text": "いいよ！みんなでやろう！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "0941581e127986b1",
+  "text": "ボール、ぽーん！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "a01dfc96d601e9d5",
+  "text": "えー、もうちょっと！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "39fd06f926b700e2",
+  "text": "中村さん、いっしょに写真をとってもいいですか。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "85672932afb57398",
+  "text": "ええ、いいですよ。はい、チーズ！",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "1572a72b826f0f00",
+  "text": "また、あしたあそぼうね！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "a4f777364ce253db",
+  "text": "そうた、そろそろ帰るよ。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "3aff78bc334687b9",
+  "text": "そうたくん、そのボール、使ってもいい？",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "4ca9ef9736a2a082",
+  "text": "うん！またね！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "516c16f479611d4d",
+  "text": "バイバーイ！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "7d4123aa16bff081",
+  "text": "いっしょに帰ろう。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "e33520c8f43e57de",
+  "text": "おやつ、食べよう！",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "09cd70fbf5a73f11",
+  "text": "これ、さわってもいい？",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "fc21354d35510d42",
+  "text": "トイレに行ってもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:一緒": {
+  "file": "v-8b2edc0b5ee0.mp3",
+  "hash": "3e4cd4b8fa2db064",
+  "text": "いっしょ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:遊ぶ": {
+  "file": "v-83a3a5349b6f.mp3",
+  "hash": "3f773afae3340ba6",
+  "text": "あそぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:すべり台": {
+  "file": "v-6a55df06203d.mp3",
+  "hash": "341e59b8bc9bb2d7",
+  "text": "すべりだい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:行く": {
+  "file": "v-84c7888f7459.mp3",
+  "hash": "0d455d31764c9436",
+  "text": "いく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:入れる": {
+  "file": "v-9595e0d1be7a.mp3",
+  "hash": "ca47e28f2d0a3d79",
+  "text": "いれる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:順番": {
+  "file": "v-6281a7b4919f.mp3",
+  "hash": "54401e03de2de66e",
+  "text": "じゅんばん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:次": {
+  "file": "v-9c562dae1d90.mp3",
+  "hash": "d017c9ee3f406e22",
+  "text": "つぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ボール": {
+  "file": "v-fe8e7aec3ef7.mp3",
+  "hash": "f841841aea402971",
+  "text": "ボール",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:使う": {
+  "file": "v-c7d5b9b5638a.mp3",
+  "hash": "02701881741ee9bf",
+  "text": "つかう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:帰る": {
+  "file": "v-081ec76e249a.mp3",
+  "hash": "42184d0acd5e6392",
+  "text": "かえる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:写真": {
+  "file": "v-d1ec5ed3cfd0.mp3",
+  "hash": "d8cad2f9e150b0c6",
+  "text": "しゃしん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:明日": {
+  "file": "v-8d9672e61422.mp3",
+  "hash": "a7269b12e7916687",
+  "text": "あした",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

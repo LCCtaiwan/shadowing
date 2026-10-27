@@ -1,0 +1,23 @@
+{
+ "w02d2-01-s1": {
+  "file": "w02d2-01-s1.mp3",
+  "hash": "febf1af9a5551540",
+  "text": "焼きそばパンとカレーパン、どっちが好き？",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d2-01-o1": {
+  "file": "w02d2-01-o1.mp3",
+  "hash": "a6ac4f71289b3e90",
+  "text": "カレーパンのほうが好きです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d2-01-o2": {
+  "file": "w02d2-01-o2.mp3",
+  "hash": "d177ba459455b584",
+  "text": "はい、好きです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}
