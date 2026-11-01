@@ -1,0 +1,261 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "a9662f6e6f55af5f",
+  "text": "きょうは大きいお店に来ました。人がたくさんいます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "7474a538d27fb4b0",
+  "text": "ママ…？ママ、いない…。",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "27332d6f131b58d2",
+  "text": "だいじょうぶ。ここで待とう。動かないよ。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "a4eb36fb6464efa4",
+  "text": "どうしたの？おばさんといっしょに、ママを探しに行こうか。",
+  "voice": "Aoede",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "cf8643c6a0cdf71c",
+  "text": "いいえ、行きません。ここで待ちます。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "95afc7149e8334e6",
+  "text": "お店の人を呼んでください。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "872689af299dd75a",
+  "text": "わかった。ちょっと待っててね。",
+  "voice": "Aoede",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "1d3a144edf8d2729",
+  "text": "どうしましたか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "e8b1592adc989254",
+  "text": "ママがいません。まいごです。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "4868fcdb0b0e7fe3",
+  "text": "だいじょうぶですよ。お名前は？何歳ですか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "8406974c4253f2cb",
+  "text": "名前はシャオミーです。七歳です。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "d254291c7e781b68",
+  "text": "弟はアーバオです。四歳です。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "bfbc5fe38c328f93",
+  "text": "ママの電話番号、わかりますか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "59508902f2dca61f",
+  "text": "はい。このカードを見てください。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "d018a08ec69e1ba8",
+  "text": "ママの電話番号と、ホテルの名前ですね。すぐ電話します。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "f1715a7bd063f07c",
+  "text": "ここで待っていてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "881ccf478cb55b7f",
+  "text": "シャオミー！アーバオ！",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "a08b0ba400228f89",
+  "text": "ママ！ここで待ってたよ！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "fc9025e2849f0c93",
+  "text": "本当にありがとうございました。",
+  "voice": "Autonoe",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "c1035ef96ffdc347",
+  "text": "名前はそうたです。六歳です。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "929d514c38254527",
+  "text": "ママの名前はかけいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "8992ca4fc4a950ee",
+  "text": "ママに電話してください。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "e8d75803396a5799",
+  "text": "ゆっくり話してください。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ママ": {
+  "file": "v-218d3d892b40.mp3",
+  "hash": "ac0940ba142aefbf",
+  "text": "ママ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:待つ": {
+  "file": "v-ab70084ee5d5.mp3",
+  "hash": "a4283d2e15d217dd",
+  "text": "まつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:動く": {
+  "file": "v-f669e9910c18.mp3",
+  "hash": "46fe3557ce44438c",
+  "text": "うごく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:探す": {
+  "file": "v-3fc60e39b146.mp3",
+  "hash": "51ba9427809c6c9c",
+  "text": "さがす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:店": {
+  "file": "v-9c8aabbb91dc.mp3",
+  "hash": "7aad2b692f7f5056",
+  "text": "みせ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:人": {
+  "file": "v-281a2d35a294.mp3",
+  "hash": "d15150127ed390a5",
+  "text": "ひと",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:呼ぶ": {
+  "file": "v-27f4a152ada8.mp3",
+  "hash": "0e2e49ec7ed4c396",
+  "text": "よぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:迷子": {
+  "file": "v-32ebbe27491c.mp3",
+  "hash": "af64cc151fb73a75",
+  "text": "まいご",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:名前": {
+  "file": "v-83ad56fcdd62.mp3",
+  "hash": "ee2a728ef4d4b5a6",
+  "text": "なまえ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:歳": {
+  "file": "v-a4010eceb925.mp3",
+  "hash": "55c1f04535ff8b16",
+  "text": "さい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:弟": {
+  "file": "v-39f2e8755ec8.mp3",
+  "hash": "9e0ae97cdc6fe09a",
+  "text": "おとうと",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:電話番号": {
+  "file": "v-fb588e431602.mp3",
+  "hash": "6a39142868330ddd",
+  "text": "でんわばんごう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:カード": {
+  "file": "v-ea97be22220e.mp3",
+  "hash": "28072f83dc1d7fba",
+  "text": "カード",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ホテル": {
+  "file": "v-5abf612d14a4.mp3",
+  "hash": "3ac8cc35f7636d1b",
+  "text": "ホテル",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

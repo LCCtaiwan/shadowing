@@ -1,0 +1,86 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "afde264a94f1f279",
+  "text": "シャオユーと陽太が「屋上で待ってる」を録音しました。二人とも顔が赤くなりました。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "ce41653b77b422fb",
+  "text": "みんな、聞きなさい。生徒会から手紙が来たわ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "7450180a2b2ad9bc",
+  "text": "文化祭までに、部員が五人いなければならないの。今は、よにんよ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "c2295dc6b8aded1b",
+  "text": "あと一人か…。よし、今日の録音で、がっこうじゅうを熱くするぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "d80d17313892ac47",
+  "text": "今日は『最後のパス』です。バスケットボールの試合の話です。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "bc24fb13c545fb79",
+  "text": "わたしは、ボールの音を作りながら、実況をしますぅ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "4c8f058e51d157de",
+  "text": "あー、バスケか。…声、出しすぎるなよ。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "10f5dab27369360a",
+  "text": "残り十秒！五十八対六十！ボールは、陽太選手の手に！",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "30c7019968a0ca2d",
+  "text": "走りなさい！最後まで、あきらめちゃだめよ！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "4d7add5dc4fce186",
+  "text": "足が重い…。でも、俺は走らなければならないんだ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "460fc75493ea9910",
+  "text": "走りながら、仲間を探す。…どこだ、どこにいる！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "8fa50cca762280f7",
+  "text": "残り五秒！陽太選手の前に、二人います！",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

@@ -19,5 +19,236 @@
   "text": "はい、好きです。",
   "voice": "Rasalgethi",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d2-01-o3": {
+  "file": "w02d2-01-o3.mp3",
+  "hash": "77446dbb9c2c93cc",
+  "text": "カレーパンだけ食べました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-02-s1": {
+  "file": "w02d2-02-s1.mp3",
+  "hash": "7348b2d0cba03181",
+  "text": "メロンパンは、あと一つだけだよ！",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-02-o1": {
+  "file": "w02d2-02-o1.mp3",
+  "hash": "fe9c79c82b5322ac",
+  "text": "じゃあ、二つください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-02-o2": {
+  "file": "w02d2-02-o2.mp3",
+  "hash": "8b485d34474368dc",
+  "text": "え、一つもないんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-02-o3": {
+  "file": "w02d2-02-o3.mp3",
+  "hash": "18ba49703c65806c",
+  "text": "じゃあ、それをください！",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-03-s1": {
+  "file": "w02d2-03-s1.mp3",
+  "hash": "0ab7139d6257f25d",
+  "text": "すみません、このパン、いくらですか。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-03-o1": {
+  "file": "w02d2-03-o1.mp3",
+  "hash": "2799c60751d87684",
+  "text": "二つだけだよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-03-o2": {
+  "file": "w02d2-03-o2.mp3",
+  "hash": "ac54540f9668dd23",
+  "text": "百五十円だよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-03-o3": {
+  "file": "w02d2-03-o3.mp3",
+  "hash": "90c60a5244b7f8d0",
+  "text": "十二時からだよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-04-s1": {
+  "file": "w02d2-04-s1.mp3",
+  "hash": "ff406112becaf3b6",
+  "text": "今日は昨日より人が多いじゃない。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-04-o1": {
+  "file": "w02d2-04-o1.mp3",
+  "hash": "decf5781136a1ac2",
+  "text": "そうですね。昨日のほうが少なかったです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-04-o2": {
+  "file": "w02d2-04-o2.mp3",
+  "hash": "780d5526363155d1",
+  "text": "はい、昨日のほうが多かったです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-04-o3": {
+  "file": "w02d2-04-o3.mp3",
+  "hash": "1975bdfd639e91c8",
+  "text": "はい、今日は多くないですね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-05-s1": {
+  "file": "w02d2-05-s1.mp3",
+  "hash": "2bf7fc2ae0fd1c79",
+  "text": "俺、財布忘れた…。百円だけ貸して！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-05-o1": {
+  "file": "w02d2-05-o1.mp3",
+  "hash": "c955270be6ba1fbc",
+  "text": "はい、百円借りました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-05-o2": {
+  "file": "w02d2-05-o2.mp3",
+  "hash": "05acddf332c63cda",
+  "text": "いいえ、百円じゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-05-o3": {
+  "file": "w02d2-05-o3.mp3",
+  "hash": "f0f8ebb65abb3fa2",
+  "text": "いいですよ。はい、どうぞ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-06-s1": {
+  "file": "w02d2-06-s1.mp3",
+  "hash": "ace4eaf5f67059d7",
+  "text": "わたし、パンよりおにぎりのほうが好きなんですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-06-o1": {
+  "file": "w02d2-06-o1.mp3",
+  "hash": "e97e4fe2ec3f9be1",
+  "text": "じゃあ、パンを買いましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-06-o2": {
+  "file": "w02d2-06-o2.mp3",
+  "hash": "136670fa1177cc06",
+  "text": "じゃあ、おにぎりを買いに行きましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-06-o3": {
+  "file": "w02d2-06-o3.mp3",
+  "hash": "3a63a49dd5dca5bf",
+  "text": "えっ、おにぎりは嫌いなんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-setup": {
+  "file": "w02d2-07-setup.mp3",
+  "hash": "f383afefa746ccee",
+  "text": "購買で男の学生と店の人が話しています。男の学生は全部でいくら払いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-question": {
+  "file": "w02d2-07-question.mp3",
+  "hash": "b3f650a228a7592f",
+  "text": "男の学生は全部でいくら払いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-s1": {
+  "file": "w02d2-07-s1.mp3",
+  "hash": "13160acee286e814",
+  "text": "おばちゃん、焼きそばパン三つ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-s2": {
+  "file": "w02d2-07-s2.mp3",
+  "hash": "84b3f6c8a69b0d76",
+  "text": "ごめんね、焼きそばパンはあと二つだけなんだよ。",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-s3": {
+  "file": "w02d2-07-s3.mp3",
+  "hash": "2d375cebf14477fa",
+  "text": "えー！じゃあ、それ二つと、カレーパン一つ。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-s4": {
+  "file": "w02d2-07-s4.mp3",
+  "hash": "c125a81d3ad7279d",
+  "text": "焼きそばパンは一つ百八十円、カレーパンは百五十円だよ。",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-s5": {
+  "file": "w02d2-07-s5.mp3",
+  "hash": "5b31c7547204ee63",
+  "text": "あ、牛乳もください。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-07-s6": {
+  "file": "w02d2-07-s6.mp3",
+  "hash": "48277c0e83883e0e",
+  "text": "牛乳は百円ね。",
+  "voice": "Gacrux",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-08-s1": {
+  "file": "w02d2-08-s1.mp3",
+  "hash": "5fc24986a8bf3b43",
+  "text": "購買でメロンパンを二つ買いたいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-08-o1": {
+  "file": "w02d2-08-o1.mp3",
+  "hash": "453f5b86ddccb8e1",
+  "text": "メロンパン、二つあげます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-08-o2": {
+  "file": "w02d2-08-o2.mp3",
+  "hash": "cfbc34644f67ef1b",
+  "text": "メロンパン、二つ食べました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d2-08-o3": {
+  "file": "w02d2-08-o3.mp3",
+  "hash": "1de6c22be0566812",
+  "text": "メロンパンを二つください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
  }
 }

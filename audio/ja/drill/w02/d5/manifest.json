@@ -1,0 +1,247 @@
+{
+ "w02d5-01-s1": {
+  "file": "w02d5-01-s1.mp3",
+  "hash": "2baa30a425c7767e",
+  "text": "すみません、渋谷駅はどちらですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-01-o1": {
+  "file": "w02d5-01-o1.mp3",
+  "hash": "638a94a4ca957ce3",
+  "text": "この道をまっすぐ行ったら、右にありますよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-01-o2": {
+  "file": "w02d5-01-o2.mp3",
+  "hash": "ae8730406038f058",
+  "text": "はい、渋谷駅に行きました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-01-o3": {
+  "file": "w02d5-01-o3.mp3",
+  "hash": "647a29e9fe362667",
+  "text": "いいえ、渋谷駅じゃないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-02-s1": {
+  "file": "w02d5-02-s1.mp3",
+  "hash": "4086217d18ae73ef",
+  "text": "二つ目の信号を左に曲がってください。",
+  "voice": "Aoede",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-02-o1": {
+  "file": "w02d5-02-o1.mp3",
+  "hash": "86b11c92fcad3536",
+  "text": "二つ目の信号を右ですね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-02-o2": {
+  "file": "w02d5-02-o2.mp3",
+  "hash": "fa058fbe312dd6ee",
+  "text": "はい、左に曲がりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-02-o3": {
+  "file": "w02d5-02-o3.mp3",
+  "hash": "8353ee9e567caca9",
+  "text": "二つ目の信号を左ですね。わかりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-03-s1": {
+  "file": "w02d5-03-s1.mp3",
+  "hash": "54b1bea35611a379",
+  "text": "すみません、もう一度お願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-03-o1": {
+  "file": "w02d5-03-o1.mp3",
+  "hash": "26bfef6c6793847e",
+  "text": "はい、もう一度来てください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-03-o2": {
+  "file": "w02d5-03-o2.mp3",
+  "hash": "6a83047e928fb17a",
+  "text": "あ、はい。この道をまっすぐです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-03-o3": {
+  "file": "w02d5-03-o3.mp3",
+  "hash": "565cc6386241ad55",
+  "text": "いいえ、一度だけです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-04-s1": {
+  "file": "w02d5-04-s1.mp3",
+  "hash": "e5185c0fb53707b1",
+  "text": "あのお店、今日は閉まっていますよ。",
+  "voice": "Aoede",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-04-o1": {
+  "file": "w02d5-04-o1.mp3",
+  "hash": "777315a31cd4d293",
+  "text": "じゃあ、閉めてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-04-o2": {
+  "file": "w02d5-04-o2.mp3",
+  "hash": "3cf236766a0a1bf0",
+  "text": "え、あいているんですか。よかった。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-04-o3": {
+  "file": "w02d5-04-o3.mp3",
+  "hash": "bb9a709f8f8b8ca8",
+  "text": "えっ、そうなんですか。困ったなあ…。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-05-s1": {
+  "file": "w02d5-05-s1.mp3",
+  "hash": "7349aed7151a26e5",
+  "text": "駅に着いたら、電話してね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-05-o1": {
+  "file": "w02d5-05-o1.mp3",
+  "hash": "b859f6e5a286a8b4",
+  "text": "うん、着いたら電話するね。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-05-o2": {
+  "file": "w02d5-05-o2.mp3",
+  "hash": "27af0b3fd68aa2fa",
+  "text": "うん、電話したら着くね。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-05-o3": {
+  "file": "w02d5-05-o3.mp3",
+  "hash": "1cec1796eb565331",
+  "text": "はい、電話してもいいですよ。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-06-s1": {
+  "file": "w02d5-06-s1.mp3",
+  "hash": "bca10064212bde70",
+  "text": "すみません、このへんにコンビニはありますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-06-o1": {
+  "file": "w02d5-06-o1.mp3",
+  "hash": "035460722a914d3a",
+  "text": "はい、コンビニで買いました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-06-o2": {
+  "file": "w02d5-06-o2.mp3",
+  "hash": "c37b9b01e154a6f7",
+  "text": "ええ、あの角を曲がったら、すぐですよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-06-o3": {
+  "file": "w02d5-06-o3.mp3",
+  "hash": "892bef600ee73a12",
+  "text": "いいえ、コンビニはあります。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-setup": {
+  "file": "w02d5-07-setup.mp3",
+  "hash": "41be2bdd978765e8",
+  "text": "男の人が女の人に道を聞いています。レストランはどこにありますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-question": {
+  "file": "w02d5-07-question.mp3",
+  "hash": "794c41e2f081ef3a",
+  "text": "レストランはどこにありますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-s1": {
+  "file": "w02d5-07-s1.mp3",
+  "hash": "fec87fbda1026663",
+  "text": "すみません、「さくら」というレストランを探しているんですが…。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-s2": {
+  "file": "w02d5-07-s2.mp3",
+  "hash": "73e5ffb17587c438",
+  "text": "ああ、「さくら」ですね。この道をまっすぐ行って、一つ目の信号を右に曲がってください。",
+  "voice": "Aoede",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-s3": {
+  "file": "w02d5-07-s3.mp3",
+  "hash": "b3922d15cf223d2c",
+  "text": "一つ目の信号を右ですね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-s4": {
+  "file": "w02d5-07-s4.mp3",
+  "hash": "4ff06eef658d12d3",
+  "text": "はい。曲がったら、左に銀行が見えます。レストランは、その銀行の二階です。",
+  "voice": "Aoede",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-07-s5": {
+  "file": "w02d5-07-s5.mp3",
+  "hash": "7bb190a605db647d",
+  "text": "銀行の二階ですね。ありがとうございます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-08-s1": {
+  "file": "w02d5-08-s1.mp3",
+  "hash": "ef76f31da4387f33",
+  "text": "道に迷いました。今いる場所を知りたいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-08-o1": {
+  "file": "w02d5-08-o1.mp3",
+  "hash": "7c83fa3b248ebffe",
+  "text": "すみません、どこに行きますか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-08-o2": {
+  "file": "w02d5-08-o2.mp3",
+  "hash": "7129eaa0cef54850",
+  "text": "すみません、ここはどこですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d5-08-o3": {
+  "file": "w02d5-08-o3.mp3",
+  "hash": "4bedca0c0b250abf",
+  "text": "すみません、ここに来てください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

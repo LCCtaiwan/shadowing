@@ -1,0 +1,247 @@
+{
+ "w02d3-01-s1": {
+  "file": "w02d3-01-s1.mp3",
+  "hash": "efcc7d58acd6449a",
+  "text": "すみません、券売機の使い方がわからないんですが…。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-01-o1": {
+  "file": "w02d3-01-o1.mp3",
+  "hash": "2f8b6f92281cdd84",
+  "text": "はい、使いました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-01-o2": {
+  "file": "w02d3-01-o2.mp3",
+  "hash": "8297a7327e7c4740",
+  "text": "はい、使い方です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-01-o3": {
+  "file": "w02d3-01-o3.mp3",
+  "hash": "7d9a93f014ee7e1a",
+  "text": "あ、まずお金を入れてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-02-s1": {
+  "file": "w02d3-02-s1.mp3",
+  "hash": "486b68c887f5c7d1",
+  "text": "麺のかたさは、どうしますか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-02-o1": {
+  "file": "w02d3-02-o1.mp3",
+  "hash": "e1b64411b72720ae",
+  "text": "固めでお願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-02-o2": {
+  "file": "w02d3-02-o2.mp3",
+  "hash": "8f845d38f3a9ff41",
+  "text": "大盛りでお願いします。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-02-o3": {
+  "file": "w02d3-02-o3.mp3",
+  "hash": "7db7d26ba0d62b98",
+  "text": "はい、かたいです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-03-s1": {
+  "file": "w02d3-03-s1.mp3",
+  "hash": "183a74d23bfd8c0f",
+  "text": "すみません、トイレはどこでしょうか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-03-o1": {
+  "file": "w02d3-03-o1.mp3",
+  "hash": "6c4fbb930a82d5c7",
+  "text": "はい、どこでもいいですよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-03-o2": {
+  "file": "w02d3-03-o2.mp3",
+  "hash": "51424c259568c387",
+  "text": "あちらの奥です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-03-o3": {
+  "file": "w02d3-03-o3.mp3",
+  "hash": "50c98ea8dfd79eb0",
+  "text": "トイレは使ってもいいですよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-04-s1": {
+  "file": "w02d3-04-s1.mp3",
+  "hash": "dbd4423f40345be8",
+  "text": "いらっしゃいませ。何名様でしょうか。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-04-o1": {
+  "file": "w02d3-04-o1.mp3",
+  "hash": "93f3fa87d3624773",
+  "text": "二人目です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-04-o2": {
+  "file": "w02d3-04-o2.mp3",
+  "hash": "ed7b95d029845845",
+  "text": "二枚です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-04-o3": {
+  "file": "w02d3-04-o3.mp3",
+  "hash": "107f38da5b048360",
+  "text": "一人です。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-05-s1": {
+  "file": "w02d3-05-s1.mp3",
+  "hash": "98f32f6adcc9eb25",
+  "text": "あの、食券はどこに出しますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-05-o1": {
+  "file": "w02d3-05-o1.mp3",
+  "hash": "a6677090708afb63",
+  "text": "カウンターの上に置いてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-05-o2": {
+  "file": "w02d3-05-o2.mp3",
+  "hash": "b334875a8a15235e",
+  "text": "券売機で買ってください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-05-o3": {
+  "file": "w02d3-05-o3.mp3",
+  "hash": "8098fe394bf2933d",
+  "text": "はい、出しました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-06-s1": {
+  "file": "w02d3-06-s1.mp3",
+  "hash": "08db990993d98df7",
+  "text": "お水はセルフサービスになります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-06-o1": {
+  "file": "w02d3-06-o1.mp3",
+  "hash": "f8e8c9edee5a4a57",
+  "text": "じゃあ、お水を持ってきてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-06-o2": {
+  "file": "w02d3-06-o2.mp3",
+  "hash": "fe1818e9c297b9b6",
+  "text": "あ、わかりました。自分で取ります。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-06-o3": {
+  "file": "w02d3-06-o3.mp3",
+  "hash": "0dfbb89d7afad3de",
+  "text": "はい、お水になります。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-setup": {
+  "file": "w02d3-07-setup.mp3",
+  "hash": "81fe9c71434b4927",
+  "text": "ラーメン屋で男の人と店員が話しています。男の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-question": {
+  "file": "w02d3-07-question.mp3",
+  "hash": "9a0730decb348d20",
+  "text": "男の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-s1": {
+  "file": "w02d3-07-s1.mp3",
+  "hash": "ddd06d095fdd3580",
+  "text": "すみません、ラーメンを食べたいんですが、注文はどこでしょうか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-s2": {
+  "file": "w02d3-07-s2.mp3",
+  "hash": "ab56abc54873ed0a",
+  "text": "入り口の券売機で食券を買ってください。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-s3": {
+  "file": "w02d3-07-s3.mp3",
+  "hash": "da35fbdc5940dd86",
+  "text": "券売機の使い方が、よくわからないんですが…。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-s4": {
+  "file": "w02d3-07-s4.mp3",
+  "hash": "234ec546642dcc59",
+  "text": "まずお金を入れて、それからボタンを押してください。大盛りは、あとでわたしに言ってください。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d3-07-s5": {
+  "file": "w02d3-07-s5.mp3",
+  "hash": "b5f687f96396357f",
+  "text": "わかりました。ありがとうございます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d3-08-s1": {
+  "file": "w02d3-08-s1.mp3",
+  "hash": "e9a607933bc3b43c",
+  "text": "ラーメン屋で、おすすめの食べ方を聞きたいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d3-08-o1": {
+  "file": "w02d3-08-o1.mp3",
+  "hash": "2151d1cfd6429e06",
+  "text": "おすすめの食べ方はありますか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d3-08-o2": {
+  "file": "w02d3-08-o2.mp3",
+  "hash": "afa89444d62b1208",
+  "text": "食べ方を教えましょうか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d3-08-o3": {
+  "file": "w02d3-08-o3.mp3",
+  "hash": "9ba77006b2cb0b27",
+  "text": "もう食べてもいいでしょうか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

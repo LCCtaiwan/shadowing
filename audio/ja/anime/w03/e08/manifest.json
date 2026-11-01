@@ -1,0 +1,352 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "91a705e6ad932a76",
+  "text": "ラジオドラマ「放課後の名探偵」を録音しました。ひなのプリンを食べたのは、黒川先生でした。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "0959bbc1b9e30db2",
+  "text": "今度の台本は、恋の話です。タイトルは『屋上で待ってる』です。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "98630313eae88a1d",
+  "text": "こ、恋！？俺が告白するのか！？",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "06f70bd039c709b1",
+  "text": "はい。凛さん、ヒロインをやってもらえませんか。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "3e69ec665bb0eafd",
+  "text": "む、無理よ！別に、恥ずかしくなんかないけど…やらない！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "e5d30e39d4e9f5aa",
+  "text": "書いた人がやるのが、一番いいと思いますぅ。シャオユー先輩、どうですかぁ？",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "12f83e30ef3cf1ba",
+  "text": "えっ、わたしですか！？…が、がんばります。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "3dd36b65ce1380f2",
+  "text": "わたしは、風の音と、チャイムの音を作りますねぇ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "2efbd3bd47a042e1",
+  "text": "そ、そうね。わたしも、それがいいと思うわ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "8a5af0fda677499b",
+  "text": "ヒュウウ…。夕方の屋上。風が、少し冷たいです。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "48dd8436feb61e31",
+  "text": "あの…手紙、読んだよ。「屋上で待ってる」って…。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "c575a06954e6f2dc",
+  "text": "お、おう…。来てくれたんだな。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "cdf3887d3890ef61",
+  "text": "話って…なにかな？",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "ebaf8871587591a3",
+  "text": "えっと、その…。少しだけ、俺の話を聞いてもらえませんか。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "c022e27d298d489c",
+  "text": "ど、どうして急に敬語なの…？",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "bbbd39ad000a48ad",
+  "text": "俺…ずっと前から、お前のことが…。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "8bb20ea5e06fee33",
+  "text": "キーンコーンカーンコーン…。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "c45290ae4a06abc5",
+  "text": "…す、好きだと思う！いや、好きだ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "59c4cee7e6f249bf",
+  "text": "…別に、うれしくないよ。…うそ。わたしも、たぶん…好き、かな。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "1f4c0d88761d8d4d",
+  "text": "ほ、本当か！？よっしゃあああ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "feb58c8b6ee08d59",
+  "text": "カット！陽太、最後に叫ぶのはだめでしょ！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "ddf0e8a6d01ec236",
+  "text": "だって…シャオユーの声が、本物みたいで…。顔が熱いぜ…。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "5686d08b6263fd9f",
+  "text": "わ、わたしも、顔が赤いと思います…。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "20482c5a7817d1e5",
+  "text": "二人とも、トマトみたいですねぇ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "0786ae48869a2031",
+  "text": "…青春だな。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "aafba780270ba4d2",
+  "text": "…ふん。別に、うらやましくないわよ。…次は、わたしがやってもいいけど。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "094a85dea88c8c5f",
+  "text": "えっ！？部長、今なんて言った？",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "acb9497ec5e7dfe7",
+  "text": "な、なにも言ってない！早く次の練習をしなさい！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "9f5665061db4bedb",
+  "text": "すみません、写真を撮ってもらえませんか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "164fd3536e5ddc73",
+  "text": "もう少しゆっくり話してもらえませんか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "e46b2a3b5072bf92",
+  "text": "あしたは雨が降ると思います。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "ae5d7396a1355da9",
+  "text": "この店のラーメンが、にほんで一番おいしいと思います。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:恋": {
+  "file": "v-72e3281896c2.mp3",
+  "hash": "5a37035c86607d79",
+  "text": "こい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:屋上": {
+  "file": "v-1348def70de6.mp3",
+  "hash": "44137c468db4bfa1",
+  "text": "おくじょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:待つ": {
+  "file": "v-ab70084ee5d5.mp3",
+  "hash": "a4283d2e15d217dd",
+  "text": "まつ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:告白": {
+  "file": "v-f122091d8ec4.mp3",
+  "hash": "da34fa5394279536",
+  "text": "こくはく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:ヒロイン": {
+  "file": "v-84a50c19c797.mp3",
+  "hash": "7ec22b5f0457b5eb",
+  "text": "ヒロイン",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:無理": {
+  "file": "v-57efb946af10.mp3",
+  "hash": "1a923d9cd07d0db7",
+  "text": "むり",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:恥ずかしい": {
+  "file": "v-b8d60c92f337.mp3",
+  "hash": "b260204f39d05d7c",
+  "text": "はずかしい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:風": {
+  "file": "v-175014ebfd92.mp3",
+  "hash": "755a399d93c73ff1",
+  "text": "かぜ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:夕方": {
+  "file": "v-2bcc891fdbd0.mp3",
+  "hash": "89e69e28c105d26f",
+  "text": "ゆうがた",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:手紙": {
+  "file": "v-ac5ccd1108f6.mp3",
+  "hash": "2c581c209e2f12d8",
+  "text": "てがみ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:急に": {
+  "file": "v-7a5491fb371b.mp3",
+  "hash": "5652355bae20fbb8",
+  "text": "きゅうに",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:敬語": {
+  "file": "v-53ca4a94fe92.mp3",
+  "hash": "19bb5404310ca0ca",
+  "text": "けいご",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:熱い": {
+  "file": "v-ec9d9928b127.mp3",
+  "hash": "545efe09de3f592a",
+  "text": "あつい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:青春": {
+  "file": "v-30e5b05db8d1.mp3",
+  "hash": "4036c5fbd077b4bb",
+  "text": "せいしゅん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:うらやましい": {
+  "file": "v-366715f06887.mp3",
+  "hash": "0ab34c8fded3d2f4",
+  "text": "うらやましい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:好き": {
+  "file": "v-a7695ce83f35.mp3",
+  "hash": "e85caf9f7967cc47",
+  "text": "すき",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:うそ": {
+  "file": "v-191d0b05081d.mp3",
+  "hash": "40f651ad361e0c78",
+  "text": "うそ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:叫ぶ": {
+  "file": "v-1dc8bf0a1126.mp3",
+  "hash": "86e7e6d1dc2da63c",
+  "text": "さけぶ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

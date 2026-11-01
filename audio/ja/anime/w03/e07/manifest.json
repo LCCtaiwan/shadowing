@@ -1,0 +1,345 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "781a1e58fef8952c",
+  "text": "「勇者と魔王」の録音が終わりました。黒川先生は「悪くない」と言いました。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "9088436e90ab4c2b",
+  "text": "新しい台本を書いてきました。今度はミステリーです。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "46f34ae48b307bc7",
+  "text": "『放課後の名探偵』…。探偵はわたしね。まあ、当たり前じゃない。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "599d4e1923d04d4a",
+  "text": "えー、俺は助手かよ！刑事がよかったぜ。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "e87620ace80a70c4",
+  "text": "わたしは目撃者ですねぇ。…あれぇ？冷蔵庫のプリンが、ありません。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "b639701685077e0f",
+  "text": "プリン？あとで調べてみるわ。まずは録音よ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "2056f8d204777b0c",
+  "text": "……ぐう……。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "8b43e7ee56b652a8",
+  "text": "夕方の職員室。校長先生のたんじょうびケーキが、消えました…。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "2fcbddc21b74ad7e",
+  "text": "名探偵！大変です！犯人は、きっと隣のクラスのやつです！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "893fc52e8d83b272",
+  "text": "落ち着きなさい、助手くん。あんたは答えを出すのが早すぎるのよ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "fe202ade715911cd",
+  "text": "そこのお嬢さん。あなたが見たことを、話してみなさい。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "d6b1cf9101126d65",
+  "text": "はいぃ…。五時ごろ、窓の外を、白くて小さいものが走っていきましたぁ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "273e74b95eeafcf9",
+  "text": "白いもの！？おばけですよ！名探偵、早く逃げましょう！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "86e2e30d5f41ade9",
+  "text": "おばけなんて、いないわ。…見なさい。この窓、少しあいているわね。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "f9498cb309e4b629",
+  "text": "助手くん、床をよく見てみなさい。なにがある？",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "b7ad0087a3f0018a",
+  "text": "えっと…小さい足跡と…白い毛が、少しあります！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "503a9966149e5840",
+  "text": "ふふん。この謎の答えは、もう床の上にあるわ。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "82f64db788fa662e",
+  "text": "犯人は人間じゃない。窓から入ってきた、白い猫よ！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "f94f62f775446941",
+  "text": "にゃーん。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "ad0cbce6919b3269",
+  "text": "さすが名探偵！…でも、猫にこのケーキは大きすぎませんか？",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "15c8f64bcb64bc59",
+  "text": "そ、それは…次回の謎よ！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "840429cade6dde06",
+  "text": "はい、カットですぅ。でも、わたしのプリンの謎は、まだですよぉ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "163d60d320dfbc88",
+  "text": "あの…黒川先生の口の横に、なにか黄色いものが付いています。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "fc5525fa636db0b5",
+  "text": "本当だ！これ、プリンだぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "db354909bccaa3f9",
+  "text": "犯人は…先生だったのね！",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "9664f91c9c2472fc",
+  "text": "…あー。冷蔵庫にあったから、食べてみた。…ちょっと甘すぎたな。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "118a67c2ff313031",
+  "text": "先生ぇ、それ、わたしのプリンですぅ…。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "fde39bbd5c63c263",
+  "text": "…本当の名探偵は、あんただったわね、シャオユー。",
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "52f3f03ae48a9041",
+  "text": "えへへ。次は、先生に新しいプリンを買ってもらいましょう。",
+  "voice": "Leda",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "e9f722edaa2ca194",
+  "text": "この服、ちょっと着てみてもいいですか。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "d45897aa1c1cb507",
+  "text": "にほんのラーメンを、一度食べてみたいです。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "8baa1597309f5654",
+  "text": "このカレーはからすぎて、食べられません。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "83c58250ffdd5386",
+  "text": "昨日、ゲームをしすぎて、目が痛いです。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:猫": {
+  "file": "v-b33ec29f3cde.mp3",
+  "hash": "46ed20fbfe4350b5",
+  "text": "ねこ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:付く": {
+  "file": "v-f58b58a04116.mp3",
+  "hash": "a0bd47cf88055161",
+  "text": "つく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:甘い": {
+  "file": "v-e2f428f4e8ee.mp3",
+  "hash": "5777b9c36c470e65",
+  "text": "あまい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:犯人": {
+  "file": "v-3e1342e57ba1.mp3",
+  "hash": "9247f6b54fe2de1f",
+  "text": "はんにん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:落ち着く": {
+  "file": "v-60425218a924.mp3",
+  "hash": "688650641daa2cfb",
+  "text": "おちつく",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:答え": {
+  "file": "v-2069c5a81769.mp3",
+  "hash": "7a66ae952ee4117c",
+  "text": "こたえ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:窓": {
+  "file": "v-b69c9560877a.mp3",
+  "hash": "1accd1ebd13f2701",
+  "text": "まど",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:おばけ": {
+  "file": "v-ff6aa76f9e31.mp3",
+  "hash": "58f1bc767686ce20",
+  "text": "おばけ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:床": {
+  "file": "v-50ec20201231.mp3",
+  "hash": "ab863bbd2c09fd36",
+  "text": "ゆか",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:足跡": {
+  "file": "v-49f08aa68b39.mp3",
+  "hash": "a5925008195a56dc",
+  "text": "あしあと",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:謎": {
+  "file": "v-bc976a3fae8f.mp3",
+  "hash": "9499430fe651df3c",
+  "text": "なぞ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:探偵": {
+  "file": "v-059bef1d1b7a.mp3",
+  "hash": "5105e02bca2b04af",
+  "text": "たんてい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:助手": {
+  "file": "v-801033757b11.mp3",
+  "hash": "cdb50a81ba0fd61e",
+  "text": "じょしゅ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:刑事": {
+  "file": "v-bc70043cb469.mp3",
+  "hash": "4d8111eb200a79c0",
+  "text": "けいじ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:冷蔵庫": {
+  "file": "v-fc33bfa220f4.mp3",
+  "hash": "690a024bf41a3ff9",
+  "text": "れいぞうこ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:調べる": {
+  "file": "v-7cb0fbf7cb83.mp3",
+  "hash": "b4a331635e4f50d3",
+  "text": "しらべる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

@@ -12,5 +12,348 @@
   "text": "いらっしゃいませー。ゆっくり見てくださいね。",
   "voice": "Kore",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "4122a24572a19f16",
+  "text": "わあ、いろいろな服を売っていますね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "151a760b00130617",
+  "text": "夜は寒いから、上着がほしいです。……あ、このジャケット、かっこいい。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "28aebe4044e20d67",
+  "text": "すみません、これ、試着してもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "fce3412162c26613",
+  "text": "はい、どうぞ。試着室はあちらです。試着したら、声をかけてくださいね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "3833bedc545c641e",
+  "text": "あ、靴は試着室の前で脱いでくださいね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "fc05d28f1851a551",
+  "text": "すみません、着てみました。……ちょっと大きすぎますね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "56c37c4613de11d4",
+  "text": "そうですね、袖が少し長いですね。こちらはエルサイズなんです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "ae2e14cb480b5304",
+  "text": "エムサイズはありますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "e16e052797675b06",
+  "text": "すみません、古着なので、同じ服はいっちゃくしかないんです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "ea9c7bb5902937f0",
+  "text": "でも、よく似ているジャケットのエムサイズが、あそこにかかっていますよ。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "eec26fc9a55152e3",
+  "text": "何色ですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "954581da4ad7bf71",
+  "text": "茶色です。今お客様が着ている黒より、少し明るいですね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "7535752435127c46",
+  "text": "じゃあ、それも試着してみます。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "0eeabf15c97c0754",
+  "text": "はい。もしサイズが合わなかったら、また言ってくださいね。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "d0a6deb3b026faf5",
+  "text": "……あ、これはちょうどいいです！",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "7f67b8aba39d7da7",
+  "text": "よくお似合いですよ。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "d255e64178597769",
+  "text": "あの、値段は四千八百円ですよね。少し安くなりませんか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "a91c9013e1e87d50",
+  "text": "すみません、うちは値引きはしていないんです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "0a17828c35bb5bc3",
+  "text": "そうですか。でも、気にいりましたから、これをください。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-15": {
+  "file": "s2-15.mp3",
+  "hash": "7f7a719db637371c",
+  "text": "ありがとうございます。外は寒いので、よかったらこのまま着ていってください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "9315dd56a2104bc4",
+  "text": "新しい上着、暖かいです。……あ、古着だから、新しくないですね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "dcb0a9d64403f69b",
+  "text": "あれ？あの細い道に、小さい喫茶店がありますね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "91a0ed16463fa4df",
+  "text": "もう暗いですね。あのお店だけ、電気がついています。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "6e221148b461eac8",
+  "text": "看板に「ともしび」……。きれいな名前ですね。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "725652aea7852cce",
+  "text": "今日はもう帰りますけど、時間があったら、いつか入ってみたいです。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "55a0d80fb75ee941",
+  "text": "家に帰ったら、すぐお風呂に入ります。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "dc9d20288b7275d7",
+  "text": "もし雨が降ったら、映画館に行きましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "06c2c9efecefd866",
+  "text": "窓があいています。少し寒いですね。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "b04aba1b03260ea9",
+  "text": "この時計は止まっています。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:売る": {
+  "file": "v-3335dd8b6c3d.mp3",
+  "hash": "ba35086d3b3c11b3",
+  "text": "うる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:上着": {
+  "file": "v-a54d3fb83815.mp3",
+  "hash": "ee8f37b0d252184d",
+  "text": "うわぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:ジャケット": {
+  "file": "v-7c5c39280d73.mp3",
+  "hash": "3466132296734a97",
+  "text": "ジャケット",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:試着": {
+  "file": "v-91114e8c4f92.mp3",
+  "hash": "7e3c039bb70cd460",
+  "text": "しちゃく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:試着室": {
+  "file": "v-b4a30b4a6161.mp3",
+  "hash": "d256826e0132855b",
+  "text": "しちゃくしつ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:脱ぐ": {
+  "file": "v-d7e879694dea.mp3",
+  "hash": "ebfd40d780b5bba2",
+  "text": "ぬぐ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:着る": {
+  "file": "v-e565b4cfc3a2.mp3",
+  "hash": "a23ca9cf70303346",
+  "text": "きる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:袖": {
+  "file": "v-e7eaf4a0bb82.mp3",
+  "hash": "25f2f030dc63c7dc",
+  "text": "そで",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:サイズ": {
+  "file": "v-91f5157bf9c7.mp3",
+  "hash": "ee283915b93dd4b0",
+  "text": "サイズ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:古着": {
+  "file": "v-faecb85b71e5.mp3",
+  "hash": "372996824d51cd46",
+  "text": "ふるぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:一着": {
+  "file": "v-95e7e29e1ee8.mp3",
+  "hash": "6583b7e80310ceaa",
+  "text": "いっちゃく",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:似る": {
+  "file": "v-c89cdaa7d3a5.mp3",
+  "hash": "47bf287f2d75aa43",
+  "text": "にる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:茶色": {
+  "file": "v-80a537dcd831.mp3",
+  "hash": "160d0c68d9064f26",
+  "text": "ちゃいろ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:合う": {
+  "file": "v-d3419dbb7885.mp3",
+  "hash": "7383f1b2be3c682c",
+  "text": "あう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:似合う": {
+  "file": "v-dfafe60da399.mp3",
+  "hash": "48c5ee6b168e8c15",
+  "text": "にあう",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:値段": {
+  "file": "v-12c766ae365d.mp3",
+  "hash": "68d9b4bae112a73a",
+  "text": "ねだん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:値引き": {
+  "file": "v-248f9c49ceb3.mp3",
+  "hash": "5e908c67997d2d4d",
+  "text": "ねびき",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:気に入る": {
+  "file": "v-05ac5a759f64.mp3",
+  "hash": "79c42e37155d19fa",
+  "text": "きにいる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:喫茶店": {
+  "file": "v-ceb45cf66d18.mp3",
+  "hash": "3757664e3109af1c",
+  "text": "きっさてん",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:電気": {
+  "file": "v-838d0aff30fa.mp3",
+  "hash": "5dff594dec915ebd",
+  "text": "でんき",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
  }
 }

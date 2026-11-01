@@ -5,5 +5,208 @@
   "text": "雨の日、凛はシャオユーを傘に入れてくれました。シャオユーは、ラジオドラマの台本を書きました。",
   "voice": "Schedar",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "0361b2d2511b4fbd",
+  "text": "台本を書いてきました！『勇者と魔王』のだいいちわです。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "27e21b71eaf668ff",
+  "text": "ふーん…。まあ、読んであげるわ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "c1ed28c8963d6d81",
+  "text": "俺が勇者だな！よし、やるぜ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "49d9fcf1cf92ff3e",
+  "text": "…あー、録音か。俺は寝てるぞ。",
+  "voice": "Umbriel",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "0c0fe90f9e5153d6",
+  "text": "勇者さま…ここが、魔王のお城です。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "fd671b9dccb56499",
+  "text": "ついに来たぞ！魔王！出てこい！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "0376a104acebdb9b",
+  "text": "ふふふ…よく来たわね、勇者。お前は、ここで負けるのだ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "7ae4d2116dd189ab",
+  "text": "魔王！村のみんなの声を返せ！お前を倒す！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "949393a0c553cec5",
+  "text": "声？ふふ…もう全部、食べてしまったわ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "aeaf5b14558aa91b",
+  "text": "な、何だと！？許さないぞ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "6f7d5009e9e98bb7",
+  "text": "無駄よ。お前の声も、食べちゃうわ！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "baf588d2b2465708",
+  "text": "うわあっ！か、体が動かない…！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "e8247cace84cde9b",
+  "text": "勇者さま！わたしの光の力を使ってください！",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "4e671593c7376cc8",
+  "text": "ありがとう、精霊！いくぜ、光の剣！",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "c4374c86d25832e4",
+  "text": "くっ…！このわれが…負けてしまうのか…！",
+  "voice": "Despina",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "af1b71676cf57b7a",
+  "text": "村のみなさんの声が、戻っていきます…。",
+  "voice": "Achernar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "49c3f7ce49bc1b4d",
+  "text": "勇者よ…これで終わりではないぞ…！",
+  "voice": "Despina",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "859eac1b6a0b0bee",
+  "text": "はい、カットですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "8649417c1149f18a",
+  "text": "どうだった！？俺、かっこよかっただろ！",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "64fdad1c0f6bca8b",
+  "text": "あんた、途中で台本を落としちゃったじゃない。",
+  "voice": "Despina",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "66b0533f9c676063",
+  "text": "でも、とても楽しかったです！凛さんの魔王、本当に怖かったです。",
+  "voice": "Leda",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "5055e199cd0a62c5",
+  "text": "凛先輩、昨日の夜、ずっと魔王の練習をしてましたよぉ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "dd8465253188eda0",
+  "text": "ひ、ひな！それは言っちゃだめ！",
+  "voice": "Despina",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "61907918718e553f",
+  "text": "……最後まで、聞いちゃったな。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "ba27b3be799a64f5",
+  "text": "…悪くない。",
+  "voice": "Umbriel",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "4d3d9b34498d7fd2",
+  "text": "よし、あしたの試合は絶対に勝つぞ！",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "a24a37552f2b4aef",
+  "text": "あら、もう五時だわ。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "1ee6111632f48d5d",
+  "text": "電車の中に傘を忘れてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "eabeb20950c28af3",
+  "text": "あ、ジュースをこぼしちゃった。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

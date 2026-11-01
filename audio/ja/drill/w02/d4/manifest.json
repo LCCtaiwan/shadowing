@@ -1,0 +1,275 @@
+{
+ "w02d4-01-s1": {
+  "file": "w02d4-01-s1.mp3",
+  "hash": "f61cb9e74cad5a6a",
+  "text": "傘、持ってないの？…べ、別に貸してあげてもいいけど。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-01-o1": {
+  "file": "w02d4-01-o1.mp3",
+  "hash": "409aaffcf86df137",
+  "text": "え、先輩が貸してもらうんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-01-o2": {
+  "file": "w02d4-01-o2.mp3",
+  "hash": "a830e20e6fcd6cd4",
+  "text": "本当ですか。ありがとうございます！",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-01-o3": {
+  "file": "w02d4-01-o3.mp3",
+  "hash": "1f7ef90a3b39d7fa",
+  "text": "いいえ、貸しません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-02-s1": {
+  "file": "w02d4-02-s1.mp3",
+  "hash": "ea648acf8e00978a",
+  "text": "やばい、雨だ！早く帰らないと！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-02-o1": {
+  "file": "w02d4-02-o1.mp3",
+  "hash": "5a91e89f368e5735",
+  "text": "そうですね。急ぎましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-02-o2": {
+  "file": "w02d4-02-o2.mp3",
+  "hash": "ba38fccda7bfcde0",
+  "text": "え、帰らないんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-02-o3": {
+  "file": "w02d4-02-o3.mp3",
+  "hash": "9cc50c126c249289",
+  "text": "じゃあ、ゆっくり帰りましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-03-s1": {
+  "file": "w02d4-03-s1.mp3",
+  "hash": "906d5d68014c6d90",
+  "text": "この傘、おかあさんが買ってくれたんですぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-03-o1": {
+  "file": "w02d4-03-o1.mp3",
+  "hash": "b706a2ea8e697d7f",
+  "text": "へえ、ひなちゃんがおかあさんに買ってあげたんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-03-o2": {
+  "file": "w02d4-03-o2.mp3",
+  "hash": "847f52c99e7f596c",
+  "text": "へえ、おかあさんが買ってもらったんですね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-03-o3": {
+  "file": "w02d4-03-o3.mp3",
+  "hash": "84e14e133fdba57d",
+  "text": "かわいい傘ですね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-04-s1": {
+  "file": "w02d4-04-s1.mp3",
+  "hash": "ed1b428104560d72",
+  "text": "先輩、昨日は傘を貸してくれて、ありがとうございました。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-04-o1": {
+  "file": "w02d4-04-o1.mp3",
+  "hash": "730193736232a3b7",
+  "text": "ええ、ありがとう。助かったわ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-04-o2": {
+  "file": "w02d4-04-o2.mp3",
+  "hash": "2d2f5e75cffeae23",
+  "text": "べ、別に。気にしなくていいから。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-04-o3": {
+  "file": "w02d4-04-o3.mp3",
+  "hash": "0cace4d7395a8f37",
+  "text": "いいえ、まだ貸していません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-05-s1": {
+  "file": "w02d4-05-s1.mp3",
+  "hash": "42d7bf670271bbb9",
+  "text": "あー、あしたまでにこのプリント、出さないとだめだからな。",
+  "voice": "Umbriel",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-05-o1": {
+  "file": "w02d4-05-o1.mp3",
+  "hash": "30f0c5813e8422e8",
+  "text": "はい、わかりました。あしたまでに出します。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-05-o2": {
+  "file": "w02d4-05-o2.mp3",
+  "hash": "97d15bc3f0108499",
+  "text": "え、出さなくてもいいんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-05-o3": {
+  "file": "w02d4-05-o3.mp3",
+  "hash": "6c189b3788a5fb5e",
+  "text": "はい、あしたもらいます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-06-s1": {
+  "file": "w02d4-06-s1.mp3",
+  "hash": "e2b4ee574c784602",
+  "text": "なあ、ちょっと手伝ってくれない？このはこ、重いんだ。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-06-o1": {
+  "file": "w02d4-06-o1.mp3",
+  "hash": "0b1ac7da939f49de",
+  "text": "はい、手伝ってもらいます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-06-o2": {
+  "file": "w02d4-06-o2.mp3",
+  "hash": "9b6229f948e8044b",
+  "text": "いいえ、重くないです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-06-o3": {
+  "file": "w02d4-06-o3.mp3",
+  "hash": "a2fb4a8a46cc4fdc",
+  "text": "いいですよ。一緒に持ちましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-setup": {
+  "file": "w02d4-07-setup.mp3",
+  "hash": "6d6bb09de2e2b658",
+  "text": "男の学生と女の学生が話しています。女の学生は、だれに傘を貸してもらいましたか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-question": {
+  "file": "w02d4-07-question.mp3",
+  "hash": "8b21b5e6081bf78c",
+  "text": "女の学生は、だれに傘を貸してもらいましたか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-s1": {
+  "file": "w02d4-07-s1.mp3",
+  "hash": "0ad5cc9bfd994b03",
+  "text": "あれ？シャオユー、今朝、傘持ってなかっただろ？",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-s2": {
+  "file": "w02d4-07-s2.mp3",
+  "hash": "399724f54d6f9d31",
+  "text": "はい。でも、さっき凛先輩が貸してくれたんです。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-s3": {
+  "file": "w02d4-07-s3.mp3",
+  "hash": "7cd8f13bd56efb2b",
+  "text": "へえ。じゃあ、凛はどうするんだよ。",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-s5": {
+  "file": "w02d4-07-s5.mp3",
+  "hash": "487fb80269b66d43",
+  "text": "先生、傘持ってるのか？",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-s6": {
+  "file": "w02d4-07-s6.mp3",
+  "hash": "8c5da16cabb1bdb1",
+  "text": "はい、職員室にさんぼんあるそうです。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-08-setup": {
+  "file": "w02d4-08-setup.mp3",
+  "hash": "855304c3c51f753e",
+  "text": "部室で女の学生と先生が話しています。女の学生はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-08-question": {
+  "file": "w02d4-08-question.mp3",
+  "hash": "b01f915397dca4e1",
+  "text": "女の学生はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-07-s4": {
+  "file": "w02d4-07-s4.mp3",
+  "hash": "1c286a2d0368feb4",
+  "text": "先輩は、黒川先生に貸してもらうって言っていました。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-08-s1": {
+  "file": "w02d4-08-s1.mp3",
+  "hash": "689bec532a08ef36",
+  "text": "おい、雨がひどくなってきたぞ。今日はもう帰れ。",
+  "voice": "Umbriel",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-08-s2": {
+  "file": "w02d4-08-s2.mp3",
+  "hash": "30edccd9c6e86f23",
+  "text": "はい。でも、マイクを片付けないと…。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "w02d4-08-s3": {
+  "file": "w02d4-08-s3.mp3",
+  "hash": "91fe9414cf45853b",
+  "text": "それは俺がやるから、いい。それより、窓を閉めてくれ。雨が入ってるぞ。",
+  "voice": "Umbriel",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d4-08-s4": {
+  "file": "w02d4-08-s4.mp3",
+  "hash": "7adc9966d5225a21",
+  "text": "あ、本当だ。すぐ閉めます。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02d4-08-s5": {
+  "file": "w02d4-08-s5.mp3",
+  "hash": "7c6a14658b150961",
+  "text": "閉めたら、もう帰っていいぞ。",
+  "voice": "Umbriel",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

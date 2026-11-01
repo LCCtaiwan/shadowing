@@ -12,5 +12,334 @@
   "text": "あれぇ？外、雨ですよぉ。",
   "voice": "Achernar",
   "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "cf0ec7439d3f5871",
+  "text": "えっ、本当だ…。わたし、傘を持ってきませんでした。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "10f1c16df931743a",
+  "text": "俺もないぜ！でも、俺は走って帰る！じゃあな！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "6a2ad3fc8ec0f9ba",
+  "text": "おーい、部室の鍵を閉めないといけないから、早く帰れよ。",
+  "voice": "Umbriel",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "1cb2f16299219bcd",
+  "text": "わたしは、おかあさんに迎えに来てもらいますぅ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "502047b6ba7910ae",
+  "text": "…シャオユー、あんたの家、駅の近くでしょ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "972775ece51ba8d8",
+  "text": "はい。駅から歩いて五分です。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "017c7805d933b700",
+  "text": "べ、別に…わたしの傘、大きいから。入れてあげてもいいわよ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "30e4c91744ad2635",
+  "text": "本当ですか！ありがとうございます！",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "1f9a088e9058ed86",
+  "text": "凛さん、傘に入れてくれて、ありがとうございます。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "90ecfe09c2bbbbf7",
+  "text": "別に。あんたが休むと、部員が三人になるじゃない。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "f05e6565261c7962",
+  "text": "凛さんは、部活のことが心配なんですか？",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "9c57b0b47c3af927",
+  "text": "…当たり前じゃない。五人いないと、ラジオ部はなくなるのよ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "a0278499016b9cb7",
+  "text": "文化祭までに、なにか作らないといけないの。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "a09f0361a0413dbd",
+  "text": "じゃあ、『勇者と魔王』のラジオドラマはどうですか？",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "aaea7067cd75f574",
+  "text": "…悪くないわね。でも、台本を書く人がいないわ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "df3406838ab24333",
+  "text": "わたし、台湾でよくお話を書いていました。わたしが書きます！",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "f2904d44521cad84",
+  "text": "…あんたが？本当に書いてくれるの？",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "daaaf25d364f8859",
+  "text": "はい。いつも凛さんに助けてもらっていますから。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "a2e6807da97d4356",
+  "text": "た、助けてないわよ！…でも、ありがと。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "0d8843d04316c0b8",
+  "text": "…あ、あんたの肩、濡れてるじゃない。もっとこっちに来なさい。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "7ef8264072dead1c",
+  "text": "凛さんの肩も、濡れていますよ。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "da9a0d07027f6a03",
+  "text": "じゃあ、ここで。…台本、楽しみにしてるから。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "2aafa9a10ccd013a",
+  "text": "はい！今夜、書かないと！",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "34759a113df4fbf5",
+  "text": "べ、別に楽しみじゃないわよ！早く帰りなさい！",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "0f682a4472a87770",
+  "text": "凛さん、本当はやさしい人なんだな…。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "841ba20f3b64519a",
+  "text": "友だちが駅まで送ってくれました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "42cd265d0884d0ea",
+  "text": "あしたは六時に起きないといけません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "d9117c1e00bf65a6",
+  "text": "もうくじだ。宿題をしないと。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "ff1b9a50e622f5de",
+  "text": "先生に作文を見てもらいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:雨": {
+  "file": "v-ede887c9905b.mp3",
+  "hash": "9c95cca22f2074c4",
+  "text": "あめ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:傘": {
+  "file": "v-4c64e5fe44e2.mp3",
+  "hash": "8612a3833e6c8593",
+  "text": "かさ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:持ってくる": {
+  "file": "v-1c7c976af50b.mp3",
+  "hash": "9e72d27d56468336",
+  "text": "もってくる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:鍵": {
+  "file": "v-8cee473e9fc8.mp3",
+  "hash": "703bf210988bde8c",
+  "text": "かぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:閉める": {
+  "file": "v-51e7229f1e3e.mp3",
+  "hash": "4b172da89b7ed57a",
+  "text": "しめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:迎える": {
+  "file": "v-0e3e4f6a64fc.mp3",
+  "hash": "319f56b7ab6db076",
+  "text": "むかえる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:駅": {
+  "file": "v-8ba80aa28861.mp3",
+  "hash": "95d1ed12e8ebc56d",
+  "text": "えき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:休む": {
+  "file": "v-ac4480008b3c.mp3",
+  "hash": "6ceeb2464af84d09",
+  "text": "やすむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:部員": {
+  "file": "v-1dc27bcd872d.mp3",
+  "hash": "b71cddef3c11680f",
+  "text": "ぶいん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:心配": {
+  "file": "v-c075e34140b8.mp3",
+  "hash": "ed057d95eb6d427e",
+  "text": "しんぱい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:当たり前": {
+  "file": "v-9604731380d4.mp3",
+  "hash": "991f95a15fe0ecb9",
+  "text": "あたりまえ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:文化祭": {
+  "file": "v-0591bfbd8a41.mp3",
+  "hash": "20cb2fbdcdf7bc0b",
+  "text": "ぶんかさい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:台本": {
+  "file": "v-d11c60b0287a.mp3",
+  "hash": "1d659dc7d39765b8",
+  "text": "だいほん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:助ける": {
+  "file": "v-91b2756abe89.mp3",
+  "hash": "55b06ef7b6db42f2",
+  "text": "たすける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:肩": {
+  "file": "v-4f1a15aa15ed.mp3",
+  "hash": "d8aa236608700690",
+  "text": "かた",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:濡れる": {
+  "file": "v-68c6c6d9e53e.mp3",
+  "hash": "c4ab46b3e2806f63",
+  "text": "ぬれる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:楽しみ": {
+  "file": "v-9359f7b6c00b.mp3",
+  "hash": "6857ff2c6d51d496",
+  "text": "たのしみ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:今夜": {
+  "file": "v-eadbd5043059.mp3",
+  "hash": "1d24039f3127b0f0",
+  "text": "こんや",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
  }
 }

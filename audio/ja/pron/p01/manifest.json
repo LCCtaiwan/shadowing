@@ -54,5 +54,61 @@
   "text": "いいえ",
   "voice": "Schedar",
   "model": "gemini-3.1-flash-tts-preview"
+ },
+ "p01-05-a": {
+  "file": "p01-05-a.mp3",
+  "hash": "78ec7d3be6bd542f",
+  "text": "きて",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-05-b": {
+  "file": "p01-05-b.mp3",
+  "hash": "02c747175d6e99db",
+  "text": "きいて",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-06-a": {
+  "file": "p01-06-a.mp3",
+  "hash": "b92223e34ed0a109",
+  "text": "とり",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-06-b": {
+  "file": "p01-06-b.mp3",
+  "hash": "a5d0057697bdf180",
+  "text": "とおり",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-07-a": {
+  "file": "p01-07-a.mp3",
+  "hash": "8703bc9eefc4f39b",
+  "text": "とる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-07-b": {
+  "file": "p01-07-b.mp3",
+  "hash": "de2b9e8cb223dcb4",
+  "text": "とおる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-08-a": {
+  "file": "p01-08-a.mp3",
+  "hash": "98ddf1c0abb419f5",
+  "text": "ビル",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-08-b": {
+  "file": "p01-08-b.mp3",
+  "hash": "d6655794072903cb",
+  "text": "ビール",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

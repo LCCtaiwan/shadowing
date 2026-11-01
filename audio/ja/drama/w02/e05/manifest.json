@@ -12,5 +12,334 @@
   "text": "ここが、ネットで見たお店です。わあ、人がたくさん並んでいますね。",
   "voice": "Iapetus",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "7c1a52482aa9e5c1",
+  "text": "あれ？メニューがありません。……これは何でしょうか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "50c9ca18d02e4439",
+  "text": "おにいさん、それ、券売機だよ。ここは先に食券を買うんだ。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "8007b2c54ef701c8",
+  "text": "えっ、これが券売機ですか。すみません、使い方がわかりません。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "ff081a45d7be150a",
+  "text": "簡単だよ。お金を入れて、食べたいラーメンのボタンを押すだけ。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "21bd8569997e2016",
+  "text": "ラーメンのボタンは、どれでしょうか。ボタンが多くて、よくわかりません……。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "ab29dc334af638e4",
+  "text": "一番左の上が、普通の醤油ラーメン。八百円ね。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "8d0fa4c6f1853653",
+  "text": "じゃあ、これにします。お金を入れて……あ、この「大盛り」は何でしょうか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "7c48aed85b0c6ebf",
+  "text": "本当ですか！じゃあ、大盛りも押します。……あ、出てきました。ありがとうございます！",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "97573740789e3d54",
+  "text": "いいって。ここのラーメン、うまいよ。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "e152882a96fa1197",
+  "text": "いらっしゃいませー！何名様ですか。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "236103232c7b6e77",
+  "text": "一人です。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "0edec4a5b7948592",
+  "text": "こちらのカウンターへどうぞ。食券をお預かりします。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "385b1c34289b2dc8",
+  "text": "醤油の大盛りですね。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "dd56fb765695db5e",
+  "text": "麺の硬さはどうしますか。固め、普通、柔らかめがございます。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "b1b34354d1adf7ec",
+  "text": "えっと……おすすめはどれでしょうか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "2bbc1dc6735b646c",
+  "text": "麺が多くなるんだよ。この店は、大盛りが無料。",
+  "voice": "Orus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "4bb9f682f4d87be2",
+  "text": "うちは、普通が一番人気ですね。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "c559012d9257c5d9",
+  "text": "じゃあ、普通でお願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "9e0cc09a772d5d7c",
+  "text": "かしこまりました。お水はセルフになります。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "24ef3b236da0a0b1",
+  "text": "お待たせしました。醤油ラーメン、大盛りです！",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "b276d72d8d527b4b",
+  "text": "わあ、大きいですね！……あの、おすすめの食べ方はありますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "4315f70d14078ccd",
+  "text": "まず、スープを一口どうぞ。それから、このにんにくを少し入れてください。",
+  "voice": "Charon",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "a37bcd22103885b5",
+  "text": "いただきます！",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "44511b143d8b1218",
+  "text": "大盛りは、ちょっと多かったです。でも、とてもおいしかったです。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "45ed731b94d677ca",
+  "text": "券売機の使い方も、麺の硬さの言い方も、もうわかりました。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "f41df55e5d890ec2",
+  "text": "次は、固めを頼みたいです。",
+  "voice": "Iapetus",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "577a95476d7de987",
+  "text": "この漢字の読み方を教えてください。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "0f6fc2e35457f110",
+  "text": "空港までの行き方がわかりません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "60b1be2b3a04ec62",
+  "text": "すみません、今なんじでしょうか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "39c745b65388b80f",
+  "text": "すみません、トイレはどちらでしょうか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:並ぶ": {
+  "file": "v-fd5fc50f6983.mp3",
+  "hash": "7d2e4ba4b27a7d10",
+  "text": "ならぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:券売機": {
+  "file": "v-dff2b8aef32c.mp3",
+  "hash": "68933a06347e7f4f",
+  "text": "けんばいき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:食券": {
+  "file": "v-602b67afcccc.mp3",
+  "hash": "2b3e2664103cca6c",
+  "text": "しょっけん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:押す": {
+  "file": "v-e45857cff460.mp3",
+  "hash": "febb120b49c3c0d4",
+  "text": "おす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:一番": {
+  "file": "v-89023a609db0.mp3",
+  "hash": "b089944186d5c97f",
+  "text": "いちばん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:醤油": {
+  "file": "v-8bf36ed1d4e8.mp3",
+  "hash": "1e8cf929da55633e",
+  "text": "しょうゆ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:普通": {
+  "file": "v-2d7078352c5c.mp3",
+  "hash": "1b20704a8333edd5",
+  "text": "ふつう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:大盛り": {
+  "file": "v-8d1bb9be4f41.mp3",
+  "hash": "c55a97fd64ddd639",
+  "text": "おおもり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:麺": {
+  "file": "v-a34e8ae267eb.mp3",
+  "hash": "23ef279565308ed8",
+  "text": "めん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:無料": {
+  "file": "v-130a12ad1a04.mp3",
+  "hash": "562c65e7321b4408",
+  "text": "むりょう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:預かる": {
+  "file": "v-983fa973b205.mp3",
+  "hash": "26ebb92de44fabaf",
+  "text": "あずかる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:硬さ": {
+  "file": "v-cf94d449400b.mp3",
+  "hash": "82406606a91bf42e",
+  "text": "かたさ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:固め": {
+  "file": "v-d7567f5ce1a6.mp3",
+  "hash": "585bd8bef3d82aad",
+  "text": "かため",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:柔らかめ": {
+  "file": "v-8f8634024e83.mp3",
+  "hash": "4baecb65fe936859",
+  "text": "やわらかめ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:おすすめ": {
+  "file": "v-7c06293fca44.mp3",
+  "hash": "765f6f93f46fd999",
+  "text": "おすすめ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:一口": {
+  "file": "v-8423ec1fce35.mp3",
+  "hash": "7a187a23adbafb2d",
+  "text": "ひとくち",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:頼む": {
+  "file": "v-3565e37e0b8f.mp3",
+  "hash": "4f73ed400f4ccb28",
+  "text": "たのむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

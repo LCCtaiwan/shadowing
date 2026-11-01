@@ -1,0 +1,401 @@
+{
+ "w02sun-01-setup": {
+  "file": "w02sun-01-setup.mp3",
+  "hash": "b65ba9e194e1f8eb",
+  "text": "ホテルのフロントで男の人とホテルの人が話しています。男の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-question": {
+  "file": "w02sun-01-question.mp3",
+  "hash": "9a0730decb348d20",
+  "text": "男の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-s1": {
+  "file": "w02sun-01-s1.mp3",
+  "hash": "ba1c970e051b1424",
+  "text": "すみません、チェックインをお願いします。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-s2": {
+  "file": "w02sun-01-s2.mp3",
+  "hash": "33e7bc4c6cee7741",
+  "text": "はい。チェックインは三時からになります。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-s3": {
+  "file": "w02sun-01-s3.mp3",
+  "hash": "827c6785de592d9e",
+  "text": "あ、まだ一時ですね…。荷物を預けてもいいですか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-s4": {
+  "file": "w02sun-01-s4.mp3",
+  "hash": "b5441f3338c82d5a",
+  "text": "はい、大丈夫です。では、こちらの紙にお名前を書いてください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-s5": {
+  "file": "w02sun-01-s5.mp3",
+  "hash": "b5421f823e188a7b",
+  "text": "わかりました。それから、近くにラーメン屋はありますか。",
+  "voice": "Iapetus",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-01-s6": {
+  "file": "w02sun-01-s6.mp3",
+  "hash": "e7a6d0386015aa51",
+  "text": "はい。ホテルを出たら、左にありますよ。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-setup": {
+  "file": "w02sun-02-setup.mp3",
+  "hash": "f2840ae64de75b26",
+  "text": "駅で女の人と駅員が話しています。女の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-question": {
+  "file": "w02sun-02-question.mp3",
+  "hash": "7d8cf69cad7077d5",
+  "text": "女の人はこのあと、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-s1": {
+  "file": "w02sun-02-s1.mp3",
+  "hash": "fe5e611b0ed1412b",
+  "text": "すみません、浅草に行きたいんですが、何番線ですか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-s2": {
+  "file": "w02sun-02-s2.mp3",
+  "hash": "6a4aa93b7aa1917c",
+  "text": "浅草なら、に番線です。",
+  "voice": "Charon",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-s3": {
+  "file": "w02sun-02-s3.mp3",
+  "hash": "52ee74979eeb46af",
+  "text": "ありがとうございます。あ、スイカにお金があまり入っていないんです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-s4": {
+  "file": "w02sun-02-s4.mp3",
+  "hash": "b7cb6515af5a264b",
+  "text": "では、まずあちらの機械でチャージしてください。それからに番線に行ってください。",
+  "voice": "Charon",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-02-s5": {
+  "file": "w02sun-02-s5.mp3",
+  "hash": "6db8eb4e9781c1e5",
+  "text": "わかりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-03-setup": {
+  "file": "w02sun-03-setup.mp3",
+  "hash": "7f948294e50188ca",
+  "text": "男の学生と女の学生が話しています。女の学生はどうしてラジオ部に入りましたか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-03-question": {
+  "file": "w02sun-03-question.mp3",
+  "hash": "1d5d995f93e4675e",
+  "text": "女の学生はどうしてラジオ部に入りましたか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-03-s1": {
+  "file": "w02sun-03-s1.mp3",
+  "hash": "050e0a71a5d01a4b",
+  "text": "シャオユーって、どうしてラジオ部に入ったんだ？声がきれいだからか？",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-03-s2": {
+  "file": "w02sun-03-s2.mp3",
+  "hash": "25f24f111684dc9e",
+  "text": "いいえ、声は普通です。",
+  "voice": "Leda",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-03-s3": {
+  "file": "w02sun-03-s3.mp3",
+  "hash": "f4159cb8ea9c7963",
+  "text": "じゃあ、凛がこわかったからか？",
+  "voice": "Fenrir",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "w02sun-03-s4": {
+  "file": "w02sun-03-s4.mp3",
+  "hash": "01bfaa168fb34709",
+  "text": "ちがいますよ。わたし、お話を書くのが好きなんです。ラジオドラマの台本を書きたいんです。",
+  "voice": "Leda",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-03-s5": {
+  "file": "w02sun-03-s5.mp3",
+  "hash": "95114dd556a1b365",
+  "text": "へえ、そうだったのか。",
+  "voice": "Fenrir",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-setup": {
+  "file": "w02sun-04-setup.mp3",
+  "hash": "cec1da71800206e1",
+  "text": "空港で入国審査官と男の人が話しています。男の人はにほんに何日いますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-question": {
+  "file": "w02sun-04-question.mp3",
+  "hash": "66540a65cca7ff0e",
+  "text": "男の人はにほんに何日いますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-s1": {
+  "file": "w02sun-04-s1.mp3",
+  "hash": "db39c92288a350b7",
+  "text": "パスポートを見せてください。旅行ですか。",
+  "voice": "Alnilam",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-s2": {
+  "file": "w02sun-04-s2.mp3",
+  "hash": "2f52acb55fabac3b",
+  "text": "はい、観光です。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-s3": {
+  "file": "w02sun-04-s3.mp3",
+  "hash": "6b1484ed4eda19c0",
+  "text": "にほんには何日いますか。",
+  "voice": "Alnilam",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-s4": {
+  "file": "w02sun-04-s4.mp3",
+  "hash": "1c62032a05cbb527",
+  "text": "えっと、二週間…あ、いいえ、十日です。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-s5": {
+  "file": "w02sun-04-s5.mp3",
+  "hash": "1bc409e5fec749f4",
+  "text": "十日ですね。ホテルはどこですか。",
+  "voice": "Alnilam",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-04-s6": {
+  "file": "w02sun-04-s6.mp3",
+  "hash": "631be54d31eb1afe",
+  "text": "最初の三日は、浅草のホテルです。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-05-s1": {
+  "file": "w02sun-05-s1.mp3",
+  "hash": "1eae8be3ef1368d6",
+  "text": "部活のあと、友だちと一緒に帰りたいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-05-o1": {
+  "file": "w02sun-05-o1.mp3",
+  "hash": "4964dd6fbf20c4a3",
+  "text": "一緒に帰ってもいいですよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-05-o2": {
+  "file": "w02sun-05-o2.mp3",
+  "hash": "9b8506bce6fa2a22",
+  "text": "一緒に帰りましたか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-05-o3": {
+  "file": "w02sun-05-o3.mp3",
+  "hash": "39100449e260c7df",
+  "text": "一緒に帰りませんか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-06-s1": {
+  "file": "w02sun-06-s1.mp3",
+  "hash": "97d5c9badd774ad7",
+  "text": "コンビニでお弁当を買いました。温めてほしいです。何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-06-o1": {
+  "file": "w02sun-06-o1.mp3",
+  "hash": "75ffb66dca5b1641",
+  "text": "すみません、温めてください。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-06-o2": {
+  "file": "w02sun-06-o2.mp3",
+  "hash": "3de884c57fb5e725",
+  "text": "すみません、温めますか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-06-o3": {
+  "file": "w02sun-06-o3.mp3",
+  "hash": "f5dc1e865ecd41c2",
+  "text": "すみません、温めてもらいました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-07-s1": {
+  "file": "w02sun-07-s1.mp3",
+  "hash": "0ea035e48a4efd93",
+  "text": "にほんへはなにをしに来ましたか。",
+  "voice": "Alnilam",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-07-o1": {
+  "file": "w02sun-07-o1.mp3",
+  "hash": "19bf1cd4479e8254",
+  "text": "飛行機で来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-07-o2": {
+  "file": "w02sun-07-o2.mp3",
+  "hash": "9d4050e90f1a39a7",
+  "text": "観光に来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-07-o3": {
+  "file": "w02sun-07-o3.mp3",
+  "hash": "95f05fbad2b0e2c7",
+  "text": "三日前に来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-08-s1": {
+  "file": "w02sun-08-s1.mp3",
+  "hash": "f78f4fe601556768",
+  "text": "朝ごはんはしちじからになります。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-08-o1": {
+  "file": "w02sun-08-o1.mp3",
+  "hash": "ff4387871cd66171",
+  "text": "じゃあ、しちじまでに食べます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-08-o2": {
+  "file": "w02sun-08-o2.mp3",
+  "hash": "5da2b979cd686828",
+  "text": "はい、しちじになりました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-08-o3": {
+  "file": "w02sun-08-o3.mp3",
+  "hash": "cbeae831f4f4a05c",
+  "text": "わかりました。場所はどこですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-09-s1": {
+  "file": "w02sun-09-s1.mp3",
+  "hash": "1eaef7a333196ad7",
+  "text": "シャオユーちゃんは、台湾のどこから来たの？",
+  "voice": "Callirrhoe",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-09-o1": {
+  "file": "w02sun-09-o1.mp3",
+  "hash": "cb0fda84a5a9830e",
+  "text": "高雄から来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-09-o2": {
+  "file": "w02sun-09-o2.mp3",
+  "hash": "ecb5596d9498ceb4",
+  "text": "去年来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-09-o3": {
+  "file": "w02sun-09-o3.mp3",
+  "hash": "97a319c814645e6f",
+  "text": "はい、たいわんじんです。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-10-s1": {
+  "file": "w02sun-10-s1.mp3",
+  "hash": "57fbeacfb3c66733",
+  "text": "あした、部室に遊びに来ませんかぁ。",
+  "voice": "Achernar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-10-o1": {
+  "file": "w02sun-10-o1.mp3",
+  "hash": "6fa27dae4d5c9f69",
+  "text": "はい、来ませんでした。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-10-o2": {
+  "file": "w02sun-10-o2.mp3",
+  "hash": "c45d63f5300b9e47",
+  "text": "いいえ、行きましょう。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-10-o3": {
+  "file": "w02sun-10-o3.mp3",
+  "hash": "74bc7d9284229a67",
+  "text": "いいですね。行きます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-11-s1": {
+  "file": "w02sun-11-s1.mp3",
+  "hash": "af8bb5a288135683",
+  "text": "この道をまっすぐ行ったら、駅ですか。",
+  "voice": "Iapetus",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-11-o1": {
+  "file": "w02sun-11-o1.mp3",
+  "hash": "0bc4b490b4b0080f",
+  "text": "はい、まっすぐ行きました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-11-o2": {
+  "file": "w02sun-11-o2.mp3",
+  "hash": "70531c0d82c51a31",
+  "text": "ええ、五分ぐらいで着きますよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}
