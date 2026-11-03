@@ -1,0 +1,254 @@
+{
+ "w02d6-01-s1": {
+  "file": "w02d6-01-s1.mp3",
+  "hash": "7fc39fcc6728b1de",
+  "text": "よく来たな、勇者。だが、ここで終わりだぞ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-01-o1": {
+  "file": "w02d6-01-o1.mp3",
+  "hash": "dc570f2d48388886",
+  "text": "ああ、終わったぜ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-01-o2": {
+  "file": "w02d6-01-o2.mp3",
+  "hash": "eea4c1063fd14cb4",
+  "text": "じゃあ、またあした来ます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-01-o3": {
+  "file": "w02d6-01-o3.mp3",
+  "hash": "670e899b30a0a565",
+  "text": "終わりじゃない！勝つのは俺だぜ！",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-02-s1": {
+  "file": "w02d6-02-s1.mp3",
+  "hash": "1ca5f8b065acff1d",
+  "text": "勇者さまぁ、剣を落としちゃいましたぁ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-02-o1": {
+  "file": "w02d6-02-o1.mp3",
+  "hash": "8e750b49f8909847",
+  "text": "なにっ！すぐ拾うぞ！",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-02-o2": {
+  "file": "w02d6-02-o2.mp3",
+  "hash": "0718d6bd6a694621",
+  "text": "よし、剣を落とすぞ！",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-02-o3": {
+  "file": "w02d6-02-o3.mp3",
+  "hash": "6925b1872bbbead7",
+  "text": "大丈夫だ、まだ落としてないぜ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-03-s1": {
+  "file": "w02d6-03-s1.mp3",
+  "hash": "bbb863479d1ef180",
+  "text": "すみません、台本を家に忘れてしまいました…。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-03-o1": {
+  "file": "w02d6-03-o1.mp3",
+  "hash": "49c5e521c3b5623c",
+  "text": "え、もう台本を書いてしまったの？",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-03-o2": {
+  "file": "w02d6-03-o2.mp3",
+  "hash": "88c91ee1af8346be",
+  "text": "しかたないわね。わたしのを一緒に見なさい。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-03-o3": {
+  "file": "w02d6-03-o3.mp3",
+  "hash": "e7bb543ddb2c848c",
+  "text": "よかったじゃない。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-04-s1": {
+  "file": "w02d6-04-s1.mp3",
+  "hash": "5cdaa1eac0bce9b8",
+  "text": "やべっ、セリフ全部忘れちゃった！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-04-o1": {
+  "file": "w02d6-04-o1.mp3",
+  "hash": "06825f98a73274f8",
+  "text": "えぇ、全部覚えちゃったんですかぁ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-04-o2": {
+  "file": "w02d6-04-o2.mp3",
+  "hash": "70d2be1ce9671456",
+  "text": "よかったですねぇ、陽太先輩。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-04-o3": {
+  "file": "w02d6-04-o3.mp3",
+  "hash": "81698441a83e60a2",
+  "text": "えぇ？先輩、台本、どうぞぉ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-05-s1": {
+  "file": "w02d6-05-s1.mp3",
+  "hash": "8ca9c778eb4f4445",
+  "text": "この魔王に勝つつもりなの？おもしろいわ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-05-o1": {
+  "file": "w02d6-05-o1.mp3",
+  "hash": "c8d5fd9b16a4c16b",
+  "text": "ああ、絶対に勝つぜ！",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-05-o2": {
+  "file": "w02d6-05-o2.mp3",
+  "hash": "e6bc8a4048b049a2",
+  "text": "はい、負けてしまいました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-05-o3": {
+  "file": "w02d6-05-o3.mp3",
+  "hash": "40c8a16ba00bf8af",
+  "text": "うん、おもしろいわね。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-06-s1": {
+  "file": "w02d6-06-s1.mp3",
+  "hash": "19f85c3af89f4f3a",
+  "text": "おい、もう六時だぞ。早く帰れ。",
+  "voice": "Umbriel",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-06-o1": {
+  "file": "w02d6-06-o1.mp3",
+  "hash": "dd357b00a96b3542",
+  "text": "はい、六時に来ました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-06-o2": {
+  "file": "w02d6-06-o2.mp3",
+  "hash": "a907df5b3aae047e",
+  "text": "はい、すぐ片付けます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-06-o3": {
+  "file": "w02d6-06-o3.mp3",
+  "hash": "c81eb36026fc95ef",
+  "text": "はい、もう帰ってしまいました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-setup": {
+  "file": "w02d6-07-setup.mp3",
+  "hash": "5b1c53f85b925828",
+  "text": "部室で部長と女の学生が話しています。女の学生はこのあとなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-question": {
+  "file": "w02d6-07-question.mp3",
+  "hash": "80dc78290611e2c7",
+  "text": "女の学生はこのあとなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-s1": {
+  "file": "w02d6-07-s1.mp3",
+  "hash": "c999a0a5c62405ca",
+  "text": "シャオユー、さっきの録音、もう聞いた？",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-s2": {
+  "file": "w02d6-07-s2.mp3",
+  "hash": "6c72fe0294fef5c9",
+  "text": "はい。でも、最後のところ、陽太先輩の声が小さくて…。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-s3": {
+  "file": "w02d6-07-s3.mp3",
+  "hash": "48df0a10cbf06e70",
+  "text": "そうなのよ。あいつ、すぐマイクから離れちゃうのよね。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-s4": {
+  "file": "w02d6-07-s4.mp3",
+  "hash": "ac9ab2c6c080326c",
+  "text": "じゃあ、最後だけ、もう一度録りますか。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-s5": {
+  "file": "w02d6-07-s5.mp3",
+  "hash": "dbb5b82978b1d105",
+  "text": "そうね。でも、陽太は今トイレ。あなたは先に、台本の最後を直してくれる？",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-07-s6": {
+  "file": "w02d6-07-s6.mp3",
+  "hash": "3d966c1e47e47c32",
+  "text": "わかりました。",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-08-s1": {
+  "file": "w02d6-08-s1.mp3",
+  "hash": "d4a7d2664ef2ad70",
+  "text": "部室で水をこぼしてしまいました。部長に何と言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-08-o1": {
+  "file": "w02d6-08-o1.mp3",
+  "hash": "8d7f72878747dbe8",
+  "text": "部長、水をこぼしてくれて、ありがとうございます。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-08-o2": {
+  "file": "w02d6-08-o2.mp3",
+  "hash": "cb397657e5a57ba3",
+  "text": "すみません、水をこぼしてしまいました。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02d6-08-o3": {
+  "file": "w02d6-08-o3.mp3",
+  "hash": "dd38843a10e08b53",
+  "text": "すみません、水をこぼしてもいいですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ }
+}

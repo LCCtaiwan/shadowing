@@ -348,5 +348,12 @@
   "text": "さけぶ",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:本物": {
+  "file": "v-faad041d851b.mp3",
+  "hash": "2b5c66b43f467483",
+  "text": "ほんもの",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

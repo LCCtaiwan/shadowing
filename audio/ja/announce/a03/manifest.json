@@ -1,0 +1,296 @@
+{
+ "a03-01-setup": {
+  "file": "a03-01-setup.mp3",
+  "hash": "e015546bbbf33324",
+  "text": "空港でアナウンスを聞いています。タイペイゆきの飛行機に乗る人は、どのゲートへ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-01-question": {
+  "file": "a03-01-question.mp3",
+  "hash": "7f1739b1b4d5aae7",
+  "text": "タイペイゆきの飛行機に乗る人は、どのゲートへ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-01-s1": {
+  "file": "a03-01-s1.mp3",
+  "hash": "3d34602db2a70a2e",
+  "text": "さくら航空から、ご案内いたします。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-01-s2": {
+  "file": "a03-01-s2.mp3",
+  "hash": "0c235d9d4bb31c8b",
+  "text": "さくら航空二十一便、タイペイゆきのとうじょうぐちは、八番ゲートから十五番ゲートに変更になりました。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-01-s3": {
+  "file": "a03-01-s3.mp3",
+  "hash": "d626512210dccc6f",
+  "text": "ご搭乗のお客様は、十五番ゲートへお越しください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-02-setup": {
+  "file": "a03-02-setup.mp3",
+  "hash": "e4b4fc66139d4af1",
+  "text": "空港でアナウンスを聞いています。この家族は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-02-question": {
+  "file": "a03-02-question.mp3",
+  "hash": "771d55c4cb08aad9",
+  "text": "この家族は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-02-s1": {
+  "file": "a03-02-s1.mp3",
+  "hash": "97d61fc8b52c524a",
+  "text": "さくら航空三十五便、札幌ゆきは、ただいまから搭乗を始めます。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-02-s2": {
+  "file": "a03-02-s2.mp3",
+  "hash": "fd9e9128b095d7f1",
+  "text": "はじめに、小さなお子様をお連れのお客様と、お手伝いが必要なお客様をご案内いたします。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-02-s3": {
+  "file": "a03-02-s3.mp3",
+  "hash": "888f201ae41bc4dc",
+  "text": "そのほかのお客様は、もうしばらくお待ちください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-03-setup": {
+  "file": "a03-03-setup.mp3",
+  "hash": "9712b5953ed016f0",
+  "text": "空港でアナウンスを聞いています。とうじょうぐちは、何時に閉まりますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-03-question": {
+  "file": "a03-03-question.mp3",
+  "hash": "2d5887f5883ebf26",
+  "text": "とうじょうぐちは、何時に閉まりますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-03-s1": {
+  "file": "a03-03-s1.mp3",
+  "hash": "7bfa40c4b02f890f",
+  "text": "さくら航空五十二便、福岡ゆきの、最終のご案内です。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a03-03-s2": {
+  "file": "a03-03-s2.mp3",
+  "hash": "24b75d501196e76e",
+  "text": "この便は、十一時に出発いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-03-s3": {
+  "file": "a03-03-s3.mp3",
+  "hash": "bd0e599b02d9d1b9",
+  "text": "ご搭乗のお客様は、お急ぎ六番ゲートまでお越しください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-03-s4": {
+  "file": "a03-03-s4.mp3",
+  "hash": "545130024a4c8037",
+  "text": "とうじょうぐちは、十時四十五分に閉まります。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-04-setup": {
+  "file": "a03-04-setup.mp3",
+  "hash": "c9f84d1f9bdb0c56",
+  "text": "空港でアナウンスを聞いています。大阪ゆきの飛行機は、何時に出発しますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-04-question": {
+  "file": "a03-04-question.mp3",
+  "hash": "9a6b74744671d3b1",
+  "text": "大阪ゆきの飛行機は、何時に出発しますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-04-s1": {
+  "file": "a03-04-s1.mp3",
+  "hash": "aff3d09048882b61",
+  "text": "さくら航空十八便、大阪ゆきをご利用のお客様にお知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-04-s2": {
+  "file": "a03-04-s2.mp3",
+  "hash": "aa29ec5fb2ad5225",
+  "text": "この便は、じゅうさんじさんじゅっぷんに出発の予定でしたが、飛行機の到着が遅れたため、出発が遅れます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-04-s3": {
+  "file": "a03-04-s3.mp3",
+  "hash": "786f7c0a81c4015f",
+  "text": "新しい出発時刻は、じゅうよじさんじゅっぷんの予定です。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-04-s4": {
+  "file": "a03-04-s4.mp3",
+  "hash": "492d210e5ee257e0",
+  "text": "とうじょうぐちの変更はございません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-05-setup": {
+  "file": "a03-05-setup.mp3",
+  "hash": "31dc8b690fb6efc9",
+  "text": "空港でアナウンスを聞いています。預けたベビーカーは、どこで受け取りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-05-question": {
+  "file": "a03-05-question.mp3",
+  "hash": "d07a9edb9b7197de",
+  "text": "預けたベビーカーは、どこで受け取りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-05-s1": {
+  "file": "a03-05-s1.mp3",
+  "hash": "2991bd856ab3d962",
+  "text": "タイペイからご到着の、さくら航空二十二便のお荷物は、三番のターンテーブルから出てまいります。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-05-s2": {
+  "file": "a03-05-s2.mp3",
+  "hash": "40bcf381c5496ef7",
+  "text": "ベビーカーなどの大きなお荷物は、八番のターンテーブルの横の、カウンターでお渡しいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-06-setup": {
+  "file": "a03-06-setup.mp3",
+  "hash": "2300277f383a3fad",
+  "text": "空港でアナウンスを聞いています。子どもの青い帽子をなくした人は、どうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-06-question": {
+  "file": "a03-06-question.mp3",
+  "hash": "ad1e0749ce80c25b",
+  "text": "子どもの青い帽子をなくした人は、どうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-06-s1": {
+  "file": "a03-06-s1.mp3",
+  "hash": "8b57829e40536e7f",
+  "text": "お客様にお知らせいたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-06-s2": {
+  "file": "a03-06-s2.mp3",
+  "hash": "d652e369a4ed68e1",
+  "text": "八番ゲートの近くで、子ども用の青い帽子のお忘れ物がございました。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-06-s3": {
+  "file": "a03-06-s3.mp3",
+  "hash": "0b167a2ec8a4455e",
+  "text": "いっかい、到着ロビーの、南側の案内カウンターでお預かりしております。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-06-s4": {
+  "file": "a03-06-s4.mp3",
+  "hash": "3ba531263ec73cd7",
+  "text": "お心当たりのお客様は、案内カウンターまでお越しください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-07-setup": {
+  "file": "a03-07-setup.mp3",
+  "hash": "6725c19f197ef216",
+  "text": "空港でアナウンスを聞いています。このアナウンスで、いちばん言いたいことは何ですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-07-question": {
+  "file": "a03-07-question.mp3",
+  "hash": "d4dfff0390bbff08",
+  "text": "このアナウンスで、いちばん言いたいことは何ですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-07-s1": {
+  "file": "a03-07-s1.mp3",
+  "hash": "8cf17a9022ffc500",
+  "text": "ご出発のお客様にお知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-07-s2": {
+  "file": "a03-07-s2.mp3",
+  "hash": "9ad0880dbcf7de12",
+  "text": "ただいま、保安検査場が、大変混雑しております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-07-s3": {
+  "file": "a03-07-s3.mp3",
+  "hash": "2a5ab238cccc80a5",
+  "text": "搭乗の手続きがお済みのお客様は、お早めに保安検査場をお通りください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-08-setup": {
+  "file": "a03-08-setup.mp3",
+  "hash": "5ff0bb2c57aeabaa",
+  "text": "空港でアナウンスを聞いています。お手伝いが必要な人は、いつ係の人に言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-08-question": {
+  "file": "a03-08-question.mp3",
+  "hash": "01996ab044b4698b",
+  "text": "お手伝いが必要な人は、いつ係の人に言いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-08-s1": {
+  "file": "a03-08-s1.mp3",
+  "hash": "72a002fbba27db80",
+  "text": "さくら航空四十便、東京ゆきは、十番ゲートから、じゅうじにじゅっぷんに搭乗を始めます。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-08-s2": {
+  "file": "a03-08-s2.mp3",
+  "hash": "22753c5c815cb7ae",
+  "text": "車いすをご利用のお客様や、お手伝いが必要なお客様は、搭乗が始まる前に、ゲートの係員にお知らせください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a03-08-s3": {
+  "file": "a03-08-s3.mp3",
+  "hash": "ee988aee6bd92643",
+  "text": "係員が、お席までご案内いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

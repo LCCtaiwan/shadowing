@@ -1,0 +1,338 @@
+{
+ "a06-01-setup": {
+  "file": "a06-01-setup.mp3",
+  "hash": "26d41324dfb8be24",
+  "text": "ショッピングセンターでアナウンスを聞いています。お客さんは、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-01-question": {
+  "file": "a06-01-question.mp3",
+  "hash": "964cb750a5549ce9",
+  "text": "お客さんは、まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-01-s1": {
+  "file": "a06-01-s1.mp3",
+  "hash": "c6f0c1ed30627d10",
+  "text": "地震の情報が入りました。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-01-s2": {
+  "file": "a06-01-s2.mp3",
+  "hash": "a814df72621fc40c",
+  "text": "まもなく、強い揺れが来るおそれがあります。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-01-s4": {
+  "file": "a06-01-s4.mp3",
+  "hash": "239974072f07eab7",
+  "text": "揺れがおさまるまで、あわてて外に出ないでください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-01-s3": {
+  "file": "a06-01-s3.mp3",
+  "hash": "73587e00a73cf743",
+  "text": "落ち着いて、頭を守り、窓やたなから離れてください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-02-setup": {
+  "file": "a06-02-setup.mp3",
+  "hash": "8d9b202f4c2464d0",
+  "text": "デパートでアナウンスを聞いています。建物を出たら、どこへ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-02-question": {
+  "file": "a06-02-question.mp3",
+  "hash": "c71bf11da8d787fb",
+  "text": "建物を出たら、どこへ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-02-s1": {
+  "file": "a06-02-s1.mp3",
+  "hash": "b811886c78a31790",
+  "text": "ただいまの地震の揺れは、おさまりました。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-02-s3": {
+  "file": "a06-02-s3.mp3",
+  "hash": "5bdc8e388cf3e2e2",
+  "text": "エレベーターは使わないでください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-02-s2": {
+  "file": "a06-02-s2.mp3",
+  "hash": "e5f7b15665b03ef1",
+  "text": "係員がご案内いたしますので、階段を使って、落ち着いていっかいまで下りてください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-02-s4": {
+  "file": "a06-02-s4.mp3",
+  "hash": "e0d7cf22198ef264",
+  "text": "建物を出たら、南側の駐車場にお集まりください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-03-setup": {
+  "file": "a06-03-setup.mp3",
+  "hash": "c1cc7f75939b7a00",
+  "text": "ホテルでアナウンスを聞いています。なにについてのアナウンスですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-03-question": {
+  "file": "a06-03-question.mp3",
+  "hash": "65c0a8b1838610e1",
+  "text": "なにについてのアナウンスですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-03-s1": {
+  "file": "a06-03-s1.mp3",
+  "hash": "06ba7074a3d28522",
+  "text": "ご宿泊のお客様にお知らせいたします。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-03-s2": {
+  "file": "a06-03-s2.mp3",
+  "hash": "0eb43fddd713c311",
+  "text": "ただいまから、火事の訓練を行います。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-03-s3": {
+  "file": "a06-03-s3.mp3",
+  "hash": "5fe459effc4cc88b",
+  "text": "本当の火事ではありませんので、ご安心ください。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-03-s4": {
+  "file": "a06-03-s4.mp3",
+  "hash": "db9779036e50ac72",
+  "text": "訓練のため、約十五分間、エレベーターが止まりますので、ご注意ください。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-04-setup": {
+  "file": "a06-04-setup.mp3",
+  "hash": "4abaa076a1888c53",
+  "text": "エレベーターの中で、スピーカーから声が聞こえます。エレベーターの中の人は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-04-question": {
+  "file": "a06-04-question.mp3",
+  "hash": "6ea4f0a6949c8b66",
+  "text": "エレベーターの中の人は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-04-s1": {
+  "file": "a06-04-s1.mp3",
+  "hash": "9e2fc677c06c1621",
+  "text": "エレベーターの中のお客様、こちらは管理室です。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-04-s2": {
+  "file": "a06-04-s2.mp3",
+  "hash": "2667aae8298ac277",
+  "text": "ただいまの地震のため、エレベーターが自動で止まっております。",
+  "voice": "Charon",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a06-04-s3": {
+  "file": "a06-04-s3.mp3",
+  "hash": "f6e84ce214fe2776",
+  "text": "係員がすぐにまいりますので、ドアを無理に開けないで、そのままお待ちください。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-04-s4": {
+  "file": "a06-04-s4.mp3",
+  "hash": "088554d28accf5a8",
+  "text": "気分が悪いかたがいらっしゃいましたら、黄色いボタンを押して、お知らせください。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-05-setup": {
+  "file": "a06-05-setup.mp3",
+  "hash": "674dd0e368f033a2",
+  "text": "遊園地でアナウンスを聞いています。アナウンスは、なにをするように言っていますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-05-question": {
+  "file": "a06-05-question.mp3",
+  "hash": "0ff7708353fae503",
+  "text": "アナウンスは、なにをするように言っていますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-05-s1": {
+  "file": "a06-05-s1.mp3",
+  "hash": "eeffdbede9e19814",
+  "text": "熱中症についてのお知らせです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-05-s2": {
+  "file": "a06-05-s2.mp3",
+  "hash": "260c3dae25663817",
+  "text": "本日は、気温が三十五度まで上がる見込みです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-05-s3": {
+  "file": "a06-05-s3.mp3",
+  "hash": "ec8bbb3f626ca358",
+  "text": "のどがかわく前に、こまめに水を飲んで、帽子をかぶってください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-05-s4": {
+  "file": "a06-05-s4.mp3",
+  "hash": "32a90a6d8f6d9c0e",
+  "text": "気分が悪くなったら、すずしい場所で休んで、近くの係員に声をかけてください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-06-setup": {
+  "file": "a06-06-setup.mp3",
+  "hash": "1edadd11f7ecd0c9",
+  "text": "ホテルの部屋でアナウンスを聞いています。お客さんは、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-06-question": {
+  "file": "a06-06-question.mp3",
+  "hash": "1ff06b2314b54e69",
+  "text": "お客さんは、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-06-s1": {
+  "file": "a06-06-s1.mp3",
+  "hash": "06ba7074a3d28522",
+  "text": "ご宿泊のお客様にお知らせいたします。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-06-s2": {
+  "file": "a06-06-s2.mp3",
+  "hash": "d7b6f99b7ea23264",
+  "text": "ただいま、さんがいの火災報知器が鳴りましたので、係員が確認しております。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-06-s3": {
+  "file": "a06-06-s3.mp3",
+  "hash": "071ede852f96910f",
+  "text": "確認が終わるまで、お部屋でお待ちください。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-06-s4": {
+  "file": "a06-06-s4.mp3",
+  "hash": "83622be5a3676c63",
+  "text": "避難が必要な場合は、もう一度お知らせいたします。",
+  "voice": "Charon",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-07-setup": {
+  "file": "a06-07-setup.mp3",
+  "hash": "41dec8c0280ef6fd",
+  "text": "美術館でアナウンスを聞いています。お客さんは、どうやって外に出ますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-07-question": {
+  "file": "a06-07-question.mp3",
+  "hash": "bfced95b3a7c43b7",
+  "text": "お客さんは、どうやって外に出ますか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-07-s1": {
+  "file": "a06-07-s1.mp3",
+  "hash": "9b6466deeeaeac10",
+  "text": "館内のお客様にお知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-07-s2": {
+  "file": "a06-07-s2.mp3",
+  "hash": "a7d421ef20f30120",
+  "text": "ただいま、二階の奥で火事が起きました。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-07-s3": {
+  "file": "a06-07-s3.mp3",
+  "hash": "2adc59adfb95ee78",
+  "text": "近くのひじょうぐちから、階段を使って外に出てください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-07-s4": {
+  "file": "a06-07-s4.mp3",
+  "hash": "4c5d9a7c4689c4e8",
+  "text": "エレベーターは使わないで、係員の案内にしたがって、落ち着いて移動してください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-08-setup": {
+  "file": "a06-08-setup.mp3",
+  "hash": "d73befb371fb4973",
+  "text": "駅でアナウンスを聞いています。電車は、どのぐらいで動く見込みですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-08-question": {
+  "file": "a06-08-question.mp3",
+  "hash": "ca1dc42a6fc2418c",
+  "text": "電車は、どのぐらいで動く見込みですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-08-s1": {
+  "file": "a06-08-s1.mp3",
+  "hash": "e9530bf281d3fe0a",
+  "text": "先ほどの地震について、お知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-08-s2": {
+  "file": "a06-08-s2.mp3",
+  "hash": "a51dfdb5ca8c3334",
+  "text": "この地震による津波の心配はありません。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-08-s4": {
+  "file": "a06-08-s4.mp3",
+  "hash": "5e42e54e5070f646",
+  "text": "運転再開まで、さんじゅっぷんほどかかる見込みです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "a06-08-s3": {
+  "file": "a06-08-s3.mp3",
+  "hash": "df012c30e8bdcdf6",
+  "text": "電車は、線路の安全を確認するため、運転を見合わせております。",
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

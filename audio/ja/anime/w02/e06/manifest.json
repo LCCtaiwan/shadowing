@@ -208,5 +208,152 @@
   "text": "あ、ジュースをこぼしちゃった。",
   "voice": "Sulafat",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:台本": {
+  "file": "v-d11c60b0287a.mp3",
+  "hash": "1d659dc7d39765b8",
+  "text": "だいほん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:勇者": {
+  "file": "v-b2534be01511.mp3",
+  "hash": "c8ad6757ed1aecce",
+  "text": "ゆうしゃ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:魔王": {
+  "file": "v-be754b40b006.mp3",
+  "hash": "d292852e791ff30e",
+  "text": "まおう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:録音": {
+  "file": "v-deadc9593bfd.mp3",
+  "hash": "19bae1df9db586c6",
+  "text": "ろくおん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:城": {
+  "file": "v-790f6174ca0c.mp3",
+  "hash": "6358fa7419570986",
+  "text": "しろ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:我": {
+  "file": "v-e5e832db89ed.mp3",
+  "hash": "6d91ee7909607e4f",
+  "text": "われ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:村": {
+  "file": "v-81fe56751619.mp3",
+  "hash": "daaa34f1d5c1bc75",
+  "text": "むら",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:声": {
+  "file": "v-77c605be145d.mp3",
+  "hash": "58310fe0241c2091",
+  "text": "こえ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:返す": {
+  "file": "v-991b66369e0d.mp3",
+  "hash": "b164445376d737cb",
+  "text": "かえす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:倒す": {
+  "file": "v-82db9a4eaa28.mp3",
+  "hash": "39f121f89dc05242",
+  "text": "たおす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:全部": {
+  "file": "v-a5ffb5044c74.mp3",
+  "hash": "6c93a0f6aa7d63b4",
+  "text": "ぜんぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:許す": {
+  "file": "v-bf2fa01de96e.mp3",
+  "hash": "990e4fc15ffa89c1",
+  "text": "ゆるす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:無駄": {
+  "file": "v-e2bd61d81e13.mp3",
+  "hash": "c29bb297685af92a",
+  "text": "むだ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:体": {
+  "file": "v-6bf1e1067e2d.mp3",
+  "hash": "f3756cad5f46587e",
+  "text": "からだ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:動く": {
+  "file": "v-f669e9910c18.mp3",
+  "hash": "46fe3557ce44438c",
+  "text": "うごく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:光": {
+  "file": "v-bce6911efc49.mp3",
+  "hash": "d7a20ee785169f7d",
+  "text": "ひかり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:精霊": {
+  "file": "v-e589c7560b3c.mp3",
+  "hash": "36c6e1f6267ba178",
+  "text": "せいれい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:負ける": {
+  "file": "v-fa2ab7d16909.mp3",
+  "hash": "faaf47956927a3f6",
+  "text": "まける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:落とす": {
+  "file": "v-d5fad79a77e7.mp3",
+  "hash": "c3bd08ec8b236785",
+  "text": "おとす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:怖い": {
+  "file": "v-09281c72c2cd.mp3",
+  "hash": "ea07e6be1af1dc00",
+  "text": "こわい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:悪い": {
+  "file": "v-5fc21a320338.mp3",
+  "hash": "2c5e16c5079c16a0",
+  "text": "わるい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

@@ -54,5 +54,138 @@
   "text": "げんばく",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:原文": {
+  "file": "v-b3ffc3d9d6ba.mp3",
+  "hash": "7d932564bc294d92",
+  "text": "げんぶん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:厳密": {
+  "file": "v-5ec4492af520.mp3",
+  "hash": "969e4ab426c50921",
+  "text": "げんみつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:賢明": {
+  "file": "v-eadd6a2174a6.mp3",
+  "hash": "64378f7d12184cdd",
+  "text": "けんめい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:倹約": {
+  "file": "v-55eb80421d3a.mp3",
+  "hash": "45dae42f9791b995",
+  "text": "けんやく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:原油": {
+  "file": "v-09c70cc8d2f9.mp3",
+  "hash": "eab93396ad086270",
+  "text": "げんゆ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:兼用": {
+  "file": "v-57166b4bfee6.mp3",
+  "hash": "5f8141777b99467a",
+  "text": "けんよう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:権力": {
+  "file": "v-76deaa36224c.mp3",
+  "hash": "c62707efc361ab35",
+  "text": "けんりょく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:言論": {
+  "file": "v-25aac35f465e.mp3",
+  "hash": "f208095eca6b65a5",
+  "text": "げんろん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:故": {
+  "file": "v-7eeaf44d6e85.mp3",
+  "hash": "ffa13345f5005619",
+  "text": "こ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:語彙": {
+  "file": "v-eed8a2a8929a.mp3",
+  "hash": "4319587cf0103b12",
+  "text": "ごい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:恋する": {
+  "file": "v-dc75c1ec3783.mp3",
+  "hash": "f0587f36a9925d37",
+  "text": "こいする",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:抗議": {
+  "file": "v-7d31864de9e9.mp3",
+  "hash": "3cf9c2885e836702",
+  "text": "こうぎ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:合議": {
+  "file": "v-d427048145ed.mp3",
+  "hash": "4c32b07dbb5156a0",
+  "text": "ごうぎ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:皇居": {
+  "file": "v-cbb358883480.mp3",
+  "hash": "a3efa1f63565b7d5",
+  "text": "こうきょ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:好況": {
+  "file": "v-6aac4f9ad45a.mp3",
+  "hash": "32e1fb13a41ef559",
+  "text": "こうきょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:鉱業": {
+  "file": "v-4bc6a23885c3.mp3",
+  "hash": "9e9d0379512b7e66",
+  "text": "こうぎょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:興業": {
+  "file": "v-a310027b3ce1.mp3",
+  "hash": "9e9d0379512b7e66",
+  "text": "こうぎょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:高原": {
+  "file": "v-a353445cfef6.mp3",
+  "hash": "7c0de15bcebb11dd",
+  "text": "こうげん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:交互": {
+  "file": "v-251968b7d587.mp3",
+  "hash": "570ad3d9700281c6",
+  "text": "こうご",
+  "voice": "Schedar",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

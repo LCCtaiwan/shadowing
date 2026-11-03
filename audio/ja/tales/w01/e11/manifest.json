@@ -5,5 +5,131 @@
   "text": "むかし、むかし、あるところに、おじいさんとおばあさんがありました。",
   "voice": "Schedar",
   "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "42697709c6ab5166",
+  "text": "「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "e96ce962366988f7",
+  "text": "と流れて来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "b5b1c599e7decc97",
+  "text": "「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "36d0227ac3f0c938",
+  "text": "おばあさんは、そう言いながら、腰をかがめて桃を取ろうとしましたが、遠くって手がとどきません。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "ea275d978ab6ae82",
+  "text": "おばあさんはそこで、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "f2f81fe37e823d8c",
+  "text": "「あっちのみいずは、かあらいぞ。こっちのみいずは、ああまいぞ。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "965aeec32df057e9",
+  "text": "かあらいみいずは、よけて来い。ああまいみいずに、よって来い。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-13": {
+  "file": "s1-13.mp3",
+  "hash": "42697709c6ab5166",
+  "text": "「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-16": {
+  "file": "s1-16.mp3",
+  "hash": "91e7e343c8628640",
+  "text": "「早くおじいさんと二人で分けて食べましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "ca3299ea9d484394",
+  "text": "むかし、むかし、あるところに、おじいさんとおばあさんがありました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "2be9a366a2b5bbe2",
+  "text": "まいにち、おじいさんは山へしばかりに、おばあさんは川へ洗濯に行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "64d40a1159072107",
+  "text": "ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃が一つ、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "30ad16c13bc3ea26",
+  "text": "「おばあさん、今帰ったよ。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "6d7e4aeb6f8a82ba",
+  "text": "と歌いながら、手をたたきました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "efefa95cd5447815",
+  "text": "すると桃はまた、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "36431119e7a1f2b2",
+  "text": "「それはありがたいな。何だね、そのいいものというのは。」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-14": {
+  "file": "s1-14.mp3",
+  "hash": "57cec2626f8cbe12",
+  "text": "といいながら、おばあさんの前へ流れて来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-15": {
+  "file": "s1-15.mp3",
+  "hash": "b30113f3cf690402",
+  "text": "おばあさんはにこにこしながら、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
  }
 }

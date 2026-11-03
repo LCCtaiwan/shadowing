@@ -1,0 +1,338 @@
+{
+ "a05-01-setup": {
+  "file": "a05-01-setup.mp3",
+  "hash": "c20057fecfc9c034",
+  "text": "駅でアナウンスを聞いています。電車はどうして止まっていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-01-question": {
+  "file": "a05-01-question.mp3",
+  "hash": "856f004ba9a155da",
+  "text": "電車はどうして止まっていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-01-s1": {
+  "file": "a05-01-s1.mp3",
+  "hash": "9fcf408f649a4633",
+  "text": "お客様にお知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-01-s2": {
+  "file": "a05-01-s2.mp3",
+  "hash": "e4ab42b7264c3dbb",
+  "text": "ただいま、さくら線は、信号の故障の影響で、上下線とも運転を見合わせております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-01-s3": {
+  "file": "a05-01-s3.mp3",
+  "hash": "8b313468e47f9c20",
+  "text": "運転再開は、午前十時ごろを予定しております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-01-s4": {
+  "file": "a05-01-s4.mp3",
+  "hash": "09f65f8b67ee0f54",
+  "text": "お急ぎのところ、ご迷惑をおかけして、申し訳ございません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-02-setup": {
+  "file": "a05-02-setup.mp3",
+  "hash": "649a220fd9185349",
+  "text": "駅でアナウンスを聞いています。下りの電車は、どのぐらい遅れていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-02-question": {
+  "file": "a05-02-question.mp3",
+  "hash": "6de4d9087502eb55",
+  "text": "下りの電車は、どのぐらい遅れていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-02-s1": {
+  "file": "a05-02-s1.mp3",
+  "hash": "d5672dd6a2206f04",
+  "text": "本日は大雨のため、電車が遅れております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-02-s2": {
+  "file": "a05-02-s2.mp3",
+  "hash": "93bffd423991359c",
+  "text": "ただいま、上りの電車はにじゅっぷんほど、下りの電車はよんじゅっぷんほど遅れております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-02-s3": {
+  "file": "a05-02-s3.mp3",
+  "hash": "7a463214f30127f0",
+  "text": "このあとも、遅れが大きくなるおそれがございます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-02-s4": {
+  "file": "a05-02-s4.mp3",
+  "hash": "167367c1ebfae7d2",
+  "text": "お時間に余裕を持って、ご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-03-setup": {
+  "file": "a05-03-setup.mp3",
+  "hash": "ddb43ae1b720aaf5",
+  "text": "みなと駅でアナウンスを聞いています。山下駅へ行きたい人は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-03-question": {
+  "file": "a05-03-question.mp3",
+  "hash": "bf968eaf05f1d47c",
+  "text": "山下駅へ行きたい人は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-03-s1": {
+  "file": "a05-03-s1.mp3",
+  "hash": "9fcf408f649a4633",
+  "text": "お客様にお知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-03-s2": {
+  "file": "a05-03-s2.mp3",
+  "hash": "7bed25be4707f2ec",
+  "text": "強い風の影響で、みなと駅と山下駅の間は、運転を見合わせております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-03-s3": {
+  "file": "a05-03-s3.mp3",
+  "hash": "ee8fb6fdfcbe54b4",
+  "text": "運転再開の時間は、まだわかっておりません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-03-s4": {
+  "file": "a05-03-s4.mp3",
+  "hash": "f8ebc14ec41bd889",
+  "text": "山下方面へお越しのお客様は、西口三番乗り場から出ている、代わりのバスをご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-04-setup": {
+  "file": "a05-04-setup.mp3",
+  "hash": "35d01e0a26ac1f68",
+  "text": "電車の中でアナウンスを聞いています。なにについてのアナウンスですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-04-question": {
+  "file": "a05-04-question.mp3",
+  "hash": "65c0a8b1838610e1",
+  "text": "なにについてのアナウンスですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-04-s1": {
+  "file": "a05-04-s1.mp3",
+  "hash": "e19143c9d871ca23",
+  "text": "本日も、ご乗車いただきまして、ありがとうございます。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-04-s2": {
+  "file": "a05-04-s2.mp3",
+  "hash": "921e8e5d7693baa0",
+  "text": "ただいま、前の電車が駅に止まっているため、この電車は、しばらく停車いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a05-04-s3": {
+  "file": "a05-04-s3.mp3",
+  "hash": "00c8cf2a8f664187",
+  "text": "前の電車が発車しましたら、この電車も発車いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-04-s4": {
+  "file": "a05-04-s4.mp3",
+  "hash": "60e1b30dbd951159",
+  "text": "お急ぎのところ、大変ご迷惑をおかけいたします。",
+  "voice": "Alnilam",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-05-setup": {
+  "file": "a05-05-setup.mp3",
+  "hash": "cd261d5323d7710a",
+  "text": "駅でアナウンスを聞いています。特急は、なんじごろ動く見込みですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-05-question": {
+  "file": "a05-05-question.mp3",
+  "hash": "1222f280fc9869f2",
+  "text": "特急は、なんじごろ動く見込みですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-05-s1": {
+  "file": "a05-05-s1.mp3",
+  "hash": "a8df6b1787bc8a25",
+  "text": "お客様にご案内いたします。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-05-s2": {
+  "file": "a05-05-s2.mp3",
+  "hash": "6acff31a02fa7fc1",
+  "text": "ただいま、停電の影響で、全線で運転を見合わせております。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-05-s3": {
+  "file": "a05-05-s3.mp3",
+  "hash": "f4a841537c53eabe",
+  "text": "各駅停車は午後一時半ごろ、特急は午後二時ごろに、運転を再開する見込みです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-05-s4": {
+  "file": "a05-05-s4.mp3",
+  "hash": "b53c865adafc4d60",
+  "text": "再開まで、もうしばらくお待ちください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-06-setup": {
+  "file": "a05-06-setup.mp3",
+  "hash": "47b70a09fc7790d1",
+  "text": "テレビで天気予報を聞いています。あしたの午後、雨が降る確率は何パーセントですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-06-question": {
+  "file": "a05-06-question.mp3",
+  "hash": "224fb06079314a7c",
+  "text": "あしたの午後、雨が降る確率は何パーセントですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-06-s1": {
+  "file": "a05-06-s1.mp3",
+  "hash": "ed97465b6b99d017",
+  "text": "あしたの天気です。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-06-s2": {
+  "file": "a05-06-s2.mp3",
+  "hash": "aacf99910ec96dd0",
+  "text": "東京は、朝は晴れますが、昼ごろから雲が多くなり、夕方からは雨が降るでしょう。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-06-s3": {
+  "file": "a05-06-s3.mp3",
+  "hash": "038052dec4a4e2da",
+  "text": "降水確率は、午前中がじゅっパーセント、午後はななじゅっパーセントです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-06-s4": {
+  "file": "a05-06-s4.mp3",
+  "hash": "3d0da1dcd25332cb",
+  "text": "お出かけの際は、傘をお持ちください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-07-setup": {
+  "file": "a05-07-setup.mp3",
+  "hash": "b10ddf85ecc2cb96",
+  "text": "テレビで台風のニュースを聞いています。あしたの夜は、どうしたほうがいいですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-07-question": {
+  "file": "a05-07-question.mp3",
+  "hash": "eab0d0378c5e8c1f",
+  "text": "あしたの夜は、どうしたほうがいいですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-07-s1": {
+  "file": "a05-07-s1.mp3",
+  "hash": "6e1fd2162d8b7d3a",
+  "text": "台風の情報をお伝えします。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-07-s2": {
+  "file": "a05-07-s2.mp3",
+  "hash": "8e822c71586c95f7",
+  "text": "台風は、あしたの夜、この地方に一番近づく見込みです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-07-s3": {
+  "file": "a05-07-s3.mp3",
+  "hash": "b742e69e01e3d549",
+  "text": "電車や飛行機が止まることもありますので、あしたの夜は、なるべく出かけないようにしてください。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-07-s4": {
+  "file": "a05-07-s4.mp3",
+  "hash": "8a0c35c78b657b4b",
+  "text": "あしたの朝のうちに、食べ物や水を買っておくと安心です。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-08-setup": {
+  "file": "a05-08-setup.mp3",
+  "hash": "26d5720af1ebf698",
+  "text": "テレビで天気予報を聞いています。あしたの朝の気温は何度ですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-08-question": {
+  "file": "a05-08-question.mp3",
+  "hash": "1a784bd8b4494c3c",
+  "text": "あしたの朝の気温は何度ですか。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-08-s1": {
+  "file": "a05-08-s1.mp3",
+  "hash": "e5917ab98e8a4697",
+  "text": "続いて、北海道の天気です。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-08-s2": {
+  "file": "a05-08-s2.mp3",
+  "hash": "e9a1387c10ae6b31",
+  "text": "あしたの札幌は、いちにちじゅうよく晴れるでしょう。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-08-s3": {
+  "file": "a05-08-s3.mp3",
+  "hash": "5434e0952599d86d",
+  "text": "昼の気温は十二度まで上がりますが、朝は二度まで下がる見込みです。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "a05-08-s4": {
+  "file": "a05-08-s4.mp3",
+  "hash": "10f6e94dd53c4b4c",
+  "text": "暖かいコートや手袋があると安心です。",
+  "voice": "Kore",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}

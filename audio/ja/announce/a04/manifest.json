@@ -1,0 +1,338 @@
+{
+ "a04-01-setup": {
+  "file": "a04-01-setup.mp3",
+  "hash": "ae0a0a2d70c846f5",
+  "text": "デパートでアナウンスを聞いています。はっかいのレストランは何時まであいていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-01-question": {
+  "file": "a04-01-question.mp3",
+  "hash": "e38ae3b000c57379",
+  "text": "はっかいのレストランは何時まであいていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-01-s1": {
+  "file": "a04-01-s1.mp3",
+  "hash": "e43cd2aeadb83906",
+  "text": "本日もご来店いただきまして、まことにありがとうございます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-01-s2": {
+  "file": "a04-01-s2.mp3",
+  "hash": "c5c8bacf75ee8660",
+  "text": "ご来店のお客様にお知らせいたします。まもなく閉店のお時間です。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-01-s3": {
+  "file": "a04-01-s3.mp3",
+  "hash": "0995ce8ce56e1116",
+  "text": "本日は午後八時で閉店いたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-01-s4": {
+  "file": "a04-01-s4.mp3",
+  "hash": "80f504a7e642f80c",
+  "text": "なお、はっかいのレストラン街は、午後十時まで営業しております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-02-setup": {
+  "file": "a04-02-setup.mp3",
+  "hash": "3b8a5fb078d2f8ec",
+  "text": "デパートでアナウンスを聞いています。子ども服のセールはどこでやっていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-02-question": {
+  "file": "a04-02-question.mp3",
+  "hash": "6826e65ebcb230e8",
+  "text": "子ども服のセールはどこでやっていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-02-s1": {
+  "file": "a04-02-s1.mp3",
+  "hash": "a5e1f704f9768ca9",
+  "text": "ご来店のお客様にご案内いたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-02-s2": {
+  "file": "a04-02-s2.mp3",
+  "hash": "60636aa8dcdeaecb",
+  "text": "ただいま、ろっかいの催し物会場で、子ども服のセールを行っております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-02-s3": {
+  "file": "a04-02-s3.mp3",
+  "hash": "d719e5e6657089b6",
+  "text": "全品、半額でございます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-02-s4": {
+  "file": "a04-02-s4.mp3",
+  "hash": "acd751cca9425cfc",
+  "text": "また、ちかいっかいの食料品売り場では、午後五時からお弁当のタイムセールを行います。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-03-setup": {
+  "file": "a04-03-setup.mp3",
+  "hash": "05dd77c4c7e8ab07",
+  "text": "ショッピングセンターでアナウンスを聞いています。女の子はどんな服を着ていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-03-question": {
+  "file": "a04-03-question.mp3",
+  "hash": "6b43d78becfcf6a5",
+  "text": "女の子はどんな服を着ていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-03-s1": {
+  "file": "a04-03-s1.mp3",
+  "hash": "6c08d95b31c4ec6a",
+  "text": "迷子のお知らせをいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-03-s2": {
+  "file": "a04-03-s2.mp3",
+  "hash": "33a84e686be8ff7f",
+  "text": "白い帽子をかぶって、赤いスカートをはいた、四歳ぐらいの女の子を、おかあさまがお探しです。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-03-s3": {
+  "file": "a04-03-s3.mp3",
+  "hash": "830b958eaa6a5f86",
+  "text": "女の子は、黄色いくつをはいています。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-03-s4": {
+  "file": "a04-03-s4.mp3",
+  "hash": "075d072373f111e9",
+  "text": "お見かけのお客様は、いっかいのインフォメーションまでお知らせください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-04-setup": {
+  "file": "a04-04-setup.mp3",
+  "hash": "bc17601fbf3bca0b",
+  "text": "遊園地でアナウンスを聞いています。男の子の家族は、これからどこへ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-04-question": {
+  "file": "a04-04-question.mp3",
+  "hash": "0fe71afa1ac6b522",
+  "text": "男の子の家族は、これからどこへ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-04-s1": {
+  "file": "a04-04-s1.mp3",
+  "hash": "6c08d95b31c4ec6a",
+  "text": "迷子のお知らせをいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-04-s2": {
+  "file": "a04-04-s2.mp3",
+  "hash": "781ce8bfb573ba8a",
+  "text": "緑のシャツを着た、六歳ぐらいの男の子が、観覧車の前で見つかりました。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-04-s3": {
+  "file": "a04-04-s3.mp3",
+  "hash": "8a60c8098de2e063",
+  "text": "ただいま、正面ゲートの横にある迷子センターでお預かりしております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-04-s4": {
+  "file": "a04-04-s4.mp3",
+  "hash": "fe99bae9a89691f8",
+  "text": "お連れのお客様は、迷子センターまでお越しください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-05-setup": {
+  "file": "a04-05-setup.mp3",
+  "hash": "3135a5490a803eb4",
+  "text": "遊園地でアナウンスを聞いています。パレードは何時に始まりますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-05-question": {
+  "file": "a04-05-question.mp3",
+  "hash": "06cec64dc0a9f358",
+  "text": "パレードは何時に始まりますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-05-s1": {
+  "file": "a04-05-s1.mp3",
+  "hash": "ab7b5414a6d66b80",
+  "text": "本日もご来園いただきまして、まことにありがとうございます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-05-s2": {
+  "file": "a04-05-s2.mp3",
+  "hash": "a90d2e6508f22ce2",
+  "text": "本日のパレードは、午後二時半に、お城の前からスタートいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-05-s3": {
+  "file": "a04-05-s3.mp3",
+  "hash": "6951255fc6c1d3ce",
+  "text": "パレードは中央広場を通って、午後三時ごろ、湖の前で終わります。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-05-s4": {
+  "file": "a04-05-s4.mp3",
+  "hash": "4c7b7b51c4628a5c",
+  "text": "午後二時から、道の白い線の内側でお待ちいただけます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-06-setup": {
+  "file": "a04-06-setup.mp3",
+  "hash": "4c9e9a822ced51c7",
+  "text": "遊園地で係の人が話しています。身長百十五センチの子どもは、このジェットコースターに乗れますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-06-question": {
+  "file": "a04-06-question.mp3",
+  "hash": "b50f94b5a3dd48e2",
+  "text": "身長百十五センチの子どもは、このジェットコースターに乗れますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-06-s1": {
+  "file": "a04-06-s1.mp3",
+  "hash": "d394e6d0f6ff4628",
+  "text": "ご案内いたします。ただいま、ジェットコースターは、およそろくじゅっぷん待ちとなっております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-06-s2": {
+  "file": "a04-06-s2.mp3",
+  "hash": "cdb0c6dc2e73155c",
+  "text": "このアトラクションは、身長百二十センチ以上のかたがご利用いただけます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-06-s3": {
+  "file": "a04-06-s3.mp3",
+  "hash": "b122f4a4c0da72be",
+  "text": "百二十センチより低いお子様は、大人のかたといっしょでもご利用いただけません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-06-s4": {
+  "file": "a04-06-s4.mp3",
+  "hash": "34fe9efef13478ab",
+  "text": "入口の横で、身長を測ることができます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-07-setup": {
+  "file": "a04-07-setup.mp3",
+  "hash": "f08a50d892c23063",
+  "text": "遊園地でアナウンスを聞いています。なにについてのアナウンスですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-07-question": {
+  "file": "a04-07-question.mp3",
+  "hash": "65c0a8b1838610e1",
+  "text": "なにについてのアナウンスですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-07-s1": {
+  "file": "a04-07-s1.mp3",
+  "hash": "5993fb52b84fdd5f",
+  "text": "ご来園のお客様にお知らせいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-07-s2": {
+  "file": "a04-07-s2.mp3",
+  "hash": "f2c0c15daef09df7",
+  "text": "雨と風が強くなってきたため、本日の夜のパレードと花火は、中止とさせていただきます。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-07-s3": {
+  "file": "a04-07-s3.mp3",
+  "hash": "2fbd79e343c04ac7",
+  "text": "建物の中のアトラクションとレストランは、いつもどおり営業しております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-07-s4": {
+  "file": "a04-07-s4.mp3",
+  "hash": "0dbfe28106e14c12",
+  "text": "楽しみにしてくださったお客様には、大変申し訳ございません。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-08-setup": {
+  "file": "a04-08-setup.mp3",
+  "hash": "3efe03025fe3cfd3",
+  "text": "デパートでアナウンスを聞いています。お客さんは、これからどこから外に出ますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-08-question": {
+  "file": "a04-08-question.mp3",
+  "hash": "32548b101985683e",
+  "text": "お客さんは、これからどこから外に出ますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-08-s1": {
+  "file": "a04-08-s1.mp3",
+  "hash": "454b0147a82cff42",
+  "text": "本日もご来店いただきまして、まことにありがとうございました。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-08-s2": {
+  "file": "a04-08-s2.mp3",
+  "hash": "67f45564886227db",
+  "text": "ただいま、閉店のお時間となりました。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-08-s3": {
+  "file": "a04-08-s3.mp3",
+  "hash": "e4ae550a794d0abe",
+  "text": "正面入口はすでに閉まっておりますので、お帰りの際は、いっかいの東口をご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "a04-08-s4": {
+  "file": "a04-08-s4.mp3",
+  "hash": "613062fbfa7fe6fc",
+  "text": "ちかいっかいの駅への出口も、閉まっております。",
+  "voice": "Kore",
+  "model": "gemini-3.1-flash-tts-preview"
+ }
+}

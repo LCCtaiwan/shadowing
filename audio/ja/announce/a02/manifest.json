@@ -1,0 +1,331 @@
+{
+ "a02-01-setup": {
+  "file": "a02-01-setup.mp3",
+  "hash": "f582df60a1044ea6",
+  "text": "新幹線や特急の中で、車内放送を聞いています。京都には、何時に着きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-01-question": {
+  "file": "a02-01-question.mp3",
+  "hash": "98f79f5216580f20",
+  "text": "京都には、何時に着きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-01-s1": {
+  "file": "a02-01-s1.mp3",
+  "hash": "9f218a3be80bd85e",
+  "text": "今日も新幹線をご利用くださいまして、ありがとうございます。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-01-s2": {
+  "file": "a02-01-s2.mp3",
+  "hash": "7c77463c5f41e8dd",
+  "text": "この電車は、新大阪ゆきです。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-01-s4": {
+  "file": "a02-01-s4.mp3",
+  "hash": "283ac2d74c46e2ef",
+  "text": "名古屋には十時四十五分、京都にはじゅういちじにじゅっぷんに着きます。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-02-setup": {
+  "file": "a02-02-setup.mp3",
+  "hash": "2b94803e123ff72c",
+  "text": "新幹線や特急の中で、車内放送を聞いています。名古屋で降ります。どちら側のドアから降りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-02-question": {
+  "file": "a02-02-question.mp3",
+  "hash": "2a313cb093bfb4ce",
+  "text": "名古屋で降ります。どちら側のドアから降りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-02-s1": {
+  "file": "a02-02-s1.mp3",
+  "hash": "d58d631df9cd20a0",
+  "text": "まもなく、名古屋です。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-02-s2": {
+  "file": "a02-02-s2.mp3",
+  "hash": "31c15471427a74c8",
+  "text": "お出口は、左側です。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-02-s3": {
+  "file": "a02-02-s3.mp3",
+  "hash": "23aabbb4fc8a2115",
+  "text": "なお、次の京都では、右側のドアがあきます。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-02-s4": {
+  "file": "a02-02-s4.mp3",
+  "hash": "fff127970c297b10",
+  "text": "おおりの際は、お忘れ物のないよう、ご注意ください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-01-s3": {
+  "file": "a02-01-s3.mp3",
+  "hash": "cbb50d63580e7ce5",
+  "text": "途中の停車駅は、名古屋と京都です。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-03-setup": {
+  "file": "a02-03-setup.mp3",
+  "hash": "112a3cc3af813a93",
+  "text": "新幹線や特急の中で、車内放送を聞いています。指定席の切符を持っていない人は、何号車に乗りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-03-question": {
+  "file": "a02-03-question.mp3",
+  "hash": "b368f5e0239081a0",
+  "text": "指定席の切符を持っていない人は、何号車に乗りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-03-s1": {
+  "file": "a02-03-s1.mp3",
+  "hash": "863772cc96304fba",
+  "text": "この電車の自由席は、一号車から三号車です。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-03-s2": {
+  "file": "a02-03-s2.mp3",
+  "hash": "fad08c10e20cceb4",
+  "text": "八号車から十号車はグリーン車、そのほかは指定席です。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-03-s3": {
+  "file": "a02-03-s3.mp3",
+  "hash": "3c97159dba607ee6",
+  "text": "指定席の切符をお持ちでないお客様は、自由席をご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-04-setup": {
+  "file": "a02-04-setup.mp3",
+  "hash": "1f199ff17908d856",
+  "text": "新幹線や特急の中で、車内放送を聞いています。飲み物を買いたいです。どうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-04-question": {
+  "file": "a02-04-question.mp3",
+  "hash": "b859aec4ef1321e6",
+  "text": "飲み物を買いたいです。どうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-04-s1": {
+  "file": "a02-04-s1.mp3",
+  "hash": "9a111bbe0e025407",
+  "text": "本日は、特急わかば号をご利用いただき、ありがとうございます。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-04-s2": {
+  "file": "a02-04-s2.mp3",
+  "hash": "0e5e201c7f910069",
+  "text": "本日、車内販売はございません。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-04-s3": {
+  "file": "a02-04-s3.mp3",
+  "hash": "d0b5bd55371a4657",
+  "text": "お飲み物は、三号車の自動販売機をご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-04-s4": {
+  "file": "a02-04-s4.mp3",
+  "hash": "68e9a4f64a211728",
+  "text": "なお、この電車は、全席禁煙です。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-05-setup": {
+  "file": "a02-05-setup.mp3",
+  "hash": "01d5b96ff229b413",
+  "text": "新幹線や特急の中で、車内放送を聞いています。赤ちゃんのおむつを替えたい人は、何号車へ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-05-question": {
+  "file": "a02-05-question.mp3",
+  "hash": "9cdf418300909064",
+  "text": "赤ちゃんのおむつを替えたい人は、何号車へ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-05-s1": {
+  "file": "a02-05-s1.mp3",
+  "hash": "650015304c5f86e6",
+  "text": "車内のご案内をいたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-05-s2": {
+  "file": "a02-05-s2.mp3",
+  "hash": "9d3a3cf2936466e7",
+  "text": "お手洗いは、一号車、三号車、五号車、七号車にございます。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-05-s3": {
+  "file": "a02-05-s3.mp3",
+  "hash": "41b8b82d7277888e",
+  "text": "おむつを替えられる多目的室は、十一号車にございます。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-05-s4": {
+  "file": "a02-05-s4.mp3",
+  "hash": "659421db75e635ff",
+  "text": "ご利用の際は、車掌にお声をおかけください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-06-setup": {
+  "file": "a02-06-setup.mp3",
+  "hash": "26e8d545e73ccf4b",
+  "text": "新幹線や特急の中で、車内放送を聞いています。みなと台へ行く人は、新大阪でなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-06-question": {
+  "file": "a02-06-question.mp3",
+  "hash": "30e494182d9a3066",
+  "text": "みなと台へ行く人は、新大阪でなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-06-s1": {
+  "file": "a02-06-s1.mp3",
+  "hash": "6e662b8b20668838",
+  "text": "まもなく、終点、新大阪です。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-06-s2": {
+  "file": "a02-06-s2.mp3",
+  "hash": "c9188e0630425057",
+  "text": "みなと台方面へは、特急にお乗り換えください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-06-s3": {
+  "file": "a02-06-s3.mp3",
+  "hash": "cab7f76acf61eaf0",
+  "text": "乗り換えの特急は、十一番線から、十一時五分に発車いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-06-s4": {
+  "file": "a02-06-s4.mp3",
+  "hash": "e19329deaf6d2e27",
+  "text": "乗り換えの時間が短いので、おおりの準備をしてお待ちください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-07-setup": {
+  "file": "a02-07-setup.mp3",
+  "hash": "9b5477dde3621979",
+  "text": "新幹線や特急の中で、車内放送を聞いています。このアナウンスは、何についてのお願いですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-07-question": {
+  "file": "a02-07-question.mp3",
+  "hash": "20c831977caff272",
+  "text": "このアナウンスは、何についてのお願いですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-07-s1": {
+  "file": "a02-07-s1.mp3",
+  "hash": "cc36d4bfcdc39c27",
+  "text": "お客様にお願いいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-07-s2": {
+  "file": "a02-07-s2.mp3",
+  "hash": "92a91d0974bdf6a5",
+  "text": "携帯電話は、マナーモードにしてください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-07-s3": {
+  "file": "a02-07-s3.mp3",
+  "hash": "b1e4a961f37e6ff4",
+  "text": "席でのお電話は、ご遠慮ください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-07-s4": {
+  "file": "a02-07-s4.mp3",
+  "hash": "efa839e4f964935c",
+  "text": "お電話は、デッキでお願いいたします。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-08-setup": {
+  "file": "a02-08-setup.mp3",
+  "hash": "cb6fdd6e4f52f6af",
+  "text": "新幹線や特急の中で、車内放送を聞いています。京都には、なんじごろ着きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-08-question": {
+  "file": "a02-08-question.mp3",
+  "hash": "8c8cfca949289f1c",
+  "text": "京都には、なんじごろ着きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-08-s1": {
+  "file": "a02-08-s1.mp3",
+  "hash": "8b57829e40536e7f",
+  "text": "お客様にお知らせいたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-08-s2": {
+  "file": "a02-08-s2.mp3",
+  "hash": "fadd42a44105c637",
+  "text": "この電車は、雪の影響で、ただいまにじゅっぷんほど遅れて運転しております。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-08-s3": {
+  "file": "a02-08-s3.mp3",
+  "hash": "bf7924aa12146056",
+  "text": "京都には、じゅういちじごじゅっぷんに着く予定でしたが、じゅうにじじゅっぷんごろの到着となります。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a02-08-s4": {
+  "file": "a02-08-s4.mp3",
+  "hash": "6795178400a1e513",
+  "text": "お急ぎのところ、ご迷惑をおかけして、申し訳ございません。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

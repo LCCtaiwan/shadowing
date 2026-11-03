@@ -1,0 +1,240 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "4b2e248a90698b42",
+  "text": "きょうは、中村さんの家族と、いっしょに晩ごはんを食べます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "c8708879050443be",
+  "text": "さあ、みんなで食べましょう。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "5c1b5e7f64336514",
+  "text": "いただきます！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "0082578cb9dd6ad7",
+  "text": "いただきまーす！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "e9e8cee16234c6b6",
+  "text": "ぼく、からあげが大好き！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "6f6bb035553ea33f",
+  "text": "シャオミーちゃんは、なにが好き？",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "112cc6910fdfa588",
+  "text": "わたしは、たまごやきが好きです。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "6ba28b2148aa8669",
+  "text": "ピーマン、きらい…。",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "b8ac8fa24f267dab",
+  "text": "ふふ、そうたもピーマンがきらいなのよね。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "fa90f85c2462f787",
+  "text": "でも、ぼく、ひとくち食べるよ！",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "f3375d4b16788fde",
+  "text": "アーバオも、いっしょに食べよう。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "40c74da4359c5726",
+  "text": "…あ、おいしい！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "251a81f0d392dec9",
+  "text": "アーバオくんは？",
+  "voice": "Achird",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "b83690b97b9b781a",
+  "text": "ごちそうさまでした！",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "e887a7ce6a7b3f0f",
+  "text": "ごちそうさまでした！",
+  "voice": "Pulcherrima",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "cd73c358c2d3af3d",
+  "text": "みんな、ぜんぶ食べましたね。えらいね。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "2b95ee67c8d82efd",
+  "text": "中村さん、ありがとうございました。とてもおいしかったです。",
+  "voice": "Laomedeia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "ef1b6173952bf8ba",
+  "text": "どういたしまして。また食べましょうね。",
+  "voice": "Vindemiatrix",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "ff9c84bdd4c5a947",
+  "text": "わたしは、いちごが好きです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "69ddc9d987f58f12",
+  "text": "ぼくは、にんじんがきらいです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "6e90b3c88d966d38",
+  "text": "手を洗いましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "fdaa062dbaa35f3d",
+  "text": "みんなで写真をとりましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:みんな": {
+  "file": "v-fd2bd9958b06.mp3",
+  "hash": "13af662ed053b529",
+  "text": "みんな",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:食べる": {
+  "file": "v-ece110969c48.mp3",
+  "hash": "036595e176fc482c",
+  "text": "たべる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:唐揚げ": {
+  "file": "v-1caf3f9b3c92.mp3",
+  "hash": "6673bd71d755f1c6",
+  "text": "からあげ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:大好き": {
+  "file": "v-0932746d8430.mp3",
+  "hash": "166094b9d8cb4d64",
+  "text": "だいすき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:好き": {
+  "file": "v-a7695ce83f35.mp3",
+  "hash": "e85caf9f7967cc47",
+  "text": "すき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:卵焼き": {
+  "file": "v-b73ef765e9a2.mp3",
+  "hash": "16f0f8b372cd5c33",
+  "text": "たまごやき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:ピーマン": {
+  "file": "v-cf0a836d8c73.mp3",
+  "hash": "d50d59c03342b34e",
+  "text": "ピーマン",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:嫌い": {
+  "file": "v-c42eff5ccb9e.mp3",
+  "hash": "336976b7f8fab972",
+  "text": "きらい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:一口": {
+  "file": "v-8423ec1fce35.mp3",
+  "hash": "7a187a23adbafb2d",
+  "text": "ひとくち",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:おいしい": {
+  "file": "v-6302cc701e43.mp3",
+  "hash": "d5628b630fe30b6a",
+  "text": "おいしい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:全部": {
+  "file": "v-a5ffb5044c74.mp3",
+  "hash": "6c93a0f6aa7d63b4",
+  "text": "ぜんぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:えらい": {
+  "file": "v-212f85b2b3f6.mp3",
+  "hash": "f7300622e7610911",
+  "text": "えらい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ }
+}

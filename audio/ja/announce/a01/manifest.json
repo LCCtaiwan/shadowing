@@ -5,5 +5,292 @@
   "text": "駅でアナウンスを聞いています。快速に乗りたい人は、何番線へ行きますか。",
   "voice": "Schedar",
   "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-01-question": {
+  "file": "a01-01-question.mp3",
+  "hash": "6b356434fe4da016",
+  "text": "快速に乗りたい人は、何番線へ行きますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "a01-01-s3": {
+  "file": "a01-01-s3.mp3",
+  "hash": "80192f7cfe2228a0",
+  "text": "なお、快速、東京ゆきは、向かい側の五番線から発車いたします。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "a01-02-setup": {
+  "file": "a01-02-setup.mp3",
+  "hash": "b536e35e44060ee5",
+  "text": "駅でアナウンスを聞いています。みなみ台へ行く最終電車は、何時に出ますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "a01-02-question": {
+  "file": "a01-02-question.mp3",
+  "hash": "61a51c1404f811b2",
+  "text": "みなみ台へ行く最終電車は、何時に出ますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-02-s1": {
+  "file": "a01-02-s1.mp3",
+  "hash": "a487cc96bf286b9b",
+  "text": "二番線に停車中の電車は、にじゅうさんじにじゅっぷん発、各駅停車、みなみ台ゆきです。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-01-s1": {
+  "file": "a01-01-s1.mp3",
+  "hash": "901057fe03c350db",
+  "text": "まもなく、三番線に、各駅停車、東京ゆきがまいります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-02-s2": {
+  "file": "a01-02-s2.mp3",
+  "hash": "0750d75d4e60e10c",
+  "text": "みなみ台方面は、このあとにじゅうさんじごじゅっぷん発の電車が、最終電車となります。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-02-s3": {
+  "file": "a01-02-s3.mp3",
+  "hash": "ae7d9e0bddeb9a41",
+  "text": "最終電車は、一番線から発車いたします。お乗り遅れのないよう、ご注意ください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-03-setup": {
+  "file": "a01-03-setup.mp3",
+  "hash": "eedafc17ecd3e3ab",
+  "text": "駅でアナウンスを聞いています。この家族は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-03-question": {
+  "file": "a01-03-question.mp3",
+  "hash": "771d55c4cb08aad9",
+  "text": "この家族は、これからどうしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-03-s1": {
+  "file": "a01-03-s1.mp3",
+  "hash": "7938ffabae564deb",
+  "text": "一番線、ドアが閉まります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-03-s2": {
+  "file": "a01-03-s2.mp3",
+  "hash": "9d598a1afcd46195",
+  "text": "駆け込み乗車は危ないですから、おやめください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-01-s2": {
+  "file": "a01-01-s2.mp3",
+  "hash": "cc20d394480b5f37",
+  "text": "危ないですから、黄色い線の内側までお下がりください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-03-s3": {
+  "file": "a01-03-s3.mp3",
+  "hash": "2e772020833c4bac",
+  "text": "次の電車は、さんぷんごに、同じ一番線にまいります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-04-question": {
+  "file": "a01-04-question.mp3",
+  "hash": "0331ab2f54f05ea1",
+  "text": "東京方面の電車は、今どうなっていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-04-s1": {
+  "file": "a01-04-s1.mp3",
+  "hash": "8b57829e40536e7f",
+  "text": "お客様にお知らせいたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-04-s2": {
+  "file": "a01-04-s2.mp3",
+  "hash": "018ed9dbbca7ceed",
+  "text": "ただいま、信号の点検のため、東京方面の電車に、十五分ほどの遅れが出ております。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-04-s3": {
+  "file": "a01-04-s3.mp3",
+  "hash": "ddcf163a9bd35de4",
+  "text": "横浜方面の電車は、時刻どおり運転しております。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-05-setup": {
+  "file": "a01-05-setup.mp3",
+  "hash": "c4feb37c6f0ace6e",
+  "text": "駅でアナウンスを聞いています。地下鉄に乗り換えたい人は、どの改札を使いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-05-question": {
+  "file": "a01-05-question.mp3",
+  "hash": "8641cb11676cf7e9",
+  "text": "地下鉄に乗り換えたい人は、どの改札を使いますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-05-s1": {
+  "file": "a01-05-s1.mp3",
+  "hash": "26148babce035f86",
+  "text": "本日も、ご利用ありがとうございます。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-04-setup": {
+  "file": "a01-04-setup.mp3",
+  "hash": "d212b8d637b41af4",
+  "text": "駅でアナウンスを聞いています。東京方面の電車は、今どうなっていますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-05-s2": {
+  "file": "a01-05-s2.mp3",
+  "hash": "4aa1c7910dad7136",
+  "text": "地下鉄にお乗り換えのお客様は、南口の改札をご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-05-s3": {
+  "file": "a01-05-s3.mp3",
+  "hash": "7a73c9715bb0560d",
+  "text": "北口の改札からは、地下鉄へは行けませんので、ご注意ください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-05-s4": {
+  "file": "a01-05-s4.mp3",
+  "hash": "6ee0af84a649a2a1",
+  "text": "エレベーターは、ホームの前のほうにございます。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-06-setup": {
+  "file": "a01-06-setup.mp3",
+  "hash": "a0a4df407f7ac964",
+  "text": "駅でアナウンスを聞いています。このアナウンスで、いちばん伝えたいことは何ですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-06-question": {
+  "file": "a01-06-question.mp3",
+  "hash": "35f7047d0cc4bcfc",
+  "text": "このアナウンスで、いちばん伝えたいことは何ですか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-06-s1": {
+  "file": "a01-06-s1.mp3",
+  "hash": "69b47d4de8a1edeb",
+  "text": "お客様にお願いいたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-06-s2": {
+  "file": "a01-06-s2.mp3",
+  "hash": "a2e4e474e5c33d01",
+  "text": "朝の時間は、ホームも電車も大変混雑いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-06-s3": {
+  "file": "a01-06-s3.mp3",
+  "hash": "05a899c5f6a1ba10",
+  "text": "大きなお荷物をお持ちのお客様や、ベビーカーをご利用のお客様は、できれば十時を過ぎてから、ご利用ください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-07-setup": {
+  "file": "a01-07-setup.mp3",
+  "hash": "c5791cedb66083eb",
+  "text": "駅でアナウンスを聞いています。大川へ行きたい人は、どの電車に乗りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-07-question": {
+  "file": "a01-07-question.mp3",
+  "hash": "ff3b4a57a7af4d9d",
+  "text": "大川へ行きたい人は、どの電車に乗りますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-07-s1": {
+  "file": "a01-07-s1.mp3",
+  "hash": "59cec1fe188cb2cc",
+  "text": "まもなく、四番線に、急行、みなと台ゆきがまいります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-07-s2": {
+  "file": "a01-07-s2.mp3",
+  "hash": "82b5b49590efd3d8",
+  "text": "この電車は、大川には止まりません。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-07-s3": {
+  "file": "a01-07-s3.mp3",
+  "hash": "da810d0733b1bba3",
+  "text": "大川へいらっしゃるお客様は、あとから来る各駅停車をご利用ください。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-07-s4": {
+  "file": "a01-07-s4.mp3",
+  "hash": "ff66581faf481905",
+  "text": "各駅停車は、同じ四番線に、十時四十五分にまいります。",
+  "voice": "Kore",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-08-setup": {
+  "file": "a01-08-setup.mp3",
+  "hash": "0f5a8c0193f22b22",
+  "text": "駅でアナウンスを聞いています。子どもと二番線のホームにいます。まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-08-question": {
+  "file": "a01-08-question.mp3",
+  "hash": "872039697357166d",
+  "text": "子どもと二番線のホームにいます。まずなにをしますか。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-08-s1": {
+  "file": "a01-08-s1.mp3",
+  "hash": "9d6b550862531f88",
+  "text": "まもなく、二番線を電車が通過いたします。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-08-s2": {
+  "file": "a01-08-s2.mp3",
+  "hash": "1b4d62e4cca59154",
+  "text": "危ないですから、黄色い線の内側までお下がりください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "a01-08-s3": {
+  "file": "a01-08-s3.mp3",
+  "hash": "baad40839eda9ef8",
+  "text": "小さなお子様とご一緒のお客様は、お子様と手をつないでください。",
+  "voice": "Alnilam",
+  "model": "gemini-3.8-flash-lite-tts"
  }
 }

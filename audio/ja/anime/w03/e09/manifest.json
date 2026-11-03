@@ -82,5 +82,264 @@
   "text": "残り五秒！陽太選手の前に、二人います！",
   "voice": "Achernar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "fe216359356236b1",
+  "text": "くっ…シュートは無理だ…！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "5d879c45d04ed5f6",
+  "text": "ボールが…飛んでいきます！スリーポイントシュート…！",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "1ce5d3ec724b6366",
+  "text": "ビーーッ！…入りましたぁ！六十一たい六十、逆転ですぅ！",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "6a2f4e78f932d5ed",
+  "text": "やった…！あんたたち、最高のチームよ！",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "373f832f49975638",
+  "text": "カットですぅ。…あれぇ？ドアの外に、だれかいますよぉ。",
+  "voice": "Achernar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "ce726f5314a94392",
+  "text": "あ、あの…すみません。一年の悠斗です。ひなさんと同じクラスです。",
+  "voice": "Sadachbia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "cfa76ed8a6295a30",
+  "text": "先輩！こっちです！わたし、空いています！",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "bd47cfaa82db785c",
+  "text": "お前を信じるぜ！いけえっ！最後のパスだ！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "099efceef23e01a8",
+  "text": "廊下で聞きながら、ずっとドキドキしていました。ぼくも、ラジオ部に入りたいです！",
+  "voice": "Sadachbia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "048a03dfec6aa4bd",
+  "text": "五人目だ！やったぜ、部長！",
+  "voice": "Fenrir",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "3cc965374db0cd2f",
+  "text": "べ、別に、泣いてないわよ！…ようこそ、ラジオ部へ。",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "7841a622edd6d64b",
+  "text": "…ほら、入部届だ。ここに名前を書け。生徒会には、俺が出しておく。",
+  "voice": "Umbriel",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "2c7f9c08ee8112ea",
+  "text": "えっ…生徒会長の、弟さん…！？",
+  "voice": "Leda",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "43697610794b54dd",
+  "text": "あしたは、六時に起きなければなりません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "db33d879ef6d2fc4",
+  "text": "図書館の本は、来週までに返さなければならない。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "b65adbc082e7f509",
+  "text": "音楽を聞きながら、宿題をします。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "a23bbfb0a2c65416",
+  "text": "歩きながら、スマホを見ないでください。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "5429ac2746c09675",
+  "text": "はい！あ、でも…実は、ぼくの姉は、生徒会長なんです。",
+  "voice": "Sadachbia",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:生徒会": {
+  "file": "v-7b3cdb3a33b3.mp3",
+  "hash": "e9dfb2bb0817fe61",
+  "text": "せいとかい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:文化祭": {
+  "file": "v-0591bfbd8a41.mp3",
+  "hash": "20cb2fbdcdf7bc0b",
+  "text": "ぶんかさい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:部員": {
+  "file": "v-1dc27bcd872d.mp3",
+  "hash": "b71cddef3c11680f",
+  "text": "ぶいん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:試合": {
+  "file": "v-0346b9075646.mp3",
+  "hash": "e3d9652cf350512d",
+  "text": "しあい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:実況": {
+  "file": "v-ca45724fb754.mp3",
+  "hash": "efc035d985da7e2d",
+  "text": "じっきょう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:残り": {
+  "file": "v-591825f00b1e.mp3",
+  "hash": "35725d008bcb9904",
+  "text": "のこり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:選手": {
+  "file": "v-9b169756ded7.mp3",
+  "hash": "277c4c2e795b58b8",
+  "text": "せんしゅ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:あきらめる": {
+  "file": "v-b5295ad607d4.mp3",
+  "hash": "0abe14fcf77ebb4b",
+  "text": "あきらめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:重い": {
+  "file": "v-e63dfa248e48.mp3",
+  "hash": "a5848f6f92530272",
+  "text": "おもい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:仲間": {
+  "file": "v-093a82d8a33b.mp3",
+  "hash": "6398277218dd745c",
+  "text": "なかま",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:空く": {
+  "file": "v-ea9e4a0e761b.mp3",
+  "hash": "906282db94d4674e",
+  "text": "あく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:信じる": {
+  "file": "v-2cb319274660.mp3",
+  "hash": "3c4c5e557475620f",
+  "text": "しんじる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:飛ぶ": {
+  "file": "v-38c5da8d81fb.mp3",
+  "hash": "8bb9090f42d92220",
+  "text": "とぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:逆転": {
+  "file": "v-5a7757b20b66.mp3",
+  "hash": "e0dcccc649ed8840",
+  "text": "ぎゃくてん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:最高": {
+  "file": "v-13456068abb2.mp3",
+  "hash": "c062982c63343516",
+  "text": "さいこう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:廊下": {
+  "file": "v-834e4f9b4776.mp3",
+  "hash": "99ea1e449184011b",
+  "text": "ろうか",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:泣く": {
+  "file": "v-ef8eae293c21.mp3",
+  "hash": "035532f6412681d1",
+  "text": "なく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:入部届": {
+  "file": "v-fb09d1e13a56.mp3",
+  "hash": "381d4d1355c13443",
+  "text": "にゅうぶとどけ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:姉": {
+  "file": "v-57b8e60f8daa.mp3",
+  "hash": "80cf169f73671dcc",
+  "text": "あね",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

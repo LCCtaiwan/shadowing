@@ -341,5 +341,26 @@
   "text": "しらべる",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "ja:vocab:職員室": {
+  "file": "v-2fe6d31fbb37.mp3",
+  "hash": "319b8c9268a5a2d8",
+  "text": "しょくいんしつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:誕生日": {
+  "file": "v-f8a2eebe4f9a.mp3",
+  "hash": "0b1969f91595717d",
+  "text": "たんじょうび",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:消える": {
+  "file": "v-b51da5fcc280.mp3",
+  "hash": "917f1f4575bf36bc",
+  "text": "きえる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

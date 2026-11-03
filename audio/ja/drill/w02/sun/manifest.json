@@ -397,5 +397,40 @@
   "text": "ええ、五分ぐらいで着きますよ。",
   "voice": "Rasalgethi",
   "model": "gemini-2.5-pro-preview-tts"
+ },
+ "w02sun-11-o3": {
+  "file": "w02sun-11-o3.mp3",
+  "hash": "bcc3b99a969c3d75",
+  "text": "いいえ、駅で待っています。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02sun-12-s1": {
+  "file": "w02sun-12-s1.mp3",
+  "hash": "53833f65767741b7",
+  "text": "ちょっと、マイクに触っちゃだめって言ったでしょ！",
+  "voice": "Despina",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02sun-12-o1": {
+  "file": "w02sun-12-o1.mp3",
+  "hash": "de386e20c52f557b",
+  "text": "す、すみません！もう触りません。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02sun-12-o2": {
+  "file": "w02sun-12-o2.mp3",
+  "hash": "ad3a9d5130b18607",
+  "text": "はい、触ってもいいですよ。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "w02sun-12-o3": {
+  "file": "w02sun-12-o3.mp3",
+  "hash": "424872954e8d9bb5",
+  "text": "えっ、触ってくれたんですか。",
+  "voice": "Rasalgethi",
+  "model": "gemini-3.8-flash-tts"
  }
 }
