@@ -1,0 +1,219 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "b90b74ecf20c8c48",
+  "text": "浦島はりゅう宮で乙姫さまにもてなされ、四季のけしきを見て、なにもかもわすれてしまいました。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "5161fe939729f53b",
+  "text": "「おとうさんや、おかあさんは、いまごろどうしておいでになるだろう」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "321a9ef82983fa60",
+  "text": "毎日おもしろい、めずらしいことが、それからそれとつづいて、あまりりゅう宮がたのしいので、なんということもおもわずに、うかうかあそんでくらすうち、三年の月日がたちました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "5487c813d9d8a626",
+  "text": "三年めの春になったとき、浦島はときどき、ひさしくわすれていたふるさとの夢を見るようになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "93e4eeb9b4ab5235",
+  "text": "春の日のぽかぽかあたっている水の江の浜べで、りょうしたちがげんきよく舟うたをうたいながら、網をひいたり舟をこいだりしているところを、まざまざと夢に見るようになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "d9ba24bce6fb0ce7",
+  "text": "浦島はいまさらのように、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "11d0c15edea35554",
+  "text": "「浦島さん、ご気分でもおわるいのですか」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "a495be38d0ff459c",
+  "text": "と、こうおもい出すと、もう、いても立ってもいられなくなるような気がしました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "681ac23543733714",
+  "text": "なんでも早くうちへ帰りたいとばかりおもうようになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "19ee1d2e8a6afbce",
+  "text": "「いいえ、そうではありません。じつはうちへ帰りたくなったものですから」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "4737866899b13520",
+  "text": "ですから、もうこのごろでは、歌をきいても、踊りを見ても、おもしろくない顔をして、ふさぎこんでばかりいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "d8ab6dd1762026b1",
+  "text": "その様子を見ると、乙姫さまは心配して、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "529a15b8c042c26d",
+  "text": "こうかなしそうにいって、乙姫さまは、奥からきれいな宝石でかざったはこを持っておいでになって、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "6c72d37606ac4e89",
+  "text": "といいますと、乙姫さまはきゅうに、たいそうがっかりした様子をなさいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "37939213c53a1cfe",
+  "text": "「これはたまてばこといって、なかには、人間のいちばんだいじなたからがこめてございます。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "7108075331d893d0",
+  "text": "これをおわかれのしるしにさし上げますから、お持ちかえりくださいまし。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "3dd7ea071aaeb93b",
+  "text": "ですが、あなたがもういちどりゅう宮へ帰ってきたいとおぼしめすなら、どんなことがあっても、けっしてこのはこをあけてごらんになってはいけません」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "6d698de98cfcbe82",
+  "text": "と、くれぐれもねんをおして、たまてばこをおわたしになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-15": {
+  "file": "s2-15.mp3",
+  "hash": "2d02d325c11dd2fd",
+  "text": "浦島は、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-16": {
+  "file": "s2-16.mp3",
+  "hash": "279ac349f5277d5a",
+  "text": "「ええ、ええ、けっしてあけません」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "f1998b10e4b1621d",
+  "text": "とおききになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "ce85486e4582a78a",
+  "text": "浦島はもじもじしながら、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "5f3cd67a51ca086e",
+  "text": "「では浦島さん、ごきげんよろしゅう」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-17": {
+  "file": "s2-17.mp3",
+  "hash": "94850ba35efc7a6b",
+  "text": "といって、たまてばこをこわきにかかえたまま、りゅう宮の門を出ますと、乙姫さまは、またおおぜいの腰元をつれて、門のそとまでお見送りになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "2ef7bd3cb4f700f4",
+  "text": "もうそこには、れいのかめがきて待っていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "0e2e7857ca19ba1f",
+  "text": "浦島はうれしいのとかなしいのとで、胸がいっぱいになっていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "77e93cb7585a639b",
+  "text": "そしてかめの背中にのりますと、かめはすぐ波を切って上がって行って、まもなくもとの浜べにつきました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "89d4c5079d16e7b8",
+  "text": "道がこんでいたものですから、おくれてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "918c756a2441f915",
+  "text": "「まあ、それはざんねんでございますこと。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "37e198d451d64bc0",
+  "text": "でもあなたのお顔をはいけんいたしますと、この上おひきとめ申しても、むだのようにおもわれます。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "5ddc57ac707d0576",
+  "text": "ではいたし方ございません、行っていらっしゃいまし」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-flash-preview-tts"
+ }
+}

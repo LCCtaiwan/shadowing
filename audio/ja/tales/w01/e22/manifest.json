@@ -1,0 +1,359 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "109a6d5f92e343cc",
+  "text": "浦島太郎は、子どもたちにいじめられていたかめの子を助けて、海へにがしてやりました。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "fbf18576995def07",
+  "text": "「浦島さん、浦島さん」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "8d1648bdc7008001",
+  "text": "とよぶ声がしました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "bca6829aa1064872",
+  "text": "おやとおもってふりかえってみますと、だれも人のかげは見えません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "118c79c851a66de4",
+  "text": "その代り、いつのまにか、いっぴきのかめが、舟のそばにきていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "f87576ae7d3ca57a",
+  "text": "浦島がふしぎそうな顔をしていると、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "6d09b671e0a3ae30",
+  "text": "「わたくしは、先日助けていただいたかめでございます。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "99fcc685f65c350a",
+  "text": "きょうはちょっとそのお礼にまいりました」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "1189711f0780ff94",
+  "text": "かめがこういったので、浦島はびっくりしました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "92f1fcc316a598a4",
+  "text": "「まあ、そうかい。わざわざ礼なんぞいいにくるにはおよばないのに」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "d2ab196528981998",
+  "text": "「でも、ほんとうにありがとうございました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "040c4441603983fc",
+  "text": "ときに、浦島さん、あなたはりゅう宮をごらんになったことがありますか」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "35318bdb5c497fea",
+  "text": "「いや、話にはきいているが、まだ見たことはないよ」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "d051ade0605f7067",
+  "text": "それから二、三日たって、浦島はまた舟にのって海へつりに出かけました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "2c9f2ebe66118430",
+  "text": "遠い沖のほうまでもこぎ出して、一生けんめいおさかなをつっていますと、ふとうしろのほうで",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "fbd81d8c39e97338",
+  "text": "「ではほんのお礼のしるしに、わたくしがりゅう宮を見せて上げたいとおもいますがいかがでしょう」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "7749b482e1d90643",
+  "text": "ぜひ行ってみたいが、それはなんでも海の底にあるということではないか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "e359038d36237db0",
+  "text": "どうして行くつもりだね。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "786f9ac50abf6902",
+  "text": "わたしにはとてもそこまでおよいでは行けないよ」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "ad077010e06a259d",
+  "text": "「なに、わけはございません。わたくしの背中におのりください」",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "f31de8ec6ca8754d",
+  "text": "「さあ、りゅう宮へまいりました」",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "eea46ab92663af7b",
+  "text": "かめはこういって、浦島を背中からおろして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "4be5e7c60b88d142",
+  "text": "「しばらくお待ちください」",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "e21e8f004fe32b25",
+  "text": "かめはこういって、背中を出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "f51547478629f962",
+  "text": "浦島は半分きみわるくおもいながら、いわれるままに、かめの背中にのりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "6f73c1ba636efd29",
+  "text": "かめはすぐに白い波を切って、ずんずんおよいで行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "fc28b4f77f495a8b",
+  "text": "ざあざあいう波の音がだんだん遠くなって、青い青い水の底へ、ただもう夢のようにはこばれて行きますと、",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "8dadd434c4b73e18",
+  "text": "ふと、そこらがかっとあかるくなって、しらたまのようにきれいな砂の道がつづいて、むこうにりっぱな門が見えました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "bf80d02b01727573",
+  "text": "その奥にきらきら光って、目のくらむような金銀のいらかが、たかくそびえていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "c1fc5eb342920227",
+  "text": "といったまま、門のなかへはいって行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "d40942268eb02704",
+  "text": "わざわざ来るにはおよびません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "913336714b3dee19",
+  "text": "「へえ、それはおもしろいね。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "10dd1e74fc20ea27",
+  "text": "心配するにはおよばない。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "db70680830eba7ed",
+  "text": "先生に教えていただきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "7393de1a124f2c39",
+  "text": "近所のかたに荷物を預かっていただきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:沖": {
+  "file": "v-2a0ce7b3a7d2.mp3",
+  "hash": "2ec0f4f8d359573c",
+  "text": "おき",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:漕ぎ出す": {
+  "file": "v-947fef96a965.mp3",
+  "hash": "e4f2dd35735f3f89",
+  "text": "こぎだす",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:一生懸命": {
+  "file": "v-1e1d6970b894.mp3",
+  "hash": "507623ff3753056f",
+  "text": "いっしょうけんめい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:振り返る": {
+  "file": "v-a540b4f4f38a.mp3",
+  "hash": "f40f16c304ec2457",
+  "text": "ふりかえる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:先日": {
+  "file": "v-7ff4f5f4838e.mp3",
+  "hash": "79efdb8afe46c64a",
+  "text": "せんじつ",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:助ける": {
+  "file": "v-91b2756abe89.mp3",
+  "hash": "55b06ef7b6db42f2",
+  "text": "たすける",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:お礼": {
+  "file": "v-5667d2d58c9a.mp3",
+  "hash": "a435bdc6cad3f2ad",
+  "text": "おれい",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:参る": {
+  "file": "v-d0818656c0ef.mp3",
+  "hash": "fc6bba0b160e7d2c",
+  "text": "まいる",
+  "voice": "Schedar",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "ja:vocab:ご覧になる": {
+  "file": "v-c9a5d63cf473.mp3",
+  "hash": "1854704782c9e6b2",
+  "text": "ごらんになる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:底": {
+  "file": "v-0429c539acfc.mp3",
+  "hash": "3c02f3bd1c4267ae",
+  "text": "そこ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:背中": {
+  "file": "v-83f1880492aa.mp3",
+  "hash": "2bee3aaae8bbe9ea",
+  "text": "せなか",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:気味悪い": {
+  "file": "v-cd68f99cbc51.mp3",
+  "hash": "08b50c515ab55f06",
+  "text": "きみわるい",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:波": {
+  "file": "v-3e847d50a29b.mp3",
+  "hash": "b2f4f306e763ac29",
+  "text": "なみ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:門": {
+  "file": "v-d60b6252b0d0.mp3",
+  "hash": "cff2d00e8b8a4422",
+  "text": "もん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:甍": {
+  "file": "v-f178d79dc328.mp3",
+  "hash": "37a2b4ce6430a2e7",
+  "text": "いらか",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:そびえる": {
+  "file": "v-b0f690b3d427.mp3",
+  "hash": "5981da3e230183d7",
+  "text": "そびえる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}

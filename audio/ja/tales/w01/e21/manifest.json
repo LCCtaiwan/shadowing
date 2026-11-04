@@ -1,0 +1,310 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "829a56537a76eb37",
+  "text": "むかし、むかし、丹後の国水の江の浦に、浦島太郎というりょうしがありました。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "6d9229b3542403fb",
+  "text": "むかし、むかし、丹後の国水の江の浦に、浦島太郎というりょうしがありました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "bbc25c75daa3b280",
+  "text": "浦島太郎は、毎日つりざおをかついでは海へ出かけて、たいや、かつおなどのおさかなをつって、おとうさんおかあさんをやしなっていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "87c9c371e7bcc5b7",
+  "text": "ある日、浦島はいつものとおりうみへ出て、一日おさかなをつって、帰ってきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "5e9d8eeac003c078",
+  "text": "途中、子どもが五、六人往来にあつまって、がやがやいっていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "d3de02f8a273a8be",
+  "text": "なにかとおもって浦島がのぞいてみると、小さいかめの子をいっぴきつかまえて、棒でつついたり、石でたたいたり、さんざんにいじめているのです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "085b8fea1feb392b",
+  "text": "浦島は見かねて、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "8530e95e06aed92c",
+  "text": "「まあ、そんなかわいそうなことをするものではない。いい子だから」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "f5484281afe42ffb",
+  "text": "と、とめましたが、子どもたちはきき入れようともしないで、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "fc629db5fb5c8f8f",
+  "text": "「なんだい。なんだい、かまうもんかい」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "77645940a52203cf",
+  "text": "といいながら、またかめの子を、あおむけにひっくりかえして、足でけったり、砂のなかにうずめたりしました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "b693667f984a519a",
+  "text": "浦島はますますかわいそうにおもって、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "00b10141c4014f46",
+  "text": "「じゃあ、おじさんがおあしをあげるから、そのかめの子を売っておくれ」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "53103dfd7b1b6960",
+  "text": "といいますと、こどもたちは、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "789197a7dcb7af66",
+  "text": "「うんうん、おあしをくれるならやってもいい」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "cb235aa8e13f244c",
+  "text": "といって、手を出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "23947f2441a02012",
+  "text": "そこで浦島はおあしをやってかめの子をもらいうけました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "986c6a85290460b0",
+  "text": "子どもたちは、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "c523151c17a9051c",
+  "text": "「おじさん、ありがとう。また買っておくれよ」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "d431e8c9adae3b72",
+  "text": "と、わいわいいいながら、行ってしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "b7de9355aec466f9",
+  "text": "そのあとで浦島は、こうらからそっと出したかめの首をやさしくなでてやって、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "b8b62b0d65c71c22",
+  "text": "「やれやれ、あぶないところだった。さあもうお帰りお帰り」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "a9e4e152fd30a06e",
+  "text": "といって、わざわざ、かめを海ばたまで持って行ってはなしてやりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "d0732e19f2a0e0b0",
+  "text": "かめはさもうれしそうに、首や手足をうごかして、やがて、ぶくぶくあわをたてながら、水のなかにふかくしずんで行ってしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "57a51dddf80cb2e9",
+  "text": "人のわるくちを言うものではない。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "f15c85f1d86e25fb",
+  "text": "食べ物を残すものではありません。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "37361c8c53c5a1ca",
+  "text": "早く帰ってきておくれ。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "457ff4ec55c6d08e",
+  "text": "その本を見せておくれ。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:漁師": {
+  "file": "v-17334883c981.mp3",
+  "hash": "b720e66923509e4d",
+  "text": "りょうし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:担ぐ": {
+  "file": "v-50edc2dd80e7.mp3",
+  "hash": "d47eef4f6d5b376a",
+  "text": "かつぐ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:養う": {
+  "file": "v-d1207bd771b7.mp3",
+  "hash": "42cc0e2d84d9f874",
+  "text": "やしなう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:往来": {
+  "file": "v-135012891ddb.mp3",
+  "hash": "e2a902fae8189fbb",
+  "text": "おうらい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:いじめる": {
+  "file": "v-e936513735c0.mp3",
+  "hash": "bba6a9127be88a09",
+  "text": "いじめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:見かねる": {
+  "file": "v-0a5da30f2480.mp3",
+  "hash": "fda9ec4cd3e897fd",
+  "text": "みかねる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:かわいそう": {
+  "file": "v-5fb4926935df.mp3",
+  "hash": "b86c031b14dc133e",
+  "text": "かわいそう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:聞き入れる": {
+  "file": "v-d1d7b7aa1c82.mp3",
+  "hash": "8d70e7628060de64",
+  "text": "ききいれる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:ひっくりかえす": {
+  "file": "v-f85f13d7cbc5.mp3",
+  "hash": "cb35c97f15a36ec8",
+  "text": "ひっくりかえす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:埋める": {
+  "file": "v-579757424946.mp3",
+  "hash": "4c6c4ad291f1b041",
+  "text": "うずめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:お足": {
+  "file": "v-211031e170d1.mp3",
+  "hash": "8c0c342d5ebcec65",
+  "text": "おあし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:もらい受ける": {
+  "file": "v-03a2119ba754.mp3",
+  "hash": "47dc6a555a308e10",
+  "text": "もらいうける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:甲羅": {
+  "file": "v-3258c5be9ed5.mp3",
+  "hash": "2cf808ad6d9f38d5",
+  "text": "こうら",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:なでる": {
+  "file": "v-44684d5a9d06.mp3",
+  "hash": "3916b53e8712ce9f",
+  "text": "なでる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:わざわざ": {
+  "file": "v-c6acbf225569.mp3",
+  "hash": "9f7a68dd525a3e92",
+  "text": "わざわざ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:沈む": {
+  "file": "v-e2f0b666be82.mp3",
+  "hash": "b1dbc124417077fe",
+  "text": "しずむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

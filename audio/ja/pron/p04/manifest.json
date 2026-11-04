@@ -1,0 +1,282 @@
+{
+ "p04-01-a": {
+  "file": "p04-01-a.mp3",
+  "hash": "59cc78bf5e742b4b",
+  "text": "てんき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-01-b": {
+  "file": "p04-01-b.mp3",
+  "hash": "7baba540c09fa92e",
+  "text": "でんき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-02-a": {
+  "file": "p04-02-a.mp3",
+  "hash": "787fd1b22b04bae6",
+  "text": "たいがく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-02-b": {
+  "file": "p04-02-b.mp3",
+  "hash": "3918f28cbd61d34d",
+  "text": "だいがく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-03-a": {
+  "file": "p04-03-a.mp3",
+  "hash": "fc02051f02fcfbd1",
+  "text": "かっこう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-03-b": {
+  "file": "p04-03-b.mp3",
+  "hash": "2b87be2e578ae840",
+  "text": "がっこう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-04-a": {
+  "file": "p04-04-a.mp3",
+  "hash": "326cb1dd4815da37",
+  "text": "きん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-04-b": {
+  "file": "p04-04-b.mp3",
+  "hash": "6eaafb6f7c6ed99f",
+  "text": "ぎん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-05-a": {
+  "file": "p04-05-a.mp3",
+  "hash": "3cb3a1bf7392f86c",
+  "text": "ため",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-05-b": {
+  "file": "p04-05-b.mp3",
+  "hash": "74dbd49d418cf330",
+  "text": "だめ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-06-a": {
+  "file": "p04-06-a.mp3",
+  "hash": "29d03be4f0f06550",
+  "text": "てんし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-06-b": {
+  "file": "p04-06-b.mp3",
+  "hash": "eeb75ceb37d5d6fb",
+  "text": "でんし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-07-a": {
+  "file": "p04-07-a.mp3",
+  "hash": "74ab60affc9f24c9",
+  "text": "しかい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-07-b": {
+  "file": "p04-07-b.mp3",
+  "hash": "c2ce43eb3cd1c923",
+  "text": "じかい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-08-a": {
+  "file": "p04-08-a.mp3",
+  "hash": "172403815e43fa91",
+  "text": "さる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-08-b": {
+  "file": "p04-08-b.mp3",
+  "hash": "9c156c96887479b6",
+  "text": "ざる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-09-a": {
+  "file": "p04-09-a.mp3",
+  "hash": "9aa2dda009cc2753",
+  "text": "かき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-09-b": {
+  "file": "p04-09-b.mp3",
+  "hash": "c2cbfe53503670a7",
+  "text": "かぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-10-a": {
+  "file": "p04-10-a.mp3",
+  "hash": "52bda92e7083f7c6",
+  "text": "まと",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-10-b": {
+  "file": "p04-10-b.mp3",
+  "hash": "730e67cdb3b5fe56",
+  "text": "まど",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-11-a": {
+  "file": "p04-11-a.mp3",
+  "hash": "b8132ad76b449647",
+  "text": "はた",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-11-b": {
+  "file": "p04-11-b.mp3",
+  "hash": "c216c6151875ef68",
+  "text": "はだ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-12-a": {
+  "file": "p04-12-a.mp3",
+  "hash": "bc446859d6b13568",
+  "text": "つき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-12-b": {
+  "file": "p04-12-b.mp3",
+  "hash": "20d66b5356474612",
+  "text": "つぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-13-a": {
+  "file": "p04-13-a.mp3",
+  "hash": "0b587241f6f439e1",
+  "text": "ふく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-13-b": {
+  "file": "p04-13-b.mp3",
+  "hash": "392ac1bdd7c12c0d",
+  "text": "ふぐ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-14-a": {
+  "file": "p04-14-a.mp3",
+  "hash": "099bbbc27830f0e1",
+  "text": "パン",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-14-b": {
+  "file": "p04-14-b.mp3",
+  "hash": "29d2670c4e2c0c21",
+  "text": "ばん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-15-a": {
+  "file": "p04-15-a.mp3",
+  "hash": "b085195d4b4e53f5",
+  "text": "パス",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-15-b": {
+  "file": "p04-15-b.mp3",
+  "hash": "974d81529e65fce8",
+  "text": "バス",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-16-a": {
+  "file": "p04-16-a.mp3",
+  "hash": "dacd2d68827a7c66",
+  "text": "ヒント",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-16-b": {
+  "file": "p04-16-b.mp3",
+  "hash": "08a081bffe5b660a",
+  "text": "ピント",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-17-a": {
+  "file": "p04-17-a.mp3",
+  "hash": "94f3e02f99c1f9eb",
+  "text": "ピン",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-17-b": {
+  "file": "p04-17-b.mp3",
+  "hash": "6efc69686751bd5b",
+  "text": "びん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-18-a": {
+  "file": "p04-18-a.mp3",
+  "hash": "5c8174ac6a274480",
+  "text": "めし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-18-b": {
+  "file": "p04-18-b.mp3",
+  "hash": "7e7a993ab547f146",
+  "text": "めいし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-19-a": {
+  "file": "p04-19-a.mp3",
+  "hash": "7c4ce6ea8bd55d73",
+  "text": "ひと",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-19-b": {
+  "file": "p04-19-b.mp3",
+  "hash": "fbca979017db527f",
+  "text": "ヒット",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-20-a": {
+  "file": "p04-20-a.mp3",
+  "hash": "84cc9b0768d2afb5",
+  "text": "はい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p04-20-b": {
+  "file": "p04-20-b.mp3",
+  "hash": "552daebaecd52192",
+  "text": "はんい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ }
+}

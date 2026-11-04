@@ -1,0 +1,394 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "655e80d3190b616c",
+  "text": "十五になった桃太郎は、鬼せいばつに出かけました。おばあさんが作ったきびだんごを持っています。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "bd3c827db56b845b",
+  "text": "桃太郎はずんずん行きますと、大きな山の上に来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "3a0fc862553a5a2e",
+  "text": "すると、草むらの中から、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "e367b8a3ac7baa9c",
+  "text": "「ワン、ワン。」と声をかけながら、犬がいっぴきかけて来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "1b738cfd2cc938c3",
+  "text": "桃太郎がふり返ると、犬はていねいに、おじぎをして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "4a271699cf1f66c5",
+  "text": "「桃太郎さん、桃太郎さん、どちらへおいでになります。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "8df305d03eae4680",
+  "text": "とたずねました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "5c73f0f581f002f1",
+  "text": "「鬼が島へ、鬼せいばつに行くのだ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "714d1636f7846524",
+  "text": "「お腰に下げたものは、何でございます。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "1fd1490b91aad990",
+  "text": "「日本一のきびだんごさ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "62edc90e8c4f13d1",
+  "text": "「よし、よし、やるから、ついて来い。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "b597f18f79925e86",
+  "text": "「一つ下さい、おともしましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "f51b1eaee7107230",
+  "text": "「桃太郎さん、桃太郎さん、どちらへおいでになります。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "2e2aebdd6a2f0785",
+  "text": "犬はきびだんごを一つもらって、桃太郎のあとから、ついて行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "78a54f0f062e6402",
+  "text": "山を下りてしばらく行くと、こんどは森の中にはいりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "8da1a6ea6027d59d",
+  "text": "すると木の上から、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "6446a543980f02a6",
+  "text": "「キャッ、キャッ。」とさけびながら、猿がいっぴき、かけ下りて来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "40518cee8e155c93",
+  "text": "桃太郎がふり返ると、猿はていねいに、おじぎをして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "8df305d03eae4680",
+  "text": "とたずねました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "5967d155dee5b69e",
+  "text": "「鬼が島へ鬼せいばつに行くのだ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "c3b403333c7a768a",
+  "text": "「お腰に下げたものは、何でございます。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "1fd1490b91aad990",
+  "text": "「日本一のきびだんごさ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "aa48d74727a391fd",
+  "text": "「一つ下さい、おともしましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "62edc90e8c4f13d1",
+  "text": "「よし、よし、やるから、ついて来い。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "39265d56cb3b1080",
+  "text": "猿もきびだんごを一つもらって、あとからついて行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "5dae697dffc0af63",
+  "text": "山を下りて、森をぬけて、こんどはひろい野原へ出ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "926856e3992f9975",
+  "text": "すると空の上で、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "2410bc3bb645d0b8",
+  "text": "「ケン、ケン。」と鳴く声がして、きじがいち羽とんで来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "2fff140298c88d1d",
+  "text": "桃太郎がふり返ると、きじはていねいに、おじぎをして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "76d8acaaea7e3791",
+  "text": "「桃太郎さん、桃太郎さん、どちらへおいでになります。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "8df305d03eae4680",
+  "text": "とたずねました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "5967d155dee5b69e",
+  "text": "「鬼が島へ鬼せいばつに行くのだ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "4d80f1d62bf23e32",
+  "text": "「お腰に下げたものは、何でございます。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "1fd1490b91aad990",
+  "text": "「日本一のきびだんごさ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "389733e46db7062c",
+  "text": "「一つ下さい、おともしましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "62edc90e8c4f13d1",
+  "text": "「よし、よし、やるから、ついて来い。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-12": {
+  "file": "s3-12.mp3",
+  "hash": "5d127d072ebf91cf",
+  "text": "きじもきびだんごを一つもらって、桃太郎のあとからついて行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "9b52953890ce7b35",
+  "text": "先生はなんじごろおいでになりますか。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "87c0b00e61536c95",
+  "text": "社長は今、会議室においでになります。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "4a9b9185d5c732d6",
+  "text": "お荷物をお持ちしましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "4bd0e237b53fef6b",
+  "text": "駅までお送りします。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:猿": {
+  "file": "v-a0c6e4995cb1.mp3",
+  "hash": "b9514f32365174f8",
+  "text": "さる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:叫ぶ": {
+  "file": "v-1dc8bf0a1126.mp3",
+  "hash": "86e7e6d1dc2da63c",
+  "text": "さけぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:野原": {
+  "file": "v-1cccae00541c.mp3",
+  "hash": "6420358cfedab277",
+  "text": "のはら",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:きじ": {
+  "file": "v-2153e1c4fcff.mp3",
+  "hash": "8825583ff86d5ded",
+  "text": "きじ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:鳴く": {
+  "file": "v-b1acc4e496d8.mp3",
+  "hash": "035532f6412681d1",
+  "text": "なく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:匹": {
+  "file": "v-d16212abfc07.mp3",
+  "hash": "c9812b801cc6582a",
+  "text": "ひき",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:羽": {
+  "file": "v-0f072261bc75.mp3",
+  "hash": "66c437c390a433d2",
+  "text": "わ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:草むら": {
+  "file": "v-a189985efbda.mp3",
+  "hash": "e6c02389c9387831",
+  "text": "くさむら",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:犬": {
+  "file": "v-791208ed139e.mp3",
+  "hash": "f527309505707cc0",
+  "text": "いぬ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:振り返る": {
+  "file": "v-a540b4f4f38a.mp3",
+  "hash": "f40f16c304ec2457",
+  "text": "ふりかえる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:お辞儀": {
+  "file": "v-8aec748fba3d.mp3",
+  "hash": "a54c0614aee00713",
+  "text": "おじぎ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:尋ねる": {
+  "file": "v-0029f4cf15aa.mp3",
+  "hash": "e86f486b5c331457",
+  "text": "たずねる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:お供": {
+  "file": "v-d3565ec85a4c.mp3",
+  "hash": "7c6ccfc2cb537367",
+  "text": "おとも",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:下りる": {
+  "file": "v-e8c5a01ef3ca.mp3",
+  "hash": "ee4fed35516b7a31",
+  "text": "おりる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:森": {
+  "file": "v-e6928181302c.mp3",
+  "hash": "751a6b580057015e",
+  "text": "もり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

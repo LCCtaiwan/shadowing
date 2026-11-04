@@ -1,0 +1,450 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "7ea6cb9670c61304",
+  "text": "川から流れて来た桃の中から、元気な男の子が生まれました。おじいさんとおばあさんは、その子を桃太郎と名づけました。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "fd18e2283cb78a31",
+  "text": "おじいさんとおばあさんは、それはそれはだいじにして桃太郎を育てました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "4c0d5bf16f46c8a2",
+  "text": "桃太郎はだんだん成長するにつれて、あたりまえの子供にくらべては、ずっと体も大きいし、力がばかに強くって、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "d81768e98b80d561",
+  "text": "すもうをとっても近所の村じゅうで、かなうものは一人もないくらいでしたが、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "52498ba521d66d85",
+  "text": "そのくせ気だてはごくやさしくって、おじいさんとおばあさんによく孝行をしました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "2e252fd31cdd62de",
+  "text": "桃太郎は十五になりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "958fd5cda07fb483",
+  "text": "もうそのじぶんには、にほんのくにじゅうで、桃太郎ほど強いものはないようになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "c5bca64892efc823",
+  "text": "桃太郎はどこか外国へ出かけて、腕いっぱい、力だめしをしてみたくなりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "50a527d11a3b2efa",
+  "text": "するとそのころ、ほうぼう外国の島々をめぐって帰って来た人があって、いろいろめずらしい、ふしぎなお話をした末に、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "52d39b430ba863ec",
+  "text": "「もう何年も何年も船をこいで行くと、遠い遠い海のはてに、鬼が島という所がある。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "c98ff64bc9abf703",
+  "text": "悪い鬼どもが、いかめしいくろがねのお城の中に住んで、ほうぼうの国からかすめ取った貴い宝物を守っている。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "7a2c64f99d3511a2",
+  "text": "と言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "a25d38321543793c",
+  "text": "桃太郎はこの話をきくと、その鬼が島へ行ってみたくって、もう居ても立ってもいられなくなりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "bcf61bbecac2c926",
+  "text": "そこでうちへ帰るとさっそく、おじいさんの前へ出て、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "ac7556da35f2de1a",
+  "text": "「どうぞ、わたくしにしばらくおひまを下さい。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "7a2c64f99d3511a2",
+  "text": "と言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "b9dcab7d40ee95f2",
+  "text": "おじいさんはびっくりして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "c5dc7bdd51f98e1a",
+  "text": "「お前どこへ行くのだ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "75d4e14e1fd84f35",
+  "text": "と聞きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "60e9b38571607826",
+  "text": "「鬼が島へ鬼せいばつに行こうと思います。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "90015392fc09fef7",
+  "text": "と桃太郎はこたえました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "592c227e515b9ae7",
+  "text": "「ほう、それはいさましいことだ。じゃあ行っておいで。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "9a23b27e6c01bb75",
+  "text": "とおじいさんは言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "1c9252cb4e257d21",
+  "text": "「まあ、そんな遠方へ行くのでは、さぞおなかがおすきだろう。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "12b3bb30f2c366a7",
+  "text": "よしよし、おべんとうをこしらえて上げましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "8d30f6ba173ee3f5",
+  "text": "とおばあさんも言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "964211a045fe39e4",
+  "text": "そこで、おじいさんとおばあさんは、お庭のまん中に、えんやら、えんやら、大きな臼を持ち出して、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "8f92c9069e385afb",
+  "text": "おじいさんがきねを取ると、おばあさんはこねどりをして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "2f3d20b8220b8411",
+  "text": "「ぺんたらこっこ、ぺんたらこっこ。ぺんたらこっこ、ぺんたらこっこ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "ab3159011243ffe3",
+  "text": "「ではおとうさん、おかあさん、行ってまいります。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "635f0d351df54f88",
+  "text": "と、おべんとうのきびだんごをつきはじめました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "5ecb4d440430ecde",
+  "text": "きびだんごがうまそうにでき上がると、桃太郎のしたくもすっかりでき上がりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "668314e753a05ec6",
+  "text": "桃太郎はお侍の着るようなじんばおりを着て、刀を腰にさして、きびだんごの袋をぶら下げました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "73445581ec335ed3",
+  "text": "そして桃の絵のかいてある軍扇を手に持って、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "49ddcd7ee6c4c5df",
+  "text": "と言って、ていねいに頭を下げました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "fc0ff0a7cd1d2089",
+  "text": "「じゃあ、りっぱに鬼を退治してくるがいい。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "9a23b27e6c01bb75",
+  "text": "とおじいさんは言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-12": {
+  "file": "s3-12.mp3",
+  "hash": "eb1f4ff283f76200",
+  "text": "「気をつけて、けがをしないようにおしよ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-13": {
+  "file": "s3-13.mp3",
+  "hash": "8d30f6ba173ee3f5",
+  "text": "とおばあさんも言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-14": {
+  "file": "s3-14.mp3",
+  "hash": "3eacaea7bfbb8df2",
+  "text": "「なに、大丈夫です、日本一のきびだんごを持っているから。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-15": {
+  "file": "s3-15.mp3",
+  "hash": "671997db74f821b2",
+  "text": "と桃太郎は言って、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-16": {
+  "file": "s3-16.mp3",
+  "hash": "5d94faadf3b16fd8",
+  "text": "「では、ごきげんよう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-17": {
+  "file": "s3-17.mp3",
+  "hash": "155a3cd36e0d98f3",
+  "text": "と元気な声をのこして、出ていきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-18": {
+  "file": "s3-18.mp3",
+  "hash": "9ec4c2f71531e434",
+  "text": "おじいさんとおばあさんは、門の外に立って、いつまでも、いつまでも見送っていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "c5c3051dbeeb601c",
+  "text": "春が近づくにつれて、暖かくなってきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "3976dd824afda1dd",
+  "text": "にほん語が上手になるにつれて、にほんの生活が楽しくなった。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "c0a6c3751d54ed35",
+  "text": "いつかふじさんに登ってみたい。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "0c4c2ace88121a2d",
+  "text": "話を聞いて、その店に行ってみたくなりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:育てる": {
+  "file": "v-a74784275bd3.mp3",
+  "hash": "e5acaa66e3d0af70",
+  "text": "そだてる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:成長": {
+  "file": "v-f0fa80aee303.mp3",
+  "hash": "809853f410b2c08e",
+  "text": "せいちょう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:孝行": {
+  "file": "v-6d6034de7b32.mp3",
+  "hash": "dbdebff588432d7d",
+  "text": "こうこう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:外国": {
+  "file": "v-f4fb1462d9b7.mp3",
+  "hash": "37a76611de9744c9",
+  "text": "がいこく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:宝物": {
+  "file": "v-cd435c14c23d.mp3",
+  "hash": "e72d3de25d6ce946",
+  "text": "たからもの",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:守る": {
+  "file": "v-ec2841bcc905.mp3",
+  "hash": "4127ef2a2be41a9a",
+  "text": "まもる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:城": {
+  "file": "v-790f6174ca0c.mp3",
+  "hash": "6358fa7419570986",
+  "text": "しろ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:暇": {
+  "file": "v-e38c495bf94c.mp3",
+  "hash": "8495f2444e2a36fb",
+  "text": "ひま",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:遠方": {
+  "file": "v-f4a8d7f4f3d9.mp3",
+  "hash": "559220a0ff9ab566",
+  "text": "えんぽう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:臼": {
+  "file": "v-117ca8d9c0db.mp3",
+  "hash": "bf4298c990f44a43",
+  "text": "うす",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:侍": {
+  "file": "v-48edabc21917.mp3",
+  "hash": "a9630751cc2d4272",
+  "text": "さむらい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:刀": {
+  "file": "v-771e1cff80a8.mp3",
+  "hash": "42954f2579efa414",
+  "text": "かたな",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:袋": {
+  "file": "v-84ac7e79d098.mp3",
+  "hash": "c35f8a08d0f93614",
+  "text": "ふくろ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:退治": {
+  "file": "v-943c078ce219.mp3",
+  "hash": "96c387d5591b4fc5",
+  "text": "たいじ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:門": {
+  "file": "v-d60b6252b0d0.mp3",
+  "hash": "cff2d00e8b8a4422",
+  "text": "もん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:見送る": {
+  "file": "v-c46039383e21.mp3",
+  "hash": "d2c234e3145a1d2c",
+  "text": "みおくる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ }
+}

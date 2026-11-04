@@ -131,5 +131,327 @@
   "text": "おばあさんはにこにこしながら、",
   "voice": "Sulafat",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "s1-17": {
+  "file": "s1-17.mp3",
+  "hash": "2e5a11ee1d646b48",
+  "text": "と言って、桃をひろい上げて、せんたくものといっしょにたらいの中に入れて、えっちら、おっちら、かかえておうちへ帰りました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "a3594a0ca9ad72cf",
+  "text": "夕方になってやっと、おじいさんは山からしばを背負って帰って来ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "4c6bb79333879e63",
+  "text": "「おや、おじいさん、おかいんなさい。待っていましたよ。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "348ad22485aa3df5",
+  "text": "さあ、早くお上がんなさい。いいものを上げますから。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "a81e4e8b115a66dd",
+  "text": "こういいながら、おじいさんはわらじをぬいで、上に上がりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "ad080d2eb05e97a5",
+  "text": "そのまに、おばあさんは戸棚の中からさっきの桃を重そうにかかえて来て、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "b6dda02f7383e278",
+  "text": "「ほら、ごらんなさいこの桃を。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "7a2c64f99d3511a2",
+  "text": "と言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "5572b3a451ff1bbd",
+  "text": "「ほほう、これはこれは。どこからこんなみごとな桃を買って来た。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "0fd13c7960bbe9cc",
+  "text": "「いいえ、買って来たのではありません。今日川で拾って来たのですよ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-12": {
+  "file": "s2-12.mp3",
+  "hash": "2063df0142021c35",
+  "text": "「え、なに、川で拾って来た。それはいよいよめずらしい。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-13": {
+  "file": "s2-13.mp3",
+  "hash": "0a447807fe615877",
+  "text": "こうおじいさんは言いながら、桃を両手にのせて、ためつ、すがめつ、ながめていますと、だしぬけに、桃はぽんと中から二つに割れて、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-14": {
+  "file": "s2-14.mp3",
+  "hash": "f0de0457d8a7e676",
+  "text": "「おぎゃあ、おぎゃあ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-15": {
+  "file": "s2-15.mp3",
+  "hash": "7bbe9949fa1bbae7",
+  "text": "と勇ましいうぶ声を上げながら、かわいらしい赤さんが元気よくとび出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-16": {
+  "file": "s2-16.mp3",
+  "hash": "5855405e735fdfc6",
+  "text": "「おやおや、まあ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-17": {
+  "file": "s2-17.mp3",
+  "hash": "f878ee005d0d76ef",
+  "text": "おじいさんも、おばあさんも、びっくりして、二人いっしょに声を立てました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-18": {
+  "file": "s2-18.mp3",
+  "hash": "caa25c32c045b8c0",
+  "text": "「まあまあ、わたしたちが、へいぜい、どうかして子供が一人ほしい、ほしいと言っていたものだから、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-19": {
+  "file": "s2-19.mp3",
+  "hash": "bdda1af39106cad2",
+  "text": "きっと神さまがこの子をさずけて下さったにちがいない。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "9248364fd1fb07c9",
+  "text": "「おやおや、何という元気のいい子だろう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s2-20": {
+  "file": "s2-20.mp3",
+  "hash": "0a9d918624d36d7b",
+  "text": "おじいさんも、おばあさんも、うれしがって、こう言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "e17dbf5b331ab459",
+  "text": "そこであわてておじいさんがお湯をわかすやら、おばあさんがむつきをそろえるやら、大さわぎをして、赤さんを抱き上げて、うぶ湯をつかわせました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "0dd8c9d71a1bac16",
+  "text": "するといきなり、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "96a53b4b756d20c3",
+  "text": "「うん。」と言いながら、赤さんはだいているおばあさんの手をはねのけました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "25287d189568931b",
+  "text": "おじいさんとおばあさんは、こう言って顔を見合わせながら、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "9ef46e71c53aec9b",
+  "text": "「あッは、あッは。」とおもしろそうに笑いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "06058b626cbf4366",
+  "text": "そして桃の中から生まれた子だというので、この子に桃太郎という名をつけました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "4358dfa75e904e3f",
+  "text": "あの人はきっと先生にちがいない。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "e6abdf039299de24",
+  "text": "電気が消えているから、もう寝たにちがいない。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "4e962878ffc2da7c",
+  "text": "道が混んでいたものだから、遅れてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "a0dbd8aed060b8c7",
+  "text": "あまりおいしかったものだから、全部食べてしまった。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:洗濯": {
+  "file": "v-996571bcde45.mp3",
+  "hash": "5c0ee7f7fd264cf2",
+  "text": "せんたく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:川上": {
+  "file": "v-41ebc45d3474.mp3",
+  "hash": "8e6fad7b98980ba7",
+  "text": "かわかみ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:流れる": {
+  "file": "v-fe6de78cf5f6.mp3",
+  "hash": "0be44eefb4922c5f",
+  "text": "ながれる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:腰": {
+  "file": "v-1a3908434f74.mp3",
+  "hash": "c17470644ee1ac6e",
+  "text": "こし",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:届く": {
+  "file": "v-5752bea524d6.mp3",
+  "hash": "166f3c85d6008dc4",
+  "text": "とどく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:分ける": {
+  "file": "v-ed3b0c872b51.mp3",
+  "hash": "fbcc0618bd0fafd4",
+  "text": "わける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:背負う": {
+  "file": "v-dcec22d25057.mp3",
+  "hash": "f2315b554ef1253e",
+  "text": "せおう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:戸棚": {
+  "file": "v-8a35d2f1f490.mp3",
+  "hash": "0f6d041f7ea81efa",
+  "text": "とだな",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:拾う": {
+  "file": "v-cc9d355dd500.mp3",
+  "hash": "5019b72fc4b7b169",
+  "text": "ひろう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:両手": {
+  "file": "v-3dbbb0bbacc3.mp3",
+  "hash": "ac83e7cce719d9ff",
+  "text": "りょうて",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:割れる": {
+  "file": "v-bf10579f2083.mp3",
+  "hash": "682a23262e5287ec",
+  "text": "われる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:赤さん": {
+  "file": "v-4730042fe9ef.mp3",
+  "hash": "6555c32393b69231",
+  "text": "あかさん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:神さま": {
+  "file": "v-96ab838848d9.mp3",
+  "hash": "742213678e95fedf",
+  "text": "かみさま",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:授ける": {
+  "file": "v-36f9f462a021.mp3",
+  "hash": "c7f438e5a6ba69c3",
+  "text": "さずける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:生まれる": {
+  "file": "v-c4814567fd89.mp3",
+  "hash": "a6f9bcf2c5a5f20f",
+  "text": "うまれる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "ja:vocab:わらじ": {
+  "file": "v-085e2bc32aa7.mp3",
+  "hash": "ae6f0d79054a9ae8",
+  "text": "わらじ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

@@ -236,5 +236,47 @@
   "text": "こんな",
   "voice": "Schedar",
   "model": "gemini-2.5-flash-preview-tts"
+ },
+ "p01-14-a": {
+  "file": "p01-14-a.mp3",
+  "hash": "791f447a9e38e327",
+  "text": "きょだい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p01-14-b": {
+  "file": "p01-14-b.mp3",
+  "hash": "621203bd3361dbfe",
+  "text": "きょうだい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p01-15-a": {
+  "file": "p01-15-a.mp3",
+  "hash": "2bac25c373be38a8",
+  "text": "かれ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p01-15-b": {
+  "file": "p01-15-b.mp3",
+  "hash": "e704e2d1579c10a6",
+  "text": "カレー",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p01-16-a": {
+  "file": "p01-16-a.mp3",
+  "hash": "0e0cdbe1914ff537",
+  "text": "かた",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "p01-16-b": {
+  "file": "p01-16-b.mp3",
+  "hash": "90f0f40f1aae6a0d",
+  "text": "かった",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-tts"
  }
 }

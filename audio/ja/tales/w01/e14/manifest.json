@@ -1,0 +1,338 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "343d9634f0ad1546",
+  "text": "桃太郎は犬と猿ときじにきびだんごを一つずつあげて、いっしょに鬼が島へ向かいます。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "f0d1057d8f0b2096",
+  "text": "犬と、猿と、きじと、これで三にんまで、いい家来ができたので、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "967cbc374d99c587",
+  "text": "桃太郎はいよいよ勇み立って、またずんずん進んで行きますと、やがてひろい海ばたに出ました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "6204dc5a481d7d5f",
+  "text": "そこには、ちょうどいいぐあいに、船が一そうつないでありました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "af870085fa9e45e4",
+  "text": "桃太郎と、三にんの家来は、さっそく、この船に乗り込みました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "6d461d24186b4f30",
+  "text": "「わたくしは、漕ぎ手になりましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "f1d18904a5721359",
+  "text": "こう言って、犬は船をこぎ出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "b767e196f2d43fdd",
+  "text": "「わたくしは、かじ取りになりましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "d2645ef24a8da4ef",
+  "text": "こう言って、猿がかじに座りました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "77875e3fe18e7767",
+  "text": "「わたくしは物見をつとめましょう。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "1f99a06e99c5f5ef",
+  "text": "こう言って、きじがへさきに立ちました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "d6ae12c9fa2f64f3",
+  "text": "うららかないいお天気で、まっ青な海の上には、波一つ立ちませんでした。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "17a5590f2d83d141",
+  "text": "いなづまが走るようだといおうか、矢を射るようだといおうか、目のまわるような速さで船は走って行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "bd06593d5195b1f9",
+  "text": "ほんの一時間も走ったと思うころ、へさきに立って向こうをながめていたきじが、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "55d21f53c1964fa3",
+  "text": "「あれ、あれ、島が。」とさけびながら、ぱたぱたと高い羽音をさせて、空にとび上がったと思うと、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "966aa84f990ce1f5",
+  "text": "スウッとまっすぐに風を切って、飛んでいきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "fda7c3beecd7e398",
+  "text": "桃太郎もすぐきじの立ったあとから向こうを見ますと、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "68482286719f83a3",
+  "text": "なるほど、遠い遠い海のはてに、ぼんやり雲のような薄ぐろいものが見えました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "edb68232a64c63c5",
+  "text": "船の進むにしたがって、雲のように見えていたものが、だんだんはっきりと島の形になって、あらわれてきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "29eed2ea16f2f777",
+  "text": "「ああ、見える、見える、鬼が島が見える。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "653d73705cc85b33",
+  "text": "桃太郎がこういうと、犬も、猿も、声をそろえて、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-11": {
+  "file": "s2-11.mp3",
+  "hash": "bd621a575fc49520",
+  "text": "「万歳、万歳。」とさけびました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "4e1886d1e9d271c8",
+  "text": "見る見る鬼が島が近くなって、もう硬い岩で畳んだ鬼のお城が見えました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "616755d293262318",
+  "text": "いかめしいくろがねの門の前に見はりをしている鬼の兵隊のすがたも見えました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "a5a527ac9b21501d",
+  "text": "そのお城のいちばん高い屋根の上に、きじがとまって、こちらを見ていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "29d69bb63880f399",
+  "text": "こうして何年も、何年もこいで行かなければならないという鬼が島へ、ほんの目をつぶっているまに来たのです。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "7ec1c0b819c9a01d",
+  "text": "山を登るにしたがって、寒くなってきた。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "593e76cb773f9cac",
+  "text": "駅に近づくにしたがって、人が多くなった。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "acbd453f6fbef316",
+  "text": "机の上に花がかざってあります。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "fddd6332b20eb792",
+  "text": "ドアにかぎがかけてあります。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:家来": {
+  "file": "v-7b91882ccd57.mp3",
+  "hash": "99cb002b4a6bf58e",
+  "text": "けらい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:勇み立つ": {
+  "file": "v-60162febf235.mp3",
+  "hash": "a63279f1b5c28d92",
+  "text": "いさみたつ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:進む": {
+  "file": "v-d0673714130a.mp3",
+  "hash": "3b2b4a2ce0e2c87f",
+  "text": "すすむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:乗り込む": {
+  "file": "v-7572e2e07f36.mp3",
+  "hash": "68a1916007fa02b2",
+  "text": "のりこむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:漕ぐ": {
+  "file": "v-e5473e29052c.mp3",
+  "hash": "1ea9e19596c2c665",
+  "text": "こぐ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:舵": {
+  "file": "v-1aa1a3c3271d.mp3",
+  "hash": "5057ac7fcacf898a",
+  "text": "かじ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:物見": {
+  "file": "v-c46be6a6b495.mp3",
+  "hash": "e7fb7ac27f5a99db",
+  "text": "ものみ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:波": {
+  "file": "v-3e847d50a29b.mp3",
+  "hash": "b2f4f306e763ac29",
+  "text": "なみ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:稲妻": {
+  "file": "v-d7b036d1e55f.mp3",
+  "hash": "8bc05ad186c5be3a",
+  "text": "いなずま",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:矢": {
+  "file": "v-857d2ca79352.mp3",
+  "hash": "a71d7677e81a8164",
+  "text": "や",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:速さ": {
+  "file": "v-5e12fc532702.mp3",
+  "hash": "3c7a1fc861303fb0",
+  "text": "はやさ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:眺める": {
+  "file": "v-76842e592dec.mp3",
+  "hash": "e8c18ea3a4bb64c0",
+  "text": "ながめる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:雲": {
+  "file": "v-969bfa86fd73.mp3",
+  "hash": "b6a5efb1a73c1ff7",
+  "text": "くも",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:形": {
+  "file": "v-82679a441510.mp3",
+  "hash": "bc428b6d3bc7df04",
+  "text": "かたち",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:岩": {
+  "file": "v-0f33ba2229fe.mp3",
+  "hash": "bf312379dbc1d038",
+  "text": "いわ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:兵隊": {
+  "file": "v-862bfeff29da.mp3",
+  "hash": "9f43807a156f0aac",
+  "text": "へいたい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:屋根": {
+  "file": "v-abb780a9e2c8.mp3",
+  "hash": "ad1b994eefbec763",
+  "text": "やね",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:万歳": {
+  "file": "v-b3079c622ad5.mp3",
+  "hash": "15f5dbe9df02f686",
+  "text": "ばんざい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}

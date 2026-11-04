@@ -1,0 +1,415 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "4585c4287bcdb4fc",
+  "text": "浦島はかめの背中にのって、海の底のりゅう宮へやってきました。",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "90f706eb8693014d",
+  "text": "まもなく、かめはまた出てきて、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "9288f728ebb14534",
+  "text": "「さあ、こちらへ」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "b9ae1d30e099b5fd",
+  "text": "やがて、水晶の壁に、いろいろの宝石をちりばめた大広間にとおりますと、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "6b770377ba95de7f",
+  "text": "「浦島さん、ようこそおいでくださいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "afa77a0807c7d631",
+  "text": "先日はかめのいのちをお助けくださいまして、まことにありがとうございます。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "e1dfa44e8c07c44e",
+  "text": "なんにもおもてなしはございませんが、どうぞゆっくりおあそびくださいまし」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "85539fab6765c35e",
+  "text": "どのおへやも、どのおへやも、めずらしい宝石でかざり立ててありますからそのうつくしさは、とても口やことばではいえないくらいでした。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "02832c9c4a4bb817",
+  "text": "ひととおり見てしまうと、乙姫さまは、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "00fb8d5861d9819b",
+  "text": "「こんどは四季のけしきをお目にかけましょう」",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "67f43c9c9b819c0c",
+  "text": "と、浦島を御殿のなかへ案内しました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "02e580c54c96e2e1",
+  "text": "たいや、ひらめやかれいや、いろいろのおさかなが、ものめずらしそうな目で見ているなかをとおって、はいって行きますと、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "83027d0e3541ac59",
+  "text": "乙姫さまがおおぜいの腰元をつれて、お迎えに出てきました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "48d6a1dd63915206",
+  "text": "やがて乙姫さまについて、浦島はずんずん奥へとおって行きました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "14c2cb682db68419",
+  "text": "めのうの天井にさんごの柱、廊下にはるりがしきつめてありました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "2b59a3e1a215fb3b",
+  "text": "こわごわその上をあるいて行きますと、どこからともなくいいにおいがして、たのしいがくのねがきこえてきました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-11": {
+  "file": "s3-11.mp3",
+  "hash": "1013806d050943b1",
+  "text": "お池のふちには、きれいなさざ波が立って、おしどりやかもがうかんでいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-12": {
+  "file": "s3-12.mp3",
+  "hash": "55295b252b603537",
+  "text": "次に西の戸をおあけになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-13": {
+  "file": "s3-13.mp3",
+  "hash": "9f7db27a7393b6fa",
+  "text": "そこは秋のけしきで花壇のなかには、きぎく、白ぎくが咲き乱れて、ぷんといいかおりを立てました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-14": {
+  "file": "s3-14.mp3",
+  "hash": "1d1640da443be103",
+  "text": "むこうを見ると、かっともえ立つようなもみじの林の奥に、白い霧がたちこめていて、しかのなく声がかなしくきこえました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-15": {
+  "file": "s3-15.mp3",
+  "hash": "e14665c238a10d7d",
+  "text": "いちばんおしまいに、北の戸をおあけになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-16": {
+  "file": "s3-16.mp3",
+  "hash": "def99c7c4c8fb175",
+  "text": "そこは冬のけしきで、野には散りのこった枯葉の上に、霜がきらきら光っていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-17": {
+  "file": "s3-17.mp3",
+  "hash": "6658bbaf71e1e053",
+  "text": "山から谷にかけて、雪がまっ白に降りうずんだなかから、柴をたくけむりがほそぼそとあがっていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-18": {
+  "file": "s3-18.mp3",
+  "hash": "d1322f7a99188249",
+  "text": "浦島はなにを見ても、おどろきあきれて、目ばかり見はっていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-19": {
+  "file": "s3-19.mp3",
+  "hash": "7fe2f6dc9362befa",
+  "text": "そのうちだんだんぼうっとしてきて、お酒に酔った人のようになって、なにもかもわすれてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "224ba2c3fed95e92",
+  "text": "にちようびは本を読んだり、映画を見たりします。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "b7783d64d059d4d5",
+  "text": "公園で走ったり遊んだりしました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "e98ee24ce1f1d398",
+  "text": "新しい作品をお目にかけます。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "fa2886f8b645d414",
+  "text": "めずらしい写真をお目にかけましょう。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "4deb1086ad3e75e1",
+  "text": "といって、まず、東の戸をおあけになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "db0a5003be31dd69",
+  "text": "そこは春のけしきで、いちめん、ぼうっとかすんだなかに、さくらの花が、うつくしい絵のように咲き乱れていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "d4d3f1e0c60e189a",
+  "text": "青青としたやなぎの枝が風になびいて、そのなかで小鳥がないたり、ちょうちょうが舞ったりしていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "65d72b116ca04a4e",
+  "text": "次に、南の戸をおあけになりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-09": {
+  "file": "s3-09.mp3",
+  "hash": "47ea0845428497d4",
+  "text": "そこは夏のけしきで、垣根には白いうの花が咲いて、お庭の木の青葉のなかでは、せみやひぐらしがないていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-10": {
+  "file": "s3-10.mp3",
+  "hash": "9aaa62e3d9d9007a",
+  "text": "お池には赤と白のはすの花が咲いて、その葉の上には、水晶の珠のようにつゆがたまっていました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:御殿": {
+  "file": "v-8dac772e6bed.mp3",
+  "hash": "a2bcd6db030647b4",
+  "text": "ごてん",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:案内": {
+  "file": "v-98e3d671f908.mp3",
+  "hash": "b519147b5adf5e18",
+  "text": "あんない",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:迎える": {
+  "file": "v-0e3e4f6a64fc.mp3",
+  "hash": "319f56b7ab6db076",
+  "text": "むかえる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:天井": {
+  "file": "v-59a8a43d40e7.mp3",
+  "hash": "6e685642480f7d12",
+  "text": "てんじょう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:廊下": {
+  "file": "v-834e4f9b4776.mp3",
+  "hash": "99ea1e449184011b",
+  "text": "ろうか",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:こわごわ": {
+  "file": "v-3399883a176c.mp3",
+  "hash": "8d952a3189d048a5",
+  "text": "こわごわ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:宝石": {
+  "file": "v-c672df79efb7.mp3",
+  "hash": "ad2b221bdd4f3ad0",
+  "text": "ほうせき",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:ちりばめる": {
+  "file": "v-f8b35fb97500.mp3",
+  "hash": "cc145938cfbb4eb3",
+  "text": "ちりばめる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:おもてなし": {
+  "file": "v-e4c6d76f607a.mp3",
+  "hash": "ff38649e76a98747",
+  "text": "おもてなし",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:お辞儀": {
+  "file": "v-8aec748fba3d.mp3",
+  "hash": "a54c0614aee00713",
+  "text": "おじぎ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:ごちそう": {
+  "file": "v-6bf9ef2143b9.mp3",
+  "hash": "4a2a36f6085fe739",
+  "text": "ごちそう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:酒盛り": {
+  "file": "v-ad1f933bcb64.mp3",
+  "hash": "c5b2cd803419ac4a",
+  "text": "さかもり",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:四季": {
+  "file": "v-eb8ca2fc072b.mp3",
+  "hash": "374010609ac6e632",
+  "text": "しき",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:かすむ": {
+  "file": "v-3f87bb8d08f2.mp3",
+  "hash": "c0105147c59974ad",
+  "text": "かすむ",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:咲き乱れる": {
+  "file": "v-c169f11d2dcc.mp3",
+  "hash": "2cd2ebf9e05b3117",
+  "text": "さきみだれる",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:舞う": {
+  "file": "v-95da88866422.mp3",
+  "hash": "be7d97e3d8a24e39",
+  "text": "まう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:霧": {
+  "file": "v-3429b385f7ed.mp3",
+  "hash": "99dd1c9a419e2b7b",
+  "text": "きり",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "ja:vocab:酔う": {
+  "file": "v-97d8d7120ebd.mp3",
+  "hash": "dc9d45b3b20b59b7",
+  "text": "よう",
+  "voice": "Schedar",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "39c0506a8cba7624",
+  "text": "と、乙姫さまはいって、ていねいにおじぎしました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "7766bf95165ae47f",
+  "text": "やがて、たいをかしらに、かつおだの、ふぐだの、えびだの、たこだの、",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "08762bc48188fd17",
+  "text": "大小いろいろのおさかなが、めずらしいごちそうを山とはこんできて、にぎやかなお酒盛がはじまりました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "582527685eab2c69",
+  "text": "きれいな腰元たちは、歌をうたったり踊りをおどったりしました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "e04385f78b9c35d0",
+  "text": "浦島はただもう夢のなかで夢を見ているようでした。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "a270bd33cffc6296",
+  "text": "ごちそうがすむと、浦島はまた乙姫さまの案内で、御殿のなかをのこらず見せてもらいました。",
+  "voice": "Sulafat",
+  "model": "gemini-2.5-pro-preview-tts"
+ }
+}

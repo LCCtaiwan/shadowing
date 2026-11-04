@@ -1,0 +1,478 @@
+{
+ "recap": {
+  "file": "recap.mp3",
+  "hash": "1e6369a97c9a04e6",
+  "text": "桃太郎たちは船で海をわたって、あっという間に鬼が島に着きました。",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-01": {
+  "file": "s1-01.mp3",
+  "hash": "33a5cb50ddee951e",
+  "text": "桃太郎は、犬と猿をしたがえて、船からひらりとおかの上にとび上がりました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-02": {
+  "file": "s1-02.mp3",
+  "hash": "91d05f33932cd202",
+  "text": "見はりをしていた鬼の兵隊は、その見なれないすがたを見ると、びっくりして、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-03": {
+  "file": "s1-03.mp3",
+  "hash": "e264d84c187dd7f6",
+  "text": "あわてて門の中に逃げ込んで、くろがねの門を固くしめてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-04": {
+  "file": "s1-04.mp3",
+  "hash": "2095422d704523e9",
+  "text": "その時犬は門の前に立って、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-05": {
+  "file": "s1-05.mp3",
+  "hash": "f62a0cd3ca3966bb",
+  "text": "「にほんの桃太郎さんが、お前たちをせいばいにおいでになったのだぞ。あけろ、あけろ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-06": {
+  "file": "s1-06.mp3",
+  "hash": "6e5633c2501e9895",
+  "text": "とどなりながら、ドン、ドン、扉をたたきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-07": {
+  "file": "s1-07.mp3",
+  "hash": "1edcfee5fc5406ed",
+  "text": "鬼はその声を聞くと、ふるえ上がって、よけい一生懸命に、中から押さえていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-08": {
+  "file": "s1-08.mp3",
+  "hash": "80e73e787f02d344",
+  "text": "するときじが屋根の上からとび下りてきて、門を押さえている鬼どもの目をつつきまわりましたから、鬼はへいこうして逃げ出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-09": {
+  "file": "s1-09.mp3",
+  "hash": "cd55c712b4b8f481",
+  "text": "そのまに、猿がするすると高いいわかべをよじ登っていって、ぞうさなく門を中からあけました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-10": {
+  "file": "s1-10.mp3",
+  "hash": "f7e1ba743e63378d",
+  "text": "「わあッ。」とときの声を上げて、桃太郎のしゅじゅうが、いさましくお城の中に攻め込んでいきますと、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-11": {
+  "file": "s1-11.mp3",
+  "hash": "142b1d396400e28e",
+  "text": "鬼の大将も大ぜいの家来を引き連れて、一人一人、太い鉄の棒をふりまわしながら、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s1-12": {
+  "file": "s1-12.mp3",
+  "hash": "f76f023a1544c055",
+  "text": "「おう、おう。」とさけんで、向かってきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-01": {
+  "file": "s2-01.mp3",
+  "hash": "9effc3f4f5d0212f",
+  "text": "けれども、体が大きいばっかりで、いくじのない鬼どもは、さんざんきじに目をつつかれた上に、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-02": {
+  "file": "s2-02.mp3",
+  "hash": "76962432d4435bdb",
+  "text": "こんどは犬に向こうずねをくいつかれたといっては、痛い、痛いと逃げまわり、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-03": {
+  "file": "s2-03.mp3",
+  "hash": "a4d075711690dcfc",
+  "text": "猿に顔を引っかかれたといっては、おいおい泣き出して、鉄の棒もなにもほうり出して、降参してしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-04": {
+  "file": "s2-04.mp3",
+  "hash": "cca4b2d2613d37da",
+  "text": "おしまいまでがまんして、たたかっていた鬼の大将も、とうとう桃太郎に組みふせられてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-05": {
+  "file": "s2-05.mp3",
+  "hash": "36b2072e0a53fe67",
+  "text": "桃太郎は大きな鬼の背中に、馬乗りにまたがって、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-06": {
+  "file": "s2-06.mp3",
+  "hash": "723897996f514cb6",
+  "text": "「どうだ、これでも降参しないか。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-07": {
+  "file": "s2-07.mp3",
+  "hash": "45babcc975fa2ca4",
+  "text": "といって、ぎゅうぎゅう、ぎゅうぎゅう、押さえつけました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-08": {
+  "file": "s2-08.mp3",
+  "hash": "531f24249cdc40b1",
+  "text": "鬼の大将は、桃太郎の大力で首をしめられて、もう苦しくってたまりませんから、大つぶの涙をぼろぼろこぼしながら、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-09": {
+  "file": "s2-09.mp3",
+  "hash": "44214dbf19229f93",
+  "text": "「降参します、降参します。命だけはお助け下さい。その代わりに宝物をのこらずさし上げます。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-06": {
+  "file": "s3-06.mp3",
+  "hash": "e8efb9e1fd646374",
+  "text": "きじが綱を引いて、猿があとを押しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s2-10": {
+  "file": "s2-10.mp3",
+  "hash": "b26c19fb421baac7",
+  "text": "こう言って、ゆるしてもらいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-01": {
+  "file": "s3-01.mp3",
+  "hash": "4b8d99449dcda3dc",
+  "text": "鬼の大将は約束のとおり、お城から、かくれみのに、かくれがさ、うちでの小づちににょいほうじゅ、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-02": {
+  "file": "s3-02.mp3",
+  "hash": "ec185ef78f74dc50",
+  "text": "そのほかさんごだの、たいまいだの、るりだの、世界でいちばん貴い宝物を山のように車に積んで出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-03": {
+  "file": "s3-03.mp3",
+  "hash": "2e191f6750827484",
+  "text": "桃太郎はたくさんの宝物をのこらず積んで、三にんの家来といっしょに、また船に乗りました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-04": {
+  "file": "s3-04.mp3",
+  "hash": "34e048c77e1c0fe1",
+  "text": "帰りは行きよりもまた一そう船の走るのが速くって、間もなくにほんの国に着きました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-05": {
+  "file": "s3-05.mp3",
+  "hash": "d8ea319ec970c0d0",
+  "text": "船がおかに着きますと、たからものをいっぱい積んだ車を、犬が先に立って引き出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-08": {
+  "file": "s3-08.mp3",
+  "hash": "ee76e40d2f9aa3ed",
+  "text": "三にんは重そうに、かけ声をかけかけ進んでいきました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-01": {
+  "file": "s4-01.mp3",
+  "hash": "7567ba400c7cc959",
+  "text": "うちではおじいさんと、おばあさんが、かわるがわる、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-02": {
+  "file": "s4-02.mp3",
+  "hash": "3f94497538b8ae1d",
+  "text": "「もう桃太郎が帰りそうなものだが。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-03": {
+  "file": "s4-03.mp3",
+  "hash": "59f1f67a9fce2438",
+  "text": "と言い言い、首をのばして待っていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-04": {
+  "file": "s4-04.mp3",
+  "hash": "7c3b271e5d8272b5",
+  "text": "そこへ桃太郎が三にんのりっぱな家来に、ぶんどりの宝物を引かせて、さもとくいらしい様子をして帰って来ましたので、",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-05": {
+  "file": "s4-05.mp3",
+  "hash": "6ef3b4d150336a44",
+  "text": "おじいさんもおばあさんも、目も鼻もなくして喜びました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-06": {
+  "file": "s4-06.mp3",
+  "hash": "55a139a4f0d46278",
+  "text": "「えらいぞ、えらいぞ、それこそ日本一だ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-07": {
+  "file": "s4-07.mp3",
+  "hash": "9a23b27e6c01bb75",
+  "text": "とおじいさんは言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-08": {
+  "file": "s4-08.mp3",
+  "hash": "16b4fc89b40b57f6",
+  "text": "「まあ、まあ、けががなくって、なによりさ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-09": {
+  "file": "s4-09.mp3",
+  "hash": "193fb7701b82f9bf",
+  "text": "とおばあさんは言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-10": {
+  "file": "s4-10.mp3",
+  "hash": "fe7169457ea18b0a",
+  "text": "桃太郎は、その時犬と猿ときじの方を向いてこう言いました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s3-07": {
+  "file": "s3-07.mp3",
+  "hash": "c855cb5f1ea782bc",
+  "text": "「えんやらさ、えんやらさ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-11": {
+  "file": "s4-11.mp3",
+  "hash": "934f7f48e32de355",
+  "text": "「どうだ。鬼せいばつはおもしろかったなあ。」",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex1": {
+  "file": "g1-ex1.mp3",
+  "hash": "2bacf86e6b0e280b",
+  "text": "電車の中にかさを忘れてしまいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g1-ex2": {
+  "file": "g1-ex2.mp3",
+  "hash": "78ed10347796b294",
+  "text": "ケーキを全部食べてしまった。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex1": {
+  "file": "g2-ex1.mp3",
+  "hash": "6642af5c5575efe7",
+  "text": "友だちに駅まで送ってもらいました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "g2-ex2": {
+  "file": "g2-ex2.mp3",
+  "hash": "dcef27e384aae59a",
+  "text": "先生に作文を見てもらった。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:陸": {
+  "file": "v-98240b4a101b.mp3",
+  "hash": "05dce22ab436543e",
+  "text": "おか",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:逃げ込む": {
+  "file": "v-7e8439fc3c23.mp3",
+  "hash": "2ac8d644a8ae782c",
+  "text": "にげこむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:扉": {
+  "file": "v-3edf57374007.mp3",
+  "hash": "06119006ec6c8d3e",
+  "text": "とびら",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:怒鳴る": {
+  "file": "v-8a2bcac9643e.mp3",
+  "hash": "436e98fde7584292",
+  "text": "どなる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:一生懸命": {
+  "file": "v-1e1d6970b894.mp3",
+  "hash": "507623ff3753056f",
+  "text": "いっしょうけんめい",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:押さえる": {
+  "file": "v-670fe2591bf6.mp3",
+  "hash": "ce3618aee3760993",
+  "text": "おさえる",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:大将": {
+  "file": "v-78966fe14c3f.mp3",
+  "hash": "253de9e19b3f7720",
+  "text": "たいしょう",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:降参": {
+  "file": "v-3df41a428c68.mp3",
+  "hash": "4062da059af59ce6",
+  "text": "こうさん",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:背中": {
+  "file": "v-83f1880492aa.mp3",
+  "hash": "2bee3aaae8bbe9ea",
+  "text": "せなか",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:涙": {
+  "file": "v-7a4324c834c8.mp3",
+  "hash": "0e5b2152a079c6fa",
+  "text": "なみだ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:命": {
+  "file": "v-0393e376e1f5.mp3",
+  "hash": "740a1cc50df4c472",
+  "text": "いのち",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:助ける": {
+  "file": "v-91b2756abe89.mp3",
+  "hash": "55b06ef7b6db42f2",
+  "text": "たすける",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:約束": {
+  "file": "v-3519e0c60801.mp3",
+  "hash": "45912fc1931e6c2c",
+  "text": "やくそく",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:積む": {
+  "file": "v-1690ce093b9f.mp3",
+  "hash": "ece679639ac373bc",
+  "text": "つむ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:綱": {
+  "file": "v-f774fe380490.mp3",
+  "hash": "743eead82cb92d31",
+  "text": "つな",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:喜ぶ": {
+  "file": "v-fef27688ffe2.mp3",
+  "hash": "e984ff3cf3234af8",
+  "text": "よろこぶ",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:宙返り": {
+  "file": "v-829d081d0f33.mp3",
+  "hash": "7c9dca91a5208e9f",
+  "text": "ちゅうがえり",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "ja:vocab:桜": {
+  "file": "v-6b3fa26d56a5.mp3",
+  "hash": "8d0d8e28cdbad8c8",
+  "text": "さくら",
+  "voice": "Schedar",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-12": {
+  "file": "s4-12.mp3",
+  "hash": "8ffa27879b9848b3",
+  "text": "犬はワン、ワンとうれしそうにほえながら、前足で立ちました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-13": {
+  "file": "s4-13.mp3",
+  "hash": "6aad1c6a39e8c8ac",
+  "text": "猿はキャッ、キャッと笑いながら、白い歯をむき出しました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-14": {
+  "file": "s4-14.mp3",
+  "hash": "6e4134f59468af66",
+  "text": "きじはケン、ケンと鳴きながら、くるくると宙返りをしました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ },
+ "s4-15": {
+  "file": "s4-15.mp3",
+  "hash": "25b5ab94cbcc83a3",
+  "text": "空は青々と晴れ上がって、お庭には桜の花が咲き乱れていました。",
+  "voice": "Sulafat",
+  "model": "gemini-3.8-flash-lite-tts"
+ }
+}
